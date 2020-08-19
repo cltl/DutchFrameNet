@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="AnW" cDate="03/15/2010 05:20:50 PDT Mon" name="Race_descriptor" ID="2251" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame covers LUs that describe the race of a &lt;fen&gt;Person&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Person"&gt;Carlos&lt;/fex&gt; is &lt;t&gt;hispanic&lt;/t&gt;, or so he says.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="AnW" cDate="03/15/2010 05:33:09 PDT Mon" abbrev="per" name="Person" ID="13731">
+    <definition>&lt;def-root&gt;The Person whose race is being described.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="964">Attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="304">People</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

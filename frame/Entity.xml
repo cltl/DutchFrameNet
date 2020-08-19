@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="12/15/2001 03:55:50 PST Sat" name="Entity" ID="251" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame is for words that denote highly schematic entities.
+
+&lt;ex&gt;We found an unusual &lt;fex name="Type"&gt;wooden&lt;/fex&gt; &lt;fex name="Entity"&gt;&lt;t&gt;object&lt;/t&gt;&lt;/fex&gt; in the desert.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="04/12/2002 04:00:17 PDT Fri" abbrev="Cnst" name="Constituent_parts" ID="2604">
+    <definition>&lt;def-root&gt;Salient parts that make up the &lt;fen&gt;Entity&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="04/12/2002 04:00:20 PDT Fri" abbrev="FormC" name="Formational_cause" ID="2605">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Formational_cause&lt;/fen&gt; indicates the action that brings about the features of an &lt;fen&gt;Entity&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="04/12/2002 04:00:25 PDT Fri" abbrev="Name" name="Name" ID="2606">
+    <definition>&lt;def-root&gt;This FE is used for the &lt;fen&gt;Name&lt;/fen&gt; of an &lt;fen&gt;Entity&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="04/12/2002 04:00:31 PDT Fri" abbrev="Ent" name="Entity" ID="2607">
+    <definition>&lt;def-root&gt;A thing (either abstract or physical) that exists with some degree of permanence.
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="04/12/2002 04:07:31 PDT Fri" abbrev="Typ" name="Type" ID="2608">
+    <definition>&lt;def-root&gt;This FE indicates what subtype of the general category the &lt;fen&gt;Entity&lt;/fen&gt; belongs to.
+&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="302">Physical_entity</relatedFrame>
+    <relatedFrame ID="421">Artifact</relatedFrame>
+    <relatedFrame ID="2567">Biological_entity</relatedFrame>
+    <relatedFrame ID="1580">Actually_occurring_entity</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="2100">Cycle_of_existence_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

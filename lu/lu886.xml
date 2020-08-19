@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="A" name="bondig.a" ID="886" frame="Volubility" frameID="44" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" FN_EN_LU_ID="5230" Method="Iteration-1" RBN_LU_ID="r_a-9358" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Comp" name="Company"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Degr" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="jud" name="Judge"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Manr" name="Manner"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Medium" name="Medium"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Text" name="Text"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="Top" name="Topic"/>
+    </frame>
+  </header>
+  <definition>kernachtig</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="bondig" order="1"/>
+</lexUnit>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="03/22/2005 10:53:53 PST Tue" name="Range" ID="1350" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;There is a certain physical &lt;fen&gt;Distance&lt;/fen&gt; within which some other entity can participate in an &lt;fen&gt;Event&lt;/fen&gt; (typically perception or manipulation) with the &lt;fen&gt;Participant&lt;/fen&gt;.  Alternatively, the &lt;fen&gt;Event&lt;/fen&gt; may be indicated metonymically by a &lt;fen&gt;Instrument&lt;/fen&gt; .  [Note the connection with *Distance, Sufficiency, and Capability.  Words in this frame can generally be paraphrased "close enough to be able to".]
+
+&lt;ex&gt;I'm sorry, but he was well within the &lt;fex name="eve"&gt;blast&lt;/fex&gt; &lt;t&gt;&lt;fex name="dis"&gt;range&lt;/fex&gt;&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;They are now within &lt;fex name="par"&gt;our&lt;/fex&gt; &lt;fex name="ins"&gt;missile&lt;/fex&gt; &lt;t&gt;&lt;fex name="dis"&gt;range&lt;/fex&gt;&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;They are now within &lt;fex name="par"&gt;our missile 's&lt;/fex&gt; &lt;t&gt;&lt;fex name="dis"&gt;range&lt;/fex&gt;&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;They are now within &lt;fex name="ins"&gt;missile&lt;/fex&gt; &lt;t&gt;&lt;fex name="dis"&gt;range&lt;/fex&gt;&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;But then they passed out of &lt;fex name="par"&gt;my&lt;/fex&gt; &lt;t&gt;&lt;fex name="dis"&gt;earshot&lt;/fex&gt;&lt;/t&gt;. &lt;fex name="ins"&gt;INC&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;I would consider &lt;fex name="eve"&gt;striking&lt;/fex&gt; &lt;t&gt;distance&lt;/t&gt; to &lt;ment&gt;be&lt;/ment&gt; &lt;fex name="dis"&gt;about two meters&lt;/fex&gt; for this weapon.&lt;/ex&gt;
+&lt;ex&gt;Jordanian troops came within easy &lt;t&gt;&lt;fex name="dis"&gt;strike&lt;/fex&gt;&lt;/t&gt; of Israel.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/22/2005 12:14:38 PST Tue" abbrev="eve" name="Event" ID="7644">
+    <definition>&lt;def-root&gt;A type of occurrence whose effects extend a certain distance.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/22/2005 12:16:25 PST Tue" abbrev="par" name="Participant" ID="7645">
+    <definition>&lt;def-root&gt;An entity that is conceived as driving the &lt;fen&gt;Event&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="par"&gt;Their&lt;/fex&gt; missile &lt;t&gt;range&lt;/t&gt; has decreased, since we have degraded their sensors.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/22/2005 12:19:10 PST Tue" abbrev="ins" name="Instrument" ID="7646">
+    <definition>&lt;def-root&gt;An entity which is deployable by the &lt;fen&gt;Participant&lt;/fen&gt; to interact with things within a certain distance.
+
+&lt;ex&gt;Their &lt;fex name="ins"&gt;laser&lt;/fex&gt; &lt;t&gt;range&lt;/t&gt; is four times ours .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/22/2005 12:31:57 PST Tue" abbrev="dis" name="Distance" ID="7647">
+    <definition>&lt;def-root&gt;The spatial extent over which the &lt;fen&gt;Participant&lt;/fen&gt; can interact in an &lt;fen&gt;Event&lt;/fen&gt;.
+
+&lt;ex&gt;Our &lt;t&gt;range&lt;/t&gt; is &lt;fex name="dis"&gt;smaller than theirs&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Normal people have a &lt;t&gt;reach&lt;/t&gt; &lt;fex name="dis"&gt;of around one meter&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="03/22/2005 12:41:04 PST Tue" abbrev="cir" name="Circumstances" ID="7648">
+    <definition>&lt;def-root&gt;The conditions under which the description of a &lt;fen&gt;Participant&lt;/fen&gt;'s range holds.
+
+&lt;ex&gt;The patient has a lesser &lt;t&gt;range&lt;/t&gt; of motion &lt;fex name="cir"&gt;in cold weather&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="990">Capability</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

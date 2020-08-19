@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="05/16/2003 05:20:55 PDT Fri" name="Moving_in_place" ID="670" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Theme&lt;/fen&gt; moves with respect to a &lt;fen&gt;Fixed_location&lt;/fen&gt;, generally with a certain &lt;fen&gt;Periodicity&lt;/fen&gt;, without undergoing unbounded translational motion or significant alteration of configuration/shape.
+
+&lt;ex&gt;&lt;fex name="Theme"&gt;It&lt;/fex&gt; &lt;t&gt;vibrated&lt;/t&gt; &lt;fex name="Explanation"&gt;from the wind&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="05/16/2003 05:31:10 PDT Fri" abbrev="" name="Theme" ID="4486">
+    <definition>&lt;def-root&gt;A physical entity that is participating in non-translational motion.&lt;/def-root&gt;</definition>
+    <semType name="Physical_object" ID="68"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="05/16/2003 05:38:34 PDT Fri" abbrev="Fix_loc" name="Fixed_location" ID="4487">
+    <definition>&lt;def-root&gt;The point or set of points that define the limits of motion for the &lt;fen&gt;Theme&lt;/fen&gt;.  For spinning motions, it is the axis, for vibrating it is a boundary, for swinging it is a point.
+&lt;ex&gt;Balls &lt;t&gt;spin&lt;/t&gt; &lt;fex name="Fix_loc"&gt;on their axes &lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The window &lt;t&gt;vibrated&lt;/t&gt; &lt;fex name="Fix_loc"&gt;in the frame&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="05/16/2003 05:41:41 PDT Fri" abbrev="Per" name="Periodicity" ID="4488">
+    <definition>&lt;def-root&gt;The number of times the &lt;fen&gt;Theme&lt;/fen&gt; returns to a state in a given duration.
+&lt;ex&gt;They &lt;t&gt;spun&lt;/t&gt; it &lt;fex name="Per"&gt;at 1000 rpms&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="05/16/2003 05:47:37 PDT Fri" abbrev="" name="Angle" ID="4489">
+    <definition>&lt;def-root&gt;The amount of rotation that the &lt;fen&gt;Theme&lt;/fen&gt; undergoes.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="05/16/2003 05:48:34 PDT Fri" abbrev="" name="Time" ID="4490">
+    <definition>&lt;def-root&gt;The time at which the &lt;fen&gt;Theme&lt;/fen&gt; is in bounded motion.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="05/16/2003 05:49:43 PDT Fri" abbrev="" name="Place" ID="4491">
+    <definition>&lt;def-root&gt;The location where the bounded motion happens.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="05/16/2003 05:52:00 PDT Fri" abbrev="Dir" name="Direction" ID="4492">
+    <definition>&lt;def-root&gt;The direction of rotation of the &lt;fen&gt;Theme&lt;/fen&gt;.
+&lt;ex&gt;The dial &lt;t&gt;rotated&lt;/t&gt; &lt;fex name="Dir"&gt;clockwise&lt;/fex&gt; one revolution, then the vault opened.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="07/15/2003 11:33:09 PDT Tue" abbrev="" name="Manner" ID="4779">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Manner&lt;/fen&gt; describes the way in which the Theme moves in place.&lt;/def-root &gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="07/15/2003 11:33:46 PDT Tue" abbrev="" name="Result" ID="4780">
+    <definition>&lt;def-root&gt;The Result describes the end state brought about by the motion in place.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="07/15/2003 12:33:17 PDT Tue" abbrev="Exp" name="Explanation" ID="4782">
+    <definition>&lt;def-root&gt;The Cause_external describes the force which sets into motion the motion.
+&lt;ex&gt;The strings &lt;t&gt;vibrated&lt;/t&gt; &lt;fex name="Explanation"&gt;with the impact of the wind&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="000000" coreType="Extra-Thematic" cBy="MJE" cDate="11/07/2005 05:29:05 PST Mon" abbrev="dep" name="Depictive" ID="9167">
+    <definition>&lt;def-root&gt;A description of the &lt;fen&gt;Theme&lt;/fen&gt; during the action.
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="11/07/2005 05:45:25 PST Mon" abbrev="pur" name="Purpose" ID="9168">
+    <definition>&lt;def-root&gt;The state of affairs that the agentive Theme hopes to bring about by moving.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="000000" coreType="Extra-Thematic" cBy="MJE" cDate="11/07/2005 06:29:46 PST Mon" abbrev="pat" name="Path_shape" ID="9170">
+    <definition>&lt;def-root&gt;The shape formed by the path that the &lt;fen&gt;Theme&lt;/fen&gt; follows.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

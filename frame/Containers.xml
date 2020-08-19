@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:27 PST Wed" name="Containers" ID="78" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame covers entities which are prototypically conceived of and created to fulfill the function of containing--i.e. &lt;fen&gt;Container&lt;/fen&gt;s  that contain objects or substances, the &lt;fen&gt;Contents&lt;/fen&gt;.  This can be expressed as a complement , and includes potential or intended contents.   A &lt;fen&gt;Container&lt;/fen&gt; may also have an &lt;fen&gt;Owner&lt;/fen&gt;, a current &lt;fen&gt;Relative_location&lt;/fen&gt;, &lt;fen&gt;Material&lt;/fen&gt; from which it is constructed, a method of &lt;fen&gt;Construction&lt;/fen&gt;, and a &lt;fen&gt;Type&lt;/fen&gt;.  Note the connection between words in this frame and those in the Filling, Emptying, and Fullness frames.
+&lt;ex&gt;a &lt;fex name="Container"&gt;&lt;t&gt;bag&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Contents"&gt;of popcorn&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Contents"&gt;underwear&lt;/fex&gt; &lt;fex name="Container"&gt;&lt;t&gt;drawer&lt;/t&gt;&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Owner"&gt;Chuck's&lt;/fex&gt; &lt;fex name="Container"&gt;&lt;t&gt;suitcase&lt;/t&gt;&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Container"&gt;the &lt;t&gt;suitcase&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Rel_loc"&gt;in Chuck's office&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Mat"&gt;straw&lt;/fex&gt; &lt;fex name="Container"&gt;&lt;t&gt;basket&lt;/t&gt;&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Cons"&gt;woven&lt;/fex&gt; &lt;fex name="Container"&gt;&lt;t&gt;basket&lt;/t&gt;&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Type"&gt;Erlenmeyer&lt;/fex&gt; &lt;fex name="Container"&gt;&lt;t&gt;flask&lt;/t&gt;&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <semType name="Artifact" ID="61"/>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:27 PST Wed" abbrev="Container" name="Container" ID="367">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Container&lt;/fen&gt; is an object which is conventionally used as a container.  Target words in this frame are tagged with this frame element.
+
+&lt;ex&gt;John carried a &lt;fex name="Container"&gt;&lt;t&gt;bucket&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Container" ID="15"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="ChW" cDate="02/07/2001 04:12:27 PST Wed" abbrev="Cont" name="Contents" ID="368">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Contents&lt;/fen&gt; is the object(s)/stuff contained in the &lt;fen&gt;Container&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/24/2001 04:32:53 PDT Mon" abbrev="Mat" name="Material" ID="2011">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Material&lt;/fen&gt; identifies the material of which the &lt;fen&gt;Container&lt;/fen&gt; is made.
+
+&lt;ex&gt;&lt;fex name="Mat"&gt;straw&lt;/fex&gt; &lt;fex name="Container"&gt;&lt;t&gt;basket&lt;/t&gt;&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/24/2001 04:33:02 PDT Mon" abbrev="Type" name="Type" ID="2012">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Type&lt;/fen&gt; designates the type of &lt;fen&gt;Container&lt;/fen&gt;.  Often the &lt;fen&gt;Type&lt;/fen&gt; labels part of a multi-word or compound word target.
+
+&lt;ex&gt;&lt;fex name="Type"&gt;Erlenmeyer&lt;/fex&gt; &lt;fex name="Container"&gt;&lt;t&gt;flask&lt;/t&gt;&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Type"&gt;TABLE&lt;/fex&gt;&lt;fex name="Container"&gt;SPOON&lt;/fex&gt;&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/24/2001 04:33:08 PDT Mon" abbrev="Rel_loc" name="Relative_location" ID="2013">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Relative_location&lt;/fen&gt; is the location of the &lt;fen&gt;Container&lt;/fen&gt;.
+
+&lt;ex&gt;The &lt;fex name="Container"&gt;&lt;t&gt;wallet&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Rel_loc"&gt;in his pocket&lt;/fex&gt; was full of photos of his family.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/24/2001 05:52:02 PDT Mon" abbrev="Cons" name="Construction" ID="2015">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Construction&lt;/fen&gt; indicates the action (or causer) which creates the Container.
+
+&lt;ex&gt;&lt;fex name="Cons"&gt;fired&lt;/fex&gt; &lt;fex name="Container"&gt;&lt;t&gt;urns&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/04/2001 03:09:24 PDT Thu" abbrev="Own" name="Owner" ID="2043">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Owner&lt;/fen&gt; identifies the owner of the &lt;fen&gt;Container&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Owner"&gt;Chuck's&lt;/fex&gt; &lt;fex name="Container"&gt;&lt;t&gt;suitcase&lt;/t&gt;&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/11/2001 04:02:39 PDT Thu" abbrev="Use" name="Use" ID="2064">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Use&lt;/fen&gt; identifies the purpose for which an artifact is constructed and the activity with which it is associated, or the &lt;fen&gt;Contents&lt;/fen&gt; protypically contained in the &lt;fen&gt;Container&lt;/fen&gt;.
+&lt;ex&gt;&lt;fex name="Use"&gt;watering&lt;/fex&gt; &lt;fex name="Container"&gt;&lt;t&gt;can&lt;/t&gt;&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Use"&gt;wine&lt;/fex&gt; &lt;fex name="Container"&gt; &lt;t&gt;glass&lt;/t&gt;&lt;/fex&gt;&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/30/2001 11:52:46 PST Tue" abbrev="Part" name="Part" ID="2096">
+    <definition>&lt;def-root&gt;This FE identifies a &lt;fen&gt;Part&lt;/fen&gt; of the &lt;fen&gt;Container&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Part"&gt;screw top&lt;/fex&gt; &lt;fex name="Container"&gt;&lt;t&gt;bottle&lt;/t&gt;&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Peripheral" cBy="RLG" cDate="10/02/2004 04:59:48 PDT Sat" abbrev="" name="Descriptor" ID="7162">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Descriptor&lt;/fen&gt; describes some aspect of the &lt;fen&gt;Container&lt;/fen&gt;.
+
+&lt;ex&gt;He put everything into a &lt;fex name="Descriptor"&gt;really really huge&lt;/fex&gt; &lt;t&gt;briefcase&lt;/t&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="237">Bounded_entity</relatedFrame>
+    <relatedFrame ID="397">Containing</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="255" POS="N" cBy="automatic" cDate="08/19/2020 07:10:41 UTC Wed" lemmaID="255" name="amfoor.n" status="Created" FN_EN_LU_ID="1664" Method="Iteration-1" RBN_LU_ID="r_n-3452" RBN_matching_relation="near_equivalence">
+    <definition>met twee oren zoals bij de oude Grieken en Romeinen in gebruik</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="amfoor" order="1"/>
+  </lexUnit>
+  <lexUnit ID="256" POS="N" cBy="manual" cDate="08/19/2020 07:10:44 UTC Wed" lemmaID="256" name="portemonnee.n" status="Created" FN_EN_LU_ID="1691" Method="Iteration-2_WN" RBN_LU_ID="r_n-29273" RBN_matching_relation="equivalence">
+    <definition>voor geld</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="portemonnee" order="1"/>
+  </lexUnit>
+  <lexUnit ID="257" POS="N" cBy="manual" cDate="08/19/2020 07:10:47 UTC Wed" lemmaID="257" name="koffer.n" status="Created" FN_EN_LU_ID="4221" Method="Iteration-2_WN" RBN_LU_ID="r_n-20097" RBN_matching_relation="near_equivalence">
+    <definition>met een scharnierend deksel, waarin je spullen meeneemt als je op reis gaat</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="koffer" order="1"/>
+  </lexUnit>
+  <lexUnit ID="258" POS="N" cBy="manual" cDate="08/19/2020 07:10:51 UTC Wed" lemmaID="258" name="kwispedoor.n" status="Created" FN_EN_LU_ID="4290" Method="Iteration-1" RBN_LU_ID="r_n-21150" RBN_matching_relation="equivalence">
+    <definition>om in te spugen, o.a. gebruikt door mannen die tabak pruimen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="kwispedoor" order="1"/>
+  </lexUnit>
+  <lexUnit ID="259" POS="N" cBy="automatic" cDate="08/19/2020 07:10:54 UTC Wed" lemmaID="259" name="sarcofaag.n" status="Created" FN_EN_LU_ID="4287" Method="Iteration-1" RBN_LU_ID="r_n-32547" RBN_matching_relation="near_equivalence">
+    <definition>met gebeeldhouwde versieringen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="sarcofaag" order="1"/>
+  </lexUnit>
+  <lexUnit ID="260" POS="N" cBy="automatic" cDate="08/19/2020 07:10:57 UTC Wed" lemmaID="260" name="ketel.n" status="Created" FN_EN_LU_ID="4310" Method="Iteration-1" RBN_LU_ID="r_n-19427" RBN_matching_relation="near_equivalence">
+    <definition>om vloeistoffen in te koken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="ketel" order="1"/>
+  </lexUnit>
+  <lexUnit ID="261" POS="N" cBy="automatic" cDate="08/19/2020 07:11:00 UTC Wed" lemmaID="261" name="vaas.n" status="Created" FN_EN_LU_ID="4420" Method="Iteration-1" RBN_LU_ID="r_n-39396" RBN_matching_relation="near_equivalence">
+    <definition>waarin je bijvoorbeeld bloemen kunt zetten</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="vaas" order="1"/>
+  </lexUnit>
+  <lexUnit ID="262" POS="N" cBy="automatic" cDate="08/19/2020 07:11:04 UTC Wed" lemmaID="262" name="pipet.n" status="Created" FN_EN_LU_ID="4422" Method="Iteration-1" RBN_LU_ID="r_n-28608" RBN_matching_relation="near_equivalence">
+    <definition>waarmee je vloeistof opzuigt of afweegt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="pipet" order="1"/>
+  </lexUnit>
+</frame>

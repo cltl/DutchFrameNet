@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="02/08/2002 11:18:01 PST Fri" name="Bungling" ID="266" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; performs an &lt;fen&gt;Action&lt;/fen&gt; incorrectly.  The affected &lt;fen&gt;Patient&lt;/fen&gt; may be mentioned metonymically for the &lt;fen&gt;Action&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Agent"&gt;Mickey&lt;/fex&gt; &lt;t&gt;botched&lt;/t&gt; &lt;fex name="Action"&gt;that swing&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Agent"&gt;Julia&lt;/fex&gt; &lt;t&gt;bungled&lt;/t&gt; &lt;fex name="Patient"&gt;the cake&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/08/2002 02:33:06 PST Fri" abbrev="Degr" name="Degree" ID="2288">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Degree&lt;/fen&gt; to which a bungling event occurs.
+
+&lt;ex&gt;Mickey &lt;fex name="Degree"&gt;really&lt;/fex&gt; &lt;t&gt;botched&lt;/t&gt; that swing.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="02/08/2002 02:33:08 PST Fri" abbrev="Depict" name="Depictive" ID="2289">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Depictive&lt;/fen&gt; identifes a  phrase describing a particpant in an action.
+
+&lt;ex&gt;Mickey &lt;t&gt;botched&lt;/t&gt; that swing &lt;fex name="Depict"&gt;without his cap&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/08/2002 02:33:18 PST Fri" abbrev="Manr" name="Manner" ID="2290">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Manner&lt;/fen&gt; in which the &lt;fen&gt;Agent&lt;/fen&gt; bungles.  &lt;ex&gt;Mickey &lt;t&gt;botched&lt;/t&gt; that swing &lt;fex name="Manner"&gt;deliberately&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root &gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/08/2002 02:33:21 PST Fri" abbrev="Mns" name="Means" ID="2291">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Means&lt;/fen&gt; by which an &lt;fen&gt;Agent&lt;/fen&gt; bungles.
+
+&lt;ex&gt;Mickey &lt;t&gt;botched&lt;/t&gt; that swing &lt;fex name="Means"&gt;by leaning forward&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="02/08/2002 02:33:36 PST Fri" abbrev="Agt" name="Agent" ID="2292">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Agent&lt;/fen&gt; performs an action incorrectly.
+&lt;ex&gt;&lt;fex name="Agent"&gt;Mickey&lt;/fex&gt; &lt;t&gt;botched&lt;/t&gt; that swing.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="02/08/2002 02:34:08 PST Fri" abbrev="Pat" name="Patient" ID="2293">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Patient&lt;/fen&gt; is the entity affected by the &lt;fen&gt;Agent&lt;/fen&gt;'s bungling of an &lt;fen&gt;Action&lt;/fen&gt;.
+&lt;ex&gt;Mickey &lt;t&gt;fumbled&lt;/t&gt; &lt;fex name="Patient"&gt;the ball&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/08/2002 02:34:17 PST Fri" abbrev="Place" name="Place" ID="2294">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Place&lt;/fen&gt; where the bungling occurs.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/08/2002 02:34:26 PST Fri" abbrev="Ins" name="Instrument" ID="2295">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Instrument&lt;/fen&gt; with which an &lt;fen&gt;Agent&lt;/fen&gt; bungles.
+
+&lt;ex&gt;Mickey &lt;t&gt;botched&lt;/t&gt; that swing &lt;fex name="Ins"&gt;with a heavy bat&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/08/2002 02:34:33 PST Fri" abbrev="Time" name="Time" ID="2296">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Time&lt;/fen&gt; when the bungling occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="02/11/2002 12:06:16 PST Mon" abbrev="Act" name="Action" ID="2297">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Action&lt;/fen&gt; that the &lt;fen&gt;Agent&lt;/fen&gt; performs incorrectly.
+&lt;ex&gt;Mickey &lt;t&gt;botched&lt;/t&gt; &lt;fex name="Action"&gt;that swing&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="07/29/2002 11:30:50 PDT Mon" abbrev="Area" name="Area" ID="3419">
+    <definition>&lt;def-root&gt;The type of action that the &lt;fen&gt;Agent&lt;/fen&gt; habitually bungles.
+&lt;ex&gt;The Austro-Hungarian Empire had a long history of &lt;fex name="Area"&gt;military&lt;/fex&gt; &lt;t&gt;screw-ups&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Area" ID="3419"/>
+    <memberFE name="Action" ID="2297"/>
+    <memberFE name="Patient" ID="2293"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="198">Intentionally_act</relatedFrame>
+    <relatedFrame ID="230">Intentionally_affect</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="119" POS="N" cBy="automatic" cDate="08/19/2020 07:01:28 UTC Wed" lemmaID="119" name="stumper.n" status="Created" FN_EN_LU_ID="4847" Method="Iteration-1" RBN_LU_ID="r_n-36471" RBN_matching_relation="near_equivalence">
+    <definition>die medelijden opwekt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="stumper" order="1"/>
+  </lexUnit>
+  <lexUnit ID="120" POS="V" cBy="automatic" cDate="08/19/2020 07:01:33 UTC Wed" lemmaID="120" name="stuntelen.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7659" RBN_matching_relation="near_equivalence">
+    <definition>onhandig te werk gaan</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="stuntelen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="121" POS="V" cBy="automatic" cDate="08/19/2020 07:01:39 UTC Wed" lemmaID="121" name="verknoeien.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9060" RBN_matching_relation="near_equivalence">
+    <definition>verkeerd met iets omgaan en het zo bederven</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="verknoeien" order="1"/>
+  </lexUnit>
+  <lexUnit ID="122" POS="V" cBy="automatic" cDate="08/19/2020 07:01:45 UTC Wed" lemmaID="122" name="hannesen.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-3106" RBN_matching_relation="near_equivalence">
+    <definition>onhandig bezig zijn, knoeien, klungelen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="hannesen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="123" POS="V" cBy="automatic" cDate="08/19/2020 07:01:49 UTC Wed" lemmaID="123" name="verbruien.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-8825" RBN_matching_relation="near_equivalence">
+    <definition>iets bederven door het verkeerd te behandelen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="verbruien" order="1"/>
+  </lexUnit>
+  <lexUnit ID="124" POS="V" cBy="manual" cDate="08/19/2020 07:01:53 UTC Wed" lemmaID="124" name="verzieken.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9540" RBN_matching_relation="near_equivalence">
+    <definition>iets door je manier van doen helemaal bederven</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="verzieken" order="1"/>
+  </lexUnit>
+  <lexUnit ID="125" POS="V" cBy="automatic" cDate="08/19/2020 07:01:57 UTC Wed" lemmaID="125" name="verpesten.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9202" RBN_matching_relation="near_equivalence">
+    <definition>verknoeien</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="verpesten" order="1"/>
+  </lexUnit>
+  <lexUnit ID="126" POS="V" cBy="automatic" cDate="08/19/2020 07:02:00 UTC Wed" lemmaID="126" name="verbrodden.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-8820" RBN_matching_relation="near_equivalence">
+    <definition>verkeerd met iets omgaan en het zo bederven</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="verbrodden" order="1"/>
+  </lexUnit>
+  <lexUnit ID="127" POS="V" cBy="automatic" cDate="08/19/2020 07:02:05 UTC Wed" lemmaID="127" name="verknollen.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9062" RBN_matching_relation="near_equivalence">
+    <definition>iets bederven of verloren laten gaan door op een verkeerde manier te werk te gaan</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="verknollen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="128" POS="V" cBy="automatic" cDate="08/19/2020 07:02:10 UTC Wed" lemmaID="128" name="klunzen.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-3977" RBN_matching_relation="near_equivalence">
+    <definition>je als een kluns gedragen, knoeien</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="klunzen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="129" POS="V" cBy="automatic" cDate="08/19/2020 07:02:16 UTC Wed" lemmaID="129" name="vergallen.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-8933" RBN_matching_relation="near_equivalence">
+    <definition>door verkeerd te handelen bederven</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="vergallen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="130" POS="V" cBy="automatic" cDate="08/19/2020 07:02:22 UTC Wed" lemmaID="130" name="bederven.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1096" RBN_matching_relation="near_equivalence">
+    <definition>iets te niet doen, zijn waarde doen verliezen, het kapot maken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="bederven" order="1"/>
+  </lexUnit>
+  <lexUnit ID="131" POS="V" cBy="manual" cDate="08/19/2020 07:02:27 UTC Wed" lemmaID="131" name="verknallen.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9055" RBN_matching_relation="equivalence">
+    <definition>iets bederven of verloren laten gaan door op een verkeerde manier te werk te gaan</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="verknallen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="132" POS="V" cBy="automatic" cDate="08/19/2020 07:02:31 UTC Wed" lemmaID="132" name="kliederen.v" status="Created" FN_EN_LU_ID="4855" Method="Iteration-1" RBN_LU_ID="r_v-3934" RBN_matching_relation="near_equivalence">
+    <definition>onhandig en slordig te werk gaan met natte stoffen en er daardoor vlekken mee maken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="kliederen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="133" POS="V" cBy="automatic" cDate="08/19/2020 07:02:34 UTC Wed" lemmaID="133" name="klodderen.v" status="Created" FN_EN_LU_ID="4855" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-3951" RBN_matching_relation="near_equivalence">
+    <definition>onhandig en slordig te werk gaan met natte stoffen en er daardoor vlekken mee maken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="klodderen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="134" POS="V" cBy="automatic" cDate="08/19/2020 07:02:37 UTC Wed" lemmaID="134" name="kledderen.v" status="Created" FN_EN_LU_ID="4855" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-3906" RBN_matching_relation="near_equivalence">
+    <definition>onhandig en slordig te werk gaan met verf, water, eten e.d.</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="kledderen" order="1"/>
+  </lexUnit>
+</frame>

@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:51 PST Wed" name="Awareness" ID="19" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; has a piece of &lt;fen&gt;Content&lt;/fen&gt; in their model of the world.  The &lt;fen&gt;Content&lt;/fen&gt; is not necessarily present due to immediate perception, but usually, rather, due to deduction from perceivables.  In some cases, the deduction of the &lt;fen&gt;Content&lt;/fen&gt; is implicitly based on confidence in sources of information (&lt;ment&gt;believe&lt;/ment&gt;), in some cases based on logic (&lt;ment&gt;think&lt;/ment&gt;), and in other cases the source of the deduction is deprofiled (&lt;ment&gt;know&lt;/ment&gt;).
+
+&lt;ex&gt;&lt;fex name="Cognizer"&gt;Your boss&lt;/fex&gt; is &lt;t&gt;aware&lt;/t&gt; &lt;fex name="Content"&gt;of your commitment&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+Note that this frame is undergoing some degree of reconsideration.  Many of the targets will be moved to the Opinion frame.  That frame indicates that the &lt;fen&gt;Cognizer&lt;/fen&gt; considers something as true, but the Opinion (compare to &lt;fen&gt;Content&lt;/fen&gt;) is not presupposed to be true; rather it is something that is considered a potential point of difference, as in the following:  
+
+&lt;ex&gt;I &lt;t&gt;think&lt;/t&gt; that you are awesome.&lt;/ex&gt;
+
+In the uses that will remain in the Awareness frame, however, the &lt;fen&gt;Content&lt;/fen&gt; is presupposed.
+
+&lt;ex&gt;&lt;/ex&gt;
+This frame is also distinct from the Certainty frame, in that it does not profile the relationship of the &lt;fen&gt;Cognizer&lt;/fen&gt; to the &lt;fen&gt;Content&lt;/fen&gt;, but rather presupposes it.  In Certainty, the Degree of confidence or certainty is expressible as a separate frame element, as in the following:
+
+&lt;ex&gt;She &lt;m&gt;absolutely&lt;/m&gt; &lt;t&gt;knew&lt;/t&gt; that he would be there .&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:51 PST Wed" abbrev="Cog" name="Cognizer" ID="83">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Cognizer&lt;/fen&gt; is the person whose awareness of phenomena is at question. With a target verb or adjective the &lt;fen&gt;Cognizer&lt;/fen&gt; is generally expressed as an External Argument with the &lt;fen&gt;Content&lt;/fen&gt; expressed as an Object or Complement.
+&lt;ex&gt;&lt;fex name="Cognizer"&gt;Your boss&lt;/fex&gt; is &lt;t&gt;aware&lt;/t&gt; of your commitment.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Cognizer"&gt;The students&lt;/fex&gt; do not &lt;t&gt;know&lt;/t&gt; the answer.&lt;/ex&gt;
+
+Examples like the following belong in Opinion:
+&lt;ex&gt;&lt;fex name="Cognizer"&gt;Pat&lt;/fex&gt; &lt;t&gt;believes&lt;/t&gt; that things will change for the better.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+    <excludesFE name="Expressor" ID="950"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:52 PST Wed" abbrev="Cont" name="Content" ID="84">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Content&lt;/fen&gt; is the object of the &lt;fen&gt;Cognizer&lt;/fen&gt;'s awareness. &lt;fen&gt;Content&lt;/fen&gt; can be expressed as a direct object or in a PP Complement.
+
+&lt;ex&gt;Your boss is &lt;t&gt;aware&lt;/t&gt; &lt;fex name="Content"&gt;of your commitment&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The students do not &lt;t&gt;know&lt;/t&gt; &lt;fex name="Content"&gt;of your commitment&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The students do not &lt;t&gt;know&lt;/t&gt; &lt;fex name="Content"&gt;how committed you are&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The students did not &lt;t&gt;know&lt;/t&gt; &lt;fex name="Content"&gt;that you were so committed&lt;/fex&gt;.&lt;/ex&gt;
+Examples like the following belong in Opinion:
+&lt;ex&gt;Pat &lt;t&gt;believes&lt;/t&gt; &lt;fex name="Content"&gt;that things will change for the better&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Content" ID="55"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="ChW" cDate="02/07/2001 04:11:52 PST Wed" abbrev="Evid" name="Evidence" ID="85">
+    <definition>&lt;def-root&gt;The source of awareness or knowledge which can be expressed in a PP Complement:
+&lt;ex&gt;The sailors &lt;t&gt;knew&lt;/t&gt; &lt;fex name="Evid"&gt;from the look of the sky&lt;/fex&gt; that a storm was coming.&lt;/ex&gt;
+&lt;ex&gt;I &lt;t&gt;knew&lt;/t&gt; &lt;fex name="Evid"&gt;from experience&lt;/fex&gt; that Jo would be late.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:52 PST Wed" abbrev="Top" name="Topic" ID="86">
+    <definition>&lt;def-root&gt;Some verbs in this frame allow a &lt;fen&gt;Topic&lt;/fen&gt; to be expressed in about-PPs.
+&lt;ex&gt;Kim &lt;t&gt;knows&lt;/t&gt; &lt;fex name="Topic"&gt;about first aid&lt;/fex&gt;.&lt;/ex&gt; 
+However, a number of nouns and adjectives in this frame which cannot take about-phrases allow &lt;fen&gt;Topic&lt;/fen&gt; to be expressed as an adjectival or adverbial modifier.
+&lt;ex&gt;Kim is &lt;fex name="Topic"&gt;politically&lt;/fex&gt; &lt;t&gt;aware&lt;/t&gt;. &lt;/ex&gt;
+&lt;ex&gt; &lt;fex name="Topic"&gt;Environmental&lt;/fex&gt; &lt;t&gt;consciousness&lt;/t&gt; is increasing.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/22/2001 07:14:43 PDT Fri" abbrev="Degr" name="Degree" ID="942">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Degree&lt;/fen&gt; to which an event occurs.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/22/2001 07:14:43 PDT Fri" abbrev="Manr" name="Manner" ID="946">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Manner&lt;/fen&gt; in which the &lt;fen&gt;Cognizer&lt;/fen&gt; knows or thinks something.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="06/22/2001 07:32:42 PDT Fri" abbrev="Expr" name="Expressor" ID="950">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Expressor&lt;/fen&gt; is the body part that reveals the &lt;fen&gt;Cognizer&lt;/fen&gt;'s state to the observer.
+&lt;ex&gt;Bob's &lt;fex name="Expr"&gt;eyes&lt;/fex&gt; were overly &lt;t&gt;aware&lt;/t&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/22/2001 07:35:40 PDT Fri" abbrev="Role" name="Role" ID="951">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Role&lt;/fen&gt; is the category within which an element of the &lt;fen&gt;Content&lt;/fen&gt; is considered.
+&lt;ex&gt;He &lt;t&gt;understood&lt;/t&gt; her remark &lt;fex name="Role"&gt;as an insult&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="GlY" cDate="06/06/2003 03:41:17 PDT Fri" abbrev="" name="Paradigm" ID="4549">
+    <definition>&lt;def-root&gt;This frame element identifies the &lt;fen&gt;Paradigm&lt;/fen&gt;  which serves as the basis for the &lt;fen&gt;Cognizer&lt;/fen&gt;'s awareness.
+&lt;ex&gt;&lt;fex name="Content"&gt;The formation of black holes&lt;/fex&gt; should be &lt;t&gt;understood&lt;/t&gt; &lt;fex name="Paradigm"&gt;in astrophysic terms&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="08/23/2005 03:30:42 PDT Tue" abbrev="tim" name="Time" ID="8960">
+    <definition>&lt;def-root&gt;The time interval during which the &lt;fen&gt;Cognizer&lt;/fen&gt; is aware of the &lt;fen&gt;Content&lt;/fen&gt;.
+
+&lt;ex&gt;Yet there is no evidence that Mr. Parrish was &lt;t&gt;cognizant&lt;/t&gt; &lt;fex name="tim"&gt;at the time of the signing
+of the notes&lt;/fex&gt; that the clauses in issue were present.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="11/07/2007 12:19:35 PST Wed" abbrev="" name="Explanation" ID="12047">
+    <definition>&lt;def-root&gt;The reason why or how it came to be that the &lt;fen&gt;Cognizer&lt;/fen&gt; has awareness of the &lt;fen&gt;Topic&lt;/fen&gt; or &lt;fen&gt;Content&lt;/fen&gt;. &lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Cognizer" ID="83"/>
+    <memberFE name="Expressor" ID="950"/>
+  </FEcoreSet>
+  <FEcoreSet>
+    <memberFE name="Content" ID="84"/>
+    <memberFE name="Topic" ID="86"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1710">Mental_activity</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="979">Grasp</relatedFrame>
+    <relatedFrame ID="26">Expectation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on">
+    <relatedFrame ID="2592">Awareness_situation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1591">Information</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1019">Religious_belief</relatedFrame>
+    <relatedFrame ID="1145">Secrecy_status</relatedFrame>
+    <relatedFrame ID="107">Examination</relatedFrame>
+    <relatedFrame ID="141">Certainty</relatedFrame>
+    <relatedFrame ID="1220">Remembering_information</relatedFrame>
+    <relatedFrame ID="1880">Fame</relatedFrame>
+    <relatedFrame ID="2162">Representing</relatedFrame>
+    <relatedFrame ID="2262">Impression</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="1412">Opinion</relatedFrame>
+    <relatedFrame ID="141">Certainty</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="36" POS="N" cBy="automatic" cDate="08/19/2020 06:56:50 UTC Wed" lemmaID="36" name="weten.n" status="Created" FN_EN_LU_ID="161" Method="Iteration-1" RBN_LU_ID="r_n-43086" RBN_matching_relation="near_equivalence">
+    <definition>omtrent iets</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="weten" order="1"/>
+  </lexUnit>
+  <lexUnit ID="37" POS="N" cBy="manual" cDate="08/19/2020 06:56:53 UTC Wed" lemmaID="37" name="kennis.n" status="Created" FN_EN_LU_ID="161" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-19311" RBN_matching_relation="equivalence">
+    <definition>die je weet omdat je ze geleerd hebt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="kennis" order="1"/>
+  </lexUnit>
+  <lexUnit ID="38" POS="N" cBy="automatic" cDate="08/19/2020 06:56:56 UTC Wed" lemmaID="38" name="bagage.n" status="Created" FN_EN_LU_ID="161" Method="Iteration-2_ODWN" RBN_LU_ID="c_545213" RBN_matching_relation="near_equivalence">
+    <definition>die je bij je hebt als je op reis bent</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="bagage" order="1"/>
+  </lexUnit>
+  <lexUnit ID="39" POS="N" cBy="automatic" cDate="08/19/2020 06:56:59 UTC Wed" lemmaID="39" name="onkunde.n" status="Created" FN_EN_LU_ID="10862" Method="Iteration-1" RBN_LU_ID="r_n-26102" RBN_matching_relation="near_equivalence">
+    <definition>van het iets niet kennen, kunnen of weten</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="onkunde" order="1"/>
+  </lexUnit>
+  <lexUnit ID="40" POS="N" cBy="automatic" cDate="08/19/2020 06:57:02 UTC Wed" lemmaID="40" name="onwetendheid.n" status="Created" FN_EN_LU_ID="10862" Method="Iteration-1" RBN_LU_ID="r_n-26342" RBN_matching_relation="near_equivalence">
+    <definition>van het onbekend zijn met iets</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="onwetendheid" order="1"/>
+  </lexUnit>
+</frame>

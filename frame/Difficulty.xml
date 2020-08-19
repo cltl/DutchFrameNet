@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="07/10/2002 06:29:00 PDT Wed" name="Difficulty" ID="375" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Experiencer&lt;/fen&gt; has an easy or difficult time carrying out an &lt;fen&gt;Activity&lt;/fen&gt;. The ease or difficulty associated with the &lt;fen&gt;Activity&lt;/fen&gt; seems to often be associated with a prominent participant. However, we consider this impression to be due to the syntax and pragmatics of the relevant sentence constructions and employ no special FE for such participants. The &lt;fen&gt;Degree&lt;/fen&gt; of ease or difficulty is often specified as well as a set of &lt;fen&gt;Circumstances&lt;/fen&gt;. A &lt;fen&gt;Parameter&lt;/fen&gt; may be mentioned that indicates in which respect the &lt;fen&gt;Activity&lt;/fen&gt; is judged to be easy or difficult.
+&lt;ex&gt;&lt;/ex&gt;
+Unmarked LUs of this frame indicate that something is easy, while LUs of this frame that mean the opposite of easy are marked with the semantic type "Negative", as in difficult.a, arduous.a, and a bitch.n.  
+
+&lt;ex&gt;(1) &lt;fex name="Activity"&gt;John&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;t&gt;easy&lt;/t&gt; &lt;fex name="Activity"&gt;to please&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;(2) It &lt;m&gt;is&lt;/m&gt; &lt;t&gt;easy&lt;/t&gt; &lt;fex name="Activity"&gt;to get Alex annoyed&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;(3) &lt;fex name="Activity"&gt;Smithers&lt;/fex&gt; is &lt;fex name="Degree"&gt;very&lt;/fex&gt; &lt;t&gt;tough&lt;/t&gt; &lt;fex name="Experiencer"&gt;for me&lt;/fex&gt; &lt;fex name="Activity"&gt;to please&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;(4) &lt;fex name="Activity"&gt;VWs&lt;/fex&gt; are &lt;t&gt;easy&lt;/t&gt; &lt;fex name="Activity"&gt;to repair&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;(5) &lt;fex name="Activity"&gt;The dating of western sculpture&lt;/fex&gt; is &lt;t&gt;difficult&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;(6) &lt;fex name="Circumstances"&gt;In that kind of wind&lt;/fex&gt; &lt;fex name="Activity"&gt;the course&lt;/fex&gt; is &lt;fex name="Parameter"&gt;physically&lt;/fex&gt; &lt;fex name="Degree"&gt;very&lt;/fex&gt; &lt;t&gt;tricky&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;(7) &lt;fex name="Activity"&gt;The last question on the exam&lt;/fex&gt; &lt;m&gt;was&lt;/m&gt; &lt;t&gt;hard&lt;/t&gt;. &lt;/ex&gt;
+&lt;ex&gt;(8) The last one was a &lt;t&gt;hard&lt;/t&gt; &lt;fex name="Activity"&gt;question&lt;/fex&gt; &lt;fex name="Activity"&gt;to answer&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/12/2002 11:07:00 PDT Fri" abbrev="Activity" name="Activity" ID="3360">
+    <definition>&lt;def-root&gt;This Frame Element marks expressions indicating the &lt;fen&gt;Activity&lt;/fen&gt; that the &lt;fen&gt;Experiencer&lt;/fen&gt; finds difficult or easy. In many cases, the relevant &lt;fen&gt;Activity&lt;/fen&gt; has to be inferred from the context.
+
+&lt;ex&gt;&lt;fex name="Activity"&gt;The climb&lt;/fex&gt; was &lt;t&gt;difficult&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Activity"&gt;That question&lt;/fex&gt; was &lt;t&gt;difficult&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Activity"&gt;That question&lt;/fex&gt; was &lt;t&gt;difficult&lt;/t&gt; &lt;fex name="Activity"&gt;to answer&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="07/12/2002 11:34:11 PDT Fri" abbrev="Degree" name="Degree" ID="3362">
+    <definition>&lt;def-root&gt;This Frame Element marks expressions that indicate the &lt;fen&gt;Degree&lt;/fen&gt; of difficulty that the &lt;fen&gt;Experiencer&lt;/fen&gt; has in carrying out the &lt;fen&gt;Activity&lt;/fen&gt;.
+
+&lt;ex&gt; Charlie is &lt;fex name="Degree"&gt;very&lt;/fex&gt; &lt;t&gt;tough&lt;/t&gt; for Lulu to please.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="07/12/2002 11:37:21 PDT Fri" abbrev="Circumstances" name="Circumstances" ID="3364">
+    <definition>&lt;def-root&gt;This Frame Element marks expressions that indicate a set of conditions in which the &lt;fen&gt;Activity&lt;/fen&gt; is being experienced and which influence the &lt;fen&gt;Experiencer&lt;/fen&gt;'s perception of how easy or difficult the &lt;fen&gt;Activity&lt;/fen&gt; is.
+
+&lt;ex&gt;&lt;fex name="Circumstances"&gt;In this weather&lt;/fex&gt; the climb turned out to be very &lt;t&gt;difficult&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/12/2002 11:39:45 PDT Fri" abbrev="Experiencer" name="Experiencer" ID="3365">
+    <definition>&lt;def-root&gt;This Frame Element marks expressions that indicate which person judges carrying out the &lt;fen&gt;Activity&lt;/fen&gt; to be easy or difficult.
+
+&lt;ex&gt;The geology question on the exam was &lt;t&gt;hard&lt;/t&gt; &lt;fex name="Experiencer"&gt;for me&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="07/12/2002 12:01:05 PDT Fri" abbrev="Parameter" name="Parameter" ID="3368">
+    <definition>&lt;def-root&gt;This FE marks expressions that indicate a respect in which the &lt;fen&gt;Activity&lt;/fen&gt; is judged easy or difficult to carry out by the &lt;fen&gt;Experiencer&lt;/fen&gt;.
+
+&lt;ex&gt;The problem involves a &lt;fex name="Parameter"&gt;mathematically&lt;/fex&gt; &lt;t&gt;difficult&lt;/t&gt; Fourier transformation.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/24/2004 04:27:50 PDT Thu" abbrev="sta" name="Standard" ID="6568">
+    <definition>&lt;def-root&gt;The experience of the &lt;fen&gt;Activity&lt;/fen&gt; by the &lt;fen&gt;Experiencer&lt;/fen&gt; may be compared to a &lt;fen&gt;Standard&lt;/fen&gt; situation, which may be evoked either as an event or state, or by reference to a salient participant.
+
+&lt;ex&gt;Man, running on hilly bike paths of Calgary was &lt;t&gt;tough&lt;/t&gt; &lt;fex name="sta"&gt;compared to my routes in flat  southwestern Ontario&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;Elsewhere, expert rider Kris Leeson was finding the going &lt;t&gt;tough&lt;/t&gt; &lt;fex name="sta"&gt;compared to the previous rounds&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/05/2007 05:18:38 PDT Tue" abbrev="tim" name="Time" ID="11870">
+    <definition>&lt;def-root&gt;The time at which the &lt;fen&gt;Activity&lt;/fen&gt; takes place.
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1015">Gradable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="480">Hindering</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

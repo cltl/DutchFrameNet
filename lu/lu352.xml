@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="V" name="stimuleren.v" ID="352" frame="Experiencer_obj" frameID="47" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" FN_EN_LU_ID="4295" Method="Iteration-1" RBN_LU_ID="r_v-7528" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Extra-Thematic" abbrev="Circ" name="Circumstances"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Degr" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Extra-Thematic" abbrev="Dep" name="Depictive"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Exp" name="Experiencer"/>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Extra-Thematic" abbrev="Exp" name="Explanation"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Manr" name="Manner"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Peripheral" abbrev="Mns" name="Means"/>
+      <FE fgColor="FFFFFF" bgColor="808080" type="Extra-Thematic" abbrev="Result" name="Result"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Stimulus" name="Stimulus"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Tim" name="Time"/>
+    </frame>
+  </header>
+  <definition>de werkzaamheid van iets of iemand bevorderen</definition>
+  <lexeme POS="V" breakBefore="false" headword="false" name="stimuleren" order="1"/>
+</lexUnit>

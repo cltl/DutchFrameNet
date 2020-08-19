@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="N" name="vandalisme.n" ID="267" frame="Damaging" frameID="415" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" FN_EN_LU_ID="7610" Method="Iteration-1" RBN_LU_ID="r_n-39572" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Agt" name="Agent"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="cau" name="Cause"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Extra-Thematic" abbrev="cha" name="Character_of_end_state"/>
+      <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Degr" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="9F79EE" type="Extra-Thematic" abbrev="Exp" name="Explanation"/>
+      <FE fgColor="FFFFFF" bgColor="808080" type="Peripheral" abbrev="Ins" name="Instrument"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Mnr" name="Manner"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Mns" name="Means"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Pat" name="Patient"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Place" name="Place"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Extra-Thematic" abbrev="Purp" name="Purpose"/>
+      <FE fgColor="FFFFFF" bgColor="2E8B57" type="Extra-Thematic" abbrev="res" name="Result"/>
+      <FE fgColor="000000" bgColor="FFFF00" type="Extra-Thematic" abbrev="Subr" name="Subregion"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Time" name="Time"/>
+    </frame>
+  </header>
+  <definition>van dingen op straat en in openbare gebouwen, uit verveling en baldadigheid</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="vandalisme" order="1"/>
+</lexUnit>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="GlY" cDate="12/05/2002 03:14:28 PST Thu" name="Vehicle" ID="429" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;The frame concerns the vehicles that human beings use for the purpose of transportation.
+
+&lt;ex&gt;I drove a &lt;t&gt;limo&lt;/t&gt; to the school dance.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="GlY" cDate="12/05/2002 05:13:03 PST Thu" abbrev="Desc" name="Descriptor" ID="3957">
+    <definition>&lt;def-root&gt;This FE identifies a characteristic or description of the Vehicle. 
+&lt;ex&gt;Kim drove a &lt;fex name="Desc"&gt; used&lt;/fex&gt; &lt;t&gt;car&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="GlY" cDate="12/05/2002 05:21:36 PST Thu" abbrev="Veh" name="Vehicle" ID="3958">
+    <definition>&lt;def-root&gt;Vehicle is the transportation device that the human beings use to travel.This FE is incorporated into each LU in this frame.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="GlY" cDate="12/05/2002 05:23:25 PST Thu" abbrev="Poss" name="Possessor" ID="3959">
+    <definition>&lt;def-root&gt;This Frame Element denotes the &lt;fen&gt;Possessor&lt;/fen&gt; of the &lt;fen&gt;Vehicle&lt;/fen&gt;.
+&lt;ex&gt;&lt;fex name="Poss"&gt;His&lt;/fex&gt; &lt;t&gt;car&lt;/t&gt; crashed into a tree&lt;/ex&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="GlY" cDate="12/05/2002 05:31:47 PST Thu" abbrev="Iti" name="Itinerary" ID="3960">
+    <definition>&lt;def-root&gt;The frame element tells about the time and route of the service of the transportation device.
+&lt;ex&gt;You must take the &lt;fex name="Itinerary"&gt;midnight&lt;/fex&gt; &lt;t&gt;train&lt;/t&gt; to get there by tomorrow noon.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="01/23/2003 09:50:08 PST Thu" abbrev="Prop" name="Means_of_propulsion" ID="4120">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Means_of_propulsion&lt;/fen&gt; designates how the vehicle is moved. &lt;ex&gt; They rode in a &lt;fex name="Means_of_propulsion"&gt;horse-drawn&lt;/fex&gt; &lt;t&gt;carriage&lt;/t&gt;. &lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="12/08/2005 11:31:56 PST Thu" abbrev="use" name="Use" ID="9730">
+    <definition>&lt;def-root&gt;The task which the &lt;fen&gt;Vehicle&lt;/fen&gt; is put to.  Normally, this includes the transportation of some kind.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="421">Artifact</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="2426">Vehicle_subpart</relatedFrame>
+    <relatedFrame ID="2597">Convoy</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="873" POS="N" cBy="manual" cDate="08/19/2020 07:56:11 UTC Wed" lemmaID="870" name="taxi.n" status="Created" FN_EN_LU_ID="8152" Method="Iteration-2_WN" RBN_LU_ID="r_n-37042" RBN_matching_relation="equivalence">
+    <definition>met chauffeur, te regelen voor een rit naar een bestemming</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="taxi" order="1"/>
+  </lexUnit>
+  <lexUnit ID="874" POS="N" cBy="automatic" cDate="08/19/2020 07:56:15 UTC Wed" lemmaID="871" name="auto.n" status="Created" FN_EN_LU_ID="8144" Method="Iteration-1" RBN_LU_ID="r_n-4175" RBN_matching_relation="near_equivalence">
+    <definition>op meer dan drie wielen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="auto" order="1"/>
+  </lexUnit>
+  <lexUnit ID="875" POS="N" cBy="automatic" cDate="08/19/2020 07:56:20 UTC Wed" lemmaID="872" name="wagen.n" status="Created" FN_EN_LU_ID="8144" Method="Iteration-2_ODWN" RBN_LU_ID="c_545806" RBN_matching_relation="near_equivalence">
+    <definition>op (meestal) vier wielen, in het bijzonder een auto</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="wagen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="876" POS="N" cBy="automatic" cDate="08/19/2020 07:56:25 UTC Wed" lemmaID="873" name="limousine.n" status="Created" FN_EN_LU_ID="8162" Method="Iteration-1" RBN_LU_ID="r_n-22290" RBN_matching_relation="near_equivalence">
+    <definition>met vaak een glazen afscheiding tussen de bestuurdersplaats en de passagiersruimte</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="limousine" order="1"/>
+  </lexUnit>
+  <lexUnit ID="877" POS="N" cBy="automatic" cDate="08/19/2020 07:56:29 UTC Wed" lemmaID="874" name="kano.n" status="Created" FN_EN_LU_ID="8165" Method="Iteration-1" RBN_LU_ID="r_n-18975" RBN_matching_relation="near_equivalence">
+    <definition>die lang en smal is, die je met peddels voortbeweegt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="kano" order="1"/>
+  </lexUnit>
+  <lexUnit ID="878" POS="N" cBy="automatic" cDate="08/19/2020 07:56:34 UTC Wed" lemmaID="875" name="kajak.n" status="Created" FN_EN_LU_ID="8166" Method="Iteration-1" RBN_LU_ID="r_n-18808" RBN_matching_relation="near_equivalence">
+    <definition>voor één persoon</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="kajak" order="1"/>
+  </lexUnit>
+  <lexUnit ID="879" POS="N" cBy="automatic" cDate="08/19/2020 07:56:38 UTC Wed" lemmaID="876" name="ambulance.n" status="Created" FN_EN_LU_ID="16800" Method="Iteration-1" RBN_LU_ID="r_n-3421" RBN_matching_relation="near_equivalence">
+    <definition>voor het vervoer van zieken en gewonden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="ambulance" order="1"/>
+  </lexUnit>
+</frame>

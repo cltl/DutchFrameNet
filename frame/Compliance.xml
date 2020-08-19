@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="05/24/2001 07:19:40 PDT Thu" name="Compliance" ID="117" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame concerns &lt;fen&gt;Act&lt;/fen&gt;s and &lt;fen&gt;State_of_Affairs&lt;/fen&gt; for which &lt;fen&gt;Protagonist&lt;/fen&gt;s are responsible and which either follow or violate some set of rules  or &lt;fen&gt;Norm&lt;/fen&gt;s.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;A lot of people suspect that &lt;fex name="Act"&gt;blocking savers' access to their money&lt;/fex&gt; &lt;t&gt;violates&lt;/t&gt; &lt;fex name="Norm"&gt;the new constitution's explicit ban on compulsory loans to the government&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;Not that by &lt;t&gt;adhering&lt;/t&gt; &lt;fex name="Norm"&gt;to the subject-before-predicate principle&lt;/fex&gt;, &lt;fex name="Protagonist"&gt;the translator of the above extract&lt;/fex&gt; has had to ignore the principle of end-weight.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="05/25/2001 07:19:51 PDT Fri" abbrev="Prot" name="Protagonist" ID="612">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Protagonist&lt;/fen&gt;'s behavior is in or out of compliance with norms.
+&lt;ex&gt;&lt;fex name="Protagonist"&gt;Jo&lt;/fex&gt; &lt;t&gt;violated&lt;/t&gt; the no trespassing law.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="05/25/2001 07:21:25 PDT Fri" abbrev="Act" name="Act" ID="613">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Act&lt;/fen&gt; that is judged to be in or out of compliance with the &lt;fen&gt;Norm&lt;/fen&gt;s.  &lt;ex&gt;Jo's &lt;fex name="Act"&gt;&lt;t&gt;violation&lt;/t&gt;&lt;/fex&gt; of the no trespassing law came as a surprise.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="05/25/2001 07:46:21 PDT Fri" abbrev="soa" name="State_of_affairs" ID="614">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;State_of_affairs&lt;/fen&gt; may violate a law or rule.
+&lt;ex&gt;&lt;fex name="soa"&gt;Their pricing policy&lt;/fex&gt; &lt;t&gt;violated&lt;/t&gt; inter-governmental agreements.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="05/31/2001 12:08:09 PDT Thu" abbrev="Norm" name="Norm" ID="640">
+    <definition>&lt;def-root&gt;This FE identifies the rules or &lt;fen&gt;Norm&lt;/fen&gt;s that ought to guide a person's behavior.  &lt;ex&gt;John &lt;t&gt;violated&lt;/t&gt; &lt;fex name="Norm"&gt;the law&lt;/fex&gt; by not paying taxes.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="mCo" cDate="06/27/2001 04:08:31 PDT Wed" abbrev="Degr" name="Degree" ID="1114">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Degree&lt;/fen&gt; to which the compliance ocurrs.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="mCo" cDate="06/27/2001 04:08:31 PDT Wed" abbrev="Depict" name="Depictive" ID="1115">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Depictive&lt;/fen&gt; identifies any description of the Actor or Undergoer.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="mCo" cDate="06/27/2001 04:08:31 PDT Wed" abbrev="Manr" name="Manner" ID="1117">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Manner&lt;/fen&gt; in which the compliance occurs.
+&lt;ex&gt;Jo &lt;t&gt;complied&lt;/t&gt; with the law &lt;fex name="Manner"&gt;willingly&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="mCo" cDate="06/27/2001 04:08:31 PDT Wed" abbrev="Mns" name="Means" ID="1118">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Means&lt;/fen&gt; by which the compliance is (or is not) accomplished.
+&lt;ex&gt;He &lt;t&gt;complied&lt;/t&gt; with the decree &lt;fex name="Mns"&gt;by firing the employees&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="mCo" cDate="06/27/2001 04:08:31 PDT Wed" abbrev="Result" name="Result" ID="1119">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Result&lt;/fen&gt; of compliance.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="08/22/2002 12:48:17 PDT Thu" abbrev="Time" name="Time" ID="3608">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Time&lt;/fen&gt;  when the act of compliance or non-compliance occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="07/11/2003 09:15:53 PDT Fri" abbrev="exp" name="Explanation" ID="4754">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Explanation&lt;/fen&gt; for complying with the &lt;fen&gt;Norm&lt;/fen&gt;.
+&lt;ex&gt;He &lt;t&gt;submitted&lt;/t&gt; to the will of the king &lt;fex name="exp"&gt;because he had no other choice&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="000000" coreType="Peripheral" cBy="MiL" cDate="06/07/2006 04:47:26 PDT Wed" abbrev="" name="Judge" ID="10260">
+    <definition>&lt;def-root&gt;The individual whose point of view is taken in assigning the judgment denoted by the target.&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="State_of_affairs" ID="614"/>
+    <memberFE name="Protagonist" ID="612"/>
+    <memberFE name="Act" ID="613"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="369">Social_behavior_evaluation</relatedFrame>
+    <relatedFrame ID="2233">Satisfying</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1493">Obligation_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="501">Legality</relatedFrame>
+    <relatedFrame ID="75">Strictness</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="247" POS="V" cBy="manual" cDate="08/19/2020 07:10:13 UTC Wed" lemmaID="247" name="gehoorzamen.v" status="Created" FN_EN_LU_ID="2464" Method="Iteration-1" RBN_LU_ID="r_v-2886" RBN_matching_relation="equivalence">
+    <definition>doen wat er gevraagd of verlangd wordt, bevelen of instructies opvolgen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="gehoorzamen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="248" POS="V" cBy="automatic" cDate="08/19/2020 07:10:16 UTC Wed" lemmaID="248" name="luisteren.v" status="Created" FN_EN_LU_ID="2464" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4502" RBN_matching_relation="near_equivalence">
+    <definition>(iemand) gehoorzamen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="luisteren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="249" POS="A" cBy="automatic" cDate="08/19/2020 07:10:20 UTC Wed" lemmaID="249" name="buigzaam.a" status="Created" FN_EN_LU_ID="2730" Method="Iteration-1" RBN_LU_ID="r_a-9401" RBN_matching_relation="near_equivalence">
+    <definition>flexibel</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="buigzaam" order="1"/>
+  </lexUnit>
+  <lexUnit ID="250" POS="A" cBy="automatic" cDate="08/19/2020 07:10:23 UTC Wed" lemmaID="250" name="onderdanig.a" status="Created" FN_EN_LU_ID="2730" Method="Iteration-1" RBN_LU_ID="r_a-13389" RBN_matching_relation="near_equivalence">
+    <definition>nederig</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="onderdanig" order="1"/>
+  </lexUnit>
+  <lexUnit ID="251" POS="A" cBy="automatic" cDate="08/19/2020 07:10:27 UTC Wed" lemmaID="251" name="gehoorzaam.a" status="Created" FN_EN_LU_ID="12696" Method="Iteration-1" RBN_LU_ID="r_a-10897" RBN_matching_relation="near_equivalence">
+    <definition>doend wat iemand zegt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="gehoorzaam" order="1"/>
+  </lexUnit>
+</frame>

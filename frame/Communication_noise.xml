@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:02 PST Wed" name="Communication_noise" ID="39" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame contains words for types of noise which can be used to characterize verbal communication.  It inherits from Communication (possibly more specifically Communication_manner) and the Sound_emission frame (which simply characterizes basic sounds of whatever source, including those made by animals and inanimate objects).  As such, it involves a &lt;fen&gt;Speaker&lt;/fen&gt; who produces noise and thus communicates a &lt;fen&gt;Message&lt;/fen&gt; to an &lt;fen&gt;Addressee&lt;/fen&gt;.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Message"&gt;"Don't treat me as a child!"&lt;/fex&gt; &lt;fex name="Speaker"&gt;she&lt;/fex&gt; &lt;t&gt;cried&lt;/t&gt; &lt;fex name="Manner"&gt;scornfully&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;A writer in the Town Planning Review&lt;/fex&gt; &lt;t&gt;trumpeted&lt;/t&gt; &lt;fex name="Message"&gt;that train-sheds were now obsolete&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;You know &lt;fex name="Speaker"&gt;he&lt;/fex&gt; &lt;t&gt;yelled&lt;/t&gt; &lt;fex name="Addressee"&gt;at Aunt Lou&lt;/fex&gt; &lt;fex name="Time"&gt;yesterday&lt;/fex&gt;, &lt;fex name="Reason"&gt;because he slipped on that mat in the hall&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:02 PST Wed" abbrev="Spkr" name="Speaker" ID="162">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Speaker&lt;/fen&gt; is the sentient entity that delivers the &lt;fen&gt;Message&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Kim&lt;/fex&gt; &lt;t&gt;whined&lt;/t&gt; that it wasn't fair.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="ChW" cDate="02/07/2001 04:12:02 PST Wed" abbrev="Add" name="Addressee" ID="163">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Addressee&lt;/fen&gt; refers to the one toward whom the Communication_noise is directed.  &lt;fen&gt;Addressee&lt;/fen&gt; generally occurs in &lt;ment&gt;to&lt;/ment&gt; or &lt;ment&gt;at&lt;/ment&gt; PPs.
+
+&lt;ex&gt;Kim &lt;t&gt;whined&lt;/t&gt; &lt;fex name="Addressee"&gt;to Jess&lt;/fex&gt; that it wasn't fair.&lt;/ex&gt;
+&lt;ex&gt;Jess &lt;t&gt;screamed&lt;/t&gt; &lt;fex name="Addressee"&gt;at Kim&lt;/fex&gt; to be quiet.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:02 PST Wed" abbrev="Msg" name="Message" ID="164">
+    <definition>&lt;def-root&gt;Message has a number of different realizations in this frame, including &lt;ment&gt;that&lt;/ment&gt;-clauses, direct quotes, infinitival complements, &lt;ment&gt;for-to&lt;/ment&gt; phrases, and NP Objects. &lt;ex&gt;Kim &lt;t&gt;whined&lt;/t&gt; &lt;fex name="Message"&gt;that it wasn't fair&lt;/fex&gt;.&lt;/ex&gt; &lt;ex&gt;&lt;fex name="Message"&gt;"Get moving!"&lt;/fex&gt; Jess &lt;t&gt;growled&lt;/t&gt;.&lt;/ex&gt; &lt;ex&gt;Jess &lt;t&gt;growled&lt;/t&gt; at me &lt;fex name="Message"&gt;to get moving&lt;/fex&gt;.&lt;/ex&gt; &lt;ex&gt;Jess &lt;t&gt;growled&lt;/t&gt; &lt;fex name="Message"&gt;for me to get moving&lt;/fex&gt;.&lt;/ex&gt; &lt;ex&gt;Jess &lt;t&gt;growled&lt;/t&gt; &lt;fex name="Message"&gt;an order&lt;/fex&gt;.&lt;/ex&gt; Quoted &lt;fen&gt;Message&lt;/fen&gt;s may either precede or follow the External Argument and verb, or may be discontinuous. &lt;ex&gt;&lt;fex name="Msg"&gt;"Get moving!"&lt;/fex&gt;Jess &lt;t&gt;growled&lt;/t&gt;.&lt;/ex&gt; &lt;ex&gt;Jess &lt;t&gt;growled&lt;/t&gt; angrily &lt;fex name="Msg"&gt;"Get moving!"&lt;/fex&gt;&lt;/ex&gt; &lt;ex&gt;"For goodness sake," Jess &lt;t&gt;growled&lt;/t&gt;, &lt;fex name="Msg"&gt;"get moving!"&lt;/fex&gt;&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Message" ID="56"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:02 PST Wed" abbrev="Top" name="Topic" ID="165">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Topic&lt;/fen&gt; occurs in PP Complements, usually headed by &lt;ment&gt;about&lt;/ment&gt;.
+
+&lt;ex&gt;Kim &lt;t&gt;howled&lt;/t&gt; &lt;fex name="Topic"&gt;about the unfairness of it all&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="ChW" cDate="02/07/2001 04:12:03 PST Wed" abbrev="Medium" name="Medium" ID="166">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Medium&lt;/fen&gt; is used for a physical entity or channel that transmits the &lt;fen&gt;Message&lt;/fen&gt;. It is normally expressed as a PP Complement headed by &lt;ment&gt;on&lt;/ment&gt; or &lt;ment&gt;in&lt;/ment&gt;.
+
+&lt;ex&gt;Pat &lt;t&gt;screamed&lt;/t&gt; something &lt;fex name="Medium"&gt;in Spanish&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="07/17/2001 01:53:24 PDT Tue" abbrev="Dep" name="Depictive" ID="1449">
+    <definition>&lt;def-root&gt;This FE identifies the state of the &lt;fen&gt;Speaker&lt;/fen&gt; during the communication.
+
+&lt;ex&gt;"Get outta here!" he &lt;t&gt;barked&lt;/t&gt; &lt;fex name="Dep"&gt;unflinching&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/17/2001 01:53:26 PDT Tue" abbrev="Manr" name="Manner" ID="1450">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Manner&lt;/fen&gt; describes the manner or style in which the Communication_noise is delivered.
+
+&lt;ex&gt;"Huh!" he &lt;t&gt;grunted&lt;/t&gt; &lt;fex name="Manner"&gt;disbelievingly&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;`"Long , dark hair" he &lt;t&gt;murmured&lt;/t&gt; &lt;fex name="Manner"&gt;thoughtfully&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="07/17/2001 01:56:43 PDT Tue" abbrev="ICause" name="Internal_cause" ID="1457">
+    <definition>&lt;def-root&gt;The Communication_noise may be prompted by either some outside phenomenon or occurrence, or by an &lt;fen&gt;Internal_cause&lt;/fen&gt;, the &lt;fen&gt;Speaker&lt;/fen&gt;'s mental or emotional state.  &lt;fen&gt;Internal_cause&lt;/fen&gt; is expressed in a PP Complement.
+
+&lt;ex&gt;Kim &lt;t&gt;growled&lt;/t&gt; at Tim &lt;fex name="Internal_cause"&gt;in frustration&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/17/2001 01:58:42 PDT Tue" abbrev="Degr" name="Degree" ID="1458">
+    <definition>&lt;def-root&gt;Degree to which event occurs&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/30/2002 06:56:52 PDT Fri" abbrev="Mns" name="Means" ID="3671">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Means&lt;/fen&gt; by which the &lt;fen&gt;Speaker&lt;/fen&gt; communicates.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="07/28/2003 01:23:29 PDT Mon" abbrev="" name="Voice" ID="4849">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Voice&lt;/fen&gt; describes the &lt;fex name=""&gt;Speaker'&lt;/fex&gt;s utterance or other message-encoded production.
+&lt;ex&gt;&lt;fex name="Voice"&gt;John's voice&lt;/fex&gt; &lt;t&gt;bellowed&lt;/t&gt; for her to be quiet.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="Hay" cDate="10/02/2003 11:36:50 PDT Thu" abbrev="" name="Place" ID="5330">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Place&lt;/fen&gt; where an event occurs.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="Hay" cDate="10/02/2003 11:36:50 PDT Thu" abbrev="exp" name="Explanation" ID="5331">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Explanation&lt;/fen&gt; denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the &lt;fen&gt;Explanation&lt;/fen&gt; causes the target's proposition, but not in all cases.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Extra-Thematic" cBy="CFB" cDate="10/27/2003 01:13:00 PST Mon" abbrev="Bac" name="Back" ID="5700">
+    <definition>&lt;def-root&gt;This FE indicates that the communication act denoted by the target is in response to an earlier communication act in which the roles of Speaker and Addressee were reversed. This is conceptually akin to the Communication_response frame in which the targets themselves denote the responsive nature of the act. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="Hay" cDate="05/12/2005 09:23:45 PDT Thu" abbrev="Time" name="Time" ID="7970">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Time&lt;/fen&gt; where the Communication noise event occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Topic" ID="165"/>
+    <memberFE name="Message" ID="164"/>
+  </FEcoreSet>
+  <FEcoreSet>
+    <memberFE name="Speaker" ID="162"/>
+    <memberFE name="Voice" ID="4849"/>
+    <memberFE name="Medium" ID="166"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="6">Communication</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="69">Make_noise</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="226" POS="V" cBy="automatic" cDate="08/19/2020 07:08:33 UTC Wed" lemmaID="226" name="klakken.v" status="Created" FN_EN_LU_ID="579" Method="Iteration-1" RBN_LU_ID="r_v-3888" RBN_matching_relation="near_equivalence">
+    <definition>een hol, knappend geluid maken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="klakken" order="1"/>
+  </lexUnit>
+</frame>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="10/17/2002 03:00:34 PDT Thu" name="Damaging" ID="415" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; affects a &lt;fen&gt;Patient&lt;/fen&gt; in such a way that the &lt;fen&gt;Patient&lt;/fen&gt; (or some &lt;fen&gt;Subregion&lt;/fen&gt; of the &lt;fen&gt;Patient&lt;/fen&gt;) ends up in a non-canonical state.  Often this non-canonical state is undesirable, and some lexical units (marked with the Negative semantic type) specifically indicate that the &lt;fen&gt;Patient&lt;/fen&gt; is negatively affected.  Some lexical units of this frame indicate by what means the &lt;fen&gt;Patient&lt;/fen&gt; is altered (e.g., scrape.v) and in some cases give some indication of the detailed effect on the &lt;fen&gt;Patient&lt;/fen&gt; (e.g., score.v, chip.v), and in other cases, both are specified (tear.v). For another set of lexical units, the action and its result are much less specified (e.g., damage.v).
+
+Compare this frame with Destroying, Cause_to_fragment, and Render_nonfunctional.
+
+&lt;ex&gt;&lt;fex name="Agent"&gt;That idiot&lt;/fex&gt; just &lt;t&gt;dented&lt;/t&gt; &lt;fex name="Patient"&gt;my car&lt;/fex&gt;!&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Agent"&gt;Some ne'er-do-wells&lt;/fex&gt; &lt;t&gt;defaced&lt;/t&gt; &lt;fex name="Patient"&gt;the Park's wall&lt;/fex&gt; &lt;fex name="Instrument"&gt;with spray paint&lt;/fex&gt; &lt;fex name="Purpose"&gt;to show their anger at local natural resources allocation policy&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Please don't &lt;t&gt;damage&lt;/t&gt; &lt;fex name="Patient"&gt;the goods&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="10/17/2002 03:02:06 PDT Thu" abbrev="Agt" name="Agent" ID="3817">
+    <definition>&lt;def-root&gt;The conscious entity, generally a person, that performs the intentional action that results in the damage to the &lt;fen&gt;Patient&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+    <excludesFE name="Cause" ID="9821"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/17/2002 03:02:06 PDT Thu" abbrev="Degr" name="Degree" ID="3818">
+    <definition>&lt;def-root&gt;The degree to which the &lt;fen&gt;Patient&lt;/fen&gt; is damaged.
+&lt;ex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/17/2002 03:02:08 PDT Thu" abbrev="Ins" name="Instrument" ID="3819">
+    <definition>&lt;def-root&gt;An entity directed by the &lt;fen&gt;Agent&lt;/fen&gt; that interacts with a &lt;fen&gt;Patient&lt;/fen&gt; to accomplish the damage. &lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/17/2002 03:02:08 PDT Thu" abbrev="Mnr" name="Manner" ID="3820">
+    <definition>&lt;def-root&gt;Any description of the action of damaging which is not covered by more specific FEs, including epistemic modification (&lt;ment&gt;probably, presumably, mysteriously&lt;/ment&gt;), force (&lt;ment&gt;hard, softly&lt;/ment&gt;), secondary effects (&lt;ment&gt;quietly, loudly&lt;/ment&gt;), and general descriptions comparing events (&lt;ment&gt;the same way&lt;/ment&gt;). It may also indicate salient characteristics of an &lt;fen&gt;Agent&lt;/fen&gt; that also affect the action (&lt;ment&gt;presumptuously, coldly, deliberately, eagerly, carefully&lt;/ment&gt;). &lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/17/2002 03:02:08 PDT Thu" abbrev="Mns" name="Means" ID="3821">
+    <definition>&lt;def-root&gt;An intentional action performed by the &lt;fen&gt;Agent&lt;/fen&gt; that accomplishes the damage. &lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/17/2002 03:02:09 PDT Thu" abbrev="Place" name="Place" ID="3823">
+    <definition>&lt;def-root&gt;This FE identifies the location of the scene where a &lt;fen&gt;Agent&lt;/fen&gt; damages a &lt;fen&gt;Patient&lt;/fen&gt;.
+&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="10/17/2002 03:02:09 PDT Thu" abbrev="Purp" name="Purpose" ID="3824">
+    <definition>&lt;def-root&gt;This FE identifies the purpose for which an &lt;fen&gt;Agent&lt;/fen&gt; causes the damage to the &lt;fen&gt;Patient&lt;/fen&gt;.
+&lt;ex&gt;The dock workers &lt;t&gt;keyed&lt;/t&gt; their manager's car &lt;fex name="Purp"&gt;to protest their working conditions&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="10/17/2002 03:02:11 PDT Thu" abbrev="Exp" name="Explanation" ID="3825">
+    <definition>&lt;def-root&gt;A state of affairs that the &lt;fen&gt;Agent&lt;/fen&gt; is responding to in performing the action.
+&lt;ex&gt;He &lt;t&gt;rent&lt;/t&gt; his garment &lt;fex name="Explanation"&gt;out of the despair that only biblical character can feel&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Extra-Thematic" cBy="MJE" cDate="10/17/2002 03:02:11 PDT Thu" abbrev="Subr" name="Subregion" ID="3826">
+    <definition>&lt;def-root&gt;The part of the &lt;fen&gt;Patient&lt;/fen&gt; which is directly affected by the damaging.
+&lt;ex&gt;The dog &lt;t&gt;tore&lt;/t&gt; his pants &lt;fex name="Subr"&gt;just below the seat&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/17/2002 03:02:11 PDT Thu" abbrev="Time" name="Time" ID="3827">
+    <definition>&lt;def-root&gt;This FE identifies the time when the &lt;fen&gt;Agent&lt;/fen&gt; damages the &lt;fen&gt;Patient&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="10/17/2002 03:02:11 PDT Thu" abbrev="Pat" name="Patient" ID="3828">
+    <definition>&lt;def-root&gt;The entity which is affected by the &lt;fen&gt;Agent&lt;/fen&gt; so that it is damaged.
+&lt;ex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="01/06/2005 06:03:37 PST Thu" abbrev="cha" name="Character_of_end_state" ID="7418">
+    <definition>&lt;def-root&gt;A description of the state of the &lt;fen&gt;Patient&lt;/fen&gt; after the damaging has taken place, including descriptions of the severity and the permanence of the damaged condition.
+
+&lt;ex&gt;To a all appearances, she had &lt;fex name="cha"&gt;permanently&lt;/fex&gt; &lt;t&gt;damaged&lt;/t&gt; her right clavicle.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="Pam" cDate="01/24/2005 12:29:18 PST Mon" abbrev="res" name="Result" ID="7452">
+    <definition>&lt;def-root&gt;Result of the &lt;fen&gt;Agent&lt;/fen&gt;'s action.
+
+&lt;ex&gt;She &lt;t&gt;tore&lt;/t&gt; the sugar packet &lt;fex name="Result"&gt;open&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="01/03/2006 06:29:26 PST Tue" abbrev="cau" name="Cause" ID="9821">
+    <definition>&lt;def-root&gt;An event which leads to the damage of the &lt;fen&gt;Patient&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Cause"&gt;The crash&lt;/fex&gt; &lt;t&gt;dented&lt;/t&gt; my car pretty bad.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="10">Transitive_action</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="344">Reshaping</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="267" POS="N" cBy="automatic" cDate="08/19/2020 07:11:20 UTC Wed" lemmaID="267" name="vandalisme.n" status="Created" FN_EN_LU_ID="7610" Method="Iteration-1" RBN_LU_ID="r_n-39572" RBN_matching_relation="near_equivalence">
+    <definition>van dingen op straat en in openbare gebouwen, uit verveling en baldadigheid</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="vandalisme" order="1"/>
+  </lexUnit>
+</frame>

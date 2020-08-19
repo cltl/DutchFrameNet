@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="N" name="blizzard.n" ID="902" frame="Weather" frameID="303" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" FN_EN_LU_ID="5695" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-7580" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="P" name="Place"/>
+      <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Spec" name="Specification"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="T" name="Time"/>
+    </frame>
+  </header>
+  <definition>met veel sneeuw en felle kou die plotseling opkomt</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="blizzard" order="1"/>
+</lexUnit>

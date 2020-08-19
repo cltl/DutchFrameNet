@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:08 PST Wed" name="Cure" ID="50" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame deals with a &lt;fen&gt;Healer&lt;/fen&gt; treating and curing an &lt;fen&gt;Affliction&lt;/fen&gt; (the injuries, disease, or pain) of the &lt;fen&gt;Patient&lt;/fen&gt;, sometimes also mentioning the use of a particular &lt;fen&gt;Treatment&lt;/fen&gt; or &lt;fen&gt;Medication&lt;/fen&gt;. This frame differs from Medical_intervention in that this frame deals only with cases in which the &lt;fen&gt;Patient&lt;/fen&gt; is cured of the &lt;fen&gt;Affliction&lt;/fen&gt;, not just treated for the &lt;fen&gt;Affliction&lt;/fen&gt;.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Healer"&gt;Isis&lt;/fex&gt; then &lt;t&gt;cured&lt;/t&gt; &lt;fex name="Patient"&gt;Re&lt;/fex&gt; &lt;fex name="Treatment"&gt;by reciting a spell&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;Another student became convinced that &lt;fex name="Healer"&gt;God&lt;/fex&gt; was going to &lt;t&gt;heal&lt;/t&gt; &lt;fex name="Patient"&gt;the clergyman&lt;/fex&gt; &lt;fex name="Affliction"&gt;of his cancer&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:08 PST Wed" abbrev="Hlr" name="Healer" ID="208">
+    <definition>&lt;def-root&gt;The  Healer, anyone who treats or cures the Patient, occurs as the External Argument of verbs: &lt;ex&gt;&lt;fex name="Healer"&gt;Doctors&lt;/fex&gt; &lt;t&gt;alleviated&lt;/t&gt; his suffering. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:08 PST Wed" abbrev="Pat" name="Patient" ID="209">
+    <definition>&lt;def-root&gt;This   is the sufferer of the injury, disease or pain and can occur as an NP Object in this frame. However, Patient may not be expressed as a separate Frame Element but frequently occurs as the possessor of the Affliction, an example of  FE Conflation:  (See section on Conflation.) 
+
+&lt;ex&gt;Acupuncture &lt;t&gt;cured&lt;/t&gt; &lt;fex name="Patient"&gt;Pat&lt;/fex&gt; of his depression.&lt;/ex&gt;
+&lt;ex&gt;Acupunture &lt;t&gt;cured&lt;/t&gt; &lt;fex name="Patient"&gt;Pat's&lt;/fex&gt; depression.&lt;/ex&gt;
+The Patient may therefore not be tagged in a sentence although explicitly identified. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:08 PST Wed" abbrev="Affl" name="Affliction" ID="210">
+    <definition>&lt;def-root&gt;The Frame Element Affliction is generally the NP Object of a verb, frequently incorporating the Patient as a possessor, as described above: 
+&lt;ex&gt;This potion &lt;t&gt;heals&lt;/t&gt; &lt;fex name="Affliction"&gt;a broken heart&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The potion &lt;t&gt;healed&lt;/t&gt; &lt;fex name="Affliction"&gt;Kim's broken heart&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:08 PST Wed" abbrev="Trtm" name="Treatment" ID="211">
+    <definition>&lt;def-root&gt;The FE Treatment is used for treatments and means, distinguished by separate FEs in FN-1. 
+&lt;ex&gt;He emphasized treatment &lt;fex name="Treatment"&gt;by surgical means&lt;/fex&gt;. &lt;/ex&gt;
+&lt;ex&gt;He will undergo &lt;fex name="Treatment"&gt;radiation&lt;/fex&gt; treatment. &lt;/ex&gt;
+
+A  method used to treat the Affliction can be the External Argument of these verbs, or expressed in a  PP Complement: 
+&lt;ex&gt;&lt;fex name="Treatment"&gt;These herbs&lt;/fex&gt; can &lt;t&gt;cure&lt;/t&gt; insomnia.&lt;/ex&gt;
+&lt;ex&gt;Insomnia can be &lt;t&gt;cured&lt;/t&gt; &lt;fex name="Treatment"&gt;with herbs&lt;/fex&gt;. &lt;/ex&gt;
+
+Target nouns (e.g. therapy, treatment, etc.) will NOT be tagged with this FE.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="BoC" cDate="07/02/2001 09:31:54 PDT Mon" abbrev="Degr" name="Degree" ID="1203">
+    <definition>&lt;def-root&gt;Degree to which event occurs&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="BoC" cDate="07/02/2001 09:31:56 PDT Mon" abbrev="Manr" name="Manner" ID="1204">
+    <definition>&lt;def-root&gt;Manner of performing an action&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="09/24/2001 01:15:21 PDT Mon" abbrev="Med" name="Medication" ID="1996">
+    <definition>&lt;def-root&gt;The injested, applied, injected, etc. substance designed to cure the Patient.
+&lt;ex&gt;He needs prolonged &lt;t&gt;treatment&lt;/t&gt; &lt;fex name="Medication"&gt;with anibiotics&lt;/fex&gt;. &lt;/ex&gt;
+                            
+Note the tight relationship between Treatment and Medicine.&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="09/24/2001 01:35:41 PDT Mon" abbrev="Rec" name="Reciprocation" ID="2007">
+    <definition>&lt;def-root&gt;The Reason for which an intentional act is performed.
+&lt;ex&gt;We &lt;t&gt;treated&lt;/t&gt; the pigeon &lt;fex name="Reciprocation"&gt;for the hell of it&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/24/2001 01:35:45 PDT Mon" abbrev="Place" name="Place" ID="2008">
+    <definition>&lt;def-root&gt;Where the event takes place.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="09/24/2001 01:35:47 PDT Mon" abbrev="Purp" name="Purpose" ID="2009">
+    <definition>&lt;def-root&gt;The purpose for which an intentional act is performed.
+&lt;ex&gt;John &lt;t&gt;resuscitated&lt;/t&gt; her &lt;fex name="Purpose"&gt;to receive a raise&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/24/2001 01:35:51 PDT Mon" abbrev="Time" name="Time" ID="2010">
+    <definition>&lt;def-root&gt;When the event occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="08/20/2002 12:06:23 PDT Tue" abbrev="B_p" name="Body_part" ID="3584">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Body_part&lt;/fen&gt; is the specific area of the &lt;fen&gt;Patient&lt;/fen&gt;'s body which is treated.&lt;/def-root&gt;</definition>
+    <semType name="Body_part" ID="10"/>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="GlY" cDate="03/27/2003 04:01:45 PST Thu" abbrev="Dur" name="Duration" ID="4322">
+    <definition>&lt;def-root&gt;The period of time that the &lt;fen&gt;Patient&lt;/fen&gt; recieves the &lt;fen&gt;Treatment&lt;/fen&gt;.
+&lt;ex&gt;&lt;fex name="Patient"&gt;The sailor&lt;/fex&gt; was treated &lt;fex name="Affliction"&gt;for venereal disease&lt;/fex&gt; &lt;fex name="Duration"&gt; for three months&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Duration" ID="142"/>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Healer" ID="208"/>
+    <memberFE name="Medication" ID="1996"/>
+    <memberFE name="Treatment" ID="211"/>
+  </FEcoreSet>
+  <FEcoreSet>
+    <memberFE name="Body_part" ID="3584"/>
+    <memberFE name="Patient" ID="209"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="10">Transitive_action</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="239">Medical_conditions</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1620">Institutionalization</relatedFrame>
+    <relatedFrame ID="2708">Medical_interaction_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of">
+    <relatedFrame ID="51">Recovery</relatedFrame>
+  </frameRelation>
+  <frameRelation type="See also">
+    <relatedFrame ID="2741">Medical_intervention</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="265" POS="N" cBy="automatic" cDate="08/19/2020 07:11:13 UTC Wed" lemmaID="265" name="genezer.n" status="Created" FN_EN_LU_ID="4021" Method="Iteration-1" RBN_LU_ID="r_n-14666" RBN_matching_relation="near_equivalence">
+    <definition>die geneest</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="genezer" order="1"/>
+  </lexUnit>
+  <lexUnit ID="266" POS="N" cBy="automatic" cDate="08/19/2020 07:11:17 UTC Wed" lemmaID="266" name="heler.n" status="Created" FN_EN_LU_ID="4021" Method="Iteration-1" RBN_LU_ID="r_n-16594" RBN_matching_relation="near_equivalence">
+    <definition>van gestolen goed</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="heler" order="1"/>
+  </lexUnit>
+</frame>

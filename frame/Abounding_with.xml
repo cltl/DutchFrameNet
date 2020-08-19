@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="01/28/2002 04:30:50 PST Mon" name="Abounding_with" ID="262" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Location&lt;/fen&gt; is filled or covered with the &lt;fen&gt;Theme&lt;/fen&gt;.  The &lt;fen&gt;Location&lt;/fen&gt; is realized as the External Argument, and the &lt;fen&gt;Theme&lt;/fen&gt; either as PP complement headed by &lt;ment&gt;with&lt;/ment&gt;, &lt;ment&gt;in&lt;/ment&gt; or &lt;ment&gt;of&lt;/ment&gt;.
+
+NB:  This frame does not include uses of adjectives like &lt;ment&gt;paved&lt;/ment&gt; when they merely specify the Type of some location, as in "paved and unpaved roads".
+
+&lt;ex&gt;&lt;fex name="Location"&gt;The waters of the bay&lt;/fex&gt; &lt;t&gt;teemed&lt;/t&gt; &lt;fex name="Theme"&gt;with fish&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Location"&gt;The waters of the bay&lt;/fex&gt; &lt;m&gt;were&lt;/m&gt; &lt;t&gt;teeming&lt;/t&gt; &lt;fex name="Theme"&gt;with fish&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Location"&gt;The road&lt;/fex&gt; &lt;m&gt;was&lt;/m&gt; &lt;fex name="Degree"&gt;completely&lt;/fex&gt; &lt;t&gt;covered&lt;/t&gt; &lt;fex name="Theme"&gt;in mud&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="01/28/2002 04:59:48 PST Mon" abbrev="Thm" name="Theme" ID="2260">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Theme&lt;/fen&gt; covers or fills the &lt;fen&gt;Location&lt;/fen&gt;.  This FE most frequently occurs in a PP Complement headed by with or in.
+
+&lt;ex&gt;The waters of the bay &lt;t&gt;teemed&lt;/t&gt; &lt;fex name="Theme"&gt;with fish&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Physical_object" ID="68"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="01/28/2002 05:00:36 PST Mon" abbrev="Loc" name="Location" ID="2261">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Location&lt;/fen&gt; is the object or area that the &lt;fen&gt;Theme&lt;/fen&gt; fills or covers.  This frame element generally occurs as the External Argument.&lt;ex&gt;&lt;fex name="Location"&gt;The walls&lt;/fex&gt; &lt;t&gt;crawled&lt;/t&gt; &lt;fex name="Theme"&gt;with nanite surveillance probes&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Location"&gt;The picture frame&lt;/fex&gt; &lt;m&gt;was&lt;/m&gt; &lt;fex name="Degree"&gt;thickly&lt;/fex&gt; &lt;t&gt;coated&lt;/t&gt; &lt;fex name="Theme"&gt;with dust&lt;/fex&gt;.&lt;/ex&gt;
+ &lt;/def-root&gt;</definition>
+    <semType name="Location" ID="54"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="01/29/2002 05:13:10 PST Tue" abbrev="Degr" name="Degree" ID="2271">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Degree&lt;/fen&gt; of abundance with which the &lt;fen&gt;Theme&lt;/fen&gt; covers or fills the &lt;fen&gt;Location&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="08/02/2002 02:38:18 PDT Fri" abbrev="Dep" name="Depictive" ID="3491">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Depictive&lt;/fen&gt; describes the state of the &lt;fen&gt;Location&lt;/fen&gt;.&lt;ex&gt; She had &lt;fex name="Location"&gt;a closet&lt;/fex&gt; &lt;t&gt;crammed&lt;/t&gt; &lt;fex name="Depictive"&gt;full of clothes&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFF00" coreType="Peripheral" cBy="KmG" cDate="11/15/2006 03:30:29 PST Wed" abbrev="" name="Time" ID="10821">
+    <definition>&lt;def-root&gt;The period of time during which the the Abounding_with event occurs.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="199">Locative_relation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="1904">Lively_place</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on">
+    <relatedFrame ID="2916">Distributed_abundance</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1602">Abundance</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="284">Mass_motion</relatedFrame>
+    <relatedFrame ID="83">Expensiveness</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="76">Distributed_position</relatedFrame>
+  </frameRelation>
+</frame>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="08/05/2002 03:15:59 PDT Mon" name="Intoxicants" ID="390" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Intoxicant&lt;/fen&gt; is ingested in order to achieve an altered state of consciousness. A &lt;fen&gt;Type&lt;/fen&gt; or &lt;fen&gt;Descriptor&lt;/fen&gt; may be indicated as well. 
+&lt;ex&gt; We &lt;gov&gt;smoked&lt;/gov&gt; &lt;x&gt;some &lt;fex name="Descriptor"&gt;high-grade&lt;/fex&gt; &lt;fex name="Intoxicant"&gt;&lt;t&gt;marijuana&lt;/t&gt;&lt;/fex&gt;&lt;/x&gt;.&lt;/ex&gt; 
+&lt;ex&gt;They &lt;gov&gt;smoked&lt;/gov&gt; &lt;x&gt;&lt;fex name="Type"&gt;freebase&lt;/fex&gt; &lt;fex name="Intoxicant"&gt;&lt;t&gt;cocaine&lt;/t&gt;&lt;/fex&gt;&lt;/x&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="08/05/2002 03:18:19 PDT Mon" abbrev="Int" name="Intoxicant" ID="3495">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Intoxicant&lt;/fen&gt; is ingested.
+&lt;ex&gt; We &lt;gov&gt;smoke&lt;/gov&gt; &lt;x&gt; &lt;fex name = "Intoxicant"&gt;&lt;t&gt;marijuana&lt;/t&gt;&lt;/fex&gt;&lt;/x&gt; every day.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="08/05/2002 03:18:51 PDT Mon" abbrev="Type" name="Type" ID="3496">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Type&lt;/fen&gt; identifies the kind or sort of &lt;fen&gt;Intoxicant&lt;/fen&gt;.
+&lt;ex&gt;They smoked &lt;fex name="Type"&gt;freebase&lt;/fex&gt; &lt;fex name="Intoxicant"&gt;cocaine&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="08/05/2002 03:19:44 PDT Mon" abbrev="Desc" name="Descriptor" ID="3497">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Descriptor&lt;/fen&gt; describes a quality of the &lt;fen&gt;Intoxicant&lt;/fen&gt;.
+&lt;ex&gt; We smoked some &lt;fex name="Descriptor"&gt;fine&lt;/fex&gt; &lt;fex name = "Intoxicant"&gt;marijuana&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="08/06/2002 11:21:37 PDT Tue" abbrev="Co" name="Country_of_origin" ID="3504">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Country_of_origin&lt;/fen&gt; identifies where the &lt;fen&gt;Intoxicant&lt;/fen&gt; is grown or originates.
+
+ &lt;ex&gt; The British enjoy &lt;fex name="Country_of_origin"&gt;Afghanistan's&lt;/fex&gt; &lt;fex name="Intoxicant"&gt;opium&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="302">Physical_entity</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="214">Intoxication</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="421" POS="N" cBy="automatic" cDate="08/19/2020 07:20:19 UTC Wed" lemmaID="420" name="heroïne.n" status="Created" FN_EN_LU_ID="7034" Method="Iteration-1" RBN_LU_ID="r_n-16720" RBN_matching_relation="near_equivalence">
+    <definition>die uit morfine gemaakt wordt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="heroïne" order="1"/>
+  </lexUnit>
+  <lexUnit ID="422" POS="N" cBy="automatic" cDate="08/19/2020 07:20:22 UTC Wed" lemmaID="421" name="cocaïne.n" status="Created" FN_EN_LU_ID="7035" Method="Iteration-1" RBN_LU_ID="r_n-9501" RBN_matching_relation="near_equivalence">
+    <definition>dat gemaakt wordt uit de bladeren van de cocaplant</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="cocaïne" order="1"/>
+  </lexUnit>
+  <lexUnit ID="423" POS="N" cBy="automatic" cDate="08/19/2020 07:20:26 UTC Wed" lemmaID="422" name="opium.n" status="Created" FN_EN_LU_ID="7036" Method="Iteration-1" RBN_LU_ID="r_n-26623" RBN_matching_relation="near_equivalence">
+    <definition>dat van papavers wordt gemaakt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="opium" order="1"/>
+  </lexUnit>
+  <lexUnit ID="424" POS="N" cBy="automatic" cDate="08/19/2020 07:20:30 UTC Wed" lemmaID="423" name="nicotine.n" status="Created" FN_EN_LU_ID="7071" Method="Iteration-1" RBN_LU_ID="r_n-24978" RBN_matching_relation="near_equivalence">
+    <definition>die in tabak zit</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="nicotine" order="1"/>
+  </lexUnit>
+  <lexUnit ID="425" POS="N" cBy="automatic" cDate="08/19/2020 07:20:39 UTC Wed" lemmaID="424" name="hasj.n" status="Created" FN_EN_LU_ID="7079" Method="Iteration-1" RBN_LU_ID="r_n-16398" RBN_matching_relation="near_equivalence">
+    <definition>die gemaakt is van hennepplanten</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="hasj" order="1"/>
+  </lexUnit>
+  <lexUnit ID="426" POS="N" cBy="automatic" cDate="08/19/2020 07:20:44 UTC Wed" lemmaID="425" name="hasjiesj.n" status="Created" FN_EN_LU_ID="7079" Method="Iteration-1" RBN_LU_ID="r_n-16399" RBN_matching_relation="near_equivalence">
+    <definition>die gemaakt is van hennepplanten</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="hasjiesj" order="1"/>
+  </lexUnit>
+  <lexUnit ID="427" POS="N" cBy="automatic" cDate="08/19/2020 07:20:48 UTC Wed" lemmaID="426" name="drug.n" status="Created" FN_EN_LU_ID="7911" Method="Iteration-1" RBN_LU_ID="r_n-11651" RBN_matching_relation="near_equivalence">
+    <definition>dat je geest verdooft of bedwelmt of waardoor je dingen ziet die er in werkelijkheid niet zijn</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="drug" order="1"/>
+  </lexUnit>
+  <lexUnit ID="428" POS="N" cBy="automatic" cDate="08/19/2020 07:20:52 UTC Wed" lemmaID="427" name="sigaret.n" status="Created" FN_EN_LU_ID="17680" Method="Iteration-1" RBN_LU_ID="r_n-33736" RBN_matching_relation="near_equivalence">
+    <definition>gesnipperde tabak in een omhulsel van speciaal papier om op te roken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="sigaret" order="1"/>
+  </lexUnit>
+</frame>

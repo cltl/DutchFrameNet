@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="N" name="spreiding.n" ID="282" frame="Dispersal" frameID="267" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" FN_EN_LU_ID="4842" Method="Iteration-1" RBN_LU_ID="r_n-35246" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Agent" name="Agent"/>
+      <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="" name="Cause"/>
+      <FE fgColor="FFFFFF" bgColor="808080" type="Peripheral" abbrev="dis" name="Distance"/>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Extra-Thematic" abbrev="Exp" name="Explanation"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Goal_a" name="Goal_area"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Ind" name="Individuals"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="" name="Manner"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="" name="Means"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="" name="Path"/>
+      <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="" name="Place"/>
+      <FE fgColor="0000FF" bgColor="d0d0d0" type="Extra-Thematic" abbrev="" name="Result"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Src" name="Source"/>
+      <FE fgColor="FFFFFF" bgColor="A9A9A9" type="Peripheral" abbrev="spe" name="Speed"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="" name="Time"/>
+    </frame>
+  </header>
+  <definition>van het spreiden</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="spreiding" order="1"/>
+</lexUnit>

@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Tess" cDate="05/23/2001 03:07:57 PDT Wed" name="Education_teaching" ID="111" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame contains words referring to teaching and the participants in teaching.  A &lt;fen&gt;Student&lt;/fen&gt; comes to learn either about a &lt;fen&gt;Subject&lt;/fen&gt;; a &lt;fen&gt;Skill&lt;/fen&gt;; a &lt;fen&gt;Precept&lt;/fen&gt;; or a &lt;fen&gt;Fact&lt;/fen&gt; as a result of instruction by a &lt;fen&gt;Teacher&lt;/fen&gt;.
+
+Some of the nouns (schoolmaster, -mistress) in this frame refer to administrative positions and do not take relevant frame elements; these will be moved.  
+
+&lt;ex&gt;&lt;fex name="tea"&gt;Dad&lt;/fex&gt; &lt;t&gt;taught&lt;/t&gt; &lt;fex name=""&gt;me&lt;/fex&gt; &lt;fex name="fac"&gt;that if you work hard, you will be OK - no matter what happens&lt;/fex&gt;. &lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="fac"&gt;What&lt;/fex&gt; &lt;fex name="tea"&gt;Our Cat&lt;/fex&gt;  &lt;t&gt;taught&lt;/t&gt; &lt;fex name="stu"&gt;Me&lt;/fex&gt; &lt;fex name="sub"&gt; About Marketing&lt;/fex&gt;!&lt;/ex&gt;
+
+&lt;ex&gt;For two years &lt;fex name="tea"&gt;she&lt;/fex&gt; &lt;t&gt;taught&lt;/t&gt; &lt;fex name="stu"&gt;me&lt;/fex&gt; &lt;fex name="sub"&gt;French&lt;/fex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="tea"&gt;Mom and Dad&lt;/fex&gt; &lt;t&gt;taught&lt;/t&gt; &lt;fex name="stu"&gt;me&lt;/fex&gt; &lt;fex name="pre"&gt;not to bullshit&lt;/fex&gt;, because it always
+came back to bite me in the ass, without fail. &lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="tea"&gt;A young swiss girl up in a swiss chalet&lt;/fex&gt; &lt;t&gt;taught&lt;/t&gt; &lt;fex name="stu"&gt;me&lt;/fex&gt; &lt;fex name="ski"&gt;how to yodel&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;Young Murdock later met &lt;fex name="tea"&gt;a blind martial arts master known as Stick, who&lt;/fex&gt; taught him how to use his augmented senses and &lt;t&gt;trained&lt;/t&gt; &lt;fex name="stu"&gt;him&lt;/fex&gt; &lt;fex name="rol"&gt;as a fighter&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt; Maria, &lt;fex name="stu"&gt;a woman&lt;/fex&gt; &lt;t&gt;studying&lt;/t&gt; &lt;fex name="rol"&gt;to be a nun&lt;/fex&gt; is sent from her convent to be the governess of the seven children of a widowed naval captain &lt;/ex&gt;
+
+Frame-Element relations:
+
+Several Frame element relations hold in this frame. There is a core-set {&lt;fen&gt;Material&lt;/fen&gt;, &lt;fen&gt;Teacher&lt;/fen&gt;} (possibly also including &lt;fen&gt;Institution&lt;/fen&gt;); these FE's can fill the subject slot of the teach-type verbs.
+There is another core-set  {&lt;fen&gt;Precept&lt;/fen&gt;, &lt;fen&gt;Subject&lt;/fen&gt;, &lt;fen&gt;Skill&lt;/fen&gt;, &lt;fen&gt;Fact&lt;/fen&gt;, &lt;fen&gt;Role&lt;/fen&gt;} to do with what is learnt. In addition, the FE &lt;fen&gt;Qualification&lt;/fen&gt; may occur with &lt;fen&gt;Subject&lt;/fen&gt; and &lt;fen&gt;Role&lt;/fen&gt; 
+&lt;ex&gt;My sister is &lt;t&gt;studying&lt;/t&gt; &lt;fex name="Qualification"&gt;for a maths degree &lt;/fex&gt;  &lt;fex name="Role"&gt; to be a teacher &lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;She's &lt;t&gt;studying&lt;/t&gt; &lt;fex name="Subject"&gt;maths&lt;/fex&gt; &lt;fex name="Role"&gt;to be a teacher &lt;/fex&gt;.&lt;/ex&gt;
+
+Phrases expressing &lt;fen&gt;Qualification&lt;/fen&gt; also very often include information about the &lt;fen&gt;Subject&lt;/fen&gt; (see below), which is to be annotated on the second layer.
+
+&lt;ex&gt;Bill is &lt;t&gt;studying&lt;/t&gt; &lt;fex name="Qualification"&gt;for a BS in physics/a maths degree&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Bill is &lt;t&gt;studying&lt;/t&gt; for a BS in &lt;fex name="Subject"&gt;physics&lt;/fex&gt;/a &lt;fex name="Subject"&gt;maths&lt;/fex&gt; degree.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+  <semType name="Non-perspectivalized_frame" ID="52"/>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="Tess" cDate="05/23/2001 03:10:10 PDT Wed" abbrev="tea" name="Teacher" ID="541">
+    <definition>&lt;def-root&gt;One who instructs a &lt;fen&gt;Student&lt;/fen&gt; in some area of knowledge or skill.&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="Tess" cDate="05/23/2001 03:12:12 PDT Wed" abbrev="stu" name="Student" ID="542">
+    <definition>&lt;def-root&gt;One who is instructed by a &lt;fen&gt;Teacher&lt;/fen&gt; in skills or knowledge.&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="Tess" cDate="05/23/2001 03:15:38 PDT Wed" abbrev="Instn" name="Institution" ID="543">
+    <definition>&lt;def-root&gt;An educational establishment, such as a school or college.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="Tess" cDate="05/23/2001 03:18:23 PDT Wed" abbrev="sub" name="Subject" ID="544">
+    <definition>&lt;def-root&gt;The area of knowledge or skill which is taught by a &lt;fen&gt;Teacher&lt;/fen&gt; or to a &lt;fen&gt;Student&lt;/fen&gt;.
+
+&lt;ex&gt;She's a &lt;fex name="Subject"&gt;French&lt;/fex&gt; &lt;t&gt;Teacher&lt;/t&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Precept" ID="6514"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Peripheral" cBy="Tess" cDate="05/23/2001 03:20:08 PDT Wed" abbrev="Lvl" name="Level" ID="545">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Level&lt;/fen&gt; of a student in his/her education. This is  distinct from the goal or qualification towards which a student is working (&lt;fen&gt;Qualification&lt;/fen&gt; ). &lt;ex&gt;a &lt;fex name="Level"&gt;graduate&lt;/fex&gt; &lt;fen&gt;student&lt;/fen&gt; &lt;/ex&gt; &lt;ex&gt;a &lt;fex name="Level"&gt;fourth grade&lt;/fex&gt; &lt;fen&gt;student&lt;/fen&gt; &lt;/ex&gt; The above are both &lt;fen&gt;Level&lt;/fen&gt;s, in contrast to: &lt;ex&gt;a &lt;fex name="Qualification"&gt;doctoral&lt;/fex&gt; &lt;fen&gt;Student&lt;/fen&gt; &lt;/ex&gt; &lt;ex&gt;an &lt;fex name="Qualification"&gt;MA&lt;/fex&gt; &lt;fen&gt;Student&lt;/fen&gt; &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="Tess" cDate="05/24/2001 11:48:40 PDT Thu" abbrev="Qual" name="Qualification" ID="568">
+    <definition>&lt;def-root&gt;A formal Qualification such as an academic degree or a certificate for which a student is aiming. 
+
+&lt;ex&gt;She's &lt;t&gt;Studying&lt;/t&gt; &lt;fex name="Qualification"&gt;for a Master's degree&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;She's an &lt;fex name="Qualification"&gt;MA&lt;/fex&gt; &lt;t&gt;Student&lt;/t&gt;&lt;/ex&gt;
+
+
+&lt;/def-root&gt;</definition>
+    <excludesFE name="Fact" ID="6515"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="05/25/2001 12:20:47 PDT Fri" abbrev="Degr" name="Degree" ID="574">
+    <definition>&lt;def-root&gt;Degree to which event occurs&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="05/25/2001 12:20:47 PDT Fri" abbrev="Dep" name="Depictive" ID="575">
+    <definition>&lt;def-root&gt;Depictive phrase describing the actor of an action&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="05/25/2001 12:20:47 PDT Fri" abbrev="Manr" name="Manner" ID="578">
+    <definition>&lt;def-root&gt;Manner of performing an action&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="05/25/2001 12:20:47 PDT Fri" abbrev="Means" name="Means" ID="579">
+    <definition>&lt;def-root&gt;An intentional action performed by the actor (&lt;fen&gt;Student&lt;/fen&gt; or &lt;fen&gt;Teacher&lt;/fen&gt; depending on the profiling of particular words) that lets them achieve the instruction or learning they are attempting. &lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="05/25/2001 12:20:47 PDT Fri" abbrev="Result" name="Result" ID="580">
+    <definition>&lt;def-root&gt;Result of an event&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="CHg" cDate="06/17/2004 10:33:58 PDT Thu" abbrev="Time" name="Time" ID="6510">
+    <definition>&lt;def-root&gt;The time when the teaching occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Peripheral" cBy="CHg" cDate="06/17/2004 10:37:26 PDT Thu" abbrev="" name="Place" ID="6511">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Place&lt;/fen&gt; is the location within which the teaching takes place.
+
+&lt;!--Consider whether a possible &lt;fen&gt;Place&lt;/fen&gt; phrase is really where the training took place or is rather part of a description of the &lt;fen&gt;Institution&lt;/fen&gt;. --&gt;
+&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="CHg" cDate="06/17/2004 02:40:24 PDT Thu" abbrev="" name="Duration" ID="6512">
+    <definition>&lt;def-root&gt;The amount of time for which a state holds or a process is ongoing.&lt;/def-root&gt;</definition>
+    <semType name="Duration" ID="142"/>
+  </FE>
+  <FE bgColor="7CCD7C" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/17/2004 02:47:36 PDT Thu" abbrev="ski" name="Skill" ID="6513">
+    <definition>&lt;def-root&gt;An action which the &lt;fen&gt;Student&lt;/fen&gt; is able to perform as a result of instruction.
+
+
+&lt;ex&gt;Taut with worry, Dad &lt;t&gt;taught&lt;/t&gt; us &lt;fex name="ski"&gt;how to drive&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Subject" ID="544"/>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="00008B" coreType="Core" cBy="JKR" cDate="06/17/2004 02:55:50 PDT Thu" abbrev="pre" name="Precept" ID="6514">
+    <definition>&lt;def-root&gt;A guideline for correct behavior. In most cases, this concerns morally or socially desirable actions.
+
+&lt;ex&gt;My brother &lt;t&gt;taught&lt;/t&gt; me &lt;fex name="pre"&gt;not to be mean to guys when I'm not interested in them&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Skill" ID="6513"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFF00" coreType="Core" cBy="JKR" cDate="06/17/2004 03:00:28 PDT Thu" abbrev="fac" name="Fact" ID="6515">
+    <definition>&lt;def-root&gt;A piece of information that the &lt;fen&gt;Student&lt;/fen&gt; is informed of by the &lt;fen&gt;Teacher&lt;/fen&gt;.
+
+&lt;ex&gt;When I was two she &lt;t&gt;taught&lt;/t&gt; me &lt;fex name="fac"&gt;that a quarter was 25 cents and a dime was 10 cents&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Precept" ID="6514"/>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="FF0000" coreType="Core" cBy="cir" cDate="06/24/2004 11:23:53 PDT Thu" abbrev="mat" name="Material" ID="6566">
+    <definition>&lt;def-root&gt;Educational &lt;fen&gt;Material&lt;/fen&gt;, such as books, tapes, or videos, used by a &lt;fen&gt;Teacher&lt;/fen&gt; or a &lt;fen&gt;Student&lt;/fen&gt; to acquire skills or knowledge.
+
+&lt;ex&gt;All employees have received &lt;fex name="mat"&gt;a booklet&lt;/fex&gt; &lt;t&gt;INSTRUCTING&lt;/t&gt; them on how to report ` anything from unwanted touching and uncalled-for blue jokes to overt demands for sexual favours . "&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="800080" coreType="Core" cBy="JKR" cDate="06/24/2004 01:11:02 PDT Thu" abbrev="rol" name="Role" ID="6567">
+    <definition>&lt;def-root&gt;A role, typically professional or vocational,  that the &lt;fen&gt;Student&lt;/fen&gt; is meant to be able to fill as a result of their training.
+
+&lt;ex&gt; When his father died he went to live with an uncle in Ka'u who &lt;t&gt;trained&lt;/t&gt; him &lt;fex name="rol"&gt;as a warrior&lt;/fex&gt; during his teenage years&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="11/19/2004 07:34:11 PST Fri" abbrev="cou" name="Course" ID="7278">
+    <definition>&lt;def-root&gt;FN: a program of lectures or other matter dealing with a subject&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/14/2006 10:10:36 PDT Mon" abbrev="pur" name="Purpose" ID="10463">
+    <definition>&lt;def-root&gt;The state-of-affairs that the &lt;fen&gt;Teacher&lt;/fen&gt; hopes to bring about by teaching.
+
+&lt;ex&gt;I &lt;t&gt;teach&lt;/t&gt; &lt;fex name="Purpose"&gt;so that I can see the little light-bulb light up&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Course" ID="7278"/>
+    <memberFE name="Teacher" ID="541"/>
+    <memberFE name="Institution" ID="543"/>
+    <memberFE name="Material" ID="6566"/>
+  </FEcoreSet>
+  <FEcoreSet>
+    <memberFE name="Precept" ID="6514"/>
+    <memberFE name="Role" ID="6567"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="230">Intentionally_affect</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1130">Studying</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="1132">Memorization</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="295" POS="N" cBy="manual" cDate="08/19/2020 07:12:55 UTC Wed" lemmaID="295" name="mentor.n" status="Created" FN_EN_LU_ID="2273" Method="Iteration-1" RBN_LU_ID="r_n-23622" RBN_matching_relation="equivalence">
+    <definition>die een groep leerlingen of studenten begeleidt en helpt bij problemen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="mentor" order="1"/>
+  </lexUnit>
+</frame>

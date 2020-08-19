@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="N" name="emotie.n" ID="373" frame="Feeling" frameID="396" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" FN_EN_LU_ID="10301" Method="Iteration-1" RBN_LU_ID="r_n-12377" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Emot" name="Emotion"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Emo_s" name="Emotional_state"/>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Eval" name="Evaluation"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Exp" name="Experiencer"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Extra-Thematic" abbrev="Exp" name="Explanation"/>
+    </frame>
+  </header>
+  <definition>van het gemoed</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="emotie" order="1"/>
+</lexUnit>

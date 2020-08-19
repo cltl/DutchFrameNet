@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="02/28/2002 05:57:56 PST Thu" name="Text_creation" ID="278" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Author&lt;/fen&gt; creates a &lt;fen&gt;Text&lt;/fen&gt;, either written, such as a letter, or spoken, such as a speech,  that contains meaningful linguistic tokens, and may have a particular &lt;fen&gt;Addressee&lt;/fen&gt; in mind.  The &lt;fen&gt;Text&lt;/fen&gt; may include information about its topic, although the latter is not an FE in this frame.
+
+&lt;ex&gt;&lt;fex name="Author"&gt;I&lt;/fex&gt; &lt;t&gt;penned&lt;/t&gt; &lt;fex name="Text"&gt;a letter concerning racism&lt;/fex&gt;  &lt;fex name="Addressee"&gt;to Congress&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Author"&gt;The brothers&lt;/fex&gt; &lt;t&gt;said&lt;/t&gt; &lt;fex name="Text"&gt;not two words&lt;/fex&gt; &lt;fex name="Addressee"&gt;to each other&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;t&gt;Jot&lt;/t&gt; &lt;fex name="Text"&gt;any notes you need&lt;/fex&gt; &lt;fex name="Place"&gt;below the line&lt;/fex&gt; &lt;fex name="Manner"&gt;in red pen only&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/04/2002 03:05:05 PST Mon" abbrev="Author" name="Author" ID="2428">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Author&lt;/fen&gt; produces a particular &lt;fen&gt;Text&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="03/04/2002 03:05:05 PST Mon" abbrev="Cmpnt" name="Components" ID="2429">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Components&lt;/fen&gt; are the parts that the &lt;fen&gt;Author&lt;/fen&gt; uses to construct the &lt;fen&gt;Text&lt;/fen&gt;. &lt;ex&gt; Caitlin &lt;t&gt;wrote&lt;/t&gt; the book &lt;fex name="Components"&gt;from memoirs she collected&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/04/2002 03:05:05 PST Mon" abbrev="text" name="Text" ID="2430">
+    <definition>&lt;def-root&gt;The entity which results from the act of writing or speaking.
+&lt;ex&gt;Michael &lt;t&gt;wrote&lt;/t&gt; &lt;fex name="Text"&gt;a frame description&lt;/fex&gt;.&lt;/ex&gt; &lt;ex&gt; Cybil wanted to &lt;t&gt;speak&lt;/t&gt; &lt;fex name="Text"&gt;those three words&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="03/04/2002 03:05:05 PST Mon" abbrev="Depict" name="Depictive" ID="2431">
+    <definition>&lt;def-root&gt;Depictive phrase describing the actor of an action
+&lt;ex&gt;I &lt;t&gt;wrote&lt;/t&gt; everything in that decade &lt;fex name="Depict"&gt;on drugs&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/04/2002 03:05:05 PST Mon" abbrev="Ins" name="Instrument" ID="2432">
+    <definition>&lt;def-root&gt;The instrument with which an intentional act is performed.&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/04/2002 03:05:05 PST Mon" abbrev="Place" name="Place" ID="2433">
+    <definition>&lt;def-root&gt;Where the event takes place.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/04/2002 03:05:05 PST Mon" abbrev="Manr" name="Manner" ID="2434">
+    <definition>&lt;def-root&gt;Manner of performing an action.  This frame includes some peculiar examples of manner phrases.
+&lt;t&gt;Write&lt;/t&gt; it &lt;fex name="Manner"&gt;in pen&lt;/fex&gt;.  
+&lt;t&gt;Write&lt;/t&gt; it &lt;fex name="Manner"&gt;in ink&lt;/fex&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/04/2002 03:05:05 PST Mon" abbrev="Mns" name="Means" ID="2435">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Means&lt;/fen&gt; by which a &lt;fen&gt;Text&lt;/fen&gt; is created.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/04/2002 03:05:05 PST Mon" abbrev="Purp" name="Purpose" ID="2436">
+    <definition>&lt;def-root&gt;The purpose for which an intentional act is performed.
+&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/04/2002 03:05:06 PST Mon" abbrev="Time" name="Time" ID="2437">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Time&lt;/fen&gt; at which the text is created.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="03/08/2002 05:05:09 PST Fri" abbrev="Addressee" name="Addressee" ID="2452">
+    <definition>&lt;def-root&gt;This is the person to whom the Message is communicated. When this FE is expressed, it often appears in a prepositional phrase introduced by to, or as the direct object, or as the first object in a double object construction.
+
+
+&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="03/08/2002 05:07:13 PST Fri" abbrev="Ben" name="Beneficiary" ID="2454">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Beneficiary&lt;/fen&gt; identifies the person in whose honor or for whose benefit the &lt;fen&gt;Text&lt;/fen&gt; is created.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="GlY" cDate="03/18/2003 05:15:53 PST Tue" abbrev="For" name="Form" ID="4290">
+    <definition>&lt;def-root&gt;This FE describes the form in which the text is presented.
+
+&lt;ex&gt;&lt;fex name="Author"&gt;Yeats&lt;/fex&gt; &lt;t&gt;wrote&lt;/t&gt; &lt;t&gt;out&lt;/t&gt; his poems &lt;fex name="Form"&gt;in prose&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="06/17/2003 03:39:55 PDT Tue" abbrev="exp" name="Explanation" ID="4640">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Explanation&lt;/fen&gt; for creating the text.
+&lt;ex&gt;I &lt;t&gt;wrote&lt;/t&gt; the article &lt;fex name="exp"&gt;because I would have lost my teaching post otherwise&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="AlK" cDate="11/04/2010 12:29:21 PDT Thu" abbrev="" name="Medium" ID="14256">
+    <definition>&lt;def-root&gt;The language in which the &lt;fen&gt;Text&lt;/fen&gt; is represented or the physical materials upon which the &lt;fen&gt;Text&lt;/fen&gt; is recorded.
+
+&lt;ex&gt;I &lt;t&gt;wrote&lt;/t&gt; the code &lt;fex name="Medium"&gt;on the back of the envelope&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="280">Intentionally_create</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="1151">Sign_agreement</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="6">Communication</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1081">Spelling_and_pronouncing</relatedFrame>
+    <relatedFrame ID="298">Text</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="04/12/2002 05:32:52 PDT Fri" name="People" ID="304" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame contains general words for Individuals, i.e. humans. The &lt;fen&gt;Person&lt;/fen&gt; is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have an &lt;fen&gt;Age&lt;/fen&gt;, &lt;fen&gt;Descriptor&lt;/fen&gt;, &lt;fen&gt;Origin&lt;/fen&gt;, &lt;fen&gt;Persistent_characteristic&lt;/fen&gt;, or &lt;fen&gt;Ethnicity&lt;/fen&gt;. 
+&lt;ex&gt; A &lt;fex name="Person"&gt;man&lt;/fex&gt; &lt;fex name="Origin"&gt;from Phoenix&lt;/fex&gt; was shot yesterday.&lt;/ex&gt; 
+&lt;ex&gt; She gave birth to a &lt;fex name="Descriptor"&gt;screaming&lt;/fex&gt; &lt;fex name="Person"&gt;baby&lt;/fex&gt;yesterday.&lt;/ex&gt; 
+&lt;ex&gt; I study &lt;fex name="Age"&gt;16-year-old&lt;/fex&gt; &lt;fex name="Persistent_characteristic"&gt;female&lt;/fex&gt; &lt;fex name="Person"&gt;adolescents&lt;/fex&gt;.&lt;/ex&gt; 
+&lt;ex&gt; I am dating an &lt;fex name="Ethnicity"&gt;African-American&lt;/fex&gt; &lt;fex name="Person"&gt;man&lt;/fex&gt;.&lt;/ex&gt; 
+&lt;ex&gt; She comforted the &lt;fex name="Descriptor"&gt;terrified&lt;/fex&gt; &lt;fex name="Person"&gt;child&lt;/fex&gt;.&lt;/ex&gt; 
+&lt;ex&gt; I always thought of him as a &lt;fex name="Persistent_characteristic"&gt;stupid&lt;/fex&gt; &lt;fex name="Person"&gt;man&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KCo" cDate="04/15/2002 02:45:20 PDT Mon" abbrev="Ori" name="Origin" ID="2617">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Origin&lt;/fen&gt; is the place where the &lt;fen&gt;Person&lt;/fen&gt; was born or lived a salient part of her or his life.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="KCo" cDate="04/15/2002 02:46:26 PDT Mon" abbrev="Person" name="Person" ID="2618">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Person&lt;/fen&gt; is the human being.&lt;/def-root&gt;</definition>
+    <semType name="Human" ID="80"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KCo" cDate="04/15/2002 02:47:25 PDT Mon" abbrev="Pers_char" name="Persistent_characteristic" ID="2619">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Persistent_characteristic&lt;/fen&gt; is a physiological characteristic or personality trait of the &lt;fen&gt;Person&lt;/fen&gt; which is concieved of as persisting over time.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KCo" cDate="04/15/2002 02:49:56 PDT Mon" abbrev="Desc" name="Descriptor" ID="2620">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Descriptor&lt;/fen&gt; is a temporary condition of the &lt;fen&gt;Person&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KCo" cDate="04/15/2002 02:59:56 PDT Mon" abbrev="Age" name="Age" ID="2621">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Age&lt;/fen&gt; is the length of time the &lt;fen&gt;Person&lt;/fen&gt; has been alive.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="08/14/2002 09:20:25 PDT Wed" abbrev="Eth" name="Ethnicity" ID="3540">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Ethnicity&lt;/fen&gt; is the religious, racial, national, socio-economic or cultural group to which the &lt;fen&gt;Person&lt;/fen&gt; belongs.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="000000" coreType="Extra-Thematic" cBy="MJE" cDate="08/15/2002 04:36:37 PDT Thu" abbrev="coa" name="Context_of_acquaintance" ID="3561">
+    <definition>&lt;def-root&gt;An expression indicating the context with which the &lt;fen&gt;Person&lt;/fen&gt; is associated.
+
+&lt;ex&gt;Hey, where'd that &lt;fex name="coa"&gt;museum&lt;/fex&gt; &lt;t&gt;guy&lt;/t&gt; go?&lt;/ex&gt;
+&lt;ex&gt;Is that the &lt;t&gt;woman&lt;/t&gt; &lt;fex name="coa"&gt;from the rally&lt;/fex&gt;?&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="2567">Biological_entity</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="973">People_by_age</relatedFrame>
+    <relatedFrame ID="974">People_by_origin</relatedFrame>
+    <relatedFrame ID="1021">People_by_religion</relatedFrame>
+    <relatedFrame ID="1023">People_by_jurisdiction</relatedFrame>
+    <relatedFrame ID="1071">People_by_vocation</relatedFrame>
+    <relatedFrame ID="1102">People_by_morality</relatedFrame>
+    <relatedFrame ID="1564">People_along_political_spectrum</relatedFrame>
+    <relatedFrame ID="1143">People_by_residence</relatedFrame>
+    <relatedFrame ID="2598">Irregular_combatants</relatedFrame>
+    <relatedFrame ID="2615">Noncombatant</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1689">Relation_between_individuals</relatedFrame>
+    <relatedFrame ID="1345">Fields</relatedFrame>
+    <relatedFrame ID="2251">Race_descriptor</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

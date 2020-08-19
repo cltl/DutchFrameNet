@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="KCo" cDate="02/05/2002 02:34:45 PST Tue" name="Cutting" ID="265" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; cuts a &lt;fen&gt;Item&lt;/fen&gt; into &lt;fen&gt;Pieces&lt;/fen&gt; using an &lt;fen&gt;Instrument&lt;/fen&gt; (which may or may not be expressed).
+
+&lt;ex&gt;At the ceremony, &lt;fex name="Agent"&gt;the CEO&lt;/fex&gt; &lt;t&gt;cut&lt;/t&gt; &lt;fex name="Item"&gt;the red ribbon hanging across the main entrance&lt;/fex&gt; &lt;fex name="Pieces"&gt;into a glorious confetti&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="02/05/2002 06:35:48 PST Tue" abbrev="Agt" name="Agent" ID="2272">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Agent&lt;/fen&gt; is the person cutting the &lt;fen&gt;Item&lt;/fen&gt; into &lt;fen&gt;Pieces&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="A9A9A9" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/05/2002 06:35:48 PST Tue" abbrev="Ins" name="Instrument" ID="2273">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Instrument&lt;/fen&gt; with which the &lt;fen&gt;Item&lt;/fen&gt; is being cut into &lt;fen&gt;Pieces&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/05/2002 06:35:48 PST Tue" abbrev="Place" name="Place" ID="2274">
+    <definition>&lt;def-root&gt;Where the slicing takes place.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/05/2002 06:35:48 PST Tue" abbrev="Purp" name="Purpose" ID="2275">
+    <definition>&lt;def-root&gt;The purpose for which the &lt;fen&gt;Item&lt;/fen&gt; is being sliced into &lt;fen&gt;Pieces&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/05/2002 06:35:48 PST Tue" abbrev="Time" name="Time" ID="2276">
+    <definition>&lt;def-root&gt;When the slicing occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/05/2002 06:35:48 PST Tue" abbrev="Mns" name="Means" ID="2277">
+    <definition>&lt;def-root&gt;An act of the &lt;fen&gt;Agent&lt;/fen&gt; that accomplishes the slicing.
+&lt;ex&gt;I &lt;t&gt;sliced&lt;/t&gt; the cucumber in 1/8th inch slices &lt;fex name="Mns"&gt;by marking intervals with a ruler&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="02/05/2002 06:35:49 PST Tue" abbrev="Item" name="Item" ID="2278">
+    <definition>&lt;def-root&gt;The item which is being cut into &lt;fen&gt;Pieces&lt;/fen&gt;.
+&lt;ex&gt;People back then had to &lt;t&gt;chop&lt;/t&gt; &lt;fex name="Item"&gt;firewood&lt;/fex&gt; all day long.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="02/05/2002 06:36:26 PST Tue" abbrev="Result" name="Result" ID="2280">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Result&lt;/fen&gt; of the &lt;fen&gt;Item&lt;/fen&gt; being sliced into &lt;fen&gt;Pieces&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/05/2002 06:36:49 PST Tue" abbrev="Manr" name="Manner" ID="2281">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Manner&lt;/fen&gt; in which the &lt;fen&gt;Item&lt;/fen&gt; is being cut into &lt;fen&gt;Pieces&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="02/06/2002 01:07:17 PST Wed" abbrev="Pie" name="Pieces" ID="2286">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Pieces&lt;/fen&gt; are the parts of the original &lt;fen&gt;Item&lt;/fen&gt; which are the result of the slicing.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="230">Intentionally_affect</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

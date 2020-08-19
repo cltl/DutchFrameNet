@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="07/24/2003 11:37:50 PDT Thu" name="Becoming_silent" ID="731" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;In this frame a &lt;fen&gt;Speaker&lt;/fen&gt; ceases speaking, sometimes about a particular &lt;fen&gt;Topic&lt;/fen&gt;. An &lt;fen&gt;Expressor&lt;/fen&gt; may also be indicated.
+&lt;ex&gt;&lt;/ex&gt;
+The words of this frame are very frequently used imperatively, to the extent that certain words and phrases (&lt;ment&gt;not another word, silence, shhh&lt;/ment&gt;) can only be used this way.
+
+&lt;ex&gt;Finally, &lt;fex name="Speaker"&gt;Jan&lt;/fex&gt; &lt;t&gt;shut&lt;/t&gt; &lt;t&gt;up&lt;/t&gt; &lt;fex name="Topic"&gt;about his car accident&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Expressor"&gt;The children's laughter&lt;/fex&gt; &lt;t&gt;quieted&lt;/t&gt; &lt;t&gt;down&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;Somehow, &lt;fex name="Speaker"&gt;he&lt;/fex&gt; managed to &lt;t&gt;hold&lt;/t&gt; &lt;fex name="Speaker"&gt;his&lt;/fex&gt; &lt;t&gt;tongue&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="07/24/2003 11:38:46 PDT Thu" abbrev="" name="Speaker" ID="4825">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Speaker&lt;/fen&gt; has previously been speaking but has now stopped.
+&lt;ex&gt;&lt;fex name="Speaker"&gt;The children&lt;/fex&gt; finally &lt;t&gt;quieted&lt;/t&gt; &lt;t&gt;down&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="07/24/2003 11:59:26 PDT Thu" abbrev="" name="Topic" ID="4826">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Topic&lt;/fen&gt; is the subject which the &lt;fen&gt;Speaker&lt;/fen&gt; had been speaking about.
+&lt;ex&gt;Mark &lt;t&gt;shut&lt;/t&gt; &lt;t&gt;up&lt;/t&gt; &lt;fex name="Topic"&gt;about the book&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="07/24/2003 12:00:14 PDT Thu" abbrev="" name="Place" ID="4827">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Place&lt;/fen&gt; is the location where the becoming silent occurs.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="07/24/2003 12:00:57 PDT Thu" abbrev="" name="Time" ID="4828">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; is when the becoming silent occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="07/24/2003 12:19:53 PDT Thu" abbrev="" name="Expressor" ID="4831">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Expressor&lt;/fen&gt; is the &lt;fen&gt;Speaker&lt;/fen&gt;'s voice or other communicative noise emitted by the &lt;fen&gt;Speaker&lt;/fen&gt;. &lt;ex&gt;&lt;fex name="Expressor"&gt;The excited chatter&lt;/fex&gt; &lt;t&gt;hushed&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root &gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="06/02/2006 11:14:49 PDT Fri" abbrev="" name="Manner" ID="10184">
+    <definition>&lt;def-root&gt;The manner in which the quietening occurs. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="HPh" cDate="05/05/2015 05:23:23 PDT Tue" abbrev="exp" name="Explanation" ID="16442">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Explanation&lt;/fen&gt; denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the &lt;fen&gt;Explanation&lt;/fen&gt; causes the target's proposition, but not in all cases.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Speaker" ID="4825"/>
+    <memberFE name="Expressor" ID="4831"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

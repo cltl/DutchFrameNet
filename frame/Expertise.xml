@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/18/2001 07:42:50 PDT Mon" name="Expertise" ID="136" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame concerns people's knowledge or skill in certain domains.  It does not concern acquaintance or familiarity with people.
+With adjectives as targets in this frame, we annotate on two FE layers.
+&lt;ex&gt;FE Layer-1: He is an &lt;t&gt;experienced&lt;/t&gt; &lt;fex name="Prot"&gt;programmer&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;FE Layer-2: He is an &lt;t&gt;experienced&lt;/t&gt; &lt;fex name="Skill"&gt;programmer&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/20/2001 06:52:08 PDT Wed" abbrev="Prot" name="Protagonist" ID="893">
+    <definition>&lt;def-root&gt;The person whose expertise is assessed.&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/20/2001 07:13:01 PDT Wed" abbrev="Skill" name="Skill" ID="894">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Skill&lt;/fen&gt; identifies the &lt;fen&gt;Protagonist&lt;/fen&gt;'s talent or ability to do things with one's hand or body.&lt;/def-root&gt;</definition>
+    <excludesFE name="Behavior_product" ID="1078"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/20/2001 07:14:11 PDT Wed" abbrev="" name="Knowledge" ID="895">
+    <definition>&lt;def-root&gt;The area of knowledge (as opposed to a practical skill) in which the &lt;fen&gt;Protagonist&lt;/fen&gt; 's experience is assessed.&lt;/def-root&gt;</definition>
+    <excludesFE name="Behavior_product" ID="1078"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/20/2001 07:14:40 PDT Wed" abbrev="Degr" name="Degree" ID="901">
+    <definition>&lt;def-root&gt;Degree to which event occurs&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/25/2001 05:16:26 PDT Mon" abbrev="" name="Behavior_product" ID="1078">
+    <definition>&lt;def-root&gt;A  product of behavior that shows the &lt;fen&gt;Protagonist&lt;/fen&gt;'s skill or lack of skill.
+
+&lt;ex&gt;A &lt;t&gt;skillful&lt;/t&gt; &lt;fex name="Behavior_product"&gt;advertising campaign&lt;/fex&gt; persuaded voters that his opponent was soft on crime.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/27/2001 11:37:10 PDT Wed" abbrev="Focal_participant" name="Focal_participant" ID="1109">
+    <definition>&lt;def-root&gt;This frame element can only occur in place of a skill expression. It refers to the prototypical patient in an action involving the Protagonist. For instance, in the following sentence  the children are experts at some (contextually given) action such as rolling the hoops.
+
+&lt;fex name="Protagonist"&gt;Some children&lt;/fex&gt; &lt;m&gt;were&lt;/m&gt; &lt;fex name="Degree"&gt;quite&lt;/fex&gt; &lt;t&gt;expert&lt;/t&gt; &lt;fex name="Focal_participant"&gt;with wooden hoops&lt;/fex&gt;.&lt;/def-root&gt;</definition>
+    <excludesFE name="Behavior_product" ID="1078"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/27/2001 01:49:49 PDT Wed" abbrev="" name="Role" ID="1113">
+    <definition>&lt;def-root&gt;This frame element denotes a role in which the protagonist has developed his expertise. 
+
+&lt;ex&gt;&lt;fex name="Protagonist"&gt;His&lt;/fex&gt; &lt;t&gt;prowess&lt;/t&gt; &lt;fex name="Role"&gt;as a surgeon&lt;/fex&gt; is impressive.&lt;/ex&gt;
+
+In many cases, the &lt;fen&gt;Role&lt;/fen&gt; noun secondarily evokes the &lt;fen&gt;Skill&lt;/fen&gt; that is at issue. 
+&lt;/def-root&gt;</definition>
+    <excludesFE name="Behavior_product" ID="1078"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="07/01/2003 09:58:24 PDT Tue" abbrev="" name="Manner" ID="4707">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Manner&lt;/fen&gt; give further description of the way in which the &lt;fen&gt;Protagonist&lt;/fen&gt; exhibits their skill or lack of skill.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="000000" coreType="Peripheral" cBy="MiL" cDate="06/07/2006 04:49:18 PDT Wed" abbrev="" name="Judge" ID="10262">
+    <definition>&lt;def-root&gt;The individual whose point of view is taken in assigning the judgment denoted by the target.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="KmG" cDate="11/06/2007 03:05:01 PST Tue" abbrev="" name="Time" ID="12044">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; when the &lt;fen&gt;Protagonist&lt;/fen&gt; has the expertise. &lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Role" ID="1113"/>
+    <memberFE name="Focal_participant" ID="1109"/>
+    <memberFE name="Knowledge" ID="895"/>
+    <memberFE name="Skill" ID="894"/>
+  </FEcoreSet>
+  <FEcoreSet>
+    <memberFE name="Protagonist" ID="893"/>
+    <memberFE name="Behavior_product" ID="1078"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="369">Social_behavior_evaluation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1682">Result_of_attempt_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="353" POS="A" cBy="automatic" cDate="08/19/2020 07:16:08 UTC Wed" lemmaID="352" name="ervaren.a" status="Created" FN_EN_LU_ID="2681" Method="Iteration-1" RBN_LU_ID="r_a-10444" RBN_matching_relation="near_equivalence">
+    <definition>geroutineerd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="ervaren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="354" POS="N" cBy="manual" cDate="08/19/2020 07:16:11 UTC Wed" lemmaID="353" name="specialist.n" status="Created" FN_EN_LU_ID="2700" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-34814" RBN_matching_relation="near_equivalence">
+    <definition>die zich op een bepaald onderdeel van een gebied van kennis, bedrijf, techniek enz. heeft toegelegd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="specialist" order="1"/>
+  </lexUnit>
+  <lexUnit ID="355" POS="N" cBy="automatic" cDate="08/19/2020 07:16:14 UTC Wed" lemmaID="354" name="autoriteit.n" status="Created" FN_EN_LU_ID="2700" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-4243" RBN_matching_relation="near_equivalence">
+    <definition>die deskundig is op een bepaald gebied</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="autoriteit" order="1"/>
+  </lexUnit>
+  <lexUnit ID="356" POS="N" cBy="manual" cDate="08/19/2020 07:16:18 UTC Wed" lemmaID="355" name="deskundige.n" status="Created" FN_EN_LU_ID="2700" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-10735" RBN_matching_relation="near_equivalence">
+    <definition>die deskundig is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="deskundige" order="1"/>
+  </lexUnit>
+  <lexUnit ID="357" POS="N" cBy="manual" cDate="08/19/2020 07:16:21 UTC Wed" lemmaID="356" name="connaisseur.n" status="Created" FN_EN_LU_ID="2700" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-9835" RBN_matching_relation="equivalence">
+    <definition>op een bepaald gebied</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="connaisseur" order="1"/>
+  </lexUnit>
+  <lexUnit ID="358" POS="A" cBy="automatic" cDate="08/19/2020 07:16:24 UTC Wed" lemmaID="357" name="puik.a" status="Created" FN_EN_LU_ID="2712" Method="Iteration-1" RBN_LU_ID="r_a-14432" RBN_matching_relation="near_equivalence">
+    <definition>uitstekend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="puik" order="1"/>
+  </lexUnit>
+  <lexUnit ID="359" POS="N" cBy="automatic" cDate="08/19/2020 07:16:28 UTC Wed" lemmaID="358" name="dapperheid.n" status="Created" FN_EN_LU_ID="2735" Method="Iteration-1" RBN_LU_ID="r_n-10425" RBN_matching_relation="near_equivalence">
+    <definition>van het geen vrees hebben voor gevaar</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="dapperheid" order="1"/>
+  </lexUnit>
+  <lexUnit ID="360" POS="N" cBy="automatic" cDate="08/19/2020 07:16:31 UTC Wed" lemmaID="359" name="moed.n" status="Created" FN_EN_LU_ID="2735" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-24077" RBN_matching_relation="near_equivalence">
+    <definition>van niet bang te zijn om iets gevaarlijks of moeilijks te doen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="moed" order="1"/>
+  </lexUnit>
+  <lexUnit ID="361" POS="N" cBy="automatic" cDate="08/19/2020 07:16:35 UTC Wed" lemmaID="360" name="lef.n" status="Created" FN_EN_LU_ID="2735" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-21693" RBN_matching_relation="near_equivalence">
+    <definition>van veel te durven</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="lef" order="1"/>
+  </lexUnit>
+  <lexUnit ID="362" POS="A" cBy="automatic" cDate="08/19/2020 07:16:39 UTC Wed" lemmaID="361" name="bekwaam.a" status="Created" FN_EN_LU_ID="2738" Method="Iteration-1" RBN_LU_ID="r_a-9679" RBN_matching_relation="near_equivalence">
+    <definition>kundig</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="bekwaam" order="1"/>
+  </lexUnit>
+  <lexUnit ID="363" POS="N" cBy="automatic" cDate="08/19/2020 07:16:42 UTC Wed" lemmaID="362" name="bevoegdheid.n" status="Created" FN_EN_LU_ID="8984" Method="Iteration-1" RBN_LU_ID="r_n-7056" RBN_matching_relation="near_equivalence">
+    <definition>tot het uitoefenen van bepaalde handelingen op grond van functie of diploma</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="bevoegdheid" order="1"/>
+  </lexUnit>
+</frame>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Shw" cDate="07/03/2001 04:18:32 PDT Tue" name="Body_description_holistic" ID="157" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame covers descriptions of an entire human body, viewed as a gestalt (as opposed to descriptions based on salient body parts).  The Frame Elements are &lt;fen&gt;Individual&lt;/fen&gt; and &lt;fen&gt;Figure&lt;/fen&gt;.  
+
+&lt;ex&gt;&lt;fex name="Ind"&gt;Chuck&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;t&gt;muscular&lt;/t&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Ind"&gt;Chuck&lt;/fex&gt; has a &lt;t&gt;muscular&lt;/t&gt; body.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="Shw" cDate="07/03/2001 04:21:14 PDT Tue" abbrev="Degr" name="Degree" ID="1275">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Degree&lt;/fen&gt; to which a body has a particular characteristic.
+&lt;ex&gt;Chuck is &lt;fex name="Degree"&gt;rather&lt;/fex&gt; &lt;t&gt;muscular&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="Shw" cDate="07/03/2001 04:44:55 PDT Tue" abbrev="Ind" name="Individual" ID="1276">
+    <definition>&lt;def-root&gt;This FE identifies the individual (or individuals) being described.
+&lt;ex&gt;&lt;fex name="Ind"&gt;Chuck&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;t&gt;muscular&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Ind"&gt;Chuck&lt;/fex&gt; has a &lt;t&gt;muscular&lt;/t&gt; body.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    <semType name="Human" ID="80"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Core" cBy="Shw" cDate="07/05/2001 02:16:52 PDT Thu" abbrev="Fig" name="Figure" ID="1302">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Figure&lt;/fen&gt; or form being described by the target.
+&lt;ex&gt;Chuck has a &lt;t&gt;muscular&lt;/t&gt; &lt;fex name="Figure"&gt;body&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1015">Gradable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="77" POS="A" cBy="automatic" cDate="08/19/2020 06:59:03 UTC Wed" lemmaID="77" name="slank.a" status="Created" FN_EN_LU_ID="3594" Method="Iteration-1" RBN_LU_ID="r_a-14911" RBN_matching_relation="near_equivalence">
+    <definition>rank</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="slank" order="1"/>
+  </lexUnit>
+</frame>

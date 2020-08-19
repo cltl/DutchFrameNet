@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="04/05/2002 08:55:57 PST Fri" name="Body_decoration" ID="299" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame concerns the decorations that human beings have on or apply to their bodies.
+&lt;ex&gt;&lt;fex name="Dec_ind"&gt;Abby&lt;/fex&gt; rarely wears &lt;fex name="Decoration"&gt;&lt;t&gt;lipstick&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="04/23/2002 10:02:16 PDT Tue" abbrev="BodP" name="Body_location" ID="2658">
+    <definition>&lt;def-root&gt;This FE identifies the location on the body where the decoration takes place.
+&lt;ex&gt;Abby has a &lt;t&gt;tattoo&lt;/t&gt; &lt;fex name="BodP"&gt;on her lower-back&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="04/23/2002 10:09:31 PDT Tue" abbrev="Dec_ind" name="Decorated_individual" ID="2660">
+    <definition>&lt;def-root&gt;This is the individual whose body is decorated.
+&lt;ex&gt;&lt;fex name="Dec_ind"&gt;Abby&lt;/fex&gt; rarely wears &lt;t&gt;lipstick&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Human" ID="80"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="04/23/2002 10:12:16 PDT Tue" abbrev="Dec" name="Decoration" ID="2662">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Decoration&lt;/fen&gt; is the decorative item that adorns the body.
+&lt;ex&gt;Abby has a &lt;t&gt;&lt;fex name="Dec"&gt;tattoo&lt;/fex&gt;&lt;/t&gt; on her thigh.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Artifact" ID="61"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="04/23/2002 10:20:36 PDT Tue" abbrev="Dec_desc" name="Decoration_descriptor" ID="2663">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Dec_desc&lt;/fen&gt; identifies a descriptor of the &lt;fen&gt;Decoration&lt;/fen&gt;.
+&lt;ex&gt;Abby wears &lt;fex name="Dec_desc"&gt;red&lt;/fex&gt; &lt;t&gt;lipstick&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="04/23/2002 12:14:11 PDT Tue" abbrev="Pic" name="Picture" ID="2664">
+    <definition>&lt;def-root&gt;This is the frame element that describes what shape the Decoration represents.
+&lt;ex&gt;Abby has a &lt;t&gt;tattoo&lt;/t&gt; &lt;fex name="Pic"&gt;of a rose&lt;/fex&gt; on her thigh.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="KCo" cDate="05/02/2002 12:10:46 PDT Thu" abbrev="Use" name="Use" ID="2728">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Use&lt;/fen&gt; to which a body decoration is put.
+&lt;ex&gt;Abby is wearing &lt;fex name="Use"&gt;stage&lt;/fex&gt; &lt;t&gt;make-up&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="KCo" cDate="05/02/2002 12:11:28 PDT Thu" abbrev="Type" name="Type" ID="2729">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Type&lt;/fen&gt; designates different kinds of body decorations.  Often this FE will label part of a multi-word or compound word target. 
+&lt;ex&gt;Abby wore &lt;fex name="Type"&gt;SPF 15&lt;/fex&gt; &lt;t&gt;make-up&lt;/t&gt; to work, everyday.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="421">Artifact</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="119">Body_parts</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="75" POS="N" cBy="automatic" cDate="08/19/2020 06:58:57 UTC Wed" lemmaID="75" name="mascara.n" status="Created" FN_EN_LU_ID="5614" Method="Iteration-1" RBN_LU_ID="r_n-23290" RBN_matching_relation="near_equivalence">
+    <definition>om je wimpers mee te kleuren, meestal donker van kleur</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="mascara" order="1"/>
+  </lexUnit>
+  <lexUnit ID="76" POS="N" cBy="automatic" cDate="08/19/2020 06:59:00 UTC Wed" lemmaID="76" name="lipstick.n" status="Created" FN_EN_LU_ID="5619" Method="Iteration-1" RBN_LU_ID="r_n-22346" RBN_matching_relation="near_equivalence">
+    <definition>voor op de lippen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="lipstick" order="1"/>
+  </lexUnit>
+</frame>

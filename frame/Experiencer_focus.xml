@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:07 PST Wed" name="Experiencer_focus" ID="48" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;The words in this frame describe an &lt;fen&gt;Experiencer&lt;/fen&gt;'s emotions with respect to some &lt;fen&gt;Content&lt;/fen&gt;. A &lt;fen&gt;Reason&lt;/fen&gt; for the emotion may also be expressed.  Although the &lt;fen&gt;Content&lt;/fen&gt; may refer to an actual, current state of affairs, quite often it refers to a general situation which causes the emotion. 
+ 
+&lt;ex&gt; &lt;fex name="Experiencer"&gt;My&lt;/fex&gt; &lt;t&gt;enjoyment&lt;/t&gt; &lt;fex name="Content"&gt;of the movie&lt;/fex&gt; was considerably impaired by the seven-foot guy sitting in front of me. &lt;/ex&gt;
+&lt;ex&gt; &lt;fex name="Experiencer"&gt;Smithers&lt;/fex&gt; &lt;m&gt;takes&lt;/m&gt; &lt;fex name="Degree"&gt;great&lt;/fex&gt; &lt;t&gt;pleasure&lt;/t&gt; &lt;fex name="Content"&gt;in collecting matchboxes&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt; &lt;fex name="Experiencer"&gt;Sergio&lt;/fex&gt; &lt;m&gt;derives&lt;/m&gt; &lt;fex name="Degree"&gt;great&lt;/fex&gt; &lt;t&gt;pleasure&lt;/t&gt; 
+&lt;fex name="Content"&gt;from  smoking&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt; Smoking &lt;ment&gt;gives&lt;/ment&gt; &lt;fex name="Experiencer"&gt;me&lt;/fex&gt; &lt;fex name="Degree"&gt;extreme&lt;/fex&gt; &lt;t&gt;pleasure&lt;/t&gt;.&lt;/ex&gt;
+With certain verbs, the &lt;fen&gt;Circumstances&lt;/fen&gt; can be expressed in a finite clausal or wh- complement which may optionally be preceded by a Null NP Object:
+&lt;ex&gt;&lt;fex name="Experiencer"&gt;I&lt;/fex&gt; &lt;t&gt;hate&lt;/t&gt; it &lt;fex name="Circumstances"&gt;when you do that&lt;/fex&gt;.&lt;/ex&gt; Note: This is not how it is currently tagged.
+&lt;/def-root&gt;</definition>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:07 PST Wed" abbrev="Exp" name="Experiencer" ID="201">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Experiencer&lt;/fen&gt; experiences the emotion or other internal state.&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:07 PST Wed" abbrev="Cont" name="Content" ID="202">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Content&lt;/fen&gt; is what the &lt;fen&gt;Experiencer&lt;/fen&gt;'s feelings or experiences are directed towards or based upon.  The &lt;fen&gt;Content&lt;/fen&gt; differs from a stimulus because the &lt;fen&gt;Content&lt;/fen&gt; is not construed as being direcly responsible for causing the emotion. &lt;ex&gt; &lt;fex name="Experiencer"&gt;Everyone&lt;/fex&gt; &lt;t&gt;loves&lt;/t&gt; &lt;fex name="Content"&gt;compliments&lt;/fex&gt;.&lt;/ex&gt; &lt;ex&gt; &lt;fex name="Experiencer"&gt;Everyone&lt;/fex&gt; &lt;t&gt;loves&lt;/t&gt; &lt;fex name="Content"&gt;being complimented&lt;/fex&gt;.&lt;/ex&gt;  &lt;ex&gt; &lt;fex name="Experiencer"&gt;His parents&lt;/fex&gt; &lt;t&gt;despaired&lt;/t&gt; &lt;fex name="Content"&gt;of him&lt;/fex&gt;.&lt;/ex&gt; &lt;ex&gt; &lt;fex name="Experiencer"&gt;John&lt;/fex&gt; &lt;t&gt;likes&lt;/t&gt; &lt;fex name="Content"&gt;that I cook him lunch&lt;/fex&gt;.&lt;/ex&gt; &lt;ex&gt; &lt;fex name="Experiencer"&gt;I&lt;/fex&gt; am &lt;t&gt;afraid&lt;/t&gt; &lt;fex name="Content"&gt;of spiders&lt;/fex&gt;.&lt;/ex&gt;
+
+ &lt;/def-root&gt;</definition>
+    <semType name="Content" ID="55"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ChW" cDate="02/07/2001 04:12:07 PST Wed" abbrev="Exp" name="Explanation" ID="203">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Explanation&lt;/fen&gt; is the explanation for why an &lt;fen&gt;Experiencer&lt;/fen&gt; experiences the particular emotion. &lt;ex&gt; &lt;fex name="Experiencer"&gt;People&lt;/fex&gt; &lt;t&gt;love&lt;/t&gt; &lt;fex name="Content"&gt;giant pandas&lt;/fex&gt; &lt;fex name="Explanation"&gt;because they look like teddy bears&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="11/28/2001 07:40:00 PST Wed" abbrev="Degr" name="Degree" ID="2137">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Degree&lt;/fen&gt; to which the experience occurs.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="11/28/2001 07:40:15 PST Wed" abbrev="Manr" name="Manner" ID="2138">
+    <definition>&lt;def-root&gt;Manner of performing an action&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Core-Unexpressed" cBy="JKR" cDate="07/20/2002 04:03:10 PDT Sat" abbrev="Expr" name="Expressor" ID="3391">
+    <definition>&lt;def-root&gt;The Frame Element &lt;fen&gt;Expressor&lt;/fen&gt; marks expressions that indicate a body part, gesture or other expression of the &lt;fen&gt;Experiencer&lt;/fen&gt; that reflect his or her emotional state.  They describe a presentation of the experience or emotion denoted by the adjective or noun.
+
+&lt;ex&gt; The &lt;t&gt;delight&lt;/t&gt; &lt;fex name="Expressor"&gt;on her face&lt;/fex&gt; was mixed with asonishment. &lt;/ex&gt;
+&lt;ex&gt; The worshipper's &lt;t&gt;apprehensive&lt;/t&gt; &lt;fex name="Expressor"&gt;praise&lt;/fex&gt; revealed his lacking devotion. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="07/22/2002 03:49:11 PDT Mon" abbrev="Par" name="Parameter" ID="3394">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Parameter&lt;/fen&gt; is a domain in which the &lt;fen&gt;Experiencer&lt;/fen&gt; experiences the &lt;fen&gt;Content&lt;/fen&gt;.
+
+&lt;ex&gt;Very few physical science students stressed the &lt;fex name="Parameter"&gt;intellectual&lt;/fex&gt;  &lt;t&gt;enjoyment&lt;/t&gt; of the degree course. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="07/25/2002 03:59:47 PDT Thu" abbrev="Top" name="Topic" ID="3406">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Topic&lt;/fen&gt; is the area about which the &lt;fen&gt;Experiencer&lt;/fen&gt; has the particular experience. &lt;ex&gt; &lt;fex name="Experiencer"&gt;Mr. Whiskers&lt;/fex&gt; was &lt;t&gt;upset&lt;/t&gt; &lt;fex name="Topic"&gt;about his cat treats&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Core-Unexpressed" cBy="ACW" cDate="07/29/2002 09:41:18 PDT Mon" abbrev="State" name="State" ID="3417">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;State&lt;/fen&gt; is the abstract noun that describes a more lasting experience by the &lt;fen&gt;Experiencer&lt;/fen&gt;. &lt;ex&gt;&lt;fex name="Experiencer"&gt;Tracy&lt;/fex&gt; was in an &lt;t&gt;irritated&lt;/t&gt; &lt;fex name="State"&gt;mood&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="07/30/2002 09:25:23 PDT Tue" abbrev="Event" name="Event" ID="3449">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Event&lt;/fen&gt; is the occasion or happening that &lt;fen&gt;Experiencer&lt;/fen&gt;s in a certain emotional state participate in. &lt;ex&gt; It felt pretty awkward to partake in such a &lt;t&gt;nervous&lt;/t&gt; &lt;fex name="Event"&gt;ceremony&lt;/fex&gt;.&lt;/ex&gt; Here we know that the ceremony was filled with nervous &lt;fen&gt;Experiencer&lt;/fen&gt;s.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="08/05/2002 11:44:54 PDT Mon" abbrev="cir" name="Circumstances" ID="3493">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Circumstances&lt;/fen&gt; FE encodes the circumstances or conditions under which the &lt;fen&gt;Experiencer&lt;/fen&gt; experiences the emotion. Unlike &lt;fen&gt;Content&lt;/fen&gt; it does not give the specific content of the emotion, but the &lt;fen&gt;Content&lt;/fen&gt; can often be inferred from the &lt;fen&gt;Circumstances&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/10/2004 03:29:41 PDT Thu" abbrev="tim" name="Time" ID="6502">
+    <definition>&lt;def-root&gt;The time at which the &lt;fen&gt;Experiencer&lt;/fen&gt; is in the specified emotional state.
+
+&lt;ex&gt;&lt;fex name="tim"&gt;Last year&lt;/fex&gt;, Bob was still &lt;t&gt;interested&lt;/t&gt; in the young Republicans.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Topic" ID="3406"/>
+    <memberFE name="Content" ID="202"/>
+  </FEcoreSet>
+  <FEcoreSet>
+    <memberFE name="Event" ID="3449"/>
+    <memberFE name="Experiencer" ID="201"/>
+    <memberFE name="Expressor" ID="3391"/>
+    <memberFE name="State" ID="3417"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="2044">Mental_stimulus_exp_focus</relatedFrame>
+    <relatedFrame ID="366">Desiring</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on">
+    <relatedFrame ID="1712">Emotions</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="354">Desirability</relatedFrame>
+    <relatedFrame ID="2131">Tolerating</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="335" POS="V" cBy="manual" cDate="08/19/2020 07:15:11 UTC Wed" lemmaID="334" name="adoreren.v" status="Created" FN_EN_LU_ID="857" Method="Iteration-1" RBN_LU_ID="r_v-422" RBN_matching_relation="equivalence">
+    <definition>geestdriftig bewonderen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="adoreren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="336" POS="V" cBy="automatic" cDate="08/19/2020 07:15:15 UTC Wed" lemmaID="335" name="wanhopen.v" status="Created" FN_EN_LU_ID="863" Method="Iteration-1" RBN_LU_ID="r_v-9909" RBN_matching_relation="near_equivalence">
+    <definition>geen hoop hebben op een goede afloop</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="wanhopen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="337" POS="N" cBy="automatic" cDate="08/19/2020 07:15:18 UTC Wed" lemmaID="336" name="haat.n" status="Created" FN_EN_LU_ID="4202" Method="Iteration-1" RBN_LU_ID="r_n-16105" RBN_matching_relation="near_equivalence">
+    <definition>van grote afkeer en woede</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="haat" order="1"/>
+  </lexUnit>
+  <lexUnit ID="338" POS="N" cBy="automatic" cDate="08/19/2020 07:15:21 UTC Wed" lemmaID="337" name="spijt.n" status="Created" FN_EN_LU_ID="6704" Method="Iteration-1" RBN_LU_ID="r_n-35023" RBN_matching_relation="near_equivalence">
+    <definition>dat je hebt als je iets hebt gedaan waarvan je later vindt dat je het niet of anders had moeten doen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="spijt" order="1"/>
+  </lexUnit>
+  <lexUnit ID="339" POS="N" cBy="automatic" cDate="08/19/2020 07:15:24 UTC Wed" lemmaID="338" name="afgrijzen.n" status="Created" FN_EN_LU_ID="6707" Method="Iteration-1" RBN_LU_ID="r_n-2879" RBN_matching_relation="near_equivalence">
+    <definition>van het gevoel van afkeer</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="afgrijzen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="340" POS="N" cBy="automatic" cDate="08/19/2020 07:15:27 UTC Wed" lemmaID="339" name="afschuw.n" status="Created" FN_EN_LU_ID="6707" Method="Iteration-1" RBN_LU_ID="r_n-2964" RBN_matching_relation="near_equivalence">
+    <definition>van afkeer of walging, dat hevig en onweerstaanbaar is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="afschuw" order="1"/>
+  </lexUnit>
+  <lexUnit ID="341" POS="N" cBy="manual" cDate="08/19/2020 07:15:30 UTC Wed" lemmaID="340" name="gruwel.n" status="Created" FN_EN_LU_ID="6707" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-15970" RBN_matching_relation="near_equivalence">
+    <definition>van zeer grote intensiteit</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="gruwel" order="1"/>
+  </lexUnit>
+</frame>

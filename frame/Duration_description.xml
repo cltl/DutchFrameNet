@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:27 PST Wed" name="Duration_description" ID="79" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An event or state (here termed an &lt;fen&gt;Eventuality&lt;/fen&gt;) or time-&lt;fen&gt;Period&lt;/fen&gt; is described in terms of the &lt;fen&gt;Degree&lt;/fen&gt; to which its duration diverges from a standard.  As is usual for gradable attributes, the standard of comparison is normally based on the expected duration for the type of &lt;fen&gt;Eventuality&lt;/fen&gt; or &lt;fen&gt;Period&lt;/fen&gt;.  (In conjunction with the comparative construction, the standard may also be based upon an explicit value.)
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;After a &lt;t&gt;lengthy&lt;/t&gt; &lt;fex name="Eventuality"&gt;discussion with the Foreign Minister, Mr. Qian Qichen&lt;/fex&gt;, they met the Prime Minister.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;The &lt;t&gt;lengthy&lt;/t&gt; &lt;fex name="Period"&gt;period which most party leaders have already spent in Parliament before gaining office&lt;/fex&gt; certainly gives them time to acquire suitable skills.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:27 PST Wed" abbrev="Evty" name="Eventuality" ID="369">
+    <definition>&lt;def-root&gt;A situation, action or event whose duration is being described.  The Eventuality occurs as the External Argument if the adjective is used predicatively, or as the modified noun if the adjective is used attributively: &lt;fex name="Eventuality"&gt;The lecture&lt;/fex&gt; was &lt;t&gt;short&lt;/t&gt;. We had a &lt;t&gt;lengthy&lt;/t&gt; &lt;fex name="Eventuality"&gt;conversation&lt;/fex&gt;. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:27 PST Wed" abbrev="Prd" name="Period" ID="370">
+    <definition>&lt;def-root&gt;Sometimes these adjectives describe simply a period of time, rather than an event or state.  The Period almost invariably occurs as the modified noun with an attributive adjective: We waited for only a &lt;t&gt;short&lt;/t&gt; &lt;fex name="Period"&gt;time&lt;/fex&gt;. Use of the drug over a &lt;t&gt;lengthy&lt;/t&gt; &lt;fex name="Period"&gt;period&lt;/fex&gt; can cause memory loss. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/17/2001 04:42:23 PDT Mon" abbrev="Degr" name="Degree" ID="1889">
+    <definition>&lt;def-root&gt;Degree to which event occurs&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Eventuality" ID="369"/>
+    <memberFE name="Period" ID="370"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="965">Measurable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on">
+    <relatedFrame ID="2122">Duration_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="967">Taking_time</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="290" POS="A" cBy="automatic" cDate="08/19/2020 07:12:36 UTC Wed" lemmaID="290" name="voortdurend.a" status="Created" FN_EN_LU_ID="1711" Method="Iteration-1" RBN_LU_ID="r_a-16130" RBN_matching_relation="near_equivalence">
+    <definition>onophoudelijk</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="voortdurend" order="1"/>
+  </lexUnit>
+  <lexUnit ID="291" POS="A" cBy="automatic" cDate="08/19/2020 07:12:39 UTC Wed" lemmaID="291" name="blijvend.a" status="Created" FN_EN_LU_ID="1711" Method="Iteration-1" RBN_LU_ID="r_a-9333" RBN_matching_relation="near_equivalence">
+    <definition>duurzaam</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="blijvend" order="1"/>
+  </lexUnit>
+  <lexUnit ID="292" POS="A" cBy="manual" cDate="08/19/2020 07:12:43 UTC Wed" lemmaID="292" name="vergankelijk.a" status="Created" FN_EN_LU_ID="1715" Method="Iteration-1" RBN_LU_ID="r_a-15957" RBN_matching_relation="near_equivalence">
+    <definition>voorbijgaand</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="vergankelijk" order="1"/>
+  </lexUnit>
+  <lexUnit ID="293" POS="A" cBy="automatic" cDate="08/19/2020 07:12:48 UTC Wed" lemmaID="293" name="tussentijds.a" status="Created" FN_EN_LU_ID="1718" Method="Iteration-1" RBN_LU_ID="r_a-15468" RBN_matching_relation="near_equivalence">
+    <definition>tussendoor gebeurend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="tussentijds" order="1"/>
+  </lexUnit>
+</frame>

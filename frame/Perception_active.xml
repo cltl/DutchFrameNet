@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:19 PST Wed" name="Perception_active" ID="66" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame contains perception words whose perceivers intentionally direct their attention to some entity or phenomenon in order to have a perceptual experience.  For this reason we call the perceiver role in this frame &lt;fen&gt;Perceiver_agentive&lt;/fen&gt;.  
+
+&lt;ex&gt;&lt;fex name="per"&gt;She&lt;/fex&gt; &lt;t&gt;gazed&lt;/t&gt; &lt;fex name="Phenomenon"&gt;upon him&lt;/fex&gt; &lt;fex name="Manner"&gt;fondly&lt;/fex&gt;.&lt;/ex&gt;
+
+Comparing the Perception_active frame to the Perception_experience frame, we note that for some modalities there are different lexical items in each frame.  For instance, whereas Perception_active contains the verb phrase &lt;ment&gt;look at&lt;/ment&gt;, Perception_experience contains &lt;ment&gt;see&lt;/ment&gt;.   For other sense modalities, we find the same lexical item in both frames.  To illustrate, consider the verb &lt;ment&gt;smell&lt;/ment&gt;.
+
+This first sentence exemplifies the Perception_active use of the verb &lt;ment&gt;smell&lt;/ment&gt;:&lt;ex&gt;&lt;t&gt;Smell&lt;/t&gt; &lt;fex name="Phenomenon"&gt;this&lt;/fex&gt; &lt;fex name="Purpose"&gt;to see if it's fresh&lt;/fex&gt;.&lt;fex name="Perceiver_agentive"&gt;CNI&lt;/fex&gt;&lt;/ex&gt;
+This second sentence exemplifies its Perception_experience sense:
+&lt;ex&gt;I &lt;t&gt;smell&lt;/t&gt; something rotten.&lt;/ex&gt;
+ &lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:19 PST Wed" abbrev="per" name="Perceiver_agentive" ID="301">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Perceiver_agentive&lt;/fen&gt; performs some action in order to have a perceptual experience. It is expressed as an External Argument: 
+&lt;ex&gt;&lt;fex name="Perceiver_agentive"&gt;The waiter&lt;/fex&gt; &lt;t&gt;smelled&lt;/t&gt; the milk to see if it was fresh.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:19 PST Wed" abbrev="Phen" name="Phenomenon" ID="302">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Phenomenon&lt;/fen&gt; indicates the entity or phenomenon to which the &lt;fen&gt;Perceiver_agentive&lt;/fen&gt; directs his or her attention in order to have a perceptual experience. Typically, it is expressed as an Object with verbs.
+ &lt;ex&gt;The waiter &lt;t&gt;smelled&lt;/t&gt; &lt;fex name="Phenomenon"&gt;the milk&lt;/fex&gt; to see if it was fresh.&lt;/ex&gt;
+&lt;ex&gt;The policeman &lt;t&gt;watched&lt;/t&gt; &lt;fex name="Phenomenon"&gt;him&lt;/fex&gt; &lt;fex name="Phenomenon"&gt;run out the door&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core-Unexpressed" cBy="ChW" cDate="02/07/2001 04:12:19 PST Wed" abbrev="BodP" name="Body_part" ID="303">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Body_part&lt;/fen&gt; identifies the part of the body used as a sensory organ of the &lt;fen&gt;Perceiver_agentive&lt;/fen&gt;, typically expressed in a &lt;ment&gt;with&lt;/ment&gt;-PP.
+&lt;ex&gt;You should &lt;t&gt;feel&lt;/t&gt; the water &lt;fex name="Body_part"&gt;with your toes&lt;/fex&gt; before jumping in.&lt;/ex&gt;
+This frame element occurs infrequently in this frame, because most of the target words intrinsically imply what part of the body is used (e.g. smelling must be done with the nose). However, the verb &lt;ment&gt;feel&lt;/ment&gt; does take  this frame element, because touch is not localized on the body the same way as other modalities .  &lt;fen&gt;Body_part&lt;/fen&gt; may be expressed in other modalities when it adds specificity to what is implied by the target word in question.
+
+&lt;ex&gt;I was now able to breathe properly and started to &lt;t&gt;feel&lt;/t&gt; over my body &lt;fex name="BodP"&gt;with both hands&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;I &lt;t&gt;looked&lt;/t&gt; at the wreckage &lt;fex name="Body_part"&gt;with my good eye&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Body_part" ID="10"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ChW" cDate="02/07/2001 04:12:19 PST Wed" abbrev="Loc" name="Location_of_protagonist" ID="304">
+    <definition>&lt;def-root&gt;This FE is the position of the Perceiver during the act of perception.  Typically, it is expressed in a &lt;ment&gt;from&lt;/ment&gt;-PP.
+&lt;ex&gt;We &lt;t&gt;watched&lt;/t&gt; the parade &lt;fex name="Location_of_protagonist"&gt;from the roof&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Core-Unexpressed" cBy="ChW" cDate="02/07/2001 04:12:19 PST Wed" abbrev="Dir" name="Direction" ID="305">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Direction&lt;/fen&gt; is used for all path-like expressions that describe how the perceiver's attention is directed during the act of perception, with the exception of those indicating the location of the &lt;fen&gt;Perceiver_agentive&lt;/fen&gt; (which would be marked &lt;fen&gt;Location_of_perceiver&lt;/fen&gt;)
+
+&lt;ex&gt;The detective &lt;t&gt;looked&lt;/t&gt; &lt;fex name="Direction"&gt;across the street&lt;/fex&gt; at the suspect.&lt;/ex&gt;
+&lt;ex&gt;The detective &lt;t&gt;listened&lt;/t&gt; &lt;fex name="Direction"&gt;through the wall&lt;/fex&gt; to their conversation.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ChW" cDate="02/07/2001 04:12:19 PST Wed" abbrev="State" name="Depictive" ID="306">
+    <definition>&lt;def-root&gt;&lt;fen&gt;State&lt;/fen&gt; is used for predicate expressions that apply to the &lt;fen&gt;Phenomenon&lt;/fen&gt;, providing some information about the state it is in while the perceiver's attention is directed to it: &lt;ex&gt;The detective &lt;t&gt;watched&lt;/t&gt; the suspect &lt;fex name="Depictive"&gt;fleeing&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Pat &lt;t&gt;tasted&lt;/t&gt; the cookie dough &lt;fex name="Depictive"&gt;raw&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="ChW" cDate="02/07/2001 04:12:19 PST Wed" abbrev="State" name="State" ID="307">
+    <definition>&lt;def-root&gt;&lt;fen&gt;State&lt;/fen&gt; is the location, activity, or other characteristic of the &lt;fen&gt;Phenomenon&lt;/fen&gt;.
+
+&lt;ex&gt;I &lt;t&gt;tasted&lt;/t&gt; the soup &lt;fex name="State"&gt;in the fridge&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;I &lt;t&gt;stared&lt;/t&gt; at the man &lt;fex name="State"&gt;running out the door&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="ChW" cDate="02/07/2001 04:12:20 PST Wed" abbrev="Manr" name="Manner" ID="308">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Manner&lt;/fen&gt; expressions may be of lexicographic interest if they describe properties of active perception as such: &lt;ment&gt;closely&lt;/ment&gt;, &lt;ment&gt;carefully&lt;/ment&gt;, etc. 
+&lt;ex&gt;Dan &lt;t&gt;looked&lt;/t&gt; at the inscription &lt;fex name="Manr"&gt;carefully&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="hmC" cDate="05/29/2003 11:20:03 PDT Thu" abbrev="Mns" name="Means" ID="4507">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Means&lt;/fen&gt; indicates the tool or method the &lt;fen&gt;Perceiver_agentive&lt;/fen&gt; is using to actively perceive the &lt;fen&gt;Phenomenon&lt;/fen&gt;.  May be confused with &lt;fen&gt;Direction&lt;/fen&gt; in cases with &lt;ment&gt;through&lt;/ment&gt;-PP, but is referring more to the instrument used than the path used.
+
+&lt;ex&gt;Joann &lt;t&gt;peeked&lt;/t&gt; at John &lt;fex name="Mns"&gt;through the binoculars&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;You can &lt;t&gt;observe&lt;/t&gt; distant galaxies &lt;fex name="Mns"&gt;with a good telescope&lt;/fex&gt;. &lt;/ex&gt;
+&lt;ex&gt;He &lt;t&gt;observed&lt;/t&gt; babies &lt;fex name="Mns"&gt;using ultrasound&lt;/fex&gt; and discovered that each showed a preference for one or the other thumb.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/21/2003 12:31:12 PDT Mon" abbrev="Tim" name="Time" ID="4806">
+    <definition>&lt;def-root&gt;When the activity of attempting to perceive occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/21/2003 12:33:51 PDT Mon" abbrev="Purp" name="Purpose" ID="4807">
+    <definition>&lt;def-root&gt;Some action that the &lt;fen&gt;Perceiver_agentive&lt;/fen&gt; is trying to accomplish by directing their own attention.
+
+&lt;ex&gt;She &lt;t&gt;listened&lt;/t&gt; to the music &lt;fex name="Purp"&gt;to find out if it was actually written by Satan&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/21/2003 12:53:36 PDT Mon" abbrev="" name="Place" ID="4808">
+    <definition>&lt;def-root&gt;The general location within which the act of perception takes place.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="000000" coreType="Peripheral" cBy="MiL" cDate="10/01/2004 01:12:16 PDT Fri" abbrev="Dur" name="Duration" ID="7160">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Duration&lt;/fen&gt; of  time for which the Perception takes place.
+
+&lt;ex&gt;I  &lt;t&gt;WATCH&lt;/t&gt; them &lt;fex name="Dur"&gt;for quite a while&lt;/fex&gt; .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Duration" ID="142"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="11/17/2004 11:03:40 PST Wed" abbrev="exp" name="Expected_entity" ID="7231">
+    <definition>&lt;def-root&gt;An entity or state-of-affairs that the &lt;fen&gt;Perceiver_agentive&lt;/fen&gt; hopes, fears, or expects to find within the &lt;fen&gt;Phenomenon&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;t&gt;Watch&lt;/t&gt; &lt;fex name="exp"&gt;for little errors with hand position&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;While Bertha was n't looking, he carefully &lt;t&gt;smelt&lt;/t&gt; the soup &lt;fex name="exp"&gt;for any trace of the poison&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Peripheral" cBy="JKs" cDate="10/15/2008 01:05:06 PDT Wed" abbrev="Ground" name="Ground" ID="13083">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Ground&lt;/fen&gt; is the perceptual background against which the &lt;fen&gt;Phenomenon&lt;/fen&gt; is experienced by the &lt;fen&gt;Perceiver_agentive&lt;/fen&gt;. 
+
+ &lt;ex&gt;Kim &lt;t&gt;looked&lt;/t&gt; at the cloud &lt;fex name="Ground"&gt;against the blue sky&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="000000" coreType="Peripheral" cBy="JKs" cDate="10/15/2008 01:12:46 PDT Wed" abbrev="O_m" name="Obscuring_medium" ID="13084">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Obscuring_medium&lt;/fen&gt; is the medium through which the &lt;fen&gt;Phenomenon&lt;/fen&gt; makes itself perceivable to the &lt;fen&gt;Perceiver_agentive&lt;/fen&gt;.  This is similar to the &lt;fen&gt;Direction&lt;/fen&gt;, but occurs in the opposite direction and implies a movement of the &lt;fen&gt;Phenomenon&lt;/fen&gt;.
+
+&lt;ex&gt;I &lt;t&gt;eavesdropped&lt;/t&gt; on them &lt;fex name="Obscuring_medium"&gt;through the wall&lt;/fex&gt;&lt;/ex&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Perceiver_agentive" ID="301"/>
+    <memberFE name="Body_part" ID="303"/>
+  </FEcoreSet>
+  <FEcoreSet>
+    <memberFE name="Direction" ID="305"/>
+    <memberFE name="Phenomenon" ID="302"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="8">Perception</relatedFrame>
+    <relatedFrame ID="198">Intentionally_act</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="1907">Touring</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="791">Attention</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="31">Scrutiny</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="70">Perception_experience</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="640" POS="V" cBy="automatic" cDate="08/19/2020 07:34:52 UTC Wed" lemmaID="638" name="staren.v" status="Created" FN_EN_LU_ID="1297" Method="Iteration-1" RBN_LU_ID="r_v-7459" RBN_matching_relation="near_equivalence">
+    <definition>star je blik op iemand of iets gericht houden zonder dat je hem, haar of het bewust ziet</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="staren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="641" POS="V" cBy="automatic" cDate="08/19/2020 07:34:55 UTC Wed" lemmaID="639" name="koekeloeren.v" status="Created" FN_EN_LU_ID="1307" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4040" RBN_matching_relation="near_equivalence">
+    <definition>spiedend kijken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="koekeloeren" order="1"/>
+  </lexUnit>
+</frame>

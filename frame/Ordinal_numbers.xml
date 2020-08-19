@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/29/2004 04:33:23 PDT Tue" name="Ordinal_numbers" ID="1147" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Item&lt;/fen&gt; is picked out either by the order in which the members of a set would be encountered by an implicit cognizer, or by the order in which the members of a set participate in an event or state which serves as the &lt;fen&gt;Basis_of_order&lt;/fen&gt;. The former case usually involves a &lt;fen&gt;Starting_point&lt;/fen&gt; for going through the set, while the latter involves a &lt;fen&gt;Basis_of_order&lt;/fen&gt;, which is normally an event that the &lt;fen&gt;Item&lt;/fen&gt; along with other members of its &lt;fen&gt;Comparison_set&lt;/fen&gt; has participated in.  Note that &lt;fen&gt;Item&lt;/fen&gt; should be annotated on a second layer, except in cases when the noun structure the ordinal participates in is predicative.
+
+&lt;ex&gt;The &lt;t&gt;first&lt;/t&gt; &lt;fex name="typ"&gt;car&lt;/fex&gt; &lt;fex name="sta"&gt;from the left&lt;/fex&gt; &lt;ment&gt;is&lt;/ment&gt; a Magosix.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="ite"&gt;The first car from the left&lt;/fex&gt; is a Magosix.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Item"&gt;Barney&lt;/fex&gt; &lt;m&gt;was&lt;/m&gt; only the &lt;t&gt;second&lt;/t&gt; &lt;fex name="Type"&gt;Asian student&lt;/fex&gt; &lt;fex name="bas"&gt;at my college&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="ite"&gt;Felix&lt;/fex&gt; &lt;m&gt;was&lt;/m&gt; the &lt;t&gt;first&lt;/t&gt; &lt;fex name="com"&gt;of my cats&lt;/fex&gt; &lt;fex name="bas"&gt;to realize that human food was tastier&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Felix was the &lt;t&gt;first&lt;/t&gt; &lt;fex name="typ"&gt;of my cats&lt;/fex&gt; to realize that human food was tastier.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/29/2004 04:41:49 PDT Tue" abbrev="typ" name="Type" ID="6630">
+    <definition>&lt;def-root&gt;The kind of entity that the &lt;fen&gt;Item&lt;/fen&gt; belongs to.
+
+&lt;ex&gt;Capitalizes the first letter of the &lt;t&gt;first&lt;/t&gt; &lt;fex name="typ"&gt;word&lt;/fex&gt; in each sentence&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/29/2004 04:45:01 PDT Tue" abbrev="sta" name="Starting_point" ID="6631">
+    <definition>&lt;def-root&gt;A usually spatial reference point from which the implicit cognizer scans across the members of the &lt;fen&gt;Comparison_set&lt;/fen&gt;.
+
+&lt;ex&gt;Yes, I covered the cycle issue in  the &lt;t&gt;second&lt;/t&gt; paragraph &lt;fex name="sta"&gt;from the top&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/29/2004 04:47:35 PDT Tue" abbrev="bas" name="Basis_of_order" ID="6632">
+    <definition>&lt;def-root&gt;A kind of event in which the members of the &lt;fen&gt;Comparison_set&lt;/fen&gt;, including the &lt;fen&gt;Item&lt;/fen&gt;, participate in a certain order.
+
+&lt;ex&gt;Lorna was the &lt;t&gt;third&lt;/t&gt; student &lt;fex name="bas"&gt;to be expelled from the Academy&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Starting_point" ID="6631"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/29/2004 04:50:25 PDT Tue" abbrev="ite" name="Item" ID="6633">
+    <definition>&lt;def-root&gt;The entity picked out by the implicit cognizer as occupying a certain place in the ordered &lt;fen&gt;Comparison_set&lt;/fen&gt;.
+
+
+&lt;ex&gt;Bennett is the &lt;t&gt;fifth&lt;/t&gt; woman to be showcased.&lt;/ex&gt;
+&lt;ex&gt;Bennett is &lt;fex name="ite"&gt;the fifth woman to be showcased&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/29/2004 04:53:15 PDT Tue" abbrev="com" name="Comparison_set" ID="6634">
+    <definition>&lt;def-root&gt;A set of entites of which the &lt;fen&gt;Item&lt;/fen&gt; is a member and which are ordered either by the &lt;fen&gt;Basis_of_order&lt;/fen&gt; or by the order in which the implicit cognizer focuses attention on them.
+
+&lt;ex&gt;The &lt;t&gt;first&lt;/t&gt; student &lt;fex name="com"&gt;of the college&lt;/fex&gt; to cross the ramp will present the name-card reader with a card having the name of the college printed on it. .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="218">Cardinal_numbers</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="600" POS="A" cBy="automatic" cDate="08/19/2020 07:32:27 UTC Wed" lemmaID="598" name="derde.a" status="Created" FN_EN_LU_ID="11251" Method="Iteration-1" RBN_LU_ID="r_a-10181" RBN_matching_relation="near_equivalence">
+    <definition>als no. drie</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="derde" order="1"/>
+  </lexUnit>
+</frame>

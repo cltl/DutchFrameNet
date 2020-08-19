@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:50 PST Wed" name="Manipulation" ID="17" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;The words in this frame describe the manipulation of an &lt;fen&gt;Entity&lt;/fen&gt; by an &lt;fen&gt;Agent&lt;/fen&gt;.  Generally, this implies that the &lt;fen&gt;Entity&lt;/fen&gt; is not deeply or permanently physically affected, nor is it overall moved from one place to another.
+
+&lt;ex&gt;&lt;fex name="Agent"&gt;Ian&lt;/fex&gt; &lt;t&gt;squeezed&lt;/t&gt; &lt;fex name="Entity"&gt;Mara's hand&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+
+A number of lexemes listed in this frame also occur in the Cause_motion frame (for example, &lt;ment&gt;push, yank&lt;/ment&gt;).  Only the non-motion uses of these words belong in this frame, e.g., combinations such as &lt;ment&gt;push at, push on, yank at&lt;/ment&gt;. &lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:50 PST Wed" abbrev="Agt" name="Agent" ID="77">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Agent&lt;/fen&gt; manipulates an object. &lt;fen&gt;Agent&lt;/fen&gt; typically refers to animate beings, but is also extended to mechanical and other inanimate objects.  &lt;fen&gt;Agent&lt;/fen&gt; is most frequently expressed as the external argument of verbs: 
+
+&lt;ex&gt;&lt;fex name="Agent"&gt;A robot arm&lt;/fex&gt; &lt;t&gt;grasps&lt;/t&gt; the box on the conveyor belt and seals it.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:50 PST Wed" abbrev="Enty" name="Entity" ID="78">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Entity&lt;/fen&gt; being manipulated often occurs as the direct object of verbs: 
+
+&lt;ex&gt;&lt;t&gt;Squeeze&lt;/t&gt; &lt;fex name="Entity"&gt;the ball&lt;/fex&gt; as many times as you can.&lt;/ex&gt;
+&lt;ex&gt;Pat &lt;t&gt;squeezed&lt;/t&gt; &lt;fex name="Entity"&gt;Jo's hand&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="000000" coreType="Extra-Thematic" cBy="ChW" cDate="02/07/2001 04:11:50 PST Wed" abbrev="Locus" name="Locus" ID="79">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Agent&lt;/fen&gt;'s manipulation of an &lt;fen&gt;Entity&lt;/fen&gt; may be further specified as being localized to some part of the &lt;fen&gt;Entity&lt;/fen&gt;, a &lt;fen&gt;Locus&lt;/fen&gt;.  The &lt;fen&gt;Locus&lt;/fen&gt; is usually expressed as a PP Complement. 
+&lt;ex&gt;Pat &lt;t&gt;squeezed&lt;/t&gt; Jo &lt;fex name="Locus"&gt;by the hand&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:51 PST Wed" abbrev="AgBP" name="Bodypart_of_agent" ID="80">
+    <definition>&lt;def-root&gt;The part of the &lt;fen&gt;Agent&lt;/fen&gt;'s body being used to manipulate the &lt;fen&gt;Entity&lt;/fen&gt; may also be expressed. While the default is for an &lt;fen&gt;Agent&lt;/fen&gt; to use his/her hands, other body parts may be specified. This frame element usually occurs as a PP-complement. 
+&lt;ex&gt;Kim &lt;t&gt;grasped&lt;/t&gt; the needle &lt;fex name="Bodypart_of_agent"&gt;between finger and thumb&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Body_part" ID="10"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/21/2001 08:49:15 PDT Thu" abbrev="Dur" name="Duration" ID="929">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Duration&lt;/fen&gt; of the manipulation.&lt;/def-root&gt;</definition>
+    <semType name="Duration" ID="142"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/21/2001 08:49:16 PDT Thu" abbrev="Manr" name="Manner" ID="933">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Manner&lt;/fen&gt; of performing an action.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="06/21/2001 08:49:16 PDT Thu" abbrev="Result" name="Result" ID="935">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Result&lt;/fen&gt; of manipulation.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="08/07/2003 09:58:40 PDT Thu" abbrev="Time" name="Time" ID="4900">
+    <definition>&lt;def-root&gt;When the manipulation takes place
+&lt;ex&gt;I &lt;t&gt;seized&lt;/t&gt; the letter &lt;fex name="Time"&gt;before he did&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="08/07/2003 10:01:47 PDT Thu" abbrev="Purp" name="Purpose" ID="4901">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Agent&lt;/fen&gt;'s purpose in performing the manipulation.
+&lt;ex&gt;The President &lt;t&gt;grabbed&lt;/t&gt; &lt;t&gt;hold&lt;/t&gt; of the handle of the helicopter &lt;fex name="Purp"&gt;to avoid being blown away&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Peripheral" cBy="Hay" cDate="10/02/2003 11:36:53 PDT Thu" abbrev="Ins" name="Instrument" ID="5360">
+    <definition>&lt;def-root&gt;An entity directed by the &lt;fen&gt;Agent&lt;/fen&gt; that interacts with the &lt;fen&gt;Entity&lt;/fen&gt; to accomplish the action indicated by the target.
+
+&lt;ex&gt;Smithers &lt;t&gt;nudged&lt;/t&gt; the insect &lt;fex name="Instrument"&gt;with a paper towel&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Peripheral" cBy="Hay" cDate="10/02/2003 11:36:53 PDT Thu" abbrev="Mns" name="Means" ID="5361">
+    <definition>&lt;def-root&gt;An action by the &lt;fen&gt;Agent&lt;/fen&gt; to accomplish the desired manipulation.
+
+&lt;ex&gt;Martin &lt;t&gt;clutched&lt;/t&gt; it &lt;fex name="Means"&gt;by pulling a rope attached to a pully which tightened the belt to the PVC&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="000000" coreType="Peripheral" cBy="Hay" cDate="10/02/2003 11:36:53 PDT Thu" abbrev="Place" name="Place" ID="5362">
+    <definition>&lt;def-root&gt;The spatial setting in which the manipulation takes place.
+
+&lt;ex&gt;&lt;fex name="Place"&gt;In the hallway&lt;/fex&gt; he managed to &lt;t&gt;grab&lt;/t&gt;the monarch by the ankles&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Extra-Thematic" cBy="MiL" cDate="07/16/2004 12:32:02 PDT Fri" abbrev="" name="Depictive" ID="6909">
+    <definition>&lt;def-root&gt;This FE identifies a depictive phrase describing the &lt;fen&gt;Agent&lt;/fen&gt; or &lt;fen&gt;Bodypart_of_agent&lt;/fen&gt; that holds throughout the action.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MiL" cDate="07/19/2004 01:42:39 PDT Mon" abbrev="Exp" name="Explanation" ID="6965">
+    <definition>&lt;def-root&gt;A state of affairs leading to the manipulation.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="AnW" cDate="06/03/2009 02:40:16 PDT Wed" abbrev="" name="Particular_iteration" ID="13185">
+    <definition>&lt;def-root&gt;Expressions marked with this extra-thematic FE modify a non-iterative use of the target, and indicate that it is conceived as embedded within an iterated series of similar events or states.&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Bodypart_of_agent" ID="80"/>
+    <memberFE name="Agent" ID="77"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="198">Intentionally_act</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="263">Ingestion</relatedFrame>
+    <relatedFrame ID="1901">Aiming</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="119">Body_parts</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="276">Cause_to_move_in_place</relatedFrame>
+    <relatedFrame ID="1900">Attempt_distant_interaction_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="55">Cause_motion</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="503" POS="V" cBy="automatic" cDate="08/19/2020 07:25:56 UTC Wed" lemmaID="502" name="strelen.v" status="Created" FN_EN_LU_ID="11005" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7593" RBN_matching_relation="near_equivalence">
+    <definition>zachtjes met je handen over iets of iemand heen gaan om hem, haar of het een goed gevoel te geven (ook figuurlijk)</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="strelen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="504" POS="V" cBy="automatic" cDate="08/19/2020 07:26:00 UTC Wed" lemmaID="503" name="aaien.v" status="Created" FN_EN_LU_ID="11005" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1" RBN_matching_relation="near_equivalence">
+    <definition>zacht met de hand ergens overheen strijken om een aangenaam gevoel op te wekken of als uiting van tederheid</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="aaien" order="1"/>
+  </lexUnit>
+  <lexUnit ID="505" POS="V" cBy="automatic" cDate="08/19/2020 07:26:03 UTC Wed" lemmaID="504" name="vrijen.v" status="Created" FN_EN_LU_ID="11005" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9849" RBN_matching_relation="near_equivalence">
+    <definition>je liefde uiten door lichamelijk contact, bijv. door te zoenen of te strelen, of (soms ook) door geslachtsgemeenschap</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="vrijen" order="1"/>
+  </lexUnit>
+</frame>

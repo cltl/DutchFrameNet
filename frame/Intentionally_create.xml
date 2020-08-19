@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="03/04/2002 02:58:06 PST Mon" name="Intentionally_create" ID="280" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;The &lt;fen&gt;Creator&lt;/fen&gt; creates a new entity, the &lt;fen&gt;Created_entity&lt;/fen&gt;, possibly out of &lt;fen&gt;Components&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Creator"&gt;The Libyans&lt;/fex&gt; were &lt;t&gt;generating&lt;/t&gt; &lt;fex name="Created_entity"&gt;arms&lt;/fex&gt; &lt;fex name="Purpose"&gt;for export&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/04/2002 02:59:45 PST Mon" abbrev="Creator" name="Creator" ID="2417">
+    <definition>&lt;def-root&gt;The Creator creates a created entity.&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/04/2002 02:59:54 PST Mon" abbrev="Place" name="Place" ID="2418">
+    <definition>&lt;def-root&gt;This FE identifies the place ehere the Agent intentionally creates the new entity.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/04/2002 02:59:56 PST Mon" abbrev="Time" name="Time" ID="2419">
+    <definition>&lt;def-root&gt;This FE identifes the Time when an Agent intentionally creates a new entity.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/04/2002 03:00:00 PST Mon" abbrev="Purp" name="Purpose" ID="2420">
+    <definition>&lt;def-root&gt;This FE identifies the purpose for which an Agent intentionally creates a new entity.
+&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="03/04/2002 03:01:40 PST Mon" abbrev="Cmpnt" name="Components" ID="2421">
+    <definition>&lt;def-root&gt;This FE identifies the Components that are attached together to form a &lt;fen&gt;Created_entity&lt;/fen&gt;.
+&lt;ex&gt;He &lt;t&gt;made&lt;/t&gt; a jungle gym &lt;fex name="Components"&gt;out of iron bars&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="03/04/2002 03:01:43 PST Mon" abbrev="Depict" name="Depictive" ID="2422">
+    <definition>&lt;def-root&gt;This FE identifies a depictive phrase describing the actor or undergoer of an action.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/04/2002 03:01:47 PST Mon" abbrev="CrEnt" name="Created_entity" ID="2423">
+    <definition>&lt;def-root&gt;This FE identifies the entity that the Agent intentionally creates.
+&lt;ex&gt;They were &lt;t&gt;generating&lt;/t&gt; &lt;fex name="Created_entity"&gt;grenades&lt;/fex&gt; for export.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Artifact" ID="61"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/04/2002 03:01:53 PST Mon" abbrev="Manr" name="Manner" ID="2424">
+    <definition>&lt;def-root&gt;Any description of the creation event which is not covered by more specific FEs, including secondary effects (&lt;ment&gt;quietly, loudly&lt;/ment&gt;), and general descriptions comparing events (&lt;ment&gt;the same way&lt;/ment&gt;). In addition, it may indicate salient characteristics of a &lt;fen&gt;Creator&lt;/fen&gt; that also affect the action (&lt;ment&gt;presumptuously, coldly, deliberately, eagerly, carefully&lt;/ment&gt;). &lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/04/2002 03:01:55 PST Mon" abbrev="Mns" name="Means" ID="2425">
+    <definition>&lt;def-root&gt;This FE identifies the Means by which a Creator intentionally creates a new entity.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/04/2002 03:02:15 PST Mon" abbrev="Ins" name="Instrument" ID="2426">
+    <definition>&lt;def-root&gt;This FE identifies the instrument with which an Agent intentionally creates a Created_entitiy.&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="000000" coreType="Extra-Thematic" cBy="RLG" cDate="01/13/2005 02:55:26 PST Thu" abbrev="rol" name="Role" ID="7425">
+    <definition>&lt;def-root&gt;The role of &lt;fen&gt;Created_entity&lt;/fen&gt;.
+
+&lt;ex&gt;This particular book was &lt;t&gt;created&lt;/t&gt; &lt;fex name="Role"&gt;as an introductory text&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="02/01/2005 02:57:12 PST Tue" abbrev="co-p" name="Co-participant" ID="7480">
+    <definition>&lt;def-root&gt;A secondary agent with whom the &lt;fen&gt;Creator&lt;/fen&gt; intentionally creates the &lt;fen&gt;Created_entity&lt;/fen&gt;.
+
+&lt;ex&gt;Emily &lt;t&gt;set&lt;/t&gt; &lt;t&gt;up&lt;/t&gt; the business &lt;fex name="Co-participant"&gt;with the former president of Intersoft, Inc&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="198">Intentionally_act</relatedFrame>
+    <relatedFrame ID="319">Creating</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="408">Manufacturing</relatedFrame>
+    <relatedFrame ID="278">Text_creation</relatedFrame>
+    <relatedFrame ID="403">Achieving_first</relatedFrame>
+    <relatedFrame ID="259">Building</relatedFrame>
+    <relatedFrame ID="1658">Create_physical_artwork</relatedFrame>
+    <relatedFrame ID="247">Knot_creation</relatedFrame>
+    <relatedFrame ID="11">Duplication</relatedFrame>
+    <relatedFrame ID="1645">Translating</relatedFrame>
+    <relatedFrame ID="268">Cooking_creation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

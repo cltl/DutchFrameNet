@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="HCB" cDate="05/30/2001 02:42:15 PDT Wed" name="Kidnapping" ID="122" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;The words in this frame describe situations in which a &lt;fen&gt;Perpetrator&lt;/fen&gt; carries off and holds the &lt;fen&gt;Victim&lt;/fen&gt; against his or her will by force.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Perpetrator"&gt;Two men&lt;/fex&gt; &lt;t&gt;kidnapped&lt;/t&gt; &lt;fex name="Victim"&gt;a Millwall soccer club employee&lt;/fex&gt;, police said last night.&lt;/ex&gt;
+
+&lt;ex&gt;Not even the &lt;t&gt;abduction&lt;/t&gt; &lt;fex name="Victim"&gt;of his children&lt;/fex&gt; &lt;fex name="Perp"&gt;by Captain Hook and his scurvy sidekick, Smee&lt;/fex&gt;, can shake Peter's scepticism.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="HCB" cDate="05/30/2001 02:47:36 PDT Wed" abbrev="Perp" name="Perpetrator" ID="627">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Perpetrator&lt;/fen&gt; is the person (or other agent) who carries off and holds the &lt;fen&gt;Victim&lt;/fen&gt; against his or her will.&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="HCB" cDate="05/30/2001 02:49:35 PDT Wed" abbrev="Vict" name="Victim" ID="628">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Victim&lt;/fen&gt; is the person who is carried off and held against his/her will.&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="7CCD7C" fgColor="000000" coreType="Peripheral" cBy="HCB" cDate="05/30/2001 04:26:18 PDT Wed" abbrev="Place" name="Place" ID="636">
+    <definition>&lt;def-root&gt;Where the kidnapping takes place.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="HCB" cDate="05/30/2001 04:26:19 PDT Wed" abbrev="Time" name="Time" ID="637">
+    <definition>&lt;def-root&gt;When the kidnapping occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="HCB" cDate="05/30/2001 04:27:40 PDT Wed" abbrev="Src" name="Source" ID="638">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Source&lt;/fen&gt; is the initial location of the &lt;fen&gt;Victim&lt;/fen&gt; before it changes location.&lt;/def-root&gt;</definition>
+    <semType name="Source" ID="151"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="HCB" cDate="05/31/2001 02:25:13 PDT Thu" abbrev="GOAL" name="Goal" ID="642">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Goal&lt;/fen&gt; is the place in which the &lt;fen&gt;Victim&lt;/fen&gt; ends up.&lt;/def-root&gt;</definition>
+    <semType name="Goal" ID="153"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="HCB" cDate="05/31/2001 02:26:08 PDT Thu" abbrev="Degr" name="Degree" ID="643">
+    <definition>&lt;def-root&gt;Degree to which event occurs&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="HCB" cDate="05/31/2001 02:26:08 PDT Thu" abbrev="Manr" name="Manner" ID="647">
+    <definition>&lt;def-root&gt;Manner in which the kidnapping takes place.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="HCB" cDate="05/31/2001 02:26:08 PDT Thu" abbrev="Means" name="Means" ID="648">
+    <definition>&lt;def-root&gt;An act performed by the &lt;fen&gt;Perpetrator&lt;/fen&gt; that helps them accomplish the kidnapping.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="08/20/2002 02:42:32 PDT Tue" abbrev="Pur" name="Purpose" ID="3590">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Purpose&lt;/fen&gt; is what the &lt;fen&gt;Perpetrator&lt;/fen&gt; hopes to accomplish by kidnapping.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="08/20/2002 02:49:36 PDT Tue" abbrev="exp" name="Explanation" ID="3591">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Explanation&lt;/fen&gt; expresses why the &lt;fen&gt;Perpetrator&lt;/fen&gt; commits the kidnapping.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFFFFF" fgColor="FF0000" coreType="Peripheral" cBy="MJE" cDate="06/10/2003 07:39:32 PDT Tue" abbrev="" name="Event" ID="4609">
+    <definition>&lt;def-root&gt;The abduction of a &lt;fen&gt;Victim&lt;/fen&gt; by a &lt;fen&gt;Perpetrator&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="07/23/2003 03:30:52 PDT Wed" abbrev="Co-p" name="Co-participant" ID="4823">
+    <definition>&lt;def-root&gt;An additional abductee taken along with the &lt;fen&gt;Victim&lt;/fen&gt;.
+&lt;ex&gt;She was &lt;t&gt;abducted&lt;/t&gt; &lt;fex name="Co-participant"&gt;with her brother&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="Hay" cDate="10/02/2003 11:40:55 PDT Thu" abbrev="Dur" name="Duration" ID="5462">
+    <definition>&lt;def-root&gt;The period of time for which the &lt;fen&gt;Victim&lt;/fen&gt; is held by the &lt;fen&gt;Perpetrator&lt;/fen&gt;
+
+&lt;ex&gt;Two young man &lt;t&gt;abducted&lt;/t&gt; her &lt;fex name="Duration"&gt;for about two hours&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Duration" ID="142"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="Hay" cDate="10/02/2003 11:40:55 PDT Thu" abbrev="Freq" name="Frequency" ID="5463">
+    <definition>&lt;def-root&gt;The number of times that the &lt;fen&gt;Victim&lt;/fen&gt; is kidnapped.
+
+&lt;ex&gt; The prelate was &lt;t&gt;kidnapped&lt;/t&gt; &lt;fex name="Frequency"&gt;twice&lt;/fex&gt; in the last two years&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="700">Committing_crime</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1800">Being_in_control</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="442" POS="V" cBy="automatic" cDate="08/19/2020 07:21:45 UTC Wed" lemmaID="441" name="kidnappen.v" status="Created" FN_EN_LU_ID="2456" Method="Iteration-1" RBN_LU_ID="r_v-3846" RBN_matching_relation="near_equivalence">
+    <definition>de genoemde onder dwang meenemen en gevangen houden, meestal om iets af te dwingen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="kidnappen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="443" POS="V" cBy="automatic" cDate="08/19/2020 07:21:49 UTC Wed" lemmaID="442" name="ontvoeren.v" status="Created" FN_EN_LU_ID="2456" Method="Iteration-1" RBN_LU_ID="r_v-5378" RBN_matching_relation="near_equivalence">
+    <definition>de genoemde onder dwang meenemen naar een verborgen plaats, zonder dat je daar het recht toe hebt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="ontvoeren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="444" POS="N" cBy="manual" cDate="08/19/2020 07:21:53 UTC Wed" lemmaID="443" name="kidnapper.n" status="Created" FN_EN_LU_ID="2466" Method="Iteration-1" RBN_LU_ID="r_n-19490" RBN_matching_relation="equivalence">
+    <definition>die een persoon heeft ontvoerd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="kidnapper" order="1"/>
+  </lexUnit>
+</frame>

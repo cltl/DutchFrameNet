@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Tess" cDate="07/09/2002 12:11:01 PDT Tue" name="Morality_evaluation" ID="370" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;In this frame an &lt;fen&gt;Evaluee&lt;/fen&gt; is described by a (usually implicit) &lt;fen&gt;Judge&lt;/fen&gt; with respect to the morality or rightness of his or her &lt;fen&gt;Behavior&lt;/fen&gt;.
+
+&lt;ex&gt;That was &lt;fex name="Degree"&gt;very&lt;/fex&gt; &lt;t&gt;righteous&lt;/t&gt; &lt;fex name="Evaluee"&gt;of you&lt;/fex&gt; &lt;fex name="Behavior"&gt;to help him&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="Tess" cDate="07/10/2002 10:15:35 PDT Wed" abbrev="Eval" name="Evaluee" ID="3351">
+    <definition>&lt;def-root&gt;This is the person whose &lt;fen&gt;Behavior&lt;/fen&gt; is being judged with respect to its morality.
+
+&lt;ex&gt;It was &lt;t&gt;honorable&lt;/t&gt; &lt;fex name="Evaluee"&gt;of Jackie&lt;/fex&gt; &lt;fex name="Beh"&gt;to give up the position&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="Tess" cDate="07/10/2002 10:22:02 PDT Wed" abbrev="Beh" name="Behavior" ID="3352">
+    <definition>&lt;def-root&gt;The assessment of the &lt;fen&gt;Evaluee&lt;/fen&gt; is based on his or her &lt;fen&gt;Behavior&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Beh"&gt;Accepting that money&lt;/fex&gt; was &lt;t&gt;immoral&lt;/t&gt; &lt;fex name="Eval"&gt;of Lindsay&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="Tess" cDate="07/10/2002 02:18:37 PDT Wed" abbrev="Deg" name="Degree" ID="3354">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Degree&lt;/fen&gt; to which the evaluation holds.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Core" cBy="Tess" cDate="07/17/2002 10:47:45 PDT Wed" abbrev="Exp" name="Expressor" ID="3390">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Expressor&lt;/fen&gt; is the body part or action by a body part which is the basis of the evaluation of morality.
+&lt;ex&gt;His face twisted into an &lt;t&gt;evil&lt;/t&gt; &lt;fex name="Exp"&gt;grin&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="05/06/2004 02:08:09 PDT Thu" abbrev="jud" name="Judge" ID="6392">
+    <definition>&lt;def-root&gt;The individual whose point of view is taken in assigning the judgment denoted by the target.
+
+
+&lt;ex&gt;Timothy McVeigh was, &lt;fex name="jud"&gt;in my opinion&lt;/fex&gt;, an &lt;t&gt;evil&lt;/t&gt; and horrible man.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Behavior" ID="3352"/>
+    <memberFE name="Expressor" ID="3390"/>
+    <memberFE name="Evaluee" ID="3351"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="369">Social_behavior_evaluation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="501">Legality</relatedFrame>
+    <relatedFrame ID="1100">Misdeed</relatedFrame>
+    <relatedFrame ID="1102">People_by_morality</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="559" POS="A" cBy="manual" cDate="08/19/2020 07:29:55 UTC Wed" lemmaID="557" name="immoreel.a" status="Created" FN_EN_LU_ID="6517" Method="Iteration-1" RBN_LU_ID="r_a-11884" RBN_matching_relation="equivalence">
+    <definition>in strijd met morele principes</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="immoreel" order="1"/>
+  </lexUnit>
+  <lexUnit ID="560" POS="A" cBy="automatic" cDate="08/19/2020 07:29:58 UTC Wed" lemmaID="558" name="verdorven.a" status="Created" FN_EN_LU_ID="6632" Method="Iteration-1" RBN_LU_ID="r_a-15951" RBN_matching_relation="near_equivalence">
+    <definition>door en door slecht</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="verdorven" order="1"/>
+  </lexUnit>
+  <lexUnit ID="561" POS="A" cBy="automatic" cDate="08/19/2020 07:30:01 UTC Wed" lemmaID="559" name="onrechtvaardig.a" status="Created" FN_EN_LU_ID="6634" Method="Iteration-1" RBN_LU_ID="r_a-13649" RBN_matching_relation="near_equivalence">
+    <definition>niet rechtvaardig</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="onrechtvaardig" order="1"/>
+  </lexUnit>
+  <lexUnit ID="562" POS="A" cBy="automatic" cDate="08/19/2020 07:30:05 UTC Wed" lemmaID="560" name="zondig.a" status="Created" FN_EN_LU_ID="6634" Method="Iteration-1" RBN_LU_ID="r_a-16438" RBN_matching_relation="near_equivalence">
+    <definition>mbt. zonden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="zondig" order="1"/>
+  </lexUnit>
+  <lexUnit ID="563" POS="A" cBy="automatic" cDate="08/19/2020 07:30:08 UTC Wed" lemmaID="561" name="schandelijk.a" status="Created" FN_EN_LU_ID="6635" Method="Iteration-1" RBN_LU_ID="r_a-14809" RBN_matching_relation="near_equivalence">
+    <definition>zeer afkeurenswaardig</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="schandelijk" order="1"/>
+  </lexUnit>
+  <lexUnit ID="564" POS="A" cBy="automatic" cDate="08/19/2020 07:30:12 UTC Wed" lemmaID="562" name="misdadig.a" status="Created" FN_EN_LU_ID="6635" Method="Iteration-1" RBN_LU_ID="r_a-12896" RBN_matching_relation="near_equivalence">
+    <definition>crimineel</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="misdadig" order="1"/>
+  </lexUnit>
+  <lexUnit ID="565" POS="A" cBy="automatic" cDate="08/19/2020 07:30:15 UTC Wed" lemmaID="563" name="afschrikwekkend.a" status="Created" FN_EN_LU_ID="6680" Method="Iteration-1" RBN_LU_ID="r_a-8889" RBN_matching_relation="near_equivalence">
+    <definition>afkeer inboezemend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="afschrikwekkend" order="1"/>
+  </lexUnit>
+  <lexUnit ID="566" POS="A" cBy="automatic" cDate="08/19/2020 07:30:18 UTC Wed" lemmaID="564" name="afgrijselijk.a" status="Created" FN_EN_LU_ID="6680" Method="Iteration-1" RBN_LU_ID="r_a-8724" RBN_matching_relation="near_equivalence">
+    <definition>afschuwelijk</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="afgrijselijk" order="1"/>
+  </lexUnit>
+</frame>

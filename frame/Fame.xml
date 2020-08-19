@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="02/27/2007 02:55:18 PST Tue" name="Fame" ID="1880" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Entity&lt;/fen&gt; is well-known among a wide range of people (in general or in a particular domain) for a particular &lt;fen&gt;Reason&lt;/fen&gt;, which may be a behavior, characteristic, or some other associated item. In the case of events, fame entails a large number of people being aware of the event's occurence; in the case of concrete entities, including humans, fame entails awareness of existence. In both cases, often fame is accompanied by awareness of the &lt;fen&gt;Entity&lt;/fen&gt;'s significance in historical, cultural, or social contexts.
+
+&lt;ex&gt;&lt;fex name="Entity"&gt;Shakespeare&lt;/fex&gt; &lt;m&gt;was&lt;/m&gt; &lt;t&gt;famous&lt;/t&gt; &lt;fex name="Time"&gt;during his life&lt;/fex&gt; &lt;fex name="Explanation"&gt;because he performed in front of Queen Elizabeth I more than anyone else&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="02/27/2007 02:55:18 PST Tue" abbrev="Ent" name="Entity" ID="11110">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Entity&lt;/fen&gt; which is widely known and recognized.
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="02/27/2007 02:55:18 PST Tue" abbrev="" name="Degree" ID="11112">
+    <definition>&lt;def-root&gt;A modifier expressing  the degree of fame of the &lt;fen&gt;Entity&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="02/27/2007 02:55:18 PST Tue" abbrev="Tim" name="Time" ID="11113">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; during which the &lt;fen&gt;Entity&lt;/fen&gt; is famous.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="02/27/2007 02:55:18 PST Tue" abbrev="cir" name="Circumstances" ID="11114">
+    <definition>&lt;def-root&gt;Some specification of the circumstances under which the &lt;fen&gt;Entity&lt;/fen&gt; is considered famous.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="02/27/2007 04:12:35 PST Tue" abbrev="exp" name="Explanation" ID="11117">
+    <definition>&lt;def-root&gt;A state of affairs that provides an explanation (via reasoning, causation, etc.) for the level of fame of the &lt;fen&gt;Entity&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="02/28/2007 12:23:17 PST Wed" abbrev="rea" name="Reason" ID="11120">
+    <definition>&lt;def-root&gt;The behavior, attribute, or associated entities that provide the reason for the &lt;fen&gt;Entity&lt;/fen&gt; being famous.
+
+&lt;ex&gt;This station is &lt;t&gt;famous&lt;/t&gt; &lt;fex name="rea"&gt;for the many ramen shacks surrounding it&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;Google is &lt;t&gt;well known&lt;/t&gt; &lt;fex name="rea"&gt;for having attracted and kept some of the best minds in the industry&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="000000" coreType="Peripheral" cBy="RLG" cDate="02/28/2007 02:53:06 PST Wed" abbrev="dur" name="Duration" ID="11122">
+    <definition>&lt;def-root&gt;The length of time during which the &lt;fen&gt;Entity&lt;/fen&gt; is famous.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="02/28/2007 02:53:51 PST Wed" abbrev="pla" name="Place" ID="11123">
+    <definition>&lt;def-root&gt;The location where the &lt;fen&gt;Entity&lt;/fen&gt; is famous.
+
+&lt;ex&gt;Certain people are &lt;t&gt;well known&lt;/t&gt; &lt;fex name="pla"&gt;only in North America&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="006400" coreType="Extra-Thematic" cBy="KmG" cDate="05/29/2008 05:11:42 PDT Thu" abbrev="Rol" name="Role" ID="12684">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Role&lt;/fen&gt; underwhich the &lt;fen&gt;Entity&lt;/fen&gt; become famous.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="KmG" cDate="05/29/2008 05:17:55 PDT Thu" abbrev="Mea" name="Means" ID="12685">
+    <definition>&lt;def-root&gt;The way in which the &lt;fen&gt;Entity&lt;/fen&gt; becomes famous.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="2411">Personal_success</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="19">Awareness</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1881">Obscurity</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="370" POS="A" cBy="manual" cDate="08/19/2020 07:17:06 UTC Wed" lemmaID="369" name="gerenommeerd.a" status="Created" FN_EN_LU_ID="13894" Method="Iteration-1" RBN_LU_ID="r_a-11006" RBN_matching_relation="equivalence">
+    <definition>vermaard</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="gerenommeerd" order="1"/>
+  </lexUnit>
+  <lexUnit ID="371" POS="A" cBy="automatic" cDate="08/19/2020 07:17:09 UTC Wed" lemmaID="370" name="vermaard.a" status="Created" FN_EN_LU_ID="13894" Method="Iteration-1" RBN_LU_ID="r_a-15987" RBN_matching_relation="near_equivalence">
+    <definition>beroemd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="vermaard" order="1"/>
+  </lexUnit>
+  <lexUnit ID="372" POS="A" cBy="automatic" cDate="08/19/2020 07:17:12 UTC Wed" lemmaID="371" name="notoir.a" status="Created" FN_EN_LU_ID="14717" Method="Iteration-1" RBN_LU_ID="r_a-13186" RBN_matching_relation="near_equivalence">
+    <definition>berucht</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="notoir" order="1"/>
+  </lexUnit>
+</frame>

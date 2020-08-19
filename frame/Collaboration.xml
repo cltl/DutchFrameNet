@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="10/24/2002 03:16:11 PDT Thu" name="Collaboration" ID="418" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;&lt;fen&gt;Partner_1&lt;/fen&gt; and &lt;fen&gt;Partner_2&lt;/fen&gt; or a group of &lt;fen&gt;Partners&lt;/fen&gt;  work together in some &lt;fen&gt;Undertaking&lt;/fen&gt;. The &lt;fen&gt;Partners&lt;/fen&gt; are taken to be of equal status even when expressed disjointly. 
+
+&lt;ex&gt; &lt;fex name="Partner_1"&gt;CSTR&lt;/fex&gt; &lt;fex name="Manner"&gt;actively&lt;/fex&gt; &lt;t&gt;collaborates&lt;/t&gt; &lt;fex name="Partner_2"&gt;with the Departments of Artificial Intelligence  and Physics&lt;/fex&gt;. &lt;/ex&gt;
+&lt;ex&gt; &lt;fex name="Partners"&gt;Tom and  the American composer Steve Riche&lt;/fex&gt; have &lt;fex name="Time"&gt;recently&lt;/fex&gt; &lt;t&gt;collaborated&lt;/t&gt; &lt;fex name="Undertaking"&gt;on a piece of elevator music&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="10/24/2002 03:22:14 PDT Thu" abbrev="Partner-1" name="Partner_1" ID="3851">
+    <definition>&lt;def-root&gt;When the parties in a collaboration are expressed separately, this Frame Element marks constituents that express the one that is grammatically more prominent, i.e., the one that is the subject of an active clause.
+
+&lt;ex&gt; &lt;fex name="Partner_1"&gt;Smithers&lt;/fex&gt; &lt;t&gt;collaborated&lt;/t&gt; with Chief Wiggum &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Human" ID="80"/>
+    <requiresFE name="Partner_2" ID="3852"/>
+    <excludesFE name="Partners" ID="3855"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="10/24/2002 03:32:39 PDT Thu" abbrev="Partner-2" name="Partner_2" ID="3852">
+    <definition>&lt;def-root&gt;This Frame element marks constituents expressing the grammatically  less prominent, typically oblique, party in a collaboration.
+
+&lt;ex&gt; Britain is &lt;t&gt;collaborating&lt;/t&gt; &lt;fex name="Partner_2"&gt;with France and West Germany&lt;/fex&gt; in the development of anti-tank missiles&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Human" ID="80"/>
+    <requiresFE name="Partner_1" ID="3851"/>
+    <excludesFE name="Partners" ID="3855"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="10/24/2002 03:34:37 PDT Thu" abbrev="Undertaking" name="Undertaking" ID="3853">
+    <definition>&lt;def-root&gt;This frame element marks constituents that express the project in which the &lt;fen&gt;Partners&lt;/fen&gt; are collaborating.
+
+
+&lt;ex&gt; The two artists &lt;t&gt;collaborated&lt;/t&gt; &lt;fex name="Undertaking"&gt;on a mosaic&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="10/24/2002 03:35:32 PDT Thu" abbrev="Manr" name="Manner" ID="3854">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Manner&lt;/fen&gt; in which &lt;fen&gt;Partner_1&lt;/fen&gt; collaborates with &lt;fen&gt;Partner_2&lt;/fen&gt; or in which the &lt;fen&gt;Partners&lt;/fen&gt; collaborate.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="10/24/2002 03:37:47 PDT Thu" abbrev="Partners" name="Partners" ID="3855">
+    <definition>&lt;def-root&gt;This frame element marks expressions that express the parties that work together in an &lt;fen&gt;Undertaking&lt;/fen&gt;.
+
+&lt;ex&gt; &lt;fex name="Partners"&gt;Smithers and Chief Wiggum&lt;/fex&gt; &lt;t&gt;collaborated&lt;/t&gt; well &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Human" ID="80"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="10/24/2002 03:45:03 PDT Thu" abbrev="Time" name="Time" ID="3856">
+    <definition>&lt;def-root&gt;This FE identifies the time when the &lt;fen&gt;Partners&lt;/fen&gt; are engaged in their collaboration.
+
+&lt;ex&gt;&lt;fex name="Time"&gt;Last year&lt;/fex&gt; some of my colleagues collaborated in the design of a theme-park.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="10/24/2002 03:47:20 PDT Thu" abbrev="Place" name="Place" ID="3857">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Place&lt;/fen&gt; where the collaboration occurs.
+
+&lt;ex&gt; &lt;fex name="Place"&gt;In New Braunfels&lt;/fex&gt; Paul and John &lt;t&gt;collaborated&lt;/t&gt; in the design of a new Guggenheim &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="11/01/2002 08:33:02 PST Fri" abbrev="Dur" name="Duration" ID="3870">
+    <definition>&lt;def-root&gt;This FE identifies the amount of time the &lt;fen&gt;Partners&lt;/fen&gt; collaborate.&lt;/def-root&gt;</definition>
+    <semType name="Duration" ID="142"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="05/23/2003 03:28:01 PDT Fri" abbrev="" name="Degree" ID="4505">
+    <definition>&lt;def-root&gt;This FE marks expressions that indicate to what extent the &lt;fen&gt;Partners&lt;/fen&gt; are cooperating.
+
+&lt;ex&gt;The French government &lt;t&gt;cooperated&lt;/t&gt; &lt;fex name="Degree"&gt;fully&lt;/fex&gt; with the New Zealand police.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="12/08/2005 11:52:54 PST Thu" abbrev="mea" name="Means" ID="9749">
+    <definition>&lt;def-root&gt;The action taken by the &lt;fen&gt;Partners&lt;/fen&gt; that lets them accomplish the collaboration.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="9">Reciprocality</relatedFrame>
+    <relatedFrame ID="198">Intentionally_act</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

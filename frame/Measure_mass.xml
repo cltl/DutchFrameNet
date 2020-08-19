@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/29/2001 04:38:54 PDT Fri" name="Measure_mass" ID="147" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame is concerned with nouns that denote &lt;fen&gt;Unit&lt;/fen&gt;s of measurement for masses. The Frame Elements are &lt;fen&gt;Unit&lt;/fen&gt;, &lt;fen&gt;Count&lt;/fen&gt;,  and &lt;fen&gt;Stuff&lt;/fen&gt;.&lt;ex&gt;Jelena bought &lt;fex name="Count"&gt;three&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;kilos&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of apples&lt;/fex&gt;.&lt;/ex&gt;&lt;ex&gt;Add &lt;fex name="Count"&gt;a&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;pound&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of sugar&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <semType name="Transparent Noun" ID="9"/>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/29/2001 05:11:07 PDT Fri" abbrev="" name="Count" ID="1171">
+    <definition>&lt;def-root&gt;The number of &lt;fen&gt;Unit&lt;/fen&gt;s of the measured mass.&lt;ex&gt;Serena found &lt;fex name="Count"&gt;two&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;pounds&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of sugar&lt;/fex&gt; in the freezer.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/29/2001 05:14:44 PDT Fri" abbrev="" name="Unit" ID="1172">
+    <definition>&lt;def-root&gt;The standardized quantity in terms of which other quantities of the same kind are  measured.&lt;ex&gt;Take &lt;fex name="Count"&gt;two&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;grams&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;DNI&lt;/fex&gt; every day before and after dinner.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/29/2001 05:15:45 PDT Fri" abbrev="" name="Stuff" ID="1173">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Stuff&lt;/fen&gt; whose weight is being measured.&lt;ex&gt;Sue bought &lt;fex name="Count"&gt;three&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;kilos&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of cat food&lt;/fex&gt; on sale.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1686">Measures</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

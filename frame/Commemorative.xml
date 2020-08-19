@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MRLP" cDate="01/24/2002 03:01:38 PST Thu" name="Commemorative" ID="261" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame describes a particular compounding construction (a pattern of coinage) by which more complex words can be created by joining an &lt;fen&gt;Honored_entity&lt;/fen&gt; to a &lt;fen&gt;Dedicated_type&lt;/fen&gt; to describe a particular &lt;fen&gt;Dedicated_entity&lt;/fen&gt; which has been officially named for the &lt;fen&gt;Honored_entity&lt;/fen&gt;.  The &lt;fen&gt;Dedicated_type&lt;/fen&gt; and &lt;fen&gt;Honored_entity&lt;/fen&gt; FEs each form part of the Lexical Units (annotated on the second FE layer), and the &lt;fen&gt;Dedicated_entity&lt;/fen&gt; is the denotation of the whole.  Since each of the FEs is a part of the Lexical Unit, there is no assignment of Grammatical Function or Phrase Type.  The &lt;fen&gt;Dedicated_type&lt;/fen&gt; should (in principle) also be annotated as a LU in a separate frame.  Targets are added opportunistically to this frame in the course of annotating other frames.  For example, the Day of &lt;t&gt;Armistice Day&lt;/t&gt; should also be annotated in the Calendric_unit frame.
+
+&lt;ex&gt;1st layer:  Turn right at the &lt;fex name="ded"&gt;&lt;t&gt;Jefferson Building&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;2nd layer:  Turn right at the &lt;fex name="Honored_entity"&gt;Jefferson&lt;/fex&gt; &lt;fex name="Dedicated_type"&gt;Building&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="MRLP" cDate="01/25/2002 01:27:54 PST Fri" abbrev="Hon" name="Honored_entity" ID="2256">
+    <definition>&lt;def-root&gt;This FE identifies the person, subject, or event that is being honored.
+
+&lt;ex&gt;We have a picnic every year on &lt;t&gt;&lt;fex name="Honored_entity"&gt;Veterans'&lt;/fex&gt; day&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Core" cBy="MRLP" cDate="01/25/2002 01:28:54 PST Fri" abbrev="Ded_typ" name="Dedicated_type" ID="2257">
+    <definition>&lt;def-root&gt;This FE identifies the type of entity that had been dedicated to honor the &lt;fen&gt;Honored_entity&lt;/fen&gt;.
+
+&lt;ex&gt;Is &lt;t&gt;Armistice &lt;fex name="Ded_typ"&gt;DAY&lt;/fex&gt;&lt;/t&gt; a national holiday?&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="02/02/2006 10:37:39 PST Thu" abbrev="ded" name="Dedicated_entity" ID="9896">
+    <definition>&lt;def-root&gt;The entity which has been dedicated to the &lt;fen&gt;Honored_entity&lt;/fen&gt;.
+
+&lt;ex&gt;The &lt;fex name="ded"&gt;&lt;t&gt;Jimmy Hoffa Building&lt;/t&gt;&lt;/fex&gt; hasn't opened yet.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

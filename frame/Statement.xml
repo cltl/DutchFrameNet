@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:04 PST Wed" name="Statement" ID="43" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame contains verbs and nouns that communicate the act of a &lt;fen&gt;Speaker&lt;/fen&gt; to address a &lt;fen&gt;Message&lt;/fen&gt; to some &lt;fen&gt;Addressee&lt;/fen&gt; using language. Instead of (or in addition to) a &lt;fen&gt;Speaker&lt;/fen&gt;, a &lt;fen&gt;Medium&lt;/fen&gt; may also be mentioned. Likewise, a &lt;fen&gt;Topic&lt;/fen&gt; may be stated instead of a &lt;fen&gt;Message&lt;/fen&gt;. A number of the words can be used performatively, such as &lt;m&gt;declare&lt;/m&gt; and &lt;m&gt;insist&lt;/m&gt;.
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;I&lt;/fex&gt; now &lt;t&gt;declare&lt;/t&gt; &lt;fex name="Message"&gt;you&lt;/fex&gt; &lt;fex name="Message"&gt;members of this Society&lt;/fex&gt;.&lt;/ex&gt; 
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;She&lt;/fex&gt; &lt;t&gt;said&lt;/t&gt; &lt;fex name="Message"&gt;that I would be late&lt;/fex&gt; .&lt;/ex&gt;
+
+&lt;ex&gt;The &lt;t&gt;announcement&lt;/t&gt; &lt;fex name="Top"&gt;about raffle winners&lt;/fex&gt; came &lt;fex name="Medium"&gt;across the loudspeaker&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:04 PST Wed" abbrev="Spkr" name="Speaker" ID="183">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Speaker&lt;/fen&gt; is the sentient entity that produces the &lt;fen&gt;Message&lt;/fen&gt; (whether spoken or written).  It is normally expressed as the External Argument of predicative uses of the &lt;t&gt;target	&lt;/t&gt; word, or as the Genitive modifier of the noun.
+&lt;ex&gt;&lt;fex name="Spkr"&gt;Evelyn&lt;/fex&gt; &lt;t&gt;spoke&lt;/t&gt; feelingly about what happened.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Spkr"&gt;Evelyn&lt;/fex&gt; made a persuasive &lt;t&gt;statement&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Spkr"&gt;Evelyn's&lt;/fex&gt; &lt;t&gt;statement&lt;/t&gt; was quite persuasive.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ChW" cDate="02/07/2001 04:12:05 PST Wed" abbrev="Add" name="Addressee" ID="184">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Addressee&lt;/fen&gt; is the person to whom the &lt;fen&gt;Message&lt;/fen&gt; is communicated. When this FE is expressed, it often appears in a prepositional phrase introduced by "to", or as a direct object.
+&lt;ex&gt;Evelyn &lt;t&gt;reported&lt;/t&gt; &lt;fex name="Add"&gt;to me&lt;/fex&gt; about what happened.&lt;/ex&gt;
+&lt;ex&gt;Evelyn &lt;t&gt;spoke&lt;/t&gt; &lt;fex name="Add"&gt;to me&lt;/fex&gt; about what happened.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:05 PST Wed" abbrev="Msg" name="Message" ID="185">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Message&lt;/fen&gt; is the FE that identifies the content of what the &lt;fen&gt;Speaker&lt;/fen&gt; is communicating to the &lt;fen&gt;Addressee&lt;/fen&gt;.  It can be expressed as a clause or as a noun phrase.
+&lt;ex&gt;Evelyn &lt;t&gt;said&lt;/t&gt; &lt;fex name="Msg"&gt;that she was not ready to leave&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Evelyn &lt;t&gt;explained&lt;/t&gt; &lt;fex name="Msg"&gt;that she had seen him before&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Message" ID="56"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:05 PST Wed" abbrev="Top" name="Topic" ID="186">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Topic&lt;/fen&gt; is the subject matter to which the &lt;fen&gt;Message&lt;/fen&gt; pertains. It is normally expressed as a PP Complement headed by "about", but in some cases it can appear as a direct object.
+&lt;ex&gt;Evelyn &lt;t&gt;spoke&lt;/t&gt; candidly &lt;fex name="Top"&gt;about her past&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The teacher &lt;t&gt;mentioned&lt;/t&gt; &lt;fex name="Top"&gt;the recent campus incidents&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="BoC" cDate="07/02/2001 09:38:56 PDT Mon" abbrev="Manr" name="Manner" ID="1241">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Manner&lt;/fen&gt; of performing an action.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="07/17/2001 03:02:55 PDT Tue" abbrev="Mns" name="Means" ID="1518">
+    <definition>&lt;def-root&gt;An act whereby the &lt;fen&gt;Speaker&lt;/fen&gt; makes a &lt;fen&gt;Message&lt;/fen&gt;.
+&lt;ex&gt;Bilio &lt;t&gt;commented&lt;/t&gt; on the paper &lt;fex name="Mns"&gt;by scrawling innumerable post-its in a range of colors and sticking them all over it&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="7CCD7C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="07/17/2001 03:03:50 PDT Tue" abbrev="ICause" name="Internal_cause" ID="1519">
+    <definition>&lt;def-root&gt;The emotional or physical state of the &lt;fen&gt;Speaker&lt;/fen&gt; that leads to their speaking.
+&lt;ex&gt;He &lt;t&gt;wrote&lt;/t&gt; &lt;fex name="ICause"&gt;in bitterness&lt;/fex&gt; of the treatment the Malloreans had given him.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="07/17/2001 03:05:17 PDT Tue" abbrev="Medium" name="Medium" ID="1520">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Medium&lt;/fen&gt; is the physical entity or channel used by the &lt;fen&gt;Speaker&lt;/fen&gt; to transmit the statement.
+&lt;ex&gt;Kim &lt;t&gt;preached&lt;/t&gt; to me &lt;fex name="Medium"&gt;over the phone&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="03/27/2003 12:00:09 PST Thu" abbrev="Dep" name="Depictive" ID="4321">
+    <definition>&lt;def-root&gt;The state of the &lt;fen&gt;Speaker&lt;/fen&gt; during the &lt;fen&gt;Message&lt;/fen&gt;.
+&lt;ex&gt;Let's see if you &lt;t&gt;say&lt;/t&gt; that &lt;fex name="Dep"&gt;sober&lt;/fex&gt;!&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="GlY" cDate="04/16/2003 05:15:29 PDT Wed" abbrev="Time" name="Time" ID="4380">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; at which the &lt;fen&gt;Message&lt;/fen&gt; is made.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="GlY" cDate="06/04/2003 05:12:59 PDT Wed" abbrev="Pla" name="Place" ID="4531">
+    <definition>&lt;def-root&gt;The FE specifies the location where the &lt;fen&gt;Message&lt;/fen&gt; takes place.
+&lt;ex&gt;In some &lt;t&gt;remarks&lt;/t&gt; &lt;fex name="Place"&gt;at the National Press Club&lt;/fex&gt;, Mr. Keating said he would make a better prime minister tha nMr. Hawke.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="06/05/2003 10:01:15 PDT Thu" abbrev="" name="Occasion" ID="4533">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Occasion&lt;/fen&gt; is the reason a public &lt;fen&gt;Message&lt;/fen&gt; is given.
+&lt;ex&gt;The &lt;fex name="Occasion"&gt;New Year&lt;/fex&gt; &lt;t&gt;address&lt;/t&gt; was well received.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="06/16/2005 09:41:14 PDT Thu" abbrev="par" name="Particular_iteration" ID="8175">
+    <definition>&lt;def-root&gt;Expressions marked with this extra-thematic FE indicate that the particular &lt;fen&gt;Message&lt;/fen&gt; event referred to is conceived as embedded within an iterated series of similar events or states. Most expressions of &lt;fen&gt;Particular_iteration&lt;/fen&gt; indicate which instance of the series is being referred to.
+
+&lt;ex&gt;A further biography Shadowland by William Arnold, published in 1978, &lt;t&gt;asserted&lt;/t&gt;
+&lt;fex name="par"&gt;for the first time&lt;/fex&gt; that Farmer had been the subject of a transorbital lobotomy&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="08/15/2006 02:54:44 PDT Tue" abbrev="Cf" name="Communicative_force" ID="10502">
+    <definition>&lt;def-root&gt;This FE indicates the &lt;fen&gt;Communicative_force&lt;/fen&gt; or authority with which the &lt;fen&gt;Message&lt;/fen&gt; is expressed (often denoted by words such as "officially," "formally," "technically," etc.). &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="EEE8AA" fgColor="000000" coreType="Extra-Thematic" cBy="KmG" cDate="08/15/2006 03:24:20 PDT Tue" abbrev="Deg" name="Degree" ID="10503">
+    <definition>&lt;def-root&gt;This FE selects some gradable attribute and modifies the expected value for it.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="000000" coreType="Extra-Thematic" cBy="KmG" cDate="08/15/2006 03:26:12 PDT Tue" abbrev="Gro" name="Group" ID="10504">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Group&lt;/fen&gt; of &lt;fen&gt;Speaker&lt;/fen&gt;s or &lt;fen&gt;Medium&lt;/fen&gt;s within which the &lt;fen&gt;Message&lt;/fen&gt; is made.   &lt;ex&gt;Much would be achieved if these were more &lt;fex name="Group"&gt;widely&lt;/fex&gt; &lt;t&gt;acknowledged&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="00008B" coreType="Extra-Thematic" cBy="KmG" cDate="10/22/2007 03:15:26 PDT Mon" abbrev="Eve" name="Event_description" ID="12003">
+    <definition>&lt;def-root&gt;This FE describes the &lt;fen&gt;Message&lt;/fen&gt; event.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="DYo" cDate="07/09/2009 02:52:41 PDT Thu" abbrev="" name="Frequency" ID="13282">
+    <definition>&lt;def-root&gt;This FE is defined as the number of times an event occurs per some unit of time.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="DYo" cDate="07/09/2009 03:23:29 PDT Thu" abbrev="Ite" name="Iterations" ID="13283">
+    <definition>&lt;def-root&gt;The FE &lt;fex name="Iterations"&gt;Iterations&lt;/fex&gt; is used for expressions that indicate the number of times an event or state (of the kind denoted by the target in its clause) has taken place or held.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="000000" coreType="Extra-Thematic" cBy="DYo" cDate="07/10/2009 12:08:20 PDT Fri" abbrev="" name="Containing_event" ID="13291">
+    <definition>&lt;def-root&gt;This FE identifies an event during which the &lt;fen&gt;Speaker&lt;/fen&gt; produces the &lt;fen&gt;Message&lt;/fen&gt;. &lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Topic" ID="186"/>
+    <memberFE name="Message" ID="185"/>
+  </FEcoreSet>
+  <FEcoreSet>
+    <memberFE name="Medium" ID="1520"/>
+    <memberFE name="Speaker" ID="183"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="1146">Reveal_secret</relatedFrame>
+    <relatedFrame ID="1621">Complaining</relatedFrame>
+    <relatedFrame ID="1615">Recording</relatedFrame>
+    <relatedFrame ID="750">Telling</relatedFrame>
+    <relatedFrame ID="425">Predicting</relatedFrame>
+    <relatedFrame ID="2202">Reading_aloud</relatedFrame>
+    <relatedFrame ID="2974">Affirm_or_deny</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="6">Communication</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="219">Judgment_communication</relatedFrame>
+    <relatedFrame ID="1231">Renunciation</relatedFrame>
+    <relatedFrame ID="1148">Attributed_information</relatedFrame>
+    <relatedFrame ID="1601">Adducing</relatedFrame>
+    <relatedFrame ID="1154">Unattributed_information</relatedFrame>
+    <relatedFrame ID="910">Chatting</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="790" POS="V" cBy="automatic" cDate="08/19/2020 07:48:18 UTC Wed" lemmaID="787" name="manen.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-1" RBN_LU_ID="r_v-4532" RBN_matching_relation="near_equivalence">
+    <definition>iemand zeggen dat hij of zij iets moet doen, hem of haar aansporen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="manen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="791" POS="V" cBy="automatic" cDate="08/19/2020 07:48:23 UTC Wed" lemmaID="788" name="pressen.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6435" RBN_matching_relation="near_equivalence">
+    <definition>iemand onder druk zetten om iets te doen, hem of haar ertoe dwingen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="pressen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="792" POS="V" cBy="automatic" cDate="08/19/2020 07:48:36 UTC Wed" lemmaID="789" name="pramen.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6416" RBN_matching_relation="near_equivalence">
+    <definition>iemand ertoe brengen iets te doen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="pramen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="793" POS="V" cBy="automatic" cDate="08/19/2020 07:48:44 UTC Wed" lemmaID="790" name="zetten.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-10241" RBN_matching_relation="near_equivalence">
+    <definition>maken dat iets of iemand ergens mee begint</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="zetten" order="1"/>
+  </lexUnit>
+  <lexUnit ID="794" POS="V" cBy="automatic" cDate="08/19/2020 07:48:51 UTC Wed" lemmaID="791" name="dringen.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2539" RBN_matching_relation="near_equivalence">
+    <definition>druk doen gelden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="dringen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="795" POS="V" cBy="automatic" cDate="08/19/2020 07:48:57 UTC Wed" lemmaID="792" name="drijven.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2534" RBN_matching_relation="near_equivalence">
+    <definition>aanzetten</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="drijven" order="1"/>
+  </lexUnit>
+  <lexUnit ID="796" POS="V" cBy="automatic" cDate="08/19/2020 07:49:04 UTC Wed" lemmaID="793" name="vermoeden.v" status="Created" FN_EN_LU_ID="709" Method="Iteration-1" RBN_LU_ID="r_v-9153" RBN_matching_relation="near_equivalence">
+    <definition>op grond van bepaalde aanwijzingen iets als waarheid aannemen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="vermoeden" order="1"/>
+  </lexUnit>
+  <lexUnit ID="797" POS="V" cBy="automatic" cDate="08/19/2020 07:49:10 UTC Wed" lemmaID="794" name="gissen.v" status="Created" FN_EN_LU_ID="709" Method="Iteration-1" RBN_LU_ID="r_v-2973" RBN_matching_relation="near_equivalence">
+    <definition>trachten tot een conclusie (omtrent iets), een voorstelling (van iets) te komen door de gegevens, mogelijkheden na te gaan</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="gissen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="798" POS="V" cBy="automatic" cDate="08/19/2020 07:49:15 UTC Wed" lemmaID="795" name="veronderstellen.v" status="Created" FN_EN_LU_ID="709" Method="Iteration-1" RBN_LU_ID="r_v-9178" RBN_matching_relation="near_equivalence">
+    <definition>iets als waar aannemen en het als uitgangspunt nemen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="veronderstellen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="799" POS="V" cBy="automatic" cDate="08/19/2020 07:49:20 UTC Wed" lemmaID="796" name="postuleren.v" status="Created" FN_EN_LU_ID="709" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6401" RBN_matching_relation="near_equivalence">
+    <definition>aannemen dat iets waar is, zonder dat je daar het bewijs van hebt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="postuleren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="800" POS="V" cBy="automatic" cDate="08/19/2020 07:49:30 UTC Wed" lemmaID="797" name="raden.v" status="Created" FN_EN_LU_ID="709" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6522" RBN_matching_relation="near_equivalence">
+    <definition>proberen achter het genoemde te komen door je vermoedens uit te spreken of door te gokken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="raden" order="1"/>
+  </lexUnit>
+</frame>

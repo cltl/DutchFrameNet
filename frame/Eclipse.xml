@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Sep" cDate="04/09/2003 02:48:28 PDT Wed" name="Eclipse" ID="652" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Obstruction&lt;/fen&gt; blocks an &lt;fen&gt;Eclipsed&lt;/fen&gt; entity partially or completely from view. The positions of the &lt;fen&gt;Obstruction&lt;/fen&gt; and the &lt;fen&gt;Eclipsed&lt;/fen&gt; entity are often reported relative to a &lt;fen&gt;Vantage_point&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Eclipsed"&gt;A small green bulb&lt;/fex&gt; &lt;t&gt;concealed&lt;/t&gt; &lt;fex name="Obstruction"&gt;behind the panel&lt;/fex&gt; flashed on momentarily .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <semType name="Visual_modality" ID="94"/>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="Sep" cDate="04/09/2003 02:52:53 PDT Wed" abbrev="Obstruction" name="Obstruction" ID="4361">
+    <definition>&lt;def-root&gt;The entity which blocks the &lt;fen&gt;Eclipsed&lt;/fen&gt; entity from view.
+
+&lt;ex&gt;&lt;fex name="Obstruction"&gt;Wispy clouds&lt;/fex&gt; &lt;t&gt;shrouded&lt;/t&gt; the treetops.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="Sep" cDate="04/09/2003 03:25:31 PDT Wed" abbrev="Eclipsed" name="Eclipsed" ID="4362">
+    <definition>&lt;def-root&gt;The entity which is blocked from view.
+
+&lt;ex&gt;The mists &lt;t&gt;obscured&lt;/t&gt; &lt;fex name="Eclipsed"&gt;the top of the tower&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="Sep" cDate="04/09/2003 03:49:53 PDT Wed" abbrev="VP" name="Vantage_point" ID="4363">
+    <definition>&lt;def-root&gt;The position from which an observer, if an observer were present, would have their view of the &lt;fen&gt;Eclipsed&lt;/fen&gt; entity blocked by the &lt;fen&gt;Obstruction&lt;/fen&gt;.
+
+&lt;ex&gt;The gate &lt;t&gt;screened&lt;/t&gt; the house &lt;fex name="VP"&gt;from the road&lt;/fex&gt;.&lt;/ex&gt;
+
+Phrases such as "from view" and "from sight" are assumed to indicate that the &lt;fen&gt;Eclipsed&lt;/fen&gt; entity is not visible from any &lt;fen&gt;Vantage_point&lt;/fen&gt;.
+
+&lt;ex&gt;The telescope is &lt;t&gt;blocked&lt;/t&gt; &lt;fex name="VP"&gt;from view&lt;/fex&gt; by a big map of Europe.&lt;/ex&gt;
+
+This frame element includes direct reference to observers.
+
+&lt;ex&gt;A fence &lt;t&gt;screens&lt;/t&gt; the garden &lt;fex name="VP"&gt;from passersby&lt;/fex&gt;.&lt;/ex&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="Sep" cDate="04/09/2003 05:53:53 PDT Wed" abbrev="Degree" name="Degree" ID="4364">
+    <definition>&lt;def-root&gt;The extent to which the &lt;fen&gt;Eclipsed&lt;/fen&gt; entity is blocked from view.
+
+&lt;ex&gt;The bungalow is &lt;fex name="Degree"&gt;completely&lt;/fex&gt; &lt;t&gt;obscured&lt;/t&gt; by thick foliage.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="7CCD7C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="Sep" cDate="04/10/2003 02:38:17 PDT Thu" abbrev="sub" name="Subregion" ID="4365">
+    <definition>&lt;def-root&gt;The part of the &lt;fex name="Eclipsed"&gt;Eclipsed&lt;/fex&gt; entity which is blocked from view.
+
+&lt;ex&gt;The gazebo was &lt;t&gt;screened&lt;/t&gt; by a hedge &lt;fex name="sub"&gt;on one side&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="70">Perception_experience</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

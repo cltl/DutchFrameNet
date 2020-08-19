@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="AlK" cDate="04/14/2010 11:56:26 PDT Wed" name="Size" ID="2282" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;The size of an &lt;fen&gt;Entity&lt;/fen&gt; is assessed in terms of the &lt;fen&gt;Degree&lt;/fen&gt; by which it deviates from the norm. The size generally refers to the amount of three-dimensional space that is occupied by the &lt;fen&gt;Entity&lt;/fen&gt;, not primarily to its weight, density, or length, which is why it is peculiar to refer to a bullet as "large", even if it is heavy, unless it actually has larger dimensions than usual, or to a rope as "big", even if it is long, unless its other, cross-sectional dimensions are also significant.
+
+&lt;ex&gt;I own a &lt;fex name="Degree"&gt;very&lt;/fex&gt; &lt;t&gt;small&lt;/t&gt; &lt;fex name="Entity"&gt;home&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Where is my &lt;t&gt;little&lt;/t&gt; &lt;fex name="Entity"&gt;notebook&lt;/fex&gt;?&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Entity"&gt;That dog&lt;/fex&gt; is &lt;t&gt;huge&lt;/t&gt;!&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+
+There are an enormous number of productive metaphors that involve this frame as the source domain; two of the most frequent metaphors come from the target domains of quantity/amount and importance.  
+
+&lt;ex&gt;He gave me a &lt;t&gt;small&lt;/t&gt; &lt;fex name="Entity"&gt;sum of money&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The novel was a &lt;t&gt;substantial&lt;/t&gt; &lt;fex name="Entity"&gt;achievement&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+
+Subcases of the quantity/amount and importance metaphors are also prominent. These involve cases describing the extent of an action's, event's, or person's effect ("his influence on her work was massive"), as well as those related to events ("big party"), similarity ("gigantic difference"), communication ("giant misunderstanding"), and emotions ("great joy", "little joys").
+
+Other productive metaphors include those dealing with groups (in terms of their number of members, net worth, importance to the economy, i.e. "giant electronics company") and those describing sound volume ("in a tiny voice", "the enormous thundering of her heart"). 
+&lt;ex&gt;&lt;/ex&gt;
+
+The target domain of fame, by contrast, occurs in a non-productive metaphor, found especially with big.a and huge.a. Maturity and age also occur in non-productive metaphors ("big boy", "little baby").&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="AlK" cDate="04/14/2010 11:56:42 PDT Wed" abbrev="" name="Entity" ID="13813">
+    <definition>&lt;def-root&gt;The thing whose size is being considered.
+
+&lt;ex&gt;I had a &lt;t&gt;big&lt;/t&gt; &lt;fex name="Entity"&gt;dinner&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="AlK" cDate="04/14/2010 11:56:47 PDT Wed" abbrev="" name="Degree" ID="13814">
+    <definition>&lt;def-root&gt;The extent to which the size of the Entity deviates from the norm.
+
+&lt;ex&gt;I had a &lt;fex name="Degree"&gt;really&lt;/fex&gt; &lt;t&gt;big&lt;/t&gt; dinner.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="AlK" cDate="04/14/2010 11:56:55 PDT Wed" abbrev="" name="Standard" ID="13815">
+    <definition>&lt;def-root&gt;The size of the &lt;fen&gt;Entity&lt;/fen&gt; may be compared to the size of a &lt;fen&gt;Standard&lt;/fen&gt;.
+
+&lt;ex&gt;You 're &lt;t&gt;tall&lt;/t&gt; &lt;fex name="Standard"&gt;for a Swede&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="WMcQ" cDate="03/19/2015 11:20:10 PDT Thu" abbrev="" name="Subregion" ID="16310">
+    <definition>&lt;def-root&gt;This FE denotes a specific subregion being sized.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core-Unexpressed" cBy="MJE" cDate="11/17/2015 04:18:35 PST Tue" abbrev="" name="Dimension" ID="16780">
+    <definition>&lt;def-root&gt;The feature of an (actual or possible) &lt;fen&gt;Entity&lt;/fen&gt; that is measured. In literal examples, it essentially must be size, or a word equivalent to size such as bulk.
+
+&lt;ex&gt;The particles were &lt;t&gt;smaller&lt;/t&gt; &lt;fex name="Dimension"&gt;in size&lt;/fex&gt; than expected .&lt;/ex&gt;
+&lt;ex&gt;Her &lt;fex name=""&gt;huge&lt;/fex&gt; &lt;fex name="Dimension"&gt;girth&lt;/fex&gt; interfered with normal daily activities .&lt;/ex&gt;
+&lt;ex&gt;Chickens hardly have an &lt;t&gt;immense&lt;/t&gt; &lt;fex name="Dimension"&gt;intellect&lt;/fex&gt; .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Entity" ID="13813"/>
+    <memberFE name="Dimension" ID="16780"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="965">Measurable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="758" POS="A" cBy="manual" cDate="08/19/2020 07:43:46 UTC Wed" lemmaID="756" name="minuscuul.a" status="Created" FN_EN_LU_ID="15774" Method="Iteration-1" RBN_LU_ID="r_a-12888" RBN_matching_relation="equivalence">
+    <definition>zeer klein</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="minuscuul" order="1"/>
+  </lexUnit>
+  <lexUnit ID="759" POS="A" cBy="automatic" cDate="08/19/2020 07:43:56 UTC Wed" lemmaID="757" name="immens.a" status="Created" FN_EN_LU_ID="17853" Method="Iteration-1" RBN_LU_ID="r_a-11883" RBN_matching_relation="near_equivalence">
+    <definition>enorm</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="immens" order="1"/>
+  </lexUnit>
+  <lexUnit ID="760" POS="A" cBy="automatic" cDate="08/19/2020 07:44:07 UTC Wed" lemmaID="758" name="lijvig.a" status="Created" FN_EN_LU_ID="17859" Method="Iteration-1" RBN_LU_ID="r_a-12215" RBN_matching_relation="near_equivalence">
+    <definition>dik</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="lijvig" order="1"/>
+  </lexUnit>
+  <lexUnit ID="761" POS="A" cBy="manual" cDate="08/19/2020 07:44:18 UTC Wed" lemmaID="759" name="kolossaal.a" status="Created" FN_EN_LU_ID="17861" Method="Iteration-1" RBN_LU_ID="r_a-12485" RBN_matching_relation="equivalence">
+    <definition>enorm</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="kolossaal" order="1"/>
+  </lexUnit>
+</frame>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="05/12/2004 02:27:43 PDT Wed" name="Guilt_or_innocence" ID="1110" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Accused&lt;/fen&gt; individual is deemed by a (usually implicit) &lt;fen&gt;Judge&lt;/fen&gt; to be involved (or not) in a &lt;fen&gt;Misdeed&lt;/fen&gt;. 
+
+
+&lt;ex&gt;&lt;fex name="acc"&gt;I&lt;/fex&gt; &lt;m&gt;am&lt;/m&gt; &lt;t&gt;innocent&lt;/t&gt; &lt;fex name="mis"&gt;of this crime&lt;/fex&gt; and so is James Griffiths . &lt;/ex&gt;
+&lt;ex&gt;It is possible that &lt;fex name="acc"&gt;the Frauleins Krabbe , Breuer and Moller&lt;/fex&gt; are &lt;t&gt;guilty&lt;/t&gt; &lt;fex name="mis"&gt;of serious wrongdoing&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+Note that this frame is not  limited to technical, legal uses. The use of guilty in this frame is also to be distinguished from that in the Contrition frame by not referring to an emotional state. Innocent has several other meanings that are distinct from the one it has in this frame. It can mean 'ignorant of'; 'innocuous'; 'pure and unsullied by experience'.&lt;/def-root&gt;</definition>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="05/12/2004 02:27:43 PDT Wed" abbrev="acc" name="Accused" ID="6420">
+    <definition>&lt;def-root&gt;This is the person who is accused of a  &lt;fen&gt;Misdeed&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="acc"&gt;Frank Quattrone&lt;/fex&gt; is found &lt;t&gt;guilty&lt;/t&gt; of obstructing federal investigations&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="05/12/2004 02:27:43 PDT Wed" abbrev="mis" name="Misdeed" ID="6421">
+    <definition>&lt;def-root&gt;The wrongful act which  the &lt;fen&gt;Accused&lt;/fen&gt; was purportedly involved in.
+
+
+&lt;ex&gt;Cambridge woman says she's &lt;t&gt;innocent&lt;/t&gt; &lt;fex name="mis"&gt;of fraud&lt;/fex&gt;. &lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="05/12/2004 02:27:43 PDT Wed" abbrev="Vie" name="Viewpoint" ID="6423">
+    <definition>&lt;def-root&gt;The individual whose point of view is taken in connecting the &lt;fen&gt;Accused&lt;/fen&gt; to the &lt;fen&gt;Misdeed&lt;/fen&gt;.
+
+
+
+&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="05/12/2004 03:09:56 PDT Wed" abbrev="deg" name="Degree" ID="6430">
+    <definition>&lt;def-root&gt;The extent to which the &lt;fen&gt;Accused&lt;/fen&gt; is involved in the &lt;fen&gt;Misdeed&lt;/fen&gt;. 
+
+&lt;ex&gt;Sammy Sosa was &lt;fex name="deg"&gt;completely&lt;/fex&gt; &lt;t&gt;guilty&lt;/t&gt; of corking.&lt;/ex&gt;
+&lt;ex&gt;For his part, the writer is &lt;fex name="deg"&gt;somewhat&lt;/fex&gt; &lt;t&gt;guilty&lt;/t&gt; of his usual charges: undue casual talk of nudity.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1100">Misdeed</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="382">Contrition</relatedFrame>
+  </frameRelation>
+</frame>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="01/27/2003 03:13:38 PST Mon" name="Subordinates_and_superiors" ID="530" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;Two individuals, the &lt;fen&gt;Subordinate&lt;/fen&gt; and the &lt;fen&gt;Superior&lt;/fen&gt; have a relationship such that the &lt;fen&gt;Subordinate&lt;/fen&gt; generally follows orders given by the &lt;fen&gt;Superior&lt;/fen&gt; and has the best interests of the &lt;fen&gt;Superior&lt;/fen&gt; in mind.
+
+&lt;ex&gt;The archduke and several of &lt;fex name="Superior"&gt;his&lt;/fex&gt; &lt;t&gt;&lt;fex name="Subordinate"&gt;henchmen&lt;/fex&gt;&lt;/t&gt; got out of the carriage, looking around nervously.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="01/27/2003 03:19:12 PST Mon" abbrev="Com" name="Superior" ID="4140">
+    <definition>&lt;def-root&gt;The individual in charge of the &lt;fen&gt;Subordinate&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="01/27/2003 03:19:27 PST Mon" abbrev="Sub" name="Subordinate" ID="4141">
+    <definition>&lt;def-root&gt;The individual under the command of the &lt;fen&gt;Superior&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1689">Relation_between_individuals</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="816" POS="N" cBy="automatic" cDate="08/19/2020 07:51:20 UTC Wed" lemmaID="813" name="meeloper.n" status="Created" FN_EN_LU_ID="8210" Method="Iteration-1" RBN_LU_ID="r_n-23452" RBN_matching_relation="near_equivalence">
+    <definition>die het voorbeeld van anderen volgt zonder een eigen mening te hebben</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="meeloper" order="1"/>
+  </lexUnit>
+  <lexUnit ID="817" POS="N" cBy="automatic" cDate="08/19/2020 07:51:25 UTC Wed" lemmaID="814" name="handlanger.n" status="Created" FN_EN_LU_ID="8210" Method="Iteration-1" RBN_LU_ID="r_n-16253" RBN_matching_relation="near_equivalence">
+    <definition>die een ander helpt bij een misdaad</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="handlanger" order="1"/>
+  </lexUnit>
+  <lexUnit ID="818" POS="N" cBy="automatic" cDate="08/19/2020 07:51:30 UTC Wed" lemmaID="815" name="trawant.n" status="Created" FN_EN_LU_ID="8210" Method="Iteration-1" RBN_LU_ID="r_n-38367" RBN_matching_relation="near_equivalence">
+    <definition>die iemand anders helpt bij kwade praktijken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="trawant" order="1"/>
+  </lexUnit>
+  <lexUnit ID="819" POS="N" cBy="automatic" cDate="08/19/2020 07:51:38 UTC Wed" lemmaID="816" name="volgeling.n" status="Created" FN_EN_LU_ID="8210" Method="Iteration-1" RBN_LU_ID="r_n-41408" RBN_matching_relation="near_equivalence">
+    <definition>die de ideeën van een persoon aanhangt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="volgeling" order="1"/>
+  </lexUnit>
+  <lexUnit ID="820" POS="N" cBy="manual" cDate="08/19/2020 07:51:47 UTC Wed" lemmaID="817" name="paladijn.n" status="Created" FN_EN_LU_ID="8210" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-27390" RBN_matching_relation="near_equivalence">
+    <definition>die kritiekloos en toegewijd is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="paladijn" order="1"/>
+  </lexUnit>
+  <lexUnit ID="821" POS="N" cBy="automatic" cDate="08/19/2020 07:51:54 UTC Wed" lemmaID="818" name="kolonel.n" status="Created" FN_EN_LU_ID="8211" Method="Iteration-1" RBN_LU_ID="r_n-20166" RBN_matching_relation="near_equivalence">
+    <definition>van de hoogste rang</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="kolonel" order="1"/>
+  </lexUnit>
+  <lexUnit ID="822" POS="N" cBy="manual" cDate="08/19/2020 07:52:06 UTC Wed" lemmaID="819" name="hielenlikker.n" status="Created" FN_EN_LU_ID="8213" Method="Iteration-2_WN" RBN_LU_ID="r_n-16823" RBN_matching_relation="near_equivalence">
+    <definition>die op een kruiperige manier vleit</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="hielenlikker" order="1"/>
+  </lexUnit>
+  <lexUnit ID="823" POS="N" cBy="manual" cDate="08/19/2020 07:52:12 UTC Wed" lemmaID="820" name="strooplikker.n" status="Created" FN_EN_LU_ID="8211" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-36345" RBN_matching_relation="near_equivalence">
+    <definition>die overdreven lief doet, meestal om dingen voor elkaar te krijgen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="strooplikker" order="1"/>
+  </lexUnit>
+  <lexUnit ID="824" POS="N" cBy="manual" cDate="08/19/2020 07:52:17 UTC Wed" lemmaID="821" name="slijmerd.n" status="Created" FN_EN_LU_ID="8211" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-34135" RBN_matching_relation="near_equivalence">
+    <definition>die huichelachtig, kruiperig en overdreven vriendelijk is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="slijmerd" order="1"/>
+  </lexUnit>
+  <lexUnit ID="825" POS="N" cBy="automatic" cDate="08/19/2020 07:52:22 UTC Wed" lemmaID="822" name="assistent.n" status="Created" FN_EN_LU_ID="8220" Method="Iteration-1" RBN_LU_ID="r_n-4057" RBN_matching_relation="near_equivalence">
+    <definition>die een ander onder diens leiding bij zijn of haar werkzaamheden helpt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="assistent" order="1"/>
+  </lexUnit>
+</frame>

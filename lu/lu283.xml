@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="A" name="kenmerkend.a" ID="283" frame="Distinctiveness" frameID="1133" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" FN_EN_LU_ID="10596" Method="Iteration-1" RBN_LU_ID="r_a-12413" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Extra-Thematic" abbrev="" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Extra-Thematic" abbrev="dur" name="Duration"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="ent" name="Entity"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="fea" name="Feature"/>
+    </frame>
+  </header>
+  <definition>typerend</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="kenmerkend" order="1"/>
+</lexUnit>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="A" name="noordwaarts.a" ID="607" frame="Part_orientational" frameID="143" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" FN_EN_LU_ID="5823" Method="Iteration-1" RBN_LU_ID="r_a-13178" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Part"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="" name="Part_prop"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Whole"/>
+    </frame>
+  </header>
+  <definition>naar het noorden</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="noordwaarts" order="1"/>
+</lexUnit>

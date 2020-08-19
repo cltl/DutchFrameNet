@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="07/16/2001 03:22:06 PDT Mon" name="Getting" ID="179" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Recipient&lt;/fen&gt; starts off without the &lt;fen&gt;Theme&lt;/fen&gt; in their possession, and then comes to possess it.  Although the &lt;fen&gt;Source&lt;/fen&gt; from which the &lt;fen&gt;Theme&lt;/fen&gt; came is logically necessary, the &lt;fen&gt;Recipient&lt;/fen&gt; and its changing relationship to the &lt;fen&gt;Theme&lt;/fen&gt; is profiled.
+
+&lt;ex&gt;&lt;fex name="Recipient"&gt;I&lt;/fex&gt; &lt;t&gt;got&lt;/t&gt; &lt;fex name="Theme"&gt;two whistles&lt;/fex&gt; &lt;fex name="Source"&gt;from John&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="07/16/2001 03:23:17 PDT Mon" abbrev="Rec" name="Recipient" ID="1406">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Recipient&lt;/fen&gt; indicates the entity that ends up in possession of the &lt;fen&gt;Theme&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="07/16/2001 03:23:17 PDT Mon" abbrev="Thm" name="Theme" ID="1407">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Theme&lt;/fen&gt; is the object that changes possession.&lt;/def-root&gt;</definition>
+    <semType name="Physical_object" ID="68"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="07/16/2001 03:23:17 PDT Mon" abbrev="Source" name="Source" ID="1408">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Source&lt;/fen&gt; is the location that the &lt;fen&gt;Theme&lt;/fen&gt; formerly occupied.  Persons that begin in possession of the &lt;fen&gt;Theme&lt;/fen&gt; may metonymically stand in for the &lt;fen&gt;Source&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Source" ID="151"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/21/2001 08:27:39 PDT Tue" abbrev="Place" name="Place" ID="1720">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Place&lt;/fen&gt; denotes where the Getting takes place.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/21/2001 08:27:39 PDT Tue" abbrev="Purp" name="Purpose" ID="1721">
+    <definition>&lt;def-root&gt;The purpose for which an intentional act is performed.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/21/2001 08:27:39 PDT Tue" abbrev="Exp" name="Explanation" ID="1722">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Explanation&lt;/fen&gt; refers to the existing eventuality that the &lt;fen&gt;Recipient&lt;/fen&gt; is responding to.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/21/2001 08:27:39 PDT Tue" abbrev="Time" name="Time" ID="1723">
+    <definition>&lt;def-root&gt;When the event occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/21/2001 08:39:01 PDT Tue" abbrev="Mns" name="Means" ID="1733">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Means&lt;/fen&gt; is the action of the &lt;fen&gt;Recipient&lt;/fen&gt; which results in their possession of the &lt;fen&gt;Theme&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/18/2002 01:07:11 PDT Fri" abbrev="Mnr" name="Manner" ID="3832">
+    <definition>&lt;def-root&gt;This FE identifies the Manner in which an Agent intentionally acts.
+&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="A9A9A9" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="10/18/2002 01:07:58 PDT Fri" abbrev="Result" name="Result" ID="3833">
+    <definition>&lt;def-root&gt;The state that either the &lt;fen&gt;Recipient&lt;/fen&gt; or the &lt;fen&gt;Theme&lt;/fen&gt; end up in after the acquisition.
+
+&lt;ex&gt;You should &lt;t&gt;acquire&lt;/t&gt; it &lt;fex name="Result"&gt;without any publicity&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="03/01/2007 10:52:09 PST Thu" abbrev="con" name="Concessive" ID="11133">
+    <definition>&lt;def-root&gt;This FE signifies that the state of affairs expressed by the main clause (containing the target) occurs or holds, and something other than that state of affairs would be expected given the state of affairs in the concessive clause.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="AlK" cDate="01/29/2010 12:45:27 PST Fri" abbrev="" name="Beneficiary" ID="13491">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Beneficiary&lt;/fen&gt; is an entity which the &lt;fen&gt;Recipient&lt;/fen&gt; passes the &lt;fen&gt;Theme&lt;/fen&gt; to, or shares the &lt;fen&gt;Theme&lt;/fen&gt; with.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="06/01/2016 06:55:40 PDT Wed" abbrev="cir" name="Circumstances" ID="16821">
+    <definition>&lt;def-root&gt;Any condition or situation that serves as a very general background, against which the further importance of the Getting is understood.
+
+&lt;ex&gt;&lt;fex name="Circumstances"&gt;With him out of the room&lt;/fex&gt; , I &lt;t&gt;got&lt;/t&gt; all the popcorn .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="187">Event</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="210">Commerce_collect</relatedFrame>
+    <relatedFrame ID="411">Receiving</relatedFrame>
+    <relatedFrame ID="1482">Amassing</relatedFrame>
+    <relatedFrame ID="410">Taking</relatedFrame>
+    <relatedFrame ID="171">Commerce_buy</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of">
+    <relatedFrame ID="1191">Getting_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes">
+    <relatedFrame ID="1185">Post_getting</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Preceded by">
+    <relatedFrame ID="1183">Pre_getting</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inchoative of">
+    <relatedFrame ID="118">Possession</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="394" POS="N" cBy="automatic" cDate="08/19/2020 07:18:45 UTC Wed" lemmaID="393" name="aanschaf.n" status="Created" FN_EN_LU_ID="12712" Method="Iteration-1" RBN_LU_ID="r_n-2301" RBN_matching_relation="near_equivalence">
+    <definition>van een voorwerp of product</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="aanschaf" order="1"/>
+  </lexUnit>
+</frame>

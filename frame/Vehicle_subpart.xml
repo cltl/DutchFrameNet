@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MLC" cDate="09/29/2010 05:21:51 PDT Wed" name="Vehicle_subpart" ID="2426" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An entity is integrated into a vehicle as a &lt;fen&gt;Part&lt;/fen&gt; of a (possibly unexpressed) &lt;fen&gt;Whole&lt;/fen&gt; which may refer to the whole vehicle or merely to a sub-part of the vehicle. 
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;The &lt;fex name="Whole"&gt;car's&lt;/fex&gt; &lt;fex name="Part"&gt;&lt;t&gt;engine&lt;/t&gt;&lt;/fex&gt; started smoking so we pulled over.&lt;/ex&gt;
+&lt;ex&gt;Put the bags in the &lt;fex name="Part"&gt;&lt;t&gt;trunk&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;One should always wear a &lt;fex name="Part"&gt;&lt;t&gt;seatbelt&lt;/t&gt;&lt;/fex&gt; while driving.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MLC" cDate="09/29/2010 05:28:42 PDT Wed" abbrev="par" name="Part" ID="14220">
+    <definition>&lt;def-root&gt;Some &lt;fex name="Part"&gt;Part&lt;/fex&gt; of the larger vehicle, the &lt;fex name="Whole"&gt;Whole&lt;/fex&gt;. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MLC" cDate="09/29/2010 05:31:47 PDT Wed" abbrev="" name="Whole" ID="14221">
+    <definition>&lt;def-root&gt;A vehicle (the &lt;fex name="Whole"&gt;Whole&lt;/fex&gt;)  which includes the &lt;fex name="Part"&gt;Part&lt;/fex&gt;. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="000000" coreType="Peripheral" cBy="MLC" cDate="09/29/2010 05:33:01 PDT Wed" abbrev="fxn" name="Function" ID="14222">
+    <definition>&lt;def-root&gt;The function of the part within the vehicule as a whole. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MLC" cDate="09/29/2010 05:33:59 PDT Wed" abbrev="ori" name="Orientation" ID="14223">
+    <definition>&lt;def-root&gt;This property of the part that situates the part within the whole. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="EEE8AA" fgColor="000000" coreType="Peripheral" cBy="MLC" cDate="09/29/2010 05:37:09 PDT Wed" abbrev="desc" name="Descriptor" ID="14224">
+    <definition>&lt;def-root&gt;A property relating to the part. &lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="140">Part_whole</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="429">Vehicle</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="880" POS="N" cBy="manual" cDate="08/19/2020 07:56:43 UTC Wed" lemmaID="877" name="voorruit.n" status="Created" FN_EN_LU_ID="16792" Method="Iteration-1" RBN_LU_ID="r_n-41628" RBN_matching_relation="equivalence">
+    <definition>in de voorzijde van een auto</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="voorruit" order="1"/>
+  </lexUnit>
+</frame>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="06/21/2005 05:33:17 PDT Tue" name="Store" ID="1511" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Supply&lt;/fen&gt; of a &lt;fen&gt;Resource&lt;/fen&gt; is kept safe and available for a future &lt;fen&gt;Use&lt;/fen&gt;.  The &lt;fen&gt;Supply&lt;/fen&gt; may be under the control of a &lt;fen&gt;Possessor&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Possessor"&gt;Our&lt;/fex&gt; &lt;t&gt;supply&lt;/t&gt; &lt;fex name="Resource"&gt;of food&lt;/fex&gt; is running low.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="06/21/2005 05:45:30 PDT Tue" abbrev="sup" name="Supply" ID="8226">
+    <definition>&lt;def-root&gt;This FE denotes the &lt;fen&gt;Supply&lt;/fen&gt; of &lt;fen&gt;Resource&lt;/fen&gt;s. It is incorporated into each LU in this frame.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="06/21/2005 05:49:29 PDT Tue" abbrev="res" name="Resource" ID="8227">
+    <definition>&lt;def-root&gt;The goods or commodity that is being stored in a &lt;fen&gt;Supply&lt;/fen&gt;.
+
+&lt;ex&gt; India has made great strides in agriculture and now not only meets it own grain needs but has a sizeable &lt;t&gt;reserve&lt;/t&gt; &lt;fex name="res"&gt;of basic grains, mainly rice and wheat&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="06/21/2005 05:53:16 PDT Tue" abbrev="use" name="Use" ID="8228">
+    <definition>&lt;def-root&gt;The future &lt;fen&gt;Use&lt;/fen&gt; for the &lt;fen&gt;Resource&lt;/fen&gt;.
+
+&lt;ex&gt;Due to restrictions imposed by our export control, the Japanese have begun to use a portion of their &lt;fex name="use"&gt;war&lt;/fex&gt; &lt;t&gt;reserve&lt;/t&gt; of petroleum.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="06/21/2005 05:55:45 PDT Tue" abbrev="pos" name="Possessor" ID="8229">
+    <definition>&lt;def-root&gt;The entity that possesses the &lt;fen&gt;Supply&lt;/fen&gt;.
+
+&lt;ex&gt;In 1997, &lt;fex name="pos"&gt;France's&lt;/fex&gt; &lt;t&gt;stock&lt;/t&gt; of unirradiated civil plutonium increased to 72 tons.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="07/11/2005 03:51:53 PDT Mon" abbrev="des" name="Descriptor" ID="8463">
+    <definition>&lt;def-root&gt;A characterization of the &lt;fen&gt;Supply&lt;/fen&gt; itself, rather than the &lt;fen&gt;Resource&lt;/fen&gt;.
+
+&lt;ex&gt;Institutions have focused on Broward County?s &lt;fex name="des"&gt;dwindling&lt;/fex&gt; &lt;t&gt;supply&lt;/t&gt; of land, continued population growth and elevated income levels.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="103">Aggregate</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="2576">Cache</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1550">Storing</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="813" POS="N" cBy="automatic" cDate="08/19/2020 07:51:04 UTC Wed" lemmaID="810" name="vracht.n" status="Created" FN_EN_LU_ID="14694" Method="Iteration-1" RBN_LU_ID="r_n-41773" RBN_matching_relation="near_equivalence">
+    <definition>om te vervoeren</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="vracht" order="1"/>
+  </lexUnit>
+  <lexUnit ID="814" POS="N" cBy="automatic" cDate="08/19/2020 07:51:10 UTC Wed" lemmaID="811" name="lading.n" status="Created" FN_EN_LU_ID="14694" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-21222" RBN_matching_relation="near_equivalence">
+    <definition>van goederen in een schip, vrachtwagen, vliegtuig enz.</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="lading" order="1"/>
+  </lexUnit>
+  <lexUnit ID="815" POS="N" cBy="automatic" cDate="08/19/2020 07:51:15 UTC Wed" lemmaID="812" name="last.n" status="Created" FN_EN_LU_ID="14694" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-21467" RBN_matching_relation="near_equivalence">
+    <definition>wat op een persoon of dier, op of in een ding geladen is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="last" order="1"/>
+  </lexUnit>
+</frame>

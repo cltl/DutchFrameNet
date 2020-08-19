@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:59 PST Wed" name="Candidness" ID="32" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame contains adjectives and nouns that describe the truth or sincerity of communication. These words, analogously to behaver-evaluating words, can apply either to &lt;fen&gt;Speaker&lt;/fen&gt;s or to the &lt;fen&gt;Message&lt;/fen&gt;s they produce. They can occur with &lt;ment&gt;about&lt;/ment&gt;-PPs expressing &lt;fen&gt;Topic&lt;/fen&gt;. 
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Evelyn&lt;/fex&gt; was &lt;t&gt;candid&lt;/t&gt; &lt;fex name="Addressee"&gt;with me&lt;/fex&gt; &lt;fex name="Topic"&gt;about the party&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Spkr" name="Speaker" ID="131">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Speaker&lt;/fen&gt; produces the &lt;fen&gt;Message&lt;/fen&gt;, the truth or sincerity of which is at issue. It is normally expressed as the External Argument of predicative uses of the &lt;t&gt;target&lt;/t&gt; word, or as the Nominal Head of prenominal uses.
+&lt;ex&gt;&lt;fex name="Spkr"&gt;Evelyn&lt;/fex&gt; was &lt;t&gt;candid&lt;/t&gt; about the party.
+&lt;/ex&gt;&lt;ex&gt;Evelyn is a &lt;t&gt;candid&lt;/t&gt; &lt;fex name="Spkr"&gt;person&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="ChW" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Add" name="Addressee" ID="132">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Addressee&lt;/fen&gt; is the person to whom the &lt;fen&gt;Message&lt;/fen&gt; is communicated. This FE often remains unexpressed. When expressed, it normally takes the form of a PP Complement headed by &lt;ment&gt;with&lt;/ment&gt;.
+&lt;ex&gt;Evelyn was &lt;t&gt;candid&lt;/t&gt; &lt;fex name="Add"&gt;with me&lt;/fex&gt; about the party.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Msg" name="Message" ID="133">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Message&lt;/fen&gt; is the communicative content whose truth or sincerity is at issue. This FE does not normally co-occur with the other FEs in this frame. When it does occur, it is normally the External Argument of a predicative use of the &lt;t&gt;Target&lt;/t&gt; word, or the modified Nominal Head in a prenominal use.
+&lt;ex&gt;Evelyn made some &lt;t&gt;candid&lt;/t&gt; &lt;fex name="Msg"&gt;remarks&lt;/fex&gt;.
+&lt;/ex&gt;&lt;ex&gt;&lt;fex name="Msg"&gt;Evelyn's remarks&lt;/fex&gt; were &lt;t&gt;candid&lt;/t&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Message" ID="56"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Top" name="Topic" ID="134">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Topic&lt;/fen&gt; is the subject matter to which the &lt;fen&gt;Message&lt;/fen&gt; pertains. It often occurs without the &lt;fen&gt;Message&lt;/fen&gt; FE in predicative uses of the &lt;t&gt;target&lt;/t&gt; word. It is normally expressed as a PP Complement headed by "about".
+&lt;ex&gt;Evelyn was &lt;t&gt;candid&lt;/t&gt; &lt;fex name="Top"&gt;about the party&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="04/06/2001 11:47:16 PDT Fri" abbrev="Medium" name="Medium" ID="458">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Medium&lt;/fen&gt; is the physical or abstract setting in which the &lt;fen&gt;Message&lt;/fen&gt; is conveyed.
+&lt;ex&gt;Evelyn made some &lt;t&gt;candid&lt;/t&gt; remarks &lt;fex name="Medium"&gt;in French&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="CFB" cDate="07/17/2001 11:44:43 PDT Tue" abbrev="Degr" name="Degree" ID="1448">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Degree&lt;/fen&gt; to which a communication is candid--some are more candid than others.
+
+&lt;ex&gt;Evelyn's remarks were &lt;fex name="Degree"&gt;very&lt;/fex&gt; &lt;t&gt;candid&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="11/04/2002 08:26:52 PST Mon" abbrev="Mnr" name="Manner" ID="3876">
+    <definition>&lt;def-root&gt;This FE indicates the manner of candidness.
+&lt;ex&gt;"He was a fool," John pointed out with &lt;fex name="Mnr"&gt;ruthless&lt;/fex&gt; &lt;t&gt;candour&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Message" ID="133"/>
+    <memberFE name="Topic" ID="134"/>
+  </FEcoreSet>
+  <FEcoreSet>
+    <memberFE name="Medium" ID="458"/>
+    <memberFE name="Speaker" ID="131"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="6">Communication</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="153" POS="A" cBy="automatic" cDate="08/19/2020 07:03:50 UTC Wed" lemmaID="153" name="geheimzinnig.a" status="Created" FN_EN_LU_ID="470" Method="Iteration-1" RBN_LU_ID="r_a-10896" RBN_matching_relation="near_equivalence">
+    <definition>niet te verklaren</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="geheimzinnig" order="1"/>
+  </lexUnit>
+  <lexUnit ID="154" POS="A" cBy="automatic" cDate="08/19/2020 07:03:53 UTC Wed" lemmaID="154" name="gereserveerd.a" status="Created" FN_EN_LU_ID="470" Method="Iteration-1" RBN_LU_ID="r_a-11007" RBN_matching_relation="near_equivalence">
+    <definition>terughoudend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="gereserveerd" order="1"/>
+  </lexUnit>
+</frame>

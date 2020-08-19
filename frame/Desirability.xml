@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/13/2002 05:24:22 PDT Thu" name="Desirability" ID="354" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame concerns an &lt;fen&gt;Evaluee&lt;/fen&gt; being judged for its quality, i.e. how much it would probably be liked.  In many cases, the &lt;fen&gt;Evaluee&lt;/fen&gt; is implicitly judged good or bad relative to other instances of its type. The &lt;fen&gt;Evaluee&lt;/fen&gt;'s desirability is determined by one or more &lt;fen&gt;Parameter&lt;/fen&gt;s, which are scalar properties of the &lt;fen&gt;Evaluee&lt;/fen&gt;. The evaluation may also explicitly be relativized to a set of &lt;fen&gt;Circumstances&lt;/fen&gt;, a &lt;fen&gt;Comparison_set&lt;/fen&gt; of entities that belong to the same class as the &lt;fen&gt;Evaluee&lt;/fen&gt;, or an &lt;fen&gt;Affected_party&lt;/fen&gt;. The &lt;fen&gt;Degree&lt;/fen&gt; of goodness or badness may also be expressed.
+
+Note: With some targets, desirability is conventionally aligned with quantity, i.e., GOOD is MORE.
+
+&lt;ex&gt;&lt;fex name="Evaluee"&gt;The view&lt;/fex&gt; was  &lt;t&gt;astonishing&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Circumstances"&gt;On clear days&lt;/fex&gt;, &lt;fex name="Evaluee"&gt;the view&lt;/fex&gt; was &lt;t&gt;excellent&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;The book is &lt;t&gt;astounding&lt;/t&gt; &lt;fex name="Parameter"&gt;in its scope&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The games have been &lt;t&gt;awful&lt;/t&gt; &lt;fex name="Affected_party"&gt;for the team&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/21/2002 01:25:20 PDT Fri" abbrev="Evaluee" name="Evaluee" ID="3153">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Evaluee&lt;/fen&gt; is being judged for its quality.
+
+&lt;ex&gt; He gave me another &lt;t&gt;lame&lt;/t&gt; &lt;fex name="Evaluee"&gt;excuse&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/21/2002 01:32:12 PDT Fri" abbrev="Degree" name="Degree" ID="3155">
+    <definition>&lt;def-root&gt;This FE identifies the  &lt;fen&gt;Degree&lt;/fen&gt; to which the &lt;fen&gt;Evaluee&lt;/fen&gt; is judged good or bad.
+
+&lt;ex&gt; Smithers was doing an &lt;fex name="Degree"&gt;absolutely&lt;/fex&gt; &lt;t&gt;splendid&lt;/t&gt; job.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="06/21/2002 01:50:27 PDT Fri" abbrev="Circumstances" name="Circumstances" ID="3158">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Circumstances&lt;/fen&gt; marks expressions that indicate a set of conditions under which the quality of the &lt;fen&gt;Evaluee&lt;/fen&gt; is being judged.
+
+&lt;ex&gt;It's a &lt;t&gt;great&lt;/t&gt; &lt;fex name="Evaluee"&gt;game&lt;/fex&gt; &lt;fex name="Circumstances"&gt;when it rains&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Core-Unexpressed" cBy="JKR" cDate="06/21/2002 02:30:10 PDT Fri" abbrev="Parameter" name="Parameter" ID="3160">
+    <definition>&lt;def-root&gt;This FE marks expressions that denote a scalar property of the &lt;fen&gt;Evaluee&lt;/fen&gt; with respect to which the &lt;fen&gt;Evaluee&lt;/fen&gt; is judged.
+
+&lt;ex&gt;The Beaujolais Nouveau is dazzling &lt;fex name="Parameter"&gt;in freshness&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="06/26/2002 03:41:56 PDT Wed" abbrev="" name="Comparison_set" ID="3251">
+    <definition>&lt;def-root&gt;This FE marks expressions that indicate what class of things or events the Evaluee is being judged against.
+
+&lt;ex&gt;&lt;fex name="Parameter"&gt;The standard of living&lt;/fex&gt; is &lt;t&gt;poor&lt;/t&gt; &lt;fex name="Comparison_set"&gt;compared to other Western industrialized countries&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="06/26/2002 03:44:52 PDT Wed" abbrev="Affected_p" name="Affected_party" ID="3252">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Affected_party&lt;/fen&gt; indicates entities that benefit or suffer from the good or bad quality of the &lt;fen&gt;Evaluee&lt;/fen&gt;.
+
+&lt;ex&gt;The season was &lt;t&gt;splendid&lt;/t&gt; &lt;fex name="Affected_party"&gt;for the team&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="07/05/2002 03:05:14 PDT Fri" abbrev="Depictive" name="Depictive" ID="3332">
+    <definition>&lt;def-root&gt;The Frame Element &lt;fen&gt;Depictive&lt;/fen&gt; encodes a state that the &lt;fen&gt;Evaluee&lt;/fen&gt; is in and which does not represent a temporary or hypothetical set of &lt;fen&gt;Circumstances&lt;/fen&gt;.
+
+&lt;ex&gt;The aerial view is &lt;t&gt;superb&lt;/t&gt; &lt;fex name="Depictive"&gt;with its view of the harbour&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Parameter" ID="3160"/>
+    <memberFE name="Evaluee" ID="3153"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1015">Gradable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="1016">Aesthetics</relatedFrame>
+    <relatedFrame ID="1383">Desirable_event</relatedFrame>
+    <relatedFrame ID="2660">Social_desirability</relatedFrame>
+    <relatedFrame ID="2380">Popularity</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="48">Experiencer_focus</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="159">Grooming</relatedFrame>
+    <relatedFrame ID="1771">Thriving</relatedFrame>
+    <relatedFrame ID="2910">Preferred_alternative_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="272" POS="A" cBy="automatic" cDate="08/19/2020 07:11:37 UTC Wed" lemmaID="272" name="prachtig.a" status="Created" FN_EN_LU_ID="6221" Method="Iteration-1" RBN_LU_ID="r_a-14365" RBN_matching_relation="near_equivalence">
+    <definition>heel mooi</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="prachtig" order="1"/>
+  </lexUnit>
+  <lexUnit ID="273" POS="A" cBy="automatic" cDate="08/19/2020 07:11:40 UTC Wed" lemmaID="273" name="bekakt.a" status="Created" FN_EN_LU_ID="6914" Method="Iteration-1" RBN_LU_ID="r_a-9666" RBN_matching_relation="near_equivalence">
+    <definition>geaffecteerd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="bekakt" order="1"/>
+  </lexUnit>
+  <lexUnit ID="274" POS="A" cBy="manual" cDate="08/19/2020 07:11:43 UTC Wed" lemmaID="274" name="indrukwekkend.a" status="Created" FN_EN_LU_ID="18802" Method="Iteration-1" RBN_LU_ID="r_a-11901" RBN_matching_relation="near_equivalence">
+    <definition>imponerend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="indrukwekkend" order="1"/>
+  </lexUnit>
+</frame>

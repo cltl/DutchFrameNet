@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/27/2001 11:45:07 PDT Wed" name="Part_orientational" ID="143" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;In this frame, there is a &lt;fen&gt;Part&lt;/fen&gt; of a &lt;fen&gt;Whole&lt;/fen&gt; in which the &lt;fen&gt;Part&lt;/fen&gt; is defined with respect to the canonical or inherent orientation of the &lt;fen&gt;Whole&lt;/fen&gt;. In cases where the &lt;t&gt;Target&lt;/t&gt; is an adjective, it has a special relationship with the noun that it modifies such that a phrase which is a syntactic argument of the noun is semantically available to fill the argument structure of the adjective, as in 
+
+&lt;ex&gt;the &lt;t&gt;front&lt;/t&gt;  &lt;fex name="Part"&gt;row&lt;/fex&gt; &lt;fex name="Whole"&gt;of the class&lt;/fex&gt; &lt;/ex&gt;
+
+&lt;ex&gt;The &lt;t&gt;top&lt;/t&gt;  &lt;fex name="Part"&gt;shelf&lt;/fex&gt; &lt;fex name="Whole"&gt;of the bookcase&lt;/fex&gt; was lying on the floor.&lt;/ex&gt;
+
+&lt;ex&gt;The &lt;t&gt;&lt;fex name="Part"&gt;bottom&lt;/fex&gt;&lt;/t&gt; was missing.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Whole"&gt;My&lt;/fex&gt; &lt;t&gt;left&lt;/t&gt;  &lt;fex name="Part"&gt;hand&lt;/fex&gt; was numb.&lt;/ex&gt;
+
+&lt;ex&gt;He rested on the &lt;fex name="Whole"&gt;cliff&lt;/fex&gt;&lt;t&gt;&lt;fex name="Part"&gt;top&lt;/fex&gt;&lt;/t&gt;&lt;/ex&gt;
+
+
+&lt;/def-root&gt;</definition>
+  <semType name="Transparent Noun" ID="9"/>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/27/2001 12:09:38 PDT Wed" abbrev="" name="Part" ID="1110">
+    <definition>&lt;def-root&gt;A piece of a larger &lt;fen&gt;Whole&lt;/fen&gt;.&lt;ex&gt;The &lt;t&gt;top&lt;/t&gt; &lt;fex name="Part"&gt;shelf&lt;/fex&gt; &lt;fex name="Whole"&gt;of the bookcase&lt;/fex&gt; was lying on the floor.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/27/2001 12:09:38 PDT Wed" abbrev="" name="Part_prop" ID="1111">
+    <definition>&lt;def-root&gt;A property relating to the &lt;fen&gt;Part&lt;/fen&gt; of a &lt;fen&gt;Whole&lt;/fen&gt;.&lt;ex&gt;The &lt;fex name="Part_prop"&gt;white-painted&lt;/fex&gt; &lt;t&gt;&lt;fex name="Part"&gt;front&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Whole"&gt;of the house&lt;/fex&gt; had 2 black doors.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/27/2001 12:09:38 PDT Wed" abbrev="" name="Whole" ID="1112">
+    <definition>&lt;def-root&gt;An undivided entity having all its &lt;fen&gt;Part&lt;/fen&gt;s.&lt;ex&gt;The show takes place in the &lt;t&gt;West&lt;/t&gt; &lt;fex name="Part"&gt;wing&lt;/fex&gt; &lt;fex name="Whole"&gt;of the White House&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="140">Part_whole</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1470">Temporal_subregion</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="602" POS="A" cBy="automatic" cDate="08/19/2020 07:32:34 UTC Wed" lemmaID="600" name="achterst.a" status="Created" FN_EN_LU_ID="5739" Method="Iteration-1" RBN_LU_ID="r_a-8875" RBN_matching_relation="near_equivalence">
+    <definition>het meest naar achteren</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="achterst" order="1"/>
+  </lexUnit>
+  <lexUnit ID="603" POS="A" cBy="automatic" cDate="08/19/2020 07:32:38 UTC Wed" lemmaID="601" name="oosters.a" status="Created" FN_EN_LU_ID="5821" Method="Iteration-1" RBN_LU_ID="r_a-13851" RBN_matching_relation="near_equivalence">
+    <definition>uit een land ten oosten van Europa</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="oosters" order="1"/>
+  </lexUnit>
+  <lexUnit ID="604" POS="A" cBy="automatic" cDate="08/19/2020 07:32:42 UTC Wed" lemmaID="602" name="oostelijk.a" status="Created" FN_EN_LU_ID="5821" Method="Iteration-1" RBN_LU_ID="r_a-13850" RBN_matching_relation="near_equivalence">
+    <definition>in of uit het oosten</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="oostelijk" order="1"/>
+  </lexUnit>
+  <lexUnit ID="605" POS="A" cBy="automatic" cDate="08/19/2020 07:32:45 UTC Wed" lemmaID="603" name="westelijk.a" status="Created" FN_EN_LU_ID="5822" Method="Iteration-1" RBN_LU_ID="r_a-15734" RBN_matching_relation="near_equivalence">
+    <definition>a.d. westkant</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="westelijk" order="1"/>
+  </lexUnit>
+  <lexUnit ID="606" POS="A" cBy="automatic" cDate="08/19/2020 07:32:49 UTC Wed" lemmaID="604" name="noordelijk.a" status="Created" FN_EN_LU_ID="5823" Method="Iteration-1" RBN_LU_ID="r_a-13175" RBN_matching_relation="near_equivalence">
+    <definition>het noorden betreffend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="noordelijk" order="1"/>
+  </lexUnit>
+  <lexUnit ID="607" POS="A" cBy="automatic" cDate="08/19/2020 07:32:52 UTC Wed" lemmaID="605" name="noordwaarts.a" status="Created" FN_EN_LU_ID="5823" Method="Iteration-1" RBN_LU_ID="r_a-13178" RBN_matching_relation="near_equivalence">
+    <definition>naar het noorden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="noordwaarts" order="1"/>
+  </lexUnit>
+  <lexUnit ID="608" POS="A" cBy="automatic" cDate="08/19/2020 07:32:56 UTC Wed" lemmaID="606" name="zuidelijk.a" status="Created" FN_EN_LU_ID="5824" Method="Iteration-1" RBN_LU_ID="r_a-16452" RBN_matching_relation="near_equivalence">
+    <definition>in of uit het zuiden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="zuidelijk" order="1"/>
+  </lexUnit>
+</frame>

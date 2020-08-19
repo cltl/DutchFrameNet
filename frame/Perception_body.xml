@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:21 PST Wed" name="Perception_body" ID="68" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame contains words describing physical experiences that can affect virtually any part of the body. The body part affected is almost always mentioned with these words. It is typically expressed by the noun heading the external argument, and this noun is typically accompanied by a possessive determiner that refers to the possessor of the body part, as in the first example below: 
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Body_part"&gt;My head&lt;/fex&gt; &lt;t&gt;hurts&lt;/t&gt;!&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Experiencer"&gt;Nuadu&lt;/fex&gt;, &lt;t&gt;aching&lt;/t&gt; &lt;fex name="Body_part"&gt;in every bone&lt;/fex&gt;, had not made a sound.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:21 PST Wed" abbrev="Exp" name="Experiencer" ID="319">
+    <definition>&lt;def-root&gt;The Experiencer is the being who has a physical experience on some part of his  or her body, or internally. Often information about this frame element is incorporated as a possessive determiner into the constituent expressing the Body Part, in which case it is not tagged separately (from Body Part), as shown below: My legs &lt;t&gt;hurt&lt;/t&gt;! Sometimes, however, this frame element is expressed as an External Argument in its own right:  &lt;fex name="Experiencer"&gt;I&lt;/fex&gt; &lt;t&gt;hurt&lt;/t&gt; all over! Here, the phrase &lt;ment&gt;all over&lt;/ment&gt; can be considered a kind of generalized Body Part expression, and the pronoun &lt;ment&gt;I&lt;/ment&gt; expresses the Experiencer independently. With nouns and adjectives in this frame, the separate expression of the Experiencer is more common: &lt;fex name="Experiencer"&gt;I&lt;/fex&gt; have a &lt;t&gt;pain&lt;/t&gt; in my leg. &lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:21 PST Wed" abbrev="BodP" name="Body_part" ID="320">
+    <definition>&lt;def-root&gt;This FE is the location on the body where the physical experience takes place, typically expressed as External Argument, often as PP complement: &lt;fex name="Body_part"&gt;My legs&lt;/fex&gt; are a little &lt;t&gt;sore&lt;/t&gt;. I'm a little &lt;t&gt;sore&lt;/t&gt; &lt;fex name="Body_part"&gt;in my legs&lt;/fex&gt;. &lt;/def-root&gt;</definition>
+    <semType name="Body_part" ID="10"/>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ChW" cDate="02/07/2001 04:12:21 PST Wed" abbrev="Exp" name="Explanation" ID="321">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Explanation&lt;/fen&gt; describes the cause of the perception the body is experiencing.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/18/2001 04:51:52 PDT Tue" abbrev="Degr" name="Degree" ID="1961">
+    <definition>&lt;def-root&gt;Degree to which event occurs&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/18/2001 04:51:52 PDT Tue" abbrev="Manr" name="Manner" ID="1962">
+    <definition>&lt;def-root&gt;Manner of performing an action&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="08/22/2002 09:40:47 PDT Thu" abbrev="Sub" name="Subregion" ID="3606">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Subregion&lt;/fen&gt; is the specific area of the &lt;fen&gt;Body_part&lt;/fen&gt; which experiences the sensation. &lt;ex&gt;&lt;fex name="Body_part"&gt;My leg&lt;/fex&gt; &lt;t&gt;aches&lt;/t&gt; &lt;fex name="Subregion"&gt;under the bandage&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Body_part" ID="320"/>
+    <memberFE name="Experiencer" ID="319"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="70">Perception_experience</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

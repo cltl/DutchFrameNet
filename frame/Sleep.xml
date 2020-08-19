@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="KCo" cDate="02/05/2002 01:58:16 PST Tue" name="Sleep" ID="264" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;The &lt;fen&gt;Sleeper&lt;/fen&gt; stays in an altered state of consciousness with greatly reduced external awareness.
+
+&lt;ex&gt;&lt;fex name="Sleeper"&gt;We&lt;/fex&gt; &lt;t&gt;slept&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="02/05/2002 06:38:12 PST Tue" abbrev="Slp" name="Sleeper" ID="2282">
+    <definition>&lt;def-root&gt;The entity that is sleeping.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/05/2002 06:38:59 PST Tue" abbrev="Dur" name="Duration" ID="2283">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Duration&lt;/fen&gt; of time for which a state holds or a process is ongoing.&lt;/def-root&gt;</definition>
+    <semType name="Duration" ID="142"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/05/2002 06:39:00 PST Tue" abbrev="Time" name="Time" ID="2284">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Time&lt;/fen&gt; when the sleep occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/05/2002 06:39:02 PST Tue" abbrev="Place" name="Place" ID="2285">
+    <definition>&lt;def-root&gt;Where the event takes place.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="02/27/2003 12:02:23 PST Thu" abbrev="Deg" name="Degree" ID="4270">
+    <definition>&lt;def-root&gt;The degree to which the &lt;fen&gt;Sleeper&lt;/fen&gt; is asleep.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="Hay" cDate="10/02/2003 11:36:50 PDT Thu" abbrev="Manr" name="Manner" ID="5338">
+    <definition>&lt;def-root&gt;Any description of the sleeping event which is not covered by more specific FEs, including epistemic modification (probably, presumably, mysteriously), secondary effects (quietly, noisily), and general descriptions comparing events (the same way).
+
+&lt;ex&gt;Fitzhume &lt;t&gt;slept&lt;/t&gt; &lt;fex name="Manner"&gt;soundly&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="145">Process_continue</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of">
+    <relatedFrame ID="294">Sleep_wake_cycle</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes">
+    <relatedFrame ID="295">Waking_up</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Preceded by">
+    <relatedFrame ID="292">Fall_asleep</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="762" POS="V" cBy="automatic" cDate="08/19/2020 07:44:30 UTC Wed" lemmaID="760" name="sluimeren.v" status="Created" FN_EN_LU_ID="4815" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7224" RBN_matching_relation="near_equivalence">
+    <definition>licht slapen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="sluimeren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="763" POS="V" cBy="automatic" cDate="08/19/2020 07:44:40 UTC Wed" lemmaID="761" name="soezen.v" status="Created" FN_EN_LU_ID="4815" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7316" RBN_matching_relation="near_equivalence">
+    <definition>met welbehagen licht slapen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="soezen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="764" POS="V" cBy="automatic" cDate="08/19/2020 07:44:48 UTC Wed" lemmaID="762" name="dutten.v" status="Created" FN_EN_LU_ID="4815" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2604" RBN_matching_relation="near_equivalence">
+    <definition>een kort (middag)slaapje doen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="dutten" order="1"/>
+  </lexUnit>
+  <lexUnit ID="765" POS="V" cBy="manual" cDate="08/19/2020 07:44:59 UTC Wed" lemmaID="763" name="tukken.v" status="Created" FN_EN_LU_ID="4815" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-8175" RBN_matching_relation="equivalence">
+    <definition>een tukje, dutje doen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="tukken" order="1"/>
+  </lexUnit>
+  <lexUnit ID="766" POS="V" cBy="automatic" cDate="08/19/2020 07:45:07 UTC Wed" lemmaID="764" name="snurken.v" status="Created" FN_EN_LU_ID="4825" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7314" RBN_matching_relation="near_equivalence">
+    <definition>slapen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="snurken" order="1"/>
+  </lexUnit>
+  <lexUnit ID="767" POS="V" cBy="automatic" cDate="08/19/2020 07:45:17 UTC Wed" lemmaID="765" name="meuren.v" status="Created" FN_EN_LU_ID="4825" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4676" RBN_matching_relation="near_equivalence">
+    <definition>slapen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="meuren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="768" POS="V" cBy="automatic" cDate="08/19/2020 07:45:27 UTC Wed" lemmaID="766" name="pitten.v" status="Created" FN_EN_LU_ID="4825" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6274" RBN_matching_relation="near_equivalence">
+    <definition>in slaap zijn</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="pitten" order="1"/>
+  </lexUnit>
+  <lexUnit ID="769" POS="V" cBy="manual" cDate="08/19/2020 07:45:34 UTC Wed" lemmaID="745" name="slapen.v" status="Created" FN_EN_LU_ID="4825" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7182" RBN_matching_relation="equivalence">
+    <definition>in slaap zijn</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="slapen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="770" POS="V" cBy="automatic" cDate="08/19/2020 07:45:41 UTC Wed" lemmaID="767" name="rusten.v" status="Created" FN_EN_LU_ID="4825" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6887" RBN_matching_relation="near_equivalence">
+    <definition>rust houden door te slapen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="rusten" order="1"/>
+  </lexUnit>
+</frame>

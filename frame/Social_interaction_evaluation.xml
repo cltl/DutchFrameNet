@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="07/09/2002 01:52:13 PDT Tue" name="Social_interaction_evaluation" ID="372" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;In this frame an &lt;fen&gt;Evaluee&lt;/fen&gt; is judged by a (usually implicit) &lt;fen&gt;Judge&lt;/fen&gt; to be of a certain character based on her or his &lt;fen&gt;Behavior&lt;/fen&gt; towards other human beings; a specific &lt;fen&gt;Affected_party&lt;/fen&gt; may be overtly mentioned along with the &lt;fen&gt;Degree&lt;/fen&gt; to which the &lt;fen&gt;Evaluee&lt;/fen&gt; behaves appropriately towards others. The&lt;fen&gt;Behavior&lt;/fen&gt; alone may be mentioned with the understanding that these behaviors characterize a property of the unmentioned &lt;fen&gt;Evaluee&lt;/fen&gt;. The &lt;fen&gt;Evaluee&lt;/fen&gt;'s &lt;fen&gt;Behavior&lt;/fen&gt; may be in the context of a &lt;fen&gt;Topic&lt;/fen&gt;.
+
+&lt;ex&gt; It was &lt;t&gt;nice&lt;/t&gt; &lt;fex name="Evaluee"&gt;of you&lt;/fex&gt; &lt;fex name="Behavior"&gt;to send a card&lt;/fex&gt;. &lt;/ex&gt; 
+
+&lt;ex&gt; &lt;fex name="Evaluee"&gt;Jim&lt;/fex&gt; was &lt;t&gt;thoughtful&lt;/t&gt; &lt;fex name="Behavior"&gt;to email the directions&lt;/fex&gt;.&lt;/ex&gt; 
+
+&lt;ex&gt; &lt;fex name="Behavior"&gt;For Martha to smoke in the car&lt;/fex&gt; was &lt;fex name="Degree"&gt;extremely&lt;/fex&gt; &lt;t&gt;inconsiderate&lt;/t&gt;.&lt;/ex&gt; 
+
+&lt;ex&gt; It was &lt;t&gt;cruel&lt;/t&gt; &lt;fex name="Behavior"&gt;that he continued to call her&lt;/fex&gt;.&lt;/ex&gt; 
+
+&lt;ex&gt; &lt;fex name="Evaluee"&gt;Mary&lt;/fex&gt; was &lt;t&gt;cruel&lt;/t&gt; &lt;fex name="Affected_party"&gt;to her friends&lt;/fex&gt;.&lt;/ex&gt; 
+
+&lt;ex&gt; Samson was a &lt;t&gt;thoughtless&lt;/t&gt; &lt;fex name="Evaluee"&gt;person&lt;/fex&gt;.&lt;/ex&gt; 
+
+&lt;ex&gt;&lt;fex name="Evaluee"&gt;Mrs. Robinson&lt;/fex&gt; was always &lt;t&gt;considerate&lt;/t&gt; &lt;fex name="Affected_party"&gt;of her students&lt;/fex&gt;.&lt;/ex&gt; 
+
+&lt;ex&gt; &lt;fex name="Evaluee"&gt;The press&lt;/fex&gt; was always &lt;t&gt;kind&lt;/t&gt; &lt;fex name="Topic"&gt;about Madonna&lt;/fex&gt;.&lt;/ex&gt; 
+
+&lt;ex&gt; &lt;fex name="Evaluee"&gt;Lee&lt;/fex&gt; was &lt;t&gt;nice&lt;/t&gt; &lt;fex name="Topic"&gt;about my car accident&lt;/fex&gt;.&lt;/ex&gt; 
+
+&lt;ex&gt; I appreciated his &lt;t&gt;kind&lt;/t&gt; &lt;fex name="Behavior"&gt;offer of the car&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="07/09/2002 02:06:19 PDT Tue" abbrev="Eval" name="Evaluee" ID="3336">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Evaluee&lt;/fen&gt; is the person whose &lt;fen&gt;Behavior&lt;/fen&gt; towards other human beings is being evaluated.&lt;/def-root&gt;</definition>
+    <semType name="Human" ID="80"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="07/09/2002 02:07:25 PDT Tue" abbrev="Affect" name="Affected_party" ID="3337">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Affected_party&lt;/fen&gt; is the entity which is positively or negatively treated by the &lt;fen&gt;Evaluee&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="07/09/2002 02:13:10 PDT Tue" abbrev="Beh" name="Behavior" ID="3338">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Behavior&lt;/fen&gt; is the action of the &lt;fen&gt;Evaluee&lt;/fen&gt; on which the evaluation of the &lt;fen&gt;Evaluee&lt;/fen&gt;'s character is based.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="07/09/2002 02:21:52 PDT Tue" abbrev="Deg" name="Degree" ID="3339">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Degree&lt;/fen&gt; is the extent to which the &lt;fen&gt;Evaluee&lt;/fen&gt; exhibits the particular &lt;fen&gt;Behavior&lt;/fen&gt; towards others.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="07/09/2002 03:38:42 PDT Tue" abbrev="Gr" name="Topic" ID="3343">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Topic&lt;/fen&gt; is the situation or person that the &lt;fen&gt;Evaluee&lt;/fen&gt;'s &lt;fen&gt;Behavior&lt;/fen&gt; responds to or is related to.&lt;/def-root&gt;</definition>
+    <excludesFE name="Behavior" ID="3338"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="07/10/2002 09:08:50 PDT Wed" abbrev="Exp" name="Expressor" ID="3350">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Expressor&lt;/fen&gt; is the body part or action by a body part which indicates the character of the &lt;fen&gt;Evaluee&lt;/fen&gt;.
+
+&lt;ex&gt;She flashed me a &lt;t&gt;kind&lt;/t&gt; &lt;fex name="Expressor"&gt;smile&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="07/11/2002 11:16:01 PDT Thu" abbrev="Manner" name="Manner" ID="3355">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Manner&lt;/fen&gt; is the way in which the &lt;fen&gt;Evaluee&lt;/fen&gt; embodies the characteristic ascribed to her or him.
+
+&lt;ex&gt;&lt;fex name = "Evaluee"&gt;Lester&lt;/fex&gt; was &lt;fex name = "Manner"&gt;coldly&lt;/fex&gt; &lt;t&gt;polite&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core-Unexpressed" cBy="JKR" cDate="05/06/2004 02:15:53 PDT Thu" abbrev="jud" name="Judge" ID="6393">
+    <definition>&lt;def-root&gt;The individual whose point of view is taken in assigning the evaluation denoted by the target.
+
+&lt;ex&gt;&lt;fex name="jud"&gt;In my book&lt;/fex&gt;, that wasn't very &lt;t&gt;gracious&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Human" ID="80"/>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Behavior" ID="3338"/>
+    <memberFE name="Evaluee" ID="3336"/>
+    <memberFE name="Topic" ID="3343"/>
+    <memberFE name="Expressor" ID="3350"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="369">Social_behavior_evaluation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="349">Partiality</relatedFrame>
+    <relatedFrame ID="75">Strictness</relatedFrame>
+    <relatedFrame ID="1970">Hospitality</relatedFrame>
+    <relatedFrame ID="724">Stinginess</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="376">Fairness_evaluation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="74">Sociability</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="780" POS="A" cBy="automatic" cDate="08/19/2020 07:47:21 UTC Wed" lemmaID="777" name="zorgzaam.a" status="Created" FN_EN_LU_ID="6548" Method="Iteration-1" RBN_LU_ID="r_a-16447" RBN_matching_relation="near_equivalence">
+    <definition>vol zorg</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="zorgzaam" order="1"/>
+  </lexUnit>
+  <lexUnit ID="781" POS="A" cBy="manual" cDate="08/19/2020 07:47:28 UTC Wed" lemmaID="778" name="voorkomend.a" status="Created" FN_EN_LU_ID="6548" Method="Iteration-1" RBN_LU_ID="r_a-16122" RBN_matching_relation="equivalence">
+    <definition>hoffelijk</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="voorkomend" order="1"/>
+  </lexUnit>
+  <lexUnit ID="782" POS="A" cBy="automatic" cDate="08/19/2020 07:47:33 UTC Wed" lemmaID="779" name="wreed.a" status="Created" FN_EN_LU_ID="6553" Method="Iteration-1" RBN_LU_ID="r_a-15783" RBN_matching_relation="near_equivalence">
+    <definition>hardvochtig</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="wreed" order="1"/>
+  </lexUnit>
+  <lexUnit ID="783" POS="A" cBy="automatic" cDate="08/19/2020 07:47:39 UTC Wed" lemmaID="780" name="rancuneus.a" status="Created" FN_EN_LU_ID="6628" Method="Iteration-1" RBN_LU_ID="r_a-14512" RBN_matching_relation="near_equivalence">
+    <definition>wrokkig</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="rancuneus" order="1"/>
+  </lexUnit>
+  <lexUnit ID="784" POS="A" cBy="automatic" cDate="08/19/2020 07:47:45 UTC Wed" lemmaID="781" name="onheus.a" status="Created" FN_EN_LU_ID="6628" Method="Iteration-1" RBN_LU_ID="r_a-13567" RBN_matching_relation="near_equivalence">
+    <definition>niet voorkomend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="onheus" order="1"/>
+  </lexUnit>
+  <lexUnit ID="785" POS="A" cBy="automatic" cDate="08/19/2020 07:47:51 UTC Wed" lemmaID="782" name="zachtaardig.a" status="Created" FN_EN_LU_ID="13830" Method="Iteration-1" RBN_LU_ID="r_a-16382" RBN_matching_relation="near_equivalence">
+    <definition>vriendelijk</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="zachtaardig" order="1"/>
+  </lexUnit>
+</frame>

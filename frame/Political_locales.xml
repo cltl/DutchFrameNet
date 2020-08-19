@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="08/08/2001 09:00:03 PDT Wed" name="Political_locales" ID="195" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame covers words that name Locations as defined politically, or administratively.
+
+&lt;ex&gt;&lt;fex name="Name"&gt;Berkeley&lt;/fex&gt; is a &lt;fex name="Descriptor"&gt;wonderful&lt;/fex&gt; &lt;fex name="Locale"&gt;&lt;t&gt;city&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/10/2001 05:01:49 PDT Fri" abbrev="Constp" name="Constituent_parts" ID="1580">
+    <definition>&lt;def-root&gt;The materials or &lt;fen&gt;Constituent_parts&lt;/fen&gt; that make up a &lt;fen&gt;Locale&lt;/fen&gt;.  
+&lt;ex&gt;New York is a &lt;t&gt;city&lt;/t&gt; &lt;fex name="Constp"&gt;of glass and steel&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/10/2001 05:01:49 PDT Fri" abbrev="ContP" name="Container_possessor" ID="1581">
+    <definition>&lt;def-root&gt;The location that the &lt;fen&gt;Locale&lt;/fen&gt; is a part of.
+&lt;ex&gt;John spent several years wandering the &lt;t&gt;villages&lt;/t&gt; &lt;fex name="ContP"&gt;of Romania&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="08/10/2001 05:01:49 PDT Fri" abbrev="Lcl" name="Locale" ID="1583">
+    <definition>&lt;def-root&gt;A stable bounded area.  It is typically the designation of the nouns of Locale-derived frames.
+
+&lt;ex&gt;There used to be a forest in that &lt;fex name="Lcl"&gt;&lt;t&gt;city&lt;/t&gt;&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Location" ID="54"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/13/2001 11:31:52 PDT Mon" abbrev="Name" name="Name" ID="1599">
+    <definition>&lt;def-root&gt;ULTIMATELY TO BE REPLACED BY MULTIWORD TARGETS (in almost all cases).  This FE is used for the Names of Locales.
+
+
+&lt;ex&gt;The &lt;t&gt;city&lt;/t&gt; &lt;fex name="Name"&gt;of Paris&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;The &lt;t&gt;town&lt;/t&gt; &lt;fex name="Name"&gt;of Smithersville&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/13/2001 11:53:49 PDT Mon" abbrev="RelLoc" name="Relative_location" ID="1602">
+    <definition>&lt;def-root&gt;A place that a Locale is located with respect to.
+
+&lt;ex&gt;All the &lt;t&gt;cities&lt;/t&gt; &lt;fex name="RelLoc"&gt;near the San Francisco bay&lt;/fex&gt; are large.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/28/2004 12:14:27 PDT Tue" abbrev="des" name="Descriptor" ID="7151">
+    <definition>&lt;def-root&gt;Any description, characteristic, or property of the &lt;fen&gt;Locale&lt;/fen&gt; which is not covered by more specific FEs.
+
+&lt;ex&gt;He ruled the &lt;fex name="des"&gt;largest&lt;/fex&gt; &lt;t&gt;kingdom&lt;/t&gt; &lt;fex name="des"&gt;that ever existed&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7CCD7C" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="11/03/2004 05:44:44 PST Wed" abbrev="pop" name="Population" ID="7205">
+    <definition>&lt;def-root&gt;The people living in the jurisdiction of the locale.
+
+&lt;ex&gt;Stawiski was a &lt;t&gt;city&lt;/t&gt; &lt;fex name="pop"&gt;of laborers&lt;/fex&gt;, of whom can be said ?You shall eat your bread by the sweat of your brow? &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="2171">Locale_by_ownership</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="1483">Foreign_or_domestic_country</relatedFrame>
+    <relatedFrame ID="1883">Relational_political_locales</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="73">Leadership</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1572">Economy</relatedFrame>
+    <relatedFrame ID="1023">People_by_jurisdiction</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="651" POS="N" cBy="manual" cDate="08/19/2020 07:35:30 UTC Wed" lemmaID="649" name="district.n" status="Created" FN_EN_LU_ID="3682" Method="Iteration-2_WN" RBN_LU_ID="r_n-11094" RBN_matching_relation="near_equivalence">
+    <definition>waarin een gebied verdeeld is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="district" order="1"/>
+  </lexUnit>
+  <lexUnit ID="652" POS="N" cBy="automatic" cDate="08/19/2020 07:35:34 UTC Wed" lemmaID="650" name="hertogdom.n" status="Created" FN_EN_LU_ID="3685" Method="Iteration-1" RBN_LU_ID="r_n-16772" RBN_matching_relation="near_equivalence">
+    <definition>dat onder een hertog staat</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="hertogdom" order="1"/>
+  </lexUnit>
+  <lexUnit ID="653" POS="N" cBy="manual" cDate="08/19/2020 07:35:38 UTC Wed" lemmaID="651" name="vorstendom.n" status="Created" FN_EN_LU_ID="3689" Method="Iteration-1" RBN_LU_ID="r_n-41741" RBN_matching_relation="equivalence">
+    <definition>dat door een vorst of prins geregeerd wordt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="vorstendom" order="1"/>
+  </lexUnit>
+  <lexUnit ID="654" POS="N" cBy="automatic" cDate="08/19/2020 07:35:42 UTC Wed" lemmaID="652" name="regio.n" status="Created" FN_EN_LU_ID="14551" Method="Iteration-1" RBN_LU_ID="r_n-31086" RBN_matching_relation="near_equivalence">
+    <definition>met een bepaald karakter, of een gebied rond een stad</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="regio" order="1"/>
+  </lexUnit>
+  <lexUnit ID="655" POS="N" cBy="automatic" cDate="08/19/2020 07:35:47 UTC Wed" lemmaID="653" name="rayon.n" status="Created" FN_EN_LU_ID="14551" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-30587" RBN_matching_relation="near_equivalence">
+    <definition>waarbinnen een persoon of een organisatie zijn werk doet</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="rayon" order="1"/>
+  </lexUnit>
+</frame>

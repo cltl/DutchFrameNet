@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="PKe" cDate="09/29/2011 03:32:38 PDT Thu" name="Social_desirability" ID="2660" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame contains LUs which are like those of the Desirability frame except the Evaluee incorporates the Parameter as "associated with a percieved place in a social heirarchy" for all LUs. LUs are not restricted to positive or negative implications.
+
+&lt;ex&gt;&lt;fex name="Evaluee"&gt;His manner of dress&lt;/fex&gt; was &lt;t&gt;pedestrian&lt;/t&gt; but tidy.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="PKe" cDate="09/29/2011 03:32:38 PDT Thu" abbrev="Evaluee" name="Evaluee" ID="15070">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Evaluee&lt;/fen&gt; is being judged for its quality.
+
+
+&lt;ex&gt; &lt;fex name="Evaluee"&gt;His shirt&lt;/fex&gt; seems very &lt;t&gt;common&lt;/t&gt; compared to their modern fashions.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="PKe" cDate="09/29/2011 03:32:38 PDT Thu" abbrev="Degree" name="Degree" ID="15071">
+    <definition>&lt;def-root&gt;This FE identifies the  &lt;fen&gt;Degree&lt;/fen&gt; to which the &lt;fen&gt;Evaluee&lt;/fen&gt; is judged good or bad.
+
+&lt;ex&gt; His shirt seems &lt;fex name="Degree"&gt;very&lt;/fex&gt; &lt;t&gt;common&lt;/t&gt; compared to their modern fashions.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="PKe" cDate="09/29/2011 03:32:38 PDT Thu" abbrev="Circumstances" name="Circumstances" ID="15072">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Circumstances&lt;/fen&gt; marks expressions that indicate a set of conditions under which the quality of the &lt;fen&gt;Evaluee&lt;/fen&gt; is being judged.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="PKe" cDate="09/29/2011 03:32:38 PDT Thu" abbrev="Comp Set" name="Comparison_set" ID="15074">
+    <definition>&lt;def-root&gt;This FE marks expressions that indicate what class of things or events the &lt;fen&gt;Evaluee&lt;/fen&gt; is being judged against.
+
+&lt;ex&gt; His shirt seems very &lt;t&gt;common&lt;/t&gt; &lt;fex name="Comparison_set"&gt;compared to their modern fashions&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="PKe" cDate="09/29/2011 03:32:38 PDT Thu" abbrev="Depictive" name="Depictive" ID="15076">
+    <definition>&lt;def-root&gt;The Frame Element &lt;fen&gt;Depictive&lt;/fen&gt; encodes a state that the &lt;fen&gt;Evaluee&lt;/fen&gt; is in and which does not represent a temporary or hypothetical set of &lt;fen&gt;Circumstances&lt;/fen&gt;.
+
+
+&lt;ex&gt; His shirt seems very &lt;t&gt;common&lt;/t&gt; &lt;fex name="Depictive"&gt;with its generic logo&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="354">Desirability</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="776" POS="A" cBy="automatic" cDate="08/19/2020 07:46:40 UTC Wed" lemmaID="773" name="volks.a" status="Created" FN_EN_LU_ID="16646" Method="Iteration-1" RBN_LU_ID="r_a-16103" RBN_matching_relation="near_equivalence">
+    <definition>horend bij het gewone volk</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="volks" order="1"/>
+  </lexUnit>
+  <lexUnit ID="777" POS="A" cBy="automatic" cDate="08/19/2020 07:46:51 UTC Wed" lemmaID="774" name="vulgair.a" status="Created" FN_EN_LU_ID="16646" Method="Iteration-1" RBN_LU_ID="r_a-16185" RBN_matching_relation="near_equivalence">
+    <definition>ordinair</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="vulgair" order="1"/>
+  </lexUnit>
+  <lexUnit ID="778" POS="A" cBy="automatic" cDate="08/19/2020 07:47:02 UTC Wed" lemmaID="775" name="gewoontjes.a" status="Created" FN_EN_LU_ID="16648" Method="Iteration-1" RBN_LU_ID="r_a-11463" RBN_matching_relation="near_equivalence">
+    <definition>alledaags</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="gewoontjes" order="1"/>
+  </lexUnit>
+</frame>

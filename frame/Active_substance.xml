@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="02/27/2005 03:41:05 PST Sun" name="Active_substance" ID="1322" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Substance&lt;/fen&gt; causes an &lt;fen&gt;Effect&lt;/fen&gt;.  The &lt;fen&gt;Substance&lt;/fen&gt; is produced by a process understood as directed towards the &lt;fen&gt;Effect&lt;/fen&gt;.  The &lt;fen&gt;Name&lt;/fen&gt; for the material that makes up the substance may also be given.
+
+&lt;ex&gt;A rationale for using &lt;fex name="sub"&gt;denatured gp160&lt;/fex&gt; as a &lt;fex name="eff"&gt;therapeutic&lt;/fex&gt; &lt;t&gt;agent&lt;/t&gt; in HIV-infected people is to boost the immune response .&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="sub"&gt;The quinolones&lt;/fex&gt; now seem to &lt;m&gt;be&lt;/m&gt; the &lt;fex name="eff"&gt;antimicrobial&lt;/fex&gt; &lt;t&gt;agents&lt;/t&gt; of choice for acute bacterial prostatitis.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="eff"&gt;Hormonally&lt;/fex&gt; &lt;t&gt;active&lt;/t&gt; &lt;fex name="sub"&gt;chemicals&lt;/fex&gt; have the potential to cause significant environmental injury.&lt;/ex&gt;
+
+&lt;ex&gt;Only after the potion has been drunk does the &lt;t&gt;active&lt;/t&gt; &lt;fex name="sub"&gt;ingredient&lt;/fex&gt; form. &lt;fex name="eff"&gt;DNI&lt;/fex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;The &lt;fex name="nam"&gt;sarin&lt;/fex&gt; &lt;t&gt;&lt;fex name="sub"&gt;agent&lt;/fex&gt;&lt;/t&gt; might have been a leftover shell from a chemical-arms dump. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="02/27/2005 03:41:47 PST Sun" abbrev="eff" name="Effect" ID="7531">
+    <definition>&lt;def-root&gt;The change brought about by the Substance.
+
+&lt;ex&gt;There is a clear co-variation between allergic symptoms in children and the concentration of &lt;fex name="eff"&gt;softening&lt;/fex&gt; &lt;t&gt;agents&lt;/t&gt; in their homes.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="02/27/2005 03:44:29 PST Sun" abbrev="sub" name="Substance" ID="7532">
+    <definition>&lt;def-root&gt;The internally undifferentiated physical entity that has an &lt;fen&gt;Effect&lt;/fen&gt;.
+
+&lt;ex&gt;While marijuana?s advocates say &lt;fex name="sub"&gt;the drug&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; a mellowing &lt;t&gt;agent&lt;/t&gt; that can be used for medicinal purposes, some police will say marijuana is a gateway drug.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="02/27/2005 03:48:02 PST Sun" abbrev="des" name="Descriptor" ID="7533">
+    <definition>&lt;def-root&gt;A characterization of the &lt;fen&gt;Substance&lt;/fen&gt;.
+
+&lt;ex&gt;This &lt;fex name="des"&gt;transmissible&lt;/fex&gt; &lt;t&gt;agent&lt;/t&gt; is a virus containing DNA.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="02/27/2005 03:54:28 PST Sun" abbrev="typ" name="Type" ID="7534">
+    <definition>&lt;def-root&gt;This FE indicates what subtype of the general category the &lt;fen&gt;Substance&lt;/fen&gt; belongs to.
+
+
+&lt;ex&gt;&lt;fex name="typ"&gt;Pharmacological&lt;/fex&gt; &lt;t&gt;agents&lt;/t&gt; could then be selected to modify these cascades.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="05/08/2005 07:42:31 PDT Sun" abbrev="nam" name="Name" ID="7968">
+    <definition>&lt;def-root&gt;The name of the material that makes up the active &lt;fen&gt;Substance&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="nam"&gt;&lt;/fex&gt;Anthrax &lt;t&gt;agent&lt;/t&gt; in this form is particularly mobile.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1321">Substance</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

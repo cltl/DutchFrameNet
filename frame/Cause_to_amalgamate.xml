@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:44 PST Wed" name="Cause_to_amalgamate" ID="13" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;These words refer to an &lt;fen&gt;Agent&lt;/fen&gt; joining &lt;fen&gt;Parts&lt;/fen&gt; to form a &lt;fen&gt;Whole&lt;/fen&gt;.  (The &lt;fen&gt;Parts&lt;/fen&gt; may also be encoded as &lt;fen&gt;Part_1&lt;/fen&gt; and &lt;fen&gt;Part_2&lt;/fen&gt;.)  There is a symmetrical relationship between the components that undergo the process, and afterwards the &lt;fen&gt;Parts&lt;/fen&gt; are consumed and are no longer distinct entities that are easily discernable or separable in the &lt;fen&gt;Whole&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Agent"&gt;Chuck&lt;/fex&gt; &lt;t&gt;merged&lt;/t&gt; &lt;fex name="Parts"&gt;the corpora&lt;/fex&gt;.&lt;/ex&gt;&lt;ex&gt;
+&lt;fex name="Agent"&gt;Chuck&lt;/fex&gt; &lt;t&gt;merged&lt;/t&gt; &lt;fex name="Parts"&gt;the corpora&lt;/fex&gt; &lt;fex name="Whole"&gt;into a database&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Agent"&gt;Chuck&lt;/fex&gt; &lt;t&gt;merged&lt;/t&gt; &lt;fex name="Part_1"&gt;the BNC&lt;/fex&gt; &lt;fex name="Part_2"&gt;with the AP Corpus&lt;/fex&gt; &lt;fex name="Whole"&gt;into a database&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Parts"&gt;The two forces&lt;/fex&gt; &lt;t&gt;merged&lt;/t&gt; &lt;fex name="Whole"&gt;into a single, undifferentiated mass of murderous mayhem&lt;/fex&gt;.(Sense 2)&lt;/ex&gt;
+&lt;ex&gt;Melt the butter, then &lt;t&gt;blend&lt;/t&gt; &lt;fex name="Part_1"&gt;it&lt;/fex&gt; &lt;fex name="Part_2"&gt;with the room temperature milk&lt;/fex&gt;. &lt;fex name="Agent"&gt;CNI&lt;/fex&gt;&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:44 PST Wed" abbrev="Agt" name="Agent" ID="46">
+    <definition>&lt;def-root&gt;In causative uses of these verbs there is an &lt;fen&gt;Agent&lt;/fen&gt; responsible for amalgamating the &lt;fen&gt;Parts&lt;/fen&gt;. The &lt;fen&gt;Agent&lt;/fen&gt; is generally the External Argument (or the object of a PP-by in passives).&lt;ex&gt;&lt;fex name="Agent"&gt;The chef&lt;/fex&gt; &lt;t&gt;combined&lt;/t&gt; the ingredients.&lt;/ex&gt;&lt;ex&gt;The ingredients were &lt;t&gt;combined&lt;/t&gt; &lt;fex name="Agent"&gt;by the chef&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:44 PST Wed" abbrev="Whole" name="Whole" ID="47">
+    <definition>&lt;def-root&gt;This  FE identifies &lt;fen&gt;Whole&lt;/fen&gt; as the entity resulting from combination of &lt;fen&gt;Parts&lt;/fen&gt;.  When overtly expressed, it is usually a PP Complement (often headed by into).&lt;ex&gt;Chuck &lt;t&gt;merged&lt;/t&gt; the corpora &lt;fex name="Whole"&gt;into a database&lt;/fex&gt;.&lt;/ex&gt; &lt;ex&gt;The directors &lt;t&gt;merged&lt;/t&gt; the two companies &lt;fex name="Whole"&gt;into a conglomorate&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:44 PST Wed" abbrev="Parts" name="Parts" ID="48">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Parts&lt;/fen&gt; entities being combined, and is often expressed in a single plural NP, usually the direct object of a verb. &lt;ex&gt;Chuck &lt;t&gt;merged&lt;/t&gt; &lt;fex name="Parts"&gt;the corpora&lt;/fex&gt; into a database.&lt;/ex&gt;&lt;ex&gt;The directors &lt;t&gt;merged&lt;/t&gt; &lt;fex name="Parts"&gt;the two companies&lt;/fex&gt; into a conglomerate.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:44 PST Wed" abbrev="Part_1" name="Part_1" ID="49">
+    <definition>&lt;def-root&gt;This FE identifies the first of two &lt;fen&gt;Parts&lt;/fen&gt; mentioned. It  is most often the NP-Object of a verb.
+
+&lt;ex&gt;The workmen &lt;t&gt;joined&lt;/t&gt; &lt;fex name="Part_1"&gt;the annex&lt;/fex&gt; to the main building.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <requiresFE name="Part_2" ID="50"/>
+    <excludesFE name="Parts" ID="48"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:44 PST Wed" abbrev="Part_2" name="Part_2" ID="50">
+    <definition>&lt;def-root&gt;This FE identifies the second of two &lt;fen&gt;Parts&lt;/fen&gt; mentioned. It is usually a PP Complement.
+
+&lt;ex&gt;The workkmen &lt;t&gt;joined&lt;/t&gt; the annex &lt;fex name="Part_2"&gt;to the main building&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <requiresFE name="Part_1" ID="49"/>
+    <excludesFE name="Parts" ID="48"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="BoC" cDate="07/02/2001 09:32:37 PDT Mon" abbrev="Manr" name="Manner" ID="1214">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Manner&lt;/fen&gt; in which the amalgamating occurs.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="BoC" cDate="07/02/2001 09:32:40 PDT Mon" abbrev="Degr" name="Degree" ID="1215">
+    <definition>&lt;def-root&gt;This FE identifies the thoroughness of the mixing job, i.e. to what degree the resulting &lt;fen&gt;Whole&lt;/fen&gt; is undifferentiated.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/18/2001 04:21:00 PDT Tue" abbrev="Mns" name="Means" ID="1959">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Means&lt;/fen&gt; by which the amalgamating occurs.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="04/10/2002 12:00:32 PDT Wed" abbrev="Result" name="Result" ID="2592">
+    <definition>&lt;def-root&gt;This FE  is used for indicating the &lt;fen&gt;Result&lt;/fen&gt; of amalgamating.
+&lt;ex&gt;Chuck &lt;t&gt;merged&lt;/t&gt; the corpora &lt;fex name="Result"&gt;together&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="09/22/2003 04:42:33 PDT Mon" abbrev="" name="Depictive" ID="5102">
+    <definition>&lt;def-root&gt;The state of the &lt;fen&gt;Parts&lt;/fen&gt; during the amalgamation.  Often it refers to the proportion of the &lt;fen&gt;Parts&lt;/fen&gt; to one another.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="000000" coreType="Peripheral" cBy="MJE" cDate="09/22/2003 05:08:25 PDT Mon" abbrev="" name="Purpose" ID="5105">
+    <definition>&lt;def-root&gt;The state of affairs that the &lt;fen&gt;Agent&lt;/fen&gt; seeks to bring about by the Amalgamation.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/22/2003 06:34:59 PDT Mon" abbrev="" name="Place" ID="5108">
+    <definition>&lt;def-root&gt;The location that the event occurs.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/22/2003 06:36:47 PDT Mon" abbrev="" name="Time" ID="5109">
+    <definition>&lt;def-root&gt;The time at which the amalgamation occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="230">Intentionally_affect</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of">
+    <relatedFrame ID="790">Amalgamation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="See also"/>
+</frame>

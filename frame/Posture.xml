@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:51 PST Wed" name="Posture" ID="18" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; supports their body in a particular &lt;fen&gt;Location&lt;/fen&gt;.  The LUs of the frame convey which body part is the &lt;fen&gt;Point_of_contact&lt;/fen&gt; where the &lt;fen&gt;Agent&lt;/fen&gt; is supported, what orientation the body is in, and some overall arrangement of the limbs (especially the legs) and the torso.
+
+&lt;ex&gt;&lt;fex name="Agent"&gt;He&lt;/fex&gt; &lt;t&gt;knelt&lt;/t&gt; &lt;fex name="Location"&gt;down&lt;/fex&gt;, &lt;fex name="Depictive"&gt;hand on heart&lt;/fex&gt; .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:51 PST Wed" abbrev="Agt" name="Agent" ID="81">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Agent&lt;/fen&gt; is the individual whose body is in a particular posture.  The &lt;fen&gt;Agent&lt;/fen&gt; FE is generally expressed as the external argument of verbs: 
+&lt;ex&gt;&lt;fex name="Agent"&gt;Kim&lt;/fex&gt; was &lt;t&gt;kneeling&lt;/t&gt; by the window.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:51 PST Wed" abbrev="Loc" name="Location" ID="82">
+    <definition>&lt;def-root&gt;A description of the position of the &lt;fen&gt;Agent&lt;/fen&gt;.  The &lt;fen&gt;Location&lt;/fen&gt; of the &lt;fen&gt;Agent&lt;/fen&gt; is frequently expressed and generally occurs as a PP Complement: 
+&lt;ex&gt;Kim was &lt;t&gt;kneeling&lt;/t&gt; &lt;fex name="Location"&gt;by the window&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Location" ID="54"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/22/2001 10:30:45 PDT Fri" abbrev="Degr" name="Degree" ID="937">
+    <definition>&lt;def-root&gt;Degree to which event occurs&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="06/22/2001 10:30:45 PDT Fri" abbrev="Depict" name="Depictive" ID="938">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Agent&lt;/fen&gt;'s state throughout the time they are in a particular posture.
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/22/2001 10:30:45 PDT Fri" abbrev="Manr" name="Manner" ID="941">
+    <definition>&lt;def-root&gt;Any description of the event which is not covered by more specific FEs, including secondary effects (&lt;ment&gt;quietly, loudly&lt;/ment&gt;), and general descriptions comparing events (&lt;ment&gt;the same way&lt;/ment&gt;). In addition, it may indicate salient characteristics of an &lt;fen&gt;Agent&lt;/fen&gt; that also affect the action (&lt;ment&gt;presumptuously, coldly, deliberately, eagerly, carefully&lt;/ment&gt;). &lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="12/02/2002 10:34:32 PST Mon" abbrev="Res" name="Dependent_state" ID="3949">
+    <definition>&lt;def-root&gt;A state of the Agent which crucially depends on their posture.
+&lt;ex&gt;She &lt;t&gt;sat&lt;/t&gt; &lt;fex name="Dependent_state"&gt;upright&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7CCD7C" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="09/02/2003 05:27:03 PDT Tue" abbrev="" name="Time" ID="5015">
+    <definition>&lt;def-root&gt;This FE indicates the Time interval during which the &lt;fen&gt;Agent&lt;/fen&gt; held a certain posture.
+
+&lt;ex&gt; &lt;fex name="Time"&gt;Yesterday evening&lt;/fex&gt; he was &lt;t&gt;sitting&lt;/t&gt; in his armchair as usual&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="09/02/2003 05:35:48 PDT Tue" abbrev="" name="Purpose" ID="5016">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Purpose&lt;/fen&gt; for which the &lt;fen&gt;Agent&lt;/fen&gt; holds the posture.
+
+&lt;ex&gt; Joel &lt;t&gt;sat&lt;/t&gt; on the porch &lt;fex name="Purpose"&gt;to watch the traffic go by&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Peripheral" cBy="JKR" cDate="09/02/2003 08:30:57 PDT Tue" abbrev="" name="Duration" ID="5019">
+    <definition>&lt;def-root&gt;The length of time for which the &lt;fen&gt;Agent&lt;/fen&gt; holds the posture.
+
+&lt;ex&gt; I could have &lt;t&gt;stood&lt;/t&gt; there &lt;fex name="Duration"&gt;all afternoon&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Duration" ID="142"/>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="0000FF" coreType="Core" cBy="JKR" cDate="09/02/2003 08:51:17 PDT Tue" abbrev="poc" name="Point_of_contact" ID="5020">
+    <definition>&lt;def-root&gt;The part of the body that provides support to the &lt;fen&gt;Agent&lt;/fen&gt;'s body in the posture.
+
+&lt;ex&gt;I &lt;t&gt;stood&lt;/t&gt; &lt;fex name="poc"&gt;on my heels&lt;/fex&gt; and looked out the window&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Point_of_contact" ID="5020"/>
+    <memberFE name="Location" ID="82"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="150">State</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

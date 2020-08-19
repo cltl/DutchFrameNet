@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MRLP" cDate="09/13/2001 05:54:02 PDT Thu" name="Calendric_unit" ID="229" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;Words in this frame name the different parts of the calendric cycle, both man-made and natural. The &lt;fen&gt;Unit&lt;/fen&gt; (e.g. &lt;m&gt;Tuesday&lt;/m&gt;) specifies some time period as part of a specific larger temporal &lt;fen&gt;Whole&lt;/fen&gt; (Tuesday &lt;m&gt;of next week&lt;/m&gt;), or may be resolved to an exact time span by a &lt;fen&gt;Relative_time&lt;/fen&gt; (&lt;m&gt;next&lt;/m&gt; Tuesday).  
+&lt;ex&gt;Jo's mother will visit on &lt;fex name="Relative_time"&gt;this coming&lt;/fex&gt; &lt;fex name="Unit"&gt;&lt;t&gt;Tuesday&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+Very frequently, the &lt;fen&gt;Whole&lt;/fen&gt; or &lt;fen&gt;Relative_time&lt;/fen&gt; are left out (i.e., DNI), and often should be interpreted as a time period overlapping with the communication, but more generally must be understood from context.  So, for example, in the first sentence below, we can imagine that the &lt;fen&gt;Whole&lt;/fen&gt; refers to a year (e.g., 1983) that was already mentioned or established in context.  In the second example below, the most likely interpretation is the nearest April, whether in this year or the next, and this interpretation is best indicated by indicating the &lt;fen&gt;Relative_time&lt;/fen&gt; is DNI.
+
+&lt;ex&gt;On &lt;t&gt;&lt;fex name="Unit"&gt;April&lt;/fex&gt;&lt;/t&gt; 2 , she finally found her mother . &lt;fex name="Whole"&gt;DNI&lt;/fex&gt;. &lt;/ex&gt; 
+&lt;ex&gt;I 'll come back in &lt;fex name="Unit"&gt;&lt;t&gt;April&lt;/t&gt;&lt;/fex&gt; .&lt;fex name="Relative_time"&gt;DNI&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+Most members of this frame can be used with iterative events, either with a plural &lt;fen&gt;Unit&lt;/fen&gt; (&lt;m&gt;on Tuesdays&lt;/m&gt;), or marked with &lt;m&gt;every&lt;/m&gt; (&lt;m&gt;every April&lt;/m&gt;).  
+&lt;ex&gt;On &lt;fex name="Whole"&gt;Tuesday and Thursday&lt;/fex&gt; &lt;t&gt;afternoons&lt;/t&gt; , we have tea .&lt;/ex&gt;
+In this use, when the &lt;fen&gt;Whole&lt;/fen&gt; is omitted, the &lt;fen&gt;Whole&lt;/fen&gt; should be marked INI.
+&lt;ex&gt;On &lt;t&gt;Tuesdays&lt;/t&gt; , we have tea . &lt;fex name="Whole"&gt;INI&lt;/fex&gt; &lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+Words of this frame often occur in a non-lexical construction that uses some Calendric_unit expressions to establish when an event occurred.  To capture this information, we use the extra-thematic FEs &lt;fen&gt;Landmark_period&lt;/fen&gt; and &lt;fen&gt;Trajector_event&lt;/fen&gt; (see Temporal_collocation) on the second layer, as in the following:
+&lt;ex&gt;&lt;fex name="Relative_time"&gt;Last&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;Tuesday&lt;/fex&gt;&lt;/t&gt; she said I 'd have to come back .&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Landmark_period"&gt;Last &lt;t&gt;Tuesday&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Trajector_event"&gt;she said I 'd have to come back&lt;/fex&gt; .&lt;/ex&gt;
+We do not use these FEs for cases where the temporal relationship is introduced by an overt word of the Temporal_collocation frame (like &lt;m&gt;on&lt;/m&gt;, &lt;m&gt;in&lt;/m&gt;, &lt;m&gt;at&lt;/m&gt;, &lt;m&gt;before&lt;/m&gt;, etc.).  Most lexical units of this frame occur in this construction, with or without requiring a &lt;fen&gt;Relative_time&lt;/fen&gt;, while some idiosyncratically do not, so information on the use with the extra-thematic FE &lt;fen&gt;Trajector_event&lt;/fen&gt; is lexically specific.
+&lt;ex&gt;&lt;/ex&gt;
+There are a number of non-lexical constructions that evoke this frame, including date constructions (&lt;m&gt;the third&lt;/m&gt;, &lt;m&gt;May 5&lt;/m&gt;), decade constructions (&lt;m&gt;the oughts&lt;/m&gt;), year constructions (&lt;m&gt;1975&lt;/m&gt;, &lt;m&gt;24 BCE&lt;/m&gt;, &lt;m&gt;10 AH&lt;/m&gt;, &lt;m&gt;year 19&lt;/m&gt;, etc.), and time-of-day constructions. Although not annotated in this frame, examples such as the following show that the FEs &lt;fen&gt;Unit&lt;/fen&gt; and &lt;fen&gt;Whole&lt;/fen&gt; are quite appropriate:
+&lt;ex&gt;The &lt;fex name="Unit"&gt;4th&lt;/fex&gt; &lt;fex name="Whole"&gt;of April&lt;/fex&gt; dawned clear and cold .&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Whole"&gt;December&lt;/fex&gt; &lt;fex name="Unit"&gt;11&lt;/fex&gt; was when Alix finally left .&lt;/ex&gt;
+&lt;ex&gt;The &lt;fex name="Unit"&gt;23rd&lt;/fex&gt; will be snowy . &lt;fex name="Whole"&gt;DNI&lt;/fex&gt; &lt;/ex&gt;
+&lt;ex&gt;Nothing much happened in the &lt;fex name="Unit"&gt;90s&lt;/fex&gt; , did it ? &lt;fex name="Whole"&gt;DNI&lt;/fex&gt; &lt;/ex&gt;
+As described above for the lexical targets that evoke this frame, some non-lexical versions of the frame may also occur in a non-lexical Temporal_collocation construction:
+&lt;ex&gt;No-one has forgotten what happened the &lt;fex name="Unit"&gt;5th&lt;/fex&gt; &lt;fex name="Whole"&gt;of November&lt;/fex&gt; !&lt;/ex&gt;
+&lt;ex&gt;No-one has forgotten &lt;fex name="Trajector_event"&gt;what happened&lt;/fex&gt; &lt;fex name="Landmark_period"&gt;the 5th of November&lt;/fex&gt; !&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+
+Words in this frame figure into a variety of temporal schemas, realized as constructions, primarily cases in which the Calendric_unit serves as a Landmark_period in the Temporal_collocation frame. There are families of constructions in which these words occur, including ones in which weekday names combine with day part names using particular prepositions (e.g. &lt;ment&gt;on Wednesday morning&lt;/ment&gt;, cf. &lt;ment&gt;on Wednesday&lt;/ment&gt;, but  &lt;ment&gt;in the morning&lt;/ment&gt;) and ones in which  calendric terms fill the slots in multi-word expressions such as  N-after-N (e.g. &lt;ment&gt;day after day&lt;/ment&gt;),  N-by-N (e.g. &lt;ment&gt;week by week&lt;/ment&gt;),  N-to-N (e.g. &lt;ment&gt;month to month&lt;/ment&gt;), etc. More can be found on these in Fillmore (2002).  Note, also, the connection between this frame and Frequency, specifically that many iterative adjectives and adverbs are based on calendric terms (e.g. &lt;ment&gt;daily&lt;/ment&gt;, &lt;ment&gt;weekly&lt;/ment&gt;, &lt;ment&gt;monthly&lt;/ment&gt;, etc.).   
+
+
+&lt;/def-root&gt;</definition>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Core" cBy="MRLP" cDate="09/20/2001 10:16:00 PDT Thu" abbrev="RelT" name="Relative_time" ID="1993">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Relative_time&lt;/fen&gt; is used for the word or words that locate the time with respect to an identifiable reference point.
+
+&lt;ex&gt;Jo's mother will visit &lt;fex name="RelT"&gt; this coming&lt;/fex&gt; &lt;t&gt;Tuesday&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="MRLP" cDate="09/20/2001 10:19:31 PDT Thu" abbrev="Name" name="Name" ID="1995">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Name&lt;/fen&gt; is used for the name of a day (month, etc.).  
+Note that only the word (or words) that is the name is (are) tagged, not the target word. 
+&lt;ex&gt;&lt;fex name="Name"&gt;Labor&lt;/fex&gt; &lt;t&gt;Day&lt;/t&gt; is just around the corner.&lt;/ex&gt;
+&lt;ex&gt;January is &lt;fex name="Name"&gt;Black History&lt;/fex&gt; &lt;t&gt;Month&lt;/t&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Core" cBy="MRLP" cDate="09/25/2001 04:52:09 PDT Tue" abbrev="Whole" name="Whole" ID="2016">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Whole&lt;/fen&gt; is used for the larger unit of which the target word names a part.
+
+&lt;ex&gt;Jo fled in the early &lt;t&gt;morning&lt;/t&gt; &lt;fex name="Whole"&gt;of  Sunday December 15&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="04/12/2005 02:28:55 PDT Tue" abbrev="cou" name="Count" ID="7759">
+    <definition>&lt;def-root&gt;The number of intervals of the specified type.
+
+&lt;ex&gt;These last &lt;fex name="cou"&gt;two&lt;/fex&gt; &lt;t&gt;weeks&lt;/t&gt;,  I just keep getting myself into trouble .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="06/20/2006 02:50:43 PDT Tue" abbrev="uni" name="Unit" ID="10331">
+    <definition>&lt;def-root&gt;The calendric unit that is denoted. LUs in this frame all denote the &lt;fen&gt;Unit&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="04/23/2007 02:46:39 PDT Mon" abbrev="sal_eve" name="Salient_event" ID="11700">
+    <definition>&lt;def-root&gt;An event saliently associated with a particular calendric unit.
+
+&lt;ex&gt;Today was my school's &lt;fex name="sal_eve"&gt;cut&lt;/fex&gt; &lt;t&gt;day&lt;/t&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;Republicans have indicated they plan to make Kerry's positions an &lt;fex name="sal_eve"&gt;election&lt;/fex&gt; &lt;t&gt;year&lt;/t&gt; issue.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="02/23/2016 04:41:31 PST Tue" abbrev="LM" name="Landmark_period" ID="16790">
+    <definition>&lt;def-root&gt;The time-expression that is used to establish when the &lt;fen&gt;Trajector_event&lt;/fen&gt; occurred.  This FE, when present, always occurs on the second layer.
+
+&lt;ex&gt;Turn in your expense reports &lt;fex name="Landmark_period"&gt;next &lt;t&gt;April&lt;/t&gt;&lt;/fex&gt; .&lt;/ex&gt;
+
+This FE is not to be used when the relationship between a time expression and an event is overtly expressed by a target of the Temporal_collocation frame, as in the following, which differs from the preceding sentence only in the use of &lt;m&gt;by&lt;/m&gt;:
+
+&lt;ex&gt;Turn in your expense reports by next &lt;t&gt;April&lt;/t&gt; .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="000000" coreType="Extra-Thematic" cBy="MJE" cDate="02/23/2016 04:48:15 PST Tue" abbrev="TR" name="Trajector_event" ID="16791">
+    <definition>&lt;def-root&gt;An event that is located by the Calendric_unit expression.
+
+&lt;ex&gt;Last &lt;t&gt;November&lt;/t&gt; , &lt;fex name="TR"&gt;they selected a new president&lt;/fex&gt; .&lt;/ex&gt;
+
+This FE is not to be used when a target of the Temporal_collocation frame explicitly introduces the temporal relationship between the &lt;fen&gt;Landmark_period&lt;/fen&gt; and the &lt;fen&gt;Trajector_event&lt;/fen&gt;, as in the following, which differs from the above only in the additional word &lt;m&gt;over&lt;/m&gt;:
+
+&lt;ex&gt;Over last &lt;t&gt;November&lt;/t&gt; , they selected a new president .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Whole" ID="2016"/>
+    <memberFE name="Relative_time" ID="1993"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="2141">Location_in_time</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="691">Change_event_time</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="1895">Temporal_collocation</relatedFrame>
+    <relatedFrame ID="80">Frequency</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="135" POS="N" cBy="automatic" cDate="08/19/2020 07:02:40 UTC Wed" lemmaID="135" name="weekend.n" status="Created" FN_EN_LU_ID="3952" Method="Iteration-1" RBN_LU_ID="r_n-42644" RBN_matching_relation="near_equivalence">
+    <definition>aan het einde van de week, de zaterdag en zondag, waarin de meeste mensen niet hoeven te werken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="weekend" order="1"/>
+  </lexUnit>
+  <lexUnit ID="136" POS="N" cBy="automatic" cDate="08/19/2020 07:02:43 UTC Wed" lemmaID="136" name="dinsdag.n" status="Created" FN_EN_LU_ID="3995" Method="Iteration-1" RBN_LU_ID="r_n-10993" RBN_matching_relation="near_equivalence">
+    <definition>van de werkweek</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="dinsdag" order="1"/>
+  </lexUnit>
+  <lexUnit ID="137" POS="N" cBy="automatic" cDate="08/19/2020 07:02:47 UTC Wed" lemmaID="137" name="woensdag.n" status="Created" FN_EN_LU_ID="3996" Method="Iteration-1" RBN_LU_ID="r_n-43454" RBN_matching_relation="near_equivalence">
+    <definition>van de werkweek</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="woensdag" order="1"/>
+  </lexUnit>
+  <lexUnit ID="138" POS="N" cBy="automatic" cDate="08/19/2020 07:02:50 UTC Wed" lemmaID="138" name="vrijdag.n" status="Created" FN_EN_LU_ID="3999" Method="Iteration-1" RBN_LU_ID="r_n-41876" RBN_matching_relation="near_equivalence">
+    <definition>van de werkweek</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="vrijdag" order="1"/>
+  </lexUnit>
+  <lexUnit ID="139" POS="N" cBy="automatic" cDate="08/19/2020 07:02:53 UTC Wed" lemmaID="139" name="zaterdag.n" status="Created" FN_EN_LU_ID="4000" Method="Iteration-1" RBN_LU_ID="r_n-43820" RBN_matching_relation="near_equivalence">
+    <definition>van de week, de eerste dag van het weekend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="zaterdag" order="1"/>
+  </lexUnit>
+  <lexUnit ID="140" POS="N" cBy="automatic" cDate="08/19/2020 07:02:57 UTC Wed" lemmaID="140" name="schemering.n" status="Created" FN_EN_LU_ID="4061" Method="Iteration-1" RBN_LU_ID="r_n-32883" RBN_matching_relation="near_equivalence">
+    <definition>waarin het halfdonker is omdat de zon nog niet helemaal op of onder is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="schemering" order="1"/>
+  </lexUnit>
+  <lexUnit ID="141" POS="N" cBy="automatic" cDate="08/19/2020 07:03:00 UTC Wed" lemmaID="141" name="januari.n" status="Created" FN_EN_LU_ID="4643" Method="Iteration-1" RBN_LU_ID="r_n-18433" RBN_matching_relation="near_equivalence">
+    <definition>van het jaar, ook wel 'louwmaand' genoemd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="januari" order="1"/>
+  </lexUnit>
+  <lexUnit ID="142" POS="N" cBy="automatic" cDate="08/19/2020 07:03:04 UTC Wed" lemmaID="142" name="februari.n" status="Created" FN_EN_LU_ID="4644" Method="Iteration-1" RBN_LU_ID="r_n-13081" RBN_matching_relation="near_equivalence">
+    <definition>van het jaar, ook wel 'sprokkelmaand' genoemd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="februari" order="1"/>
+  </lexUnit>
+  <lexUnit ID="143" POS="N" cBy="automatic" cDate="08/19/2020 07:03:07 UTC Wed" lemmaID="143" name="april.n" status="Created" FN_EN_LU_ID="4646" Method="Iteration-1" RBN_LU_ID="r_n-3769" RBN_matching_relation="near_equivalence">
+    <definition>van het jaar, ook wel 'grasmaand' genoemd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="april" order="1"/>
+  </lexUnit>
+  <lexUnit ID="144" POS="N" cBy="automatic" cDate="08/19/2020 07:03:10 UTC Wed" lemmaID="144" name="juni.n" status="Created" FN_EN_LU_ID="4648" Method="Iteration-1" RBN_LU_ID="r_n-18643" RBN_matching_relation="near_equivalence">
+    <definition>van het jaar, ook wel 'zomermaand' genoemd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="juni" order="1"/>
+  </lexUnit>
+  <lexUnit ID="145" POS="N" cBy="automatic" cDate="08/19/2020 07:03:15 UTC Wed" lemmaID="145" name="juli.n" status="Created" FN_EN_LU_ID="4649" Method="Iteration-1" RBN_LU_ID="r_n-18633" RBN_matching_relation="near_equivalence">
+    <definition>van het jaar, ook wel 'hooimaand' genoemd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="juli" order="1"/>
+  </lexUnit>
+  <lexUnit ID="146" POS="N" cBy="automatic" cDate="08/19/2020 07:03:19 UTC Wed" lemmaID="146" name="augustus.n" status="Created" FN_EN_LU_ID="4650" Method="Iteration-1" RBN_LU_ID="r_n-4161" RBN_matching_relation="near_equivalence">
+    <definition>van het jaar, ook wel 'oogstmaand' genoemd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="augustus" order="1"/>
+  </lexUnit>
+  <lexUnit ID="147" POS="N" cBy="automatic" cDate="08/19/2020 07:03:22 UTC Wed" lemmaID="147" name="september.n" status="Created" FN_EN_LU_ID="4651" Method="Iteration-1" RBN_LU_ID="r_n-33583" RBN_matching_relation="near_equivalence">
+    <definition>van het jaar, ook wel 'herfstmaand' genoemd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="september" order="1"/>
+  </lexUnit>
+  <lexUnit ID="148" POS="N" cBy="automatic" cDate="08/19/2020 07:03:26 UTC Wed" lemmaID="148" name="oktober.n" status="Created" FN_EN_LU_ID="4652" Method="Iteration-1" RBN_LU_ID="r_n-25589" RBN_matching_relation="near_equivalence">
+    <definition>van het jaar, ook wel 'wijnmaand' genoemd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="oktober" order="1"/>
+  </lexUnit>
+  <lexUnit ID="149" POS="N" cBy="automatic" cDate="08/19/2020 07:03:31 UTC Wed" lemmaID="149" name="november.n" status="Created" FN_EN_LU_ID="4653" Method="Iteration-1" RBN_LU_ID="r_n-25356" RBN_matching_relation="near_equivalence">
+    <definition>van het jaar, ook wel 'slachtmaand' genoemd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="november" order="1"/>
+  </lexUnit>
+  <lexUnit ID="150" POS="N" cBy="automatic" cDate="08/19/2020 07:03:35 UTC Wed" lemmaID="150" name="december.n" status="Created" FN_EN_LU_ID="4654" Method="Iteration-1" RBN_LU_ID="r_n-10483" RBN_matching_relation="near_equivalence">
+    <definition>van het jaar, ook wel 'wintermaand' genoemd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="december" order="1"/>
+  </lexUnit>
+  <lexUnit ID="151" POS="N" cBy="automatic" cDate="08/19/2020 07:03:41 UTC Wed" lemmaID="151" name="winter.n" status="Created" FN_EN_LU_ID="5138" Method="Iteration-1" RBN_LU_ID="r_n-43334" RBN_matching_relation="near_equivalence">
+    <definition>op het noordelijk halfrond van 21 december tot 20 maart</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="winter" order="1"/>
+  </lexUnit>
+  <lexUnit ID="152" POS="N" cBy="automatic" cDate="08/19/2020 07:03:46 UTC Wed" lemmaID="152" name="herfst.n" status="Created" FN_EN_LU_ID="5185" Method="Iteration-1" RBN_LU_ID="r_n-16683" RBN_matching_relation="near_equivalence">
+    <definition>tussen zomer en winter, waarin het kouder wordt en de bladeren van de bomen vallen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="herfst" order="1"/>
+  </lexUnit>
+</frame>

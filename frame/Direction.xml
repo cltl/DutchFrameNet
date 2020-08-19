@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="08/24/2001 01:04:23 PDT Fri" name="Direction" ID="215" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame covers the basic uses of direction words like the adverbs east, up, and forward.  These are used either to talk about a direction of facing (e.g., facing outward, pointing left, looking downward, turn east) or to talk about actual or metaphorical motion (went up, traveling due north).  Lexical units of this frame typically have a semantic type that refers to the means of determining the direction (e.g. forward.adv has the semantic type Landmark_front, meaning that "forward" is defined with respect to the direction from the center of some entity to its front, however defined).  Nevertheless, some words like way.n are used exactly when normal means of specifying direction are not available.
+
+This frame is most frequently used to describe the motion of something along the &lt;fen&gt;Path&lt;/fen&gt; from the &lt;fen&gt;Landmark&lt;/fen&gt;, which is normally implicitly identified as the location of the viewpoint:  
+
+&lt;ex&gt;We went &lt;t&gt;&lt;fex name="Path"&gt;north&lt;/fex&gt;&lt;/t&gt; . &lt;fex name="Landmark"&gt;DNI&lt;/fex&gt;&lt;/ex&gt;
+
+In such cases, a &lt;fen&gt;Distance&lt;/fen&gt; from the &lt;fen&gt;Landmark&lt;/fen&gt; can also be given:
+
+&lt;ex&gt;After she was knocked on the head , it seemed like everything had moved &lt;fex name="Distance"&gt;three feet&lt;/fex&gt; &lt;m&gt;to&lt;/m&gt; the &lt;t&gt;left&lt;/t&gt; . &lt;fex name="Landmark"&gt;DNI&lt;/fex&gt;&lt;/ex&gt;
+
+It can often be used for direction of facing, which is not compatible with the &lt;fen&gt;Distance&lt;/fen&gt; frame element:
+
+&lt;ex&gt;Look &lt;t&gt;&lt;fex name="Path"&gt;left&lt;/fex&gt;&lt;/t&gt; and you 'll see it . &lt;fex name="Landmark"&gt;DNI&lt;/fex&gt; &lt;/ex&gt;
+
+Although rare for certain lexical units (e.g., upward.adv), most words in this frame are commonly used in a fictive motion pattern to identify locations that can be reached by moving in the indicated way from the &lt;fen&gt;Landmark&lt;/fen&gt;:
+
+&lt;ex&gt;The book was unreachable, &lt;fex name="Distance"&gt;10 feet&lt;/fex&gt; &lt;t&gt;&lt;fex name="Path"&gt;up&lt;/fex&gt;&lt;/t&gt; on the shelf. &lt;fex name="Landmark"&gt;DNI&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Path"&gt;&lt;t&gt;East&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Landmark"&gt;of Mt. Diablo&lt;/fex&gt; the Sierras rise majestically above the Central Valley.&lt;/ex&gt; 
+&lt;ex&gt;&lt;/ex&gt;
+
+In this fictive motion case, the &lt;fen&gt;Domain&lt;/fen&gt; and the &lt;fen&gt;Independent_variable&lt;/fen&gt; are both spatial, and should be marked as metaphorical.
+
+Note this differs from members of the Directional_locative_relation frame (e.g., above.prep), which can only be used for relative static positions, and not for facings or for directions of motion:
+
+&lt;ex&gt;??? The book faced &lt;t&gt;above&lt;/t&gt; the door .&lt;/ex&gt;
+vs.
+&lt;ex&gt;The book faced &lt;t&gt;upward&lt;/t&gt; .&lt;/ex&gt;
+
+A potential point of confusion is that the Directional_locative_relation frame is also used for cases in which adverbs like east.adv, etc. are followed by "of", since such expressions can only be used of static relative positions and not facings:
+
+&lt;ex&gt;??? I faced &lt;t&gt;east&lt;/t&gt; of the mountains .&lt;/ex&gt;
+
+Another potential point of confusion is that nouns referring to directions can be used for facings if they are preceeded by the word "to".  Since this use of to.prep can be found with a broader class of words like side.n, we interpret this sense of to.prep as mapping relative postitions (belonging to the Directional_locative_relation frame) to true Directions, in the sense of this frame.  This applies to expressions like "to the east", as well as "to both sides" and "to the rear".  In the future, we may add these as multi-word members of the frame.
+
+In the following case, the &lt;fen&gt;Domain&lt;/fen&gt; is "potency" and the &lt;fen&gt;Independent_variable&lt;/fen&gt; is, as usual, time; again, the example should be marked as metaphorical.
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;They decided to rerate the medication &lt;t&gt;downward&lt;/t&gt; &lt;fex name="Domain"&gt;in potency&lt;/fex&gt; .&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+
+In mathematical terms, all of these uses can be understood as a &lt;fen&gt;Path&lt;/fen&gt;, made up of a set of positions in some N-space &lt;fen&gt;Domain&lt;/fen&gt; (by default spatial, or metaphorically, other domains), being determined as a function of a &lt;fen&gt;Landmark&lt;/fen&gt; (which may be incorporated and is usually implicit) and some one-dimensional &lt;fen&gt;Independent_variable&lt;/fen&gt; (time, or, metaphorically, other domains).  The &lt;fen&gt;Domain&lt;/fen&gt; and/or the &lt;fen&gt;Independent_variable&lt;/fen&gt; are normally incorporated in the basic definition of the target; thus, for example, up.adv, by default, indicates the &lt;fen&gt;Domain&lt;/fen&gt; is space, and time is the &lt;fen&gt;Independent_variable&lt;/fen&gt;. From a linguistic point of view, we consider these literal spatio-temporal uses to be basic, and other cases, where space is replaced by some other kind of quantity, is to be understood as metaphorical.&lt;/def-root&gt;</definition>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/03/2002 07:12:26 PDT Tue" abbrev="Bse" name="Landmark" ID="3689">
+    <definition>&lt;def-root&gt;The point of reference from which the rest of the &lt;fen&gt;Path&lt;/fen&gt; is reckoned.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="09/03/2002 07:13:22 PDT Tue" abbrev="Path" name="Path" ID="3690">
+    <definition>&lt;def-root&gt;The one-dimensional set of locations.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="09/03/2002 07:19:30 PDT Tue" abbrev="Dom" name="Domain" ID="3691">
+    <definition>&lt;def-root&gt;The kind of space in which the set of points of the &lt;fen&gt;Path&lt;/fen&gt; is defined.
+&lt;ex&gt;Let us progess a bit &lt;t&gt;forward&lt;/t&gt; &lt;fex name="Dom"&gt;in time&lt;/fex&gt; to the Napoleonic wars.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="000000" coreType="Extra-Thematic" cBy="MJE" cDate="09/03/2002 07:24:14 PDT Tue" abbrev="Ind" name="Independent_variable" ID="3692">
+    <definition>&lt;def-root&gt;The one-dimensional variable with respect to which the positions on the &lt;fen&gt;Path&lt;/fen&gt; are reckoned.  For normal motion, the positions on the &lt;fen&gt;Path&lt;/fen&gt; are with respect to time, while for directions of facing, the positions are merely reckoned with respect to another spatial dimension, the distance from the &lt;fen&gt;Landmark&lt;/fen&gt; in the specified direction.  As these features are the default, literal interpretation of targets of this frame, this frame element is only to be used for metaphorical examples like the following:
+
+&lt;ex&gt;As public spending goes &lt;t&gt;up&lt;/t&gt; &lt;fex name="Independent_variable"&gt;in scale&lt;/fex&gt; , this logic no longer makes sense .&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="07/25/2007 12:41:42 PDT Wed" abbrev="" name="Distance" ID="11940">
+    <definition>&lt;def-root&gt;How much movement in the stated direction along the &lt;fen&gt;Path&lt;/fen&gt; from the &lt;fen&gt;Landmark&lt;/fen&gt; there has been.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="379">Time_vector</relatedFrame>
+    <relatedFrame ID="1653">Change_direction</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="2912">Directional_locative_relation</relatedFrame>
+  </frameRelation>
+</frame>

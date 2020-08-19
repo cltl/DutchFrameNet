@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="04/15/2002 05:51:21 PDT Mon" name="Being_attached" ID="307" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Item&lt;/fen&gt; is attached by a &lt;fen&gt;Handle&lt;/fen&gt;, via a &lt;fen&gt;Connector&lt;/fen&gt;, to a &lt;fen&gt;Goal&lt;/fen&gt;, or &lt;fen&gt;Items&lt;/fen&gt; are attached to each other.  There may be a &lt;fen&gt;Dependent_state&lt;/fen&gt;, which depends crucially on &lt;fen&gt;Item&lt;/fen&gt;(s) being attached.
+
+&lt;ex&gt;&lt;fex name="Item"&gt;My thumb&lt;/fex&gt; &lt;m&gt;was&lt;/m&gt; &lt;t&gt;stuck&lt;/t&gt; &lt;fex name="Goal"&gt;to the tube of glue&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Items"&gt;The prisoner's legs&lt;/fex&gt; were &lt;t&gt;shackled&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="04/15/2002 05:51:55 PDT Mon" abbrev="Conn" name="Connector" ID="2629">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Connector&lt;/fen&gt; identifies the instrument used to attach and is usually expressed in a &lt;ment&gt;with&lt;/ment&gt;-PP.
+
+&lt;ex&gt;The tarp is  &lt;t&gt;tied&lt;/t&gt; down &lt;fex name="Conn"&gt;with a rope&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="04/15/2002 05:51:55 PDT Mon" abbrev="Handle" name="Handle" ID="2630">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Handle&lt;/fen&gt; identifies the point of attachment on the &lt;fen&gt;Item&lt;/fen&gt;.
+
+&lt;ex&gt;Harry was &lt;t&gt;tied&lt;/t&gt; &lt;fex name="Handle"&gt;by the neck&lt;/fex&gt; to the tree.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="04/15/2002 05:51:55 PDT Mon" abbrev="Item" name="Item" ID="2631">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Item&lt;/fen&gt; identifies the entity that comes to be attached to the &lt;fen&gt;Goal&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Item"&gt;A handle&lt;/fex&gt;  was &lt;t&gt;affixed&lt;/t&gt; to the door.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <requiresFE name="Goal" ID="2633"/>
+    <excludesFE name="Items" ID="2632"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="04/15/2002 05:51:55 PDT Mon" abbrev="Items" name="Items" ID="2632">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Items&lt;/fen&gt; identifies the plural items that are tied together, resulting in their mutual attachment.
+
+&lt;ex&gt;&lt;fex name="Items"&gt;The boats&lt;/fex&gt; remained &lt;t&gt;tied&lt;/t&gt; together.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="04/15/2002 05:51:55 PDT Mon" abbrev="Goal" name="Goal" ID="2633">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Goal&lt;/fen&gt; identifies the location to which the &lt;fen&gt;Item&lt;/fen&gt;(s) is attached.
+
+&lt;ex&gt;The boat remained &lt;t&gt;anchored&lt;/t&gt; &lt;fex name="Goal"&gt;to the coastline&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Goal" ID="153"/>
+    <requiresFE name="Item" ID="2631"/>
+    <excludesFE name="Items" ID="2632"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="04/16/2002 11:17:41 PDT Tue" abbrev="State" name="Dependent_state" ID="2634">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Dependent_state&lt;/fen&gt; identifies the state of the &lt;fen&gt;Item&lt;/fen&gt; or &lt;fen&gt;Items&lt;/fen&gt; which depends on the existence of the attachment.  &lt;ex&gt;The tarp is &lt;t&gt;tied&lt;/t&gt; &lt;fex name="State"&gt;down&lt;/fex&gt; with a cord.&lt;/ex&gt; &lt;ex&gt;Harry's hands are &lt;t&gt;tied&lt;/t&gt; &lt;fex name="State"&gt;down&lt;/fex&gt;with cords.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MRLP" cDate="03/15/2004 12:27:19 PST Mon" abbrev="Mnr" name="Manner" ID="6150">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Manner&lt;/fen&gt; in which an &lt;fen&gt;Item&lt;/fen&gt; is in an attached state to a &lt;fen&gt;Goal&lt;/fen&gt;, or two &lt;fen&gt;Items&lt;/fen&gt; are attached to each other.
+
+&lt;ex&gt;The tiny stick  was &lt;t&gt;fastened&lt;/t&gt; &lt;fex name="Manner"&gt;tightly&lt;/fex&gt; to his wrist.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="9">Reciprocality</relatedFrame>
+    <relatedFrame ID="150">State</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1411">Being_detached</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

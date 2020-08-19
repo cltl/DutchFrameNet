@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/30/2001 10:12:38 PDT Sat" name="Measure_linear_extent" ID="154" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame is concerned with nouns that denote &lt;fen&gt;Unit&lt;/fen&gt;s of measurement for linear extent. The Frame Elements are &lt;fen&gt;Unit&lt;/fen&gt;, &lt;fen&gt;Count&lt;/fen&gt;,  and &lt;fen&gt;Stuff&lt;/fen&gt;.&lt;ex&gt;The shirt is made from &lt;fex name="Count"&gt;12&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;miles&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of pure cotton&lt;/fex&gt;.&lt;/ex&gt;&lt;ex&gt;&lt;fex name="Count"&gt;81&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;miles&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of dyke&lt;/fex&gt; are still visible from this point.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <semType name="Transparent Noun" ID="9"/>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/30/2001 10:12:38 PDT Sat" abbrev="Cou" name="Count" ID="1193">
+    <definition>&lt;def-root&gt;The number of &lt;fen&gt;Unit&lt;/fen&gt;s of the linear extent.&lt;ex&gt;&lt;fex name="Count"&gt;Five&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;miles&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of pipework&lt;/fex&gt; were necessary.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/30/2001 10:12:38 PDT Sat" abbrev="Stu" name="Stuff" ID="1194">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Stuff&lt;/fen&gt; whose linear extent is being measured.&lt;ex&gt;&lt;t&gt;&lt;fex name="Unit"&gt;Miles&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of wiring&lt;/fex&gt; were necessary.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/30/2001 10:12:38 PDT Sat" abbrev="Uni" name="Unit" ID="1195">
+    <definition>&lt;def-root&gt;The standardized quantity in terms of which other quantities of the same kind are  measured.&lt;ex&gt;&lt;t&gt;&lt;fex name="Unit"&gt;Miles&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of telephone cables&lt;/fex&gt; had to be replaced.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="KmG" cDate="07/24/2008 04:39:51 PDT Thu" abbrev="Dim" name="Dimension" ID="13036">
+    <definition>&lt;def-root&gt;This FE marks constituents which express what property is being measured.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1686">Measures</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

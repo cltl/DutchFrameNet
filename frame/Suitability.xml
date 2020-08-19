@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="07/08/2002 05:45:46 PDT Mon" name="Suitability" ID="368" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This Frame is concerned with evaluating an &lt;fen&gt;Evaluee&lt;/fen&gt; as being suitable for a &lt;fen&gt;Purpose&lt;/fen&gt; or a &lt;fen&gt;User&lt;/fen&gt;, presupposing some choice that is being made about which &lt;fen&gt;Evaluee&lt;/fen&gt; to use for the &lt;fen&gt;Purpose&lt;/fen&gt; or &lt;fen&gt;User&lt;/fen&gt;.  An LU like suitable.a thus implies that, given a particular &lt;fen&gt;Purpose&lt;/fen&gt; or &lt;fen&gt;User&lt;/fen&gt;, the &lt;fen&gt;Evaluee&lt;/fen&gt; is one which could be or ought to be chosen.  The &lt;fen&gt;Evaluee&lt;/fen&gt; may be deemed suitable to a greater or lesser &lt;fen&gt;Degree&lt;/fen&gt;. This frame has some similarity to the compatibility frame where two Items are evaluated with respect to their compatibility with each other against some background.
+
+&lt;ex&gt;(1) We need to build &lt;fex name="Evaluee"&gt;more houses&lt;/fex&gt; &lt;t&gt;suitable&lt;/t&gt; &lt;fex name="User"&gt;for local residents&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;(2) &lt;fex name="Evaluee"&gt;These chips&lt;/fex&gt; are not &lt;fex name="Degree"&gt;very&lt;/fex&gt;&lt;t&gt;suitable&lt;/t&gt; &lt;fex name="Purpose"&gt;for parallel processing&lt;/fex&gt;. &lt;/ex&gt;
+&lt;ex&gt;(3) We are not sure about &lt;fex name="Evaluee"&gt;the Cathedral's&lt;/fex&gt; &lt;t&gt;suitability&lt;/t&gt; &lt;fex name="Purpose"&gt;for Philharmonic concerts&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/09/2002 03:08:01 PDT Tue" abbrev="Eva" name="Evaluee" ID="3340">
+    <definition>&lt;def-root&gt;This Frame Element marks constituents expressing the entity that is judged to be more or less suitable for some &lt;fen&gt;Purpose&lt;/fen&gt; or &lt;fen&gt;User&lt;/fen&gt;.
+
+&lt;ex&gt;Being a project leader is not a job for which &lt;fex name="Evaluee"&gt;everybody&lt;/fex&gt; is &lt;t&gt;suited&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="07/09/2002 03:21:40 PDT Tue" abbrev="Deg" name="Degree" ID="3341">
+    <definition>&lt;def-root&gt;This Frame Element marks constituents that express the &lt;fen&gt;Degree&lt;/fen&gt; to which the &lt;fen&gt;Evaluee&lt;/fen&gt; is suitable for the Context.
+
+&lt;ex&gt;Please advise on the &lt;fex name="Degree"&gt;most&lt;/fex&gt; &lt;t&gt;suitable&lt;/t&gt; design &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/09/2002 03:24:56 PDT Tue" abbrev="Pur" name="Purpose" ID="3342">
+    <definition>&lt;def-root&gt;This Frame Element marks constituents that express the &lt;fen&gt;Purpose&lt;/fen&gt; for which the &lt;fen&gt;Evaluee&lt;/fen&gt; is judged to be suitable or unsuitable.
+
+&lt;ex&gt;We need to plan more buildings &lt;t&gt;suitable&lt;/t&gt; &lt;fex name="Purpose"&gt;for disabled people&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/09/2002 04:34:31 PDT Tue" abbrev="User" name="User" ID="3345">
+    <definition>&lt;def-root&gt;This FE marks expressions that indicate a &lt;fen&gt;User&lt;/fen&gt; to whom &lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Purpose" ID="3342"/>
+    <memberFE name="User" ID="3345"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1015">Gradable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="832" POS="A" cBy="automatic" cDate="08/19/2020 07:52:57 UTC Wed" lemmaID="829" name="gepast.a" status="Created" FN_EN_LU_ID="16912" Method="Iteration-1" RBN_LU_ID="r_a-10952" RBN_matching_relation="near_equivalence">
+    <definition>fatsoenlijk</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="gepast" order="1"/>
+  </lexUnit>
+</frame>

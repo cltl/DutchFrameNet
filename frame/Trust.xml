@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="03/30/2006 10:48:24 PST Thu" name="Trust" ID="1731" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; thinks that the &lt;fen&gt;Information&lt;/fen&gt; given by a particular &lt;fen&gt;Source&lt;/fen&gt; is correct.  The specific &lt;fen&gt;Content&lt;/fen&gt; or &lt;fen&gt;Topic&lt;/fen&gt; of the &lt;fen&gt;Information&lt;/fen&gt; may also be described.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Cognizer"&gt;I&lt;/fex&gt; don't &lt;t&gt;trust&lt;/t&gt; &lt;fex name="Information"&gt;this information&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Cognizer"&gt;Nobody&lt;/fex&gt; will &lt;t&gt;believe&lt;/t&gt; &lt;fex name="Source"&gt;you&lt;/fex&gt;, and people will think you're scum.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/30/2006 10:48:24 PST Thu" abbrev="Cognizer" name="Cognizer" ID="10018">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Cognizer&lt;/fen&gt; is the person who has an opinion about the reliability of a &lt;fen&gt;Information_source&lt;/fen&gt; or the &lt;fen&gt;Information&lt;/fen&gt; from the &lt;fen&gt;Information_source&lt;/fen&gt;.
+
+&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/30/2006 10:48:25 PST Thu" abbrev="Topic" name="Topic" ID="10019">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Topic&lt;/fen&gt; is the entity that a &lt;fen&gt;Cognizer&lt;/fen&gt; trusts information about.
+
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/30/2006 10:48:25 PST Thu" abbrev="Content" name="Content" ID="10020">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Content&lt;/fen&gt; denotes the mental content that the &lt;fen&gt;Cognizer&lt;/fen&gt; is certain or uncertain about. 
+
+&lt;/def-root&gt;</definition>
+    <semType name="Content" ID="55"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/30/2006 10:48:25 PST Thu" abbrev="Degr" name="Degree" ID="10021">
+    <definition>&lt;def-root&gt;This FE indicates the &lt;fen&gt;Degree&lt;/fen&gt; to which the &lt;fen&gt;Cognizer&lt;/fen&gt; trusts the Source.
+&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/30/2006 10:48:25 PST Thu" abbrev="Manr" name="Manner" ID="10022">
+    <definition>&lt;def-root&gt;A description of an aspect of the &lt;fen&gt;Cognizer&lt;/fen&gt; that also affects the nature of the trusting, or a general comparison of the state-of-affairs to others.
+
+&lt;ex&gt;She &lt;fex name="Manner"&gt;foolishly&lt;/fex&gt; &lt;t&gt;believed&lt;/t&gt; him .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/30/2006 10:48:25 PST Thu" abbrev="Exr" name="Expressor" ID="10023">
+    <definition>&lt;def-root&gt;An object or action associated with the &lt;fen&gt;Cognizer&lt;/fen&gt; which is so affected by the &lt;fen&gt;Cognizer&lt;/fen&gt;'s belief that it reveals the &lt;fen&gt;Cognizer&lt;/fen&gt;'s state.
+
+&lt;ex&gt;Her &lt;t&gt;trustworthy&lt;/t&gt; &lt;fex name="Expressor"&gt;eyes&lt;/fex&gt; revealed that I was in no danger.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/30/2006 11:41:29 PST Thu" abbrev="sou" name="Information_source" ID="10034">
+    <definition>&lt;def-root&gt;The individual that gives Information to the &lt;fen&gt;Cognizer&lt;/fen&gt;.
+
+&lt;ex&gt;Why should we &lt;t&gt;believe&lt;/t&gt; &lt;fex name="sou"&gt;him&lt;/fex&gt; ?&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/30/2006 11:46:15 PST Thu" abbrev="inf" name="Information" ID="10035">
+    <definition>&lt;def-root&gt;The text or speech which the &lt;fen&gt;Cognizer&lt;/fen&gt; has heard and evaluates the truth of.
+
+&lt;ex&gt;America &lt;t&gt;trusted&lt;/t&gt; &lt;fex name="inf"&gt;his declaration&lt;/fex&gt; , to their detriment .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Expressor" ID="10023"/>
+    <memberFE name="Cognizer" ID="10018"/>
+  </FEcoreSet>
+  <FEcoreSet>
+    <memberFE name="Information" ID="10035"/>
+    <memberFE name="Information_source" ID="10034"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="141">Certainty</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="867" POS="N" cBy="automatic" cDate="08/19/2020 07:55:43 UTC Wed" lemmaID="864" name="betrouwbaarheid.n" status="Created" FN_EN_LU_ID="13171" Method="Iteration-1" RBN_LU_ID="r_n-7000" RBN_matching_relation="near_equivalence">
+    <definition>waarin iets of iemand te vertrouwen of geloofwaardig is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="betrouwbaarheid" order="1"/>
+  </lexUnit>
+</frame>
