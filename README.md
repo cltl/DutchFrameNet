@@ -22,6 +22,7 @@ If you have edited the lexicon, you can update this repository in the following 
 * provided you used a JSON file to add a batch of LUs, you can add this to **res/json**
 * please describe what has been changed in a new file in **doc**
 * please add descriptive statistics about your release in **res/descriptive_statistics**.
+* create a release on GitHub and update **index.md**.
 
 ## Authors
 * **Marten Postma** (m.c.postma@vu.nl)
