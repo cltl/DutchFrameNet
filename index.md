@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+# Dutch FrameNet
 
-You can use the [editor on GitHub](https://github.com/cltl/DutchFrameNet/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This repository contains the Dutch FrameNet lexicon.
+We use https://github.com/cltl/FrameNetNLTK to load and edit the lexicon.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Versions
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cltl/DutchFrameNet/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+| Version  | Download link  | Documentation  | Descriptive statistics  | input JSON |
+|---|---|---|---|---|
+|  0.1 | [link](https://github.com/cltl/DutchFrameNet/archive/v0.1.zip)  | [doc](https://github.com/cltl/DutchFrameNet/blob/master/doc/Iterations%201%20and%202.md)  | [stats](https://htmlpreview.github.io/?https://github.com/cltl/DutchFrameNet/blob/master/res/descriptive_statistics/iterations_1_2.html) | [JSON](https://github.com/cltl/DutchFrameNet/blob/master/res/json/iterations_1_2.json) |
