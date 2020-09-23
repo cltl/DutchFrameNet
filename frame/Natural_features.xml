@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="07/31/2001 05:50:15 PDT Tue" name="Natural_features" ID="191" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;The &lt;fen&gt;Locale&lt;/fen&gt; is a geographical location as defined by shape.  This frame includes natural geographic features, including land/ice forms and bodies of water.
+
+&lt;ex&gt; We climbed up the &lt;fex name="Constituent_parts"&gt;rock&lt;/fex&gt; &lt;fex name="Locale"&gt;&lt;t&gt;cliff&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/10/2001 04:59:52 PDT Fri" abbrev="Cnst" name="Constituent_parts" ID="1570">
+    <definition>&lt;def-root&gt;Salient parts of the  &lt;fen&gt;Locale&lt;/fen&gt;.  &lt;ex&gt;We drove through a &lt;fex name="Constituent_parts"&gt;mossy&lt;/fex&gt; &lt;t&gt;dell&lt;/t&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/10/2001 04:59:52 PDT Fri" abbrev="ContP" name="Container_possessor" ID="1571">
+    <definition>&lt;def-root&gt;The location that the &lt;fen&gt;Locale&lt;/fen&gt; is a part of.
+&lt;ex&gt;John spent several years wandering the &lt;fex name="Locale"&gt;&lt;t&gt;mountains&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Container_possessor"&gt;of Romania&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/10/2001 04:59:52 PDT Fri" abbrev="FormC" name="Formational_cause" ID="1572">
+    <definition>&lt;def-root&gt;Indicates the action (or causer) which brings the features of the Locale about.
+&lt;ex&gt; There is a &lt;fex name="Formational_cause"&gt;glacial&lt;/fex&gt; &lt;fex name="Locale"&gt;valley&lt;/fex&gt; near here.&lt;/ex&gt;&lt;ex&gt; There is a &lt;fex name="Formational_cause"&gt;impact&lt;/fex&gt; &lt;fex name="Locale"&gt;valley&lt;/fex&gt; near here.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="08/10/2001 04:59:52 PDT Fri" abbrev="Lcl" name="Locale" ID="1573">
+    <definition>&lt;def-root&gt;A stable bounded area.  It is typically the designation of the nouns of Locale-derived frames.
+
+&lt;/def-root&gt;</definition>
+    <semType name="Location" ID="54"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/13/2001 11:29:42 PDT Mon" abbrev="Name" name="Name" ID="1596">
+    <definition>&lt;def-root&gt;  This FE is used for the &lt;fen&gt;Name&lt;/fen&gt;s of &lt;fen&gt;Locale&lt;/fen&gt;s.  &lt;ex&gt;&lt;fex name="Locale"&gt;&lt;t&gt;Lake&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Name"&gt;Constance&lt;/fex&gt;&lt;/ex&gt; &lt;ex&gt;&lt;fex name="Name"&gt;Pike's&lt;/fex&gt; &lt;fex name="Locale"&gt;&lt;t&gt;Peak&lt;/t&gt;&lt;/fex&gt;&lt;/ex&gt; &lt;ex&gt;The &lt;fex name="Name"&gt;Indonesian&lt;/fex&gt; &lt;fex name="Locale"&gt;&lt;t&gt;archipelago&lt;/t&gt;&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/13/2001 11:52:55 PDT Mon" abbrev="RelLoc" name="Relative_location" ID="1601">
+    <definition>&lt;def-root&gt;A place that a &lt;fen&gt;Locale&lt;/fen&gt; is located with respect to.
+
+&lt;ex&gt;All the &lt;fex name="Locale"&gt;&lt;t&gt;mountains&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Relative_location"&gt;in America&lt;/fex&gt; are small.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="08/12/2002 11:44:55 PDT Mon" abbrev="Type" name="Type" ID="3533">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Type&lt;/fen&gt; is the subtype of natural feature. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="09/28/2004 12:38:29 PDT Tue" abbrev="des" name="Descriptor" ID="7153">
+    <definition>&lt;def-root&gt;Any description, characteristic, or property of the &lt;fen&gt;Locale&lt;/fen&gt; which is not covered by more specific FEs.
+
+&lt;ex&gt;That 's a long way down on such a &lt;fex name="des"&gt;steep&lt;/fex&gt; &lt;t&gt;cliff&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="192">Locale</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="1490">Relational_natural_features</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600873410931" POS="N" cBy="automatic" cDate="09/23/2020 15:03:30 UTC Wed" lemmaID="587" lu_type="singleton" name="vijver.n" status="Created" FN_EN_LU_ID="3412" Method="Iteration-1" RBN_LU_ID="r_n-40878" RBN_matching_relation="near_equivalence">
+    <definition>van relatief kleine omvang in een tuin of park, al dan niet natuurlijk ontstaan</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="vijver" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873414183" POS="N" cBy="automatic" cDate="09/23/2020 15:03:34 UTC Wed" lemmaID="588" lu_type="singleton" name="rivier.n" status="Created" FN_EN_LU_ID="3497" Method="Iteration-1" RBN_LU_ID="r_n-31801" RBN_matching_relation="near_equivalence">
+    <definition>van natuurlijke aard, die vrij breed is en uitmondt in zee of in een andere rivier</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="rivier" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873417256" POS="N" cBy="automatic" cDate="09/23/2020 15:03:37 UTC Wed" lemmaID="589" lu_type="singleton" name="archipel.n" status="Created" FN_EN_LU_ID="3505" Method="Iteration-1" RBN_LU_ID="r_n-3877" RBN_matching_relation="near_equivalence">
+    <definition>eilanden die dicht bij elkaar liggen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="archipel" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873420385" POS="N" cBy="automatic" cDate="09/23/2020 15:03:40 UTC Wed" lemmaID="590" lu_type="singleton" name="gletsjer.n" status="Created" FN_EN_LU_ID="3507" Method="Iteration-1" RBN_LU_ID="r_n-15287" RBN_matching_relation="near_equivalence">
+    <definition>op een berghelling, die door zijn zwaarte uiterst langzaam naar beneden glijdt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="gletsjer" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873423520" POS="N" cBy="automatic" cDate="09/23/2020 15:03:43 UTC Wed" lemmaID="591" lu_type="singleton" name="klip.n" status="Created" FN_EN_LU_ID="3513" Method="Iteration-1" RBN_LU_ID="r_n-19854" RBN_matching_relation="near_equivalence">
+    <definition>in zee</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="klip" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873426636" POS="N" cBy="automatic" cDate="09/23/2020 15:03:46 UTC Wed" lemmaID="592" lu_type="singleton" name="grot.n" status="Created" FN_EN_LU_ID="3517" Method="Iteration-1" RBN_LU_ID="r_n-15942" RBN_matching_relation="near_equivalence">
+    <definition>dat op natuurlijke wijze in de ondergrond is gevormd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="grot" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873429927" POS="N" cBy="automatic" cDate="09/23/2020 15:03:49 UTC Wed" lemmaID="593" lu_type="singleton" name="beek.n" status="Created" FN_EN_LU_ID="3526" Method="Iteration-1" RBN_LU_ID="r_n-6219" RBN_matching_relation="near_equivalence">
+    <definition>dat smal en ondiep is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="beek" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873433034" POS="N" cBy="automatic" cDate="09/23/2020 15:03:53 UTC Wed" lemmaID="594" lu_type="singleton" name="atol.n" status="Created" FN_EN_LU_ID="3527" Method="Iteration-1" RBN_LU_ID="r_n-4120" RBN_matching_relation="near_equivalence">
+    <definition>met een ringvorm</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="atol" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873436170" POS="N" cBy="automatic" cDate="09/23/2020 15:03:56 UTC Wed" lemmaID="595" lu_type="singleton" name="schol.n" status="Created" FN_EN_LU_ID="3528" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-33098" RBN_matching_relation="near_equivalence">
+    <definition>ijs</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="schol" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873439356" POS="N" cBy="manual" cDate="09/23/2020 15:03:59 UTC Wed" lemmaID="596" lu_type="singleton" name="massief.n" status="Created" FN_EN_LU_ID="3530" Method="Iteration-1" RBN_LU_ID="r_n-23318" RBN_matching_relation="equivalence">
+    <definition>dat lang geleden gevormd is en waarvan de toppen zijn afgesleten</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="massief" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873442734" POS="N" cBy="automatic" cDate="09/23/2020 15:04:02 UTC Wed" lemmaID="597" lu_type="singleton" name="ravijn.n" status="Created" FN_EN_LU_ID="3581" Method="Iteration-1" RBN_LU_ID="r_n-30585" RBN_matching_relation="near_equivalence">
+    <definition>in de aardbodem, dat lang en heel erg diep is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="ravijn" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873445847" POS="N" cBy="automatic" cDate="09/23/2020 15:04:05 UTC Wed" lemmaID="598" lu_type="singleton" name="lagune.n" status="Created" FN_EN_LU_ID="3624" Method="Iteration-1" RBN_LU_ID="r_n-21242" RBN_matching_relation="near_equivalence">
+    <definition>dat door een lange, smalle landtong van de zee gescheiden is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="lagune" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873449149" POS="N" cBy="automatic" cDate="09/23/2020 15:04:09 UTC Wed" lemmaID="599" lu_type="singleton" name="strand.n" status="Created" FN_EN_LU_ID="7658" Method="Iteration-1" RBN_LU_ID="r_n-36203" RBN_matching_relation="near_equivalence">
+    <definition>kiezel- of zandgrond dicht langs de zee of een binnenwater</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="strand" order="1"/>
+  </lexUnit>
+</frame>

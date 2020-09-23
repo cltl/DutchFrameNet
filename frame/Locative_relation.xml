@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="08/14/2001 06:42:32 PDT Tue" name="Locative_relation" ID="199" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Figure&lt;/fen&gt; is located relative to a &lt;fen&gt;Ground&lt;/fen&gt; location.  
+
+&lt;ex&gt;&lt;fex name="Fig"&gt;The cat&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;t&gt;on&lt;/t&gt; &lt;fex name="Grnd"&gt;the mat&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Figure"&gt;The kitchen, with its breakfast / snack bar,&lt;/fex&gt; &lt;t&gt;adjoins&lt;/t&gt; on one side while the dining area adjoins on the other side. &lt;fex name="Ground"&gt;DNI&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Fig"&gt;The president's plane landed&lt;/fex&gt; &lt;t&gt;in&lt;/t&gt; &lt;fex name="Ground"&gt;Washington&lt;/fex&gt;.&lt;/ex&gt;
+
+This frame is used for LUs that do not belong in daughter frames, either because they are too general to have any particular image schema associated with them (e.g., &lt;ment&gt;here.adv&lt;/ment&gt;), or because we do not (yet) have a specific frame with the correct image schema (e.g., &lt;ment&gt;inland.a&lt;/ment&gt;).
+
+Prepositions, adverbs, and spatial adjectives that act as targets in this frame and its descendants cooccur with a number of constructions that may supply extra information and should be annotated as extrathematic frame elements.  The location of the &lt;fen&gt;Figure&lt;/fen&gt; may be further specified by its &lt;fen&gt;Distance&lt;/fen&gt; from the &lt;fen&gt;Ground&lt;/fen&gt; along a vector implied by the targets image schema, or the &lt;fen&gt;Direction&lt;/fen&gt; in which the &lt;fen&gt;Figure&lt;/fen&gt; lies from a reference location (generally, the deictic center).  In cases where both seem to cooccur, the &lt;fen&gt;Distance&lt;/fen&gt; actually modifies the &lt;fen&gt;Direction&lt;/fen&gt;, as seen in the following example:
+
+&lt;ex&gt;&lt;fex name="Figure"&gt;This pup&lt;/fex&gt; was lying abandoned, &lt;fex name="Direction"&gt;350 feet down&lt;/fex&gt; &lt;t&gt;at&lt;/t&gt; &lt;fex name="Ground"&gt;the bottom of an Arizona canyon&lt;/fex&gt;.&lt;/ex&gt;
+
+There is no sense in which the &lt;fen&gt;Distance&lt;/fen&gt; is measured using the schema for at.prep ('350 feet at the bottom of the canyon' doesn't mean the right thing at all); rather the distance is measured using the schema for down.adv, and is thus considered a modifier of the &lt;fen&gt;Direction&lt;/fen&gt; FE.
+
+In some very specific situations, prepositions, adjectives, and nouns can be used with a copula to describe the whole &lt;fen&gt;Profiled_region&lt;/fen&gt; where a &lt;fen&gt;Figure&lt;/fen&gt; is or could be, as in the following:
+
+&lt;ex&gt;&lt;t&gt;&lt;fex name="Profiled_region"&gt;Inside&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Ground"&gt;my wallet&lt;/fex&gt; is where I put it .&lt;/ex&gt;
+&lt;ex&gt;&lt;t&gt;&lt;fex name="Profiled_region"&gt;Outside&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Ground"&gt;your blind date's door&lt;/fex&gt; seems like the worst place in the world .&lt;/ex&gt;
+
+
+&lt;/def-root&gt;</definition>
+  <semType name="Locative_relation" ID="182"/>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="08/14/2001 06:50:27 PDT Tue" abbrev="Grnd" name="Ground" ID="1621">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Ground&lt;/fen&gt; serves as a basis for describing the location of the &lt;fen&gt;Figure&lt;/fen&gt;.
+
+&lt;ex&gt;The cat is &lt;t&gt;on&lt;/t&gt; &lt;fex name="Grnd"&gt;the mat&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Figures" ID="10107"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="08/14/2001 07:00:06 PDT Tue" abbrev="Fig" name="Figure" ID="1622">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Figure&lt;/fen&gt; is perceived as located relative to a certain &lt;fen&gt;Ground&lt;/fen&gt; location. The figure can be an entity or an event.
+
+&lt;ex&gt;&lt;fex name="Fig"&gt;The cat&lt;/fex&gt; is &lt;t&gt;on&lt;/t&gt; the mat.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    <excludesFE name="Figures" ID="10107"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="07/24/2002 03:01:39 PDT Wed" abbrev="Dist" name="Distance" ID="3401">
+    <definition>&lt;def-root&gt;This  FE identifies the  &lt;fen&gt;Distance&lt;/fen&gt; between the &lt;fen&gt;Figure&lt;/fen&gt; and the &lt;fen&gt;Ground&lt;/fen&gt;.  This FE requires an image schema with a vector that extends from the &lt;fen&gt;Ground&lt;/fen&gt;, or a subpart of the &lt;fen&gt;Ground&lt;/fen&gt;, in some direction, and the &lt;fen&gt;Distance&lt;/fen&gt; is measured along this vector from the &lt;fen&gt;Ground&lt;/fen&gt; to the profiled region.    &lt;ex&gt;The climbers are now &lt;fex name="Distance"&gt;2000 feet&lt;/fex&gt; &lt;t&gt;above&lt;/t&gt; the base camp.&lt;/ex&gt; &lt;ex&gt;&lt;fex name="Dist"&gt;Deep&lt;/fex&gt; &lt;t&gt;under&lt;/t&gt; the earth lurk dark things.&lt;/ex&gt;  In cases where the target does not introduce such an image schema, &lt;fen&gt;Distance&lt;/fen&gt; should be annotated as part of the &lt;fen&gt;Direction&lt;/fen&gt; FE that introduces such a vector.  &lt;ex&gt;She found a phone &lt;fex name="Direction"&gt;200 feet up&lt;/fex&gt; &lt;t&gt;on&lt;/t&gt; the radio tower.&lt;/ex&gt;  Note that a number of frequent adverbial targets, e.g. up.adv and down.adv, identify the &lt;fen&gt;Ground&lt;/fen&gt;, with the location of an implicit viewer, so &lt;fen&gt;Distance&lt;/fen&gt; is effectively measured from the viewpoint location in these cases.  &lt;ex&gt;We were already &lt;fex name="Distance"&gt;nearly 1000 meters&lt;/fex&gt; &lt;t&gt;down&lt;/t&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="07/24/2002 03:14:32 PDT Wed" abbrev="Dir" name="Direction" ID="3404">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Direction&lt;/fen&gt; from a reference location (generally, the deictic center) of a path to the &lt;fen&gt;Figure&lt;/fen&gt;.  This FE is filled by one of a closed class of adverbs:  up, down, out (meaning 'beyond the boundary around the viewpoint'), off (meaning 'disconnect between landmark and figure'), back (meaning 'along a line from front to back of landmark, and relatively inaccessible'), and, more rarely, away, along, and dialectally, back down (meaning 'down and behind').
+&lt;ex&gt;The cat is &lt;fex name="Dir"&gt;down&lt;/fex&gt; &lt;t&gt;on&lt;/t&gt; the mat.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="10/14/2005 10:59:54 PDT Fri" abbrev="tim" name="Time" ID="9108">
+    <definition>&lt;def-root&gt;The period of time during which the locative relation between &lt;fen&gt;Figure&lt;/fen&gt; and &lt;fen&gt;Ground&lt;/fen&gt; obtains.
+
+&lt;ex&gt;He was &lt;t&gt;in&lt;/t&gt; Athens &lt;fex name="tim"&gt;on Friday&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core-Unexpressed" cBy="KmG" cDate="05/23/2006 05:09:11 PDT Tue" abbrev="" name="Figures" ID="10107">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Figures&lt;/fen&gt; are items which mutually serve to identify the location of the other items.&lt;/def-root&gt;</definition>
+    <excludesFE name="Profiled_region" ID="16448"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="03/19/2015 12:45:24 PDT Thu" abbrev="" name="Deixis" ID="16311">
+    <definition>&lt;def-root&gt;An indication of how the locative phrase relates to the grounding of the speech situation, either locating it near (here) or far (there, yonder), or specifically separated from the speech context by distance or a barrier (over).  Fillers of this FE are restricted to this closed class of items.
+
+&lt;ex&gt;She has a boyfriend way &lt;fex name="Deixis"&gt;over&lt;/fex&gt; &lt;t&gt;in&lt;/t&gt; Springfield.&lt;/ex&gt;
+&lt;ex&gt;It is lying &lt;fex name="Deixis"&gt;here&lt;/fex&gt; &lt;t&gt;on&lt;/t&gt; my desk.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="03/19/2015 12:49:57 PDT Thu" abbrev="" name="Accessibility" ID="16312">
+    <definition>&lt;def-root&gt;An indication of how accessible the &lt;fen&gt;Figure&lt;/fen&gt; is to some participant in the speech context (either the speaker or the addressee, or some other highly salient viewpoint in a narrative).  This FE normally describes availability for manipulation and use, but may simply describe how easily seen or difficult to see the &lt;fen&gt;Figure&lt;/fen&gt; is. There is a closed class of items that can fill this slot, including only 'just' and 'right' indicating ease of access, and 'way', 'all the way', or (dialectally) 'clear' indicating distance and difficulty of access.  
+
+&lt;ex&gt;Oh yeah , the flashlight 's &lt;fex name="Accessibility"&gt;right&lt;/fex&gt; &lt;t&gt;in&lt;/t&gt; my handbag.&lt;/ex&gt;
+&lt;ex&gt; I had an uncle that lived &lt;fex name="Accessibility"&gt;clear&lt;/fex&gt; over &lt;t&gt;in&lt;/t&gt; Kenmore , and I tried to ride my bike there.&lt;/ex&gt;
+
+While ease of access correlates with proximal deixis (e.g. 'right here') and difficulty correlates with distal deixis (e.g. 'all the way over there'), these notions are separable as shown in the following examples:
+
+&lt;ex&gt;I have two officers &lt;fex name="Accessibility"&gt;right&lt;/fex&gt; over &lt;t&gt;in&lt;/t&gt; the next room.&lt;/ex&gt;
+&lt;ex&gt;You ca n't come &lt;fex name="Accessibility"&gt;way&lt;/fex&gt; out here &lt;t&gt;to&lt;/t&gt; my mom 's!&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A9A9A9" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="03/19/2015 01:29:55 PDT Thu" abbrev="" name="Directness" ID="16313">
+    <definition>&lt;def-root&gt;An indication of how closely the position of &lt;fen&gt;Figure&lt;/fen&gt; matches the prototype expected from the image schema associated with the target.  This FE is normally filled by closed-class, dedicated adverbs like right, straight, directly, and due (and some combinations of these), but also occurs with rarer items like 'smack dab'.
+
+&lt;ex&gt;She put her wallet &lt;fex name="Directness"&gt;straight&lt;/fex&gt; &lt;t&gt;into&lt;/t&gt; the drawer.&lt;/ex&gt;
+&lt;ex&gt;I ran &lt;fex name="Directness"&gt;right straight&lt;/fex&gt; &lt;t&gt;at&lt;/t&gt; the pole.&lt;/ex&gt;
+
+Some general adverbs that indicate exact and non-exact match to an idea can also express this FE:
+&lt;ex&gt;We set our tents up &lt;fex name="Directness"&gt;approximately&lt;/fex&gt; &lt;t&gt;northeast&lt;/t&gt; of here.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="000000" coreType="Extra-Thematic" cBy="MJE" cDate="03/23/2015 11:42:04 PDT Mon" abbrev="" name="Temporal_profile" ID="16318">
+    <definition>&lt;def-root&gt;A description of how the access path to the &lt;fen&gt;Ground&lt;/fen&gt; interacts with time.  This FE is filled only by the closed class of adverbials back.adv (which indicates that the position was occupied by the &lt;fen&gt;Figure&lt;/fen&gt; before) and on.adv (which indicates a continued path).  While this FE in its most basic use refers to cases of actual motion, it can be used with descriptions of static position, in which case it either refers to fictive, imagined motion (as in the first example below), or it backgrounds motion entirely (as in the second example).
+
+&lt;ex&gt;You 'll find it straight &lt;fex name="Temporal_profile"&gt;on&lt;/fex&gt; around &lt;t&gt;behind&lt;/t&gt; the door.&lt;/ex&gt;
+&lt;ex&gt;I do n't know why my kids are &lt;fex name="Temporal_profile"&gt;back&lt;/fex&gt; &lt;t&gt;out&lt;/t&gt; of the crib.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Extra-Thematic" cBy="MJE" cDate="04/16/2015 05:38:04 PDT Thu" abbrev="" name="Region_quantification" ID="16383">
+    <definition>&lt;def-root&gt;A description of how much of a potential profiled region actually has (or is expected to have) a &lt;fen&gt;Figure&lt;/fen&gt; in it.  It is normally filled by closed-class items like 'all', 'somewhere', 'nowhere', etc.
+
+&lt;ex&gt;I think it 's &lt;fex name="Region_quantification"&gt;somewhere&lt;/fex&gt; &lt;t&gt;under&lt;/t&gt; the truck .&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Region_quantification"&gt;All&lt;/fex&gt; &lt;t&gt;along&lt;/t&gt; the watchtowers, princes kept the view pristine .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7CCD7C" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="05/11/2015 06:25:34 PDT Mon" abbrev="" name="Profiled_region" ID="16448">
+    <definition>&lt;def-root&gt;The region within which a &lt;fen&gt;Figure&lt;/fen&gt; might be found.  This FE is exclusive of &lt;fen&gt;Figure&lt;/fen&gt;, and is a reconstrual that is not possible with verb lexical units.
+
+&lt;ex&gt;&lt;fex name="Profiled_region"&gt;&lt;t&gt;Next to&lt;/t&gt; the kitchen&lt;/fex&gt; is the best place to locate your garage .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Figure" ID="1622"/>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="150">State</relatedFrame>
+    <relatedFrame ID="1160">Basis_for_attribute</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="262">Abounding_with</relatedFrame>
+    <relatedFrame ID="1461">Within_distance</relatedFrame>
+    <relatedFrame ID="1619">Expected_location_of_person</relatedFrame>
+    <relatedFrame ID="397">Containing</relatedFrame>
+    <relatedFrame ID="76">Distributed_position</relatedFrame>
+    <relatedFrame ID="1177">Goal</relatedFrame>
+    <relatedFrame ID="2880">Non-gradable_proximity</relatedFrame>
+    <relatedFrame ID="1178">Interior_profile_relation</relatedFrame>
+    <relatedFrame ID="2890">Spatial_contact</relatedFrame>
+    <relatedFrame ID="2891">Adjacency</relatedFrame>
+    <relatedFrame ID="2900">Gradable_proximity</relatedFrame>
+    <relatedFrame ID="2905">Spatial_co-location</relatedFrame>
+    <relatedFrame ID="2912">Directional_locative_relation</relatedFrame>
+    <relatedFrame ID="2940">Location_on_path</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on">
+    <relatedFrame ID="2790">Locative_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="660">Existence</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="960">Being_located</relatedFrame>
+    <relatedFrame ID="61">Path_shape</relatedFrame>
+    <relatedFrame ID="1490">Relational_natural_features</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

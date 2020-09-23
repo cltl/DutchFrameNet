@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="A" name="tussentijds.a" ID="1600872503437" frame="Duration_description" frameID="79" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" lu_type="singleton" FN_EN_LU_ID="1718" Method="Iteration-1" RBN_LU_ID="r_a-15468" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Degr" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Evty" name="Eventuality"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prd" name="Period"/>
+    </frame>
+  </header>
+  <definition>tussendoor gebeurend</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="tussentijds" order="1"/>
+</lexUnit>

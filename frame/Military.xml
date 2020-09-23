@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="06/21/2005 06:51:34 PDT Tue" name="Military" ID="1514" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;Some &lt;fen&gt;Possessor&lt;/fen&gt;, either a nation, institution, or private individual, controls a &lt;fen&gt;Force&lt;/fen&gt; whose primary functions to defend the &lt;fen&gt;Possessor&lt;/fen&gt; (or, in the case of an institution or individual, some area of land significant to them) and to carry out offensive actions for the &lt;fen&gt;Possessor&lt;/fen&gt;.  The &lt;fen&gt;Domain&lt;/fen&gt; of operation of the &lt;fen&gt;Force&lt;/fen&gt; may be expressed.&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="06/21/2005 07:20:22 PDT Tue" abbrev="for" name="Force" ID="8253">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Force&lt;/fen&gt; is the body of soldiers that acts in military capacity for the &lt;fen&gt;Possessor&lt;/fen&gt;. This FE is incorporated in each word in this frame.&lt;/def-root&gt;</definition>
+    <semType name="Group" ID="76"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="06/21/2005 07:23:01 PDT Tue" abbrev="pos" name="Possessor" ID="8254">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Possessor&lt;/fen&gt; is the nation, institution, or individual who possesses and/or controls the &lt;fen&gt;Force&lt;/fen&gt;.
+
+&lt;ex&gt;The American invasion, which drew 26000 American troops against &lt;fex name="pos"&gt;General Noriega's&lt;/fex&gt; &lt;t&gt;army&lt;/t&gt;, was the largest US military operation since Vietnam.&lt;/ex&gt;
+&lt;ex&gt;Unfortunately, &lt;fex name="pos"&gt;They&lt;/fex&gt; don't &lt;m&gt;have&lt;/m&gt; a very strong &lt;t&gt;army&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="06/21/2005 07:35:11 PDT Tue" abbrev="des" name="Descriptor" ID="8257">
+    <definition>&lt;def-root&gt;A characterization of the &lt;fen&gt;Force&lt;/fen&gt;.
+
+&lt;ex&gt;And while Serbia is keen to invest in its &lt;fex name="des"&gt;dilapidated&lt;/fex&gt; &lt;t&gt;armed&lt;/t&gt; &lt;t&gt;forces&lt;/t&gt;, Montenegro wants to introduce a 4000-strong professional army.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="06/21/2005 07:46:47 PDT Tue" abbrev="mem" name="Members" ID="8268">
+    <definition>&lt;def-root&gt;The consituent members of the &lt;fen&gt;Force&lt;/fen&gt;.
+
+&lt;ex&gt;The US has an entirely &lt;fex name="mem"&gt;citizen&lt;/fex&gt; &lt;t&gt;army&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Human" ID="80"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="06/21/2005 07:48:29 PDT Tue" abbrev="dom" name="Domain" ID="8269">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Domain&lt;/fen&gt; in which the &lt;fen&gt;Force&lt;/fen&gt; operates.
+
+&lt;ex&gt;The Persians originally planned to rely solely on their &lt;fex name="dom"&gt;land&lt;/fex&gt; &lt;t&gt;army&lt;/t&gt; to advance beyond Athens.&lt;/ex&gt;
+&lt;ex&gt;You seem to think that our intelligence and &lt;fex name="dom"&gt;covert ops&lt;/fex&gt; &lt;t&gt;forces&lt;/t&gt; and our military are only able to conduct one mission at a time.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="06/21/2005 07:51:35 PDT Tue" abbrev="goa" name="Goal" ID="8270">
+    <definition>&lt;def-root&gt;A (permanent or temporary) &lt;fen&gt;Goal&lt;/fen&gt; of the &lt;fen&gt;Force&lt;/fen&gt;.
+
+&lt;ex&gt;Right at this time of emergency, the &lt;fex name="goa"&gt;revolutionary&lt;/fex&gt; &lt;t&gt;army&lt;/t&gt; made one attack after another in their rear, thus adding to their confusion.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="12/06/2005 08:19:55 PST Tue" abbrev="per" name="Period_of_existence" ID="9583">
+    <definition>&lt;def-root&gt;The length of time that the particular military organization has existed.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1371">Organization</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="2670">Member_of_military</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600873362884" POS="N" cBy="automatic" cDate="09/23/2020 15:02:42 UTC Wed" lemmaID="573" lu_type="singleton" name="militair.n" status="Created" FN_EN_LU_ID="12282" Method="Iteration-1" RBN_LU_ID="r_n-23878" RBN_matching_relation="near_equivalence">
+    <definition>die bij het leger werkt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="militair" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873366124" POS="N" cBy="manual" cDate="09/23/2020 15:02:46 UTC Wed" lemmaID="574" lu_type="singleton" name="troep.n" status="Created" FN_EN_LU_ID="12290" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-38538" RBN_matching_relation="equivalence">
+    <definition>van de manschappen die een leger uitmaken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="troep" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873369155" POS="N" cBy="automatic" cDate="09/23/2020 15:02:49 UTC Wed" lemmaID="575" lu_type="singleton" name="manschappen.n" status="Created" FN_EN_LU_ID="12290" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-23177" RBN_matching_relation="near_equivalence">
+    <definition>die als (gewoon) soldaat in het leger dienen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="manschappen" order="1"/>
+  </lexUnit>
+</frame>

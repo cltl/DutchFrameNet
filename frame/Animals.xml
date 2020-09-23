@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="CVa" cDate="07/18/2014 03:13:27 PDT Fri" name="Animals" ID="2840" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;The LUs in this frame refer to biological entities other than human beings and plants, which are labeled by the FE &lt;fen&gt;Animal&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;My husband and I adopted a &lt;fex name="Char"&gt;really sweet&lt;/fex&gt; &lt;fex name="Animal"&gt;dog&lt;/fex&gt; last year.&lt;/ex&gt;
+
+&lt;ex&gt;The &lt;fex name="Animal"&gt;cows&lt;/fex&gt; &lt;fex name="Descriptor"&gt;that live on the farm down the road&lt;/fex&gt; are always mooing loudly.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="CVa" cDate="07/18/2014 03:20:07 PDT Fri" abbrev="An" name="Animal" ID="16148">
+    <definition>&lt;def-root&gt;The living organism belonging to the kingdom Animalia.
+
+&lt;ex&gt;Did you see that &lt;t&gt;&lt;fex name="An"&gt;bird&lt;/fex&gt;&lt;/t&gt; in the tree?&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Living_thing" ID="66"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="CVa" cDate="07/18/2014 03:21:40 PDT Fri" abbrev="" name="Descriptor" ID="16149">
+    <definition>&lt;def-root&gt;A characterization of the &lt;fen&gt;Animal&lt;/fen&gt; not covered by another frame element.
+
+&lt;ex&gt;The &lt;t&gt;dogs&lt;/t&gt; &lt;fex name="Descriptor"&gt;that live next door&lt;/fex&gt; are so well-behaved.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="CVa" cDate="07/18/2014 03:22:49 PDT Fri" abbrev="" name="Origin" ID="16150">
+    <definition>&lt;def-root&gt;The location from which the &lt;fen&gt;Animal&lt;/fen&gt; originated.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="CVa" cDate="07/18/2014 04:00:28 PDT Fri" abbrev="Char" name="Characteristic" ID="16151">
+    <definition>&lt;def-root&gt;A quality of the &lt;fen&gt;Animal&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;t&gt;Foxes&lt;/t&gt; &lt;m&gt;are&lt;/m&gt; &lt;fex name="Char"&gt;sly&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="2567">Biological_entity</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600871446559" POS="N" cBy="automatic" cDate="09/23/2020 14:30:46 UTC Wed" lemmaID="21" lu_type="singleton" name="dier.n" status="Created" FN_EN_LU_ID="17632" Method="Iteration-1" RBN_LU_ID="r_n-10914" RBN_matching_relation="near_equivalence">
+    <definition>dat begaafd is met gevoel en willekeurige beweging en niet tot de planten behoort</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="dier" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871449867" POS="N" cBy="automatic" cDate="09/23/2020 14:30:49 UTC Wed" lemmaID="22" lu_type="singleton" name="beest.n" status="Created" FN_EN_LU_ID="17632" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-6278" RBN_matching_relation="near_equivalence">
+    <definition>dat geen plant of mens is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="beest" order="1"/>
+  </lexUnit>
+</frame>

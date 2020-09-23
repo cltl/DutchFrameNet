@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="02/27/2005 11:56:26 PST Sun" name="Substance" ID="1321" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame concerns internally undifferentiated &lt;fen&gt;Substance&lt;/fen&gt;s.
+
+
+&lt;ex&gt;As their gut bacteria ferment cellulose , they generate &lt;fex name="con"&gt;methane&lt;/fex&gt; &lt;t&gt;gas&lt;/t&gt; , which escapes from the rear ends of the insects.&lt;/ex&gt;
+
+&lt;ex&gt; The pipes are leaking &lt;fex name="des"&gt;noxious&lt;/fex&gt; &lt;t&gt;gas&lt;/t&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;Some CH-47 "Bombers" were equipped to roll-out &lt;fex name="use"&gt;riot control&lt;/fex&gt; &lt;t&gt;gas&lt;/t&gt; or napalm onto Viet Cong bunker complexes from the rear cargo ramp.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="02/27/2005 11:56:27 PST Sun" abbrev="con" name="Constituents" ID="7523">
+    <definition>&lt;def-root&gt;The frame element expresses substances/ingredients that make up the Substance.
+
+&lt;ex&gt;&lt;fex name="con"&gt;Argon&lt;/fex&gt; &lt;t&gt;gas&lt;/t&gt; is added into the station's air mixture.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="02/27/2005 11:56:27 PST Sun" abbrev="sub" name="Substance" ID="7526">
+    <definition>&lt;def-root&gt;The undifferentiated entity which is presented as having a permanent existence.
+
+
+&lt;ex&gt;&lt;fex name="sub"&gt;&lt;t&gt;Liquid&lt;/t&gt;&lt;/fex&gt; flowed over the rocks but it was not water.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="02/27/2005 11:56:27 PST Sun" abbrev="typ" name="Type" ID="7527">
+    <definition>&lt;def-root&gt;This FE indicates what subtype of the general category the &lt;fen&gt;Substance&lt;/fen&gt; belongs to.
+
+&lt;ex&gt;&lt;fex name="typ"&gt;Greenhouse&lt;/fex&gt; &lt;t&gt;gases&lt;/t&gt; trap heat and prevent its escape from the atmosphere.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="02/27/2005 01:18:41 PST Sun" abbrev="sou" name="Origin" ID="7528">
+    <definition>&lt;def-root&gt;The location that the &lt;fen&gt;Substance&lt;/fen&gt; comes from, including both extraction sites and emission/production sources.
+
+
+&lt;ex&gt;It retrieves most of the expensively generated heat from &lt;fex name="sou"&gt;flue&lt;/fex&gt; &lt;t&gt;gases&lt;/t&gt; and puts this heat back into the system.&lt;/ex&gt;
+&lt;ex&gt; The transport of &lt;fex name="sou"&gt;Iraqi&lt;/fex&gt; &lt;t&gt;petroleum&lt;/t&gt; and petroleum products through the  Kirkuk- Yumurtalik pipeline in Turkey is authorized by paragraph 1 a.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Source" ID="151"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="02/27/2005 01:35:29 PST Sun" abbrev="des" name="Descriptor" ID="7529">
+    <definition>&lt;def-root&gt;A characterization of the &lt;fen&gt;Substance&lt;/fen&gt;.
+
+&lt;ex&gt;The new Chrysler minivans will run on &lt;fex name="Descriptor"&gt;compressed&lt;/fex&gt; natural &lt;t&gt;gas&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="02/27/2005 01:47:46 PST Sun" abbrev="Inh" name="Inherent_purpose" ID="7530">
+    <definition>&lt;def-root&gt;The purpose for which the &lt;fen&gt;Substance&lt;/fen&gt; is intended.
+
+&lt;ex&gt;Supply and placing of &lt;fex name="Inherent_purpose"&gt;filler&lt;/fex&gt; &lt;t&gt;sand&lt;/t&gt; shall be incidental to installation of the paving stones.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="302">Physical_entity</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="1322">Active_substance</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600874315706" POS="N" cBy="automatic" cDate="09/23/2020 15:18:35 UTC Wed" lemmaID="859" lu_type="singleton" name="methaan.n" status="Created" FN_EN_LU_ID="11605" Method="Iteration-1" RBN_LU_ID="r_n-23690" RBN_matching_relation="near_equivalence">
+    <definition>dat kleurloos en geurloos is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="methaan" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874318924" POS="N" cBy="automatic" cDate="09/23/2020 15:18:38 UTC Wed" lemmaID="860" lu_type="singleton" name="uranium.n" status="Created" FN_EN_LU_ID="12169" Method="Iteration-1" RBN_LU_ID="r_n-39288" RBN_matching_relation="near_equivalence">
+    <definition>uit de derde groep van het periodiek systeem, dat radioactief is, een zeer hard, zwaar, zilverwit metaal, dat o.a. bij de winning van atoomenergie gebruikt wordt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="uranium" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874322165" POS="N" cBy="automatic" cDate="09/23/2020 15:18:42 UTC Wed" lemmaID="861" lu_type="singleton" name="plutonium.n" status="Created" FN_EN_LU_ID="12253" Method="Iteration-1" RBN_LU_ID="r_n-28933" RBN_matching_relation="near_equivalence">
+    <definition>dat radioactief is, in kerncentrales gemaakt wordt en in kernwapens gebruikt kan worden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="plutonium" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874325419" POS="N" cBy="automatic" cDate="09/23/2020 15:18:45 UTC Wed" lemmaID="862" lu_type="exocentric compound" name="zuurstof.n" status="Created" FN_EN_LU_ID="17635" Method="Iteration-1" RBN_LU_ID="r_n-44494" RBN_matching_relation="near_equivalence">
+    <definition>uit de scheikunde (O), een kleur-, reuk- en smaakloos gas dat zelf niet brandt, maar voor de verbranding noodzakelijk is en voor de ademhaling van mensen en dieren onontbeerlijk is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="zuurstof" order="1"/>
+  </lexUnit>
+</frame>

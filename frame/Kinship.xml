@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="05/17/2001 11:05:09 PDT Thu" name="Kinship" ID="104" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame contains words that denote Kinship relations. In annotating the directional uses of these words, we use the standard terms from anthropology, &lt;fen&gt;Ego&lt;/fen&gt; and &lt;fen&gt;Alter&lt;/fen&gt;.  &lt;ex&gt;&lt;fex name="Alter"&gt;Matilde&lt;/fex&gt; is &lt;fex name="Ego"&gt;Gilberto's&lt;/fex&gt; &lt;t&gt;cousin&lt;/t&gt; &lt;fex name="Degree"&gt;once removed&lt;/fex&gt;&lt;/ex&gt;
+Compare to: Appellations.&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="05/18/2001 03:42:51 PDT Fri" abbrev="" name="Alter" ID="516">
+    <definition>&lt;def-root&gt;The person who fills the role named by the Kinship term with respect to the &lt;fen&gt;Ego&lt;/fen&gt;.&lt;ex&gt;&lt;fex name="Alter"&gt;John&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;fex name="Ego"&gt;my&lt;/fex&gt; &lt;t&gt;cousin&lt;/t&gt;.&lt;/ex&gt;&lt;ex&gt;I met &lt;fex name="Ego"&gt;his&lt;/fex&gt; &lt;fex name="Alter"&gt;&lt;t&gt;brother&lt;/t&gt;&lt;/fex&gt; last year.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <requiresFE name="Ego" ID="517"/>
+    <excludesFE name="Relatives" ID="518"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="05/18/2001 03:46:02 PDT Fri" abbrev="" name="Ego" ID="517">
+    <definition>&lt;def-root&gt;The person from whose perspective the Kinship relationship is defined.&lt;ex&gt;&lt;fex name="Alter"&gt;Bill&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;fex name="Ego"&gt;Sue's&lt;/fex&gt; &lt;t&gt;son&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <requiresFE name="Alter" ID="516"/>
+    <excludesFE name="Relatives" ID="518"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="05/21/2001 12:36:56 PDT Mon" abbrev="" name="Relatives" ID="518">
+    <definition>&lt;def-root&gt;The combination of &lt;fen&gt;Alter&lt;/fen&gt; and &lt;fen&gt;Ego&lt;/fen&gt; together.&lt;ex&gt;&lt;fex name="Relatives"&gt;John and I&lt;/fex&gt; &lt;m&gt;are&lt;/m&gt; &lt;t&gt;brothers&lt;/t&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="05/21/2001 07:53:56 PDT Mon" abbrev="Degr" name="Degree" ID="527">
+    <definition>&lt;def-root&gt;An expression of the closeness or distance of the relation.  We do not go into full anthropological detail in measuring the distance of the relation, but simply annotate all such expressions as &lt;fen&gt;Degree&lt;/fen&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="03/01/2007 01:54:29 PST Thu" abbrev="des" name="Descriptor" ID="11136">
+    <definition>&lt;def-root&gt;This FE describe some characteristic of the &lt;fen&gt;Alter&lt;/fen&gt; or the &lt;fen&gt;Ego&lt;/fen&gt;. &lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1689">Relation_between_individuals</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="2390">Appellations</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="1600873036751" POS="N" cBy="manual" cDate="09/23/2020 14:57:16 UTC Wed" lemmaID="471" lu_type="singleton" name="pappie.n" status="Created" FN_EN_LU_ID="2142" Method="Iteration-2_WN" RBN_LU_ID="r_n-27569" RBN_matching_relation="equivalence">
+    <definition>in kindertaal</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="pappie" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873039756" POS="N" cBy="automatic" cDate="09/23/2020 14:57:19 UTC Wed" lemmaID="472" lu_type="singleton" name="dochter.n" status="Created" FN_EN_LU_ID="2145" Method="Iteration-1" RBN_LU_ID="r_n-11128" RBN_matching_relation="near_equivalence">
+    <definition>van het vrouwelijk geslacht in relatie tot de ouders</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="dochter" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873043106" POS="N" cBy="automatic" cDate="09/23/2020 14:57:23 UTC Wed" lemmaID="473" lu_type="singleton" name="vader.n" status="Created" FN_EN_LU_ID="2150" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-39422" RBN_matching_relation="near_equivalence">
+    <definition>die een of meer kinderen heeft</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="vader" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873046515" POS="N" cBy="automatic" cDate="09/23/2020 14:57:26 UTC Wed" lemmaID="474" lu_type="singleton" name="paps.n" status="Created" FN_EN_LU_ID="2150" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-27573" RBN_matching_relation="near_equivalence">
+    <definition>in kindertaal</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="paps" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873049589" POS="N" cBy="automatic" cDate="09/23/2020 14:57:29 UTC Wed" lemmaID="475" lu_type="singleton" name="oma.n" status="Created" FN_EN_LU_ID="2158" Method="Iteration-1" RBN_LU_ID="r_n-25674" RBN_matching_relation="near_equivalence">
+    <definition>van je vader of je moeder</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="oma" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873052871" POS="N" cBy="automatic" cDate="09/23/2020 14:57:32 UTC Wed" lemmaID="476" lu_type="exocentric compound" name="stiefzoon.n" status="Created" FN_EN_LU_ID="2163" Method="Iteration-1" RBN_LU_ID="r_n-35861" RBN_matching_relation="near_equivalence">
+    <definition>van je man of vrouw uit een eerder huwelijk</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="stiefzoon" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873056102" POS="N" cBy="automatic" cDate="09/23/2020 14:57:36 UTC Wed" lemmaID="477" lu_type="exocentric compound" name="stiefdochter.n" status="Created" FN_EN_LU_ID="2164" Method="Iteration-1" RBN_LU_ID="r_n-35855" RBN_matching_relation="near_equivalence">
+    <definition>van je man of vrouw uit eerder huwelijk</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="stiefdochter" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873059218" POS="N" cBy="automatic" cDate="09/23/2020 14:57:39 UTC Wed" lemmaID="478" lu_type="exocentric compound" name="stiefmoeder.n" status="Created" FN_EN_LU_ID="2165" Method="Iteration-1" RBN_LU_ID="r_n-35858" RBN_matching_relation="near_equivalence">
+    <definition>die met je vader getrouwd is en niet je moeder is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="stiefmoeder" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873062260" POS="N" cBy="automatic" cDate="09/23/2020 14:57:42 UTC Wed" lemmaID="479" lu_type="exocentric compound" name="stiefvader.n" status="Created" FN_EN_LU_ID="2166" Method="Iteration-1" RBN_LU_ID="r_n-35860" RBN_matching_relation="near_equivalence">
+    <definition>die met je moeder is getrouwd en niet je vader is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="stiefvader" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873065402" POS="N" cBy="automatic" cDate="09/23/2020 14:57:45 UTC Wed" lemmaID="480" lu_type="exocentric compound" name="stiefbroer.n" status="Created" FN_EN_LU_ID="2167" Method="Iteration-1" RBN_LU_ID="r_n-35854" RBN_matching_relation="near_equivalence">
+    <definition>van je stiefvader of stiefmoeder</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="stiefbroer" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873068588" POS="N" cBy="automatic" cDate="09/23/2020 14:57:48 UTC Wed" lemmaID="481" lu_type="singleton" name="voorloper.n" status="Created" FN_EN_LU_ID="2868" Method="Iteration-1" RBN_LU_ID="r_n-41590" RBN_matching_relation="near_equivalence">
+    <definition>die vooruitloopt of een bepaalde ontwikkeling aankondigt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="voorloper" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873071787" POS="N" cBy="automatic" cDate="09/23/2020 14:57:51 UTC Wed" lemmaID="482" lu_type="singleton" name="afstammeling.n" status="Created" FN_EN_LU_ID="2869" Method="Iteration-1" RBN_LU_ID="r_n-2982" RBN_matching_relation="near_equivalence">
+    <definition>die van iemand anders afstamt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="afstammeling" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873074943" POS="N" cBy="automatic" cDate="09/23/2020 14:57:54 UTC Wed" lemmaID="483" lu_type="singleton" name="nakomeling.n" status="Created" FN_EN_LU_ID="2869" Method="Iteration-1" RBN_LU_ID="r_n-24588" RBN_matching_relation="near_equivalence">
+    <definition>die tot het nageslacht (van een genoemde persoon) behoort</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="nakomeling" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873077985" POS="N" cBy="automatic" cDate="09/23/2020 14:57:57 UTC Wed" lemmaID="484" lu_type="exocentric compound" name="nazaat.n" status="Created" FN_EN_LU_ID="2869" Method="Iteration-1" RBN_LU_ID="r_n-24761" RBN_matching_relation="near_equivalence">
+    <definition>die van een (genoemde) andere persoon afstamt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="nazaat" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873081185" POS="N" cBy="automatic" cDate="09/23/2020 14:58:01 UTC Wed" lemmaID="485" lu_type="singleton" name="opvolger.n" status="Created" FN_EN_LU_ID="7798" Method="Iteration-1" RBN_LU_ID="r_n-26799" RBN_matching_relation="near_equivalence">
+    <definition>die de functie van een ander overneemt als deze ermee ophoudt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="opvolger" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873084366" POS="N" cBy="manual" cDate="09/23/2020 14:58:04 UTC Wed" lemmaID="486" lu_type="singleton" name="clan.n" status="Created" FN_EN_LU_ID="14670" Method="Iteration-1" RBN_LU_ID="r_n-9426" RBN_matching_relation="equivalence">
+    <definition>die bestaat uit mensen die een zeer hechte band hebben</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="clan" order="1"/>
+  </lexUnit>
+</frame>

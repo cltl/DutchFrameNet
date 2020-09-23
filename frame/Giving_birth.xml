@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="03/04/2002 06:05:53 PST Mon" name="Giving_birth" ID="281" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Mother&lt;/fen&gt; and &lt;fen&gt;Father&lt;/fen&gt; produce a &lt;fen&gt;Child&lt;/fen&gt; or an &lt;fen&gt;Egg&lt;/fen&gt;.
+&lt;ex&gt;&lt;fex name="Mother"&gt;Betty&lt;/fex&gt; &lt;t&gt;bore&lt;/t&gt; &lt;fex name="Father"&gt;Gerry&lt;/fex&gt; &lt;fex name="Child"&gt;three intelligent daughters&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/04/2002 06:51:43 PST Mon" abbrev="Mom" name="Mother" ID="2439">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Mother&lt;/fen&gt; is the female creature that produces the &lt;fen&gt;Child&lt;/fen&gt;.
+&lt;ex&gt;&lt;fex name="Mother"&gt;Betty&lt;/fex&gt; &lt;t&gt;bore&lt;/t&gt; Gerry three intelligent daughters.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/04/2002 06:52:46 PST Mon" abbrev="Child" name="Child" ID="2440">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Child&lt;/fen&gt; identifies the new self-motile creature produced from the &lt;fen&gt;Mother&lt;/fen&gt; and &lt;fen&gt;Father&lt;/fen&gt;.
+&lt;ex&gt;Betty &lt;t&gt;bore&lt;/t&gt; Gerry &lt;fex name="Child"&gt;three intelligent daughters&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/04/2002 06:53:57 PST Mon" abbrev="Pop" name="Father" ID="2441">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Father&lt;/fen&gt; is the male creature that copulates with the &lt;fen&gt;Mother&lt;/fen&gt;, thus  leading to the birth of the &lt;fen&gt;Child&lt;/fen&gt;.
+
+&lt;ex&gt;Betty &lt;t&gt;bore&lt;/t&gt; &lt;fex name="Father"&gt;Gerry&lt;/fex&gt; three intelligent daughters.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/04/2002 06:56:12 PST Mon" abbrev="Place" name="Place" ID="2442">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Place&lt;/fen&gt; where the event occurs.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/04/2002 06:56:14 PST Mon" abbrev="Time" name="Time" ID="2443">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Time&lt;/fen&gt; when the event occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="03/04/2002 06:57:58 PST Mon" abbrev="Depict" name="Depictive" ID="2444">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Depictive&lt;/fen&gt; identifies the phrase describing a participant of an action
+
+&lt;ex&gt; Demons are &lt;t&gt;spawned&lt;/t&gt; &lt;fex name="Depict"&gt;fully formed&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="03/05/2002 11:58:40 PST Tue" abbrev="cir" name="Circumstances" ID="2445">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Circumstances&lt;/fen&gt; under which a &lt;fen&gt;Mother&lt;/fen&gt; and &lt;fen&gt;Father&lt;/fen&gt; produce produce a &lt;fen&gt;Child&lt;/fen&gt;.
+
+&lt;ex&gt;Star fish can be &lt;t&gt;spawned&lt;/t&gt; &lt;fex name="Circumstances"&gt;under the right conditions&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/05/2002 02:52:12 PST Tue" abbrev="Egg" name="Egg" ID="2446">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Egg&lt;/fen&gt; is an immobile object containing an organism that may hatch as a mobile, infant organism.
+
+&lt;ex&gt;Female clownfish &lt;t&gt;lay&lt;/t&gt; &lt;fex name="Egg"&gt;their eggs&lt;/fex&gt; around sea anemones&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Child" ID="2440"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="KCo" cDate="03/06/2002 12:17:04 PST Wed" abbrev="Mns" name="Means" ID="2447">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Means&lt;/fen&gt; by which the event occurs.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="06/26/2003 03:07:25 PDT Thu" abbrev="Par" name="Parents" ID="4692">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Mother&lt;/fen&gt; and &lt;fen&gt;Father&lt;/fen&gt; expressed together.
+&lt;ex&gt;&lt;fex name="Parents"&gt;We&lt;/fex&gt; are going to be &lt;t&gt;having&lt;/t&gt; twins!&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="07/15/2003 01:59:21 PDT Tue" abbrev="" name="Result" ID="4786">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Result&lt;/fen&gt; of  the birth.
+&lt;ex&gt;John's mother &lt;t&gt;bore&lt;/t&gt; him &lt;fex name="Result"&gt;into a wealthy family&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="01/25/2006 06:22:17 PST Wed" abbrev="man" name="Manner" ID="9887">
+    <definition>&lt;def-root&gt;Any description of the intentional act which is not covered by more specific FEs, including secondary effects (&lt;ment&gt;quietly, loudly&lt;/ment&gt;), and general descriptions comparing events (&lt;ment&gt;the same way&lt;/ment&gt;). In addition, it may indicate salient characteristics of the &lt;fen&gt;Parents&lt;/fen&gt; (or a &lt;fen&gt;Father&lt;/fen&gt; or &lt;fen&gt;Mother&lt;/fen&gt;) that also affect the action (&lt;ment&gt;presumptuously, coldly, deliberately, eagerly, carefully&lt;/ment&gt;). 
+
+&lt;ex&gt;They &lt;fex name="Manner"&gt;eagerly&lt;/fex&gt; &lt;t&gt;spawned&lt;/t&gt; more of their kind until there was no room for more.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Father" ID="2441"/>
+    <memberFE name="Parents" ID="4692"/>
+    <memberFE name="Mother" ID="2439"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on">
+    <relatedFrame ID="2811">Birth_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes">
+    <relatedFrame ID="53">Death</relatedFrame>
+    <relatedFrame ID="2055">Dying</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872845900" POS="V" cBy="automatic" cDate="09/23/2020 14:54:05 UTC Wed" lemmaID="412" lu_type="singleton" name="veroorzaken.v" status="Created" FN_EN_LU_ID="5155" Method="Iteration-1" RBN_LU_ID="r_v-9188" RBN_matching_relation="near_equivalence">
+    <definition>de oorzaak zijn van dingen die volgen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="veroorzaken" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872849196" POS="V" cBy="automatic" cDate="09/23/2020 14:54:09 UTC Wed" lemmaID="413" lu_type="singleton" name="genereren.v" status="Created" FN_EN_LU_ID="11951" Method="Iteration-1" RBN_LU_ID="r_v-2914" RBN_matching_relation="near_equivalence">
+    <definition>voortbrengen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="genereren" order="1"/>
+  </lexUnit>
+</frame>

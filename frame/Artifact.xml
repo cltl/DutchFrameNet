@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="11/01/2002 05:21:21 PST Fri" name="Artifact" ID="421" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Artifact&lt;/fen&gt; is deliberately made or modified by an intelligent entity to be put to a certain kind of &lt;fen&gt;Use&lt;/fen&gt;.  Various properties of the &lt;fen&gt;Artifact&lt;/fen&gt; may be specified, such as its &lt;fen&gt;Creator&lt;/fen&gt;, &lt;fen&gt;Time_of_creation&lt;/fen&gt;, &lt;fen&gt;Name&lt;/fen&gt;, &lt;fen&gt;Type&lt;/fen&gt;, and the &lt;fen&gt;Material&lt;/fen&gt; of which it is composed.  The &lt;fen&gt;Artifact&lt;/fen&gt; may or may not be a physical entity.
+
+&lt;ex&gt;There are reports that Kim Il Sung asked China to share its &lt;fex name="Type"&gt;nuclear&lt;/fex&gt; &lt;fex name="Use"&gt;weapons&lt;/fex&gt; &lt;fex name="Artifact"&gt;&lt;t&gt;technology&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="11/01/2002 05:59:38 PST Fri" abbrev="Artifact" name="Artifact" ID="3874">
+    <definition>&lt;def-root&gt;This FE identifies the entity or substance that is designed to have a particular &lt;fen&gt;Use&lt;/fen&gt;. This can refer to physical artifacts, like a mug or computer monitor, or a digital artifact, such as a website or document.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="11/01/2002 05:59:42 PST Fri" abbrev="Use" name="Use" ID="3875">
+    <definition>&lt;def-root&gt;The use for which an artifact is intended.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="02/12/2004 06:30:23 PST Thu" abbrev="" name="Creator" ID="5860">
+    <definition>&lt;def-root&gt;An individual or individuals that bring the &lt;fen&gt;Artifact&lt;/fen&gt; into existence.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="02/12/2004 06:31:45 PST Thu" abbrev="" name="Time_of_creation" ID="5861">
+    <definition>&lt;def-root&gt;The time at which an &lt;fen&gt;Artifact&lt;/fen&gt; comes into existence.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="02/12/2004 06:32:40 PST Thu" abbrev="" name="Name" ID="5862">
+    <definition>&lt;def-root&gt;The term used to refer to an &lt;fen&gt;Artifact&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="02/12/2004 06:33:45 PST Thu" abbrev="" name="Type" ID="5863">
+    <definition>&lt;def-root&gt;An indication of the subtype of &lt;fen&gt;Artifact&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A9A9A9" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="02/12/2004 06:34:31 PST Thu" abbrev="" name="Material" ID="5864">
+    <definition>&lt;def-root&gt;Any indication of what makes up the &lt;fen&gt;Artifact&lt;/fen&gt;, including components, ingredients, etc.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="CFB" cDate="03/06/2016 04:08:27 PST Sun" abbrev="" name="Descriptor" ID="16804">
+    <definition>&lt;def-root&gt;This FE describes either a state or characteristic of the artifact which is not subsumed by the core FEs. &lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="251">Entity</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="426">Weapon</relatedFrame>
+    <relatedFrame ID="419">Connectors</relatedFrame>
+    <relatedFrame ID="134">Clothing</relatedFrame>
+    <relatedFrame ID="158">Accoutrements</relatedFrame>
+    <relatedFrame ID="950">Law</relatedFrame>
+    <relatedFrame ID="173">Buildings</relatedFrame>
+    <relatedFrame ID="1017">Noise_makers</relatedFrame>
+    <relatedFrame ID="1565">Ammunition</relatedFrame>
+    <relatedFrame ID="1598">Fastener</relatedFrame>
+    <relatedFrame ID="1481">Infrastructure</relatedFrame>
+    <relatedFrame ID="429">Vehicle</relatedFrame>
+    <relatedFrame ID="299">Body_decoration</relatedFrame>
+    <relatedFrame ID="298">Text</relatedFrame>
+    <relatedFrame ID="1761">Money</relatedFrame>
+    <relatedFrame ID="2653">Information_display</relatedFrame>
+    <relatedFrame ID="2654">Controller_object</relatedFrame>
+    <relatedFrame ID="2743">Key</relatedFrame>
+    <relatedFrame ID="257">Medical_instruments</relatedFrame>
+    <relatedFrame ID="1656">Physical_artworks</relatedFrame>
+    <relatedFrame ID="2837">Fire_break</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1141">Using</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="106">Gizmo</relatedFrame>
+    <relatedFrame ID="1200">Being_operational</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)">
+    <relatedFrame ID="2470">Artifact_subpart</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600871460657" POS="N" cBy="automatic" cDate="09/23/2020 14:31:00 UTC Wed" lemmaID="25" lu_type="singleton" name="oven.n" status="Created" FN_EN_LU_ID="18625" Method="Iteration-1" RBN_LU_ID="r_n-27031" RBN_matching_relation="near_equivalence">
+    <definition>waarin men door de hoge temperatuur voedsel of voorwerpen kan bakken, drogen of smelten</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="oven" order="1"/>
+  </lexUnit>
+</frame>

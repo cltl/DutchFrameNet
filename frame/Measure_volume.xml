@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/30/2001 11:55:21 PDT Sat" name="Measure_volume" ID="155" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame is concerned with nouns that denote &lt;fen&gt;Unit&lt;/fen&gt;s of measurement for volumes. The Frame Elements are &lt;fen&gt;Unit&lt;/fen&gt;, &lt;fen&gt;Count&lt;/fen&gt;,  &lt;fen&gt;Stuff&lt;/fen&gt;, and &lt;fen&gt;Size&lt;/fen&gt;. The frame will be split soon into container-derived volumes (box, bottle etc.) and pure volumes (gallon, quart). For the moment we tag things as follows:
+&lt;ex&gt;Greg drank &lt;fex name="Count"&gt;two&lt;/fex&gt; &lt;fex name="Size"&gt;2 liter&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;bottles&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of lemonade&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Sue drank &lt;fex name="Count"&gt;two&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;liters&lt;/fex&gt;&lt;/t&gt;
+&lt;fex name="Stuff"&gt;of beer&lt;/fex&gt;.&lt;/ex&gt;
+This frame necessitated the introduction of  the GF: Quant and the PT: Num used for expressions such as  the following:
+&lt;ex&gt;two &lt;t&gt;cups&lt;/t&gt; of coffee&lt;/ex&gt;
+&lt;ment&gt;FE: &lt;fen&gt;Count&lt;/fen&gt;, GF: Quant, PT: Num&lt;/ment&gt;&lt;ex&gt;&lt;/ex&gt;
+Note that we treat cardinal numbers and "a" (= 1) in the same way. 
+&lt;ex&gt;a &lt;t&gt;cup&lt;/t&gt; of coffee&lt;/ex&gt;
+&lt;ment&gt;FE: &lt;fen&gt;Count&lt;/fen&gt;, GF: Quant, PT: Num&lt;/ment&gt;&lt;ex&gt;&lt;/ex&gt;
+For the present, we prefer not to annotate "many cups of coffee"
+&lt;ex&gt;many &lt;t&gt;cups&lt;/t&gt; of coffee&lt;/ex&gt;
+&lt;ment&gt;FE: &lt;fen&gt;Count&lt;/fen&gt;, GF: Quant, PT: Adj&lt;/ment&gt;&lt;ex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <semType name="Transparent Noun" ID="9"/>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/30/2001 11:55:22 PDT Sat" abbrev="" name="Count" ID="1196">
+    <definition>&lt;def-root&gt;The number of &lt;fen&gt;Unit&lt;/fen&gt;s of the measured volume.&lt;ex&gt;Serena found &lt;fex name="Count"&gt;two&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;cups&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of sugar&lt;/fex&gt; in the freezer.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/30/2001 11:55:22 PDT Sat" abbrev="" name="Stuff" ID="1197">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Stuff&lt;/fen&gt; whose volume is being measured.&lt;ex&gt;Sue bought &lt;fex name="Count"&gt;three&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;bottles&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of milk&lt;/fex&gt; on sale.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/30/2001 11:55:22 PDT Sat" abbrev="" name="Unit" ID="1198">
+    <definition>&lt;def-root&gt;The standardized quantity in terms of which other quantities of the same kind are  measured.&lt;ex&gt;Drink &lt;fex name="Count"&gt;two&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;glasses&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of wine&lt;/fex&gt; every day.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="07/03/2001 05:18:46 PDT Tue" abbrev="Size" name="Size" ID="1277">
+    <definition>&lt;def-root&gt;A specification of the volume of the container.&lt;ex&gt;Michell bought &lt;fex name="Count"&gt;a&lt;/fex&gt; &lt;fex name="Size"&gt;2 liter&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;bottle&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of Sangria&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1686">Measures</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600873219292" POS="N" cBy="automatic" cDate="09/23/2020 15:00:19 UTC Wed" lemmaID="528" lu_type="singleton" name="lepel.n" status="Created" FN_EN_LU_ID="2838" Method="Iteration-1" RBN_LU_ID="r_n-21847" RBN_matching_relation="near_equivalence">
+    <definition>om min of meer vloeibare stoffen als soep of pap mee te eten, eten op te scheppen of om te roeren</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="lepel" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873222275" POS="N" cBy="automatic" cDate="09/23/2020 15:00:22 UTC Wed" lemmaID="529" lu_type="singleton" name="plateau.n" status="Created" FN_EN_LU_ID="3422" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-78986" RBN_matching_relation="near_equivalence">
+    <definition>waarop men iets presenteert</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="plateau" order="1"/>
+  </lexUnit>
+</frame>

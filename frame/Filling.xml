@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:13 PST Wed" name="Filling" ID="59" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;These are words relating to filling containers and covering areas with some thing, things or substance, the &lt;fen&gt;Theme&lt;/fen&gt;. The area or container can appear as the direct object with all these verbs, and is designated &lt;fen&gt;Goal&lt;/fen&gt; because it is the goal of motion of the &lt;fen&gt;Theme&lt;/fen&gt;. Corresponding to its nuclear argument status, it is also affected in some crucial way, unlike goals in other frames.
+ &lt;ex&gt;&lt;fex name="Agent"&gt;Lionel Hutz&lt;/fex&gt; &lt;t&gt;coated&lt;/t&gt; &lt;fex name="Goal"&gt;the wall&lt;/fex&gt; &lt;fex name="Theme"&gt;with paint&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:13 PST Wed" abbrev="Agt" name="Agent" ID="253">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Agent&lt;/fen&gt; is the actor who instigates the filling.&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+    <excludesFE name="Cause" ID="9897"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:14 PST Wed" abbrev="Thm" name="Theme" ID="254">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Theme&lt;/fen&gt; is the physical object or substance which changes location. &lt;ex&gt;&lt;fex name="Agent"&gt;Rev. Lovejoy&lt;/fex&gt; &lt;fex name="Manner"&gt;carefully&lt;/fex&gt; &lt;t&gt;brushed&lt;/t&gt; &lt;fex name="Goal"&gt;the rolls&lt;/fex&gt; &lt;fex name="Theme"&gt;with butter&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Physical_object" ID="68"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="ChW" cDate="02/07/2001 04:12:14 PST Wed" abbrev="Src" name="Source" ID="255">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Source&lt;/fen&gt; is the location where the &lt;fen&gt;Theme&lt;/fen&gt; begins its motion. &lt;ex&gt;&lt;fex name="Agent"&gt;Josef&lt;/fex&gt; &lt;t&gt;filled&lt;/t&gt; &lt;fex name="Goal"&gt;his flask&lt;/fex&gt; &lt;fex name="Source"&gt;from the whiskey bottle&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Source" ID="151"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="ChW" cDate="02/07/2001 04:12:14 PST Wed" abbrev="Path" name="Path" ID="256">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Path&lt;/fen&gt; is the trajectory of the motion.  &lt;ex&gt;&lt;fex name="Agent"&gt;Jess&lt;/fex&gt; &lt;t&gt;filled&lt;/t&gt; &lt;fex name="Goal"&gt;the container&lt;/fex&gt; &lt;fex name="Path"&gt;through a small hole in the lid&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:14 PST Wed" abbrev="Goal" name="Goal" ID="257">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Goal&lt;/fen&gt; is the area or container being filled. Goal is generally the NP Object in this frame.&lt;/def-root&gt;</definition>
+    <semType name="Goal" ID="153"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="06/12/2001 09:05:13 PDT Tue" abbrev="Degr" name="Degree" ID="840">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Degree&lt;/fen&gt; to which the filling occurs.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="06/12/2001 09:05:13 PDT Tue" abbrev="Dep" name="Depictive" ID="841">
+    <definition>&lt;def-root&gt;Depictive phrase describing the &lt;fen&gt;Agent&lt;/fen&gt; of the filling action.
+&lt;ex&gt;&lt;fex name="Dep"&gt;Naked&lt;/fex&gt;, &lt;fex name="Agent"&gt;Margeret&lt;/fex&gt; &lt;t&gt;filled&lt;/t&gt; &lt;fex name="Goal"&gt;the tub&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="06/12/2001 09:05:13 PDT Tue" abbrev="Manr" name="Manner" ID="844">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Manner&lt;/fen&gt; in which the filling occurs.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="06/12/2001 09:05:13 PDT Tue" abbrev="Mns" name="Means" ID="845">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Means&lt;/fen&gt; by which the filling occurs.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="06/12/2001 09:05:13 PDT Tue" abbrev="Result" name="Result" ID="846">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Result&lt;/fen&gt; is the resultant state after the filling has occurred.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="09/18/2001 03:27:52 PDT Tue" abbrev="Exp" name="Explanation" ID="1948">
+    <definition>&lt;def-root&gt;The &lt;fex name="Explanation"&gt;Explanation&lt;/fex&gt; for which the &lt;fen&gt;Agent&lt;/fen&gt; fills or covers the &lt;fen&gt;Goal&lt;/fen&gt;. &lt;ex&gt;&lt;fex name="Agent"&gt;Samantha&lt;/fex&gt; &lt;t&gt;covered&lt;/t&gt; &lt;fex name="Goal"&gt;the table&lt;/fex&gt; &lt;fex name="Theme"&gt;with flowers&lt;/fex&gt; &lt;fex name="Explanation"&gt;because she was bored&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/18/2001 03:29:48 PDT Tue" abbrev="Time" name="Time" ID="1949">
+    <definition>&lt;def-root&gt;When the filling occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/18/2001 03:29:56 PDT Tue" abbrev="Place" name="Place" ID="1950">
+    <definition>&lt;def-root&gt;Where the filling takes place.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="09/18/2001 03:30:03 PDT Tue" abbrev="Purp" name="Purpose" ID="1951">
+    <definition>&lt;def-root&gt;The purpose for which the &lt;fen&gt;Agent&lt;/fen&gt; fills the &lt;fen&gt;Goal&lt;/fen&gt;. &lt;ex&gt;&lt;fex name="Agent"&gt;Samantha&lt;/fex&gt; &lt;t&gt;covered&lt;/t&gt; &lt;fex name="Goal"&gt;the table&lt;/fex&gt; &lt;fex name="Theme"&gt;with flowers&lt;/fex&gt; &lt;fex name="Purpose"&gt;to please her mother&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/18/2001 03:30:33 PDT Tue" abbrev="Ins" name="Instrument" ID="1952">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Instrument&lt;/fen&gt; with which the filling occurs.&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="08/19/2002 03:06:32 PDT Mon" abbrev="Sub" name="Subregion" ID="3579">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Subregion&lt;/fen&gt; is the smaller area of the &lt;fen&gt;Goal&lt;/fen&gt; where the filling or covering occurs. &lt;ex&gt;&lt;fex name="Agent"&gt;Mrs. Bouvier&lt;/fex&gt; &lt;t&gt;anointed&lt;/t&gt; &lt;fex name="Goal"&gt;the children&lt;/fex&gt; &lt;fex name="Theme"&gt;with oil&lt;/fex&gt; &lt;fex name="Subregion"&gt;on the forehead&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="7CCD7C" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="02/02/2006 11:29:57 PST Thu" abbrev="cau" name="Cause" ID="9897">
+    <definition>&lt;def-root&gt;An event which brings about the filling of the &lt;fen&gt;Goal&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="2303">Container_focused_placing</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of">
+    <relatedFrame ID="244">Fullness</relatedFrame>
+  </frameRelation>
+  <frameRelation type="See also">
+    <relatedFrame ID="62">Placing</relatedFrame>
+    <relatedFrame ID="55">Cause_motion</relatedFrame>
+    <relatedFrame ID="76">Distributed_position</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="1600872773895" POS="V" cBy="manual" cDate="09/23/2020 14:52:53 UTC Wed" lemmaID="389" lu_type="singleton" name="asfalteren.v" status="Created" FN_EN_LU_ID="3900" Method="Iteration-1" RBN_LU_ID="r_v-1005" RBN_matching_relation="equivalence">
+    <definition>met asfalt bedekken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="asfalteren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872776944" POS="V" cBy="automatic" cDate="09/23/2020 14:52:56 UTC Wed" lemmaID="390" lu_type="singleton" name="betegelen.v" status="Created" FN_EN_LU_ID="3902" Method="Iteration-1" RBN_LU_ID="r_v-1459" RBN_matching_relation="near_equivalence">
+    <definition>(wanden en vloeren) met tegels bedekken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="betegelen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872780114" POS="V" cBy="automatic" cDate="09/23/2020 14:53:00 UTC Wed" lemmaID="391" lu_type="singleton" name="behangen.v" status="Created" FN_EN_LU_ID="3903" Method="Iteration-1" RBN_LU_ID="r_v-1173" RBN_matching_relation="near_equivalence">
+    <definition>(de wanden) met behang bedekken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="behangen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872783374" POS="V" cBy="automatic" cDate="09/23/2020 14:53:03 UTC Wed" lemmaID="392" lu_type="singleton" name="decoreren.v" status="Created" FN_EN_LU_ID="7127" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2124" RBN_matching_relation="near_equivalence">
+    <definition>decoraties aanbrengen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="decoreren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872786327" POS="V" cBy="automatic" cDate="09/23/2020 14:53:06 UTC Wed" lemmaID="393" lu_type="singleton" name="tooien.v" status="Created" FN_EN_LU_ID="7127" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-8072" RBN_matching_relation="near_equivalence">
+    <definition>iemand of iets er mooier of feestelijker doen uitzien door middel van versieringen e.d.</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="tooien" order="1"/>
+  </lexUnit>
+</frame>

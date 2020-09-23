@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="07/15/2003 12:15:33 PDT Tue" name="Usefulness" ID="726" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Entity&lt;/fen&gt; aids in the successful completion of a &lt;fen&gt;Purpose&lt;/fen&gt;.  Its &lt;fen&gt;Degree&lt;/fen&gt; of utility may also be expressed. Some of the lexical units  in this frame (e.g. &lt;ment&gt;great, good&lt;/ment&gt;) can only express permanent, generic states of the &lt;fen&gt;Entity&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Entity"&gt;A box&lt;/fex&gt; is an &lt;t&gt;ideal&lt;/t&gt; &lt;fex name="Purpose"&gt;storage device&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="07/15/2003 12:47:06 PDT Tue" abbrev="Ent" name="Entity" ID="4783">
+    <definition>&lt;def-root&gt;The item which is useful for some purpose.&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="07/15/2003 12:55:26 PDT Tue" abbrev="Purp" name="Purpose" ID="4784">
+    <definition>&lt;def-root&gt;The kind of task which is promoted by the use or presence of the &lt;fen&gt;Entity&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/15/2003 01:05:34 PDT Tue" abbrev="Deg" name="Degree" ID="4785">
+    <definition>&lt;def-root&gt;The amount that the presence of the &lt;fen&gt;Entity&lt;/fen&gt; aids in the completion of the (desirable) &lt;fen&gt;Purpose&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="06/05/2007 12:57:05 PDT Tue" abbrev="dom" name="Domain" ID="11865">
+    <definition>&lt;def-root&gt;This Frame Element marks expressions of a &lt;t&gt;Domain&lt;/t&gt; or parameter with respect to which the &lt;t&gt;Entity&lt;/t&gt; is useful. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="KmG" cDate="11/07/2007 12:54:57 PST Wed" abbrev="" name="Time" ID="12048">
+    <definition>&lt;def-root&gt;When the &lt;fen&gt;Entity&lt;/fen&gt; is useful for a &lt;fen&gt;Purpose&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1015">Gradable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1141">Using</relatedFrame>
+    <relatedFrame ID="990">Capability</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="03/05/2001 05:02:03 PST Mon" name="Change_position_on_a_scale" ID="91" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame consists of words that indicate the change of an &lt;fen&gt;Item&lt;/fen&gt;'s position on a scale (the &lt;fen&gt;Attribute&lt;/fen&gt;) from a starting point (&lt;fen&gt;Initial_value&lt;/fen&gt;) to an end point (&lt;fen&gt;Final_value&lt;/fen&gt;). The direction (&lt;fen&gt;Path&lt;/fen&gt;) of the movement can be indicated as well as the magnitude of the change (&lt;fen&gt;Difference&lt;/fen&gt;).  The rate of change of the value (&lt;fen&gt;Speed&lt;/fen&gt;) is optionally indicated.  Another scale (&lt;fen&gt;Correlate&lt;/fen&gt;), which the values are correlated with, is indicated if it is not the default correlate (namely, absolute time).
+
+&lt;ex&gt;&lt;/ex&gt;
+The distinction between &lt;fen&gt;Attribute&lt;/fen&gt;s and &lt;fen&gt;Item&lt;/fen&gt;s is not always an easy one. The clear cases involve the expression of the
+&lt;fen&gt;Attribute&lt;/fen&gt; in an &lt;ment&gt;in&lt;/ment&gt;-PP.
+
+&lt;ex&gt;&lt;fex name="Item"&gt;Hawke's Bay winery&lt;/fex&gt; &lt;t&gt;doubled&lt;/t&gt; &lt;fex name="Attribute"&gt;in size&lt;/fex&gt; &lt;fex name="Time"&gt;last year&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;The amount you can deduct, then, depends on whether or not &lt;fex name="Item"&gt;the stock&lt;/fex&gt; has &lt;t&gt;increased&lt;/t&gt; &lt;fex name="Attribute"&gt;in value&lt;/fex&gt; &lt;fex name="Time"&gt;during the period you have owned it&lt;/fex&gt;.&lt;/ex&gt;
+
+Other clear cases of &lt;fen&gt;Attribute&lt;/fen&gt;s involve NP's like &lt;ment&gt;size, quality, number, value&lt;/ment&gt; that denote abstract attributes rather than events or classes of things.
+
+
+&lt;ex&gt;&lt;/ex&gt;
+The analysis is more complicated when an event-denoting noun phrase occurs as the subject and the sentence has no &lt;ment&gt;in&lt;/ment&gt;-PP. In the simplest cases, where the &lt;fen&gt;Attribute&lt;/fen&gt; is the number of occurrences of the event, the &lt;fen&gt;Attribute&lt;/fen&gt; is usually left implicit, as in exx. 1 and 2, the &lt;fen&gt;Attribute&lt;/fen&gt; below.
+
+&lt;ex&gt;(1)&lt;fex name="Item"&gt;Accidents&lt;/fex&gt; &lt;t&gt;increased&lt;/t&gt; &lt;fex name="Difference"&gt;20%&lt;/fex&gt; &lt;fex name="val2"&gt;to 345&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;(1--second FE layer)Accidents &lt;t&gt;increased&lt;/t&gt; 20% &lt;fex name="Attribute"&gt;to 345&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;(2) &lt;fex name="Item"&gt;Attacks on civilians&lt;/fex&gt; &lt;t&gt;decreased&lt;/t&gt; &lt;fex name="Time"&gt;over the last 4 months&lt;/fex&gt; 
+&lt;fex name="Attribute"&gt;DNI&lt;/fex&gt;.&lt;/ex&gt;
+
+In cases  like (1), we will tag the &lt;fen&gt;Attribute&lt;/fen&gt; on the second layer below the &lt;fen&gt;Final_value&lt;/fen&gt; label, as that FE makes
+it clear that the &lt;fen&gt;Attribute&lt;/fen&gt; is simply cardinality. In cases like (2), we tag it as DNI because in context the hearer has
+to understand a particular &lt;fen&gt;Attribute&lt;/fen&gt; rather than just some or any appropriate &lt;fen&gt;Attribute&lt;/fen&gt; of the
+&lt;fen&gt;Item&lt;/fen&gt;.  Note that the above pattern can be compared to cases involving tangible &lt;fen&gt;Item&lt;/fen&gt;s, where the &lt;fen&gt;Attribute&lt;/fen&gt; may similarly be missing when the incidence or frequency of the &lt;fen&gt;Item&lt;/fen&gt; is specified.
+
+&lt;ex&gt;(3) &lt;fex name="Item"&gt;Woodland birds&lt;/fex&gt; &lt;t&gt;increased&lt;/t&gt;&lt;fex name="val2"&gt;to their highest level since 1990&lt;/fex&gt; &lt;fex name="Attribute"&gt;DNI&lt;/fex&gt;.&lt;/ex&gt; 
+
+A more complicated case involving event-denoting subjects is when the &lt;fen&gt;Attribute&lt;/fen&gt; measured is not the incidence of the type of event specified but rather an &lt;fen&gt;Attribute&lt;/fen&gt; of an event-participant. In (4), it is not the &lt;ment&gt;number of times&lt;/ment&gt; that turbot was caught that has changed but the &lt;ment&gt;amount&lt;/ment&gt; of fish caught.
+
+&lt;ex&gt;(4) &lt;fex name="Item"&gt;Turbot catches&lt;/fex&gt; &lt;t&gt;increased&lt;/t&gt; &lt;fex name="val1"&gt;from around 100 tonnes in the 1960s&lt;/fex&gt; &lt;fex name="val2"&gt;to around 1,200 tonnes in the mid 1990s&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;(4-second FE layer) Turbot catches &lt;t&gt;increased&lt;/t&gt; &lt;fex name="att"&gt;from around 100 tonnes in the 1960s&lt;/fex&gt; &lt;fex name="att"&gt;to around 1,200 tonnes in the mid 1990s&lt;/fex&gt;.&lt;/ex&gt;
+
+(Note the 2nd layer annotation of the &lt;fen&gt;Attribute&lt;/fen&gt; below the &lt;fen&gt;Initial_value&lt;/fen&gt; and &lt;fen&gt;Final_value&lt;/fen&gt; FEs, since they indicate that the &lt;fen&gt;Attribute&lt;/fen&gt; is implicitly &lt;ment&gt;weight&lt;/ment&gt;.)
+
+Similarly, in (5), the report is (in context) about the total monetary value of the gifts, not about the number of donations made.
+
+&lt;ex&gt;(5)&lt;fex name="Item"&gt;Overall Giving by Church Members&lt;/fex&gt; &lt;t&gt;increased&lt;/t&gt;  from 2000 to 2001&lt;/ex&gt;
+
+As can be seen from the above examples, we consider the event nouns in uses such as (4) and (5) to also specify &lt;fen&gt;Item&lt;/fen&gt;s. Note that in cases like (4), we do not want to treat the subject NP "turbot catches" as an &lt;fen&gt;Attribute&lt;/fen&gt; that includes information about the &lt;fen&gt;Item&lt;/fen&gt;, since it would not make sense to restate (4) as follows:
+
+&lt;ex&gt;*Turbot &lt;t&gt;increased&lt;/t&gt; in catches.&lt;/ex&gt;
+
+Two more complications arise. First, certain nouns that do not, by their etymology, denote abstract attributes have a second sense in which they do denote an &lt;fen&gt;Attribute&lt;/fen&gt;.
+
+&lt;ex&gt;(6) The population of Smallville &lt;t&gt;increased&lt;/t&gt; fourfold to 807.&lt;/ex&gt;
+
+
+Under one reading, (6a), the population could be understood as referring to "the people", in which case the &lt;fen&gt;Attribute&lt;/fen&gt; &lt;ment&gt;cardinality&lt;/ment&gt; is understood as unexpressed, as in (1),  (2), and (3).  The &lt;fen&gt;Attribute&lt;/fen&gt; could be overtly specified:
+
+&lt;ex&gt;(6a) &lt;fex name="ite"&gt;The population of Smallville&lt;/fex&gt; &lt;t&gt;increased&lt;/t&gt; &lt;fex name="Diff"&gt;fourfold&lt;/fex&gt; &lt;fex name="att"&gt;in size&lt;/fex&gt; &lt;fex name="val2"&gt;to 807&lt;/fex&gt;.&lt;/ex&gt;
+
+Under another reading, (6b), population is an &lt;fen&gt;Attribute&lt;/fen&gt; that habitats or locations possess. In this case, the whole NP "the population of Smallville" is treated as the &lt;fen&gt;Attribute&lt;/fen&gt; and on the second layer "of Smallville" is tagged as &lt;fen&gt;Item&lt;/fen&gt;. 
+
+&lt;ex&gt;(6b) &lt;fex name="att"&gt;The population of Smallville&lt;/fex&gt; &lt;t&gt;increased&lt;/t&gt; &lt;fex name="Diff"&gt;fourfold&lt;/fex&gt; &lt;fex name="val2"&gt;to 807&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;(6b-second FE layer) The population &lt;fex name="ite"&gt;of Smallville&lt;/fex&gt; &lt;t&gt;increased&lt;/t&gt; fourfold to 807.&lt;/ex&gt;
+Support for the possibility of this second reading comes from the fact that you can also state the facts as in (6c).
+
+&lt;ex&gt;(6c) &lt;fex name="ite"&gt;Smallville&lt;/fex&gt; &lt;t&gt;increased&lt;/t&gt; &lt;fex name="Diff"&gt;fourfold&lt;/fex&gt; &lt;fex name="att"&gt;in population&lt;/fex&gt; &lt;fex name="val2"&gt;to 807&lt;/fex&gt;.&lt;/ex&gt;
+
+
+The last complication is that &lt;fen&gt;Initial_value&lt;/fen&gt; expressions can also function as the subject, which superficially look like expressions of &lt;fen&gt;Attribute&lt;/fen&gt;.
+
+&lt;ex&gt;(7) &lt;fex name="val1"&gt;The 1999 price&lt;/fex&gt; had &lt;t&gt;increased&lt;/t&gt; &lt;fex name="val2"&gt;to $3400&lt;/fex&gt; &lt;fex name="Time"&gt;by 2001&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;(7--second layer) The 1999 &lt;fex name="att"&gt;price&lt;/fex&gt; had &lt;t&gt;increased&lt;/t&gt; to $3400 by 2001.&lt;/ex&gt;
+
+There is no &lt;fen&gt;Attribute&lt;/fen&gt; "1999 price" here (though the concept is plausible in certain special statistical contexts where prices are indexed to prices of a particular year). (7) simply reports that the value of the price-&lt;fen&gt;Attribute&lt;/fen&gt; changed from whatever it was in 1999 to the new value of $3400 by 2001. For sentence (7), &lt;fen&gt;Attribute&lt;/fen&gt; would only be indicated as "price" on the 2nd layer.
+&lt;/def-root&gt;</definition>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="03/05/2001 05:08:06 PST Mon" abbrev="att" name="Attribute" ID="418">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Attribute&lt;/fen&gt; is a scalar property that the &lt;fen&gt;Item&lt;/fen&gt; possesses.&lt;ex&gt;&lt;fex name="Item"&gt;Oil&lt;/fex&gt; &lt;t&gt;rose&lt;/t&gt; &lt;fex name="Attribute"&gt;in price&lt;/fex&gt; &lt;fex name="Diff"&gt;by 2%&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="000000" coreType="Core" cBy="JKR" cDate="03/05/2001 05:15:45 PST Mon" abbrev="ite" name="Item" ID="419">
+    <definition>&lt;def-root&gt;The entity that has a position on the scale.
+
+
+&lt;ex&gt;I fear &lt;fex name="Item"&gt;this service&lt;/fex&gt; will &lt;t&gt;diminish&lt;/t&gt; in quality.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="006400" coreType="Core" cBy="JKR" cDate="03/05/2001 05:18:05 PST Mon" abbrev="Diff" name="Difference" ID="420">
+    <definition>&lt;def-root&gt;The distance by which an &lt;fen&gt;Item&lt;/fen&gt; changes its position on the scale.&lt;ex&gt;Oil &lt;t&gt;rose&lt;/t&gt; in price &lt;fex name="Diff"&gt;by 2%&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="03/05/2001 05:20:52 PST Mon" abbrev="Path" name="Path" ID="421">
+    <definition>&lt;def-root&gt;Any expression that gives information about points on the scale that the &lt;fen&gt;Item&lt;/fen&gt; traverses between the starting and ending point of its movement along the scale.&lt;ex&gt;The price of oil &lt;t&gt;moved&lt;/t&gt; &lt;fex name="Path"&gt;up&lt;/fex&gt; last month.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="03/05/2001 05:24:41 PST Mon" abbrev="val2" name="Final_value" ID="422">
+    <definition>&lt;def-root&gt;The position on the scale where the &lt;fen&gt;Item&lt;/fen&gt; ends up.
+&lt;ex&gt;Microsoft shares &lt;t&gt;fell&lt;/t&gt; &lt;fex name="val2"&gt;to 7 5/8&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Value_range" ID="5690"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="03/05/2001 05:27:19 PST Mon" abbrev="val1" name="Initial_value" ID="423">
+    <definition>&lt;def-root&gt;The initial position on the scale from which the &lt;fen&gt;Item&lt;/fen&gt; moves away.
+&lt;ex&gt;Microsoft shares &lt;t&gt;fell&lt;/t&gt; &lt;fex name="val1"&gt;from 12 3/8&lt;/fex&gt; to 7 5/8.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Value_range" ID="5690"/>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="03/22/2001 05:43:37 PST Thu" abbrev="Speed" name="Speed" ID="448">
+    <definition>&lt;def-root&gt;The rate of change of the Value.&lt;ex&gt;Prices are &lt;t&gt;rising&lt;/t&gt; &lt;fex name="Speed"&gt;by 2% a year&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Speed" ID="234"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="03/22/2001 05:47:29 PST Thu" abbrev="cor" name="Correlated_variable" ID="449">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Correlated_variable&lt;/fen&gt; is an ordered progression of positions or values (most often a sequence of spatial locations) that the (dependent) &lt;fen&gt;Attribute&lt;/fen&gt; is measured against. The &lt;fen&gt;Correlated_variable&lt;/fen&gt; is metaphorically mapped onto the progression of time, and in the absence of this FE, changes are simply measured against (forward-directional) time.
+
+&lt;ex&gt;The amount of power &lt;t&gt;increases&lt;/t&gt; &lt;fex name="cor"&gt;with the frequency of the laser&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="cor"&gt;As you travel along the Quan-duo road&lt;/fex&gt;, the poverty level &lt;t&gt;soars&lt;/t&gt; dramatically.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="BoC" cDate="07/02/2001 09:41:52 PDT Mon" abbrev="Manr" name="Manner" ID="1252">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Manner&lt;/fen&gt; of performing an action&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="BoC" cDate="07/02/2001 09:43:17 PDT Mon" abbrev="Degr" name="Degree" ID="1263">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Degree&lt;/fen&gt; to which event occurs&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="BoC" cDate="07/02/2001 09:43:30 PDT Mon" abbrev="cir" name="Circumstances" ID="1265">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Circumstances&lt;/fen&gt; under which the change of position takes place.
+&lt;ex&gt;The eggs will only &lt;t&gt;increase&lt;/t&gt; &lt;fex name="Circumstances"&gt;under pressure&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="EEE8AA" fgColor="0000FF" coreType="Extra-Thematic" cBy="BoC" cDate="07/02/2001 09:43:52 PDT Mon" abbrev="Result" name="Result" ID="1266">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Result&lt;/fen&gt;. of an event&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="07/16/2001 08:33:50 PDT Mon" abbrev="Grp" name="Group" ID="1447">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Group&lt;/fen&gt; in which an &lt;fen&gt;Item&lt;/fen&gt; changes the value of a &lt;fen&gt;Attribute&lt;/fen&gt; in a specified way.&lt;ex&gt;Colon cancer incidence &lt;t&gt;fell&lt;/t&gt; by 50 % &lt;fex name="Grp"&gt;among men over 30&lt;/fex&gt;.&lt;/ex&gt;&lt;ex&gt;Net foreign debt has more than &lt;t&gt;tripled&lt;/t&gt; &lt;fex name="Grp"&gt;in Africa&lt;/fex&gt; over this decade.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="06/06/2003 02:47:55 PDT Fri" abbrev="" name="Time" ID="4547">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; is the time-frame in which the change of position occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="000000" coreType="Peripheral" cBy="RLG" cDate="09/22/2003 02:15:18 PDT Mon" abbrev="Dur" name="Duration" ID="5101">
+    <definition>&lt;def-root&gt;The length of time over which the change takes place.
+&lt;ex&gt;The amount of troops in the war will no doubt &lt;t&gt;double&lt;/t&gt; &lt;fex name="Dur"&gt;over the next several years&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Duration" ID="142"/>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="0000FF" coreType="Core" cBy="JKR" cDate="10/20/2003 06:46:49 PDT Mon" abbrev="" name="Value_range" ID="5690">
+    <definition>&lt;def-root&gt;A portion of the scale, typically identified by its end points, along which the values of the &lt;fen&gt;Attribute&lt;/fen&gt; fluctuate.
+
+&lt;ex&gt;The patient's temperature &lt;t&gt;fluctuated&lt;/t&gt; &lt;fex name="Value_range"&gt;between 28.5 and 29.5&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/30/2004 06:34:48 PDT Fri" abbrev="cor1" name="Initial_correlate" ID="6980">
+    <definition>&lt;def-root&gt;The value, location, or state-of-affairs that corresponds to the &lt;fen&gt;Initial_value&lt;/fen&gt; of the &lt;fen&gt;Attribute&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="cor1"&gt;From Monterrey&lt;/fex&gt; to southern Oregon, tree height &lt;t&gt;increases&lt;/t&gt; steadily in this species to a stunning 50 meters.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/30/2004 06:40:49 PDT Fri" abbrev="cor2" name="Final_correlate" ID="6982">
+    <definition>&lt;def-root&gt;The value, location, or state-of-affairs that corresponds to the &lt;fen&gt;Final_value&lt;/fen&gt; of the &lt;fen&gt;Attribute&lt;/fen&gt;.
+
+&lt;ex&gt;From Monterrey &lt;fex name="cor2"&gt;to southern Oregon&lt;/fex&gt;, tree height &lt;t&gt;increases&lt;/t&gt; steadily in this species to a stunning 50 meters.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFD700" fgColor="000000" coreType="Peripheral" cBy="MiL" cDate="08/02/2004 04:41:28 PDT Mon" abbrev="" name="Place" ID="6990">
+    <definition>&lt;def-root&gt;A location where Attribute is measured&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="7CCD7C" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="08/02/2005 01:58:29 PDT Tue" abbrev="inis" name="Initial_state" ID="8764">
+    <definition>&lt;def-root&gt;A description that presents the &lt;fen&gt;Item&lt;/fen&gt;'s state before the change in the &lt;fen&gt;Attribute&lt;/fen&gt;'s value as an independent predication.
+
+&lt;ex&gt;Diesels have &lt;t&gt;increased&lt;/t&gt; &lt;fex name="inis"&gt;from having a 20% market share in 1995&lt;/fex&gt; to just over 30% in 2004.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Value_range" ID="5690"/>
+  </FE>
+  <FE bgColor="7CCD73" fgColor="00008B" coreType="Core" cBy="JKR" cDate="08/02/2005 02:01:59 PDT Tue" abbrev="finis" name="Final_state" ID="8765">
+    <definition>&lt;def-root&gt;A description that presents the &lt;fen&gt;Item&lt;/fen&gt;'s state after  the change in the &lt;fen&gt;Attribute&lt;/fen&gt;'s value as an independent predication.
+
+&lt;ex&gt;It was never bad (1 or 2 seizures a year), but this past decade, it has &lt;t&gt;increased&lt;/t&gt;
+&lt;fex name="finis"&gt;to having them 1 day a month&lt;/fex&gt; and on that 1 day I have 6 or 7 seizures.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Value_range" ID="5690"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="09/13/2006 02:30:15 PDT Wed" abbrev="" name="Period_of_iterations" ID="10615">
+    <definition>&lt;def-root&gt;The length of time from when the event denoted by the target began to be repeated to when it stopped.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="00008B" coreType="Extra-Thematic" cBy="KmG" cDate="10/30/2007 01:04:45 PDT Tue" abbrev="" name="Particular_iteration" ID="12038">
+    <definition>&lt;def-root&gt;Expressions marked with this extra-thematic FE modify a non-iterative use of the target, and indicate that it is conceived as embedded within an iterated series of similar events or states.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="EEE8AA" fgColor="000000" coreType="Extra-Thematic" cBy="RLG" cDate="10/14/2011 05:45:18 PDT Fri" abbrev="con" name="Containing_event" ID="15260">
+    <definition>&lt;def-root&gt;An event that occurs or state of affairs that holds at a time that includes the time during which the quantity change takes place and of which it is taken to be a part.
+
+&lt;ex&gt;Hong Kong : Buying by London institutions helped the Hang Seng index to climb 39.95 points to 2,786.65 &lt;fex name="con"&gt;in moderate trade&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="000000" coreType="Extra-Thematic" cBy="MJE" cDate="07/21/2014 12:01:35 PDT Mon" abbrev="exp" name="Explanation" ID="16167">
+    <definition>&lt;def-root&gt;The situation or state-of-affairs that results in the change in quantity described in this instance of the frame.
+
+&lt;ex&gt;Her panic had &lt;t&gt;declined&lt;/t&gt; &lt;fex name="Explanation"&gt;because I spent two hours explaining what you did&lt;/fex&gt; !&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Value_range" ID="5690"/>
+    <memberFE name="Final_state" ID="8765"/>
+    <memberFE name="Initial_state" ID="8764"/>
+    <memberFE name="Difference" ID="420"/>
+    <memberFE name="Initial_value" ID="423"/>
+    <memberFE name="Final_value" ID="422"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="187">Event</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="1599">Proliferating_in_number</relatedFrame>
+    <relatedFrame ID="797">Change_of_temperature</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1030">Remainder</relatedFrame>
+    <relatedFrame ID="2201">Change_of_quantity_of_possession</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of">
+    <relatedFrame ID="95">Position_on_a_scale</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872054961" POS="N" cBy="automatic" cDate="09/23/2020 14:40:54 UTC Wed" lemmaID="180" lu_type="singleton" name="escalatie.n" status="Created" FN_EN_LU_ID="13274" Method="Iteration-1" RBN_LU_ID="r_n-12612" RBN_matching_relation="near_equivalence">
+    <definition>van het steeds erger worden van iets, uit de hand lopen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="escalatie" order="1"/>
+  </lexUnit>
+</frame>

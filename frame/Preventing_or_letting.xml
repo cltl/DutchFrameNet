@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="01/20/2003 02:11:28 PST Mon" name="Preventing_or_letting" ID="516" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Potential_hindrance&lt;/fen&gt; or an &lt;fen&gt;Agent&lt;/fen&gt; (via their actions) keeps an &lt;fen&gt;Event&lt;/fen&gt; from taking place, or despite the possibility of prevent the &lt;fen&gt;Event&lt;/fen&gt;, do not do so. Lexical units which indicate that the event is not prevented, e.g. allow.v, are marked with the semantic type "Negative".  Some lexical units, like &lt;t&gt;avert&lt;/t&gt; and &lt;t&gt;avoid&lt;/t&gt; indicate that the &lt;fen&gt;Potential_hindrance&lt;/fen&gt; or &lt;fen&gt;Agent&lt;/fen&gt; would have been affected if the &lt;fen&gt;Event&lt;/fen&gt; occurred. 
+
+&lt;ex&gt; &lt;fex name="Potential_hindrance"&gt;Rain&lt;/fex&gt; &lt;t&gt;prevented&lt;/t&gt; &lt;fex name="Event"&gt;the ball game&lt;/fex&gt; &lt;fex name="Event"&gt;from taking place&lt;/fex&gt;.&lt;/ex&gt; 
+
+&lt;ex&gt; &lt;fex name="Agent"&gt;He&lt;/fex&gt; could have &lt;t&gt;stopped&lt;/t&gt; &lt;fex name="Event"&gt;the riot&lt;/fex&gt; .&lt;/ex&gt;
+
+&lt;ex&gt; &lt;fex name="Potential_hindrance"&gt;The government&lt;/fex&gt; narrowly &lt;t&gt;averted&lt;/t&gt; &lt;fex name="Event"&gt;a coup&lt;/fex&gt; . &lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Potential_hindrance"&gt;She&lt;/fex&gt; &lt;t&gt;allowed&lt;/t&gt; &lt;fex name="Event"&gt;more than a few mistakes&lt;/fex&gt; &lt;fex name="Event"&gt;to happen&lt;/fex&gt; .&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Potential_hindrance"&gt;Technology&lt;/fex&gt; has &lt;t&gt;permitted&lt;/t&gt; &lt;fex name="Event"&gt;firms&lt;/fex&gt; &lt;fex name="Event"&gt;to link together more closely&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Unlike DOS , &lt;fex name="Potential_hindrance"&gt;Windows&lt;/fex&gt; &lt;t&gt;lets&lt;/t&gt; &lt;fex name="Event"&gt;you&lt;/fex&gt; &lt;fex name="Event"&gt;get on with something else&lt;/fex&gt; &lt;fex name="Time"&gt;when sending a fax&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Potential_hindrance"&gt;Liberalization&lt;/fex&gt; &lt;t&gt;allows&lt;/t&gt; &lt;fex name="Event"&gt;easier entry into particular markets&lt;/fex&gt; .&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Potential_hindrance"&gt;Mesh&lt;/fex&gt; &lt;t&gt;allows&lt;/t&gt; &lt;fex name="Event"&gt;the water&lt;/fex&gt; &lt;fex name="Event"&gt;to circulate normally through the aquarium&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+
+Unlike in the Thwarting frame, the &lt;fen&gt;Potential_hindrance&lt;/fen&gt; or &lt;fen&gt;Agent&lt;/fen&gt; does not directly prevent the actions of an individual, but rather affects the world in such a way that an &lt;fen&gt;Event&lt;/fen&gt; cannot occur.&lt;/def-root&gt;</definition>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="01/22/2003 05:15:43 PST Wed" abbrev="Pre" name="Potential_hindrance" ID="4114">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Potential_hindrance&lt;/fen&gt; is the force which keeps the &lt;fen&gt;Event&lt;/fen&gt; from happening, or does not.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="01/22/2003 05:16:40 PST Wed" abbrev="Event" name="Event" ID="4115">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Event&lt;/fen&gt; is prevented from occurring by the &lt;fen&gt;Preventing_cause&lt;/fen&gt; or the &lt;fen&gt;Agent&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="01/22/2003 05:41:06 PST Wed" abbrev="Time" name="Time" ID="4117">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; is when the &lt;fen&gt;Potential_hindrance&lt;/fen&gt; or &lt;fen&gt;Agent&lt;/fen&gt; keeps the &lt;fen&gt;Event&lt;/fen&gt; from taking place.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="01/22/2003 05:41:45 PST Wed" abbrev="Place" name="Place" ID="4118">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Place&lt;/fen&gt; is where the &lt;fen&gt;Potential_hindrance&lt;/fen&gt; or &lt;fen&gt;Agent&lt;/fen&gt; keeps the &lt;fen&gt;Event&lt;/fen&gt; from taking place.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="KmG" cDate="04/25/2008 03:56:21 PDT Fri" abbrev="Age" name="Agent" ID="12601">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Agent&lt;/fen&gt; is the sentient being which keeps the &lt;fen&gt;Event&lt;/fen&gt; from happening.&lt;/def-root&gt;</definition>
+    <excludesFE name="Potential_hindrance" ID="4114"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKs" cDate="06/17/2008 11:27:20 PDT Tue" abbrev="" name="Degree" ID="12805">
+    <definition>&lt;def-root&gt;This frame element selects some gradable attribute and modifies the expected value for it.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/31/2016 06:40:55 PDT Wed" abbrev="" name="Circumstances" ID="16881">
+    <definition>&lt;def-root&gt;A situation that accompanies the preventing or allowing.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/31/2016 06:42:50 PDT Wed" abbrev="" name="Manner" ID="16882">
+    <definition>&lt;def-root&gt;Any description of details of the event that influence the overall understanding and impression, such as the attitude of an &lt;fen&gt;Agent&lt;/fen&gt; (casually) or the overall nature of the event (the same way).&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/31/2016 06:57:36 PDT Wed" abbrev="" name="Means" ID="16883">
+    <definition>&lt;def-root&gt;The action performed by an &lt;fen&gt;Agent&lt;/fen&gt; that brings about the prevention or allowing.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Extra-Thematic" cBy="MJE" cDate="08/31/2016 06:58:38 PDT Wed" abbrev="" name="Event_description" ID="16884">
+    <definition>&lt;def-root&gt;In general, this FE is used for phrases that describe the clause of the target as a whole. There are two somewhat distinct subgroups of sentence modifiers that cover this function.
+
+First, it applies to appraisals of the event, typically a judgment of its expectedness. The notion of appraisal requires a factive portrayal of the event. The second subgroup consists of any descriptions of the state of affairs denoted by the target as role fillers in other frames. The state of affairs reported by the target is understood to play a role in the state of affairs of the modifier. What that role is depends only on the predicate heading the modifier phrase.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="000000" coreType="Extra-Thematic" cBy="MJE" cDate="08/31/2016 06:59:20 PDT Wed" abbrev="" name="Depictive" ID="16885">
+    <definition>&lt;def-root&gt;A description of the &lt;fen&gt;Agent&lt;/fen&gt; or an entity of the &lt;fen&gt;Event&lt;/fen&gt; while they are involved in the action.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/31/2016 07:00:42 PDT Wed" abbrev="" name="Period_of_iterations" ID="16886">
+    <definition>&lt;def-root&gt;The length of time from when the event denoted by the target began to be repeated to when it stopped.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="000000" coreType="Extra-Thematic" cBy="MJE" cDate="08/31/2016 07:01:47 PDT Wed" abbrev="" name="Allowed_category" ID="16887">
+    <definition>&lt;def-root&gt;A category that the &lt;fen&gt;Event&lt;/fen&gt; fits into, which dictates the &lt;fen&gt;Event&lt;/fen&gt;'s being permitted or prevented (in accord with some implicit Principle.)
+
+&lt;ex&gt;The transfer was &lt;t&gt;sanctioned&lt;/t&gt; &lt;fex name="Allowed_category"&gt;as a "necessary precaution"&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/31/2016 07:05:46 PDT Wed" abbrev="" name="Explanation" ID="16889">
+    <definition>&lt;def-root&gt;This FE denotes a proposition from which the main clause (headed by the target) logically follows. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/31/2016 07:06:32 PDT Wed" abbrev="" name="Frequency" ID="16890">
+    <definition>&lt;def-root&gt;How often the event occurs.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="000000" coreType="Extra-Thematic" cBy="MJE" cDate="08/31/2016 07:07:31 PDT Wed" abbrev="" name="Purpose" ID="16891">
+    <definition>&lt;def-root&gt;The situation that the &lt;fen&gt;Agent&lt;/fen&gt; hopes to bring about with their action.&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Potential_hindrance" ID="4114"/>
+    <memberFE name="Agent" ID="12601"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="2056">Prevent_or_allow_possession</relatedFrame>
+    <relatedFrame ID="2651">Self_control</relatedFrame>
+    <relatedFrame ID="518">Thwarting</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on">
+    <relatedFrame ID="217">Causation_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="187">Event</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="2061">Level_of_force_resistance</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600873779557" POS="V" cBy="automatic" cDate="09/23/2020 15:09:39 UTC Wed" lemmaID="699" lu_type="phrasal" name="afweren.v" status="Created" FN_EN_LU_ID="8121" Method="Iteration-1" RBN_LU_ID="r_v-915" RBN_matching_relation="near_equivalence">
+    <definition>op een afstand houden, niet dichtbij laten komen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme breakBefore="false" headword="false" name="af" order="1"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="weren" order="2"/>
+  </lexUnit>
+  <lexUnit ID="1600873782618" POS="N" cBy="automatic" cDate="09/23/2020 15:09:42 UTC Wed" lemmaID="700" lu_type="singleton" name="preventie.n" status="Created" FN_EN_LU_ID="8174" Method="Iteration-1" RBN_LU_ID="r_n-29580" RBN_matching_relation="near_equivalence">
+    <definition>om nare dingen, zoals brand, diefstal ed. te voorkomen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="preventie" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873785841" POS="V" cBy="manual" cDate="09/23/2020 15:09:45 UTC Wed" lemmaID="701" lu_type="singleton" name="activeren.v" status="Created" FN_EN_LU_ID="18789" Method="Iteration-1" RBN_LU_ID="r_v-412" RBN_matching_relation="near_equivalence">
+    <definition>actief maken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="activeren" order="1"/>
+  </lexUnit>
+</frame>

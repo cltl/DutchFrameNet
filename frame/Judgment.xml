@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:56 PST Wed" name="Judgment" ID="28" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; makes a judgment about an &lt;fen&gt;Evaluee&lt;/fen&gt;. The judgment may be positive (e.g. &lt;ment&gt;respect&lt;/ment&gt;) or negative (e.g. &lt;ment&gt;condemn&lt;/ment&gt;), and this information is recorded in the semantic types Positive and Negative on the Lexical Units of this frame. There may be a specific &lt;fen&gt;Reason&lt;/fen&gt; for the &lt;fen&gt;Cognizer&lt;/fen&gt;'s judgment, or there may be a capacity or &lt;fen&gt;Role&lt;/fen&gt; in which the &lt;fen&gt;Evaluee&lt;/fen&gt; is judged. 
+&lt;ex&gt;&lt;/ex&gt;
+This frame is distinct from the Judgment_communication frame in that this frame does not involve the Cognizer communicating his or her judgment to an Addressee.  
+&lt;ex&gt;JUDGMENT:  She &lt;t&gt;admired&lt;/t&gt; Einstein for his character.&lt;/ex&gt;
+&lt;ex&gt;JUDGMENT_COMMUNICATION:  She &lt;t&gt;accused&lt;/t&gt; Einstein of collusion.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+Currently, however, some lexical units and annotation for both remain in this frame.&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:56 PST Wed" abbrev="Cog" name="Cognizer" ID="115">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Cognizer&lt;/fen&gt; makes the judgment. This role is typically expressed as the External Argument (or in a &lt;ment&gt;by&lt;/ment&gt;-PP in passives).
+&lt;ex&gt;&lt;fex name="Cognizer"&gt;The boss&lt;/fex&gt; &lt;t&gt;appreciates&lt;/t&gt; you for your diligence.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Cognizer"&gt;The boss&lt;/fex&gt; is very &lt;t&gt;appreciative&lt;/t&gt; of my work.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:57 PST Wed" abbrev="Eval" name="Evaluee" ID="116">
+    <definition>&lt;def-root&gt;Evaluee is the person or thing about whom/which a judgment is made. With verbs this FE is typically expressed as Object: 
+&lt;ex&gt;The boss &lt;t&gt;appreciates&lt;/t&gt; &lt;fex name="Eval"&gt;you&lt;/fex&gt; for your diligence. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:57 PST Wed" abbrev="Reas" name="Reason" ID="117">
+    <definition>&lt;def-root&gt;Typically, there is a constituent expressing the &lt;t&gt;Reason&lt;/t&gt; for the Judge's judgment. It is usually a &lt;ment&gt;for&lt;/ment&gt;-PP, e.g.
+&lt;ex&gt;I &lt;t&gt;admire&lt;/t&gt; you &lt;fex name="Reason"&gt;for your intellect&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ChW" cDate="02/07/2001 04:11:57 PST Wed" abbrev="Role" name="Role" ID="118">
+    <definition>&lt;def-root&gt; &lt;fen&gt;Role&lt;/fen&gt; is used for the capacity in which the &lt;fen&gt;Evaluee&lt;/fen&gt; is judged, and is expressed in &lt;ment&gt;as&lt;/ment&gt;-PPs. &lt;ex&gt;I &lt;t&gt;admire&lt;/t&gt; you &lt;fex name="Role"&gt;as a composer&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root &gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:57 PST Wed" abbrev="Exr" name="Expressor" ID="119">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Expressor&lt;/fen&gt; is the body part or action by a body part that conveys the judgment made by the &lt;fen&gt;Cognizer&lt;/fen&gt;. 
+&lt;ex&gt;She viewed him with an &lt;t&gt;appreciative&lt;/t&gt; &lt;fex name="Expressor"&gt;gaze&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/25/2001 12:34:27 PDT Mon" abbrev="Degr" name="Degree" ID="1064">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Degree&lt;/fen&gt; to which the judging occurs.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="06/25/2001 12:34:28 PDT Mon" abbrev="Depict" name="Depictive" ID="1065">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Depictive&lt;/fen&gt; identifies any expression describing the state of a participant in the event.
+&lt;ex&gt;We &lt;t&gt;admire&lt;/t&gt; him , &lt;fex name="Depict"&gt;certain that he is a great leader&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/25/2001 12:34:28 PDT Mon" abbrev="Manr" name="Manner" ID="1068">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Manner&lt;/fen&gt; of judging.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/25/2001 12:34:28 PDT Mon" abbrev="Mns" name="Means" ID="1069">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Means&lt;/fen&gt; by which the &lt;fen&gt;Cognizer&lt;/fen&gt; judges the &lt;fen&gt;Evaluee&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MRLP" cDate="09/18/2002 04:35:25 PDT Wed" abbrev="Top" name="Topic" ID="3720">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Topic&lt;/fen&gt; identifies the entity to which the proposition or propositions conveyed relate. 
+&lt;ex&gt;Jon was &lt;t&gt;disapproving&lt;/t&gt;  &lt;fex name="Topic"&gt;about Madie's managerial style&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="06/06/2003 02:10:20 PDT Fri" abbrev="" name="Extent_of_acclaim" ID="4546">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Extent_of_acclaim&lt;/fen&gt; is a description of the number or locales of the &lt;fen&gt;Cognizer&lt;/fen&gt;s. &lt;ex&gt;&lt;fex name="Evaluee"&gt;The proposal&lt;/fex&gt; &lt;m&gt;gained&lt;/m&gt;&lt;fex name="Extent_of_acclaim"&gt;widespread&lt;/fex&gt; &lt;t&gt;approbation&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="00008B" coreType="Extra-Thematic" cBy="KmG" cDate="10/30/2007 12:49:39 PDT Tue" abbrev="" name="Result" ID="12036">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Result&lt;/fen&gt; of the judgement event.&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Expressor" ID="119"/>
+    <memberFE name="Cognizer" ID="115"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1712">Emotions</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="219">Judgment_communication</relatedFrame>
+    <relatedFrame ID="1400">Regard</relatedFrame>
+    <relatedFrame ID="399">Praiseworthiness</relatedFrame>
+    <relatedFrame ID="2252">Exemplar</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="219">Judgment_communication</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="1600872976507" POS="A" cBy="automatic" cDate="09/23/2020 14:56:16 UTC Wed" lemmaID="453" lu_type="singleton" name="minachtend.a" status="Created" FN_EN_LU_ID="364" Method="Iteration-1" RBN_LU_ID="r_a-12876" RBN_matching_relation="near_equivalence">
+    <definition>met minachting</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="minachtend" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872979663" POS="N" cBy="automatic" cDate="09/23/2020 14:56:19 UTC Wed" lemmaID="454" lu_type="singleton" name="accolade.n" status="Created" FN_EN_LU_ID="4167" Method="Iteration-1" RBN_LU_ID="r_n-2541" RBN_matching_relation="near_equivalence">
+    <definition>in schrift of druk dat regels verbindt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="accolade" order="1"/>
+  </lexUnit>
+</frame>

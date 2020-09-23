@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:25 PST Wed" name="Sociability" ID="74" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;These words describe how outgoing or sociable a &lt;fen&gt;Protagonist&lt;/fen&gt; is judged to be by a (usually implicit) &lt;fen&gt;Judge&lt;/fen&gt;, often in a particular context, either with certain people (the &lt;fen&gt;Company&lt;/fen&gt;), or about a particular situation, topic or event (the &lt;fen&gt;Content&lt;/fen&gt;).  
+
+As opposed to the Social_interaction_evaluation frame, this frame talks about &lt;ment&gt;how much&lt;/ment&gt; someone interacts, not &lt;ment&gt;how well&lt;/ment&gt;.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Protagonist"&gt;He&lt;/fex&gt; &lt;m&gt;was&lt;/m&gt; &lt;t&gt;shy&lt;/t&gt; &lt;fex name="Company"&gt;with strangers&lt;/fex&gt; and afraid of showing his feelings.&lt;/ex&gt;
+
+&lt;ex&gt;Unfortunately &lt;fex name="Protagonist"&gt;he&lt;/fex&gt;'&lt;m&gt;s&lt;/m&gt; &lt;fex name="Degree"&gt;very&lt;/fex&gt; &lt;t&gt;gregarious&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:25 PST Wed" abbrev="Prot" name="Protagonist" ID="351">
+    <definition>&lt;def-root&gt;The Protagonist is the person whose sociability is being described. 
+&lt;ex&gt;&lt;fex name="Protagonist"&gt;Pat&lt;/fex&gt; is &lt;t&gt;sociable&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;Pat was a very &lt;t&gt;shy&lt;/t&gt; &lt;fex name="Protagonist"&gt;child&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Protagonist"&gt;Pat&lt;/fex&gt; is a &lt;t&gt;loner&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;Everyone had heard about the &lt;t&gt;recluse&lt;/t&gt; &lt;fex name="Protagonist"&gt;SLF&lt;/fex&gt; who lived on the hill. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="000000" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:25 PST Wed" abbrev="Comp" name="Company" ID="352">
+    <definition>&lt;def-root&gt;The Protagonist may be sociable, shy, outgoing, etc. when with particular Company (specific people or types of people).  Company usually occurs in a PP Complement with a target adjective: &lt;ex&gt;Kim is &lt;t&gt;shy&lt;/t&gt; &lt;fex name="Company"&gt;of strangers&lt;/fex&gt;.&lt;/ex&gt; 
+&lt;ex&gt;The children are &lt;t&gt;friendly&lt;/t&gt; &lt;fex name="Company"&gt;to everyone they meet&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:25 PST Wed" abbrev="Cont" name="Content" ID="353">
+    <definition>&lt;def-root&gt;The Protagonist may be sociable, shy, outgoing, etc. when in a particular situation, or about performing some action. 
+&lt;ex&gt;Kim is &lt;t&gt;outgoing&lt;/t&gt; &lt;fex name="Content"&gt;when traveling alone&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Kim is &lt;t&gt;timid&lt;/t&gt; &lt;fex name="Content"&gt;about meeting new people&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Content" ID="55"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="07/17/2001 02:58:46 PDT Tue" abbrev="Manr" name="Manner" ID="1515">
+    <definition>&lt;def-root&gt;Manner of performing an action&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="07/17/2001 02:58:49 PDT Tue" abbrev="Degr" name="Degree" ID="1516">
+    <definition>&lt;def-root&gt;Degree to which event occurs&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="05/06/2004 02:19:09 PDT Thu" abbrev="jud" name="Judge" ID="6394">
+    <definition>&lt;def-root&gt;The individual whose point of view is taken in assigning the judgment denoted by the target.
+
+&lt;ex&gt;Pongo is very &lt;t&gt;shy&lt;/t&gt;, &lt;fex name="jud"&gt;In my opinion&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="377">Inclination</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="369">Social_behavior_evaluation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="372">Social_interaction_evaluation</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="1600874128852" POS="A" cBy="automatic" cDate="09/23/2020 15:15:28 UTC Wed" lemmaID="802" lu_type="singleton" name="introvert.a" status="Created" FN_EN_LU_ID="1618" Method="Iteration-1" RBN_LU_ID="r_a-11955" RBN_matching_relation="near_equivalence">
+    <definition>niet extravert</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="introvert" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874132136" POS="A" cBy="automatic" cDate="09/23/2020 15:15:32 UTC Wed" lemmaID="803" lu_type="singleton" name="eenzelvig.a" status="Created" FN_EN_LU_ID="1618" Method="Iteration-1" RBN_LU_ID="r_a-10371" RBN_matching_relation="near_equivalence">
+    <definition>teruggetrokken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="eenzelvig" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874135341" POS="N" cBy="automatic" cDate="09/23/2020 15:15:35 UTC Wed" lemmaID="804" lu_type="singleton" name="kluizenaar.n" status="Created" FN_EN_LU_ID="1621" Method="Iteration-1" RBN_LU_ID="r_n-19904" RBN_matching_relation="near_equivalence">
+    <definition>die ver van andere mensen woont en niet naar gezelschap verlangt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="kluizenaar" order="1"/>
+  </lexUnit>
+</frame>

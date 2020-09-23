@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="09/28/2001 12:54:36 PDT Fri" name="Body_description_part" ID="235" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame is concerned with words that describe a person based on a salient part of their body.
+&lt;ex&gt;He was a &lt;t&gt;blonde&lt;/t&gt; &lt;fex name="Individual"&gt;guy&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Individual"&gt;He&lt;/fex&gt; was a &lt;t&gt;peg-leg&lt;/t&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MRLP" cDate="04/25/2002 05:35:16 PDT Thu" abbrev="Ind" name="Individual" ID="2675">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Individual&lt;/fen&gt; (or individuals) being described.  &lt;ex&gt;&lt;fex name="Ind"&gt;Chuck&lt;/fex&gt; is a &lt;t&gt;redhead&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root &gt;</definition>
+    <semType name="Human" ID="80"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="04/29/2002 10:58:37 PDT Mon" abbrev="Fig" name="Figure" ID="2697">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Figure&lt;/fen&gt; or form being described by the target.
+&lt;ex&gt;The &lt;t&gt;red-haired&lt;/t&gt; &lt;fex name="Fig"&gt;figure&lt;/fex&gt; stood in the doorway.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="04/29/2002 10:58:47 PDT Mon" abbrev="Degr" name="Degree" ID="2698">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Degree&lt;/fen&gt; to which the body description applies.
+
+&lt;ex&gt;Mort is &lt;fex name="Degree"&gt;extremely&lt;/fex&gt; &lt;t&gt;flat-footed&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Individual" ID="2675"/>
+    <memberFE name="Figure" ID="2697"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1015">Gradable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="119">Body_parts</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600871675744" POS="N" cBy="automatic" cDate="09/23/2020 14:34:35 UTC Wed" lemmaID="81" lu_type="singleton" name="brunette.n" status="Created" FN_EN_LU_ID="5650" Method="Iteration-1" RBN_LU_ID="r_n-8679" RBN_matching_relation="near_equivalence">
+    <definition>met bruine haren</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="brunette" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871679817" POS="N" cBy="automatic" cDate="09/23/2020 14:34:39 UTC Wed" lemmaID="82" lu_type="singleton" name="albino.n" status="Created" FN_EN_LU_ID="5654" Method="Iteration-1" RBN_LU_ID="r_n-3232" RBN_matching_relation="near_equivalence">
+    <definition>zonder pigment, met een witte huid, wit haar en rode ogen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="albino" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871685066" POS="A" cBy="automatic" cDate="09/23/2020 14:34:45 UTC Wed" lemmaID="83" lu_type="singleton" name="scheel.a" status="Created" FN_EN_LU_ID="5658" Method="Iteration-1" RBN_LU_ID="r_a-14816" RBN_matching_relation="near_equivalence">
+    <definition>loens</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="scheel" order="1"/>
+  </lexUnit>
+</frame>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="AlK" cDate="12/07/2009 01:31:33 PST Mon" name="Turning_out" ID="2191" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;State_of_affairs&lt;/fen&gt; turns out to be true in someone's knowledge of the world. This may be recognized with evidence or in certain circumstances. The cognizer whose beliefs are affected is not expressed.
+
+&lt;ex&gt;&lt;fex name="State_of_affairs"&gt;Hybrid grass&lt;/fex&gt; may &lt;t&gt;prove&lt;/t&gt; &lt;fex name="State_of_affairs"&gt;to be a valuable fuel source&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="AlK" cDate="12/07/2009 02:18:25 PST Mon" abbrev="SOA" name="State_of_affairs" ID="13471">
+    <definition>&lt;def-root&gt;The state of affairs that a cognizer realizes.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="AlK" cDate="12/07/2009 02:46:41 PST Mon" abbrev="" name="Time" ID="13473">
+    <definition>&lt;def-root&gt;The time at which the &lt;fen&gt;State_of_affairs&lt;/fen&gt; is realized.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="23">Coming_to_believe</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

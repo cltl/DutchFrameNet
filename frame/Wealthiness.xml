@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:30 PST Wed" name="Wealthiness" ID="85" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Person&lt;/fen&gt; or &lt;fen&gt;Institution&lt;/fen&gt; is being described in terms of their wealthiness, in other words the amount of money in their possession.
+&lt;ex&gt;&lt;fex name="Person"&gt;Jess&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;fex name="Degree"&gt;very&lt;/fex&gt; &lt;t&gt;rich&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Inst"&gt;The university&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;t&gt;wealthy&lt;/t&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:30 PST Wed" abbrev="Pers" name="Person" ID="390">
+    <definition>&lt;def-root&gt;The individual or individuals whose wealthiness is being described.
+&lt;ex&gt;&lt;fex name="Pers"&gt;Pat and Kim&lt;/fex&gt; are completely &lt;t&gt;broke&lt;/t&gt; at the moment.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Human" ID="80"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:30 PST Wed" abbrev="Inst" name="Institution" ID="391">
+    <definition>&lt;def-root&gt;A group which has (or lacks) possession of some resource.
+&lt;ex&gt;&lt;fex name="Inst"&gt;The company&lt;/fex&gt; is &lt;t&gt;bankrupt&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/27/2002 05:53:59 PDT Tue" abbrev="Degr" name="Degree" ID="3658">
+    <definition>&lt;def-root&gt;The degree of wealthiness (or poverty) of the &lt;fen&gt;Person&lt;/fen&gt; or &lt;fen&gt;Institution&lt;/fen&gt;.
+&lt;ex&gt;The &lt;fex name="Degr"&gt;most&lt;/fex&gt; &lt;t&gt;affluent&lt;/t&gt; landowners never pretended there was a democracy.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="12/09/2005 12:34:16 PST Fri" abbrev="typ" name="Type_of_possession" ID="9753">
+    <definition>&lt;def-root&gt;A characterization of the entity (usually money) that the &lt;fen&gt;Person&lt;/fen&gt; (or &lt;fen&gt;Institution&lt;/fen&gt; possesses.
+
+&lt;ex&gt;We are rich in money, but &lt;t&gt;poor&lt;/t&gt; Type_of_possession.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Institution" ID="391"/>
+    <memberFE name="Person" ID="390"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1015">Gradable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="118">Possession</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600874538317" POS="A" cBy="automatic" cDate="09/23/2020 15:22:18 UTC Wed" lemmaID="927" lu_type="singleton" name="bankroet.a" status="Created" FN_EN_LU_ID="1795" Method="Iteration-1" RBN_LU_ID="r_a-9138" RBN_matching_relation="near_equivalence">
+    <definition>failliet</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="bankroet" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874541532" POS="A" cBy="automatic" cDate="09/23/2020 15:22:21 UTC Wed" lemmaID="928" lu_type="singleton" name="failliet.a" status="Created" FN_EN_LU_ID="1795" Method="Iteration-1" RBN_LU_ID="r_a-10626" RBN_matching_relation="near_equivalence">
+    <definition>bankroet</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="failliet" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874544644" POS="A" cBy="automatic" cDate="09/23/2020 15:22:24 UTC Wed" lemmaID="929" lu_type="singleton" name="blut.a" status="Created" FN_EN_LU_ID="1796" Method="Iteration-1" RBN_LU_ID="r_a-9347" RBN_matching_relation="near_equivalence">
+    <definition>platzak</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="blut" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874547896" POS="N" cBy="automatic" cDate="09/23/2020 15:22:27 UTC Wed" lemmaID="930" lu_type="singleton" name="armoede.n" status="Created" FN_EN_LU_ID="10302" Method="Iteration-1" RBN_LU_ID="r_n-3932" RBN_matching_relation="near_equivalence">
+    <definition>waarin iemand verkeert die bijna niets heeft om van te leven</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="armoede" order="1"/>
+  </lexUnit>
+</frame>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="08/01/2001 06:09:20 PDT Wed" name="Biological_area" ID="193" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt; This frame contains words that denote large ecological areas as well as smaller locations characterized by the type of life present--in other words, geography locations as defined by biota.
+
+&lt;ex&gt;I've spent a long time in the &lt;fex name="Descriptor"&gt;rugged&lt;/fex&gt; &lt;fex name="Locale"&gt;&lt;t&gt;prairies&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Container_possessor"&gt;of northern Llorwyn&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/10/2001 05:00:30 PDT Fri" abbrev="Cnst" name="Constituent_parts" ID="1575">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Constituent_parts&lt;/fen&gt; make up a &lt;fen&gt;Locale&lt;/fen&gt;. 
+&lt;ex&gt;This is the  oldest  &lt;fex name="Cnst"&gt;oak&lt;/fex&gt; &lt;t&gt;forest&lt;/t&gt; in California.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/10/2001 05:00:30 PDT Fri" abbrev="ContP" name="Container_possessor" ID="1576">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Container_possessor&lt;/fen&gt; is the location of which the &lt;fen&gt;Locale&lt;/fen&gt; is a part.
+
+&lt;ex&gt;Jon explored the &lt;t&gt;forests&lt;/t&gt; &lt;fex name="ContP"&gt;of California&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/10/2001 05:00:30 PDT Fri" abbrev="FormC" name="Formational_cause" ID="1577">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Formational_cause&lt;/fen&gt; brings about the features of the &lt;fen&gt;Locale&lt;/fen&gt;.
+&lt;ex&gt;Jon explored the &lt;fex name="FormC"&gt;sun-scorched&lt;/fex&gt; &lt;t&gt;savanna&lt;/t&gt;.&lt;/ex&gt;
+This FE is also used for words  that indicate no salient formation.
+&lt;ex&gt;Jon explored the &lt;fex name="FormC"&gt;virgin&lt;/fex&gt; &lt;t&gt;woodland&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="08/10/2001 05:00:30 PDT Fri" abbrev="Locl" name="Locale" ID="1578">
+    <definition>&lt;def-root&gt;This FE identifies a stable bounded area, and is typically the designation of the nouns of Locale-derived frames.
+&lt;ex&gt;There used to be a &lt;fex name="Locale"&gt;&lt;t&gt;forest&lt;/t&gt;&lt;/fex&gt; in that valley.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Location" ID="54"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/13/2001 11:30:47 PDT Mon" abbrev="Name" name="Name" ID="1597">
+    <definition>&lt;def-root&gt;This FE indicates the &lt;fen&gt;Name&lt;/fen&gt;s of &lt;fen&gt;Locale&lt;/fen&gt;s. &lt;ex&gt;Jon explored the &lt;t&gt;forests&lt;/t&gt; &lt;fex name="Name"&gt;of California&lt;/fex&gt;.&lt;/ex&gt; &lt;ex&gt;Jon hiked around &lt;fex name="Name"&gt;Muir&lt;/fex&gt; &lt;t&gt;Woods&lt;/t&gt;. &lt;/ex&gt;  &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/13/2001 11:51:05 PDT Mon" abbrev="RelLoc" name="Relative_location" ID="1600">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Relative_location&lt;/fen&gt; identifies a place in respect to which a &lt;fen&gt;Locale&lt;/fen&gt; is located.
+
+&lt;ex&gt;All the &lt;t&gt;swamps&lt;/t&gt; &lt;fex name="RelLoc"&gt;outside of Georgia&lt;/fex&gt; are dry.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/28/2004 12:33:27 PDT Tue" abbrev="des" name="Descriptor" ID="7152">
+    <definition>&lt;def-root&gt;Any description, characteristic, or property of the &lt;fen&gt;Locale&lt;/fen&gt; which is not covered by more specific FEs.
+
+&lt;ex&gt;Apparently they found him at the bottom of a &lt;fex name="des"&gt;really deep&lt;/fex&gt; &lt;t&gt;bog&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="192">Locale</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600871612793" POS="N" cBy="manual" cDate="09/23/2020 14:33:32 UTC Wed" lemmaID="65" lu_type="singleton" name="woestijn.n" status="Created" FN_EN_LU_ID="3468" Method="Iteration-1" RBN_LU_ID="r_n-43458" RBN_matching_relation="equivalence">
+    <definition>dat dor en droog en daardoor vrijwel onbewoonbaar is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="woestijn" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871616074" POS="N" cBy="automatic" cDate="09/23/2020 14:33:36 UTC Wed" lemmaID="66" lu_type="singleton" name="moeras.n" status="Created" FN_EN_LU_ID="3470" Method="Iteration-1" RBN_LU_ID="r_n-24106" RBN_matching_relation="near_equivalence">
+    <definition>waarin je wegzakt als je er loopt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="moeras" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871619290" POS="N" cBy="automatic" cDate="09/23/2020 14:33:39 UTC Wed" lemmaID="67" lu_type="singleton" name="broek.n" status="Created" FN_EN_LU_ID="3470" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-8562" RBN_matching_relation="near_equivalence">
+    <definition>dat moerassig is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="broek" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871623488" POS="N" cBy="automatic" cDate="09/23/2020 14:33:43 UTC Wed" lemmaID="68" lu_type="singleton" name="tra.n" status="Created" FN_EN_LU_ID="3479" Method="Iteration-1" RBN_LU_ID="r_n-38207" RBN_matching_relation="near_equivalence">
+    <definition>in een bos die open gehouden is en dient als weg en als afscheiding bij brand</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="tra" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871628427" POS="N" cBy="automatic" cDate="09/23/2020 14:33:48 UTC Wed" lemmaID="69" lu_type="singleton" name="toendra.n" status="Created" FN_EN_LU_ID="3480" Method="Iteration-1" RBN_LU_ID="r_n-37867" RBN_matching_relation="near_equivalence">
+    <definition>in de poolstreken op het Noordelijk halfrond, waarvan alleen de bovenste paar centimeter van de bodem niet permanent bevroren is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="toendra" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871632239" POS="N" cBy="automatic" cDate="09/23/2020 14:33:52 UTC Wed" lemmaID="70" lu_type="singleton" name="taiga.n" status="Created" FN_EN_LU_ID="3481" Method="Iteration-1" RBN_LU_ID="r_n-36856" RBN_matching_relation="near_equivalence">
+    <definition>met naaldhout langs de toendra</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="taiga" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871636455" POS="N" cBy="automatic" cDate="09/23/2020 14:33:56 UTC Wed" lemmaID="71" lu_type="singleton" name="savanne.n" status="Created" FN_EN_LU_ID="3492" Method="Iteration-1" RBN_LU_ID="r_n-32595" RBN_matching_relation="near_equivalence">
+    <definition>in tropische en subtropische gebieden, met hier en daar wat bomen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="savanne" order="1"/>
+  </lexUnit>
+</frame>

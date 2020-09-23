@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="04/24/2005 10:30:15 PDT Sun" name="Being_detached" ID="1411" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Item&lt;/fen&gt; is detached from a &lt;fen&gt;Source&lt;/fen&gt;, or &lt;fen&gt;Items&lt;/fen&gt; are detached from each other. 
+
+&lt;ex&gt;When &lt;fex name="itm"&gt;the snow plow&lt;/fex&gt; is &lt;t&gt;disconnected&lt;/t&gt; &lt;fex name="src"&gt;from the vehicle&lt;/fex&gt;, extend the lift cylinder to the end of its stroke and coat the chrome rod with a light grease.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="itm"&gt;The gold leaves that&lt;/fex&gt; are &lt;t&gt;unattached&lt;/t&gt; &lt;fex name="src"&gt;to the engraved surfaces&lt;/fex&gt; fall off.&lt;/ex&gt;
+&lt;ex&gt;By 5:00 to 5:30 (depending on the time of year) &lt;fex name="itm"&gt;the boat&lt;/fex&gt; is &lt;t&gt;unmoored&lt;/t&gt; and loaded.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="04/24/2005 10:30:17 PDT Sun" abbrev="itm" name="Item" ID="7862">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Item&lt;/fen&gt; identifies the entity that is detached from a &lt;fen&gt;Source&lt;/fen&gt;.
+
+
+&lt;ex&gt;I feel like &lt;fex name="itm"&gt;my head&lt;/fex&gt; is &lt;t&gt;detached&lt;/t&gt; from the rest of my body.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Items" ID="7863"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="04/24/2005 10:30:17 PDT Sun" abbrev="ite" name="Items" ID="7863">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Items&lt;/fen&gt; identifies the plural items that are detached from each other.
+
+&lt;ex&gt;&lt;fex name="Items"&gt;The neck vertebrae&lt;/fex&gt; are &lt;t&gt;unfused&lt;/t&gt; in rorquals and gray whales, which allows for some flexibility at the head and neck.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="04/24/2005 10:30:17 PDT Sun" abbrev="src" name="Source" ID="7864">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Source&lt;/fen&gt; identifies the location from which the &lt;fen&gt;Item&lt;/fen&gt;(s) is detached.
+
+
+&lt;ex&gt;The toilet is &lt;t&gt;loose&lt;/t&gt; &lt;fex name="src"&gt;from the floor&lt;/fex&gt; and must be repaired.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <semType name="Source" ID="151"/>
+    <excludesFE name="Items" ID="7863"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="04/24/2005 10:30:17 PDT Sun" abbrev="man" name="Manner" ID="7866">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Manner&lt;/fen&gt; in which an &lt;fen&gt;Item&lt;/fen&gt; is in an detached state relative to a &lt;fen&gt;Source&lt;/fen&gt;, or two &lt;fen&gt;Items&lt;/fen&gt; are detached from each other.
+
+&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="307">Being_attached</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

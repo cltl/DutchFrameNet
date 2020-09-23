@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="05/29/2002 04:05:29 PDT Wed" name="Being_wet" ID="332" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Item&lt;/fen&gt; is in a state of wetness with the possibility of the wetting &lt;fen&gt;Liquid&lt;/fen&gt; being mentioned, along with the &lt;fen&gt;Degree&lt;/fen&gt; of wetness.
+&lt;ex&gt; &lt;fex name="Item"&gt;The mop&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;t&gt;drenched&lt;/t&gt; &lt;fex name="Liquid"&gt;with water&lt;/fex&gt; &lt;fex name="Explanation"&gt;from last night's rain&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="05/30/2002 08:36:46 PDT Thu" abbrev="Item" name="Item" ID="2863">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Item&lt;/fen&gt; takes up the &lt;fen&gt;Liquid&lt;/fen&gt; through its pores.
+&lt;ex&gt; &lt;fex name = "Item" &gt;The mop&lt;/fex&gt; is &lt;t&gt;drenched&lt;/t&gt; with water.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="05/30/2002 08:38:29 PDT Thu" abbrev="Liq" name="Liquid" ID="2864">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Liquid&lt;/fen&gt; is a fluid or gas that permeates the &lt;fen&gt;Item&lt;/fen&gt;.  It most frequently occurs in a PP Complement headed by with.
+&lt;ex&gt;The mop was &lt;t&gt;drenched&lt;/t&gt; &lt;fex name="Liquid"&gt; with water&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="05/30/2002 08:39:41 PDT Thu" abbrev="Degr" name="Degree" ID="2865">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Degree&lt;/fen&gt; to which the &lt;fen&gt;Item&lt;/fen&gt; is wet.
+&lt;ex&gt;The mop is &lt;fex name="Degree"&gt;absolutely&lt;/fex&gt; &lt;t&gt;drenched&lt;/t&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="06/12/2002 04:08:37 PDT Wed" abbrev="Exp" name="Explanation" ID="3030">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Explanation&lt;/fen&gt; brings about the state of wetness, and is usually expressed in a &lt;ment&gt;from&lt;/ment&gt;-prepositional phrase.
+&lt;ex&gt;The mop is &lt;t&gt;drenched&lt;/t&gt; &lt;fex name="Explanation"&gt;from the rain&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="06/12/2002 04:13:35 PDT Wed" abbrev="sub" name="Subregion" ID="3033">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Subregion&lt;/fen&gt; describes which part of a larger whole is being affected.
+&lt;ex&gt;The mop was &lt;t&gt;drenched&lt;/t&gt; &lt;fex name="Subregion"&gt;on  the fringes&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1015">Gradable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="346">Being_rotted</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600871589977" POS="A" cBy="automatic" cDate="09/23/2020 14:33:09 UTC Wed" lemmaID="58" lu_type="singleton" name="klam.a" status="Created" FN_EN_LU_ID="5855" Method="Iteration-1" RBN_LU_ID="r_a-12440" RBN_matching_relation="near_equivalence">
+    <definition>vochtig aanvoelend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="klam" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871593064" POS="A" cBy="manual" cDate="09/23/2020 14:33:13 UTC Wed" lemmaID="59" lu_type="singleton" name="betraand.a" status="Created" FN_EN_LU_ID="5856" Method="Iteration-1" RBN_LU_ID="r_a-9548" RBN_matching_relation="near_equivalence">
+    <definition>vol tranen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="betraand" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871596305" POS="A" cBy="automatic" cDate="09/23/2020 14:33:16 UTC Wed" lemmaID="60" lu_type="singleton" name="bezweet.a" status="Created" FN_EN_LU_ID="6013" Method="Iteration-1" RBN_LU_ID="r_a-9292" RBN_matching_relation="near_equivalence">
+    <definition>met zweet</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="bezweet" order="1"/>
+  </lexUnit>
+</frame>

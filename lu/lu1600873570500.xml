@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="N" name="mispunt.n" ID="1600873570500" frame="People_by_morality" frameID="1102" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" lu_type="singleton" FN_EN_LU_ID="10495" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-24006" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Age" name="Age"/>
+      <FE fgColor="000000" bgColor="FFA500" type="Peripheral" abbrev="coa" name="Context_of_acquaintance"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="desc" name="Descriptor"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Eth" name="Ethnicity"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="fie" name="Field"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Peripheral" abbrev="Ori" name="Origin"/>
+      <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Pers_char" name="Persistent_characteristic"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="per" name="Person"/>
+    </frame>
+  </header>
+  <definition>die onuitstaanbaar is</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="mispunt" order="1"/>
+</lexUnit>

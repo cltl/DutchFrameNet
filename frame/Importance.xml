@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="09/27/2002 01:57:02 PDT Fri" name="Importance" ID="407" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Factor&lt;/fen&gt; affects the outcome of an &lt;fen&gt;Undertaking&lt;/fen&gt;, which  can be a goal-oriented activity or the maintenance of a desirable state, the work in a &lt;fen&gt;Field&lt;/fen&gt;, or something portrayed as affecting an &lt;fen&gt;Interested_party&lt;/fen&gt;. A &lt;fen&gt;Reason&lt;/fen&gt; may be given for the importance of the &lt;fen&gt;Factor&lt;/fen&gt;. The &lt;fen&gt;Degree&lt;/fen&gt; of importance may also be specified.
+
+&lt;ex&gt;Temperature is the &lt;fex name="Degree"&gt;most&lt;/fex&gt; &lt;t&gt;critical&lt;/t&gt; &lt;fex name="Factor"&gt;factor&lt;/fex&gt; &lt;fex name="Undertaking"&gt;in successful storage&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt; &lt;fex name="Factor"&gt;Timing&lt;/fex&gt; will be &lt;t&gt;critical&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Factor"&gt;Heathcliff&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;fex name="Degree"&gt;more&lt;/fex&gt; &lt;t&gt;important&lt;/t&gt; &lt;fex name="Interested_party"&gt;to me&lt;/fex&gt; &lt;fex name="Degree"&gt;than myself&lt;/fex&gt; . &lt;/ex&gt;
+&lt;ex&gt; &lt;fex name="Factor"&gt;1992&lt;/fex&gt; &lt;m&gt;was&lt;/m&gt; &lt;m&gt;of&lt;/m&gt; &lt;fex name="Degree"&gt;great&lt;/fex&gt; &lt;t&gt;importance&lt;/t&gt; &lt;fex name="Interested_party"&gt;to the business community&lt;/fex&gt;. &lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="09/27/2002 02:01:34 PDT Fri" abbrev="Factor" name="Factor" ID="3749">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Factor&lt;/fen&gt; is used for the concrete or abstract entity whose importance is assessed.
+&lt;ex&gt; &lt;fex name="Factor"&gt;Being sure they are buying fresh food&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;t&gt;important&lt;/t&gt; &lt;fex name="Interested_party"&gt;to most people&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="09/27/2002 02:08:40 PDT Fri" abbrev="Degree" name="Degree" ID="3752">
+    <definition>&lt;def-root&gt;This FE marks expressions that indicate the &lt;fen&gt;Degree&lt;/fen&gt; to which the &lt;fen&gt;Factor&lt;/fen&gt; is important to the &lt;fen&gt;Undertaking&lt;/fen&gt;.
+&lt;ex&gt; &lt;fex name="Factor"&gt;1992&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;m&gt;of&lt;/m&gt; &lt;fex name="Degree"&gt;great&lt;/fex&gt; &lt;t&gt;importance&lt;/t&gt; &lt;fex name="Interested_party"&gt;to the business community&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="09/27/2002 02:11:59 PDT Fri" abbrev="Undertaking" name="Undertaking" ID="3753">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Undertaking&lt;/fen&gt; is a process or state or field of activity in which the &lt;fen&gt;Interested_party&lt;/fen&gt; has a stake.
+&lt;ex&gt;Temperature is the &lt;fex name="Degree"&gt;most&lt;/fex&gt; &lt;t&gt;critical&lt;/t&gt; &lt;fex name="Factor"&gt;factor&lt;/fex&gt; &lt;fex name="Undertaking"&gt;in successful storage&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="09/27/2002 02:22:01 PDT Fri" abbrev="Exp" name="Explanation" ID="3754">
+    <definition>&lt;def-root&gt;This FE  identifies the &lt;fen&gt;Explanation&lt;/fen&gt; for which the &lt;fen&gt;Factor&lt;/fen&gt; is important to the &lt;fen&gt;Undertaking&lt;/fen&gt;.
+&lt;ex&gt;It 's &lt;t&gt;critical&lt;/t&gt; to get it right &lt;fex name="Explanation"&gt;because there are situations  where if you don't, they will withhold some commission.&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="10/04/2002 12:35:23 PDT Fri" abbrev="Interested_party" name="Interested_party" ID="3771">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Interested_party&lt;/fen&gt; identifies the people who are affected by a particular &lt;fen&gt;Factor&lt;/fen&gt;.
+
+&lt;ex&gt; &lt;fex name="Factor"&gt;Being sure they are buying fresh food&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;t&gt;important&lt;/t&gt; &lt;fex name="Interested_party"&gt;to most people&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Field" ID="3772"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="10/04/2002 12:38:51 PDT Fri" abbrev="Field" name="Field" ID="3772">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Factor&lt;/fen&gt; may be generally important to the people or the activities in a field of endeavour.
+
+&lt;ex&gt; &lt;fex name="Factor"&gt;A successful GATT round&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;t&gt;important&lt;/t&gt; &lt;fex name="Field"&gt;for the world economy&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFD700" fgColor="000000" coreType="Extra-Thematic" cBy="KmG" cDate="05/23/2006 12:07:19 PDT Tue" abbrev="Tim" name="Time" ID="10106">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; at which the &lt;fen&gt;Factor&lt;/fen&gt; is important to the &lt;fen&gt;Undertaking&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="11/17/2006 03:36:20 PST Fri" abbrev="Fre" name="Frequency" ID="10840">
+    <definition>&lt;def-root&gt;This frame element is defined as the number of times an event occurs per some unit of time. A Frequency expression answers the question how often. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="DYo" cDate="06/05/2009 11:29:15 PDT Fri" abbrev="" name="Place" ID="13190">
+    <definition>&lt;def-root&gt;The location at which the &lt;fen&gt;Factor&lt;/fen&gt; is important. &lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Field" ID="3772"/>
+    <memberFE name="Interested_party" ID="3771"/>
+    <memberFE name="Undertaking" ID="3753"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1542">Emphasizing</relatedFrame>
+    <relatedFrame ID="1906">Individual_history</relatedFrame>
+    <relatedFrame ID="1908">Historic_event</relatedFrame>
+    <relatedFrame ID="2001">Degree</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872906286" POS="A" cBy="automatic" cDate="09/23/2020 14:55:06 UTC Wed" lemmaID="431" lu_type="singleton" name="cruciaal.a" status="Created" FN_EN_LU_ID="7522" Method="Iteration-1" RBN_LU_ID="r_a-9794" RBN_matching_relation="near_equivalence">
+    <definition>beslissend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="cruciaal" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872909395" POS="A" cBy="automatic" cDate="09/23/2020 14:55:09 UTC Wed" lemmaID="432" lu_type="singleton" name="geruim.a" status="Created" FN_EN_LU_ID="13251" Method="Iteration-1" RBN_LU_ID="r_a-11016" RBN_matching_relation="near_equivalence">
+    <definition>vrij lang</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="geruim" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872912513" POS="A" cBy="automatic" cDate="09/23/2020 14:55:12 UTC Wed" lemmaID="433" lu_type="singleton" name="beduidend.a" status="Created" FN_EN_LU_ID="13251" Method="Iteration-1" RBN_LU_ID="r_a-9167" RBN_matching_relation="near_equivalence">
+    <definition>aanzienlijk</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="beduidend" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872915839" POS="A" cBy="automatic" cDate="09/23/2020 14:55:15 UTC Wed" lemmaID="434" lu_type="singleton" name="aanmerkelijk.a" status="Created" FN_EN_LU_ID="13251" Method="Iteration-1" RBN_LU_ID="r_a-8669" RBN_matching_relation="near_equivalence">
+    <definition>aanzienlijk</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="aanmerkelijk" order="1"/>
+  </lexUnit>
+</frame>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="06/08/2005 06:52:45 PDT Wed" name="Relational_natural_features" ID="1490" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;The &lt;fen&gt;Focal_feature&lt;/fen&gt; is defined in relation to a &lt;fen&gt;Landmark_feature&lt;/fen&gt;, either as a particular part, or as an immediately bordering entity.
+
+&lt;ex&gt;I'm on the &lt;t&gt;summit&lt;/t&gt; &lt;fex name="Landmark_feature"&gt;of Mt. Shasta&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/08/2005 06:52:46 PDT Wed" abbrev="const" name="Constituent_parts" ID="8100">
+    <definition>&lt;def-root&gt;Salient parts of the &lt;fen&gt;Focal_feature&lt;/fen&gt;.  &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="06/08/2005 06:52:46 PDT Wed" abbrev="con" name="Container_possessor" ID="8101">
+    <definition>&lt;def-root&gt;The location that the &lt;fen&gt;Focal_feature&lt;/fen&gt; is a part of.
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="06/08/2005 06:52:46 PDT Wed" abbrev="FormC" name="Formational_cause" ID="8102">
+    <definition>&lt;def-root&gt;Indicates the action (or causer) which brings the features of the &lt;fen&gt;Focal_feature&lt;/fen&gt; about.
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="06/08/2005 06:52:46 PDT Wed" abbrev="foc" name="Focal_feature" ID="8103">
+    <definition>&lt;def-root&gt;A stable bounded area defined by its relation to another landform. This FE is incorporated in each LU in this frame.
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="06/08/2005 06:52:47 PDT Wed" abbrev="Name" name="Name" ID="8104">
+    <definition>&lt;def-root&gt;This FE is used for the &lt;fen&gt;Name&lt;/fen&gt;s of &lt;fen&gt;Focal_feature&lt;/fen&gt;s. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/08/2005 06:52:47 PDT Wed" abbrev="RelLoc" name="Relative_location" ID="8105">
+    <definition>&lt;def-root&gt;A place that a &lt;fen&gt;Focal_feature&lt;/fen&gt; is located with respect to.
+&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/08/2005 06:52:47 PDT Wed" abbrev="Type" name="Type" ID="8106">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Type&lt;/fen&gt; is the subtype of natural feature. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="06/08/2005 06:52:47 PDT Wed" abbrev="des" name="Descriptor" ID="8107">
+    <definition>&lt;def-root&gt;Any description, characteristic, or property of the &lt;fen&gt;Focal_feature&lt;/fen&gt; which is not covered by more specific FEs.
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A9A9A9" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="06/08/2005 07:32:52 PDT Wed" abbrev="lan" name="Landmark_feature" ID="8108">
+    <definition>&lt;def-root&gt;The landform with respect to which the &lt;fen&gt;Focal_feature&lt;/fen&gt; is defined.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="191">Natural_features</relatedFrame>
+    <relatedFrame ID="2625">Relational_location</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="199">Locative_relation</relatedFrame>
+    <relatedFrame ID="2016">Image_schema</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600873884372" POS="N" cBy="manual" cDate="09/23/2020 15:11:24 UTC Wed" lemmaID="730" lu_type="singleton" name="estuarium.n" status="Created" FN_EN_LU_ID="12200" Method="Iteration-1" RBN_LU_ID="r_n-12656" RBN_matching_relation="equivalence">
+    <definition>die wijd is geworden onder invloed van getijdenstroming</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="estuarium" order="1"/>
+  </lexUnit>
+</frame>

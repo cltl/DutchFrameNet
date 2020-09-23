@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="10/21/2002 05:08:16 PDT Mon" name="Destroying" ID="417" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Destroyer&lt;/fen&gt; (a conscious entity) or &lt;fen&gt;Cause&lt;/fen&gt; (an event, or an entity involved in such an event) affects the &lt;fen&gt;Patient&lt;/fen&gt; negatively so that the &lt;fen&gt;Patient&lt;/fen&gt; no longer exists.  &lt;ex&gt;&lt;fex name="Cause"&gt;An asteroid&lt;/fex&gt; &lt;t&gt;obliterated&lt;/t&gt; &lt;fex name="Patient"&gt;the dinosaurs&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="10/21/2002 05:13:51 PDT Mon" abbrev="Agt" name="Destroyer" ID="3837">
+    <definition>&lt;def-root&gt;The conscious entity, generally a person, that performs the intentional action that results in the &lt;fen&gt;Patient&lt;/fen&gt;'s destruction.  &lt;ex&gt;&lt;fex name="Agt"&gt;Who&lt;/fex&gt; can &lt;t&gt;unmake&lt;/t&gt; the ring?&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/21/2002 05:13:51 PDT Mon" abbrev="Degr" name="Degree" ID="3838">
+    <definition>&lt;def-root&gt;The degree to which the destruction is completed.
+&lt;ex&gt;I &lt;t&gt;destroyed&lt;/t&gt; all signs of our presence &lt;fex name="Degr"&gt;completely&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/21/2002 05:13:51 PDT Mon" abbrev="Ins" name="Instrument" ID="3839">
+    <definition>&lt;def-root&gt;An entity directed by the &lt;fen&gt;Destroyer&lt;/fen&gt; that interacts with a &lt;fen&gt;Patient&lt;/fen&gt; to accomplish the &lt;fen&gt;Patient&lt;/fen&gt;'s destruction. &lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/21/2002 05:13:51 PDT Mon" abbrev="Mnr" name="Manner" ID="3840">
+    <definition>&lt;def-root&gt;Any description of the process of destruction which is not covered by more specific FEs, including epistemic modification (&lt;ment&gt;probably, presumably, mysteriously&lt;/ment&gt;), secondary effects (&lt;ment&gt;quietly, loudly&lt;/ment&gt;), and general descriptions comparing events (&lt;ment&gt;the same way&lt;/ment&gt;). It may also indicate salient characteristics of the &lt;fen&gt;Destroyer&lt;/fen&gt; that also affect the action (&lt;ment&gt;presumptuously, coldly, deliberately, eagerly, carefully&lt;/ment&gt;). &lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/21/2002 05:13:51 PDT Mon" abbrev="Mns" name="Means" ID="3841">
+    <definition>&lt;def-root&gt;An intentional action performed by the &lt;fen&gt;Destroyer&lt;/fen&gt; that accomplishes the destruction.
+&lt;ex&gt;Samptu &lt;t&gt;obliterated&lt;/t&gt; the land of Abde &lt;fex name="Mns"&gt;with a great flood&lt;/fex&gt;, leaving only the sea.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+    <excludesFE name="Cause" ID="3893"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/21/2002 05:13:51 PDT Mon" abbrev="Place" name="Place" ID="3843">
+    <definition>&lt;def-root&gt;This FE identifies the place where the &lt;fen&gt;Destroyer&lt;/fen&gt; destroys the &lt;fen&gt;Patient&lt;/fen&gt;. &lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="10/21/2002 05:13:51 PDT Mon" abbrev="Purp" name="Purpose" ID="3844">
+    <definition>&lt;def-root&gt;This FE identifies the purpose for which a &lt;fen&gt;Destroyer&lt;/fen&gt; causes the destruction of the &lt;fen&gt;Patient&lt;/fen&gt;. &lt;ex&gt;We &lt;t&gt;laid&lt;/t&gt; &lt;t&gt;waste&lt;/t&gt; to Hattusas &lt;fex name="Purp"&gt;to subjugate them, not to vex them&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="10/21/2002 05:13:51 PDT Mon" abbrev="Expl" name="Explanation" ID="3845">
+    <definition>&lt;def-root&gt;A state of affairs that the &lt;fen&gt;Destroyer&lt;/fen&gt; is responding to in destroying the &lt;fen&gt;Undergoer&lt;/fen&gt;.
+&lt;ex&gt;He &lt;t&gt;razed&lt;/t&gt; the goddess's temple &lt;fex name="Explanation"&gt;out of sheer anger&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="10/21/2002 05:13:51 PDT Mon" abbrev="Result" name="Result" ID="3847">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Result&lt;/fen&gt; of an event on the &lt;fen&gt;Patient&lt;/fen&gt;.  This FE is very rare in this frame, and since the &lt;fen&gt;Patient&lt;/fen&gt; is destroyed by this process, the &lt;fen&gt;Result&lt;/fen&gt; is generally constrained to indicate the &lt;fen&gt;Patient&lt;/fen&gt; 's resulting inexistence. &lt;ex&gt;All of the buildings had been &lt;t&gt;razed&lt;/t&gt; &lt;fex name="Result"&gt;to nothing&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="10/21/2002 05:13:51 PDT Mon" abbrev="Subr" name="Subregion" ID="3848">
+    <definition>&lt;def-root&gt;The part of the &lt;fen&gt;Patient&lt;/fen&gt; which is directly affected by the destruction. &lt;ex&gt;The village was &lt;t&gt;devastated&lt;/t&gt; &lt;fex name="Subr"&gt;from the north end to the banks of the Neva&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/21/2002 05:13:51 PDT Mon" abbrev="Time" name="Time" ID="3849">
+    <definition>&lt;def-root&gt;This FE identifies the time when the &lt;fen&gt;Destroyer&lt;/fen&gt; destroys the &lt;fen&gt;Patient&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="10/21/2002 05:13:51 PDT Mon" abbrev="Pat" name="Patient" ID="3850">
+    <definition>&lt;def-root&gt;The entity which is destroyed by the &lt;fen&gt;Destroyer&lt;/fen&gt;.  &lt;ex&gt;Who can &lt;t&gt;unmake&lt;/t&gt; &lt;fex name="Patient"&gt;the ring&lt;/fex&gt;?&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="11/11/2002 03:02:21 PST Mon" abbrev="Cause" name="Cause" ID="3893">
+    <definition>&lt;def-root&gt;The event or entity which is responsible for the destruction of the &lt;fen&gt;Patient&lt;/fen&gt;. &lt;ex&gt;&lt;fex name="Cause"&gt;The subsequent explosions&lt;/fex&gt; &lt;t&gt;leveled&lt;/t&gt; most downtown office buildings.&lt;/ex&gt; &lt;ex&gt;&lt;fex name="Cause"&gt;Tornados&lt;/fex&gt; &lt;t&gt;vaporized&lt;/t&gt; this town a few decades back.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Destroyer" ID="3837"/>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="0000FF" coreType="Extra-Thematic" cBy="KmG" cDate="03/02/2007 04:12:08 PST Fri" abbrev="Rol" name="Role" ID="11149">
+    <definition>&lt;def-root&gt;The category in which the &lt;fen&gt;Patient&lt;/fen&gt; is destroyed. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="06/23/2008 02:58:32 PDT Mon" abbrev="Fre" name="Frequency" ID="12863">
+    <definition>&lt;def-root&gt;How often the &lt;fen&gt;Cause&lt;/fen&gt; or &lt;fen&gt;Destroyer&lt;/fen&gt; destroys the &lt;fen&gt;Patient&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="00008B" coreType="Extra-Thematic" cBy="KmG" cDate="06/23/2008 03:04:49 PDT Mon" abbrev="Con" name="Containing_event" ID="12866">
+    <definition>&lt;def-root&gt;This FE denotes an event that occurs or state of affairs that holds at a time that includes the time during which the event or state of affairs reported by the target occurs and of which it is taken to be a part.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A9A9A9" fgColor="00008B" coreType="Extra-Thematic" cBy="KmG" cDate="06/23/2008 03:09:54 PDT Mon" abbrev="Dep" name="Depictive" ID="12867">
+    <definition>&lt;def-root&gt;This FE describes a participant of the state of affairs introduced by the target as being in some state during the action. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="000000" coreType="Peripheral" cBy="CVa" cDate="01/05/2012 11:56:15 PST Thu" abbrev="Med" name="Medium" ID="15383">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Medium&lt;/fen&gt; expresses the &lt;fen&gt;Medium&lt;/fen&gt; in which the &lt;fen&gt;Patient&lt;/fen&gt; is destroyed by the &lt;fen&gt;Cause&lt;/fen&gt; or &lt;fen&gt;Destroyer&lt;/fen&gt;.  This FE is generally used in Metaphorical uses of this frame. &lt;ex&gt;West &lt;t&gt;demolished&lt;/t&gt; Kraft's arguments &lt;fex name="Med"&gt;in his most recent essay&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="10">Transitive_action</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="414">Cause_to_fragment</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872456908" POS="V" cBy="manual" cDate="09/23/2020 14:47:36 UTC Wed" lemmaID="290" lu_type="singleton" name="verwoesten.v" status="Created" FN_EN_LU_ID="7633" Method="Iteration-1" RBN_LU_ID="r_v-9510" RBN_matching_relation="equivalence">
+    <definition>iets helemaal vernietigen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="verwoesten" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872459901" POS="A" cBy="automatic" cDate="09/23/2020 14:47:39 UTC Wed" lemmaID="291" lu_type="singleton" name="verwoestend.a" status="Created" FN_EN_LU_ID="13919" Method="Iteration-1" RBN_LU_ID="r_a-16282" RBN_matching_relation="near_equivalence">
+    <definition>vernietigend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="verwoestend" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872462917" POS="A" cBy="automatic" cDate="09/23/2020 14:47:42 UTC Wed" lemmaID="292" lu_type="singleton" name="destructief.a" status="Created" FN_EN_LU_ID="13919" Method="Iteration-1" RBN_LU_ID="r_a-10033" RBN_matching_relation="near_equivalence">
+    <definition>afbrekend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="destructief" order="1"/>
+  </lexUnit>
+</frame>

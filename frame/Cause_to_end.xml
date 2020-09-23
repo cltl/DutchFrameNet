@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/29/2004 06:49:43 PDT Tue" name="Cause_to_end" ID="1149" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; or &lt;fen&gt;Cause&lt;/fen&gt; causes a &lt;fen&gt;Process&lt;/fen&gt; or &lt;fen&gt;State&lt;/fen&gt; to end.
+
+
+&lt;ex&gt;&lt;fex name="age"&gt;Bush&lt;/fex&gt; may &lt;t&gt;lift&lt;/t&gt; &lt;fex name="sta"&gt;sanctions&lt;/fex&gt; on his own, despite opposition.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/29/2004 06:49:43 PDT Tue" abbrev="Process" name="Process" ID="6638">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Process&lt;/fen&gt; which is ended by the &lt;fen&gt;Agent&lt;/fen&gt; or &lt;fen&gt;Cause&lt;/fen&gt;.
+
+&lt;/def-root&gt;</definition>
+    <excludesFE name="State" ID="6650"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/29/2004 06:49:43 PDT Tue" abbrev="mea" name="Means" ID="6639">
+    <definition>&lt;def-root&gt;An action of the &lt;fen&gt;Agent&lt;/fen&gt; that causes the &lt;fen&gt;Process&lt;/fen&gt; or &lt;fen&gt;State&lt;/fen&gt; to end.
+
+&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/29/2004 06:49:43 PDT Tue" abbrev="Place" name="Place" ID="6640">
+    <definition>&lt;def-root&gt;The location where the &lt;fen&gt;Process&lt;/fen&gt; or &lt;fen&gt;State&lt;/fen&gt; is caused to end.
+
+
+&lt;ex&gt;They &lt;t&gt;ended&lt;/t&gt; their relationship &lt;fex name="Place"&gt;in the same coffeehouse where it started&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="06/29/2004 06:49:43 PDT Tue" abbrev="Exp" name="Explanation" ID="6641">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Explanation&lt;/fen&gt; for why the &lt;fen&gt;Process&lt;/fen&gt; or &lt;fen&gt;State&lt;/fen&gt; is ended.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/29/2004 06:49:43 PDT Tue" abbrev="Time" name="Time" ID="6642">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; when the &lt;fen&gt;Process&lt;/fen&gt; or &lt;fen&gt;State&lt;/fen&gt; is ended.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/29/2004 06:49:44 PDT Tue" abbrev="Degr" name="Degree" ID="6643">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Degree&lt;/fen&gt; to which the &lt;fen&gt;Process&lt;/fen&gt; or &lt;fen&gt;State&lt;/fen&gt; is brought to an end.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="06/29/2004 06:49:44 PDT Tue" abbrev="Depict" name="Depictive" ID="6644">
+    <definition>&lt;def-root&gt;Depictive phrase describing the actor of the event that causes the &lt;fen&gt;Process&lt;/fen&gt; or &lt;fen&gt;State&lt;/fen&gt; to end.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/29/2004 06:49:44 PDT Tue" abbrev="Manr" name="Manner" ID="6645">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Manner&lt;/fen&gt; of causing the &lt;fen&gt;Process&lt;/fen&gt; or &lt;fen&gt;State&lt;/fen&gt; to end.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/29/2004 06:58:15 PDT Tue" abbrev="age" name="Agent" ID="6648">
+    <definition>&lt;def-root&gt;The individual who causes the &lt;fen&gt;Process&lt;/fen&gt; or &lt;fen&gt;State&lt;/fen&gt; to end.&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+    <excludesFE name="Cause" ID="6649"/>
+  </FE>
+  <FE bgColor="7CCD7C" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/29/2004 07:00:11 PDT Tue" abbrev="cau" name="Cause" ID="6649">
+    <definition>&lt;def-root&gt;An event that causes the &lt;fen&gt;Process&lt;/fen&gt; or &lt;fen&gt;State&lt;/fen&gt; to end.
+
+&lt;ex&gt;&lt;fex name="cau"&gt;That move&lt;/fex&gt; &lt;t&gt;ended&lt;/t&gt; her political career, she said in a 1994 Times Union interview.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="0000FF" coreType="Core" cBy="JKR" cDate="06/29/2004 07:03:17 PDT Tue" abbrev="sta" name="State" ID="6650">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;State&lt;/fen&gt; which is ended by the &lt;fen&gt;Agent&lt;/fen&gt; or &lt;fen&gt;Cause&lt;/fen&gt;.
+
+&lt;ex&gt;We should &lt;t&gt;end&lt;/t&gt; &lt;fex name="sta"&gt;poverty&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Cause" ID="6649"/>
+    <memberFE name="Agent" ID="6648"/>
+  </FEcoreSet>
+  <FEcoreSet>
+    <memberFE name="Process" ID="6638"/>
+    <memberFE name="State" ID="6650"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="10">Transitive_action</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of">
+    <relatedFrame ID="232">Process_end</relatedFrame>
+  </frameRelation>
+  <frameRelation type="See also"/>
+</frame>

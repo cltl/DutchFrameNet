@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="KCo" cDate="02/14/2002 01:26:02 PST Thu" name="Chemical-sense_description" ID="271" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This  frame covers the descriptions of tastes and smells, and has one main frame element, &lt;fen&gt;Source&lt;/fen&gt;. The frame element &lt;fen&gt;Sensory_attribute&lt;/fen&gt; occurs mainly with the words taste, flavour, and smell.
+
+&lt;ex&gt;The almonds had a &lt;t&gt;bitter&lt;/t&gt; &lt;fex name="Sensory_attribute"&gt;taste&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Source"&gt;The almonds&lt;/fex&gt; &lt;m&gt;are&lt;/m&gt; &lt;t&gt;bitter&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="KCo" cDate="02/14/2002 01:37:11 PST Thu" abbrev="Source" name="Perceptual_source" ID="2324">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Perceptual_source&lt;/fen&gt; is used for the entity that is being described. A recipe can stand in for a &lt;fen&gt;Perceptual_source&lt;/fen&gt; which is a kind of food.
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="KCo" cDate="02/14/2002 01:38:03 PST Thu" abbrev="Degr" name="Degree" ID="2325">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Degree&lt;/fen&gt; to which a chemical sense is described.
+
+&lt;ex&gt;The almonds are &lt;fex name="Degr"&gt;extremely&lt;/fex&gt; bitter.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="KCo" cDate="02/19/2002 12:25:40 PST Tue" abbrev="Percept" name="Sensory_attribute" ID="2336">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Sensory_attribute&lt;/fen&gt; is used for words that describe the perception itself.
+	
+&lt;ex&gt;The almonds had a &lt;t&gt;bitter&lt;/t&gt; &lt;fex name="Sensory_attribute"&gt; taste&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The coffee had a &lt;t&gt;pungent&lt;/t&gt; &lt;fex name="Sensory_attribute"&gt;smell&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Sensory_attribute" ID="2336"/>
+    <memberFE name="Perceptual_source" ID="2324"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1015">Gradable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="67">Give_impression</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872089503" POS="A" cBy="automatic" cDate="09/23/2020 14:41:29 UTC Wed" lemmaID="188" lu_type="singleton" name="acceptabel.a" status="Created" FN_EN_LU_ID="4934" Method="Iteration-1" RBN_LU_ID="r_a-8697" RBN_matching_relation="near_equivalence">
+    <definition>aanvaardbaar</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="acceptabel" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872092691" POS="A" cBy="automatic" cDate="09/23/2020 14:41:32 UTC Wed" lemmaID="189" lu_type="singleton" name="onaangenaam.a" status="Created" FN_EN_LU_ID="4977" Method="Iteration-1" RBN_LU_ID="r_a-13260" RBN_matching_relation="near_equivalence">
+    <definition>naar</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="onaangenaam" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872096290" POS="A" cBy="automatic" cDate="09/23/2020 14:41:36 UTC Wed" lemmaID="190" lu_type="singleton" name="stinkend.a" status="Created" FN_EN_LU_ID="6906" Method="Iteration-1" RBN_LU_ID="r_a-15181" RBN_matching_relation="near_equivalence">
+    <definition>stank verspreidend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="stinkend" order="1"/>
+  </lexUnit>
+</frame>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="07/12/2005 06:37:28 PDT Tue" name="Indigenous_origin" ID="1552" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Entity&lt;/fen&gt; began its existence in the context of a location of &lt;fen&gt;Origin&lt;/fen&gt;, which is a discourse-salient place, or culture.
+
+&lt;ex&gt;Obviously there are &lt;fex name="Entity"&gt;species&lt;/fex&gt; &lt;fex name="Entity"&gt;that&lt;/fex&gt; are &lt;t&gt;native&lt;/t&gt; &lt;fex name="Origin"&gt;to China&lt;/fex&gt; or used in Chinese Medicine that aren't used in Western or Cherokee Medicine and vice versa. &lt;/ex&gt;
+
+&lt;ex&gt;The &lt;t&gt;indigenous&lt;/t&gt; &lt;fex name="Entity"&gt;people&lt;/fex&gt;, women and the elderly are the most affected. &lt;fex name="Origin"&gt;DNI&lt;/fex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;The Athenians believed that &lt;fex name="Entity"&gt;they&lt;/fex&gt; &lt;m&gt;were&lt;/m&gt; '&lt;t&gt;autochthonous&lt;/t&gt;' &lt;fex name="Origin"&gt;in Attica&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/12/2005 06:37:28 PDT Tue" abbrev="ent" name="Entity" ID="8473">
+    <definition>&lt;def-root&gt;The item whose &lt;fen&gt;Origin&lt;/fen&gt; is under discussion.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/12/2005 06:37:28 PDT Tue" abbrev="ori" name="Origin" ID="8474">
+    <definition>&lt;def-root&gt;The discourse-salient place or culture where the &lt;fen&gt;Entity&lt;/fen&gt; was produced.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1103">Origin</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1483">Foreign_or_domestic_country</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872922199" POS="A" cBy="automatic" cDate="09/23/2020 14:55:22 UTC Wed" lemmaID="436" lu_type="singleton" name="autochtoon.a" status="Created" FN_EN_LU_ID="12429" Method="Iteration-1" RBN_LU_ID="r_a-8835" RBN_matching_relation="near_equivalence">
+    <definition>niet allochtoon</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="autochtoon" order="1"/>
+  </lexUnit>
+</frame>

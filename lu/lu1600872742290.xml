@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="N" name="uitlevering.n" ID="1600872742290" frame="Extradition" frameID="1370" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" lu_type="singleton" FN_EN_LU_ID="11785" Method="Iteration-1" RBN_LU_ID="r_n-39047" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="aut" name="Authorities"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="cri" name="Crime_jurisdiction"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cur" name="Current_jurisdiction"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Extra-Thematic" abbrev="dep" name="Depictive"/>
+      <FE fgColor="FFFFFF" bgColor="90876C" type="Extra-Thematic" abbrev="exp" name="Explanation"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="LBasis" name="Legal_basis"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="man" name="Manner"/>
+      <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="mea" name="Means"/>
+      <FE fgColor="000000" bgColor="FFFF00" type="Peripheral" abbrev="" name="Place"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Purp" name="Purpose"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sus" name="Suspect"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="tim" name="Time"/>
+    </frame>
+  </header>
+  <definition>van personen door de organen van een staat aan die van een andere ter berechting en bestraffing voor aldaar begane misdrijven; overeenkomst tussen twee landen om de voortvluchtige misdadigers aan elkaar uit te leveren</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="uitlevering" order="1"/>
+</lexUnit>

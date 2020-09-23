@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:24 PST Wed" name="Leadership" ID="73" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;These are words referring to control by a &lt;fen&gt;Leader&lt;/fen&gt; over a particular entity  or group (the &lt;fen&gt;Governed&lt;/fen&gt;) or an &lt;fen&gt;Activity&lt;/fen&gt;. The frame contains both nouns referring to a title or position (e.g. &lt;ment&gt;director, king, president&lt;/ment&gt;), and verbs describing the action of leadership (e.g. &lt;ment&gt;rule, reign&lt;/ment&gt;). With verbs, it is possible to mention the &lt;fen&gt;Role&lt;/fen&gt; played by the &lt;fen&gt;Leader&lt;/fen&gt; (often a name of a leading position, e.g., &lt;ment&gt;king&lt;/ment&gt;)
+
+&lt;ex&gt;&lt;fex name="lea"&gt;Sebek em hat&lt;/fex&gt; &lt;m&gt;was&lt;/m&gt; a &lt;t&gt;Leader&lt;/t&gt; &lt;fex name="gov"&gt;of Priests&lt;/fex&gt;. ca. 1780 BC&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Time"&gt;In 1789&lt;/fex&gt; &lt;fex name="Leader"&gt;Fletcher Christian&lt;/fex&gt; &lt;t&gt;led&lt;/t&gt; &lt;fex name="Activity"&gt;the mutiny on HMS Bounty&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Leader"&gt;Louis XIV&lt;/fex&gt; &lt;t&gt;ruled&lt;/t&gt; &lt;fex name="Governed"&gt;over his people&lt;/fex&gt; &lt;fex name="Role"&gt;as king&lt;/fex&gt; &lt;fex name="Duration"&gt;for the longest period of any European monarch&lt;/fex&gt;.&lt;/ex&gt;
+Compare to: Appellations. &lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:24 PST Wed" abbrev="lea" name="Leader" ID="347">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Leader&lt;/fen&gt; is the one who has the role of leading.  With verbs, and with predicate nominals linking an individual to a &lt;fen&gt;Role&lt;/fen&gt;, the &lt;fen&gt;Leader&lt;/fen&gt; is usually the External Argument: 
+&lt;ex&gt;&lt;fex name="Leader"&gt;King Hussein&lt;/fex&gt; &lt;t&gt;ruled&lt;/t&gt; Jordan.&lt;/ex&gt; 
+&lt;ex&gt;&lt;fex name="Leader"&gt;Hussein&lt;/fex&gt; was &lt;t&gt;King&lt;/t&gt; of Jordan.&lt;/ex&gt; 
+With leadership nouns, the frame element &lt;fen&gt;Leader&lt;/fen&gt; is most frequently instantiated by the target itself.
+&lt;ex&gt;The &lt;fex name="Leader"&gt;&lt;t&gt;queen&lt;/t&gt;&lt;/fex&gt; announced her upcoming visit to Belgium.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:25 PST Wed" abbrev="Role" name="Role" ID="349">
+    <definition>&lt;def-root&gt;The role played by the &lt;fen&gt;Leader&lt;/fen&gt; in a given situation, often an official title; incorporated in most noun LUsin this frame. When expressed separately from the target, &lt;fen&gt;Role&lt;/fen&gt; usually occurs in a PP Complement headed by &lt;ment&gt;as&lt;/ment&gt;.
+
+&lt;ex&gt;Hussein &lt;t&gt;reigned&lt;/t&gt; &lt;fex name="Role"&gt;as King of Jordan&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="000000" coreType="Peripheral" cBy="ChW" cDate="02/07/2001 04:12:25 PST Wed" abbrev="Dur" name="Duration" ID="350">
+    <definition>&lt;def-root&gt;Leadership by any particular individual is frequently limited in time, which is noted here as &lt;fen&gt;Duration&lt;/fen&gt;.   &lt;fen&gt;Duration&lt;/fen&gt; usually occurs in a PP Complement.
+&lt;ex&gt;She &lt;t&gt;reigned&lt;/t&gt; &lt;fex name="Duration"&gt;for 3 years&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Duration" ID="142"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="07/17/2001 02:10:29 PDT Tue" abbrev="Dep" name="Depictive" ID="1470">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Depictive&lt;/fen&gt; refers to that which describes one of the participants in the leadership relationship.
+
+&lt;ex&gt;He &lt;t&gt;led&lt;/t&gt; them for a thousand years, &lt;fex name="Dep"&gt;strong, bold, and deathless&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/17/2001 02:10:29 PDT Tue" abbrev="Manr" name="Manner" ID="1471">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Manner&lt;/fen&gt; refers to the style/way in which the leadership is asserted.
+
+&lt;ex&gt;Alternative and orthodox practitioners &lt;t&gt;reign&lt;/t&gt; &lt;fex name="Manner"&gt;harmoniously&lt;/fex&gt; &lt;fex name="Manner"&gt;side by side&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/17/2001 02:10:29 PDT Tue" abbrev="Mns" name="Means" ID="1472">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Means&lt;/fen&gt; identifies act(s) performed by the &lt;fen&gt;Leader&lt;/fen&gt; through which leadership is maintained.
+&lt;ex&gt;He &lt;t&gt;ruled&lt;/t&gt; &lt;fex name="Mns"&gt;by sheer brutality and intimidation&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Napolean &lt;t&gt;reigned&lt;/t&gt; &lt;fex name="Mns"&gt;by the grace of God and the will of the people&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/17/2001 02:20:28 PDT Tue" abbrev="Degr" name="Degree" ID="1479">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Degree&lt;/fen&gt; to which leadership is asserted.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="hmC" cDate="05/28/2003 12:04:11 PDT Wed" abbrev="Tim" name="Time" ID="4506">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Time&lt;/fen&gt; refers to the point in time that the leadership took place.
+
+&lt;ex&gt;The general &lt;t&gt;led&lt;/t&gt; his troops into battle &lt;fex name="Time"&gt;on June 22, 1883&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="05/13/2004 01:49:28 PDT Thu" abbrev="gov" name="Governed" ID="6431">
+    <definition>&lt;def-root&gt;The entity whose actions or beliefs the &lt;fen&gt;Leader&lt;/fen&gt; directs in the context of a joint activity or movement.  This entity can be a political body, a person, or a group of people.
+
+&lt;ex&gt;Cyprus Turks turn against &lt;fex name="gov"&gt;their&lt;/fex&gt; &lt;t&gt;leader&lt;/t&gt;&lt;/ex&gt;
+&lt;ex&gt;Naoto Kan is the new &lt;t&gt;leader&lt;/t&gt; &lt;fex name="gov"&gt;of the Democratic Party of Japan&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;King Hussein &lt;t&gt;ruled&lt;/t&gt; &lt;fex name="gov"&gt;Jordan&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="07/19/2004 05:06:50 PDT Mon" abbrev="des" name="Descriptor" ID="6967">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Descriptor&lt;/fen&gt; is a temporary condition of the &lt;fen&gt;Leader&lt;/fen&gt;.
+
+&lt;ex&gt;A &lt;fex name="des"&gt;nervous&lt;/fex&gt; &lt;t&gt;governor&lt;/t&gt; stepped up to the lectern to give his speech.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="KmG" cDate="08/25/2006 12:20:31 PDT Fri" abbrev="Typ" name="Type" ID="10582">
+    <definition>&lt;def-root&gt;This FE indicates what subtype of the general category the &lt;fen&gt;Leader&lt;/fen&gt; belongs to.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="10/30/2007 11:56:57 PDT Tue" abbrev="Dom" name="Domain" ID="12033">
+    <definition>&lt;def-root&gt;The relevant &lt;fen&gt;Domain&lt;/fen&gt; within which the &lt;fen&gt;Leader&lt;/fen&gt; rules.  This includes a specification of a country that the &lt;fen&gt;Leader&lt;/fen&gt; serves (Iranian &lt;t&gt;officials&lt;/t&gt;) or any other organizations that the &lt;fen&gt;Leader&lt;/fen&gt; acts as part of (congressional &lt;t&gt;representative&lt;/t&gt;; several &lt;t&gt;directors&lt;/t&gt; from UNHCR).&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="JKs" cDate="08/27/2008 10:44:38 PDT Wed" abbrev="act" name="Activity" ID="13068">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Leader&lt;/fen&gt; directs the &lt;fen&gt;Activity&lt;/fen&gt;.
+
+&lt;ex&gt;The captain's cousin &lt;t&gt;led&lt;/t&gt; &lt;fex name="Activity"&gt;the mutiny&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;John Cage is one of the &lt;t&gt;leaders&lt;/t&gt; &lt;fex name="Activity"&gt;of the minimalist music movement&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Activity" ID="8"/>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="000000" coreType="Peripheral" cBy="CVa" cDate="01/17/2012 11:00:46 PST Tue" abbrev="Place" name="Place" ID="15408">
+    <definition>&lt;def-root&gt;The locale from which the &lt;fen&gt;Leader&lt;/fen&gt; leads the &lt;fen&gt;Governed&lt;/fen&gt; or the &lt;fen&gt;Activity&lt;/fen&gt;.
+
+&lt;ex&gt;He &lt;t&gt;ruled&lt;/t&gt; the west &lt;fex name="Place"&gt;from his palace in Milan&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Activity" ID="13068"/>
+    <memberFE name="Governed" ID="6431"/>
+  </FEcoreSet>
+  <FEcoreSet>
+    <memberFE name="Role" ID="349"/>
+    <memberFE name="Leader" ID="347"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="195">Political_locales</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="2390">Appellations</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="1600873087544" POS="V" cBy="automatic" cDate="09/23/2020 14:58:07 UTC Wed" lemmaID="487" lu_type="singleton" name="presideren.v" status="Created" FN_EN_LU_ID="1598" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6434" RBN_matching_relation="near_equivalence">
+    <definition>als voorzitter fungeren, de leiding hebben over</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="presideren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873090714" POS="N" cBy="automatic" cDate="09/23/2020 14:58:10 UTC Wed" lemmaID="488" lu_type="singleton" name="soeverein.n" status="Created" FN_EN_LU_ID="1607" Method="Iteration-1" RBN_LU_ID="r_n-34596" RBN_matching_relation="near_equivalence">
+    <definition>met een aan geen hoger gezag ondergeschikte macht</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="soeverein" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873093763" POS="N" cBy="automatic" cDate="09/23/2020 14:58:13 UTC Wed" lemmaID="489" lu_type="singleton" name="kalief.n" status="Created" FN_EN_LU_ID="4099" Method="Iteration-1" RBN_LU_ID="r_n-18843" RBN_matching_relation="near_equivalence">
+    <definition>oud, van leiders in islamitische landen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="kalief" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873096894" POS="N" cBy="automatic" cDate="09/23/2020 14:58:16 UTC Wed" lemmaID="490" lu_type="singleton" name="tsarina.n" status="Created" FN_EN_LU_ID="4109" Method="Iteration-1" RBN_LU_ID="r_n-38630" RBN_matching_relation="near_equivalence">
+    <definition>van een Russische tsaar</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="tsarina" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873100029" POS="N" cBy="automatic" cDate="09/23/2020 14:58:20 UTC Wed" lemmaID="491" lu_type="singleton" name="pasja.n" status="Created" FN_EN_LU_ID="4205" Method="Iteration-1" RBN_LU_ID="r_n-27803" RBN_matching_relation="near_equivalence">
+    <definition>voor de hoogste ambtenaren</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="pasja" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873103185" POS="N" cBy="manual" cDate="09/23/2020 14:58:23 UTC Wed" lemmaID="492" lu_type="singleton" name="despoot.n" status="Created" FN_EN_LU_ID="17272" Method="Iteration-1" RBN_LU_ID="r_n-10739" RBN_matching_relation="equivalence">
+    <definition>die heerszuchtig is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="despoot" order="1"/>
+  </lexUnit>
+</frame>

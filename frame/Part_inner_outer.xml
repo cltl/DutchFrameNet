@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="05/29/2002 10:25:18 PDT Wed" name="Part_inner_outer" ID="327" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame concerns &lt;fen&gt;Part&lt;/fen&gt;s of objects that are defined relative to the center or edge of the object.  The &lt;fen&gt;Part&lt;/fen&gt; is a part of the &lt;fen&gt;Whole&lt;/fen&gt; and the &lt;fen&gt;Part_prop&lt;/fen&gt; describes a property of the &lt;fen&gt;Part&lt;/fen&gt;.
+
+&lt;ex&gt;She discarded the &lt;t&gt;&lt;fex name="Part"&gt;exterior&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Whole"&gt;of the walnut&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt; She preferred a sparse &lt;fex name="Whole"&gt;church&lt;/fex&gt; &lt;t&gt;&lt;fex name="Part"&gt;interior&lt;/fex&gt;&lt;/t&gt; . &lt;/ex&gt;
+
+In cases where the &lt;t&gt;Target&lt;/t&gt; is an adjective, it has a special relationship with the noun that it modifies such that a phrase which is a syntactic argument of the noun is semantically available to fill the argument structure of the adjective, as in "the &lt;t&gt;outside&lt;/t&gt; &lt;fex name="Part"&gt;row&lt;/fex&gt; &lt;fex name="Whole"&gt;of the class&lt;/fex&gt;"&lt;ex&gt;The &lt;t&gt;inner&lt;/t&gt; &lt;fex name="Part"&gt;shelf&lt;/fex&gt; &lt;fex name="Whole"&gt;of the bookcase&lt;/fex&gt; was lying on the floor.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+  <semType name="Transparent Noun" ID="9"/>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="05/29/2002 11:59:30 PDT Wed" abbrev="" name="Part" ID="2857">
+    <definition>&lt;def-root&gt;This element describes the &lt;fen&gt;Part&lt;/fen&gt; of the larger &lt;fen&gt;Whole&lt;/fen&gt;.&lt;ex&gt;She only ate the &lt;fex name="Part"&gt;&lt;t&gt;skin&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Whole"&gt;of the apple&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="05/29/2002 12:00:08 PDT Wed" abbrev="" name="Whole" ID="2858">
+    <definition>&lt;def-root&gt;An undivided entity having all its &lt;fen&gt;Part&lt;/fen&gt;s.&lt;ex&gt;She eats only the &lt;fex name="Part_Prop"&gt;thick&lt;/fex&gt; &lt;t&gt;&lt;fex name="Part"&gt;skin&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Whole"&gt;of the banana&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="05/29/2002 12:02:04 PDT Wed" abbrev="" name="Part_prop" ID="2859">
+    <definition>&lt;def-root&gt;A property relating to the &lt;fen&gt;Part&lt;/fen&gt; of a &lt;fen&gt;Whole&lt;/fen&gt;.&lt;ex&gt;Sue ate the &lt;fex name="Part_prop"&gt;thick&lt;/fex&gt; &lt;t&gt;&lt;fex name="Part"&gt;shell&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Whole"&gt;of the pistachio&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="140">Part_whole</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

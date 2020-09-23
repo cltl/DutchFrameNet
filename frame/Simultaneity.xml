@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="03/23/2007 11:36:55 PDT Fri" name="Simultaneity" ID="1897" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;Two &lt;fen&gt;Events&lt;/fen&gt; happen at the same time.  This may either be construed symmetrically as a relation holding between the &lt;fen&gt;Events&lt;/fen&gt;, or asymmetrically as holding between a &lt;fen&gt;Landmark_event&lt;/fen&gt; whose known occurrence is used to describe when a &lt;fen&gt;Profiled_event&lt;/fen&gt; took place.
+
+&lt;ex&gt;&lt;fex name="Events"&gt;These events&lt;/fex&gt; &lt;t&gt;coincided&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/23/2007 11:36:55 PDT Fri" abbrev="Ent1" name="Profiled_event" ID="11274">
+    <definition>&lt;def-root&gt;The event which is asserted to occur at the same time as the &lt;fen&gt;Landmark_event&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <excludesFE name="Events" ID="11276"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="03/23/2007 11:36:55 PDT Fri" abbrev="Ent2" name="Landmark_event" ID="11275">
+    <definition>&lt;def-root&gt;The event or time period whose timing the Profiled_event is judged against.&lt;/def-root&gt;</definition>
+    <excludesFE name="Events" ID="11276"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core-Unexpressed" cBy="MJE" cDate="03/23/2007 11:36:55 PDT Fri" abbrev="Ents" name="Events" ID="11276">
+    <definition>&lt;def-root&gt;The states-of-affairs which are asserted to be co-timed.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="07/18/2012 10:00:48 PDT Wed" abbrev="deg" name="Degree" ID="15760">
+    <definition>&lt;def-root&gt;The degree to which the &lt;fen&gt;Profiled_event&lt;/fen&gt; and &lt;fen&gt;Landmark_event&lt;/fen&gt; coincide.
+
+&lt;ex&gt;The attacks on the palace &lt;fex name="deg"&gt;nearly&lt;/fex&gt; &lt;t&gt;coincided&lt;/t&gt; with the beginning of peace talks.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="248">Relation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in">
+    <relatedFrame ID="1895">Temporal_collocation</relatedFrame>
+    <relatedFrame ID="2141">Location_in_time</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

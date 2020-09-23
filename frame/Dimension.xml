@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="05/21/2001 03:46:32 PDT Mon" name="Dimension" ID="108" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame concerns  words that express an &lt;fen&gt;Object&lt;/fen&gt;'s position on a scale, its &lt;fen&gt;Measurement&lt;/fen&gt;, with respect to some attribute, its &lt;fen&gt;Dimension&lt;/fen&gt;.  &lt;fen&gt;Location&lt;/fen&gt;,  identifying the sub-region of the &lt;fen&gt;Object&lt;/fen&gt; where the &lt;fen&gt;Dimension&lt;/fen&gt; is measured, may also be expressed.
+
+&lt;ex&gt;&lt;fex name="Object"&gt;The tower&lt;/fex&gt; is &lt;fex name="Measurement"&gt;10 feet&lt;/fex&gt; &lt;t&gt;tall&lt;/t&gt;.&lt;/ex&gt; 
+
+&lt;ex&gt;&lt;fex name="Object"&gt;The  new vase&lt;/fex&gt; is &lt;fex name="Measurement"&gt;5 cm&lt;/fex&gt; in &lt;t&gt;circumference&lt;/t&gt; &lt;fex name="Locus"&gt;at the top&lt;/fex&gt;.&lt;/ex&gt;
+
+Adjectives in this frame &lt;ment&gt;must&lt;/ment&gt; appear with a measurement expression like &lt;ment&gt;5 cm&lt;/ment&gt;.
+
+Note the tagging of  &lt;ment&gt;six feet&lt;/ment&gt; on the GF and PT layers in the following sentence.
+
+&lt;ex&gt;&lt;fex name="Object"&gt;The woman&lt;/fex&gt; was &lt;fex name="Measurement"&gt;six feet&lt;/fex&gt; &lt;t&gt;tall&lt;/t&gt;.&lt;/ex&gt;
+
+The GF of &lt;ment&gt;six feet&lt;/ment&gt; is Dep and the PT is NP.&lt;/def-root&gt;</definition>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="05/21/2001 03:55:17 PDT Mon" abbrev="Dimen" name="Dimension" ID="519">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Dimension&lt;/fen&gt; which is measured.  Most LUs in this frame incorporate the &lt;fen&gt;Dimension&lt;/fen&gt;.
+
+&lt;ex&gt;The  new vase is 5 cm in &lt;t&gt;circumference&lt;/t&gt; at the top.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="05/21/2001 03:56:06 PDT Mon" abbrev="Object" name="Object" ID="520">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Object&lt;/fen&gt; identifies the item which is measured along one of its &lt;fen&gt;Dimension&lt;/fen&gt;s.  &lt;ex&gt;&lt;fex name="Object"&gt;The  new vase&lt;/fex&gt; is 5 cm in &lt;t&gt;circumference&lt;/t&gt; at the top.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="05/21/2001 03:57:16 PDT Mon" abbrev="Measur" name="Measurement" ID="521">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Measurement&lt;/fen&gt; identifies the extent of the &lt;fen&gt;Object&lt;/fen&gt; along the specified &lt;fen&gt;Dimension&lt;/fen&gt;.
+
+&lt;ex&gt;The  new vase is &lt;fex name="Measurement"&gt;5 cm&lt;/fex&gt; in &lt;t&gt;circumference&lt;/t&gt; at the top.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="08/03/2001 02:41:35 PDT Fri" abbrev="Locu" name="Locus" ID="1562">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Locus&lt;/fen&gt; identifies the sub-region of the &lt;fen&gt;Object&lt;/fen&gt; where the &lt;fen&gt;Dimension&lt;/fen&gt; is measured.
+&lt;ex&gt;The  new vase is 5 cm in &lt;t&gt;circumference&lt;/t&gt; &lt;fex name="Locus"&gt;at the top&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    <semType name="Location" ID="54"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="06/19/2007 01:21:38 PDT Tue" abbrev="" name="Domain" ID="11891">
+    <definition>&lt;def-root&gt;The relevant dimension of development.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="11/12/2015 03:01:03 PST Thu" abbrev="" name="Degree" ID="16770">
+    <definition>&lt;def-root&gt;FOR REFRAMING!&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="2604">Quantity</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on">
+    <relatedFrame ID="1687">Measure_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="965">Measurable_attributes</relatedFrame>
+  </frameRelation>
+</frame>

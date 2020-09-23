@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="01/14/2003 05:37:28 PST Tue" name="Conduct" ID="491" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; acts in a certain &lt;fen&gt;Manner&lt;/fen&gt; either generally or under some particular &lt;fen&gt;Circumstances&lt;/fen&gt;. The conduct may also be directed specifically towards an &lt;fen&gt;Affected_party&lt;/fen&gt;.
+
+&lt;ex&gt; &lt;fex name="Agent"&gt;He&lt;/fex&gt; pledges to  &lt;t&gt;conduct&lt;/t&gt; himself  &lt;fex name="Manner"&gt;with honesty and humility&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt; This year &lt;fex name="Agent"&gt;they&lt;/fex&gt; have &lt;t&gt;behaved&lt;/t&gt; themselves &lt;fex name="Manner"&gt;particularly impudently&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt; His appearance was as   immaculate as ever and &lt;fex name="Agent"&gt;his&lt;/fex&gt; &lt;t&gt;bearing&lt;/t&gt; 
+&lt;fex name="Manner"&gt;composed and dignified&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="01/14/2003 05:59:45 PST Tue" abbrev="" name="Agent" ID="4031">
+    <definition>&lt;def-root&gt;This FE marks expressions that denote the person whose conduct is being evaluated.
+
+&lt;ex&gt;&lt;fex name="Agent"&gt;Douglas Hurd&lt;/fex&gt; &lt;t&gt;carried&lt;/t&gt; &lt;t&gt;himself&lt;/t&gt; well &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="01/14/2003 06:01:30 PST Tue" abbrev="" name="Manner" ID="4032">
+    <definition>&lt;def-root&gt;This FE marks expressions that characterize the way that the &lt;fen&gt;Agent&lt;/fen&gt; behaves.
+
+&lt;ex&gt; They stood together and posed for the pass, Alleyne relaxed and smiling , a tall , angular man who &lt;t&gt;carried&lt;/t&gt;  &lt;t&gt;himself&lt;/t&gt; &lt;fex name="Manner"&gt;with natural elegance&lt;/fex&gt; .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="01/14/2003 06:05:20 PST Tue" abbrev="" name="Circumstances" ID="4033">
+    <definition>&lt;def-root&gt;This FE marks expressions that indicate a set of &lt;fen&gt;Circumstances&lt;/fen&gt; under which the &lt;fen&gt;Agent&lt;/fen&gt; acts in a particular way.
+
+&lt;ex&gt;But Garvey did not care what Gabriel believed , so long as he &lt;t&gt;conducted&lt;/t&gt;  himself &lt;fex name="Circumstances"&gt;on stage&lt;/fex&gt; like the Angel Gabriel .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="03/20/2003 04:52:17 PST Thu" abbrev="aff" name="Affected_party" ID="4300">
+    <definition>&lt;def-root&gt;A person to whom behavior is directed by the &lt;fen&gt;Agent&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Agent"&gt;Smithers&lt;/fex&gt; &lt;t&gt;behaved&lt;/t&gt; himself &lt;fex name="Manner"&gt;shamefully&lt;/fex&gt; &lt;fex name="Affected_party"&gt;towards me&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="05/13/2003 02:38:27 PDT Tue" abbrev="Exp" name="Explanation" ID="4485">
+    <definition>&lt;def-root&gt;This FE marks expressions that indicate why an &lt;fen&gt;Agent&lt;/fen&gt; behaved in a certain way.
+
+&lt;ex&gt;People &lt;t&gt;behave&lt;/t&gt; in the way they do &lt;fex name="Explanation"&gt;because of their past learning experiences&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/21/2004 02:30:10 PDT Mon" abbrev="tim" name="Time" ID="6517">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; when the &lt;fen&gt;Agent&lt;/fen&gt; behaves in a certain way.
+
+&lt;ex&gt; She knew that she had &lt;t&gt;behaved&lt;/t&gt; badly &lt;fex name="tim"&gt;last night&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/21/2004 02:31:51 PDT Mon" abbrev="pla" name="Place" ID="6518">
+    <definition>&lt;def-root&gt;The location at which the &lt;fen&gt;Agent&lt;/fen&gt; exhibits their behavior.
+
+&lt;ex&gt;Sometimes an offender may be placed at a Probation hostel because they have committed
+a serious offence or have &lt;t&gt;behaved&lt;/t&gt; badly &lt;fex name="pla"&gt;at an independent hostel&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/21/2004 02:47:10 PDT Mon" abbrev="mea" name="Means" ID="6519">
+    <definition>&lt;def-root&gt;The way in which the Agent behaves in the specified manner.
+
+&lt;ex&gt;He &lt;t&gt;behaved&lt;/t&gt; poorly &lt;fex name="Means"&gt;by saying rude things&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="KlB" cDate="06/25/2004 03:39:37 PDT Fri" abbrev="dom" name="Domain" ID="6570">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Domain&lt;/fen&gt; of human behavior in which the &lt;fen&gt;Agent&lt;/fen&gt; acts in a certain &lt;fen&gt;Manner&lt;/fen&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFD700" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KlB" cDate="06/25/2004 05:58:21 PDT Fri" abbrev="deg" name="Degree" ID="6571">
+    <definition>&lt;def-root&gt;The extent to which the (usually 'good' or 'bad') conduct of the &lt;fen&gt;Agent&lt;/fen&gt; deviates from some standard or norm&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Peripheral" cBy="KlB" cDate="06/25/2004 06:03:34 PDT Fri" abbrev="sta" name="Standard" ID="6572">
+    <definition>&lt;def-root&gt;An explicit point to which the conduct of the &lt;fen&gt;Agent&lt;/fen&gt; is compared.
+
+&lt;ex&gt;He &lt;t&gt;carried&lt;/t&gt; &lt;t&gt;himself&lt;/t&gt; admirably &lt;fex name="Standard"&gt;for a teenager&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="2770">Treating_and_mistreating</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="198">Intentionally_act</relatedFrame>
+    <relatedFrame ID="369">Social_behavior_evaluation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="12">Feigning</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872375347" POS="N" cBy="automatic" cDate="09/23/2020 14:46:15 UTC Wed" lemmaID="264" lu_type="singleton" name="wangedrag.n" status="Created" FN_EN_LU_ID="8233" Method="Iteration-1" RBN_LU_ID="r_n-42279" RBN_matching_relation="near_equivalence">
+    <definition>dat zeer slecht is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="wangedrag" order="1"/>
+  </lexUnit>
+</frame>

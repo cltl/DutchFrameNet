@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:57 PST Wed" name="Mental_property" ID="29" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;The adjectives and nouns in this frame are all based on the idea that mental properties may be attributed to a person (&lt;fen&gt;Protagonist&lt;/fen&gt;) by a (usually implicit) &lt;fen&gt;Judge&lt;/fen&gt;  on the basis of that person's &lt;fen&gt;Behavior&lt;/fen&gt;, as broadly understood.  Though on a conceptual level these words always attribute mental properties to people, they may be applied to &lt;fen&gt;Protagonist&lt;/fen&gt;'s &lt;fen&gt;Behavior&lt;/fen&gt;s as well, with the understanding that the &lt;fen&gt;Behavior&lt;/fen&gt; is revealing a (usually temporary) property of the &lt;fen&gt;Protagonist&lt;/fen&gt; responsible for it. For example, while we may speak of a &lt;ment&gt;stupid person&lt;/ment&gt;, we may also speak of a &lt;ment&gt;stupid thing to say/do/think&lt;/ment&gt;. In addition, we may mention both the &lt;fen&gt;Protagonist&lt;/fen&gt; and the &lt;fen&gt;Behavior&lt;/fen&gt;, as in &lt;ex&gt;It was &lt;t&gt;stupid&lt;/t&gt; of me to do that.&lt;/ex&gt; Some of the words in this frame also have slightly different uses, in which there is a constituent expressing the &lt;fen&gt;Practice&lt;/fen&gt; with respect to which the mental property holds of the &lt;fen&gt;Protagonist&lt;/fen&gt;, as in:  
+    &lt;ex&gt;She is &lt;t&gt;astute&lt;/t&gt; &lt;fex name="Practice"&gt;at math&lt;/fex&gt;.&lt;/ex&gt;
+While &lt;fen&gt;Practice&lt;/fen&gt; expressions do not co-occur with &lt;fen&gt;Behavior&lt;/fen&gt; expressions, they seem sufficiently different semantically to warrant a distinct frame element (FE) name. Also, while the FE &lt;fen&gt;Behavior&lt;/fen&gt; usually occurs in sentences expressing judgments that are based on specific events, &lt;fen&gt;Practice&lt;/fen&gt; occurs in sentences that are about general capabilities. In addition to the frame elements which are expressed, there is an understood judge (usually the speaker) in the background who forms the opinion of the &lt;fen&gt;Protagonist&lt;/fen&gt;'s mental properties, judging the &lt;fen&gt;Protagonist&lt;/fen&gt; or the &lt;fen&gt;Protagonist&lt;/fen&gt;'s &lt;fen&gt;Behavior&lt;/fen&gt; to be &lt;ment&gt;stupid&lt;/ment&gt;, &lt;ment&gt;brilliant&lt;/ment&gt;, etc. 
+&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:57 PST Wed" abbrev="Prot" name="Protagonist" ID="120">
+    <definition>&lt;def-root&gt;This is the person (or people) to whom a mental property is attributed. The FE may be expressed as External Argument of a predicative use of the adjective, as a PP Complement, or as the head noun modified by an attributive use of the adjective: 
+&lt;ex&gt;&lt;fex name="Protagonist"&gt;You&lt;/fex&gt; were &lt;t&gt;smart&lt;/t&gt; to save all your receipts.&lt;/ex&gt;
+&lt;ex&gt;It was &lt;t&gt;smart&lt;/t&gt; &lt;fex name="Protagonist"&gt;of you&lt;/fex&gt; to save all your receipts.&lt;/ex&gt;
+&lt;ex&gt;You are a &lt;t&gt;smart&lt;/t&gt; &lt;fex name="Protagonist"&gt;person&lt;/fex&gt; to save your receipts.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:57 PST Wed" abbrev="Behv" name="Behavior" ID="121">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Behavior&lt;/fen&gt; refers to any action, utterance, belief, or artifact thereof on the basis of which a mental property is attributed to the &lt;fen&gt;Protagonist&lt;/fen&gt;. The meaning of the English word &lt;ment&gt;behavior&lt;/ment&gt; should not be taken to constrain the identity of this frame element too much---conceptually, this frame element includes things that would not normally be described using the word &lt;ment&gt;behavior&lt;/ment&gt;.  Note the following examples:
+&lt;ex&gt;That was a &lt;t&gt;stupid&lt;/t&gt; &lt;fex name="Behavior"&gt;mistake&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The manager made a few &lt;t&gt;stupid&lt;/t&gt; &lt;fex name="Behavior"&gt;remarks&lt;/fex&gt; and then sat down.&lt;/ex&gt;
+&lt;ex&gt;What a &lt;t&gt;stupid&lt;/t&gt; &lt;fex name="Behavior"&gt;book&lt;/fex&gt;!&lt;/ex&gt;
+&lt;ex&gt;It's &lt;t&gt;stupid&lt;/t&gt; &lt;fex name="Behavior"&gt;to think that everything will improve&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:11:57 PST Wed" abbrev="Prac" name="Practice" ID="122">
+    <definition>&lt;def-root&gt;Some of the words in this frame have a slightly different use in that they evaluate someone only with respect to their mental performance in some particular domain or capacity.  We call this domain or capacity &lt;t&gt;Practice&lt;/t&gt;. E.g., She is &lt;t&gt;astute&lt;/t&gt; &lt;fex name="Practice"&gt;at math&lt;/fex&gt;. Note that this does not mean she is considered to be astute in general for doing math. Rather, she is astute with respect to math, but may be dumb with respect to other things. These uses probably belong in a different frame with words such as &lt;ment&gt;skilled&lt;/ment&gt;, but for the time being they are marked with the FE Practice. General Grammatical Observations:  The adjectives in this frame may exhibit Extraposition of a &lt;ment&gt;to&lt;/ment&gt;-marked infinitive VP, with an optional Protagonist expressed in an &lt;ment&gt;of&lt;/ment&gt;-PP: It was &lt;t&gt;brilliant&lt;/t&gt; (of you) &lt;fex name="Prac"&gt;to invite the clowns to the party&lt;/fex&gt;. &lt;/def-root&gt;</definition>
+    <requiresFE name="Protagonist" ID="120"/>
+    <excludesFE name="Behavior" ID="121"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/17/2001 02:24:00 PDT Tue" abbrev="Degr" name="Degree" ID="1480">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Degree&lt;/fen&gt; marks the extent to which the &lt;fen&gt;Behavior&lt;/fen&gt; or &lt;fen&gt;Practice&lt;/fen&gt; is exhibited or attributed.
+
+&lt;ex&gt;Jenkins is &lt;fex name="Manr"&gt;far too&lt;/fex&gt; &lt;t&gt;astute&lt;/t&gt; to fall for that&lt;/ex&gt;
+&lt;ex&gt;She was &lt;fex name="Degr"&gt;a bit&lt;/fex&gt; &lt;t&gt;careless&lt;/t&gt; at adding drops.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/17/2001 02:24:00 PDT Tue" abbrev="Manr" name="Manner" ID="1481">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Manner&lt;/fen&gt; refers to the method or way in which the Mental_property is attributed to the &lt;fen&gt;Protagonist&lt;/fen&gt;.
+
+&lt;ex&gt;It was not licence he wanted -- his goal was the &lt;fex name="Manr"&gt;forcible&lt;/fex&gt; &lt;t&gt;enlightenment&lt;/t&gt; of mankind.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="08/12/2003 05:30:01 PDT Tue" abbrev="" name="Domain" ID="4921">
+    <definition>&lt;def-root&gt;The domain in which the &lt;fen&gt;Behavior&lt;/fen&gt; or &lt;fen&gt;Protagonist&lt;/fen&gt; has a given mental property.
+&lt;ex&gt;It was &lt;fex name="Domain"&gt;politically&lt;/fex&gt; &lt;t&gt;astute&lt;/t&gt; to decline the offer.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="05/06/2004 02:04:31 PDT Thu" abbrev="jud" name="Judge" ID="6391">
+    <definition>&lt;def-root&gt;The individual whose point of view is taken in assigning the judgment denoted by the target.
+
+&lt;ex&gt;&lt;fex name="jud"&gt;To my mind&lt;/fex&gt;, his dialogues with his Vietnamese counterpart were the most trenchant, &lt;t&gt;astute&lt;/t&gt; and screamingly funny things Trudeau has ever done&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Behavior" ID="121"/>
+    <memberFE name="Protagonist" ID="120"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="369">Social_behavior_evaluation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="978">Losing_it</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600873339968" POS="A" cBy="automatic" cDate="09/23/2020 15:02:19 UTC Wed" lemmaID="566" lu_type="singleton" name="verstrooid.a" status="Created" FN_EN_LU_ID="372" Method="Iteration-1" RBN_LU_ID="r_a-16028" RBN_matching_relation="near_equivalence">
+    <definition>verward</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="verstrooid" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873343243" POS="A" cBy="automatic" cDate="09/23/2020 15:02:23 UTC Wed" lemmaID="567" lu_type="singleton" name="cynisch.a" status="Created" FN_EN_LU_ID="388" Method="Iteration-1" RBN_LU_ID="r_a-9803" RBN_matching_relation="near_equivalence">
+    <definition>bitter</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="cynisch" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873346422" POS="A" cBy="automatic" cDate="09/23/2020 15:02:26 UTC Wed" lemmaID="568" lu_type="singleton" name="zinloos.a" status="Created" FN_EN_LU_ID="403" Method="Iteration-1" RBN_LU_ID="r_a-16421" RBN_matching_relation="near_equivalence">
+    <definition>nutteloos</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="zinloos" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873349750" POS="A" cBy="automatic" cDate="09/23/2020 15:02:29 UTC Wed" lemmaID="569" lu_type="singleton" name="doelloos.a" status="Created" FN_EN_LU_ID="403" Method="Iteration-1" RBN_LU_ID="r_a-10072" RBN_matching_relation="near_equivalence">
+    <definition>zonder doel</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="doelloos" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873352902" POS="A" cBy="automatic" cDate="09/23/2020 15:02:32 UTC Wed" lemmaID="570" lu_type="singleton" name="inhoudsloos.a" status="Created" FN_EN_LU_ID="403" Method="Iteration-1" RBN_LU_ID="r_a-11988" RBN_matching_relation="near_equivalence">
+    <definition>zonder inhoud</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="inhoudsloos" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873355986" POS="A" cBy="automatic" cDate="09/23/2020 15:02:35 UTC Wed" lemmaID="571" lu_type="singleton" name="vernuftig.a" status="Created" FN_EN_LU_ID="405" Method="Iteration-1" RBN_LU_ID="r_a-15995" RBN_matching_relation="near_equivalence">
+    <definition>ingenieus</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="vernuftig" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873359227" POS="A" cBy="automatic" cDate="09/23/2020 15:02:39 UTC Wed" lemmaID="572" lu_type="singleton" name="ingenieus.a" status="Created" FN_EN_LU_ID="405" Method="Iteration-1" RBN_LU_ID="r_a-11916" RBN_matching_relation="near_equivalence">
+    <definition>vernuftig</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="ingenieus" order="1"/>
+  </lexUnit>
+</frame>

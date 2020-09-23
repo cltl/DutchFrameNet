@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="02/20/2004 06:07:14 PST Fri" name="People_by_origin" ID="974" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame contains  words for individuals, i.e. humans, with respect to their &lt;fen&gt;Origin&lt;/fen&gt;. The &lt;fen&gt;Origin&lt;/fen&gt; is generally incorporated, but may occasionally be specified separately.  The &lt;fen&gt;Person&lt;/fen&gt; is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have an &lt;fen&gt;Age&lt;/fen&gt;, &lt;fen&gt;Descriptor&lt;/fen&gt;, &lt;fen&gt;Persistent_characteristic&lt;/fen&gt;, or &lt;fen&gt;Ethnicity&lt;/fen&gt;. 
+
+&lt;ex&gt;&lt;fex name="Person"&gt;I&lt;/fex&gt;'m a &lt;fex name="Descriptor"&gt;proud&lt;/fex&gt; &lt;t&gt;Brit&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="02/20/2004 06:07:14 PST Fri" abbrev="Ori" name="Origin" ID="5943">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Origin&lt;/fen&gt; is the place where the &lt;fen&gt;Person&lt;/fen&gt; was born or lived a salient part of her or his life.  In this frame, it is generally incorporated in the lexical item, but may be separately specified as in the following:
+
+&lt;ex&gt;&lt;t&gt;Foreigners&lt;/t&gt; &lt;fex name="Ori"&gt;from Japan&lt;/fex&gt; get short shrift around here.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="02/20/2004 06:07:14 PST Fri" abbrev="Person" name="Person" ID="5944">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Person&lt;/fen&gt; is the human being whose &lt;fen&gt;Origin&lt;/fen&gt; is specified.&lt;/def-root&gt;</definition>
+    <semType name="Human" ID="80"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="02/20/2004 06:07:14 PST Fri" abbrev="Pers_char" name="Persistent_characteristic" ID="5945">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Persistent_characteristic&lt;/fen&gt; is a physiological characteristic or personality trait of the &lt;fen&gt;Person&lt;/fen&gt; which is concieved of as persisting over time.
+
+&lt;ex&gt;The &lt;fex name="Pers_char"&gt;swarthy&lt;/fex&gt; &lt;t&gt;Frenchman&lt;/t&gt; appeared at his elbow, smiling.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="02/20/2004 06:07:14 PST Fri" abbrev="Desc" name="Descriptor" ID="5946">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Descriptor&lt;/fen&gt; is a temporary condition of the &lt;fen&gt;Person&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="02/20/2004 06:07:14 PST Fri" abbrev="Age" name="Age" ID="5947">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Age&lt;/fen&gt; is the length of time the &lt;fen&gt;Person&lt;/fen&gt; has been alive.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="02/20/2004 06:07:14 PST Fri" abbrev="Eth" name="Ethnicity" ID="5948">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Ethnicity&lt;/fen&gt; is the religious, racial, national, socio-economic or cultural group to which the &lt;fen&gt;Person&lt;/fen&gt; belongs.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="000000" coreType="Peripheral" cBy="JKR" cDate="02/20/2004 06:07:14 PST Fri" abbrev="coa" name="Context_of_acquaintance" ID="5949">
+    <definition>&lt;def-root&gt;An expression indicating the context with which the &lt;fen&gt;Person&lt;/fen&gt; is associated.
+
+&lt;ex&gt;Would you believe it? That &lt;t&gt;Frenchman&lt;/t&gt; &lt;fex name="coa"&gt;from the subway&lt;/fex&gt; is back again!&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="304">People</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1103">Origin</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600873577351" POS="N" cBy="automatic" cDate="09/23/2020 15:06:17 UTC Wed" lemmaID="638" lu_type="singleton" name="Californiër.n" status="Created" FN_EN_LU_ID="10547" Method="Iteration-1" RBN_LU_ID="r_n-8986" RBN_matching_relation="near_equivalence">
+    <definition>van Californië</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="Californiër" order="1"/>
+  </lexUnit>
+</frame>

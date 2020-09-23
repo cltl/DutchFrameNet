@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="HCB" cDate="03/21/2001 02:47:25 PST Wed" name="Theft" ID="94" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;These are words describing situations in which a &lt;fen&gt;Perpetrator&lt;/fen&gt; takes &lt;fen&gt;Goods&lt;/fen&gt; from a  &lt;fen&gt;Victim&lt;/fen&gt; or a &lt;fen&gt;Source&lt;/fen&gt;. The &lt;fen&gt;Means&lt;/fen&gt; by which this is accomplished may also be expressed.
+
+&lt;ex&gt;I can't believe &lt;fex name="Perpetrator"&gt;he&lt;/fex&gt; &lt;t&gt;pickpocketed&lt;/t&gt; &lt;fex name="Goods"&gt;my gold watch&lt;/fex&gt; !&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Perpetrator"&gt;I&lt;/fex&gt; had to &lt;t&gt;pilfer&lt;/t&gt; &lt;fex name="Victim"&gt;from the office&lt;/fex&gt; &lt;fex name="Purpose"&gt;just to get by&lt;/fex&gt; . &lt;fex name="Goods"&gt;INI&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;t&gt;Snatching&lt;/t&gt; &lt;fex name="Goods"&gt;purses&lt;/fex&gt; &lt;fex name="Source"&gt;from little old ladies&lt;/fex&gt; is not a living . &lt;fex name="Perpetrator"&gt;CNI&lt;/fex&gt;&lt;/ex&gt;
+
+
+&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="HCB" cDate="03/23/2001 03:19:58 PST Fri" abbrev="Perp" name="Perpetrator" ID="451">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Perpetrator&lt;/fen&gt; is the person (or other agent) that takes the goods away. 
+
+&lt;ex&gt;&lt;fex name="Perp"&gt;Leslie&lt;/fex&gt; &lt;t&gt;stole&lt;/t&gt; the watch from Kim.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="HCB" cDate="03/23/2001 03:25:37 PST Fri" abbrev="Vict" name="Victim" ID="452">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Victim&lt;/fen&gt; is the person (or other sentient being or group) that owns the goods before they are taken away by the perpetrator.
+&lt;ex&gt;Leslie &lt;t&gt;stole&lt;/t&gt; the watch &lt;fex name="Victim"&gt;from Kim&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="HCB" cDate="03/23/2001 03:28:50 PST Fri" abbrev="Goods" name="Goods" ID="453">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Goods&lt;/fen&gt; is anything (including labor, time, or legal rights) that can be taken away. 
+
+&lt;ex&gt;Leslie &lt;t&gt;STOLE&lt;/t&gt; &lt;fex name="Goods"&gt;the watch&lt;/fex&gt; from Kim.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="HCB" cDate="03/23/2001 03:54:34 PST Fri" abbrev="Src" name="Source" ID="454">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Source&lt;/fen&gt; is the initial location of the goods, before they change location.
+
+&lt;ex&gt;Leslie &lt;t&gt;stole&lt;/t&gt; the watch &lt;fex name="Src"&gt;from the table&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Source" ID="151"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="HCB" cDate="04/13/2001 02:41:01 PDT Fri" abbrev="Mnr" name="Manner" ID="472">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Manner&lt;/fen&gt; in which the theft occurs.
+
+&lt;ex&gt;Leslie &lt;fex name="Manner"&gt;swiftly&lt;/fex&gt; &lt;t&gt;STOLE&lt;/t&gt; the watch from Kim.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="000000" coreType="Peripheral" cBy="HCB" cDate="04/13/2001 02:41:53 PDT Fri" abbrev="Mns" name="Means" ID="473">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Means&lt;/fen&gt; by which a &lt;fen&gt;Perpetrator&lt;/fen&gt; takes the &lt;fen&gt;Victim&lt;/fen&gt;'s &lt;fen&gt;Goods&lt;/fen&gt;.
+
+&lt;ex&gt;Leslie &lt;t&gt;STOLE&lt;/t&gt; the watch from Kim &lt;fex name="Means"&gt;by following her home after work&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/21/2001 08:56:47 PDT Tue" abbrev="Place" name="Place" ID="1744">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Place&lt;/fen&gt; where the theft occurs.
+&lt;ex&gt;Leslie &lt;t&gt;STOLE&lt;/t&gt; the watch from Kim &lt;fex name="Place"&gt;in the park&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/21/2001 08:56:47 PDT Tue" abbrev="Purp" name="Purpose" ID="1745">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Purpose&lt;/fen&gt; for which a theft occurs.
+&lt;ex&gt;Leslie &lt;t&gt;STOLE&lt;/t&gt; the watch from Kim &lt;fex name="Purpose"&gt;in order to sell it on Ebay&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/21/2001 08:56:47 PDT Tue" abbrev="exp" name="Explanation" ID="1746">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Explanation&lt;/fen&gt; for why a theft occurs.
+
+&lt;ex&gt;Leslie &lt;t&gt;STOLE&lt;/t&gt; the watch from Kim &lt;fex name="exp"&gt;because she'd always wanted a Gucci&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/21/2001 08:56:47 PDT Tue" abbrev="Time" name="Time" ID="1747">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Time&lt;/fen&gt; when the theft occurs.
+
+&lt;ex&gt;Leslie &lt;t&gt;STOLE&lt;/t&gt; the watch from Kim &lt;fex name="Time"&gt;at dusk&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="Hay" cDate="10/02/2003 11:37:01 PDT Thu" abbrev="Inst" name="Instrument" ID="5426">
+    <definition>&lt;def-root&gt;An object used by the &lt;fen&gt;Perpetrator&lt;/fen&gt; in taking possession of the &lt;fen&gt;Goods&lt;/fen&gt;.
+
+&lt;ex&gt;Chis &lt;t&gt;stole&lt;/t&gt; it &lt;fex name="Instrument"&gt;with a long bamboo pole&lt;/fex&gt; through the fence&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="000000" coreType="Extra-Thematic" cBy="Hay" cDate="10/02/2003 11:40:55 PDT Thu" abbrev="Freq" name="Frequency" ID="5461">
+    <definition>&lt;def-root&gt;The number of times that a theft occurs.
+
+&lt;ex&gt;Thieves &lt;fex name="Frequency"&gt;twice&lt;/fex&gt; &lt;t&gt;stole&lt;/t&gt; my Dodge Dart in the last two weeks&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Source" ID="454"/>
+    <memberFE name="Victim" ID="452"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="700">Committing_crime</relatedFrame>
+    <relatedFrame ID="410">Taking</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="99">Robbery</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600874399956" POS="V" cBy="automatic" cDate="09/23/2020 15:19:59 UTC Wed" lemmaID="885" lu_type="singleton" name="ontvreemden.v" status="Created" FN_EN_LU_ID="1961" Method="Iteration-1" RBN_LU_ID="r_v-5383" RBN_matching_relation="near_equivalence">
+    <definition>het genoemde stiekem wegnemen terwijl het niet van jou is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="ontvreemden" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874403215" POS="V" cBy="automatic" cDate="09/23/2020 15:20:03 UTC Wed" lemmaID="886" lu_type="singleton" name="jatten.v" status="Created" FN_EN_LU_ID="1964" Method="Iteration-1" RBN_LU_ID="r_v-3728" RBN_matching_relation="near_equivalence">
+    <definition>stelen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="jatten" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874406759" POS="V" cBy="automatic" cDate="09/23/2020 15:20:06 UTC Wed" lemmaID="887" lu_type="singleton" name="stelen.v" status="Created" FN_EN_LU_ID="1964" Method="Iteration-1" RBN_LU_ID="r_v-7472" RBN_matching_relation="near_equivalence">
+    <definition>heimelijk wegnemen wat aan een ander toebehoort</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="stelen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874410042" POS="N" cBy="automatic" cDate="09/23/2020 15:20:10 UTC Wed" lemmaID="888" lu_type="singleton" name="dief.n" status="Created" FN_EN_LU_ID="1969" Method="Iteration-1" RBN_LU_ID="r_n-10851" RBN_matching_relation="near_equivalence">
+    <definition>die zich iets toe-eigent wat niet van hem is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="dief" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874413295" POS="N" cBy="automatic" cDate="09/23/2020 15:20:13 UTC Wed" lemmaID="889" lu_type="singleton" name="dievegge.n" status="Created" FN_EN_LU_ID="1969" Method="Iteration-1" RBN_LU_ID="r_n-10944" RBN_matching_relation="near_equivalence">
+    <definition>die steelt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="dievegge" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874416558" POS="N" cBy="automatic" cDate="09/23/2020 15:20:16 UTC Wed" lemmaID="890" lu_type="singleton" name="zakkenroller.n" status="Created" FN_EN_LU_ID="1970" Method="Iteration-1" RBN_LU_ID="r_n-43774" RBN_matching_relation="near_equivalence">
+    <definition>die erg behendig is in het stelen van voorwerpen of geld uit iemands zakken of tas</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="zakkenroller" order="1"/>
+  </lexUnit>
+</frame>

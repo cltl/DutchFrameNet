@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="03/26/2007 10:42:24 PDT Mon" name="Lively_place" ID="1904" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Location&lt;/fen&gt; is characterized by a high amount of (often goal-oriented) &lt;fen&gt;Activity&lt;/fen&gt;, or metonymically, with &lt;fen&gt;Individuals&lt;/fen&gt; who are engaged in the activity.
+
+&lt;ex&gt;&lt;fex name="Location"&gt;The park&lt;/fex&gt; was &lt;t&gt;abuzz&lt;/t&gt; &lt;fex name="Individuals"&gt;with people&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="03/26/2007 10:42:24 PDT Mon" abbrev="Loc" name="Location" ID="11368">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Location&lt;/fen&gt; where a lot of activity is taking place, or prototypically takes place.
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="03/26/2007 10:42:24 PDT Mon" abbrev="" name="Degree" ID="11370">
+    <definition>&lt;def-root&gt;A modifier expressing  the deviation in amount of activity from the norm or from the amount for another &lt;fen&gt;Location&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="03/26/2007 10:42:24 PDT Mon" abbrev="" name="Time" ID="11371">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; during which the &lt;fen&gt;Location&lt;/fen&gt; is characterized by a lot of activity.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="03/26/2007 10:42:24 PDT Mon" abbrev="cir" name="Circumstances" ID="11372">
+    <definition>&lt;def-root&gt;Some specification of the circumstances under which the &lt;fen&gt;Location&lt;/fen&gt; has some degree of activity or liveliness.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="03/26/2007 10:42:25 PDT Mon" abbrev="pla" name="Place" ID="11374">
+    <definition>&lt;def-root&gt;The larger or general area where the &lt;fen&gt;Location&lt;/fen&gt; is lively.
+
+&lt;ex&gt;&lt;fex name="pla"&gt;On this side of town&lt;/fex&gt; the streets are &lt;t&gt;livelier&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="03/26/2007 11:09:13 PDT Mon" abbrev="act" name="Activity" ID="11375">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Activity&lt;/fen&gt; that is conceptually filling the &lt;fen&gt;Location&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="03/26/2007 11:10:06 PDT Mon" abbrev="ind" name="Individuals" ID="11376">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Individuals&lt;/fen&gt; are engaged in the &lt;fen&gt;Activity&lt;/fen&gt;, creating a lively &lt;fen&gt;Location&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="KmG" cDate="04/18/2007 02:31:12 PDT Wed" abbrev="Dur" name="Duration" ID="11694">
+    <definition>&lt;def-root&gt;Duration denotes the length of time from the beginning of a continuous situation (the one denoted by the target) to its end. In many cases, the continuous situation is a dynamic action which is ongoing, while in others it is simply an undifferentiated state.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="EEE8AA" fgColor="000000" coreType="Peripheral" cBy="KmG" cDate="04/18/2007 02:34:51 PDT Wed" abbrev="Man" name="Manner" ID="11695">
+    <definition>&lt;def-root&gt;The way in which the &lt;fen&gt;Individuals&lt;/fen&gt; or &lt;fen&gt;Location&lt;/fen&gt; is engaging in the &lt;fen&gt;Activity&lt;/fen&gt;. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="04/18/2007 02:37:19 PDT Wed" abbrev="Exp" name="Explanation" ID="11696">
+    <definition>&lt;def-root&gt;The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the state of affairs expressed by the target, but not in all cases.&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Activity" ID="11375"/>
+    <memberFE name="Individuals" ID="11376"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1015">Gradable_attributes</relatedFrame>
+    <relatedFrame ID="262">Abounding_with</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="164">Activity_ongoing</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600873121829" POS="A" cBy="automatic" cDate="09/23/2020 14:58:41 UTC Wed" lemmaID="498" lu_type="singleton" name="hectisch.a" status="Created" FN_EN_LU_ID="14153" Method="Iteration-1" RBN_LU_ID="r_a-11638" RBN_matching_relation="near_equivalence">
+    <definition>druk</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="hectisch" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873125195" POS="A" cBy="automatic" cDate="09/23/2020 14:58:45 UTC Wed" lemmaID="499" lu_type="singleton" name="frenetiek.a" status="Created" FN_EN_LU_ID="14377" Method="Iteration-1" RBN_LU_ID="r_a-10749" RBN_matching_relation="near_equivalence">
+    <definition>dol</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="frenetiek" order="1"/>
+  </lexUnit>
+</frame>

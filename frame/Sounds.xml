@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="10/02/2003 08:20:57 PDT Thu" name="Sounds" ID="850" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame is  concerned with the percepts that vibrations which travel through the air or another medium produce in hearing organs. Sounds are a subtype of sensation. In talking about sounds, speakers often provide information about how the sound was produced. A &lt;fen&gt;Noisy_event&lt;/fen&gt; may be mentioned which gives rise to the sound. Alternatively, the sound may be attributed to a &lt;fen&gt;Sound_source&lt;/fen&gt;, which is construed as a point source emitting the sound. A further possible specification of what gives rise to the sound is for speakers to talk about two physical entities coming into contact by motion, resulting in either friction or impact. 
+
+Although this frame is defined in terms of a phenomenon of objective reality, many instances of the LUs in this frame are metonymic references to purely psychological phenomena due to a strong metaphorical relationship between external and internal reality. Furthermore, many of the LUs in this frame such as chuckle.n or whimper.n require a perceiver's analysis of a sound rather than being purely descriptive.
+
+&lt;ex&gt;I awoke to the &lt;t&gt;clash&lt;/t&gt; &lt;fex name="Sound_source"&gt;of a jackhammer on concrete&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FFFF00" fgColor="800080" coreType="Peripheral" cBy="JKR" cDate="10/02/2003 08:36:56 PDT Thu" abbrev="" name="Noisy_event" ID="5491">
+    <definition>&lt;def-root&gt;An event during which sound is produced.&lt;/def-root&gt;</definition>
+    <excludesFE name="Themes" ID="5495"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="10/02/2003 08:37:51 PDT Thu" abbrev="" name="Sound_source" ID="5492">
+    <definition>&lt;def-root&gt;An entity that is construed as a single point source emitting sound.
+
+&lt;ex&gt;He woke up because of the &lt;t&gt;blare&lt;/t&gt; &lt;fex name="Sound_source"&gt;of a car horn&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Themes" ID="5495"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="10/02/2003 08:41:50 PDT Thu" abbrev="" name="Theme" ID="5493">
+    <definition>&lt;def-root&gt;One of  two entities which is construed as moving relative to the other, resulting in either friction or impact. This entity is given greater syntactic prominence--it is either a possessor or an of-complement of the noun phrase head.
+
+&lt;ex&gt;He heard the &lt;t&gt;clang&lt;/t&gt; &lt;fex name="Theme"&gt;of metal&lt;/fex&gt; on metal , and a ricochet whined viciously past his head &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Physical_object" ID="68"/>
+    <requiresFE name="Ground" ID="5494"/>
+    <excludesFE name="Themes" ID="5495"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="10/02/2003 08:46:13 PDT Thu" abbrev="" name="Ground" ID="5494">
+    <definition>&lt;def-root&gt;An entity construed as stationary on or against which the &lt;fen&gt;Theme&lt;/fen&gt; moves, resulting in either friction or impact. This entity is given less grammatical prominence compared to the &lt;fen&gt;Theme&lt;/fen&gt; and is usually encoded in a spatial prepositional phrase.
+
+&lt;ex&gt;He heard the &lt;t&gt;clang&lt;/t&gt; of metal &lt;fex name="Ground"&gt;on metal&lt;/fex&gt; , and a ricochet whined viciously past his head .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <requiresFE name="Theme" ID="5493"/>
+    <excludesFE name="Themes" ID="5495"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="10/02/2003 08:55:12 PDT Thu" abbrev="" name="Themes" ID="5495">
+    <definition>&lt;def-root&gt;Two entities that are both moving against each other, resulting in either friction or impact.
+
+&lt;ex&gt;The sound of voices and the &lt;t&gt;clink&lt;/t&gt; &lt;fex name="Themes"&gt;of glasses&lt;/fex&gt; was like music to her ears &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="10/02/2003 08:59:51 PDT Thu" abbrev="" name="Location_of_sound_source" ID="5496">
+    <definition>&lt;def-root&gt;The place from which the sound emanates.
+
+&lt;ex&gt;There followed a small silence that was interrupted by a distant &lt;t&gt;clatter&lt;/t&gt;of metal &lt;fex name="Location_of_sound_source"&gt;from the ward&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="10/02/2003 09:04:53 PDT Thu" abbrev="" name="Place" ID="5497">
+    <definition>&lt;def-root&gt;The location at which sound is produced. This FE differs from Location_of_sound_source in that it does not highlight the sound's spreading from its source to the perceiver's location, which is usually indicated by the preposition "from".
+
+&lt;ex&gt;There was a &lt;t&gt;clatter&lt;/t&gt; of running feet &lt;fex name="Place"&gt;in the street outside&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="10/02/2003 09:09:56 PDT Thu" abbrev="" name="Internal_cause" ID="5498">
+    <definition>&lt;def-root&gt;The noise-making may be prompted by either some outside phenomenon or occurrence, or by an &lt;fen&gt;Internal_cause&lt;/fen&gt;,  that is the mental or emotional state of an animate &lt;fen&gt;Sound_source&lt;/fen&gt;.
+
+&lt;ex&gt;She checked a &lt;t&gt;giggle&lt;/t&gt; &lt;fex name="Internal_cause"&gt;of hysteria&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="10/02/2003 09:17:48 PDT Thu" abbrev="" name="Manner" ID="5499">
+    <definition>&lt;def-root&gt;Certain properties of the sound relating to its production, loudness, etc  may be of lexicographic interest if they describe properties of a sounds as such: loudly, shrilly, etc.
+
+&lt;ex&gt;The Brigadier had heard the &lt;fex name="Manner"&gt;faint&lt;/fex&gt; &lt;t&gt;tinkle&lt;/t&gt; of sheepbells&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="10/02/2003 09:25:34 PDT Thu" abbrev="" name="Component_sound" ID="5500">
+    <definition>&lt;def-root&gt;The sound percept may be characterized in terms of &lt;fen&gt;Component_sound&lt;/fen&gt;s.  &lt;ex&gt;The lunch itself was held in a huge room and there was a constant &lt;t&gt;babble&lt;/t&gt; &lt;fex name="Component_sound"&gt;of noise&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Themes" ID="5495"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="10/06/2003 02:35:59 PDT Mon" abbrev="" name="Degree" ID="5516">
+    <definition>&lt;def-root&gt;Expressions that indicate the loudness of the sound.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFF00" coreType="Extra-Thematic" cBy="JKR" cDate="10/06/2003 02:54:10 PDT Mon" abbrev="Exp" name="Explanation" ID="5517">
+    <definition>&lt;def-root&gt;This FE idntifies the &lt;fex name="Explanation"&gt;Explanation&lt;/fex&gt; that the &lt;fen&gt;Sound_source&lt;/fen&gt; produces the sound. Generally, this is some external stimulus that prompts the &lt;fen&gt;Sound_source&lt;/fen&gt; to make noise.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="10/06/2003 03:07:50 PDT Mon" abbrev="" name="Path" ID="5518">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Path&lt;/fen&gt; along which the sound travels away from the &lt;fen&gt;Sound_source&lt;/fen&gt;.
+
+&lt;ex&gt;As he opened the throttle, the roar of the BMW's engine bit into the moan and  &lt;t&gt;howl&lt;/t&gt; of the wind 
+&lt;fex name="Path"&gt;across the culvert's mouth&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="1840">Vocalizations</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="8">Perception</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="860">Sound_movement</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="69">Make_noise</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="1600874170673" POS="N" cBy="automatic" cDate="09/23/2020 15:16:10 UTC Wed" lemmaID="815" lu_type="singleton" name="hoest.n" status="Created" FN_EN_LU_ID="9647" Method="Iteration-1" RBN_LU_ID="r_n-16926" RBN_matching_relation="near_equivalence">
+    <definition>dat je met je keel maakt door een prikkeling van het slijmvlies</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="hoest" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874173838" POS="N" cBy="automatic" cDate="09/23/2020 15:16:13 UTC Wed" lemmaID="816" lu_type="singleton" name="gegiechel.n" status="Created" FN_EN_LU_ID="9653" Method="Iteration-1" RBN_LU_ID="r_n-14275" RBN_matching_relation="near_equivalence">
+    <definition>van het giechelen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="gegiechel" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874177468" POS="N" cBy="automatic" cDate="09/23/2020 15:16:17 UTC Wed" lemmaID="817" lu_type="singleton" name="trompet.n" status="Created" FN_EN_LU_ID="9704" Method="Iteration-1" RBN_LU_ID="r_n-38569" RBN_matching_relation="near_equivalence">
+    <definition>uit koper met ventielen, dat een doordringende, schetterende toon geeft</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="trompet" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874180574" POS="N" cBy="manual" cDate="09/23/2020 15:16:20 UTC Wed" lemmaID="818" lu_type="singleton" name="gejank.n" status="Created" FN_EN_LU_ID="9716" Method="Iteration-1" RBN_LU_ID="r_n-14347" RBN_matching_relation="equivalence">
+    <definition>van het janken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="gejank" order="1"/>
+  </lexUnit>
+</frame>

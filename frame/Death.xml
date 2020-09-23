@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:09 PST Wed" name="Death" ID="53" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;The words in this frame describe the death of a &lt;fen&gt;Protagonist&lt;/fen&gt;.  A &lt;fen&gt;Cause&lt;/fen&gt; of death may also be expressed obliquely.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;The machine was not switched off, but &lt;fex name="Protagonist"&gt;Mr. Lavelle&lt;/fex&gt; &lt;t&gt;died&lt;/t&gt; &lt;fex name="Explanation"&gt;of natural causes&lt;/fex&gt;, police said.&lt;/ex&gt;
+
+&lt;ex&gt;To avenge the &lt;t&gt;death&lt;/t&gt; &lt;fex name="Protagonist"&gt;of a son&lt;/fex&gt; is not hasty work, if he is to be honored.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:09 PST Wed" abbrev="Prot" name="Protagonist" ID="218">
+    <definition>&lt;def-root&gt;The FE &lt;fen&gt;Protagonist&lt;/fen&gt; is the being or entity that dies.  With verbs in this frame, the &lt;fen&gt;Protagonist&lt;/fen&gt; is the External Argument.
+
+&lt;ex&gt;&lt;fex name="Protagonist"&gt;The goldfish&lt;/fex&gt; &lt;t&gt;died&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ChW" cDate="02/07/2001 04:12:09 PST Wed" abbrev="Expl" name="Explanation" ID="219">
+    <definition>&lt;def-root&gt;The FE &lt;fen&gt;Explanation&lt;/fen&gt; expresses any object or eventuality that brings about the &lt;fen&gt;Protagonist&lt;/fen&gt;'s death.
+
+&lt;ex&gt;The cat &lt;t&gt;died&lt;/t&gt; &lt;fex name="Explanation"&gt;of old age&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The children &lt;t&gt;perished&lt;/t&gt; &lt;fex name="Explanation"&gt;from hunger&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/01/2001 09:41:42 PDT Fri" abbrev="Degr" name="Degree" ID="684">
+    <definition>&lt;def-root&gt;Some measure of the event, generally frequency.
+
+&lt;ex&gt;You know, I wouldn't want to live in a Shakespearian play; people &lt;t&gt;die&lt;/t&gt; in them &lt;fex name="Degr"&gt;a lot&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="06/01/2001 09:41:42 PDT Fri" abbrev="Dep" name="Depictive" ID="685">
+    <definition>&lt;def-root&gt;The FE &lt;fen&gt;Depictive&lt;/fen&gt; denotes the state of the &lt;fen&gt;Protagonist&lt;/fen&gt; as the death occurred.  &lt;ex&gt;I think he &lt;t&gt;died&lt;/t&gt; &lt;fex name="Dep"&gt;happy&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/01/2001 09:41:42 PDT Fri" abbrev="Manr" name="Manner" ID="688">
+    <definition>&lt;def-root&gt;Any description of the event which is not covered by more specific FEs, including force (hard, softly), secondary effects (quietly, loudly), and general descriptions comparing events (the same way). 
+
+&lt;ex&gt;He &lt;t&gt;died&lt;/t&gt; &lt;fex name="Manr"&gt;horribly&lt;/fex&gt;; I won't describe it.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="06/01/2001 09:41:42 PDT Fri" abbrev="Res" name="Result" ID="689">
+    <definition>&lt;def-root&gt;The FE &lt;fen&gt;Result&lt;/fen&gt; indicates what occurs as the result of the death of the &lt;fen&gt;Protagonist&lt;/fen&gt;.
+
+&lt;ex&gt;If we don't find something soon, we'll all &lt;t&gt;starve&lt;/t&gt; &lt;fex name="Res"&gt;to death&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/04/2001 01:58:03 PDT Tue" abbrev="Place" name="Place" ID="1840">
+    <definition>&lt;def-root&gt;The FE &lt;fen&gt;Place&lt;/fen&gt; indicates where the death takes place.
+
+&lt;ex&gt;Your father &lt;t&gt;passed&lt;/t&gt; &lt;t&gt;away&lt;/t&gt; &lt;fex name="Place"&gt;in his hospital bed&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/04/2001 01:58:04 PDT Tue" abbrev="Time" name="Time" ID="1842">
+    <definition>&lt;def-root&gt;The FE &lt;fen&gt;Time&lt;/fen&gt; denotes when the dying or killing occurs.
+
+&lt;ex&gt;Your father &lt;t&gt;passed&lt;/t&gt;  &lt;t&gt;away&lt;/t&gt; &lt;fex name="Time"&gt;about four minutes ago&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;He sadly &lt;t&gt;passed&lt;/t&gt;  &lt;t&gt;away&lt;/t&gt; &lt;fex name="Time"&gt;in 1962&lt;/fex&gt; because of severe cerebrovascular disease.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="A9A9A9" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/08/2003 03:42:41 PDT Fri" abbrev="sub" name="Containing_event" ID="4910">
+    <definition>&lt;def-root&gt;This FE identifies the larger event in which the &lt;fen&gt;Protagonist&lt;/fen&gt; dies, i.e. changes from living to dead.
+
+&lt;ex&gt;The pilot &lt;t&gt;died&lt;/t&gt; &lt;fex name="sub"&gt;in the crash&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="000000" coreType="Extra-Thematic" cBy="MJE" cDate="08/07/2014 02:42:15 PDT Thu" abbrev="mal" name="Maleficiary" ID="16192">
+    <definition>&lt;def-root&gt;An individual negatively affected by the death of the &lt;fen&gt;Protagonist&lt;/fen&gt;.
+
+&lt;ex&gt;Aww man, my dog &lt;t&gt;died&lt;/t&gt; &lt;fex name="Maleficiary"&gt;on me&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="2104">Ceasing_to_be</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of">
+    <relatedFrame ID="2106">Cycle_of_life_and_death</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by">
+    <relatedFrame ID="2055">Dying</relatedFrame>
+    <relatedFrame ID="281">Giving_birth</relatedFrame>
+    <relatedFrame ID="793">Being_born</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inchoative of">
+    <relatedFrame ID="310">Dead_or_alive</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872422930" POS="V" cBy="automatic" cDate="09/23/2020 14:47:02 UTC Wed" lemmaID="279" lu_type="singleton" name="creperen.v" status="Created" FN_EN_LU_ID="4049" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2070" RBN_matching_relation="near_equivalence">
+    <definition>op ellendige wijze doodgaan, met name van dieren</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="creperen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872425945" POS="V" cBy="automatic" cDate="09/23/2020 14:47:05 UTC Wed" lemmaID="280" lu_type="phrasal" name="heengaan.v" status="Created" FN_EN_LU_ID="4049" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-3135" RBN_matching_relation="near_equivalence">
+    <definition>doodgaan, sterven</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme breakBefore="false" headword="false" name="heen" order="1"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="gaan" order="2"/>
+  </lexUnit>
+  <lexUnit ID="1600872428983" POS="V" cBy="automatic" cDate="09/23/2020 14:47:08 UTC Wed" lemmaID="281" lu_type="singleton" name="sterven.v" status="Created" FN_EN_LU_ID="4049" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7492" RBN_matching_relation="near_equivalence">
+    <definition>doodgaan</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="sterven" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872432207" POS="V" cBy="automatic" cDate="09/23/2020 14:47:12 UTC Wed" lemmaID="282" lu_type="singleton" name="verrekken.v" status="Created" FN_EN_LU_ID="4049" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9229" RBN_matching_relation="near_equivalence">
+    <definition>op een pijnlijke manier sterven</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="verrekken" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872435180" POS="V" cBy="automatic" cDate="09/23/2020 14:47:15 UTC Wed" lemmaID="283" lu_type="singleton" name="versmachten.v" status="Created" FN_EN_LU_ID="4049" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9299" RBN_matching_relation="near_equivalence">
+    <definition>door gebrek aan iets dat men nodig heeft heel erg lijden of sterven</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="versmachten" order="1"/>
+  </lexUnit>
+</frame>

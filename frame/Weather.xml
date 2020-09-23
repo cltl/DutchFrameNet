@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="04/12/2002 05:17:10 PDT Fri" name="Weather" ID="303" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;Ambient conditions of temperature, precipitation, windiness, and sunniness pertain at a certain &lt;fen&gt;Place&lt;/fen&gt; and &lt;fen&gt;Time&lt;/fen&gt;.  Further &lt;fen&gt;Specification&lt;/fen&gt; of the conditions that pertain may also be indicated.
+&lt;ex&gt;&lt;x&gt;A &lt;fex name="Specification"&gt;blustery&lt;/fex&gt; &lt;t&gt;storm&lt;/t&gt;&lt;/x&gt; &lt;gov&gt;blew&lt;/gov&gt; &lt;gov&gt;in&lt;/gov&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;m&gt;There&lt;/m&gt; &lt;m&gt;was&lt;/m&gt; a &lt;fex name="Spec"&gt;thick&lt;/fex&gt; &lt;t&gt;blizzard&lt;/t&gt; &lt;fex name="Time"&gt;last night&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;x&gt;An armada of &lt;t&gt;hailstorms&lt;/t&gt;&lt;/x&gt; &lt;gov&gt;swept&lt;/gov&gt; through the region.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="08/15/2002 12:09:52 PDT Thu" abbrev="P" name="Place" ID="3557">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Place&lt;/fen&gt; where the weather occurs.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="08/15/2002 12:10:15 PDT Thu" abbrev="T" name="Time" ID="3558">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Time&lt;/fen&gt; when the weather occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/15/2002 01:01:27 PDT Thu" abbrev="Spec" name="Specification" ID="3560">
+    <definition>&lt;def-root&gt;This FE identifies a further &lt;fen&gt;Specification&lt;/fen&gt; of the weather conditions.
+&lt;ex&gt;An &lt;fex name="Spec"&gt;icy&lt;/fex&gt; &lt;t&gt;storm&lt;/t&gt; hit the Northeast last night.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)">
+    <relatedFrame ID="314">Precipitation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600874570985" POS="N" cBy="automatic" cDate="09/23/2020 15:22:50 UTC Wed" lemmaID="937" lu_type="singleton" name="blizzard.n" status="Created" FN_EN_LU_ID="5695" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-7580" RBN_matching_relation="near_equivalence">
+    <definition>met veel sneeuw en felle kou die plotseling opkomt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="blizzard" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874574423" POS="N" cBy="automatic" cDate="09/23/2020 15:22:54 UTC Wed" lemmaID="938" lu_type="singleton" name="onweer.n" status="Created" FN_EN_LU_ID="13476" Method="Iteration-1" RBN_LU_ID="r_n-26337" RBN_matching_relation="near_equivalence">
+    <definition>waarbij het bliksemt en dondert</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="onweer" order="1"/>
+  </lexUnit>
+</frame>

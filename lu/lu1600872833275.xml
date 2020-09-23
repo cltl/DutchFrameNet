@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="V" name="gebaren.v" ID="1600872833275" frame="Gesture" frameID="36" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" lu_type="singleton" FN_EN_LU_ID="536" Method="Iteration-1" RBN_LU_ID="r_v-2872" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Addressee"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="B-p" name="Body_part"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+      <FE fgColor="FFFFFF" bgColor="7CCD7C" type="Core" abbrev="" name="Indicated_entity"/>
+      <FE fgColor="FFFFFF" bgColor="A9A9A9" type="Peripheral" abbrev="" name="Instrument"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Manr" name="Manner"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Mns" name="Means"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Msg" name="Message"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Place" name="Place"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Time" name="Time"/>
+    </frame>
+  </header>
+  <definition>iets duidelijk maken met gebaren</definition>
+  <lexeme POS="V" breakBefore="false" headword="false" name="gebaren" order="1"/>
+</lexUnit>

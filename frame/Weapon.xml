@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="11/25/2002 06:31:15 PST Mon" name="Weapon" ID="426" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Weapon&lt;/fen&gt; is an artifact created specifically to cause harm or damage.  In some cases, a &lt;fen&gt;Use&lt;/fen&gt;, &lt;fen&gt;Material&lt;/fen&gt; of construction, &lt;fen&gt;Part&lt;/fen&gt; or &lt;fen&gt;Type&lt;/fen&gt; may be more narrowly specified.
+
+&lt;ex&gt;Did you, or did you not, &lt;gov&gt;fire&lt;/gov&gt; &lt;x&gt;this &lt;fex name="Weapon"&gt;&lt;t&gt;gun&lt;/t&gt;&lt;/fex&gt;&lt;/x&gt; with intent to harm my client?&lt;/ex&gt;
+
+&lt;ex&gt;Cyra tried to &lt;gov&gt;swing&lt;/gov&gt; &lt;x&gt;&lt;fex name="Wld"&gt;her&lt;/fex&gt; &lt;fex name="Weapon"&gt;&lt;t&gt;sword&lt;/t&gt;&lt;/fex&gt;&lt;/x&gt; to parry, but it was to heavy.&lt;/ex&gt;
+
+&lt;ex&gt;I investigated a specialist &lt;x&gt;&lt;fex name="Mat"&gt;precious metal&lt;/fex&gt; &lt;fex name="Weapon"&gt;&lt;t&gt;firearms&lt;/t&gt;&lt;/fex&gt;&lt;/x&gt; &lt;gov&gt;manufacturer&lt;/gov&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;My neighbor, a member of the NRA since birth, has got an &lt;fex name="Type"&gt;AK-47&lt;/fex&gt; &lt;fex name="Type"&gt;fully automatic&lt;/fex&gt; &lt;fex name="Use"&gt;assault&lt;/fex&gt; &lt;fex name="Weapon"&gt;&lt;t&gt;rifle&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;Let 's just say that he 's the kind of guy who likes &lt;t&gt;&lt;fex name="Wep"&gt;guns&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Part"&gt;with hair triggers&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="11/25/2002 06:33:16 PST Mon" abbrev="Wep" name="Weapon" ID="3919">
+    <definition>&lt;def-root&gt;An entity prototypically used by a &lt;fen&gt;Wielder&lt;/fen&gt; to cause damage.
+&lt;ex&gt;They used to shoot these long-range &lt;fex name="Wep"&gt;&lt;t&gt;rifles&lt;/t&gt;&lt;/fex&gt; with scopes and hit targets a mile away.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Artifact" ID="61"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="11/25/2002 06:34:39 PST Mon" abbrev="Use" name="Use" ID="3920">
+    <definition>&lt;def-root&gt;The type of activity that the &lt;fen&gt;Weapon&lt;/fen&gt; is generally involved in.  Often this can be considered a kind of &lt;fen&gt;Type&lt;/fen&gt; specification also.
+&lt;ex&gt;a &lt;fex name="Use"&gt;dueling&lt;/fex&gt; &lt;t&gt;pistol&lt;/t&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Use"&gt;anti-personnel&lt;/fex&gt; &lt;t&gt;mines&lt;/t&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Use"&gt;deer&lt;/fex&gt; &lt;t&gt;rifle&lt;/t&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="11/25/2002 06:36:28 PST Mon" abbrev="Typ" name="Type" ID="3921">
+    <definition>&lt;def-root&gt;This FE indicates what subtype of the general category the &lt;fen&gt;Weapon&lt;/fen&gt; belongs to.
+&lt;ex&gt;Most people don't keep &lt;fex name="Typ"&gt;bastard&lt;/fex&gt; &lt;t&gt;swords&lt;/t&gt; in their livingrooms.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A9A9A9" fgColor="000000" coreType="Peripheral" cBy="MJE" cDate="12/05/2002 03:18:28 PST Thu" abbrev="Mat" name="Material" ID="3956">
+    <definition>&lt;def-root&gt;The substance that makes up the &lt;fen&gt;Weapon&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="12/06/2002 11:49:27 PST Fri" abbrev="Wld" name="Wielder" ID="3963">
+    <definition>&lt;def-root&gt;The person (or other sentient entity) that is using the &lt;fen&gt;Weapon&lt;/fen&gt;.
+&lt;ex&gt;Reluctantly, he slid &lt;fex name="Wld"&gt;his&lt;/fex&gt; &lt;t&gt;guns&lt;/t&gt; back into their holsters.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="12/06/2002 01:11:43 PST Fri" abbrev="Part" name="Part" ID="3964">
+    <definition>&lt;def-root&gt;This FE identifies a part of the &lt;fen&gt;Weapon&lt;/fen&gt;.  This includes permanent, obligatory parts and mere attachments.
+&lt;ex&gt;I bought a &lt;t&gt;rifle&lt;/t&gt; &lt;fex name="Part"&gt;with a 2000-yard scope&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;They practiced on &lt;t&gt;swords&lt;/t&gt; &lt;fex name="Part"&gt;with wooden blades&lt;/fex&gt; first.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="11/04/2004 04:53:19 PST Thu" abbrev="nam" name="Name" ID="7207">
+    <definition>&lt;def-root&gt;The term used to refer to an &lt;fen&gt;Weapon&lt;/fen&gt;.
+
+&lt;ex&gt;The &lt;t&gt;sword&lt;/t&gt; &lt;fex name="nam"&gt;Wirikidor&lt;/fex&gt; was inadvertently cursed.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="11/04/2004 04:55:11 PST Thu" abbrev="tim" name="Time_of_creation" ID="7208">
+    <definition>&lt;def-root&gt;The time at which a &lt;fen&gt;Weapon&lt;/fen&gt; comes into existence.
+
+&lt;ex&gt;The &lt;fex name="tim"&gt;fourth millennium BC&lt;/fex&gt; &lt;t&gt;spear&lt;/t&gt; has stimulated a lot of controversy.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="11/04/2004 05:03:43 PST Thu" abbrev="cre" name="Creator" ID="7209">
+    <definition>&lt;def-root&gt;The individual or group responsible for the creation of the &lt;fen&gt;Weapon&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="cre"&gt;Colt&lt;/fex&gt; &lt;t&gt;pistols&lt;/t&gt; are, for some reason, considerably more likely to be missold in this fashion.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="01/24/2006 06:16:44 PST Tue" abbrev="dep" name="Descriptor" ID="9880">
+    <definition>&lt;def-root&gt;A description or characteristic of the &lt;fen&gt;Weapon&lt;/fen&gt;.
+
+&lt;ex&gt;He prefers to use a &lt;fex name="Descriptor"&gt;heavy&lt;/fex&gt; &lt;t&gt;bow&lt;/t&gt; for long-distance combat.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="421">Artifact</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="2623">Improvised_explosive_device</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="470">Bearing_arms</relatedFrame>
+    <relatedFrame ID="1565">Ammunition</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600874551188" POS="N" cBy="automatic" cDate="09/23/2020 15:22:31 UTC Wed" lemmaID="931" lu_type="singleton" name="geweer.n" status="Created" FN_EN_LU_ID="7774" Method="Iteration-1" RBN_LU_ID="r_n-14966" RBN_matching_relation="near_equivalence">
+    <definition>bestemd om door één persoon met twee handen bediend te worden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="geweer" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874554384" POS="N" cBy="automatic" cDate="09/23/2020 15:22:34 UTC Wed" lemmaID="932" lu_type="singleton" name="opdondertje.n" status="Created" FN_EN_LU_ID="7775" Method="Iteration-1" RBN_LU_ID="r_n-26531" RBN_matching_relation="near_equivalence">
+    <definition>die erg klein is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="opdondertje" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874557777" POS="N" cBy="automatic" cDate="09/23/2020 15:22:37 UTC Wed" lemmaID="933" lu_type="singleton" name="pistool.n" status="Created" FN_EN_LU_ID="7775" Method="Iteration-1" RBN_LU_ID="r_n-28630" RBN_matching_relation="near_equivalence">
+    <definition>met een korte loop</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="pistool" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874561147" POS="N" cBy="automatic" cDate="09/23/2020 15:22:41 UTC Wed" lemmaID="934" lu_type="singleton" name="buks.n" status="Created" FN_EN_LU_ID="7791" Method="Iteration-1" RBN_LU_ID="r_n-8797" RBN_matching_relation="near_equivalence">
+    <definition>voor de jacht en voor de schietsport</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="buks" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874564426" POS="N" cBy="automatic" cDate="09/23/2020 15:22:44 UTC Wed" lemmaID="935" lu_type="singleton" name="dynamiet.n" status="Created" FN_EN_LU_ID="11790" Method="Iteration-1" RBN_LU_ID="r_n-11892" RBN_matching_relation="near_equivalence">
+    <definition>die ontploffingen kan veroorzaken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="dynamiet" order="1"/>
+  </lexUnit>
+</frame>

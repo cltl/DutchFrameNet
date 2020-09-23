@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="N" name="pincet.n" ID="1600873298197" frame="Medical_instruments" frameID="257" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" lu_type="singleton" FN_EN_LU_ID="4661" Method="Iteration-1" RBN_LU_ID="r_n-28573" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Inst" name="Instrument"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Purp" name="Purpose"/>
+    </frame>
+  </header>
+  <definition>dat bestaat uit twee smalle metalen plaatjes, waarmee je kleine dingen vastpakt</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="pincet" order="1"/>
+</lexUnit>

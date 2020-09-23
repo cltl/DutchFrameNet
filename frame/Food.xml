@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="KCo" cDate="02/28/2002 02:50:36 PST Thu" name="Food" ID="277" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame contains words referring to items of food.
+
+&lt;ex&gt;Specialties include deep fried shredded beef , duck , prawn dishes and &lt;fex name="Descriptor"&gt;hand-made&lt;/fex&gt; &lt;t&gt;noodles&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <semType name="Physical_object" ID="68"/>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="Tess" cDate="06/26/2002 10:33:50 PDT Wed" abbrev="Desc" name="Descriptor" ID="3244">
+    <definition>&lt;def-root&gt;This FE indicates a characteristic or description of the food. 
+&lt;ex&gt; She drinks &lt;fex name="Desc"&gt;low-fat&lt;/fex&gt; &lt;t&gt;milk&lt;/t&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="Tess" cDate="06/26/2002 02:44:05 PDT Wed" abbrev="Type" name="Type" ID="3250">
+    <definition>&lt;def-root&gt;This FE identifies a particular &lt;fen&gt;Type&lt;/fen&gt; of the food item.
+&lt;ex&gt; &lt;fex name="Type"&gt;cooking&lt;/fex&gt; &lt;t&gt;apple&lt;/t&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Type"&gt;Granny Smith&lt;/fex&gt; &lt;t&gt;apple&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MiL" cDate="12/08/2005 04:18:44 PST Thu" abbrev="" name="Food" ID="9696">
+    <definition>&lt;def-root&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="01/19/2006 11:54:07 PST Thu" abbrev="con" name="Constituent_parts" ID="9864">
+    <definition>&lt;def-root&gt;A part of the &lt;fen&gt;Food&lt;/fen&gt;.
+
+&lt;ex&gt;You'd be surprised, but it was hard to eat a &lt;t&gt;banana&lt;/t&gt; &lt;fex name="Constituent_parts"&gt;with such a thick peel&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="302">Physical_entity</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="263">Ingestion</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="2330">Tasting</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872805195" POS="N" cBy="automatic" cDate="09/23/2020 14:53:25 UTC Wed" lemmaID="399" lu_type="singleton" name="croissant.n" status="Created" FN_EN_LU_ID="5113" Method="Iteration-1" RBN_LU_ID="r_n-10188" RBN_matching_relation="near_equivalence">
+    <definition>in de vorm van een halve maan, van een luchtig soort bladerdeeg, oorspr. afkomstig uit Frankrijk</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="croissant" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872808337" POS="N" cBy="automatic" cDate="09/23/2020 14:53:28 UTC Wed" lemmaID="400" lu_type="singleton" name="ketchup.n" status="Created" FN_EN_LU_ID="5132" Method="Iteration-1" RBN_LU_ID="r_n-19426" RBN_matching_relation="near_equivalence">
+    <definition>van tomatenpuree en kruiden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="ketchup" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872811513" POS="N" cBy="automatic" cDate="09/23/2020 14:53:31 UTC Wed" lemmaID="401" lu_type="singleton" name="mayonaise.n" status="Created" FN_EN_LU_ID="5133" Method="Iteration-1" RBN_LU_ID="r_n-23381" RBN_matching_relation="near_equivalence">
+    <definition>gemaakt van eieren, olie, azijn, zout en suiker</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="mayonaise" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872814711" POS="N" cBy="automatic" cDate="09/23/2020 14:53:34 UTC Wed" lemmaID="402" lu_type="singleton" name="bier.n" status="Created" FN_EN_LU_ID="16832" Method="Iteration-1" RBN_LU_ID="r_n-7228" RBN_matching_relation="near_equivalence">
+    <definition>uit hop en mout door gisting bereid</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="bier" order="1"/>
+  </lexUnit>
+</frame>

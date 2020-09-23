@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="06/23/2001 08:15:16 PDT Sat" name="Giving" ID="139" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Donor&lt;/fen&gt; transfers a &lt;fen&gt;Theme&lt;/fen&gt; from a &lt;fen&gt;Donor&lt;/fen&gt; to a &lt;fen&gt;Recipient&lt;/fen&gt;.  This frame includes only actions that are initiated by the &lt;fen&gt;Donor&lt;/fen&gt; (the one that starts out owning the &lt;fen&gt;Theme&lt;/fen&gt;).  Sentences (even metaphorical ones) must meet the following entailments: the  &lt;fen&gt;Donor&lt;/fen&gt; first has possession of the &lt;fen&gt;Theme&lt;/fen&gt;.  Following the transfer the &lt;fen&gt;Donor&lt;/fen&gt; no longer has the &lt;fen&gt;Theme&lt;/fen&gt; and the &lt;fen&gt;Recipient&lt;/fen&gt; does. &lt;ex&gt;&lt;fex name="Donor"&gt;Barney&lt;/fex&gt; &lt;t&gt;gave&lt;/t&gt; &lt;fex name="Theme"&gt;the beer&lt;/fex&gt; &lt;fex name="Recipient"&gt;to Moe&lt;/fex&gt;.&lt;/ex&gt; &lt;ex&gt;&lt;fex name="Theme"&gt;$300&lt;/fex&gt; was &lt;t&gt;endowed&lt;/t&gt; &lt;fex name="Recipient"&gt;to the university&lt;/fex&gt; &lt;fex name="Purpose"&gt;to build a new performing arts building&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="06/23/2001 08:17:21 PDT Sat" abbrev="Donor" name="Donor" ID="1052">
+    <definition>&lt;def-root&gt;The person that begins in possession of the &lt;fen&gt;Theme&lt;/fen&gt; and causes it to be in the possession of the &lt;fen&gt;Recipient&lt;/fen&gt; .&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="06/23/2001 08:18:41 PDT Sat" abbrev="Rec" name="Recipient" ID="1053">
+    <definition>&lt;def-root&gt;The entity that ends up in possession of the &lt;fen&gt;Theme&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="06/23/2001 08:19:30 PDT Sat" abbrev="Thm" name="Theme" ID="1054">
+    <definition>&lt;def-root&gt;The object that changes ownership.&lt;/def-root&gt;</definition>
+    <semType name="Physical_object" ID="68"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/20/2001 05:28:46 PDT Mon" abbrev="Place" name="Place" ID="1680">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Place&lt;/fen&gt; where the &lt;fen&gt;Donor&lt;/fen&gt; gives the &lt;fen&gt;Theme&lt;/fen&gt; to the &lt;fen&gt;Recipient&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/20/2001 05:28:46 PDT Mon" abbrev="Exp" name="Explanation" ID="1681">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Explanation&lt;/fen&gt; for which the &lt;fen&gt;Donor&lt;/fen&gt; gives the &lt;fen&gt;Theme&lt;/fen&gt; to the &lt;fen&gt;Recipient&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/20/2001 05:28:46 PDT Mon" abbrev="Time" name="Time" ID="1682">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; is when the &lt;fen&gt;Donor&lt;/fen&gt; gives the &lt;fen&gt;Theme&lt;/fen&gt; to the &lt;fen&gt;Recipient&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/21/2001 08:26:13 PDT Tue" abbrev="Purp" name="Purpose" ID="1719">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Purpose&lt;/fen&gt; for which the &lt;fen&gt;Donor&lt;/fen&gt; gives the &lt;fen&gt;Theme&lt;/fen&gt; to the &lt;fen&gt;Recipient&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/21/2001 08:38:07 PDT Tue" abbrev="Mns" name="Means" ID="1732">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Means&lt;/fen&gt; by which the &lt;fen&gt;Donor&lt;/fen&gt; gives the &lt;fen&gt;Theme&lt;/fen&gt; to the &lt;fen&gt;Recipient&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="08/13/2002 01:26:20 PDT Tue" abbrev="Man" name="Manner" ID="3539">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Manner&lt;/fen&gt; is the manner in which the &lt;fen&gt;Donor&lt;/fen&gt; gives the &lt;fen&gt;Theme&lt;/fen&gt; to the &lt;fen&gt;Recipient&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="08/16/2002 11:33:25 PDT Fri" abbrev="cir" name="Circumstances" ID="3564">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Circumstances&lt;/fen&gt; are the conditions under which the &lt;fen&gt;Theme&lt;/fen&gt; is given. &lt;ex&gt;&lt;fex name="Donor"&gt;I&lt;/fex&gt; &lt;t&gt;give&lt;/t&gt; &lt;fex name="Theme"&gt;my services&lt;/fex&gt; &lt;fex name="Circumstances"&gt;free of charge&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="07/23/2003 02:22:53 PDT Wed" abbrev="Imp" name="Imposed_purpose" ID="4819">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Recipient&lt;/fen&gt;'s intended purpose for the &lt;fen&gt;Theme&lt;/fen&gt;.
+&lt;ex&gt;Please &lt;t&gt;give&lt;/t&gt; this list to the secretary &lt;fex name="Imposed_purpose"&gt;for entry into the client database&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="08/08/2007 03:59:34 PDT Wed" abbrev="dep" name="Depictive" ID="11956">
+    <definition>&lt;def-root&gt;A description of the &lt;fen&gt;Donor&lt;/fen&gt;, &lt;fen&gt;Recipient&lt;/fen&gt;, or &lt;fen&gt;Theme&lt;/fen&gt; given independently of the giving event per se.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="000000" coreType="Extra-Thematic" cBy="JKs" cDate="09/25/2008 04:41:54 PDT Thu" abbrev="" name="Period_of_iterations" ID="13069">
+    <definition>&lt;def-root&gt;The length of time from when the event denoted by the target began to be repeated to when it stopped.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="206">Lose_possession</relatedFrame>
+    <relatedFrame ID="198">Intentionally_act</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="172">Commerce_sell</relatedFrame>
+    <relatedFrame ID="180">Commerce_pay</relatedFrame>
+    <relatedFrame ID="1346">Supply</relatedFrame>
+    <relatedFrame ID="1500">Surrendering_possession</relatedFrame>
+    <relatedFrame ID="1521">Submitting_documents</relatedFrame>
+    <relatedFrame ID="2781">Lending</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on">
+    <relatedFrame ID="178">Transfer</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="2239">Offering</relatedFrame>
+    <relatedFrame ID="2721">Conferring_benefit</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of">
+    <relatedFrame ID="1190">Giving_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes">
+    <relatedFrame ID="1187">Post_giving</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Preceded by">
+    <relatedFrame ID="1186">Pre_giving</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872839465" POS="V" cBy="automatic" cDate="09/23/2020 14:53:59 UTC Wed" lemmaID="410" lu_type="phrasal" name="uitdelen.v" status="Created" FN_EN_LU_ID="5361" Method="Iteration-1" RBN_LU_ID="r_v-8234" RBN_matching_relation="near_equivalence">
+    <definition>aan ieder van een groep personen wat van iets geven</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme breakBefore="false" headword="false" name="uit" order="1"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="delen" order="2"/>
+  </lexUnit>
+  <lexUnit ID="1600872842642" POS="V" cBy="automatic" cDate="09/23/2020 14:54:02 UTC Wed" lemmaID="411" lu_type="singleton" name="legateren.v" status="Created" FN_EN_LU_ID="7214" Method="Iteration-1" RBN_LU_ID="r_v-4330" RBN_matching_relation="near_equivalence">
+    <definition>als legaat bij uiterste wil vermaken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="legateren" order="1"/>
+  </lexUnit>
+</frame>

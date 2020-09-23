@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="01/21/2003 03:43:54 PST Tue" name="Thwarting" ID="518" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;In this frame a &lt;fen&gt;Preventing_cause&lt;/fen&gt; interferes with the ability of a &lt;fen&gt;Protagonist&lt;/fen&gt; to complete an intended &lt;fen&gt;Action&lt;/fen&gt;. The &lt;fen&gt;Protagonist&lt;/fen&gt; may not be mentioned in the sentence, in which case the &lt;fen&gt;Action&lt;/fen&gt; is an endeavor that an individual or group of individuals hopes to accomplish. In this frame it is necessary that the &lt;fen&gt;Protagonist&lt;/fen&gt; is unable to successfully complete the &lt;fen&gt;Action&lt;/fen&gt;. 
+
+&lt;ex&gt; &lt;fex name="Preventing_cause"&gt;Noriega's troops&lt;/fex&gt; &lt;t&gt;foiled&lt;/t&gt; &lt;fex name="Action"&gt;a coup attempt&lt;/fex&gt;. &lt;/ex&gt; 
+&lt;ex&gt; &lt;fex name="Preventing_cause"&gt;He&lt;/fex&gt; &lt;t&gt;prevented&lt;/t&gt; &lt;fex name="Protagonist"&gt;her&lt;/fex&gt; &lt;fex name="Action"&gt;from running away&lt;/fex&gt;. &lt;/ex&gt; 
+&lt;ex&gt; &lt;fex name="Protagonist"&gt;He&lt;/fex&gt; was &lt;t&gt;foiled&lt;/t&gt; &lt;fex name="Action"&gt;in his attempt to overthrow the government&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="01/21/2003 04:07:05 PST Tue" abbrev="P_cause" name="Preventing_cause" ID="4099">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Preventing_cause&lt;/fen&gt; is the agent or force who keeps the &lt;fen&gt;Protagonist&lt;/fen&gt; from completing her or his planned &lt;fen&gt;Action&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="01/21/2003 04:08:36 PST Tue" abbrev="Protag" name="Protagonist" ID="4100">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Protagonist&lt;/fen&gt; is the individual or group of individuals who have a planned &lt;fen&gt;Action&lt;/fen&gt; which is prevented by the &lt;fen&gt;Preventing_cause&lt;/fen&gt; &lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+    <requiresFE name="Action" ID="4101"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="01/21/2003 04:09:57 PST Tue" abbrev="Act" name="Action" ID="4101">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Action&lt;/fen&gt; is the action or event certain individuals desire to bring about which is prevented by the &lt;fen&gt;Preventing_cause&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="01/21/2003 04:11:40 PST Tue" abbrev="Time" name="Time" ID="4102">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; is when the thwarting occurs.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="01/21/2003 04:12:08 PST Tue" abbrev="Place" name="Place" ID="4103">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Place&lt;/fen&gt; is where the thwarting occurs.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="07/18/2003 09:11:14 PDT Fri" abbrev="Mnr" name="Manner" ID="4796">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Manner&lt;/fen&gt; in which the &lt;fen&gt;Preventing_cause&lt;/fen&gt; thwarts the &lt;fen&gt;Action&lt;/fen&gt; of the &lt;fen&gt;Protagonist&lt;/fen&gt;.
+&lt;ex&gt;He &lt;fex name="Mnr"&gt;easily&lt;/fex&gt; &lt;t&gt;thwarted&lt;/t&gt; my plans.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="07/18/2003 09:19:51 PDT Fri" abbrev="Dgr" name="Degree" ID="4798">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Degree&lt;/fen&gt; to which the &lt;fen&gt;Action&lt;/fen&gt; is thwarted.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="06/20/2006 10:28:05 PDT Tue" abbrev="" name="Explanation" ID="10330">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Explanation&lt;/fen&gt; for why or how the &lt;fen&gt;Protagonist&lt;/fen&gt; and/or &lt;fen&gt;Action&lt;/fen&gt; was thwarted by the &lt;fen&gt;Preventing_cause&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="08/08/2006 01:36:30 PDT Tue" abbrev="" name="Frequency" ID="10450">
+    <definition>&lt;def-root&gt;This FE is defined as the number of times an event occurs per some unit of time. A &lt;fen&gt;Frequency&lt;/fen&gt; expression answers the question how often.&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Action" ID="4101"/>
+    <memberFE name="Protagonist" ID="4100"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="516">Preventing_or_letting</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="1090">Subversion</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on">
+    <relatedFrame ID="1682">Result_of_attempt_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of">
+    <relatedFrame ID="1388">Success_or_failure</relatedFrame>
+  </frameRelation>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600874426688" POS="V" cBy="automatic" cDate="09/23/2020 15:20:26 UTC Wed" lemmaID="893" lu_type="singleton" name="belemmeren.v" status="Created" FN_EN_LU_ID="8096" Method="Iteration-1" RBN_LU_ID="r_v-1259" RBN_matching_relation="near_equivalence">
+    <definition>iets of iemand tegenwerken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="belemmeren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874430063" POS="V" cBy="automatic" cDate="09/23/2020 15:20:30 UTC Wed" lemmaID="894" lu_type="singleton" name="hinderen.v" status="Created" FN_EN_LU_ID="8096" Method="Iteration-1" RBN_LU_ID="r_v-3225" RBN_matching_relation="near_equivalence">
+    <definition>de of het genoemde last bezorgen door hem, haar of het te storen of te belemmeren</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="hinderen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874433339" POS="V" cBy="automatic" cDate="09/23/2020 15:20:33 UTC Wed" lemmaID="895" lu_type="singleton" name="remmen.v" status="Created" FN_EN_LU_ID="8096" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6650" RBN_matching_relation="near_equivalence">
+    <definition>de beweging of voortgang van iemand of iets vertragen, belemmeren (vaak figuurlijk)</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="remmen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874436506" POS="V" cBy="automatic" cDate="09/23/2020 15:20:36 UTC Wed" lemmaID="896" lu_type="singleton" name="bemoeilijken.v" status="Created" FN_EN_LU_ID="8096" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1293" RBN_matching_relation="near_equivalence">
+    <definition>moeilijker, lastiger maken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="bemoeilijken" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600874439774" POS="V" cBy="manual" cDate="09/23/2020 15:20:39 UTC Wed" lemmaID="897" lu_type="singleton" name="stuiten.v" status="Created" FN_EN_LU_ID="8096" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7639" RBN_matching_relation="near_equivalence">
+    <definition>de of het genoemde tegenhouden, tot staan brengen (ook figuurlijk)</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="stuiten" order="1"/>
+  </lexUnit>
+</frame>

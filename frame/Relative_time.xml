@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:28 PST Wed" name="Relative_time" ID="81" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;These words relate to the relative ordering of two events or times.  There are two major types of relations evoked by the words of this frame.  
+&lt;ex&gt;&lt;/ex&gt;
+Some of the words (e.g. &lt;ment&gt;follow.v, antecedent.a, previous.a&lt;/ment&gt;) describe the (definitively) stative relationship between two events (the &lt;fen&gt;Landmark_occasion&lt;/fen&gt; and the &lt;fen&gt;Focal_occasion&lt;/fen&gt;).  This first type will be moved to the Time_vector frame.
+
+&lt;ex&gt;&lt;t&gt;After&lt;/t&gt; &lt;fex name="Landmark_occasion"&gt;she arrived&lt;/fex&gt; , &lt;fex name="Focal_occasion"&gt;she laid out her papers on the desk&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The &lt;t&gt;following&lt;/t&gt; &lt;fex name="Focal_occasion"&gt;morning&lt;/fex&gt;, she tried to figure out what it meant . &lt;fex name="Landmark_occasion"&gt;DNI&lt;/fex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+Others (e.g. &lt;ment&gt;belated.a, early.a&lt;/ment&gt;) refer to the change or deviation of an event from the &lt;fen&gt;Landmark_occasion&lt;/fen&gt; (which is expected or usual at a particular time) to the &lt;fen&gt;Focal_occasion&lt;/fen&gt; (which occurs at a different time).  Quite often, a &lt;fen&gt;Focal_participant&lt;/fen&gt; who is saliently involved in the &lt;fen&gt;Focal_occasion&lt;/fen&gt; stands in for the occasion.
+
+&lt;ex&gt;&lt;fex name="Focal_occasion"&gt;My flight&lt;/fex&gt; is &lt;t&gt;early&lt;/t&gt; &lt;fex name="Interval"&gt;by 20 minutes&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Focal_participant"&gt;I&lt;/fex&gt; 'm &lt;t&gt;late&lt;/t&gt; &lt;fex name="Landmark_occasion"&gt;for my departure&lt;/fex&gt; !&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:28 PST Wed" abbrev="FEv" name="Focal_occasion" ID="373">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Focal_occasion&lt;/fen&gt; is the event which is  being located in time with respect to some other event: The &lt;fen&gt;Focal_occasion&lt;/fen&gt; is profiled, in contrast to the &lt;fen&gt;Landmark_occasion&lt;/fen&gt;, which is backgrounded.  &lt;ex&gt;&lt;fex name="FEv"&gt;Hours of eating and drinking&lt;/fex&gt; &lt;t&gt;followed&lt;/t&gt; the wedding ceremony.&lt;/ex&gt;
+&lt;ex&gt;Her &lt;t&gt;belated&lt;/t&gt; &lt;fex name="Focal_occasion"&gt;party&lt;/fex&gt; was still a success.&lt;/ex&gt;
+&lt;ex&gt;During the &lt;t&gt;previous&lt;/t&gt; &lt;fex name="Focal_occasion"&gt;week&lt;/fex&gt;, he had eaten 5 mangoes.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:28 PST Wed" abbrev="REv" name="Landmark_occasion" ID="374">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Landmark_occasion&lt;/fen&gt; is the event  with respect to which the &lt;fen&gt;Focal_occasion&lt;/fen&gt; is located. 
+&lt;ex&gt;Hours of eating and drinking &lt;t&gt;followed&lt;/t&gt; &lt;fex name="Landmark_occasion"&gt;the wedding ceremony&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="ChW" cDate="02/07/2001 04:12:28 PST Wed" abbrev="Int" name="Interval" ID="375">
+    <definition>&lt;def-root&gt;Frequently, the Interval between the Reference and Focal Occasions is expressed: The article in the Times &lt;fex name="Interval"&gt;closely&lt;/fex&gt; &lt;t&gt;followed&lt;/t&gt; the singer's announcement that he was retiring. &lt;/def-root&gt;</definition>
+    <semType name="Duration" ID="142"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/17/2001 05:19:37 PDT Mon" abbrev="Degr" name="Degree" ID="1904">
+    <definition>&lt;def-root&gt;Degree to which event occurs&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="09/17/2001 05:19:37 PDT Mon" abbrev="Manr" name="Manner" ID="1905">
+    <definition>&lt;def-root&gt;Manner of performing an action&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="08/21/2002 10:39:05 PDT Wed" abbrev="Exp" name="Explanation" ID="3596">
+    <definition>&lt;def-root&gt;This FE is used for the &lt;fen&gt;Explanation&lt;/fen&gt; or explanation for the &lt;fen&gt;Focal_occasion&lt;/fen&gt; being early or late.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="06/09/2003 03:14:45 PDT Mon" abbrev="" name="Focal_participant" ID="4586">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Focal_participant&lt;/fen&gt; is the participant in the &lt;fen&gt;Focal_occasion&lt;/fen&gt; which is profiled as being in a relation of relative time to the &lt;fen&gt;Landmark_occasion&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Focal_participant"&gt;We&lt;/fex&gt; were &lt;t&gt;late&lt;/t&gt; &lt;fex name="Landmark_occasion"&gt;for dinner&lt;/fex&gt;.&lt;/ex&gt;
+
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Focal_occasion" ID="373"/>
+    <memberFE name="Focal_participant" ID="4586"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="248">Relation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="379">Time_vector</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="1600873887609" POS="A" cBy="automatic" cDate="09/23/2020 15:11:27 UTC Wed" lemmaID="731" lu_type="singleton" name="voorafgaand.a" status="Created" FN_EN_LU_ID="1743" Method="Iteration-1" RBN_LU_ID="r_a-16310" RBN_matching_relation="near_equivalence">
+    <definition>vroeger komend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="voorafgaand" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873890800" POS="A" cBy="automatic" cDate="09/23/2020 15:11:30 UTC Wed" lemmaID="732" lu_type="singleton" name="volgend.a" status="Created" FN_EN_LU_ID="1760" Method="Iteration-1" RBN_LU_ID="r_a-16306" RBN_matching_relation="near_equivalence">
+    <definition>wat volgt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="volgend" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873893908" POS="A" cBy="automatic" cDate="09/23/2020 15:11:33 UTC Wed" lemmaID="733" lu_type="singleton" name="voormalig.a" status="Created" FN_EN_LU_ID="12549" Method="Iteration-1" RBN_LU_ID="r_a-16125" RBN_matching_relation="near_equivalence">
+    <definition>vorig</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="voormalig" order="1"/>
+  </lexUnit>
+</frame>

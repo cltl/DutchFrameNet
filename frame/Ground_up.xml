@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="06/18/2002 02:08:15 PDT Tue" name="Ground_up" ID="357" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;In this frame a &lt;fen&gt;Patient&lt;/fen&gt; is in a state of having been broken into smaller pieces.  &lt;ex&gt; We enjoy eating &lt;t&gt;ground&lt;/t&gt; &lt;fex name="Patient"&gt;beef&lt;/fex&gt; . &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="06/18/2002 02:10:24 PDT Tue" abbrev="Pat" name="Patient" ID="3104">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Patient&lt;/fen&gt; is the entity acted on and that undergoes a change.   &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="06/18/2002 04:11:39 PDT Tue" abbrev="Result" name="Result" ID="3108">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Result&lt;/fen&gt; is the shape the &lt;fen&gt;Patient&lt;/fen&gt; becomes.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

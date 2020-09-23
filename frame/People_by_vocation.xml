@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="04/08/2004 06:12:56 PDT Thu" name="People_by_vocation" ID="1071" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame contains  words for Individuals as viewed in terms of their vocation. 
+
+The &lt;fen&gt;Person&lt;/fen&gt; is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have a &lt;fen&gt;Descriptor&lt;/fen&gt;, &lt;fen&gt;Origin&lt;/fen&gt;, &lt;fen&gt;Persistent_characteristic&lt;/fen&gt;, or &lt;fen&gt;Ethnicity&lt;/fen&gt;. A specific &lt;fen&gt;Age&lt;/fen&gt; may sometimes be specified as well.
+
+&lt;ex&gt;&lt;fex name="Person"&gt;Humphrey Bogart&lt;/fex&gt; was a &lt;fex name="Descriptor"&gt;great&lt;/fex&gt; &lt;t&gt;actor&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="04/08/2004 06:12:56 PDT Thu" abbrev="Ori" name="Origin" ID="6262">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Origin&lt;/fen&gt; is the place where the &lt;fen&gt;Person&lt;/fen&gt; was born or lived a salient part of her or his life.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="04/08/2004 06:12:56 PDT Thu" abbrev="Person" name="Person" ID="6263">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Person&lt;/fen&gt; is the human being.&lt;/def-root&gt;</definition>
+    <semType name="Human" ID="80"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="04/08/2004 06:12:56 PDT Thu" abbrev="Pers_char" name="Persistent_characteristic" ID="6264">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Persistent_characteristic&lt;/fen&gt; is a physiological characteristic or personality trait of the &lt;fen&gt;Person&lt;/fen&gt; which is concieved of as persisting over time.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="04/08/2004 06:12:56 PDT Thu" abbrev="Desc" name="Descriptor" ID="6265">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Descriptor&lt;/fen&gt; is a temporary condition of the &lt;fen&gt;Person&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="04/08/2004 06:12:56 PDT Thu" abbrev="Age" name="Age" ID="6266">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Age&lt;/fen&gt; is the length of time the &lt;fen&gt;Person&lt;/fen&gt; has been alive.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="04/08/2004 06:12:56 PDT Thu" abbrev="Eth" name="Ethnicity" ID="6267">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Ethnicity&lt;/fen&gt; is the religious, racial, national, socio-economic or cultural group to which the &lt;fen&gt;Person&lt;/fen&gt; belongs.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="000000" coreType="Extra-Thematic" cBy="JKR" cDate="04/08/2004 06:12:56 PDT Thu" abbrev="coa" name="Context_of_acquaintance" ID="6268">
+    <definition>&lt;def-root&gt;An expression indicating the context with which the &lt;fen&gt;Person&lt;/fen&gt; is associated.
+
+&lt;ex&gt;Is she the &lt;t&gt;actress&lt;/t&gt; &lt;fex name="coa"&gt;from the movie we saw last night&lt;/fex&gt;?&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7CCD7C" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="04/08/2004 06:33:42 PDT Thu" abbrev="rnk" name="Rank" ID="6269">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Rank&lt;/fen&gt; is the position in a hierarchy that a &lt;fen&gt;Person&lt;/fen&gt; occupies within an organization.
+ 	
+&lt;ex&gt;Robin is the &lt;fex name="rnk"&gt;head&lt;/fex&gt; &lt;t&gt;waitress&lt;/t&gt; at La Notte.&lt;/ex&gt;
+ &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="04/08/2004 06:47:01 PDT Thu" abbrev="poe" name="Place_of_employment" ID="6272">
+    <definition>&lt;def-root&gt;This FE identifies the Place where the &lt;fen&gt;Person&lt;/fen&gt; works.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="04/08/2004 06:49:23 PDT Thu" abbrev="" name="Employer" ID="6273">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Employer&lt;/fen&gt; gives compensation to an &lt;fen&gt;Person&lt;/fen&gt; for their work.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="04/08/2004 06:51:38 PDT Thu" abbrev="typ" name="Type" ID="6274">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Type&lt;/fen&gt; of the vocation that the &lt;fen&gt;Person&lt;/fen&gt; practices.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="04/09/2004 03:41:50 PDT Fri" abbrev="com" name="Compensation" ID="6280">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Compensation&lt;/fen&gt; is the payment that the &lt;fen&gt;Person&lt;/fen&gt; receives for performing a task.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="000000" coreType="Peripheral" cBy="JKR" cDate="04/09/2004 03:54:06 PDT Fri" abbrev="cb" name="Contract_basis" ID="6281">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Contract_basis&lt;/fen&gt; describes the conditions of employment with respect to permanency, hours per time period, or payment basis.
+
+&lt;ex&gt;Smithers is a &lt;fex name="cb"&gt;half-time&lt;/fex&gt; &lt;t&gt;clerk&lt;/t&gt; for Procteur et Gamble &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="304">People</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="1080">Performers</relatedFrame>
+    <relatedFrame ID="255">Medical_professionals</relatedFrame>
+    <relatedFrame ID="2670">Member_of_military</relatedFrame>
+    <relatedFrame ID="2678">Representative</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600873584023" POS="N" cBy="automatic" cDate="09/23/2020 15:06:24 UTC Wed" lemmaID="640" lu_type="singleton" name="jurist.n" status="Created" FN_EN_LU_ID="10412" Method="Iteration-1" RBN_LU_ID="r_n-18653" RBN_matching_relation="near_equivalence">
+    <definition>die rechten gestudeerd heeft</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="jurist" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873587182" POS="N" cBy="automatic" cDate="09/23/2020 15:06:27 UTC Wed" lemmaID="641" lu_type="singleton" name="secretaris.n" status="Created" FN_EN_LU_ID="10416" Method="Iteration-1" RBN_LU_ID="r_n-33474" RBN_matching_relation="near_equivalence">
+    <definition>dat de briefwisseling verzorgt en de papieren bijhoudt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="secretaris" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873590325" POS="N" cBy="manual" cDate="09/23/2020 15:06:30 UTC Wed" lemmaID="642" lu_type="singleton" name="wetenschapper.n" status="Created" FN_EN_LU_ID="10626" Method="Iteration-1" RBN_LU_ID="r_n-43089" RBN_matching_relation="equivalence">
+    <definition>die een wetenschap beoefent</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="wetenschapper" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873593549" POS="N" cBy="manual" cDate="09/23/2020 15:06:33 UTC Wed" lemmaID="643" lu_type="singleton" name="serveerster.n" status="Created" FN_EN_LU_ID="11295" Method="Iteration-1" RBN_LU_ID="r_n-33612" RBN_matching_relation="equivalence">
+    <definition>die in een café of restaurant de klanten bedient</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="serveerster" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873596794" POS="N" cBy="automatic" cDate="09/23/2020 15:06:36 UTC Wed" lemmaID="644" lu_type="singleton" name="onderzoeker.n" status="Created" FN_EN_LU_ID="13293" Method="Iteration-1" RBN_LU_ID="r_n-26015" RBN_matching_relation="near_equivalence">
+    <definition>die zich bezig houdt met wetenschappelijke vraagstukken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="onderzoeker" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873600015" POS="N" cBy="automatic" cDate="09/23/2020 15:06:40 UTC Wed" lemmaID="645" lu_type="singleton" name="archeoloog.n" status="Created" FN_EN_LU_ID="13499" Method="Iteration-1" RBN_LU_ID="r_n-3868" RBN_matching_relation="near_equivalence">
+    <definition>die is afgestudeerd in of zich beroepsmatig bezig houdt met archeologie</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="archeoloog" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873603199" POS="N" cBy="automatic" cDate="09/23/2020 15:06:43 UTC Wed" lemmaID="646" lu_type="singleton" name="oudheidkundige.n" status="Created" FN_EN_LU_ID="13499" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-27002" RBN_matching_relation="near_equivalence">
+    <definition>die zich specialiseert in de studie van de oudheidkunde</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="oudheidkundige" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873606381" POS="N" cBy="manual" cDate="09/23/2020 15:06:46 UTC Wed" lemmaID="647" lu_type="singleton" name="verslaggever.n" status="Created" FN_EN_LU_ID="14725" Method="Iteration-1" RBN_LU_ID="r_n-40443" RBN_matching_relation="equivalence">
+    <definition>die verslagen maakt voor de krant, radio of televisie</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="verslaggever" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873609580" POS="N" cBy="automatic" cDate="09/23/2020 15:06:49 UTC Wed" lemmaID="648" lu_type="singleton" name="handelaar.n" status="Created" FN_EN_LU_ID="14736" Method="Iteration-1" RBN_LU_ID="r_n-16199" RBN_matching_relation="near_equivalence">
+    <definition>die handel drijft</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="handelaar" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873612853" POS="N" cBy="automatic" cDate="09/23/2020 15:06:52 UTC Wed" lemmaID="649" lu_type="singleton" name="senator.n" status="Created" FN_EN_LU_ID="18337" Method="Iteration-1" RBN_LU_ID="r_n-33556" RBN_matching_relation="near_equivalence">
+    <definition>van de senaat</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="senator" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873615904" POS="N" cBy="manual" cDate="09/23/2020 15:06:55 UTC Wed" lemmaID="650" lu_type="singleton" name="atleet.n" status="Created" FN_EN_LU_ID="18339" Method="Iteration-1" RBN_LU_ID="r_n-4111" RBN_matching_relation="equivalence">
+    <definition>die aan atletiek doet, of de bouw van zo iemand heeft</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="atleet" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873619050" POS="N" cBy="automatic" cDate="09/23/2020 15:06:59 UTC Wed" lemmaID="651" lu_type="singleton" name="kastelein.n" status="Created" FN_EN_LU_ID="18341" Method="Iteration-1" RBN_LU_ID="r_n-19168" RBN_matching_relation="near_equivalence">
+    <definition>die in een café achter de tap staat</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="kastelein" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873622424" POS="N" cBy="automatic" cDate="09/23/2020 15:07:02 UTC Wed" lemmaID="652" lu_type="singleton" name="steward.n" status="Created" FN_EN_LU_ID="18345" Method="Iteration-1" RBN_LU_ID="r_n-35844" RBN_matching_relation="near_equivalence">
+    <definition>die in een vliegtuig of op een schip de passagiers verzorgt met onder andere drankjes en maaltijden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="steward" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873625680" POS="N" cBy="automatic" cDate="09/23/2020 15:07:05 UTC Wed" lemmaID="653" lu_type="singleton" name="bioloog.n" status="Created" FN_EN_LU_ID="18365" Method="Iteration-1" RBN_LU_ID="r_n-7418" RBN_matching_relation="near_equivalence">
+    <definition>die is afgestudeerd in of zich beroepsmatig bezig houdt met biologie</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="bioloog" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873628992" POS="N" cBy="automatic" cDate="09/23/2020 15:07:08 UTC Wed" lemmaID="654" lu_type="singleton" name="fysicus.n" status="Created" FN_EN_LU_ID="18367" Method="Iteration-1" RBN_LU_ID="r_n-13789" RBN_matching_relation="near_equivalence">
+    <definition>die de natuurkunde bestudeert</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="fysicus" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873632053" POS="N" cBy="automatic" cDate="09/23/2020 15:07:12 UTC Wed" lemmaID="655" lu_type="singleton" name="natuurkundige.n" status="Created" FN_EN_LU_ID="18367" Method="Iteration-1" RBN_LU_ID="r_n-24689" RBN_matching_relation="near_equivalence">
+    <definition>die is afgestudeerd in de natuurkunde</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="natuurkundige" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873635240" POS="N" cBy="automatic" cDate="09/23/2020 15:07:15 UTC Wed" lemmaID="656" lu_type="singleton" name="antropoloog.n" status="Created" FN_EN_LU_ID="18368" Method="Iteration-1" RBN_LU_ID="r_n-3682" RBN_matching_relation="near_equivalence">
+    <definition>die is afgestudeerd in of zich beroepsmatig bezig houdt met antropologie</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="antropoloog" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873638468" POS="N" cBy="automatic" cDate="09/23/2020 15:07:18 UTC Wed" lemmaID="657" lu_type="singleton" name="wiskundige.n" status="Created" FN_EN_LU_ID="18372" Method="Iteration-1" RBN_LU_ID="r_n-43385" RBN_matching_relation="near_equivalence">
+    <definition>die is afgestudeerd in of zich beroepsmatig bezighoudt met wiskunde</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="wiskundige" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873641673" POS="N" cBy="manual" cDate="09/23/2020 15:07:21 UTC Wed" lemmaID="658" lu_type="singleton" name="socioloog.n" status="Created" FN_EN_LU_ID="18373" Method="Iteration-1" RBN_LU_ID="r_n-34562" RBN_matching_relation="equivalence">
+    <definition>die is afgestudeerd in of zich beroepsmatig bezig houdt met sociologie</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="socioloog" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873644943" POS="N" cBy="automatic" cDate="09/23/2020 15:07:24 UTC Wed" lemmaID="659" lu_type="singleton" name="programmeur.n" status="Created" FN_EN_LU_ID="18612" Method="Iteration-1" RBN_LU_ID="r_n-29872" RBN_matching_relation="near_equivalence">
+    <definition>die voor zijn beroep computerprogramma's schrijft</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="programmeur" order="1"/>
+  </lexUnit>
+</frame>

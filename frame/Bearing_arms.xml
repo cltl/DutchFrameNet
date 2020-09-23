@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="01/13/2003 05:24:37 PST Mon" name="Bearing_arms" ID="470" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Protagonist&lt;/fen&gt; has (or does not have) a &lt;fen&gt;Weapon&lt;/fen&gt;.  The &lt;fen&gt;Degree&lt;/fen&gt; to which the &lt;fen&gt;Protagonist&lt;/fen&gt; is armed may also be described.  The &lt;fen&gt;Protagonist&lt;/fen&gt; is normally a human but may be a device that has subsidiary weapons. 
+&lt;ex&gt;Apparently, &lt;fex name="Protagonist"&gt;the suspect&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;t&gt;armed&lt;/t&gt; &lt;fex name="Weapon"&gt;with a shotgun&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;After she pulled the .45 from her sock drawer, &lt;fex name="Protagonist"&gt;she&lt;/fex&gt; &lt;m&gt;felt&lt;/m&gt; &lt;fex name="Degree"&gt;well enough&lt;/fex&gt; &lt;t&gt;armed&lt;/t&gt; &lt;fex name="Degree"&gt;to face anyone coming in&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Protagonist"&gt;The Tomahawk missile&lt;/fex&gt; &lt;t&gt;packs&lt;/t&gt; a lot of heat .&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Protagonist"&gt;An individual with a right-to-carry license&lt;/fex&gt; may continue to &lt;t&gt;carry&lt;/t&gt; in a "school zone" in compliance with existing state and local laws. &lt;fex name="Weapon"&gt;INI&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="01/13/2003 05:35:10 PST Mon" abbrev="" name="Degree" ID="4000">
+    <definition>&lt;def-root&gt;The amount of Weapons that the Protagonist has (relative to some standard).
+&lt;ex&gt;He is very &lt;fex name="Degree"&gt;well&lt;/fex&gt; &lt;t&gt;armed&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="01/13/2003 05:35:45 PST Mon" abbrev="" name="Weapon" ID="4001">
+    <definition>&lt;def-root&gt;The destructive device that the &lt;fen&gt;Protagonist&lt;/fen&gt; has with them.&lt;/def-root&gt;</definition>
+    <semType name="Artifact" ID="61"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="01/13/2003 05:37:22 PST Mon" abbrev="" name="Protagonist" ID="4002">
+    <definition>&lt;def-root&gt;The individual that possesses a &lt;fen&gt;Weapon&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/30/2010 07:11:30 PDT Fri" abbrev="pla" name="Place" ID="14102">
+    <definition>&lt;def-root&gt;The location where a &lt;fen&gt;Protagonist&lt;/fen&gt; carries a &lt;fen&gt;Weapon&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="07/30/2010 07:12:35 PDT Fri" abbrev="tim" name="Time" ID="14103">
+    <definition>&lt;def-root&gt;The time at which the &lt;fen&gt;Protagonist&lt;/fen&gt; carries a &lt;fen&gt;Weapon&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="150">State</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="426">Weapon</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1727">Shooting_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

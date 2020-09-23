@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:26 PST Wed" name="Distributed_position" ID="76" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame involves a static (primarily spatial) relationship between a &lt;fen&gt;Location&lt;/fen&gt; and a &lt;fen&gt;Theme&lt;/fen&gt;, in which the &lt;fen&gt;Theme&lt;/fen&gt; is located in many or all subregions of the &lt;fen&gt;Location&lt;/fen&gt;, and is thus construable as covering it. The &lt;fen&gt;Time&lt;/fen&gt; when the covering configuration holds, and the &lt;fen&gt;Subregion&lt;/fen&gt; of the &lt;fen&gt;Location&lt;/fen&gt; that is involved may, optionally, be indicated.  
+
+&lt;ex&gt;&lt;fex name="Time"&gt;By Summer&lt;/fex&gt;, &lt;fex name="Theme"&gt;weeds&lt;/fex&gt; &lt;t&gt;dotted&lt;/t&gt; &lt;fex name="Location"&gt;the field&lt;/fex&gt; .&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Theme"&gt;The papers&lt;/fex&gt; &lt;t&gt;around&lt;/t&gt; &lt;fex name="Location"&gt;my office&lt;/fex&gt; were too messy .&lt;/ex&gt;
+Prepositional and verb targets of this frame differ in the ways they can participate in forming sentences; one of the most important differences is that prepositions may modify the entire sentence to describe the event (the &lt;fen&gt;Theme&lt;/fen&gt;) as distributed over the &lt;fen&gt;Location&lt;/fen&gt;.
+&lt;ex&gt;&lt;fex name="Theme"&gt;Puddles were rippling&lt;/fex&gt; &lt;t&gt;all over&lt;/t&gt; &lt;fex name="Location"&gt;the roof&lt;/fex&gt; .&lt;/ex&gt;
+
+Some members of this frame specifically indicate that the configuration is attractive or unattractive; this is indicated by the semantic types Positive_judgement and Negative_judgement respectively.  Some of the non-verb LUs of the frame (esp. around.prep) refer to multiple possible positions that might be occupied by a single &lt;fen&gt;Theme&lt;/fen&gt;, often accompanied by "somewhere":
+
+&lt;ex&gt;I hope &lt;fex name="Theme"&gt;my wallet&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;t&gt;around&lt;/t&gt; &lt;fex name="Location"&gt;here&lt;/fex&gt; (&lt;fex name="Region_quantification"&gt;somewhere&lt;/fex&gt;) .&lt;/ex&gt;
+
+These same LUs may refer a vague sequence of locations occupied by a single &lt;fen&gt;Theme&lt;/fen&gt;:
+
+&lt;ex&gt;&lt;fex name="Theme"&gt;I&lt;/fex&gt; kept &lt;m&gt;walking&lt;/m&gt; &lt;t&gt;around&lt;/t&gt; &lt;fex name="Location"&gt;my apartment&lt;/fex&gt; .&lt;/ex&gt;
+
+All or virtually all of the verbs used statically in this frame can also occur in the frame Filling, producing pairs such as the following:
+
+&lt;ex&gt;Filling: Pat &lt;t&gt;covered&lt;/t&gt; the table with flowers.&lt;/ex&gt; 
+&lt;ex&gt;Distributed_position: &lt;fex name="Theme"&gt;Flowers&lt;/fex&gt; &lt;t&gt;covered&lt;/t&gt; &lt;fex name="Location"&gt;the table&lt;/fex&gt;.&lt;/ex&gt; 
+&lt;ex&gt;&lt;/ex&gt;
+Please note: &lt;ment&gt;adorned&lt;/ment&gt;, &lt;ment&gt;covered&lt;/ment&gt;, etc are in the Abounding_with frame because of the point of view shift.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Location"&gt;The tree&lt;/fex&gt; was &lt;t&gt;studded&lt;/t&gt; &lt;fex name="Subregion"&gt;all over&lt;/fex&gt; &lt;fex name="Theme"&gt;with soft dark fruit&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:26 PST Wed" abbrev="Thm" name="Theme" ID="359">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Theme&lt;/fen&gt; in this frame is the object which is described as standing in some spatial relation to a particular &lt;fen&gt;Location&lt;/fen&gt;.  &lt;fen&gt;Theme&lt;/fen&gt; typically occurs as the External Argument or, with passives, as a PP Complement headed by "with" or "by".&lt;ex&gt;&lt;fex name="Theme"&gt;Ribbons&lt;/fex&gt; &lt;t&gt;festooned&lt;/t&gt; the car.&lt;/ex&gt;&lt;ex&gt;The table was &lt;t&gt;covered&lt;/t&gt; &lt;fex name="Theme"&gt;by a purple velvet cloth&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Physical_object" ID="68"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:26 PST Wed" abbrev="Loc" name="Location" ID="360">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Location&lt;/fen&gt; is the entity or area with respect to which the &lt;fen&gt;Theme&lt;/fen&gt;'s spatial arrangement is described.  This frame element generally occurs as an NP Object.&lt;ex&gt;Thick varnish &lt;t&gt;coated&lt;/t&gt; &lt;fex name="Location"&gt;the beautiful wood&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Location" ID="54"/>
+  </FE>
+  <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="02/28/2003 04:01:29 PST Fri" abbrev="Sub" name="Subregion" ID="4280">
+    <definition>&lt;def-root&gt;The part of the &lt;fen&gt;Location&lt;/fen&gt; which contains or is covered by the &lt;fen&gt;Theme&lt;/fen&gt;.
+&lt;ex&gt;Bulletholes &lt;t&gt;covered&lt;/t&gt; the windshield &lt;fex name="Sub"&gt;on the right side&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="06/02/2006 01:14:17 PDT Fri" abbrev="tim" name="Time" ID="10188">
+    <definition>&lt;def-root&gt;The time at which the &lt;fen&gt;Theme&lt;/fen&gt; occupies the &lt;fen&gt;Location&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Time"&gt;By 1950&lt;/fex&gt;, factories dotted the adjacent countryside.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="HPh" cDate="04/16/2015 06:11:26 PDT Thu" abbrev="" name="Deixis" ID="16384">
+    <definition>&lt;def-root&gt;An indication of how the locative phrase relates to the grounding of the speech situation, either locating it near (here) or far (there, yonder). Fillers of this FE are restricted to this closed class of items.
+
+&lt;ex&gt;The pens were &lt;fex name="Deixis"&gt;there&lt;/fex&gt; &lt;t&gt;all over&lt;/t&gt; my desk.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Extra-Thematic" cBy="HPh" cDate="04/16/2015 06:20:53 PDT Thu" abbrev="" name="Region_quantification" ID="16385">
+    <definition>&lt;def-root&gt;A description of how much of a potential profiled region actually has (or is expected to have) a &lt;fen&gt;Theme&lt;/fen&gt; in it.  It is normally filled by closed-class items like 'all', 'somewhere', 'nowhere', etc.
+
+&lt;ex&gt;&lt;fex name="Region_quantification"&gt;All&lt;/fex&gt; &lt;t&gt;around&lt;/t&gt; the town, people were dancing.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="000000" coreType="Extra-Thematic" cBy="HPh" cDate="04/16/2015 07:59:05 PDT Thu" abbrev="" name="Temporal_profile" ID="16386">
+    <definition>&lt;def-root&gt;A description of how the access path to the &lt;fen&gt;Location&lt;/fen&gt; interacts with time. This FE is filled only by the closed class adverbial back.adv (which indicates that the position was occupied by the &lt;fen&gt;Theme&lt;/fen&gt; before).  While this FE in its most basic use refers to cases of actual motion, it can background motion entirely (as in the example below). 
+
+&lt;ex&gt;The weeds were &lt;fex name="Temporal_profile"&gt;back&lt;/fex&gt; &lt;t&gt;around&lt;/t&gt; the garden.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="199">Locative_relation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on">
+    <relatedFrame ID="2916">Distributed_abundance</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="262">Abounding_with</relatedFrame>
+    <relatedFrame ID="59">Filling</relatedFrame>
+    <relatedFrame ID="2911">Surrounding</relatedFrame>
+  </frameRelation>
+</frame>

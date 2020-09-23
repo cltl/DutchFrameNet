@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="08/08/2002 04:43:38 PDT Thu" name="Biological_urge" ID="394" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Experiencer&lt;/fen&gt; is in a &lt;fen&gt;State&lt;/fen&gt; where a biological urge is signaling the need to perform a certain action such as eating, drinking, stopping exertion, sleeping, regurgitating, or having sex.
+The &lt;fen&gt;Duration&lt;/fen&gt;, &lt;fen&gt;Time&lt;/fen&gt;, &lt;fen&gt;Place&lt;/fen&gt;, or &lt;fen&gt;Degree&lt;/fen&gt; of intensity associated with the occurrence of the urge may also be indicated.  In this frame, the &lt;fen&gt;Experiencer&lt;/fen&gt; does not necessarily want to perform the action that would fulfill the urge, and there is no specific focus associated with the urge.
+
+&lt;ex&gt;&lt;fex name="Experiencer"&gt;Mike&lt;/fex&gt; &lt;m&gt;feels&lt;/m&gt; &lt;t&gt;hungry&lt;/t&gt;.&lt;/ex&gt; 
+&lt;ex&gt;&lt;fex name="Experiencer"&gt;Sam&lt;/fex&gt; &lt;m&gt;was&lt;/m&gt; &lt;t&gt;thirsty&lt;/t&gt; &lt;fex name="Time"&gt;after dinner&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="08/08/2002 04:49:12 PDT Thu" abbrev="Deg" name="Degree" ID="3519">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Degree&lt;/fen&gt; identifies the extent to which the &lt;fen&gt;Experiencer&lt;/fen&gt; receives the biological signal.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="08/08/2002 04:50:00 PDT Thu" abbrev="Exp" name="Experiencer" ID="3520">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Experiencer&lt;/fen&gt; receives the biological signal and possesses the internal experience which is a reaction to the phsyical signal.
+&lt;ex&gt;&lt;fex name="Exp"&gt;Mr. Burns&lt;/fex&gt; &lt;m&gt;was&lt;/m&gt; sexually &lt;t&gt;aroused&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+    <excludesFE name="Expressor" ID="3526"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="08/08/2002 04:50:43 PDT Thu" abbrev="Time" name="Time" ID="3521">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Time&lt;/fen&gt; when the &lt;fen&gt;Experiencer&lt;/fen&gt; feels the biological signal. &lt;fen&gt;Time&lt;/fen&gt; may also allow inference about the &lt;fen&gt;Reason&lt;/fen&gt; for the biological urge. 
+&lt;ex&gt;&lt;fex name="Experiencer"&gt;I&lt;/fex&gt; &lt;m&gt;am&lt;/m&gt; &lt;t&gt;exhausted&lt;/t&gt; &lt;fex name="Time"&gt;when I babysit&lt;/fex&gt;.&lt;/ex&gt;
+In such cases, we tag &lt;fen&gt;Reason&lt;/fen&gt; on the second layer.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="08/08/2002 04:51:12 PDT Thu" abbrev="Place" name="Place" ID="3522">
+    <definition>&lt;def-root&gt;This FE identifies the  &lt;fen&gt;Place&lt;/fen&gt; is where the &lt;fen&gt;Experiencer&lt;/fen&gt; feels the biological signal.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="08/09/2002 11:26:37 PDT Fri" abbrev="Expressor" name="Expressor" ID="3526">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Expressor&lt;/fen&gt; is used for a gesture, expression, or body part indicating that the &lt;fen&gt;Experiencer&lt;/fen&gt; is feeling a certain urge.
+
+&lt;ex&gt;He gave me a &lt;t&gt;tired&lt;/t&gt; &lt;fex name="Expressor"&gt;shrug&lt;/fex&gt; and then looked down again.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="State" ID="3531"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/09/2002 03:48:53 PDT Fri" abbrev="Dur" name="Duration" ID="3527">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Duration&lt;/fen&gt; identifies the amount of time for which the &lt;fen&gt;Experiencer&lt;/fen&gt; feels the urge.&lt;/def-root&gt;</definition>
+    <semType name="Duration" ID="142"/>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="08/12/2002 09:53:06 PDT Mon" abbrev="Exp" name="Explanation" ID="3530">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Explanation&lt;/fen&gt; for which the &lt;fen&gt;Experiencer&lt;/fen&gt; has the biological urge. 
+&lt;ex&gt;&lt;fex name="Experiencer"&gt;Jen&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;t&gt;tired&lt;/t&gt; &lt;fex name="Exp"&gt;because she gave birth last night.&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="08/12/2002 10:13:27 PDT Mon" abbrev="Stat" name="State" ID="3531">
+    <definition>&lt;def-root&gt;&lt;fen&gt;State&lt;/fen&gt; identifies the &lt;fen&gt;Experiencer&lt;/fen&gt;'s state of being. 
+&lt;ex&gt;She was alarmed by John's &lt;t&gt;hungry&lt;/t&gt; &lt;fex  name = "State"&gt;state&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Experiencer" ID="3520"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="08/13/2002 10:11:58 PDT Tue" abbrev="Par" name="Parameter" ID="3534">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Parameter&lt;/fen&gt; is the particular biological realm in which the &lt;fen&gt;Experiencer&lt;/fen&gt; feels the urge.
+&lt;ex&gt;Mr. Burns &lt;m&gt;was&lt;/m&gt; &lt;fex name = "Parameter"&gt;sexually&lt;/fex&gt; &lt;t&gt;aroused&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Expressor" ID="3526"/>
+    <memberFE name="Experiencer" ID="3520"/>
+    <memberFE name="State" ID="3531"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1015">Gradable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600871640134" POS="A" cBy="automatic" cDate="09/23/2020 14:34:00 UTC Wed" lemmaID="72" lu_type="singleton" name="slaperig.a" status="Created" FN_EN_LU_ID="7171" Method="Iteration-1" RBN_LU_ID="r_a-14915" RBN_matching_relation="near_equivalence">
+    <definition>slaap hebbend</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="slaperig" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871644204" POS="A" cBy="automatic" cDate="09/23/2020 14:34:04 UTC Wed" lemmaID="73" lu_type="singleton" name="vermoeid.a" status="Created" FN_EN_LU_ID="7180" Method="Iteration-1" RBN_LU_ID="r_a-16647" RBN_matching_relation="near_equivalence">
+    <definition>moe</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="vermoeid" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871648094" POS="A" cBy="automatic" cDate="09/23/2020 14:34:08 UTC Wed" lemmaID="74" lu_type="singleton" name="mieters.a" status="Created" FN_EN_LU_ID="7181" Method="Iteration-1" RBN_LU_ID="r_a-12863" RBN_matching_relation="near_equivalence">
+    <definition>geweldig</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="mieters" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871651613" POS="A" cBy="automatic" cDate="09/23/2020 14:34:11 UTC Wed" lemmaID="75" lu_type="singleton" name="bekaf.a" status="Created" FN_EN_LU_ID="7181" Method="Iteration-1" RBN_LU_ID="r_a-9665" RBN_matching_relation="near_equivalence">
+    <definition>uitgeput</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="bekaf" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871655988" POS="A" cBy="automatic" cDate="09/23/2020 14:34:15 UTC Wed" lemmaID="76" lu_type="singleton" name="afgemat.a" status="Created" FN_EN_LU_ID="7181" Method="Iteration-1" RBN_LU_ID="r_a-8977" RBN_matching_relation="near_equivalence">
+    <definition>zeer moe</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="afgemat" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871659275" POS="A" cBy="automatic" cDate="09/23/2020 14:34:19 UTC Wed" lemmaID="77" lu_type="singleton" name="uitgehongerd.a" status="Created" FN_EN_LU_ID="7237" Method="Iteration-1" RBN_LU_ID="r_a-15621" RBN_matching_relation="near_equivalence">
+    <definition>erg hongerig</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="uitgehongerd" order="1"/>
+  </lexUnit>
+</frame>

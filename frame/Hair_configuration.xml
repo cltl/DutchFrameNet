@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Shw" cDate="06/07/2001 02:34:32 PDT Thu" name="Hair_configuration" ID="126" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;Temporary or permanent Styles and Configurations of Hair, as well as its inherent Nature.  Note that Attachment and Body Part will generally be incorporated in the lexical meanings.  Subregions (e.g. roots, ends) are often not specified, and sometimes incorporated (e.g. in 'bangs')
+
+&lt;ex&gt;On either side her head gleamed &lt;fex name="Configuration"&gt;coiled&lt;/fex&gt; &lt;fex name="Configuration"&gt;&lt;t&gt;braids&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Hair"&gt;of dark-gold hair&lt;/fex&gt; , almost pale copper in the subdued light of the room .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <semType name="Non-perspectivalized_frame" ID="52"/>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="Shw" cDate="06/07/2001 03:06:09 PDT Thu" abbrev="Hair" name="Hair" ID="777">
+    <definition>&lt;def-root&gt;This FE is the hair itself
+&lt;ex&gt;Her &lt;fex name="Hair"&gt;&lt;t&gt;tresses&lt;/t&gt;&lt;/fex&gt; were golden.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="Shw" cDate="06/07/2001 03:06:09 PDT Thu" abbrev="Poss" name="Possessor" ID="779">
+    <definition>&lt;def-root&gt;This FE is the Possessor of the body part. 
+&lt;ex&gt;&lt;fex name="Possessor"&gt;Michael's&lt;/fex&gt; &lt;t&gt;hair&lt;/t&gt; is long.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="Shw" cDate="06/07/2001 03:06:09 PDT Thu" abbrev="Subr" name="Subregion" ID="781">
+    <definition>&lt;def-root&gt;A subregion of the body part referred to by the target, e.g. 
+&lt;ex&gt;Her &lt;t&gt;hair&lt;/t&gt; is dark &lt;fex name="Subregion"&gt;at the roots&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="Shw" cDate="06/07/2001 03:24:08 PDT Thu" abbrev="Cfg" name="Configuration" ID="782">
+    <definition>&lt;def-root&gt;Temporary Configurations of hair (eg braid, bun, ponytail).   Something done to the hair merely by movement.  
+&lt;ex&gt;I pulled Michael's  &lt;fex name="Configuration"&gt;ponytail&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="800080" coreType="Core" cBy="Shw" cDate="06/07/2001 05:13:34 PDT Thu" abbrev="Hair-Prop" name="Hair_property" ID="785">
+    <definition>&lt;def-root&gt;A property of the hair (eg curly, fine, brown).  This acts much like "Descriptor" in the Observable_bodyparts Frame.  Colors, styles, natural properties are described by this frame element.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="Shw" cDate="06/13/2001 12:09:37 PDT Wed" abbrev="Loc" name="Location" ID="852">
+    <definition>&lt;def-root&gt;Where the salient part of the hair is.
+&lt;ex&gt;His &lt;t&gt;hair&lt;/t&gt; was &lt;fex name="Location"&gt;in his eyes&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Location" ID="54"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="Shw" cDate="06/13/2001 12:29:34 PDT Wed" abbrev="Acc" name="Accessory" ID="853">
+    <definition>&lt;def-root&gt;Items that are put in the hair as part of a Configuration or Style
+&lt;ex&gt;She braided &lt;fex name="Acc"&gt;ribbons&lt;/fex&gt; into her hair.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Hair_property" ID="785"/>
+    <memberFE name="Configuration" ID="782"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="119">Body_parts</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872880604" POS="A" cBy="automatic" cDate="09/23/2020 14:54:40 UTC Wed" lemmaID="423" lu_type="singleton" name="blond.a" status="Created" FN_EN_LU_ID="2607" Method="Iteration-1" RBN_LU_ID="r_a-9345" RBN_matching_relation="near_equivalence">
+    <definition>lichtgeel (vooral van haar)</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="blond" order="1"/>
+  </lexUnit>
+</frame>

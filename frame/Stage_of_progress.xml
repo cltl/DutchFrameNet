@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="03/01/2005 05:05:11 PST Tue" name="Stage_of_progress" ID="1341" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Entity&lt;/fen&gt; is at a particular stage of its development.
+
+&lt;ex&gt; The &lt;t&gt;Next Generation&lt;/t&gt; &lt;fex name="ent"&gt;Internet&lt;/fex&gt; (NGI) Program has been successfully completed.&lt;/ex&gt;
+
+&lt;ex&gt;Osama bin Laden, prime suspect in the US terror attacks, is outfoxing intelligence agencies with his &lt;t&gt;low-tech&lt;/t&gt; &lt;fex name="ent"&gt;communication methods&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="ent"&gt;Kids&lt;/fex&gt; &lt;m&gt;are&lt;/m&gt; &lt;fex name="deg"&gt;much more&lt;/fex&gt; &lt;t&gt;advanced&lt;/t&gt; &lt;fex name="tim"&gt;today&lt;/fex&gt; &lt;fex name="deg"&gt;than they were in our era&lt;/fex&gt; that is for sure.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="03/01/2005 05:05:11 PST Tue" abbrev="ent" name="Entity" ID="7567">
+    <definition>&lt;def-root&gt;The object that has reached a particular stage of its development.
+
+&lt;ex&gt;We offer advice for very &lt;t&gt;advanced&lt;/t&gt; &lt;fex name="ent"&gt;learners of English&lt;/fex&gt; on the different EFL/ESL exams.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="03/01/2005 05:05:11 PST Tue" abbrev="tim" name="Time" ID="7570">
+    <definition>&lt;def-root&gt;The time at which the progress occurs.
+
+&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="03/01/2005 05:05:11 PST Tue" abbrev="man" name="Manner" ID="7572">
+    <definition>&lt;def-root&gt;A description of the stage of progress, frequently an evaluation.
+
+&lt;ex&gt;The new version is &lt;fex name="man"&gt;wonderfully&lt;/fex&gt; &lt;t&gt;advanced&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="03/01/2005 05:35:41 PST Tue" abbrev="deg" name="Degree" ID="7574">
+    <definition>&lt;def-root&gt;The amount of advancement that the Entity has attained.
+
+&lt;ex&gt; The province, which is &lt;fex name="deg"&gt;very&lt;/fex&gt; &lt;t&gt;developed&lt;/t&gt; economically, is at the same time a center of brassworking.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="03/01/2005 05:38:11 PST Tue" abbrev="dom" name="Domain" ID="7575">
+    <definition>&lt;def-root&gt;The relevant dimension of development.
+
+&lt;ex&gt; The Soviet Union was more highly &lt;t&gt;developed&lt;/t&gt; &lt;fex name="dom"&gt;militarily&lt;/fex&gt; than China.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1340">Progression</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

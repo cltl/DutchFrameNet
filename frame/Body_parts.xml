@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="HCB" cDate="05/25/2001 01:41:47 PDT Fri" name="Body_parts" ID="119" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame covers words for &lt;fen&gt;Body_part&lt;/fen&gt;(s) (BP) belonging to a &lt;fen&gt;Possessor&lt;/fen&gt; (Poss), which may be characterized by a &lt;fen&gt;Descriptor&lt;/fen&gt; (Desc). The location of the BP may be identified in terms of  its &lt;fen&gt;Attachment&lt;/fen&gt; or its &lt;fen&gt;Orientational_location&lt;/fen&gt;.  A &lt;fen&gt;Subregion&lt;/fen&gt; of a BP may also be indicated.  
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;He had to brace &lt;fex name="Possessor"&gt;his&lt;/fex&gt; &lt;fex name="Orientational_location"&gt;right&lt;/fex&gt; &lt;t&gt;&lt;fex name="Body_part"&gt;arm&lt;/fex&gt;&lt;/t&gt; against his leg in order to fight the roll.&lt;/ex&gt;
+
+&lt;ex&gt;The dog measured &lt;fex name="Possessor"&gt;its&lt;/fex&gt; &lt;fex name="Descriptor"&gt;blond&lt;/fex&gt; &lt;t&gt;&lt;fex name="Body_part"&gt;belly&lt;/fex&gt;&lt;/t&gt; in the mud.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="HCB" cDate="05/25/2001 01:47:39 PDT Fri" abbrev="Poss" name="Possessor" ID="611">
+    <definition>&lt;def-root&gt;This Frame Element denotes the &lt;fen&gt;Possessor&lt;/fen&gt; of the &lt;fen&gt;Body_part&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Poss"&gt;Kim's&lt;/fex&gt; arm is broken.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MRLP" cDate="06/01/2001 01:39:56 PDT Fri" abbrev="Desc" name="Descriptor" ID="691">
+    <definition>&lt;def-root&gt;This Frame Element is used for a characteristic or description of the &lt;fen&gt;Body_part&lt;/fen&gt;. Note that &lt;fen&gt;Descriptor&lt;/fen&gt; is not an FE of the same character as other FEs.  Specifically, rather than filling a slot, it identifies a modifier of its head noun. 
+
+&lt;ex&gt;Kim has &lt;fex name="Desc"&gt;beautiful&lt;/fex&gt; &lt;t&gt;eyes&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;His &lt;fex name="Desc"&gt;trembling&lt;/fex&gt; &lt;t&gt;hands&lt;/t&gt;....&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MRLP" cDate="06/01/2001 02:27:52 PDT Fri" abbrev="Body_P" name="Body_part" ID="692">
+    <definition>&lt;def-root&gt;This Frame Element  is the &lt;fen&gt;Body_part&lt;/fen&gt;.
+&lt;ex&gt;Kim's &lt;fex name="Body_P"&gt;arm&lt;/fex&gt; is broken.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Body_part" ID="10"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="Tess" cDate="06/04/2001 12:41:33 PDT Mon" abbrev="Subr" name="Subregion" ID="707">
+    <definition>&lt;def-root&gt;This FEidentifies  the &lt;fen&gt;Subregion&lt;/fen&gt; of the &lt;fen&gt;Body_part&lt;/fen&gt; referred to by the target.
+
+&lt;ex&gt;&lt;fex name="Subr"&gt;upper&lt;/fex&gt; &lt;t&gt;arm&lt;/t&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Subr"&gt;lower&lt;/fex&gt; &lt;t&gt;back&lt;/t&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="Tess" cDate="06/04/2001 12:50:11 PDT Mon" abbrev="OrLoc" name="Orientational_location" ID="708">
+    <definition>&lt;def-root&gt;This Frame Element describes the location of the &lt;fen&gt;Body_part&lt;/fen&gt; with respect to the inherent orientation of the body (or the larger body part) the &lt;fen&gt;Body_part&lt;/fen&gt; is attached to.
+
+&lt;ex&gt;&lt;fex name="OrLoc"&gt;left&lt;/fex&gt; &lt;t&gt;leg&lt;/t&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="OrLoc"&gt;hind&lt;/fex&gt; &lt;t&gt;foot&lt;/t&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="OrLoc"&gt;second&lt;/fex&gt; &lt;t&gt;finger&lt;/t&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="OrLoc"&gt;front&lt;/fex&gt; &lt;t&gt;wings&lt;/t&gt;&lt;/ex&gt;
+
+NB:  All of these (other than very productive types such as "left", "right", "front", "back", and "second") should be tagged as secondary targets.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="Tess" cDate="06/04/2001 12:52:00 PDT Mon" abbrev="Attachment" name="Attachment" ID="709">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Attachment&lt;/fen&gt; is the larger body part  to which the BP is attached.
+&lt;ex&gt;the &lt;t&gt;fingers&lt;/t&gt; &lt;fex name="Attachment"&gt;of her left hand&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;the &lt;t&gt;fin&lt;/t&gt; &lt;fex name="Attachment"&gt;on its back&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;the &lt;fex name="Attachment"&gt;dorsal&lt;/fex&gt; &lt;t&gt;fin&lt;/t&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="970">Shaped_part</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="126">Hair_configuration</relatedFrame>
+    <relatedFrame ID="160">Wearing</relatedFrame>
+    <relatedFrame ID="16">Body_movement</relatedFrame>
+    <relatedFrame ID="17">Manipulation</relatedFrame>
+    <relatedFrame ID="235">Body_description_part</relatedFrame>
+    <relatedFrame ID="299">Body_decoration</relatedFrame>
+    <relatedFrame ID="393">Body_mark</relatedFrame>
+    <relatedFrame ID="239">Medical_conditions</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600871728746" POS="N" cBy="manual" cDate="09/23/2020 14:35:28 UTC Wed" lemmaID="94" lu_type="singleton" name="enkel.n" status="Created" FN_EN_LU_ID="2379" Method="Iteration-1" RBN_LU_ID="r_n-12437" RBN_matching_relation="equivalence">
+    <definition>dat de voet met het been verbindt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="enkel" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871732702" POS="N" cBy="automatic" cDate="09/23/2020 14:35:32 UTC Wed" lemmaID="95" lu_type="singleton" name="anus.n" status="Created" FN_EN_LU_ID="2380" Method="Iteration-1" RBN_LU_ID="r_n-3694" RBN_matching_relation="near_equivalence">
+    <definition>aan het eind van de endeldarm, waardoor de ontlasting naar buiten komt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="anus" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871736049" POS="N" cBy="automatic" cDate="09/23/2020 14:35:36 UTC Wed" lemmaID="96" lu_type="singleton" name="aars.n" status="Created" FN_EN_LU_ID="2380" Method="Iteration-1" RBN_LU_ID="r_n-2449" RBN_matching_relation="near_equivalence">
+    <definition>van het darmkanaal, waardoor de onverteerde spijsresten het lichaam verlaten</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="aars" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871739257" POS="N" cBy="automatic" cDate="09/23/2020 14:35:39 UTC Wed" lemmaID="97" lu_type="singleton" name="maag.n" status="Created" FN_EN_LU_ID="2509" Method="Iteration-1" RBN_LU_ID="r_n-22831" RBN_matching_relation="near_equivalence">
+    <definition>tussen slokdarm en dunne darm waar je eten wordt verteerd</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="maag" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871742308" POS="N" cBy="automatic" cDate="09/23/2020 14:35:42 UTC Wed" lemmaID="98" lu_type="singleton" name="gewei.n" status="Created" FN_EN_LU_ID="2515" Method="Iteration-1" RBN_LU_ID="r_n-14969" RBN_matching_relation="near_equivalence">
+    <definition>van al of niet vertakte vorm, zoals die worden gedragen door herten, reebokken e.d.</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="gewei" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871745491" POS="N" cBy="automatic" cDate="09/23/2020 14:35:45 UTC Wed" lemmaID="99" lu_type="singleton" name="long.n" status="Created" FN_EN_LU_ID="18703" Method="Iteration-1" RBN_LU_ID="r_n-22490" RBN_matching_relation="near_equivalence">
+    <definition>in de borst waarmee men ademhaalt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="long" order="1"/>
+  </lexUnit>
+</frame>

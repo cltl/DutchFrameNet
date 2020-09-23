@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:06 PST Wed" name="Experiencer_obj" ID="47" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;Some phenomenon (the &lt;fen&gt;Stimulus&lt;/fen&gt;) provokes a particular emotion in an &lt;fen&gt;Experiencer&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Stimulus"&gt;Nightmare on Elm Street&lt;/fex&gt; &lt;t&gt;scared&lt;/t&gt; &lt;fex name="Experiencer"&gt;me&lt;/fex&gt; &lt;fex name="Result"&gt;silly&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:07 PST Wed" abbrev="Exp" name="Experiencer" ID="198">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Experiencer&lt;/fen&gt; reacts emotionally or psychologically to the &lt;fen&gt;Stimulus&lt;/fen&gt;.
+&lt;ex&gt;&lt;fex name="Stimulus"&gt;Horror films&lt;/fex&gt; &lt;t&gt;terrify&lt;/t&gt; &lt;fex name="Experiencer"&gt;Edna&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:07 PST Wed" abbrev="Stimulus" name="Stimulus" ID="199">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Stimulus&lt;/fen&gt; is the event or entity which brings about the emotional or psychological state of the &lt;fen&gt;Experiencer&lt;/fen&gt;. &lt;ex&gt;&lt;fex name="Stimulus"&gt;The news&lt;/fex&gt; &lt;fex name="Degree"&gt;greatly&lt;/fex&gt;&lt;t&gt;alarms&lt;/t&gt; &lt;fex name="Experiencer"&gt;all the women of the village&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/17/2001 12:08:06 PDT Wed" abbrev="Degr" name="Degree" ID="2066">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Degree&lt;/fen&gt; is the degree to which the &lt;fen&gt;Stimulus&lt;/fen&gt; brings about an emotion in the &lt;fen&gt;Experiencer&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="10/17/2001 12:08:06 PDT Wed" abbrev="Dep" name="Depictive" ID="2067">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Depictive&lt;/fen&gt; identifies a phrase which describes a state of the &lt;fen&gt;Experiencer&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/17/2001 12:08:06 PDT Wed" abbrev="Manr" name="Manner" ID="2069">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Manner&lt;/fen&gt; in which the &lt;fen&gt;Stimulus&lt;/fen&gt; affects the &lt;fen&gt;Experiencer&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="10/17/2001 12:08:07 PDT Wed" abbrev="Mns" name="Means" ID="2070">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Means&lt;/fen&gt; by which the &lt;fen&gt;Stimulus&lt;/fen&gt; affects the &lt;fen&gt;Experiencer&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="10/17/2001 12:08:07 PDT Wed" abbrev="Result" name="Result" ID="2071">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Result&lt;/fen&gt; of the &lt;fen&gt;Stimulus&lt;/fen&gt; affecting the &lt;fen&gt;Experiencer&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="08/21/2002 11:39:02 PDT Wed" abbrev="Circ" name="Circumstances" ID="3598">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Circumstances&lt;/fen&gt; is the circumstances under which the &lt;fen&gt;Stimulus&lt;/fen&gt; brings about the experience. &lt;ex&gt;&lt;fex name="Stimulus"&gt;Soft music&lt;/fex&gt; &lt;t&gt;calms&lt;/t&gt; &lt;fex name="Experiencer"&gt;the children&lt;/fex&gt; &lt;fex name="Circumstances"&gt;when they're wound-up&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="05/30/2008 05:11:02 PDT Fri" abbrev="Exp" name="Explanation" ID="12686">
+    <definition>&lt;def-root&gt;The reason why the &lt;fen&gt;Stimulus&lt;/fen&gt; causes the emotion in the &lt;fen&gt;Experiencer&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="KmG" cDate="05/30/2008 05:14:51 PDT Fri" abbrev="Tim" name="Time" ID="12687">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; when the &lt;fen&gt;Experiencer&lt;/fen&gt; has an emotion as caused by the &lt;fen&gt;Stimulus&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1712">Emotions</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872667053" POS="V" cBy="automatic" cDate="09/23/2020 14:51:07 UTC Wed" lemmaID="355" lu_type="singleton" name="verbluffen.v" status="Created" FN_EN_LU_ID="787" Method="Iteration-1" RBN_LU_ID="r_v-8805" RBN_matching_relation="near_equivalence">
+    <definition>versteld doen staan</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="verbluffen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872670236" POS="V" cBy="manual" cDate="09/23/2020 14:51:10 UTC Wed" lemmaID="356" lu_type="singleton" name="fascineren.v" status="Created" FN_EN_LU_ID="792" Method="Iteration-1" RBN_LU_ID="r_v-2704" RBN_matching_relation="equivalence">
+    <definition>de aandacht van de genoemde helemaal in beslag nemen, hem of haar helemaal in de ban doen raken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="fascineren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872673349" POS="V" cBy="automatic" cDate="09/23/2020 14:51:13 UTC Wed" lemmaID="357" lu_type="singleton" name="bekoren.v" status="Created" FN_EN_LU_ID="792" Method="Iteration-1" RBN_LU_ID="r_v-1233" RBN_matching_relation="near_equivalence">
+    <definition>aantrekkelijk  zijn voor iemand en hem of haar in zijn ban brengen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="bekoren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872676625" POS="V" cBy="automatic" cDate="09/23/2020 14:51:16 UTC Wed" lemmaID="358" lu_type="singleton" name="boeien.v" status="Created" FN_EN_LU_ID="792" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1787" RBN_matching_relation="near_equivalence">
+    <definition>iemand in beslag nemen, zijn of haar aandacht vasthouden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="boeien" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872679784" POS="V" cBy="automatic" cDate="09/23/2020 14:51:19 UTC Wed" lemmaID="359" lu_type="singleton" name="biologeren.v" status="Created" FN_EN_LU_ID="792" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1719" RBN_matching_relation="near_equivalence">
+    <definition>zoveel invloed op iemand hebben, dat hij of zij geen eigen wil meer heeft</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="biologeren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872683080" POS="V" cBy="automatic" cDate="09/23/2020 14:51:23 UTC Wed" lemmaID="360" lu_type="singleton" name="pakken.v" status="Created" FN_EN_LU_ID="792" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6162" RBN_matching_relation="near_equivalence">
+    <definition>boeien</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="pakken" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872686211" POS="V" cBy="automatic" cDate="09/23/2020 14:51:26 UTC Wed" lemmaID="361" lu_type="singleton" name="intrigeren.v" status="Created" FN_EN_LU_ID="792" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-3638" RBN_matching_relation="near_equivalence">
+    <definition>je nieuwsgierigheid prikkelen, je zin geven om het verder te onderzoeken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="intrigeren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872689418" POS="V" cBy="manual" cDate="09/23/2020 14:51:29 UTC Wed" lemmaID="362" lu_type="singleton" name="ontmoedigen.v" status="Created" FN_EN_LU_ID="801" Method="Iteration-2_WN" RBN_LU_ID="r_v-5311" RBN_matching_relation="equivalence">
+    <definition>de genoemde de moed ontnemen, hem of haar moedeloos maken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="ontmoedigen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872692849" POS="V" cBy="automatic" cDate="09/23/2020 14:51:32 UTC Wed" lemmaID="363" lu_type="singleton" name="deprimeren.v" status="Created" FN_EN_LU_ID="806" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2188" RBN_matching_relation="near_equivalence">
+    <definition>droevig en neerslachtig maken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="deprimeren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872695871" POS="V" cBy="manual" cDate="09/23/2020 14:51:35 UTC Wed" lemmaID="364" lu_type="singleton" name="verootmoedigen.v" status="Created" FN_EN_LU_ID="824" Method="Iteration-1" RBN_LU_ID="r_v-9189" RBN_matching_relation="near_equivalence">
+    <definition>ootmoedig worden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="verootmoedigen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872698964" POS="V" cBy="automatic" cDate="09/23/2020 14:51:38 UTC Wed" lemmaID="365" lu_type="singleton" name="stimuleren.v" status="Created" FN_EN_LU_ID="4295" Method="Iteration-1" RBN_LU_ID="r_v-7528" RBN_matching_relation="near_equivalence">
+    <definition>de werkzaamheid van iets of iemand bevorderen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="stimuleren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872702047" POS="V" cBy="automatic" cDate="09/23/2020 14:51:42 UTC Wed" lemmaID="366" lu_type="phrasal" name="afschrikken.v" status="Created" FN_EN_LU_ID="4296" Method="Iteration-1" RBN_LU_ID="r_v-720" RBN_matching_relation="near_equivalence">
+    <definition>tegenhouden door bang te maken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme breakBefore="false" headword="false" name="af" order="1"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="schrikken" order="2"/>
+  </lexUnit>
+</frame>

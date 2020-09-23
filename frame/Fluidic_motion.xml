@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="06/05/2002 03:59:06 PDT Wed" name="Fluidic_motion" ID="345" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;In this frame a &lt;fen&gt;Fluid&lt;/fen&gt; moves from a &lt;fen&gt;Source&lt;/fen&gt; to a &lt;fen&gt;Goal&lt;/fen&gt; along a &lt;fen&gt;Path&lt;/fen&gt; or within an &lt;fen&gt;Area&lt;/fen&gt;.  &lt;ex&gt; &lt;fex name="Fluid"&gt;The blood&lt;/fex&gt; &lt;t&gt;spurted&lt;/t&gt; &lt;fex name="Source"&gt;from the wound&lt;/fex&gt;. &lt;/ex&gt;&lt;ex&gt;&lt;fex name="Fluid"&gt;The water&lt;/fex&gt; &lt;t&gt;gushed&lt;/t&gt; &lt;fex name="Goal"&gt;into the house&lt;/fex&gt; . &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="06/05/2002 04:00:38 PDT Wed" abbrev="Area" name="Area" ID="2975">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Area&lt;/fen&gt; is the setting in which the &lt;fen&gt;Fluid&lt;/fen&gt;'s movement takes place on an unspecified &lt;fen&gt;Path&lt;/fen&gt;.
+&lt;ex&gt;The Thames River &lt;t&gt;flows&lt;/t&gt; &lt;fex name="Area"&gt;throughout England&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="06/05/2002 04:00:38 PDT Wed" abbrev="Dist" name="Distance" ID="2977">
+    <definition>&lt;def-root&gt;This FE describes the phsyical extent of the motion of the &lt;fen&gt;Fluid&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Peripheral" cBy="ACW" cDate="06/05/2002 04:00:38 PDT Wed" abbrev="Dur" name="Duration" ID="2978">
+    <definition>&lt;def-root&gt;The amount of time for which the &lt;fen&gt;Fluid&lt;/fen&gt; moves.&lt;/def-root&gt;</definition>
+    <semType name="Duration" ID="142"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="06/05/2002 04:00:38 PDT Wed" abbrev="Goal" name="Goal" ID="2979">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Goal&lt;/fen&gt; is the location the &lt;fen&gt;Fluid&lt;/fen&gt; ends up.&lt;/def-root&gt;</definition>
+    <semType name="Goal" ID="153"/>
+    <excludesFE name="Area" ID="2975"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="06/05/2002 04:00:38 PDT Wed" abbrev="Path" name="Path" ID="2980">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Path&lt;/fen&gt; is the trajectory along which the &lt;fen&gt;Fluid&lt;/fen&gt; moves.&lt;/def-root&gt;</definition>
+    <excludesFE name="Area" ID="2975"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="06/05/2002 04:00:38 PDT Wed" abbrev="Src" name="Source" ID="2981">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Source&lt;/fen&gt; is the location the &lt;fen&gt;Fluid&lt;/fen&gt; occupies initially.&lt;/def-root&gt;</definition>
+    <semType name="Source" ID="151"/>
+    <excludesFE name="Area" ID="2975"/>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="06/05/2002 04:00:38 PDT Wed" abbrev="Spd" name="Speed" ID="2982">
+    <definition>&lt;def-root&gt;This is the rate at which the &lt;fen&gt;Fluid&lt;/fen&gt; flows.&lt;/def-root&gt;</definition>
+    <semType name="Speed" ID="234"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="06/05/2002 04:00:38 PDT Wed" abbrev="Fluid" name="Fluid" ID="2983">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Fluid&lt;/fen&gt; is the entity that changes location and moves in a fluidic way.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="000000" coreType="Peripheral" cBy="ACW" cDate="06/05/2002 04:00:38 PDT Wed" abbrev="Time" name="Time" ID="2984">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; when the &lt;fen&gt;Fluid&lt;/fen&gt; flows.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="06/06/2002 03:21:49 PDT Thu" abbrev="confg" name="Configuration" ID="2988">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Configuration&lt;/fen&gt; encodes information about the amount, arrangement, and unitization of the flow. &lt;ex&gt;&lt;fex name="Fluid"&gt;The water&lt;/fex&gt; &lt;t&gt;cascaded&lt;/t&gt; &lt;fex name="Configuration"&gt;in torrents&lt;/fex&gt;&lt;/ex&gt; .
+&lt;ex&gt;&lt;fex name="Fluid"&gt;The water&lt;/fex&gt; &lt;t&gt;cascades&lt;/t&gt; &lt;fex name="Configuration"&gt;in large volumes&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="06/18/2002 12:13:28 PDT Tue" abbrev="Manr" name="Manner" ID="3093">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Manner&lt;/fen&gt; in which the &lt;fen&gt;Fluid&lt;/fen&gt; flows.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="06/18/2002 05:26:48 PDT Tue" abbrev="Exp" name="Explanation" ID="3110">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Explanation&lt;/fen&gt; is the reason for the fluidic motion.
+&lt;ex&gt;It &lt;t&gt;flowed&lt;/t&gt; &lt;fex name="Explanation"&gt;from the sheer weight of water above it&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="06/18/2002 05:48:23 PDT Tue" abbrev="Depict" name="Depictive" ID="3111">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Depictive&lt;/fen&gt; phrase describing the &lt;fen&gt;Fluid&lt;/fen&gt; throughout the action.
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="EEE8AA" fgColor="0000FF" coreType="Extra-Thematic" cBy="ACW" cDate="07/01/2002 10:49:12 PDT Mon" abbrev="Result" name="Result" ID="3301">
+    <definition>&lt;def-root&gt;This FE identifies the result of the &lt;fen&gt;Fluid&lt;/fen&gt; moving.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="07/25/2003 01:42:08 PDT Fri" abbrev="" name="Place" ID="4842">
+    <definition>&lt;def-root&gt;The Place describes the location of the motion which has a specified Source, Path or Goal.
+&lt;ex&gt;&lt;fex name="Place"&gt;At Oregon Caves&lt;/fex&gt;, a stream &lt;t&gt;runs&lt;/t&gt; through the dining room.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Source" ID="2981"/>
+    <memberFE name="Path" ID="2980"/>
+    <memberFE name="Goal" ID="2979"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="7">Motion</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="272">Breathing</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872802160" POS="V" cBy="automatic" cDate="09/23/2020 14:53:22 UTC Wed" lemmaID="398" lu_type="singleton" name="druppelen.v" status="Created" FN_EN_LU_ID="6018" Method="Iteration-1" RBN_LU_ID="r_v-2574" RBN_matching_relation="near_equivalence">
+    <definition>in druppels (laten) vallen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="druppelen" order="1"/>
+  </lexUnit>
+</frame>

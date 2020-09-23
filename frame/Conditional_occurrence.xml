@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="02/20/2015 11:58:26 PST Fri" name="Conditional_occurrence" ID="2903" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Consequence&lt;/fen&gt; is presented as occurring if the &lt;fen&gt;Profiled_possibility&lt;/fen&gt; occurs.  See Conditional_scenario for further information.  
+
+&lt;ex&gt;&lt;t&gt;If&lt;/t&gt; &lt;fex name="Profiled_possibility"&gt;you take too long&lt;/fex&gt; , &lt;fex name="Consequence"&gt;the train will leave without you&lt;/fex&gt; .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="02/20/2015 11:58:26 PST Fri" abbrev="" name="Profiled_possibility" ID="16290">
+    <definition>&lt;def-root&gt;The situation presented explicitly as a possibility, contrasting with the implicit Negated_possibility.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="02/20/2015 11:58:27 PST Fri" abbrev="" name="Consequence" ID="16292">
+    <definition>&lt;def-root&gt;The situation that follows from the &lt;fen&gt;Profiled_possibility&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="HPh" cDate="08/04/2015 02:40:00 PDT Tue" abbrev="" name="Pragmatic_marker" ID="16569">
+    <definition>&lt;def-root&gt;Pragmatically emphasizes a speaker's assumption of the truth of the &lt;fen&gt;Profiled_possibility&lt;/fen&gt; for the conversation's duration. This FE does not occur for all LUs in the frame, and is closed-class, limited to the word 'always'. &lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on">
+    <relatedFrame ID="2902">Conditional_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

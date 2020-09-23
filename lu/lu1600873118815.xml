@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="A" name="zonnig.a" ID="1600873118815" frame="Level_of_light" frameID="2712" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" lu_type="singleton" FN_EN_LU_ID="16981" Method="Iteration-1" RBN_LU_ID="r_a-16440" RBN_matching_relation="equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Deg" name="Degree"/>
+      <FE fgColor="000000" bgColor="FFD700" type="Extra-Thematic" abbrev="" name="Descriptor"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Loc" name="Location"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Source" name="Source"/>
+    </frame>
+  </header>
+  <definition>met veel zon</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="zonnig" order="1"/>
+</lexUnit>

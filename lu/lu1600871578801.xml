@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="A" name="verschuldigd.a" ID="1600871578801" frame="Being_obligated" frameID="392" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" lu_type="singleton" FN_EN_LU_ID="18521" Method="Iteration-1" RBN_LU_ID="r_a-16013" RBN_matching_relation="equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Extra-Thematic" abbrev="con" name="Condition"/>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Con" name="Consequence"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Duty" name="Duty"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Extra-Thematic" abbrev="" name="Frequency"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Peripheral" abbrev="pla" name="Place"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Resp" name="Responsible_party"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="tim" name="Time"/>
+    </frame>
+  </header>
+  <definition>wat men schuldig is</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="verschuldigd" order="1"/>
+</lexUnit>

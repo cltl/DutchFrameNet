@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="08/09/2001 08:59:42 PDT Thu" name="Locale_by_use" ID="196" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;Geography as defined by its use. 
+
+&lt;ex&gt;You must land in the next &lt;t&gt;&lt;fex name="Locale"&gt;airfield&lt;/fex&gt;&lt;/t&gt;, as this one is currently having difficulties.&lt;/ex&gt;
+&lt;ex&gt;The new &lt;fex name="Use"&gt;sports&lt;/fex&gt; &lt;fex name="Locale"&gt;&lt;t&gt;complex&lt;/t&gt;&lt;/fex&gt; was the tallest building on campus, oddly enough.&lt;/ex&gt;
+&lt;ex&gt;&lt;t&gt;&lt;fex name="Locale"&gt;Cities&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Container_possessor"&gt;of the Northeast&lt;/fex&gt; tend to be dingier.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/10/2001 05:02:08 PDT Fri" abbrev="Cnst" name="Constituent_parts" ID="1585">
+    <definition>&lt;def-root&gt;FN: Salient parts that make up a Locale.  
+&lt;ex&gt;This is the oldest &lt;fex name="Cnst"&gt;apartment&lt;/fex&gt; &lt;t&gt;complex&lt;/t&gt; in Florida.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/10/2001 05:02:08 PDT Fri" abbrev="ContP" name="Container_possessor" ID="1586">
+    <definition>&lt;def-root&gt;The location that the Locale is a part of.
+&lt;ex&gt;John spent several years wandering the &lt;t&gt;villages&lt;/t&gt; &lt;fex name="ContP"&gt;of Romania&lt;/fex&gt;&lt;/ex&gt;.
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/10/2001 05:02:08 PDT Fri" abbrev="FormC" name="Formational_cause" ID="1587">
+    <definition>&lt;def-root&gt;Indicates the action (or causer) which brings the features of the Locale about.
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="08/10/2001 05:02:08 PDT Fri" abbrev="Lcl" name="Locale" ID="1588">
+    <definition>&lt;def-root&gt;A stable bounded area.  It is typically the designation of the nouns of Locale-derived frames.
+
+&lt;ex&gt;There used to be a carnival every summer in that &lt;fex name="Lcl"&gt;&lt;t&gt;city&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Location" ID="54"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/13/2001 11:31:17 PDT Mon" abbrev="Name" name="Name" ID="1598">
+    <definition>&lt;def-root&gt;ULTIMATELY TO BE REPLACED BY MULTIWORD TARGETS (in almost all cases).  This FE is used for the Names of Locales.
+&lt;ex&gt;The &lt;t&gt;city&lt;/t&gt; &lt;fex name="Name"&gt;of Paris&lt;/fex&gt;&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/13/2001 12:03:58 PDT Mon" abbrev="RelLoc" name="Relative_location" ID="1603">
+    <definition>&lt;def-root&gt;A place that a Locale is located with respect to.
+&lt;ex&gt; The corn &lt;t&gt;field&lt;/t&gt; &lt;fex name="RelLoc"&gt;across from the highway&lt;/fex&gt; has been there for many years.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core-Unexpressed" cBy="JKR" cDate="06/30/2004 12:03:00 PDT Wed" abbrev="use" name="Use" ID="6697">
+    <definition>&lt;def-root&gt;The activity that is carried out in the &lt;fen&gt;Locale&lt;/fen&gt;.
+
+&lt;ex&gt;The Campus &lt;fex name="Use"&gt;Microscopy and Imaging&lt;/fex&gt; &lt;t&gt;Facility&lt;/t&gt; (CMIF) serves a wide range of faculty staff and students of The Ohio State University .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="09/28/2004 11:56:34 PDT Tue" abbrev="des" name="Descriptor" ID="7150">
+    <definition>&lt;def-root&gt;Any feature or characteristic of the &lt;fen&gt;Locale&lt;/fen&gt; not covered by more specific FEs.
+
+&lt;ex&gt;We made our way to a &lt;fex name="des"&gt;quiet&lt;/fex&gt; &lt;t&gt;farm&lt;/t&gt; on the outskirts of Surrey, hoping to be isolated from the goings-on in London.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="02/23/2007 10:10:17 PST Fri" abbrev="" name="Circumstances" ID="11084">
+    <definition>&lt;def-root&gt;Circumstances describe the state of the world (at a particular time and place) which is specifically independent &lt;fen&gt;Locale&lt;/fen&gt; itself and any of its participants.&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="192">Locale</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="387">Prison</relatedFrame>
+    <relatedFrame ID="203">Roadways</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="173">Buildings</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600873131403" POS="N" cBy="automatic" cDate="09/23/2020 14:58:51 UTC Wed" lemmaID="501" lu_type="singleton" name="hoeve.n" status="Created" FN_EN_LU_ID="3707" Method="Iteration-1" RBN_LU_ID="r_n-16927" RBN_matching_relation="near_equivalence">
+    <definition>met stallen waar een boer woont</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="hoeve" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873134594" POS="N" cBy="automatic" cDate="09/23/2020 14:58:54 UTC Wed" lemmaID="502" lu_type="singleton" name="boerderij.n" status="Created" FN_EN_LU_ID="3707" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-7840" RBN_matching_relation="near_equivalence">
+    <definition>met bijbehorend land</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="boerderij" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873137881" POS="N" cBy="automatic" cDate="09/23/2020 14:58:57 UTC Wed" lemmaID="503" lu_type="singleton" name="hofstede.n" status="Created" FN_EN_LU_ID="3707" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-16942" RBN_matching_relation="near_equivalence">
+    <definition>met stallen waar een boer woont</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="hofstede" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873141098" POS="N" cBy="automatic" cDate="09/23/2020 14:59:01 UTC Wed" lemmaID="504" lu_type="singleton" name="fabriek.n" status="Created" FN_EN_LU_ID="12510" Method="Iteration-1" RBN_LU_ID="r_n-12920" RBN_matching_relation="near_equivalence">
+    <definition>om op uitgebreide schaal producten uit grondstoffen te winnen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="fabriek" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873144197" POS="N" cBy="automatic" cDate="09/23/2020 14:59:04 UTC Wed" lemmaID="505" lu_type="singleton" name="restaurant.n" status="Created" FN_EN_LU_ID="13795" Method="Iteration-1" RBN_LU_ID="r_n-31468" RBN_matching_relation="near_equivalence">
+    <definition>waar men tegen betaling kan eten</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="restaurant" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873147346" POS="N" cBy="automatic" cDate="09/23/2020 14:59:07 UTC Wed" lemmaID="506" lu_type="singleton" name="museum.n" status="Created" FN_EN_LU_ID="13802" Method="Iteration-1" RBN_LU_ID="r_n-24412" RBN_matching_relation="near_equivalence">
+    <definition>waar bijzondere dingen, vooral kunstvoorwerpen, tentoongesteld en bewaard worden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="museum" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873150463" POS="N" cBy="manual" cDate="09/23/2020 14:59:10 UTC Wed" lemmaID="507" lu_type="singleton" name="ranch.n" status="Created" FN_EN_LU_ID="14491" Method="Iteration-1" RBN_LU_ID="r_n-30466" RBN_matching_relation="equivalence">
+    <definition>of hoeve in Amerika, waar meestal aan paarden- of veeteelt gedaan wordt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="ranch" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873153618" POS="N" cBy="automatic" cDate="09/23/2020 14:59:13 UTC Wed" lemmaID="508" lu_type="singleton" name="city.n" status="Created" FN_EN_LU_ID="14661" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-9420" RBN_matching_relation="near_equivalence">
+    <definition>van een grote stad</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="city" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873156709" POS="N" cBy="automatic" cDate="09/23/2020 14:59:16 UTC Wed" lemmaID="509" lu_type="singleton" name="centrum.n" status="Created" FN_EN_LU_ID="14661" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-9241" RBN_matching_relation="near_equivalence">
+    <definition>van een stad of dorp</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="centrum" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873159798" POS="N" cBy="automatic" cDate="09/23/2020 14:59:19 UTC Wed" lemmaID="510" lu_type="singleton" name="campus.n" status="Created" FN_EN_LU_ID="15242" Method="Iteration-1" RBN_LU_ID="r_n-9012" RBN_matching_relation="near_equivalence">
+    <definition>waarop een universiteit gehuisvest is, eventueel met de gebouwen, sportvelden etc.</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="campus" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873163095" POS="N" cBy="automatic" cDate="09/23/2020 14:59:23 UTC Wed" lemmaID="511" lu_type="singleton" name="zoo.n" status="Created" FN_EN_LU_ID="15250" Method="Iteration-1" RBN_LU_ID="r_n-44354" RBN_matching_relation="near_equivalence">
+    <definition>waarin een verzameling (vreemde) dieren wordt onderhouden, zoölogische tuin</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="zoo" order="1"/>
+  </lexUnit>
+</frame>

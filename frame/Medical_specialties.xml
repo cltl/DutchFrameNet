@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MRLP" cDate="12/17/2001 06:10:12 PST Mon" name="Medical_specialties" ID="256" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame includes words that name medical specialties and is closely related to the Medical_professionals frame.  The FE &lt;fen&gt;Type&lt;/fen&gt; characterizing a sub-are in a &lt;fen&gt;Specialty&lt;/fen&gt; may also be expressed.
+&lt;ex&gt;Ralph &lt;gov&gt;practices&lt;/gov&gt; &lt;x&gt;&lt;fex name="Type"&gt;paediatric&lt;/fex&gt; &lt;fex name="Spec"&gt;&lt;t&gt;oncology&lt;/t&gt;&lt;/fex&gt;&lt;/x&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MRLP" cDate="08/26/2002 05:53:16 PDT Mon" abbrev="Spec" name="Specialty" ID="3618">
+    <definition>&lt;def-root&gt;This FE identifies the medical &lt;fen&gt;Specialty&lt;/fen&gt; that someone practices.
+
+&lt;ex&gt;Ralph &lt;gov&gt;practices&lt;/gov&gt; &lt;x&gt;&lt;t&gt;paediatric&lt;/t&gt; &lt;fex name="Spec"&gt;&lt;t&gt;oncology&lt;/t&gt;&lt;/fex&gt;&lt;/x&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="MRLP" cDate="08/26/2002 05:53:35 PDT Mon" abbrev="Type" name="Type" ID="3619">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Type&lt;/fen&gt; of medical &lt;fen&gt;Specialty&lt;/fen&gt; . &lt;ex&gt;Ralph &lt;gov&gt;practices&lt;/gov&gt; &lt;x&gt;&lt;fex name="Type"&gt;paediatric&lt;/fex&gt; &lt;t&gt;oncology&lt;/t&gt;&lt;/x&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="01/23/2006 10:49:22 PST Mon" abbrev="bod" name="Body_system" ID="9872">
+    <definition>&lt;def-root&gt;The sub-part or sub-system of the body which is studied.  This is normally incorporated in the LUs of the frame.
+
+&lt;ex&gt;Dr. Steppenhame was a specialist in &lt;fex name="bod"&gt;intestinal&lt;/fex&gt; &lt;t&gt;epidemiology&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="01/23/2006 10:55:26 PST Mon" abbrev="aff" name="Affliction" ID="9873">
+    <definition>&lt;def-root&gt;The disease or disorder that a specialist attempts to treat.  This concept is normally incorporated in the name of the &lt;fen&gt;Specialty&lt;/fen&gt;.
+
+&lt;ex&gt;She briefly worked as &lt;fex name="aff"&gt;diabetic&lt;/fex&gt; &lt;t&gt;endocrinology&lt;/t&gt; intern.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="2708">Medical_interaction_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600873333605" POS="N" cBy="manual" cDate="09/23/2020 15:02:13 UTC Wed" lemmaID="564" lu_type="singleton" name="cardiologie.n" status="Created" FN_EN_LU_ID="4590" Method="Iteration-1" RBN_LU_ID="r_n-9080" RBN_matching_relation="equivalence">
+    <definition>dat zich bezighoudt met hart en bloedvaten</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="cardiologie" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873336703" POS="N" cBy="automatic" cDate="09/23/2020 15:02:16 UTC Wed" lemmaID="565" lu_type="singleton" name="homeopathie.n" status="Created" FN_EN_LU_ID="4600" Method="Iteration-1" RBN_LU_ID="r_n-16988" RBN_matching_relation="near_equivalence">
+    <definition>waarbij je als geneesmiddel juist die stof gebruikt die de ziekte veroorzaakt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="homeopathie" order="1"/>
+  </lexUnit>
+</frame>

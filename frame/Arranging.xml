@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="12/01/2003 10:22:19 PST Mon" name="Arranging" ID="921" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; puts a complex &lt;fen&gt;Theme&lt;/fen&gt; into a particular &lt;fen&gt;Configuration&lt;/fen&gt;, which can be a proper order, a correct or suitable sequence, or a spatial position.
+
+&lt;ex&gt;&lt;fex name="Agent"&gt;He&lt;/fex&gt; &lt;t&gt;arranged&lt;/t&gt; &lt;fex name="Theme"&gt;the elements&lt;/fex&gt; &lt;fex name="Configuration"&gt;in the pattern that we now call the periodic table&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;Try to &lt;t&gt;order&lt;/t&gt; &lt;fex name="Theme"&gt;them&lt;/fex&gt; &lt;fex name="Configuration"&gt;by importance&lt;/fex&gt;. &lt;fex name="Agent"&gt;CNI&lt;/fex&gt; &lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="12/01/2003 10:25:42 PST Mon" abbrev="Age" name="Agent" ID="5819">
+    <definition>&lt;def-root&gt;The person who causes the &lt;fen&gt;Theme&lt;/fen&gt; to be in a particular &lt;fen&gt;Configuration&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="12/01/2003 10:26:44 PST Mon" abbrev="The" name="Theme" ID="5820">
+    <definition>&lt;def-root&gt;An entity that consists of  parts which can be put into a configuration relative to each other and/or relative to their environment.&lt;/def-root&gt;</definition>
+    <semType name="Physical_object" ID="68"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="12/01/2003 10:28:39 PST Mon" abbrev="Tim" name="Time" ID="5821">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; when the arranging takes place.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="12/01/2003 10:29:15 PST Mon" abbrev="Con" name="Configuration" ID="5822">
+    <definition>&lt;def-root&gt;A state that holds of the &lt;fen&gt;Theme&lt;/fen&gt; or a relation that holds among the constituent parts of the &lt;fen&gt;Theme&lt;/fen&gt; as a result of the arranging action.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="12/01/2003 10:31:44 PST Mon" abbrev="Man" name="Manner" ID="5823">
+    <definition>&lt;def-root&gt;Any description of the arranging action which is not covered by more specific FEs, including epistemic modification (probably, presumably, mysteriously), force (hard, softly), secondary effects (quietly, loudly), and general descriptions comparing events (the same way). With agentive use, it may indicate salient characteristics of an &lt;fen&gt;Agent&lt;/fen&gt;  that also affect the action ( eagerly, carefully). &lt;/def-root &gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="12/01/2003 10:32:55 PST Mon" abbrev="Loc" name="Location" ID="5824">
+    <definition>&lt;def-root&gt;The place in which the &lt;fen&gt;Theme&lt;/fen&gt; is put into a &lt;fen&gt;Configuration&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Location" ID="54"/>
+    <semType name="Goal" ID="153"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MiL" cDate="07/14/2004 05:25:54 PDT Wed" abbrev="Cir" name="Circumstances" ID="6847">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Circumstances&lt;/fen&gt; identifies the situation in which an &lt;fen&gt;Agent&lt;/fen&gt; arranges a &lt;fen&gt;Theme&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="11/30/2004 06:11:53 PST Tue" abbrev="Pur" name="Purpose" ID="7341">
+    <definition>&lt;def-root&gt;An action that the &lt;fen&gt;Agent&lt;/fen&gt; is trying to bring about by changing the &lt;fen&gt;Configuration&lt;/fen&gt; of the &lt;fen&gt;Theme&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;t&gt;Arrange&lt;/t&gt; the stones in a circle &lt;fex name="pur"&gt;to acheive maximal effect&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="11/30/2004 06:16:37 PST Tue" abbrev="Ins" name="Instrument" ID="7342">
+    <definition>&lt;def-root&gt;An entity used by the &lt;fen&gt;Agent&lt;/fen&gt; to change the &lt;fen&gt;Theme&lt;/fen&gt;'s &lt;fen&gt;Configuration&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;t&gt;Arrange&lt;/t&gt; the floats into a line &lt;fex name="ins"&gt;with your oar&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="11/30/2004 06:20:35 PST Tue" abbrev="Mea" name="Means" ID="7343">
+    <definition>&lt;def-root&gt;An action performed by the &lt;fen&gt;Agent&lt;/fen&gt; in order to arrange the &lt;fen&gt;Theme&lt;/fen&gt;.
+
+&lt;ex&gt;You must &lt;t&gt;array&lt;/t&gt; them in a circle &lt;fex name="mea"&gt;by concentration alone&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="01/05/2007 03:30:10 PST Fri" abbrev="Deg" name="Degree" ID="10960">
+    <definition>&lt;def-root&gt;The extent to which the Arranging act has occured. &lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="230">Intentionally_affect</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="62">Placing</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

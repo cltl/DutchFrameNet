@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="02/27/2004 07:03:39 PST Fri" name="Idiosyncrasy" ID="982" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A certain &lt;fen&gt;Idiosyncrasy&lt;/fen&gt; belongs to an &lt;fen&gt;Entity&lt;/fen&gt; distinguishing it from other entities.
+
+
+&lt;ex&gt;If you have 32 &lt;fex name="Deg"&gt;totally&lt;/fex&gt; &lt;t&gt;idiosyncratic&lt;/t&gt; &lt;fex name="Id"&gt;meanings for a term&lt;/fex&gt; in a class, everyone will be very confused when they talk! &lt;fex name="Entity"&gt;DNI&lt;/fex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Idiosyncrasy"&gt;The art of change-ringing&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;t&gt;peculiar&lt;/t&gt; &lt;fex name="Entity"&gt;to the English&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="02/27/2004 07:03:39 PST Fri" abbrev="Id" name="Idiosyncrasy" ID="5977">
+    <definition>&lt;def-root&gt;An entity or characteristic  belonging to the &lt;fen&gt;Entity&lt;/fen&gt;.
+
+&lt;ex&gt;Paul has an &lt;t&gt;idiosyncratic&lt;/t&gt; &lt;fex name="Id"&gt;tendency to go barefoot at all times&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="02/27/2004 07:03:39 PST Fri" abbrev="Ent2" name="Entity" ID="5978">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Entity&lt;/fen&gt; that has a certain distinguishing &lt;fen&gt;Idiosyncrasy&lt;/fen&gt;.
+
+&lt;ex&gt;This bird is &lt;t&gt;unique&lt;/t&gt; &lt;fex name="Entity"&gt;to England&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="02/27/2004 07:13:23 PST Fri" abbrev="Deg" name="Degree" ID="5979">
+    <definition>&lt;def-root&gt;The extent to which the &lt;fen&gt;Idiosyncrasy&lt;/fen&gt; differs from the norm.
+
+&lt;ex&gt;Was this behavior &lt;fex name="Degree"&gt;completely&lt;/fex&gt; &lt;t&gt;idiosyncratic&lt;/t&gt;?&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="248">Relation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="1134">Typicality</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="1600872896630" POS="N" cBy="automatic" cDate="09/23/2020 14:54:56 UTC Wed" lemmaID="428" lu_type="singleton" name="overgevoeligheid.n" status="Created" FN_EN_LU_ID="10134" Method="Iteration-1" RBN_LU_ID="r_n-27091" RBN_matching_relation="near_equivalence">
+    <definition>van het erg gevoelig zijn voor stoffen of emoties</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="overgevoeligheid" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872899775" POS="N" cBy="automatic" cDate="09/23/2020 14:54:59 UTC Wed" lemmaID="429" lu_type="singleton" name="jargon.n" status="Created" FN_EN_LU_ID="10134" Method="Iteration-1" RBN_LU_ID="r_n-18443" RBN_matching_relation="near_equivalence">
+    <definition>binnen één vakgebied of groep</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="jargon" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872902969" POS="N" cBy="manual" cDate="09/23/2020 14:55:02 UTC Wed" lemmaID="430" lu_type="singleton" name="eigenaardigheid.n" status="Created" FN_EN_LU_ID="10134" Method="Iteration-1" RBN_LU_ID="r_n-12144" RBN_matching_relation="equivalence">
+    <definition>die opmerkelijk is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="eigenaardigheid" order="1"/>
+  </lexUnit>
+</frame>

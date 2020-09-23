@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="02/08/2002 12:04:07 PST Fri" name="Dispersal" ID="267" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; or a &lt;fen&gt;Cause&lt;/fen&gt; disperses or scatters &lt;fen&gt;Individuals&lt;/fen&gt; from the &lt;fen&gt;Source&lt;/fen&gt;,a relatively confined space, to a the &lt;fen&gt;Goal_area&lt;/fen&gt;, a broader space.
+
+&lt;ex&gt;&lt;fex name="Agent"&gt;She&lt;/fex&gt; &lt;t&gt;scattered&lt;/t&gt; &lt;fex name="Individuals"&gt;his ashes&lt;/fex&gt; &lt;fex name="Goal_area"&gt;in the bay&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MRLP" cDate="08/27/2002 12:17:48 PDT Tue" abbrev="Agent" name="Agent" ID="3625">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Agent&lt;/fen&gt; disperses or scatters the &lt;fen&gt;Individuals&lt;/fen&gt;.
+&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+    <excludesFE name="Cause" ID="5800"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MRLP" cDate="08/27/2002 12:20:11 PDT Tue" abbrev="Ind" name="Individuals" ID="3626">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Individuals&lt;/fen&gt; are scattered by the &lt;fen&gt;Agent&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MRLP" cDate="08/27/2002 12:21:58 PDT Tue" abbrev="Src" name="Source" ID="3627">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Source&lt;/fen&gt; is the relatively confined space from which an &lt;fen&gt;Agent&lt;/fen&gt; scatters the &lt;fen&gt;Individuals&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Source" ID="151"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="MRLP" cDate="08/27/2002 12:22:48 PDT Tue" abbrev="Goal_a" name="Goal_area" ID="3628">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Goal_area&lt;/fen&gt; identifies the broader space to which the &lt;fen&gt;Agent&lt;/fen&gt; scatters the &lt;fen&gt;Individuals&lt;/fen&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="12/01/2003 07:34:50 PST Mon" abbrev="" name="Cause" ID="5800">
+    <definition>&lt;def-root&gt;An event or force that causes that &lt;fen&gt;Individuals&lt;/fen&gt; to disperse.
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="12/01/2003 07:36:24 PST Mon" abbrev="" name="Manner" ID="5801">
+    <definition>&lt;def-root&gt; Any description of the dispersing event  which is not covered by more specific FEs, including epistemic modification (probably, presumably, mysteriously),  secondary effects (quietly, loudly), and general descriptions comparing events (the same way). With agentive uses, it may indicate salient characteristics of an &lt;fen&gt;Agent&lt;/fen&gt; that also affect the action (eagerly, carefully).
+
+&lt;ex&gt; He &lt;fex name="Manner"&gt;carefully&lt;/fex&gt; &lt;t&gt;scattered&lt;/t&gt; more mud around the rose bed&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="12/01/2003 09:08:36 PST Mon" abbrev="" name="Time" ID="5813">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; when the &lt;fen&gt;Individuals&lt;/fen&gt; are dispersed.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="12/01/2003 09:09:25 PST Mon" abbrev="" name="Means" ID="5814">
+    <definition>&lt;def-root&gt;An intentional action performed by the &lt;fen&gt;Agent&lt;/fen&gt; that accomplishes the dispersal.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="0000FF" coreType="Extra-Thematic" cBy="JKR" cDate="12/01/2003 09:10:18 PST Mon" abbrev="" name="Result" ID="5815">
+    <definition>&lt;def-root&gt;A state of the &lt;fen&gt;Individuals&lt;/fen&gt; that results from the dispersal.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="12/01/2003 09:11:07 PST Mon" abbrev="" name="Path" ID="5816">
+    <definition>&lt;def-root&gt;The trajectory along which the &lt;fen&gt;Individuals&lt;/fen&gt; move.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="12/01/2003 09:24:39 PST Mon" abbrev="" name="Place" ID="5817">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Place&lt;/fen&gt; where the dispersing event happens.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="12/01/2003 10:03:59 PST Mon" abbrev="Exp" name="Explanation" ID="5818">
+    <definition>&lt;def-root&gt; A state of affairs that the &lt;fen&gt;Agent&lt;/fen&gt; is responding to in dispersing the &lt;fen&gt;Individuals&lt;/fen&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="01/25/2006 04:11:36 PST Wed" abbrev="dis" name="Distance" ID="9885">
+    <definition>&lt;def-root&gt;The distance that the &lt;fen&gt;Individuals&lt;/fen&gt; move from their original location, the &lt;fen&gt;Source&lt;/fen&gt;.
+
+&lt;ex&gt;Firing four shots into the air &lt;t&gt;scattered&lt;/t&gt; them &lt;fex name="Distance"&gt;only a short distance&lt;/fex&gt;, but it was enough.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A9A9A9" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="01/25/2006 04:21:04 PST Wed" abbrev="spe" name="Speed" ID="9886">
+    <definition>&lt;def-root&gt;The rate of motion of the &lt;fen&gt;Individuals&lt;/fen&gt;, usually in terms of how long it takes for them to leave the &lt;fen&gt;Source&lt;/fen&gt; and end up in the &lt;fen&gt;Goal_area&lt;/fen&gt;.
+
+&lt;ex&gt;We &lt;t&gt;dispersed&lt;/t&gt; the smoke &lt;fex name="Speed"&gt;as rapidly as possible&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <semType name="Speed" ID="234"/>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="62">Placing</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872469200" POS="N" cBy="automatic" cDate="09/23/2020 14:47:49 UTC Wed" lemmaID="294" lu_type="singleton" name="spreiding.n" status="Created" FN_EN_LU_ID="4842" Method="Iteration-1" RBN_LU_ID="r_n-35246" RBN_matching_relation="near_equivalence">
+    <definition>van het spreiden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="spreiding" order="1"/>
+  </lexUnit>
+</frame>

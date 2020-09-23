@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="08/29/2001 05:18:08 PDT Wed" name="Judgment_communication" ID="219" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Communicator&lt;/fen&gt; communicates a judgment of an &lt;fen&gt;Evaluee&lt;/fen&gt; to an &lt;fen&gt;Addressee&lt;/fen&gt;.  The judgment may be positive (e.g. &lt;ment&gt;praise&lt;/ment&gt;) or negative (e.g. &lt;ment&gt;criticize&lt;/ment&gt;), and this is indicated by the semantic types Positive and Negative attached to the lexical units.  This frame does not contain words where &lt;fen&gt;Evaluee&lt;/fen&gt; and the &lt;fen&gt;Addressee&lt;/fen&gt; are necessarily the same . 
+&lt;ex&gt;&lt;fex name="Com"&gt;I&lt;/fex&gt; &lt;t&gt;commended&lt;/t&gt; &lt;fex name="Evaluee"&gt;his handling of the crisis&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Com"&gt;Gaston&lt;/fex&gt; &lt;t&gt;denounced&lt;/t&gt; &lt;fex name="Evaluee"&gt;him&lt;/fex&gt; &lt;fex name="Addressee"&gt;to the committee&lt;/fex&gt;.&lt;/ex&gt;
+This is distinct from the Judgment frame in that it involves the communication of an evaluation, rather than merely forming and holding a particular evaluation.&lt;/def-root&gt;</definition>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/29/2001 05:22:16 PDT Wed" abbrev="Add" name="Addressee" ID="1770">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Addressee&lt;/fen&gt; hears the judgement from the &lt;fen&gt;Communicator&lt;/fen&gt;. 
+
+&lt;ex&gt; Jon &lt;t&gt;belittled&lt;/t&gt; Madie &lt;fex name="Add"&gt;to her colleagues&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="08/29/2001 05:22:16 PDT Wed" abbrev="Com" name="Communicator" ID="1771">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Communicator&lt;/fen&gt; uses language in the written or spoken modality to convey his or her evaluation of the &lt;fen&gt;Evaluee&lt;/fen&gt; to another person.  &lt;ex&gt;&lt;fex name="Com"&gt;Jon&lt;/fex&gt; &lt;t&gt;belittled&lt;/t&gt; Madie to her colleagues.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Core" cBy="MJE" cDate="08/29/2001 05:22:16 PDT Wed" abbrev="Medium" name="Medium" ID="1772">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Medium&lt;/fen&gt; identifies the physical or abstract setting in which the evaluation is conveyed. 
+
+&lt;ex&gt;Jon &lt;t&gt;belittled&lt;/t&gt; Madie &lt;fex name="Medium"&gt;over the telephone&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Communicator"&gt;The party&lt;/fex&gt; &lt;t&gt;denounced&lt;/t&gt; &lt;fex name="Evaluee"&gt;the General&lt;/fex&gt; &lt;fex name="Medium"&gt;in vehement terms&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Communicator"&gt;Mayor Quimby&lt;/fex&gt; &lt;t&gt;criticized&lt;/t&gt; &lt;fex name="Evaluee"&gt;the townspeople&lt;/fex&gt; &lt;fex name="Medium"&gt;in his annual speech&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="08/29/2001 05:22:16 PDT Wed" abbrev="Top" name="Topic" ID="1774">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Topic&lt;/fen&gt; identifies the entity to which the proposition or propositions conveyed relate. 
+&lt;ex&gt;Jon &lt;t&gt;criticized&lt;/t&gt; Madie &lt;fex name="Topic"&gt;about her managerial style&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/29/2001 05:27:13 PDT Wed" abbrev="Degr" name="Degree" ID="1775">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Degree&lt;/fen&gt; to which the &lt;fen&gt;Communicator&lt;/fen&gt; judges the &lt;fen&gt;Evaluee&lt;/fen&gt; to be good or bad.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="08/29/2001 05:27:13 PDT Wed" abbrev="Eval" name="Evaluee" ID="1777">
+    <definition>&lt;def-root&gt;A judgment is made about the &lt;fen&gt;Evaluee&lt;/fen&gt;  With verbs this FE is typically expressed as Object: 
+&lt;ex&gt;Jon &lt;t&gt;belittled&lt;/t&gt; &lt;fex name="Eval"&gt;Madie&lt;/fex&gt; to her colleagues.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="08/29/2001 05:27:13 PDT Wed" abbrev="Exr" name="Expressor" ID="1778">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Expressor&lt;/fen&gt; is the body part or action by a body part that conveys the judgment made by the &lt;fen&gt;Communicator&lt;/fen&gt;. 
+&lt;ex&gt;She viewed him with a &lt;t&gt;critical&lt;/t&gt; &lt;fex name="Expressor"&gt;gaze&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Communicator" ID="1771"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/29/2001 05:27:13 PDT Wed" abbrev="Manr" name="Manner" ID="1779">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Manner&lt;/fen&gt; in which the judgmental communication occurs.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="08/29/2001 05:27:14 PDT Wed" abbrev="Mns" name="Means" ID="1780">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Means&lt;/fen&gt; by which a judgmental communication is accomplished.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="08/29/2001 05:27:14 PDT Wed" abbrev="Reas" name="Reason" ID="1781">
+    <definition>&lt;def-root&gt;Typically, there is a constituent expressing the &lt;t&gt;Reason&lt;/t&gt; for the &lt;fen&gt;Communicator&lt;/fen&gt;'s judgment. It is usually a &lt;ment&gt;for&lt;/ment&gt;-PP. 
+&lt;ex&gt;Jon &lt;t&gt;extolled&lt;/t&gt; Madie &lt;fex name="Reason"&gt;for her efforts&lt;/fex&gt;.&lt;/ex&gt;
+It can also sometimes be expressed as an &lt;ment&gt;as&lt;/ment&gt;-phrase, when that phrase picks out the reason for the praise or critique.
+&lt;ex&gt;&lt;fex name="Evaluee"&gt;The book&lt;/fex&gt; was &lt;t&gt;ridiculed&lt;/t&gt; &lt;fex name="Reason"&gt;as an example of all the worst of post-modernism&lt;/fex&gt;.&lt;/ex&gt;
+For some words, &lt;fen&gt;Reason&lt;/fen&gt; is an obligatory FE. In other words, the FE may be ommitted only when the &lt;fen&gt;Reason&lt;/fen&gt; for the judgment is understood from context, as when it is clear why an &lt;fen&gt;Evaluee&lt;/fen&gt; is being blamed.
+&lt;ex&gt;I &lt;t&gt;blame&lt;/t&gt; you.&lt;fex name="Reason"&gt;DNI&lt;/fex&gt; &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="08/29/2001 05:27:14 PDT Wed" abbrev="Role" name="Role" ID="1782">
+    <definition>&lt;def-root&gt; &lt;fen&gt;Role&lt;/fen&gt; is used for the capacity in which the &lt;fen&gt;Evaluee&lt;/fen&gt; is judged, and is expressed in &lt;ment&gt;as&lt;/ment&gt;-PPs. &lt;ex&gt; Jon &lt;t&gt;belittled&lt;/t&gt; Madie &lt;fex name="Role"&gt;as a nurse&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root &gt;</definition>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="09/04/2002 02:53:10 PDT Wed" abbrev="Result" name="Result" ID="3710">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Result&lt;/fen&gt; of an event.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MRLP" cDate="09/17/2002 05:25:32 PDT Tue" abbrev="Depictt" name="Depictive" ID="3719">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Depictive&lt;/fen&gt; identifies any expression describing the state of a participant in the event.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="06/05/2003 02:52:14 PDT Thu" abbrev="" name="Grounds" ID="4537">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Grounds&lt;/fen&gt; is the standard by which the &lt;fen&gt;Evaluee&lt;/fen&gt; is judged.
+&lt;ex&gt;&lt;fex name="Evaluee"&gt;The proposal&lt;/fex&gt; was &lt;t&gt;critiqued&lt;/t&gt; &lt;fex name="Grounds"&gt;on this basis&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="06/05/2003 03:02:05 PDT Thu" abbrev="" name="Extent_of_acclaim" ID="4538">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Extent_of_acclaim&lt;/fen&gt; provides a description of the number or whereabouts of the &lt;fen&gt;Communicator&lt;/fen&gt;.
+
+&lt;ex&gt;The movie met with &lt;fex name="Extent_of_acclaim"&gt;international&lt;/fex&gt; &lt;t&gt;acclaim&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="07/22/2003 04:40:11 PDT Tue" abbrev="Time" name="Time" ID="4816">
+    <definition>&lt;def-root&gt;When the communication of the judgment takes place.
+&lt;ex&gt;He received critical &lt;t&gt;acclaim&lt;/t&gt; &lt;fex name="Time"&gt;last week&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="07/22/2003 04:43:02 PDT Tue" abbrev="Place" name="Place" ID="4817">
+    <definition>&lt;def-root&gt;Where the communication of the judgment takes place.
+&lt;ex&gt;He was &lt;t&gt;belittled&lt;/t&gt; by his long-time friend &lt;fex name="Place"&gt;in front of his family&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="RLG" cDate="07/22/2003 04:46:31 PDT Tue" abbrev="IC" name="Internal_cause" ID="4818">
+    <definition>&lt;def-root&gt;The emotional or physical state of the &lt;fen&gt;Communicator&lt;/fen&gt; that leads to their communication of a judgment.
+&lt;ex&gt;He &lt;t&gt;criticized&lt;/t&gt; his compatriots &lt;fex name="IC"&gt;out of a deep hatred for all who are better than him&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="000000" coreType="Extra-Thematic" cBy="MiL" cDate="02/25/2005 03:52:35 PST Fri" abbrev="Fre" name="Frequency" ID="7521">
+    <definition>&lt;def-root&gt;This FE describes the frequency with which the specified communication occurs&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Expressor" ID="1778"/>
+    <memberFE name="Communicator" ID="1771"/>
+    <memberFE name="Medium" ID="1772"/>
+  </FEcoreSet>
+  <FEcoreSet>
+    <memberFE name="Reason" ID="1781"/>
+    <memberFE name="Topic" ID="1774"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="711">Judgment_direct_address</relatedFrame>
+    <relatedFrame ID="1624">Bragging</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="28">Judgment</relatedFrame>
+    <relatedFrame ID="43">Statement</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1250">Labeling</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="28">Judgment</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="1600872982786" POS="N" cBy="automatic" cDate="09/23/2020 14:56:22 UTC Wed" lemmaID="455" lu_type="singleton" name="preek.n" status="Created" FN_EN_LU_ID="6432" Method="Iteration-1" RBN_LU_ID="r_n-29490" RBN_matching_relation="near_equivalence">
+    <definition>met name in een kerk, bedoeld om je iets te leren over het geloof</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="preek" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872985967" POS="V" cBy="automatic" cDate="09/23/2020 14:56:25 UTC Wed" lemmaID="456" lu_type="singleton" name="eren.v" status="Created" FN_EN_LU_ID="7408" Method="Iteration-1" RBN_LU_ID="r_v-2649" RBN_matching_relation="near_equivalence">
+    <definition>eerbied of bewondering tonen voor</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="eren" order="1"/>
+  </lexUnit>
+</frame>

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="HCB" cDate="05/23/2001 03:26:58 PDT Wed" name="Cause_harm" ID="112" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;The words in this frame describe situations in which an &lt;fen&gt;Agent&lt;/fen&gt; or a &lt;fen&gt;Cause&lt;/fen&gt; injures a &lt;fen&gt;Victim&lt;/fen&gt;. The &lt;fen&gt;Body_part&lt;/fen&gt; of the &lt;fen&gt;Victim&lt;/fen&gt; which is most directly affected may also be mentioned in the place of the &lt;fen&gt;Victim&lt;/fen&gt;.  In such cases, the &lt;fen&gt;Victim&lt;/fen&gt; is often indicated as a genitive modifier of the &lt;fen&gt;Body_part&lt;/fen&gt;, in which case the &lt;fen&gt;Victim&lt;/fen&gt; FE is indicated on a second FE layer.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;Rod saw &lt;fex name="Agent"&gt;his father&lt;/fex&gt; &lt;t&gt;beating&lt;/t&gt; &lt;fex name="Victim"&gt;his mother&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;In the end Wormtongue is fed up with being beaten so &lt;fex name="Agent"&gt;he&lt;/fex&gt; &lt;t&gt;cuts&lt;/t&gt; &lt;fex name="Body_part"&gt;Saruman's throat&lt;/fex&gt; &lt;fex name="Purpose"&gt;to free himself&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Victim"&gt;A mother&lt;/fex&gt; &lt;t&gt;stabbed&lt;/t&gt; &lt;fex name="Result"&gt;to death&lt;/fex&gt; &lt;fex name="Agent"&gt;by her husband&lt;/fex&gt; made a secret will stating that he must never be allowed to care for their son.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <semType name="Event" ID="75"/>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="HCB" cDate="05/23/2001 03:41:05 PDT Wed" abbrev="Agt" name="Agent" ID="546">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Agent&lt;/fen&gt; is the person causing the &lt;fen&gt;Victim&lt;/fen&gt;'s injury.
+
+&lt;ex&gt;&lt;fex name="Agt"&gt;Jolosa, who&lt;/fex&gt; &lt;t&gt;broke&lt;/t&gt; a rival player 's jaw, was told to model his play on the England striker.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Agt"&gt;Someone&lt;/fex&gt; &lt;t&gt;bashed&lt;/t&gt; him on the back of the head with a heavy smooth object.&lt;/ex&gt;
+&lt;ex&gt;Claire McLaren, 16, was punched and &lt;t&gt;kicked&lt;/t&gt; senseless &lt;fex name="Agt"&gt;by a thug&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+    <excludesFE name="Cause" ID="3331"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="HCB" cDate="05/23/2001 03:42:51 PDT Wed" abbrev="Vic" name="Victim" ID="547">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Victim&lt;/fen&gt; is the being or entity that is injured.  If the &lt;fen&gt;Victim&lt;/fen&gt; is included in the phrase indicating &lt;fen&gt;Body_part&lt;/fen&gt;, the &lt;fen&gt;Victim&lt;/fen&gt; FE is tagged on a second FE layer (see 3rd example).
+
+&lt;ex&gt;Someone &lt;t&gt;bashed&lt;/t&gt; &lt;fex name="Vic"&gt;him&lt;/fex&gt; on the back of the head with a heavy smooth object.&lt;/ex&gt;
+&lt;ex&gt;The farmer tied him to the fence to stop him &lt;t&gt;butting&lt;/t&gt; &lt;fex name="Vic"&gt;the sheep&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Jolosa, who &lt;t&gt;broke&lt;/t&gt; &lt;fex name="Vic"&gt;a rival player 's&lt;/fex&gt; jaw, was told to model his play on the England striker.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="HCB" cDate="05/23/2001 03:43:54 PDT Wed" abbrev="Result" name="Result" ID="548">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Result&lt;/fen&gt; identifies the result of the &lt;fen&gt;Agent&lt;/fen&gt;'s action.
+
+&lt;ex&gt;Riot police in Nairobi &lt;t&gt;clubbed&lt;/t&gt; four women &lt;fex name="Result"&gt;unconscious&lt;/fex&gt; on March 3.&lt;/ex&gt;
+&lt;ex&gt;A battered wife who &lt;t&gt;burned&lt;/t&gt; her brutal husband &lt;fex name="Result"&gt;to death&lt;/fex&gt; was freed from jail yesterday.&lt;/ex&gt;
+&lt;ex&gt;Claire McLaren, 16, was punched and &lt;t&gt;kicked&lt;/t&gt; &lt;fex name="Result"&gt;senseless&lt;/fex&gt; by a thug.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="HCB" cDate="05/23/2001 03:47:20 PDT Wed" abbrev="Degr" name="Degree" ID="549">
+    <definition>&lt;def-root&gt; &lt;fen&gt;Degree&lt;/fen&gt; is the degree to which the &lt;fen&gt;Agent&lt;/fen&gt; causes harm to the &lt;fen&gt;Victim&lt;/fen&gt;.
+
+&lt;ex&gt;She wanted to &lt;t&gt;slap&lt;/t&gt; him &lt;fex name="Degr"&gt;hard&lt;/fex&gt; for his change of mood.&lt;/ex&gt;
+&lt;ex&gt;Fox spun around and &lt;t&gt;slapped&lt;/t&gt; him, &lt;fex name="Degr"&gt;harder than necessary&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="HCB" cDate="05/23/2001 03:47:20 PDT Wed" abbrev="Manr" name="Manner" ID="553">
+    <definition>&lt;def-root&gt;The Manner in which the &lt;fen&gt;Agent&lt;/fen&gt; acts upon the &lt;fen&gt;Victim&lt;/fen&gt;.
+
+&lt;ex&gt;He &lt;fex name="Manner"&gt;violently&lt;/fex&gt; &lt;t&gt;slapped&lt;/t&gt; his assailant.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="HCB" cDate="05/23/2001 03:47:20 PDT Wed" abbrev="Means" name="Means" ID="554">
+    <definition>&lt;def-root&gt;An intentional action performed by the &lt;fen&gt;Agent&lt;/fen&gt; that accomplishes the action indicated by the target. 
+
+&lt;ex&gt;Rachael &lt;t&gt;injured&lt;/t&gt; her friend &lt;fex name="Means"&gt;by closing the car door on his left hand&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="HCB" cDate="05/23/2001 03:52:19 PDT Wed" abbrev="" name="Place" ID="556">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Place&lt;/fen&gt; identifies the place where the harm causing event occurs.
+
+&lt;ex&gt;Boys  are &lt;t&gt;punched&lt;/t&gt; &lt;fex name="Place"&gt;at school&lt;/fex&gt; for payback &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="HCB" cDate="05/23/2001 03:52:19 PDT Wed" abbrev="Time" name="Time" ID="557">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Time&lt;/fen&gt; identifies the time when the harm-causing event occurs.
+
+&lt;ex&gt;Riot police in Nairobi &lt;t&gt;clubbed&lt;/t&gt; four women unconscious &lt;fex name="Time"&gt;on March 3&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="HCB" cDate="05/23/2001 03:54:27 PDT Wed" abbrev="BodP" name="Body_part" ID="558">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Body_part&lt;/fen&gt; identifies the location on the body where the bodily injury takes place.
+
+&lt;ex&gt;Someone &lt;t&gt;bashed&lt;/t&gt; him &lt;fex name="BodP"&gt;on the back of the head&lt;/fex&gt; with a heavy smooth object.&lt;/ex&gt;
+&lt;ex&gt;Jolosa, who &lt;t&gt;broke&lt;/t&gt; &lt;fex name="BodP"&gt;a rival player 's jaw&lt;/fex&gt; , was told to model his play on the England striker.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Body_part" ID="10"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Peripheral" cBy="HCB" cDate="05/24/2001 04:27:37 PDT Thu" abbrev="Ins" name="Instrument" ID="572">
+    <definition>&lt;def-root&gt;This FE is any object used to cause the injury.
+
+&lt;ex&gt;Someone &lt;t&gt;bashed&lt;/t&gt; him on the back of the head &lt;fex name="Ins"&gt;with a heavy smooth object&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;John &lt;t&gt;butted&lt;/t&gt; her in the chest &lt;fex name="Ins"&gt;with his head&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="Shw" cDate="05/29/2001 03:01:14 PDT Tue" abbrev="Purp" name="Purpose" ID="624">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Purpose&lt;/fen&gt; identifies the purpose for which a harm-causing action is carried out.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="06/04/2001 10:51:08 PDT Mon" abbrev="Depict" name="Depictive" ID="700">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Depictive&lt;/fen&gt; identifies any &lt;fen&gt;Depictive&lt;/fen&gt; phrase describing the actor of an action.
+
+&lt;ex&gt;Indeed, Henry V used to &lt;t&gt;burn&lt;/t&gt; them &lt;fex name="Depict"&gt;alive&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="06/04/2001 10:51:08 PDT Mon" abbrev="con" name="Containing_event" ID="702">
+    <definition>&lt;def-root&gt;This FE identifies the event in which the harm is caused.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="06/20/2002 02:43:43 PDT Thu" abbrev="Exp" name="Explanation" ID="3150">
+    <definition>&lt;def-root&gt;A fact or action somehow related to the &lt;fen&gt;Victim&lt;/fen&gt; that the &lt;fen&gt;Agent&lt;/fen&gt; responds to by causing harm to the &lt;fen&gt;Victim&lt;/fen&gt;.
+
+&lt;ex&gt;She wanted to &lt;t&gt;slap&lt;/t&gt; him hard &lt;fex name="Explanation"&gt;for his change of mood&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;She could easily have &lt;t&gt;slapped&lt;/t&gt; her &lt;fex name="Explanation"&gt;for that remark&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MJE" cDate="06/20/2002 03:04:40 PDT Thu" abbrev="Iter" name="Iterations" ID="3151">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Iterations&lt;/fen&gt; refers to the number of times the &lt;fen&gt;Agent&lt;/fen&gt; causes harm to the &lt;fen&gt;Victim&lt;/fen&gt;.
+
+&lt;ex&gt;Kim &lt;t&gt;hit&lt;/t&gt; Harold with the stick &lt;fex name="Iter"&gt;a dozen times&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;he had &lt;t&gt;slapped&lt;/t&gt; his wife across the face &lt;fex name="Iter"&gt;a number of times&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/05/2002 02:06:35 PDT Fri" abbrev="Cause" name="Cause" ID="3331">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Cause&lt;/fen&gt; marks expressions that indicate some non-intentional, typically non-human, force that inflicts harm on the &lt;fen&gt;Victim&lt;/fen&gt;
+
+&lt;ex&gt;&lt;fex name="Cause"&gt;A falling rock&lt;/fex&gt; &lt;t&gt;crushed&lt;/t&gt; my ankle.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="ACW" cDate="07/17/2003 10:39:18 PDT Thu" abbrev="" name="Subregion_bodypart" ID="4793">
+    <definition>&lt;def-root&gt;The Subregion_bodypart defines the precise location on the Body_part which is harmed.
+&lt;ex&gt;&lt;fex name="Body_part"&gt;Martha's legs&lt;/fex&gt; were &lt;t&gt;chopped&lt;/t&gt; off &lt;fex name="Subregion_bodypart"&gt;at the knees&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="EEE8AA" fgColor="000000" coreType="Extra-Thematic" cBy="KmG" cDate="01/10/2007 01:49:49 PST Wed" abbrev="" name="Circumstances" ID="10966">
+    <definition>&lt;def-root&gt;Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the Cause_harm event and any of its participants. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="01/10/2007 01:55:23 PST Wed" abbrev="" name="Frequency" ID="10967">
+    <definition>&lt;def-root&gt;How often the Cause_harm event occurs.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFD700" fgColor="000000" coreType="Extra-Thematic" cBy="KmG" cDate="01/10/2007 02:12:29 PST Wed" abbrev="" name="Duration" ID="10968">
+    <definition>&lt;def-root&gt;Duration denotes the length of time from the beginning of the Cause_harm event to its end. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="000000" coreType="Extra-Thematic" cBy="KmG" cDate="01/10/2007 03:28:58 PST Wed" abbrev="" name="Particular_iteration" ID="10970">
+    <definition>&lt;def-root&gt;This FE indicates that the Cause_harm event is conceived as embedded within an iterated series of similar events or states.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="000000" coreType="Extra-Thematic" cBy="KmG" cDate="01/10/2007 03:32:50 PST Wed" abbrev="" name="Concessive" ID="10971">
+    <definition>&lt;def-root&gt;This FE signifies that the state of affairs expressed by the main clause (containing the Cause_harm event) occurs or holds, and something other than that state of affairs would be expected given the state of affairs in the concessive clause.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7CCD73" fgColor="000000" coreType="Extra-Thematic" cBy="KmG" cDate="01/11/2007 05:34:44 PST Thu" abbrev="re-e" name="Re-encoding" ID="10972">
+    <definition>&lt;def-root&gt;A description of the harm event which significantly displays a different aspect.
+
+&lt;ex&gt;Then she elbowed me -- &lt;fex name="Re-encoding"&gt;a serious affront to my sensibilities&lt;/fex&gt; !&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="000000" coreType="Extra-Thematic" cBy="KmG" cDate="01/11/2007 06:12:57 PST Thu" abbrev="" name="Period_of_iterations" ID="10973">
+    <definition>&lt;def-root&gt;The length of time from when the Cause_harm event began to be repeated to when it stopped.&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Victim" ID="547"/>
+    <memberFE name="Body_part" ID="558"/>
+  </FEcoreSet>
+  <FEcoreSet>
+    <memberFE name="Agent" ID="546"/>
+    <memberFE name="Cause" ID="3331"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="2320">Cause_bodily_experience</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="222">Corporal_punishment</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="384">Experience_bodily_harm</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1163">Toxic_substance</relatedFrame>
+    <relatedFrame ID="482">Abusing</relatedFrame>
+    <relatedFrame ID="2685">Violence</relatedFrame>
+    <relatedFrame ID="1750">Terrorism</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600872007688" POS="V" cBy="automatic" cDate="09/23/2020 14:40:07 UTC Wed" lemmaID="165" lu_type="singleton" name="kritiseren.v" status="Created" FN_EN_LU_ID="2367" Method="Iteration-1" RBN_LU_ID="r_v-4168" RBN_matching_relation="near_equivalence">
+    <definition>kritiek op de of het genoemde leveren</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="kritiseren" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872011009" POS="V" cBy="automatic" cDate="09/23/2020 14:40:11 UTC Wed" lemmaID="166" lu_type="phrasal" name="aftuigen.v" status="Created" FN_EN_LU_ID="8424" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-876" RBN_matching_relation="near_equivalence">
+    <definition>hard slaan</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme breakBefore="false" headword="false" name="af" order="1"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="tuigen" order="2"/>
+  </lexUnit>
+</frame>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="07/25/2002 01:51:02 PDT Thu" name="Contrition" ID="382" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Experiencer&lt;/fen&gt; feels bad about a choice, an &lt;fen&gt;Action&lt;/fen&gt;, or a failure to do something, which they now consider to have been a mistake or wrong. The emotional state of the &lt;fen&gt;Experiencer&lt;/fen&gt; may be showing in gestures or facial expressions, viz. an &lt;fen&gt;Expressor&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Experiencer"&gt;Smithers&lt;/fex&gt; did not &lt;t&gt;repent&lt;/t&gt; &lt;fex name="Action"&gt;of his crime&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;It is God who rejoices at the &lt;t&gt;repentance&lt;/t&gt; &lt;fex name="Experiencer"&gt;of his sinner&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/25/2002 04:17:03 PDT Thu" abbrev="Experiencer" name="Experiencer" ID="3407">
+    <definition>&lt;def-root&gt;The FE &lt;fen&gt;Experiencer&lt;/fen&gt; indicates the person who experiences the emotion about their prior action.
+
+&lt;ex&gt;&lt;fex name="Experiencer"&gt;Smithers&lt;/fex&gt; was contrite about his wrongdoings.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/25/2002 04:17:22 PDT Thu" abbrev="Action" name="Action" ID="3408">
+    <definition>&lt;def-root&gt;The FE &lt;fen&gt;Action&lt;/fen&gt; marks expressions that indicate a prior action that the &lt;fen&gt;Experiencer&lt;/fen&gt; has come to feel bad about.
+
+&lt;ex&gt;They confessed and &lt;t&gt;repented&lt;/t&gt; &lt;fex name="Action"&gt;their actions against the Soviet Union&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="07/25/2002 04:26:16 PDT Thu" abbrev="Degr" name="Degree" ID="3409">
+    <definition>&lt;def-root&gt;The FE &lt;fen&gt;Degree&lt;/fen&gt; marks expressions that indicate how badly the &lt;fen&gt;Experiencer&lt;/fen&gt; feels about their prior action.
+
+&lt;ex&gt;Smithers was &lt;fex name="Degree"&gt;very&lt;/fex&gt; &lt;t&gt;contrite&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/25/2002 04:43:58 PDT Thu" abbrev="Expressor" name="Expressor" ID="3410">
+    <definition>&lt;def-root&gt;The FE &lt;fen&gt;Expressor&lt;/fen&gt; marks expressions that indicate a gesture or body part which is displaying the &lt;fen&gt;Emotional_state&lt;/fen&gt; of the &lt;fen&gt;Experiencer&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;t&gt;Repentant&lt;/t&gt; &lt;fex name="Expressor"&gt;tears&lt;/fex&gt; welled to his eyes.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="08/02/2002 11:18:59 PDT Fri" abbrev="Authenticity" name="Authenticity" ID="3489">
+    <definition>&lt;def-root&gt;The FE &lt;fen&gt;Authenticity&lt;/fen&gt; marks expressions that indicate whether the &lt;fen&gt;Experiencer&lt;/fen&gt; genuinely feels contrite or just acts as if they did.  &lt;ex&gt;The defendant showed no &lt;fex name="Authenticity"&gt;real&lt;/fex&gt; &lt;t&gt;remorse&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="08/05/2002 08:50:53 PDT Mon" abbrev="E_state" name="Emotional_state" ID="3492">
+    <definition>&lt;def-root&gt;The FE &lt;fen&gt;Emotional_state&lt;/fen&gt; is modified by an adjective  that indicates the &lt;fen&gt;Experiencer&lt;/fen&gt; is contrite.
+
+&lt;ex&gt;Martha had a &lt;t&gt;guilty&lt;/t&gt; &lt;fex name="Emotional_state"&gt;conscience&lt;/fex&gt; after selling inferior merchandise.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Extra-Thematic" cBy="KmG" cDate="05/22/2006 03:04:37 PDT Mon" abbrev="Dep" name="Depictive" ID="10103">
+    <definition>&lt;def-root&gt;This FE describes a participant of the state of affairs introduced by the target as being in some state during the action. The depicted state does not necessarily or usually facilitate or cause the state of affairs reported by the target.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7CCD73" fgColor="000000" coreType="Extra-Thematic" cBy="KmG" cDate="05/22/2006 03:06:21 PDT Mon" abbrev="Tim" name="Time" ID="10104">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Time&lt;/fen&gt; at which the &lt;fen&gt;Experiencer&lt;/fen&gt; or the &lt;fen&gt;Expressor&lt;/fen&gt; is contrite.&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="KmG" cDate="10/30/2007 08:03:01 PDT Tue" abbrev="Man" name="Manner" ID="12042">
+    <definition>&lt;def-root&gt;The way in which the &lt;fen&gt;Experiencer&lt;/fen&gt; or &lt;fen&gt;Expressor&lt;/fen&gt; has contrition. &lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Experiencer" ID="3407"/>
+    <memberFE name="Emotional_state" ID="3492"/>
+    <memberFE name="Expressor" ID="3410"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="1712">Emotions</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="1110">Guilt_or_innocence</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="1600872407282" POS="N" cBy="automatic" cDate="09/23/2020 14:46:47 UTC Wed" lemmaID="274" lu_type="singleton" name="boetedoening.n" status="Created" FN_EN_LU_ID="6807" Method="Iteration-1" RBN_LU_ID="r_n-7878" RBN_matching_relation="near_equivalence">
+    <definition>voor begane zonden, bijvoorbeeld door bidden, vasten en onthouding</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="boetedoening" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872410612" POS="N" cBy="automatic" cDate="09/23/2020 14:46:50 UTC Wed" lemmaID="275" lu_type="singleton" name="inkeer.n" status="Created" FN_EN_LU_ID="6807" Method="Iteration-1" RBN_LU_ID="r_n-17920" RBN_matching_relation="near_equivalence">
+    <definition>over iets dat je verkeerd gedaan hebt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="inkeer" order="1"/>
+  </lexUnit>
+</frame>

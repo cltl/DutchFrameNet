@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="N" name="medaillon.n" ID="1600871391644" frame="Accoutrements" frameID="158" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" lu_type="singleton" FN_EN_LU_ID="3374" Method="Iteration-1" RBN_LU_ID="r_n-23403" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Acout" name="Accoutrement"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Body_loc" name="Body_location"/>
+      <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="cre" name="Creator"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Peripheral" abbrev="Desc" name="Descriptor"/>
+      <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Mat" name="Material"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="nam" name="Name"/>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Part" name="Part"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Stl" name="Style"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="tim" name="Time_of_creation"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Use" name="Use"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Peripheral" abbrev="Wear" name="Wearer"/>
+    </frame>
+  </header>
+  <definition>voor aan een ketting die bestaat in een plat (doorgaans rond, ovaal of hartvormig) doosje waarin bijv. een fotootje bewaard kan worden</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="medaillon" order="1"/>
+</lexUnit>

@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MRLP" cDate="10/28/2001 04:10:24 PST Sun" name="Medical_conditions" ID="239" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;Words in this frame name medical conditions or diseases that a patient suffers from, is being treated for, may be cured of, or die of.  The condition or disease may be described in a variety of ways, including the part or area of the body (&lt;fen&gt;Body_Part&lt;/fen&gt;) affected by the condition (e.g. liver cancer, cardiovascular disease), the &lt;fen&gt;Cause&lt;/fen&gt; of the condition (e.g. bacterial meningitis, viral pneumonia), a prominent &lt;fen&gt;Symptom&lt;/fen&gt; of the condition (e.g. asymptomatic stenosis, blue ear disease), the &lt;fen&gt;Patient&lt;/fen&gt; or population (originally) affected by the condition (e.g. bovine tuberculosis, juvenile diabetes), or the (proper) &lt;fen&gt;Name&lt;/fen&gt; used to identify the condition (e.g. Munchausen Syndrome, Lou Gehrig's Disease).  Annotation in this frame is done in respect to the name of the condition or disease.
+
+&lt;ex&gt;John  died of  &lt;fex name="Body_P"&gt;pancreatic&lt;/fex&gt; &lt;t&gt;cancer&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MRLP" cDate="10/28/2001 06:48:40 PST Sun" abbrev="Pat" name="Patient" ID="2094">
+    <definition>&lt;def-root&gt;This FE is used for the patient, entity, or population (originally) affected by the condition or illness.
+
+&lt;ex&gt;&lt;fex name="Patient"&gt;juvenile&lt;/fex&gt; &lt;t&gt;diabetes&lt;/t&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Patient"&gt;Dutch Elm&lt;/fex&gt; &lt;t&gt;disease&lt;/t&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Patient"&gt;Legionnaire's&lt;/fex&gt; &lt;t&gt;disease&lt;/t&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Living_thing" ID="66"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="MRLP" cDate="10/28/2001 06:50:42 PST Sun" abbrev="Body_P" name="Body_part" ID="2095">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Body_Part&lt;/fen&gt; is used for the part or area of the body affected by the condition or disease.
+&lt;ex&gt;&lt;fex name="Body_P"&gt;cardiovascular&lt;/fex&gt; &lt;t&gt;disease&lt;/t&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Body_P"&gt;liver&lt;/fex&gt; &lt;t&gt;disease&lt;/t&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="MRLP" cDate="12/30/2001 02:30:42 PST Sun" abbrev="Cause" name="Cause" ID="2208">
+    <definition>&lt;def-root&gt;This FE is used for the cause of a condition or disease.
+&lt;ex&gt;&lt;fex name="Cause"&gt;bacterial&lt;/fex&gt; &lt;t&gt;meningitis&lt;/t&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MRLP" cDate="12/30/2001 02:44:00 PST Sun" abbrev="Symp" name="Symptom" ID="2209">
+    <definition>&lt;def-root&gt;This FE is used for a prominent symptom of the condition or disease.
+
+&lt;ex&gt;&lt;fex name="Symptom"&gt;asymptomatic&lt;/fex&gt; &lt;t&gt;stenosis&lt;/t&gt;&lt;/ex&gt;
+&lt;ex&gt;I have a &lt;t&gt;cold&lt;/t&gt; &lt;fex name="Symptom"&gt;with a really bad cough&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="MRLP" cDate="08/26/2002 04:34:57 PDT Mon" abbrev="Name" name="Name" ID="3613">
+    <definition>&lt;def-root&gt;This FE is used for the &lt;fen&gt;Name&lt;/fen&gt; that identifies the condition or disease.
+
+&lt;ex&gt;&lt;fex name="Name"&gt;Munchausen&lt;/fex&gt; &lt;t&gt;Syndrome&lt;/t&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Core" cBy="MiL" cDate="12/08/2005 03:16:10 PST Thu" abbrev="" name="Ailment" ID="9687">
+    <definition>&lt;def-root&gt;FN: Any medical problem.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="01/20/2006 12:07:11 PST Fri" abbrev="deg" name="Degree" ID="9870">
+    <definition>&lt;def-root&gt;The extent to which the &lt;fen&gt;Ailment&lt;/fen&gt; diverges from the norm.
+
+&lt;ex&gt;I am &lt;fex name="Degree"&gt;very&lt;/fex&gt; &lt;t&gt;sick&lt;/t&gt;.&lt;/ex&gt;
+
+Since the degree of involvement with an &lt;fen&gt;Ailment&lt;/fen&gt; is equivalent to how negative the experience of the &lt;fen&gt;Patient&lt;/fen&gt; is, in many cases, &lt;fen&gt;Degree&lt;/fen&gt; is expressed by a negative descriptor.
+
+&lt;ex&gt;It seems that he does have &lt;fex name="Degree"&gt;very severe&lt;/fex&gt; &lt;t&gt;eczema&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="7CCD73" fgColor="000000" coreType="Peripheral" cBy="KmG" cDate="10/29/2007 04:01:15 PDT Mon" abbrev="" name="Place" ID="12030">
+    <definition>&lt;def-root&gt;The location where the &lt;fen&gt;Ailment&lt;/fen&gt; is effecting the &lt;fen&gt;Patient&lt;/fen&gt;s.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="000000" coreType="Peripheral" cBy="CFB" cDate="06/07/2016 03:05:57 PDT Tue" abbrev="dur" name="Duration" ID="16832">
+    <definition>&lt;def-root&gt;The length of time over which a medical condition persists. &lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1015">Gradable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="119">Body_parts</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="51">Recovery</relatedFrame>
+    <relatedFrame ID="50">Cure</relatedFrame>
+    <relatedFrame ID="2718">Condition_symptom_relation</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600873225376" POS="N" cBy="automatic" cDate="09/23/2020 15:00:25 UTC Wed" lemmaID="530" lu_type="singleton" name="amnesie.n" status="Created" FN_EN_LU_ID="4352" Method="Iteration-1" RBN_LU_ID="r_n-3461" RBN_matching_relation="near_equivalence">
+    <definition>dat veelal tijdelijk is en dan geheel of gedeeltelijk</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="amnesie" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873228511" POS="N" cBy="automatic" cDate="09/23/2020 15:00:28 UTC Wed" lemmaID="531" lu_type="singleton" name="astma.n" status="Created" FN_EN_LU_ID="4356" Method="Iteration-1" RBN_LU_ID="r_n-4071" RBN_matching_relation="near_equivalence">
+    <definition>veroorzaakt door vernauwing van de luchtwegen, die zich uit in aanvallen van benauwdheid en hoestbuien</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="astma" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873231883" POS="N" cBy="automatic" cDate="09/23/2020 15:00:31 UTC Wed" lemmaID="532" lu_type="singleton" name="bronchitis.n" status="Created" FN_EN_LU_ID="4357" Method="Iteration-1" RBN_LU_ID="r_n-8591" RBN_matching_relation="near_equivalence">
+    <definition>van het slijmvlies van de bronchiën</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="bronchitis" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873234906" POS="N" cBy="automatic" cDate="09/23/2020 15:00:34 UTC Wed" lemmaID="533" lu_type="singleton" name="cholera.n" status="Created" FN_EN_LU_ID="4363" Method="Iteration-1" RBN_LU_ID="r_n-9349" RBN_matching_relation="near_equivalence">
+    <definition>aan de darmen die gepaard gaat met overgeven en diarree</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="cholera" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873238131" POS="N" cBy="automatic" cDate="09/23/2020 15:00:38 UTC Wed" lemmaID="534" lu_type="singleton" name="diarree.n" status="Created" FN_EN_LU_ID="4369" Method="Iteration-1" RBN_LU_ID="r_n-10827" RBN_matching_relation="near_equivalence">
+    <definition>met dunne ontlasting</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="diarree" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873241111" POS="N" cBy="automatic" cDate="09/23/2020 15:00:41 UTC Wed" lemmaID="535" lu_type="singleton" name="diabetes.n" status="Created" FN_EN_LU_ID="4372" Method="Iteration-1" RBN_LU_ID="r_n-10792" RBN_matching_relation="near_equivalence">
+    <definition>waarbij je teveel suiker in je bloed hebt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="diabetes" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873244158" POS="N" cBy="automatic" cDate="09/23/2020 15:00:44 UTC Wed" lemmaID="536" lu_type="singleton" name="eczeem.n" status="Created" FN_EN_LU_ID="4376" Method="Iteration-1" RBN_LU_ID="r_n-11948" RBN_matching_relation="near_equivalence">
+    <definition>die nogal kan jeuken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="eczeem" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873247272" POS="N" cBy="automatic" cDate="09/23/2020 15:00:47 UTC Wed" lemmaID="537" lu_type="singleton" name="hepatitis.n" status="Created" FN_EN_LU_ID="4379" Method="Iteration-1" RBN_LU_ID="r_n-16646" RBN_matching_relation="near_equivalence">
+    <definition>van de lever</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="hepatitis" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873250359" POS="N" cBy="automatic" cDate="09/23/2020 15:00:50 UTC Wed" lemmaID="538" lu_type="singleton" name="hernia.n" status="Created" FN_EN_LU_ID="4380" Method="Iteration-1" RBN_LU_ID="r_n-16718" RBN_matching_relation="near_equivalence">
+    <definition>van kraakbeen tussen de rugwervels, waardoor vaak een zenuw klem komt te zitten</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="hernia" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873253404" POS="N" cBy="automatic" cDate="09/23/2020 15:00:53 UTC Wed" lemmaID="539" lu_type="singleton" name="lepra.n" status="Created" FN_EN_LU_ID="4388" Method="Iteration-1" RBN_LU_ID="r_n-21850" RBN_matching_relation="near_equivalence">
+    <definition>waarbij het huidweefsel wordt weggevreten</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="lepra" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873256515" POS="N" cBy="automatic" cDate="09/23/2020 15:00:56 UTC Wed" lemmaID="540" lu_type="singleton" name="leukemie.n" status="Created" FN_EN_LU_ID="4389" Method="Iteration-1" RBN_LU_ID="r_n-21909" RBN_matching_relation="near_equivalence">
+    <definition>waarbij de vorming van witte bloedlichaampjes ontregeld is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="leukemie" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873259682" POS="N" cBy="manual" cDate="09/23/2020 15:00:59 UTC Wed" lemmaID="541" lu_type="singleton" name="malaria.n" status="Created" FN_EN_LU_ID="4390" Method="Iteration-1" RBN_LU_ID="r_n-23066" RBN_matching_relation="equivalence">
+    <definition>waarbij je hoge koorts hebt, veroorzaakt door een steek van een bepaald soort mug die vooral in moerassige streken voorkomt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="malaria" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873262822" POS="N" cBy="automatic" cDate="09/23/2020 15:01:02 UTC Wed" lemmaID="542" lu_type="singleton" name="mazelen.n" status="Created" FN_EN_LU_ID="4391" Method="Iteration-1" RBN_LU_ID="r_n-23382" RBN_matching_relation="near_equivalence">
+    <definition>waarbij je hoge koorts hebt en kleine, rode vlekjes op je huid krijgt</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="mazelen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873265967" POS="N" cBy="automatic" cDate="09/23/2020 15:01:05 UTC Wed" lemmaID="543" lu_type="singleton" name="meningitis.n" status="Created" FN_EN_LU_ID="4392" Method="Iteration-1" RBN_LU_ID="r_n-23582" RBN_matching_relation="near_equivalence">
+    <definition>van het hersenvlies</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="meningitis" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873269099" POS="N" cBy="automatic" cDate="09/23/2020 15:01:09 UTC Wed" lemmaID="544" lu_type="singleton" name="schizofrenie.n" status="Created" FN_EN_LU_ID="4398" Method="Iteration-1" RBN_LU_ID="r_n-33044" RBN_matching_relation="near_equivalence">
+    <definition>van de geest waarbij het normale denkvermogen afwisselt met onsamenhangend denken, het gevoelsleven afneemt, de patiënt van de werkelijkheid vervreemdt, waanideeën heeft en geen contacten met anderen meer kan leggen; in verzwakte opvatting: gespletenheid in de persoonlijkheid</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="schizofrenie" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873272223" POS="N" cBy="automatic" cDate="09/23/2020 15:01:12 UTC Wed" lemmaID="545" lu_type="singleton" name="tuberculose.n" status="Created" FN_EN_LU_ID="4405" Method="Iteration-1" RBN_LU_ID="r_n-38653" RBN_matching_relation="near_equivalence">
+    <definition>die meestal begint in de longen en waarbij ziekelijke kleine knobbels gevormd worden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="tuberculose" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873275565" POS="N" cBy="automatic" cDate="09/23/2020 15:01:15 UTC Wed" lemmaID="546" lu_type="singleton" name="tumor.n" status="Created" FN_EN_LU_ID="4406" Method="Iteration-1" RBN_LU_ID="r_n-38722" RBN_matching_relation="near_equivalence">
+    <definition>dat op ongecontroleerde wijze woekert</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="tumor" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873279129" POS="N" cBy="automatic" cDate="09/23/2020 15:01:19 UTC Wed" lemmaID="547" lu_type="singleton" name="gezwel.n" status="Created" FN_EN_LU_ID="4406" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-15119" RBN_matching_relation="near_equivalence">
+    <definition>die min of meer scherp begrensd is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="gezwel" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873282244" POS="N" cBy="manual" cDate="09/23/2020 15:01:22 UTC Wed" lemmaID="548" lu_type="singleton" name="zweer.n" status="Created" FN_EN_LU_ID="4407" Method="Iteration-1" RBN_LU_ID="r_n-44587" RBN_matching_relation="equivalence">
+    <definition>of abces aan de oppervlakte van slijmvlies- of huidweefsel (fig.: negatief verschijnsel)</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="zweer" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873285372" POS="A" cBy="automatic" cDate="09/23/2020 15:01:25 UTC Wed" lemmaID="549" lu_type="singleton" name="onwel.a" status="Created" FN_EN_LU_ID="13090" Method="Iteration-1" RBN_LU_ID="r_a-13812" RBN_matching_relation="near_equivalence">
+    <definition>onpasselijk</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="onwel" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873288639" POS="N" cBy="automatic" cDate="09/23/2020 15:01:28 UTC Wed" lemmaID="550" lu_type="singleton" name="ondervoeding.n" status="Created" FN_EN_LU_ID="14555" Method="Iteration-1" RBN_LU_ID="r_n-25967" RBN_matching_relation="near_equivalence">
+    <definition>waarin het lichaam verkeert bij onvoldoende voeding</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="ondervoeding" order="1"/>
+  </lexUnit>
+</frame>

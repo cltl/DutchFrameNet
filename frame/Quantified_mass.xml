@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="07/26/2001 03:35:57 PDT Thu" name="Quantified_mass" ID="189" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;This frame contains transparent nouns (and some adjectives) denoting quantities of a &lt;fen&gt;Mass&lt;/fen&gt; or of &lt;fen&gt;Individuals&lt;/fen&gt;. As opposed to aggregate words such as group, set, these &lt;fen&gt;Quantity&lt;/fen&gt; do not have a status as Wholes on their own. 
+
+&lt;ex&gt;He found them in the &lt;fex name="Quantity"&gt;&lt;t&gt;deluge&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Individuals"&gt;of papers&lt;/fex&gt; on his desk.&lt;/ex&gt;
+
+Initially, at least, we have annotated both &lt;fen&gt;Quantity&lt;/fen&gt; of &lt;fen&gt;Mass&lt;/fen&gt;es and of &lt;fen&gt;Individuals&lt;/fen&gt; in this frame, though we may split the frame along these lines later on. &lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/27/2001 10:39:53 PDT Fri" abbrev="Qua" name="Quantity" ID="1550">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Quantity&lt;/fen&gt;-denoting &lt;t&gt;Target&lt;/t&gt; word. &lt;ex&gt;I had a &lt;t&gt;&lt;fex name="Quantity"&gt;heap&lt;/fex&gt;&lt;/t&gt; of troubles.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Quantity" ID="59"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/27/2001 10:40:09 PDT Fri" abbrev="M" name="Mass" ID="1551">
+    <definition>&lt;def-root&gt;A substance that is being quantified.
+&lt;ex&gt;A &lt;t&gt;modicum&lt;/t&gt; &lt;fex name="M"&gt;of seepage on the floor&lt;/fex&gt; is to be expected.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/27/2001 10:40:26 PDT Fri" abbrev="Ind" name="Individuals" ID="1552">
+    <definition>&lt;def-root&gt;A collection of entities.
+&lt;ex&gt;A &lt;t&gt;number&lt;/t&gt; &lt;fex name="Ind"&gt;of concerned citizens&lt;/fex&gt; have raised objections.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Mass" ID="1551"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="07/27/2001 10:40:48 PDT Fri" abbrev="" name="Q_prop" ID="1553">
+    <definition>&lt;def-root&gt;A property of the &lt;fen&gt;Quantity&lt;/fen&gt;.
+
+&lt;ex&gt;John bought a &lt;fex name="Q_prop"&gt;large&lt;/fex&gt; &lt;fex name="Quantity"&gt;&lt;t&gt;heap&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Individuals"&gt;of old National Geograhics&lt;/fex&gt; at the flea market.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="KmG" cDate="08/06/2007 02:59:36 PDT Mon" abbrev="Deg" name="Degree" ID="11951">
+    <definition>&lt;def-root&gt;This frame element selects some gradable attribute and modifies the expected value for it.&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Mass" ID="1551"/>
+    <memberFE name="Individuals" ID="1552"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on">
+    <relatedFrame ID="1687">Measure_scenario</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="2604">Quantity</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="1600873795438" POS="N" cBy="automatic" cDate="09/23/2020 15:09:55 UTC Wed" lemmaID="704" lu_type="singleton" name="vaak.n" status="Created" FN_EN_LU_ID="13232" Method="Iteration-1" RBN_LU_ID="r_n-39360" RBN_matching_relation="near_equivalence">
+    <definition>aan slaap</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="vaak" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873798651" POS="A" cBy="automatic" cDate="09/23/2020 15:09:58 UTC Wed" lemmaID="705" lu_type="singleton" name="enkel.a" status="Created" FN_EN_LU_ID="13745" Method="Iteration-1" RBN_LU_ID="r_a-10430" RBN_matching_relation="near_equivalence">
+    <definition>niet dubbel</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="enkel" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873801983" POS="A" cBy="automatic" cDate="09/23/2020 15:10:01 UTC Wed" lemmaID="706" lu_type="singleton" name="ontelbaar.a" status="Created" FN_EN_LU_ID="13751" Method="Iteration-1" RBN_LU_ID="r_a-13678" RBN_matching_relation="near_equivalence">
+    <definition>niet te tellen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="ontelbaar" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873805436" POS="A" cBy="automatic" cDate="09/23/2020 15:10:05 UTC Wed" lemmaID="707" lu_type="singleton" name="verboden.a" status="Created" FN_EN_LU_ID="13869" Method="Iteration-1" RBN_LU_ID="r_a-16213" RBN_matching_relation="near_equivalence">
+    <definition>niet toegestaan</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="verboden" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873808719" POS="N" cBy="automatic" cDate="09/23/2020 15:10:08 UTC Wed" lemmaID="708" lu_type="singleton" name="vleugje.n" status="Created" FN_EN_LU_ID="14733" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-41106" RBN_matching_relation="near_equivalence">
+    <definition>die niet groot is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="vleugje" order="1"/>
+  </lexUnit>
+</frame>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="V" name="omleiden.v" ID="1600873881113" frame="Redirecting" frameID="1530" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" lu_type="phrasal" FN_EN_LU_ID="12332" Method="Iteration-1" RBN_LU_ID="r_v-5080" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="age" name="Agent"/>
+      <FE fgColor="FFFFFF" bgColor="90876C" type="Core" abbrev="cau" name="Cause"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Extra-Thematic" abbrev="Dep" name="Depictive"/>
+      <FE fgColor="FFFFFF" bgColor="A9A9A9" type="Core" abbrev="dir" name="Direction"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Goal" name="Goal"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Manr" name="Manner"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="mea" name="Means"/>
+      <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="ori" name="Original_path"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Path" name="Path"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="" name="Place"/>
+      <FE fgColor="FFFFFF" bgColor="7CCD7C" type="Peripheral" abbrev="pur" name="Purpose"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Thm" name="Theme"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Time" name="Time"/>
+    </frame>
+  </header>
+  <definition>langs een andere, meestal langere weg leiden</definition>
+  <lexeme breakBefore="false" headword="false" name="om" order="1"/>
+  <lexeme POS="V" breakBefore="false" headword="false" name="leiden" order="2"/>
+</lexUnit>

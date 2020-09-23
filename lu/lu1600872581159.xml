@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Created" POS="V" name="vervatten.v" ID="1600872581159" frame="Encoding" frameID="35" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" lu_type="singleton" FN_EN_LU_ID="532" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9425" RBN_matching_relation="near_equivalence">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Other" name="Addressee"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Core" abbrev="Manr" name="Manner"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Mns" name="Means"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Medium" name="Medium"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Msg" name="Message"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+    </frame>
+  </header>
+  <definition>inhouden, omvatten</definition>
+  <lexeme POS="V" breakBefore="false" headword="false" name="vervatten" order="1"/>
+</lexUnit>

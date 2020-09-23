@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="12/10/2002 10:36:33 PST Tue" name="Offenses" ID="432" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;Words in this frame describe acts in violation of a legal code.
+
+&lt;ex&gt;&lt;fex name="Perpetrator"&gt;He&lt;/fex&gt; was accused of &lt;t&gt;&lt;fex name="Offense"&gt;hijacking&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Victim"&gt;a tour bus full of people&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="12/10/2002 11:32:51 PST Tue" abbrev="Deg" name="Degree" ID="3968">
+    <definition>&lt;def-root&gt;This FE broadly picks out the degree of offense.
+&lt;ex&gt;She faces conviction on three counts of &lt;fex name="Degree"&gt;first-degree&lt;/fex&gt; &lt;fex name="Off"&gt;&lt;t&gt;murder&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Degree"&gt;Aggravated&lt;/fex&gt; &lt;fex name="Off"&gt;&lt;t&gt;assault&lt;/t&gt;&lt;/fex&gt; is usually considered a felony.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Extra-Thematic" cBy="RLG" cDate="12/17/2002 03:59:15 PST Tue" abbrev="Spec" name="Specification" ID="3969">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Specification&lt;/fen&gt; is an additional aspect of the main crime being commited.
+&lt;ex&gt;He was charged with &lt;fex name="Off"&gt;&lt;t&gt;assault&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Spec"&gt;causing actual bodily harm&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The prosecutors decided to go with &lt;fex name="Off"&gt;&lt;t&gt;arson&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Spec"&gt;with intent to harm&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="12/17/2002 04:46:15 PST Tue" abbrev="Off" name="Offense" ID="3971">
+    <definition>&lt;def-root&gt;The illegal act.
+&lt;ex&gt;He was &lt;m&gt;charged&lt;/m&gt; with &lt;fex name="Off"&gt;&lt;t&gt;assault&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Core" cBy="GlY" cDate="06/23/2003 12:17:49 PDT Mon" abbrev="Vic" name="Victim" ID="4652">
+    <definition>&lt;def-root&gt;This FE denotes the person or entity that is badly affected by the &lt;fen&gt;Offense&lt;/fen&gt;.
+&lt;ex&gt;The police is investigating the &lt;t&gt;homicide&lt;/t&gt; &lt;fex name="Victim"&gt;of Dr. Johnson&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="GlY" cDate="08/15/2003 06:13:48 PDT Fri" abbrev="Pun" name="Punishment" ID="4925">
+    <definition>&lt;def-root&gt;This FE denotes the &lt;fen&gt;Punishment&lt;/fen&gt; that is specified by the statute in which the offense is defined.
+&lt;ex&gt;Suicide is a &lt;fex name="Offense"&gt;felony&lt;/fex&gt; &lt;fex name="Punishment"&gt;punishable by four years in prison&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="MiL" cDate="10/31/2005 03:43:14 PST Mon" abbrev="" name="Perpetrator" ID="9160">
+    <definition>&lt;def-root&gt;The individual who commits the Offense&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="138">Arson</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="700">Committing_crime</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="517">Severity_of_offense</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600873487602" POS="N" cBy="automatic" cDate="09/23/2020 15:04:47 UTC Wed" lemmaID="611" lu_type="singleton" name="sabotage.n" status="Created" FN_EN_LU_ID="7843" Method="Iteration-1" RBN_LU_ID="r_n-32353" RBN_matching_relation="near_equivalence">
+    <definition>die erop gericht is de gang van zaken te laten mislukken of te beletten</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="sabotage" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600873490753" POS="N" cBy="automatic" cDate="09/23/2020 15:04:50 UTC Wed" lemmaID="612" lu_type="singleton" name="inbraak.n" status="Created" FN_EN_LU_ID="7847" Method="Iteration-1" RBN_LU_ID="r_n-17740" RBN_matching_relation="near_equivalence">
+    <definition>van een gebouw door een geforceerde opening met de bedoeling om te stelen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="inbraak" order="1"/>
+  </lexUnit>
+</frame>

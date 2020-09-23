@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Shw" cDate="07/03/2001 07:31:37 PDT Tue" name="Accoutrements" ID="158" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;A &lt;fen&gt;Wearer&lt;/fen&gt; wears accessories, which are made of  some &lt;fen&gt;Material&lt;/fen&gt; and may have a &lt;fen&gt;Style&lt;/fen&gt;.  Most of the accessories are non-essential (clothing) items. &lt;ex&gt;&lt;fex name="Wearer"&gt;She&lt;/fex&gt; wore &lt;fex name="Descriptor"&gt;a black&lt;/fex&gt; &lt;fex name="Material"&gt;velvet&lt;/fex&gt; &lt;t&gt;hat&lt;/t&gt; &lt;fex name="Body_location"&gt;on her head&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <semType name="Artifact" ID="61"/>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Peripheral" cBy="Shw" cDate="07/03/2001 07:48:07 PDT Tue" abbrev="Wear" name="Wearer" ID="1283">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Wearer&lt;/fen&gt; wears the &lt;fen&gt;Accoutrement&lt;/fen&gt;.
+&lt;ex&gt;Why must you always wear &lt;fex name="Wearer"&gt;your&lt;/fex&gt; &lt;t&gt;helmet&lt;/t&gt; when I'm driving?&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="Shw" cDate="07/03/2001 08:00:37 PDT Tue" abbrev="Stl" name="Style" ID="1284">
+    <definition>&lt;def-root&gt;This FE identifies  the &lt;fen&gt;Style&lt;/fen&gt; of the &lt;fen&gt;Accoutrement&lt;/fen&gt;. &lt;ex&gt;He wore &lt;fex name="Style"&gt;a Jacobean&lt;/fex&gt; &lt;t&gt;wig&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="Shw" cDate="07/03/2001 08:01:50 PDT Tue" abbrev="Mat" name="Material" ID="1285">
+    <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Material&lt;/fen&gt; from which the &lt;fen&gt;Accoutrement&lt;/fen&gt; is made.&lt;ex&gt;He wore a &lt;fex name="Material"&gt;gold&lt;/fex&gt; &lt;t&gt;watch&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="07/31/2001 03:25:43 PDT Tue" abbrev="Acout" name="Accoutrement" ID="1554">
+    <definition>&lt;def-root&gt;This FE identifies  the &lt;fen&gt;Accoutrement&lt;/fen&gt;. &lt;ex&gt;She wore a &lt;fex name="Acout"&gt;tiara&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Artifact" ID="61"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="07/31/2001 05:07:11 PDT Tue" abbrev="Desc" name="Descriptor" ID="1555">
+    <definition>&lt;def-root&gt;This FE identifies a characteristic or description of the &lt;fen&gt;Accoutrement&lt;/fen&gt;. &lt;ex&gt;Kim wore &lt;fex name="Desc"&gt;an exquisite&lt;/fex&gt; &lt;t&gt;tiara&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="ACW" cDate="08/02/2001 10:39:48 PDT Thu" abbrev="Use" name="Use" ID="1557">
+    <definition>&lt;def-root&gt;This FE identifies the purpose for which an &lt;fen&gt;Accoutrement&lt;/fen&gt; is worn or made.
+
+&lt;ex&gt;She was wearing &lt;fex name="Use"&gt;reading&lt;/fex&gt; &lt;t&gt;glasses&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="Shw" cDate="08/02/2001 12:02:48 PDT Thu" abbrev="Part" name="Part" ID="1558">
+    <definition>&lt;def-root&gt;This FE identifies a part of the &lt;fen&gt;Accoutrement&lt;/fen&gt;. &lt;ex&gt;He bought a leather &lt;t&gt;cap&lt;/t&gt; &lt;fex name="Part"&gt;with sheepskin flaps&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="KCo" cDate="05/01/2002 11:32:03 PDT Wed" abbrev="Body_loc" name="Body_location" ID="2724">
+    <definition>&lt;def-root&gt;This FE identifies the place on the body where a particular &lt;fen&gt;Accoutrement&lt;/fen&gt; is located.
+&lt;ex&gt;Tess wore a single &lt;t&gt;ring&lt;/t&gt; &lt;fex name="Body_loc"&gt;in her left nostril&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="11/15/2004 11:45:57 PST Mon" abbrev="cre" name="Creator" ID="7226">
+    <definition>&lt;def-root&gt;The individual or group who created the &lt;fen&gt;Accoutrement&lt;/fen&gt;.
+
+&lt;ex&gt;We found this &lt;fex name="cre"&gt;Chinese&lt;/fex&gt; &lt;t&gt;anklet&lt;/t&gt; two layers below Tel-Wilaya 3.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="cre"&gt;De Beers&lt;/fex&gt; &lt;t&gt;jewelry&lt;/t&gt; is justly famous.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="11/15/2004 11:58:11 PST Mon" abbrev="tim" name="Time_of_creation" ID="7227">
+    <definition>&lt;def-root&gt;The time at which the &lt;fen&gt;Accoutrement&lt;/fen&gt; was created.
+
+&lt;ex&gt;What was a &lt;fex name="tim"&gt;17th century&lt;/fex&gt; &lt;t&gt;brooch&lt;/t&gt; doing in her attic?&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="11/15/2004 12:00:43 PST Mon" abbrev="nam" name="Name" ID="7228">
+    <definition>&lt;def-root&gt;A name given to an individual &lt;fen&gt;Accoutrement&lt;/fen&gt; to distinguish it from all other objects.
+
+&lt;ex&gt;The &lt;t&gt;ring&lt;/t&gt; &lt;fex name="nam"&gt;Narya&lt;/fex&gt; was passed to Gandalf.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="421">Artifact</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="160">Wearing</relatedFrame>
+    <relatedFrame ID="1210">Undressing</relatedFrame>
+    <relatedFrame ID="1211">Dressing</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600871385555" POS="N" cBy="automatic" cDate="09/23/2020 14:29:45 UTC Wed" lemmaID="2" lu_type="singleton" name="broche.n" status="Created" FN_EN_LU_ID="3368" Method="Iteration-1" RBN_LU_ID="r_n-8537" RBN_matching_relation="near_equivalence">
+    <definition>met een speld erachter dat je op een kledingstuk kunt spelden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="broche" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871388660" POS="N" cBy="automatic" cDate="09/23/2020 14:29:48 UTC Wed" lemmaID="3" lu_type="singleton" name="speldje.n" status="Created" FN_EN_LU_ID="3368" Method="Iteration-1" RBN_LU_ID="r_n-34924" RBN_matching_relation="near_equivalence">
+    <definition>met een klein metalen of plastic schildje met een reclametekst of afbeelding erop</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="speldje" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871391644" POS="N" cBy="automatic" cDate="09/23/2020 14:29:51 UTC Wed" lemmaID="4" lu_type="singleton" name="medaillon.n" status="Created" FN_EN_LU_ID="3374" Method="Iteration-1" RBN_LU_ID="r_n-23403" RBN_matching_relation="near_equivalence">
+    <definition>voor aan een ketting die bestaat in een plat (doorgaans rond, ovaal of hartvormig) doosje waarin bijv. een fotootje bewaard kan worden</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="medaillon" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871394776" POS="N" cBy="automatic" cDate="09/23/2020 14:29:54 UTC Wed" lemmaID="5" lu_type="singleton" name="snuisterij.n" status="Created" FN_EN_LU_ID="3463" Method="Iteration-1" RBN_LU_ID="r_n-34539" RBN_matching_relation="near_equivalence">
+    <definition>dat meestal niet veel waarde heeft</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="snuisterij" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871397811" POS="N" cBy="automatic" cDate="09/23/2020 14:29:57 UTC Wed" lemmaID="6" lu_type="singleton" name="pracht.n" status="Created" FN_EN_LU_ID="3463" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-29439" RBN_matching_relation="near_equivalence">
+    <definition>dat heel erg mooi is</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="pracht" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871401053" POS="N" cBy="automatic" cDate="09/23/2020 14:30:01 UTC Wed" lemmaID="7" lu_type="singleton" name="juweel.n" status="Created" FN_EN_LU_ID="3463" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-18670" RBN_matching_relation="near_equivalence">
+    <definition>dat kostbaar is, vaak met een sieraad erin</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="juweel" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600871404204" POS="N" cBy="automatic" cDate="09/23/2020 14:30:04 UTC Wed" lemmaID="8" lu_type="singleton" name="frutsel.n" status="Created" FN_EN_LU_ID="3463" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-13737" RBN_matching_relation="near_equivalence">
+    <definition>van kleine afmetingen, klein dingetje</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="frutsel" order="1"/>
+  </lexUnit>
+</frame>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="02/19/2004 02:39:55 PST Thu" name="Shaped_part" ID="970" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An entity is a shaped &lt;fen&gt;Part&lt;/fen&gt; of a larger &lt;fen&gt;Whole&lt;/fen&gt;. The &lt;fen&gt;Part&lt;/fen&gt; may correspond in form and  function  to a part of another entity. For instance, the leg of a table supports the weight of a table like the leg of an animal or person supports their weight. The &lt;fen&gt;Orientation&lt;/fen&gt; of the &lt;fen&gt;Part&lt;/fen&gt; relative to the &lt;fen&gt;Whole&lt;/fen&gt; may be expressed.
+
+&lt;ex&gt;I removed the &lt;fex name="Part"&gt;&lt;t&gt;brim&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Whole"&gt;of the hat&lt;/fex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;Bill likes to chew the &lt;fex name="Part_prop"&gt;waxy&lt;/fex&gt; &lt;fex name="Part"&gt;&lt;t&gt;rind&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Whole"&gt;of the cheese&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <semType name="Transparent Noun" ID="9"/>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="02/19/2004 02:39:55 PST Thu" abbrev="" name="Part" ID="5920">
+    <definition>&lt;def-root&gt;A shaped &lt;fen&gt;Part&lt;/fen&gt; of a larger &lt;fen&gt;Whole&lt;/fen&gt;.
+
+&lt;ex&gt;Sergey put his arm on the &lt;t&gt;&lt;fex name="Part"&gt;arm&lt;/fex&gt;&lt;/t&gt; of his armchair.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="02/19/2004 02:39:55 PST Thu" abbrev="" name="Whole" ID="5921">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Whole&lt;/fen&gt; which has a shaped &lt;fen&gt;Part&lt;/fen&gt;.
+
+&lt;ex&gt;The &lt;t&gt;leg&lt;/t&gt; &lt;fex name="Whole"&gt;of the table&lt;/fex&gt; came off when we moved it.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="02/19/2004 02:39:55 PST Thu" abbrev="" name="Part_prop" ID="5922">
+    <definition>&lt;def-root&gt;A property relating to the shaped &lt;fen&gt;Part&lt;/fen&gt; of a &lt;fen&gt;Whole&lt;/fen&gt;.
+
+
+&lt;ex&gt;Sue fixed the &lt;fex name="Part_prop"&gt;broken&lt;/fex&gt; &lt;t&gt;&lt;fex name="Part"&gt;leg&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Whole"&gt;of the table&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="02/19/2004 02:39:55 PST Thu" abbrev="Orientation" name="Orientation" ID="5923">
+    <definition>&lt;def-root&gt;This is a property of the shaped &lt;fen&gt;Part&lt;/fen&gt; that situates  the  &lt;fen&gt;Part&lt;/fen&gt; within the &lt;fen&gt;Whole&lt;/fen&gt;.
+
+&lt;ex&gt;Abby broke  the &lt;fex name="Orientation"&gt;top&lt;/fex&gt; &lt;t&gt;&lt;fex name="Part"&gt;handle&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Whole"&gt;of the suitcase&lt;/fex&gt; . &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="140">Part_whole</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by">
+    <relatedFrame ID="971">Architectural_part</relatedFrame>
+    <relatedFrame ID="119">Body_parts</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600874057364" POS="N" cBy="automatic" cDate="09/23/2020 15:14:17 UTC Wed" lemmaID="782" lu_type="singleton" name="heft.n" status="Created" FN_EN_LU_ID="11325" Method="Iteration-1" RBN_LU_ID="r_n-16518" RBN_matching_relation="near_equivalence">
+    <definition>van een mes</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="heft" order="1"/>
+  </lexUnit>
+</frame>

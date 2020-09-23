@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:13 PST Wed" name="Emptying" ID="58" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;These are words relating to emptying containers and clearing areas of some substance or items. The area or container can appear as the direct object with all these verbs, and is designated  &lt;fen&gt;Source&lt;/fen&gt; because it is the source of motion of the &lt;fen&gt;Theme&lt;/fen&gt;. Corresponding to its nuclear argument status, it is also affected in some crucial way, unlike &lt;fen&gt;Source&lt;/fen&gt; in other frames. Some words in this frame, such as &lt;ment&gt;empty&lt;/ment&gt;, may also occur with &lt;fen&gt;Path&lt;/fen&gt; or &lt;fen&gt;Goal&lt;/fen&gt; expressions, e.g.
+
+&lt;ex&gt;&lt;fex name="Agent"&gt;The players&lt;/fex&gt; &lt;t&gt;emptied&lt;/t&gt; &lt;fex name="Source"&gt;the bucket&lt;/fex&gt; &lt;fex name="Path"&gt;over his head&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:13 PST Wed" abbrev="Agt" name="Agent" ID="248">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Agent&lt;/fen&gt; is the entity that does the emptying. 
+&lt;ex&gt;&lt;fex name="Agent"&gt;Pat&lt;/fex&gt; &lt;t&gt;cleared&lt;/t&gt; the table of dishes.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:13 PST Wed" abbrev="Thm" name="Theme" ID="249">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Theme&lt;/fen&gt;, when overtly expressed, invariably occurs in a PP Complement headed by "of".
+&lt;ex&gt;Pat &lt;t&gt;cleared&lt;/t&gt; the table &lt;fex name="Thm"&gt;of dishes&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Physical_object" ID="68"/>
+  </FE>
+  <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="ChW" cDate="02/07/2001 04:12:13 PST Wed" abbrev="Src" name="Source" ID="250">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Source&lt;/fen&gt; is the region or container which is emptied of something.  In this frame, the &lt;fen&gt;Source&lt;/fen&gt; occurs as an NP Object. &lt;ex&gt;Pat &lt;t&gt;cleared&lt;/t&gt; &lt;fex name="Src"&gt;the table&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    <semType name="Source" ID="151"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="ChW" cDate="02/07/2001 04:12:13 PST Wed" abbrev="Path" name="Path" ID="251">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Path&lt;/fen&gt; is any description of a trajectory of motion which is neither a &lt;fen&gt;Source&lt;/fen&gt; nor a &lt;fen&gt;Goal&lt;/fen&gt;.
+&lt;ex&gt;Kim &lt;t&gt;emptied&lt;/t&gt; the basin &lt;fex name="Path"&gt;over the edge of the balcony&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="ChW" cDate="02/07/2001 04:12:13 PST Wed" abbrev="Goal" name="Goal" ID="252">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Goal&lt;/fen&gt; is any expression which tells where the &lt;fen&gt;Theme&lt;/fen&gt; ends up, or would end up, as a result of the motion.
+&lt;ex&gt;The children &lt;t&gt;emptied&lt;/t&gt; the toy box &lt;fex name="Goal"&gt;onto the floor&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Goal" ID="153"/>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="Tess" cDate="06/05/2001 11:42:58 PDT Tue" abbrev="Degr" name="Degree" ID="723">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Degree&lt;/fen&gt; to which the &lt;fen&gt;Agent&lt;/fen&gt; empties the &lt;fen&gt;Source&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="Tess" cDate="06/05/2001 11:42:58 PDT Tue" abbrev="Dep" name="Depictive" ID="725">
+    <definition>&lt;def-root&gt;Depicitive phrase describing either the &lt;fen&gt;Agent&lt;/fen&gt; or &lt;fen&gt;Theme&lt;/fen&gt; of the emptying. &lt;ex&gt;&lt;fex name="Dep"&gt;Naked&lt;/fex&gt;, &lt;fex name="Agent"&gt;Millhouse&lt;/fex&gt; &lt;t&gt;emptied&lt;/t&gt; &lt;fex name="Source"&gt;the trash can&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="Tess" cDate="06/05/2001 11:42:58 PDT Tue" abbrev="Manr" name="Manner" ID="727">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Manner&lt;/fen&gt; in which the &lt;fen&gt;Agent&lt;/fen&gt; empties the &lt;fen&gt;Source&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="Tess" cDate="06/05/2001 11:42:58 PDT Tue" abbrev="Mns" name="Means" ID="728">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Means&lt;/fen&gt; by which the &lt;fen&gt;Agent&lt;/fen&gt; empties the &lt;fen&gt;Source&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="Tess" cDate="06/05/2001 11:42:58 PDT Tue" abbrev="Result" name="Result" ID="729">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Result&lt;/fen&gt; of  the &lt;fen&gt;Agent&lt;/fen&gt; emptying the &lt;fen&gt;Source&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="Shw" cDate="07/11/2001 03:15:57 PDT Wed" abbrev="Inst" name="Instrument" ID="1320">
+    <definition>&lt;def-root&gt;This is the object with which the &lt;fen&gt;Agent&lt;/fen&gt; empties the &lt;fen&gt;Source&lt;/fen&gt;.
+&lt;ex&gt;I &lt;t&gt;emptied&lt;/t&gt; the tub &lt;fex name="Inst"&gt;with a bucket&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;I &lt;t&gt;peeled&lt;/t&gt; the oranges &lt;fex name="Inst"&gt;with a knife&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Physical_entity" ID="70"/>
+  </FE>
+  <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="08/19/2002 04:25:56 PDT Mon" abbrev="Cause" name="Cause" ID="3582">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Cause&lt;/fen&gt; is the non-sentient force which instigates the emptying. &lt;ex&gt;&lt;fex name="Cause"&gt;A basic washing&lt;/fex&gt; can &lt;t&gt;degrease&lt;/t&gt; &lt;fex name="Source"&gt;your workclothes&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <excludesFE name="Agent" ID="248"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/02/2006 11:34:19 PST Thu" abbrev="pla" name="Place" ID="9898">
+    <definition>&lt;def-root&gt;The location where the emptying takes place.
+
+&lt;ex&gt;Don't &lt;t&gt;eviscerate&lt;/t&gt; him &lt;fex name="pla"&gt;in the house&lt;/fex&gt;!&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="MJE" cDate="02/02/2006 11:37:10 PST Thu" abbrev="tim" name="Time" ID="9899">
+    <definition>&lt;def-root&gt;The time at which the emptying takes place.
+
+&lt;ex&gt;The prisoners were &lt;t&gt;deloused&lt;/t&gt; &lt;fex name="tim"&gt;in June and August&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Extra-Thematic" cBy="KmG" cDate="04/25/2006 01:02:00 PDT Tue" abbrev="" name="Containing_event" ID="10056">
+    <definition>&lt;def-root&gt;This FE denotes an event that occurs or state of affairs that holds at a time that includes the time during which the event or state of affairs reported by the target occurs and of which it is taken to be a part.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="1E90FF" fgColor="000000" coreType="Extra-Thematic" cBy="KmG" cDate="04/25/2006 01:10:44 PDT Tue" abbrev="" name="Explanation" ID="10057">
+    <definition>&lt;def-root&gt;The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the target's proposition, but not in all cases. &lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="EEE8AA" fgColor="000000" coreType="Extra-Thematic" cBy="KmG" cDate="04/27/2006 05:42:51 PDT Thu" abbrev="" name="Circumstances" ID="10064">
+    <definition>&lt;def-root&gt;Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the event itself and any of its participants. &lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="7FFF00" fgColor="00008B" coreType="Extra-Thematic" cBy="KmG" cDate="08/08/2007 12:54:34 PDT Wed" abbrev="" name="Purpose" ID="11955">
+    <definition>&lt;def-root&gt;The reason why the &lt;fen&gt;Agent&lt;/fen&gt; empties the &lt;fen&gt;Source&lt;/fen&gt; of the &lt;fen&gt;Theme&lt;/fen&gt;. &lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="2301">Container_focused_removing</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also">
+    <relatedFrame ID="55">Cause_motion</relatedFrame>
+  </frameRelation>
+  <lexUnit ID="1600872571717" POS="V" cBy="automatic" cDate="09/23/2020 14:49:31 UTC Wed" lemmaID="327" lu_type="singleton" name="ontbossen.v" status="Created" FN_EN_LU_ID="2594" Method="Iteration-1" RBN_LU_ID="r_v-5246" RBN_matching_relation="near_equivalence">
+    <definition>het bos in het genoemde gebied omhakken</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="V" breakBefore="false" headword="false" name="ontbossen" order="1"/>
+  </lexUnit>
+  <lexUnit ID="1600872574804" POS="N" cBy="automatic" cDate="09/23/2020 14:49:34 UTC Wed" lemmaID="328" lu_type="singleton" name="ontwapening.n" status="Created" FN_EN_LU_ID="13112" Method="Iteration-1" RBN_LU_ID="r_n-26275" RBN_matching_relation="near_equivalence">
+    <definition>van militaire machtsmiddelen</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="N" breakBefore="false" headword="false" name="ontwapening" order="1"/>
+  </lexUnit>
+</frame>

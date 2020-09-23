@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="CVa" cDate="03/16/2012 01:36:12 PDT Fri" name="Level_of_light" ID="2712" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;There is a gradable amount of light in a particular &lt;fen&gt;Location&lt;/fen&gt;.  In some cases the &lt;fen&gt;Source&lt;/fen&gt; of light may be indicated instead of the &lt;fen&gt;Location&lt;/fen&gt;.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;The small print was bearly readable by the light of the &lt;fex name="Deg"&gt;very&lt;/fex&gt; &lt;t&gt;dim&lt;/t&gt; &lt;fex name="Source"&gt;torch&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;Tal flew over the barrier and into the &lt;t&gt;dark&lt;/t&gt; &lt;fex name="Loc"&gt;tunnel&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+
+The negetive LUs in this frame can be used metaphorically to describe time periods which can be characterized as bad or lacking in awareness, as shown in the following examples:
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;The custody of the era brought about a &lt;t&gt;dark&lt;/t&gt; &lt;fex name="Loc"&gt;period during which the written word was forgotten and art had disappeared&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;Clinton is shrewd to solidify political support during these &lt;t&gt;dark&lt;/t&gt; &lt;fex name="Loc"&gt;days&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="CVa" cDate="03/16/2012 01:48:43 PDT Fri" abbrev="Loc" name="Location" ID="15539">
+    <definition>&lt;def-root&gt;The place whose amout of light is being described.  The &lt;fen&gt;Location&lt;/fen&gt; can also be a location in time, as seen in the second example below:
+
+&lt;ex&gt;She hid from the man in a &lt;t&gt;dark&lt;/t&gt; &lt;fex name="Loc"&gt;corner&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;We set off on our journey on a &lt;t&gt;dark&lt;/t&gt; &lt;fex name="Loc"&gt;night&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Location" ID="54"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="CVa" cDate="03/16/2012 01:51:10 PDT Fri" abbrev="Source" name="Source" ID="15540">
+    <definition>&lt;def-root&gt;The entity from which the light eminates.
+
+&lt;ex&gt;A &lt;t&gt;dim&lt;/t&gt; &lt;fex name="Source"&gt;lamp&lt;/fex&gt; swung over the entrance to the castle.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="CVa" cDate="03/16/2012 01:57:59 PDT Fri" abbrev="Deg" name="Degree" ID="15541">
+    <definition>&lt;def-root&gt;The degree of the amount of light.
+
+&lt;ex&gt;The room was &lt;fex name="Deg"&gt;totally&lt;/fex&gt; &lt;t&gt;dark&lt;/t&gt;.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FFD700" fgColor="000000" coreType="Extra-Thematic" cBy="CVa" cDate="03/21/2012 10:07:19 PDT Wed" abbrev="" name="Descriptor" ID="15549">
+    <definition>&lt;def-root&gt;A characteristic of the level of light not covered by a more specific frame element.
+
+&lt;ex&gt;The hall was &lt;fex name="Descriptor"&gt;unusually&lt;/fex&gt; &lt;t&gt;dark&lt;/t&gt; when she stepped out of the apartment.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FEcoreSet>
+    <memberFE name="Location" ID="15539"/>
+    <memberFE name="Source" ID="15540"/>
+  </FEcoreSet>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1015">Gradable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+  <lexUnit ID="1600873118815" POS="A" cBy="manual" cDate="09/23/2020 14:58:38 UTC Wed" lemmaID="497" lu_type="singleton" name="zonnig.a" status="Created" FN_EN_LU_ID="16981" Method="Iteration-1" RBN_LU_ID="r_a-16440" RBN_matching_relation="equivalence">
+    <definition>met veel zon</definition>
+    <sentenceCount annotated="0" total="0"/>
+    <lexeme POS="A" breakBefore="false" headword="false" name="zonnig" order="1"/>
+  </lexUnit>
+</frame>

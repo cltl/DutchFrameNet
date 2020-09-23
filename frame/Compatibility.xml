@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/21/2002 11:35:05 PDT Fri" name="Compatibility" ID="360" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;&lt;fen&gt;Item-1&lt;/fen&gt; and &lt;fen&gt;Item-2&lt;/fen&gt; are compatible with each other if they can exist or function together in some context without problems, conflict, or other undesirable situation.  The set of &lt;fen&gt;Item-1&lt;/fen&gt; and &lt;fen&gt;Item-2&lt;/fen&gt; may be expressed jointly as &lt;fen&gt;Items&lt;/fen&gt;. The &lt;fen&gt;Degree&lt;/fen&gt; to which the Items are compatible may also be indicated, as may be a &lt;fen&gt;Parameter&lt;/fen&gt; along whose lines the &lt;fen&gt;Items&lt;/fen&gt; are compatible.
+&lt;ex&gt; Make sure &lt;fex name="Item-1"&gt;your site&lt;/fex&gt; is &lt;t&gt;compatible&lt;/t&gt; &lt;fex name="Item-2"&gt;with any browser&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Items"&gt;Our software applications&lt;/fex&gt;  are &lt;t&gt;compatible&lt;/t&gt;. &lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/24/2002 01:03:46 PDT Mon" abbrev="Item-1" name="Item_1" ID="3191">
+    <definition>&lt;def-root&gt;The Frame Element &lt;fen&gt;Item_1&lt;/fen&gt; marks the grammatically more prominent of the two entities, i.e.the subject in active clauses, when they are expressed separately.
+
+&lt;ex&gt;&lt;fex name="Item_1"&gt;That technology&lt;/fex&gt; turned out not to be &lt;t&gt;compatible&lt;/t&gt; with the existing devices&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <requiresFE name="Item_2" ID="3192"/>
+    <excludesFE name="Items" ID="3193"/>
+  </FE>
+  <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/24/2002 02:28:10 PDT Mon" abbrev="Item-2" name="Item_2" ID="3192">
+    <definition>&lt;def-root&gt;The Frame Element &lt;fen&gt;Item_2&lt;/fen&gt; marks the grammatically less prominent of the &lt;fen&gt;Items&lt;/fen&gt; when they are expressed separately.  &lt;ex&gt;My computer is not &lt;t&gt;compatible&lt;/t&gt; &lt;fex name="Item_2"&gt;with my new printer&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <requiresFE name="Item_1" ID="3191"/>
+    <excludesFE name="Items" ID="3193"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/24/2002 02:30:55 PDT Mon" abbrev="Items" name="Items" ID="3193">
+    <definition>&lt;def-root&gt;This FE is used when the &lt;fen&gt;Items&lt;/fen&gt; are expressed jointly in a phrase, either a plural or a coordinated NP.
+
+&lt;ex&gt;&lt;fex name="Items"&gt;Your socks&lt;/fex&gt; don't &lt;t&gt;match&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt; &lt;fex name="Items"&gt;Creationism and Evolutionary Theory&lt;/fex&gt;  don't &lt;t&gt;jibe&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="06/24/2002 02:33:53 PDT Mon" abbrev="Degr" name="Degree" ID="3194">
+    <definition>&lt;def-root&gt;This Frame Element is used for expressions that indicate the extent to which two &lt;fen&gt;Items&lt;/fen&gt; are compatible.
+&lt;ex&gt;These devices are &lt;fex name="Degree"&gt;absolutely&lt;/fex&gt; &lt;t&gt;compatible&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <semType name="Degree" ID="172"/>
+  </FE>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="06/24/2002 02:49:28 PDT Mon" abbrev="Prmtr" name="Parameter" ID="3195">
+    <definition>&lt;def-root&gt;This Frame Element is used for expressions that indicate a &lt;fen&gt;Parameter&lt;/fen&gt; or respect in which the &lt;fen&gt;Items&lt;/fen&gt; are said to be compatible, not in conflict.
+
+&lt;ex&gt;The two applications are &lt;t&gt;compatible&lt;/t&gt; &lt;fex name="Parameter"&gt;in their essential features&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from">
+    <relatedFrame ID="1015">Gradable_attributes</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses"/>
+  <frameRelation type="Is Used by"/>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>

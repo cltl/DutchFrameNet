@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="07/11/2005 03:01:46 PDT Mon" name="Storing" ID="1550" xsi:schemaLocation="../schema/frame.xsd">
+  <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; has placed a &lt;fen&gt;Theme&lt;/fen&gt; in an accessible but somewhat out of the way &lt;fen&gt;Location&lt;/fen&gt; for the purposes of maintaining it free from harm and illegitimate use while it is not being used.&lt;/def-root&gt;</definition>
+  <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/11/2005 03:01:46 PDT Mon" abbrev="Agt" name="Agent" ID="8442">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Agent&lt;/fen&gt; is the person who has placed the &lt;fen&gt;Theme&lt;/fen&gt; in the &lt;fen&gt;Location&lt;/fen&gt;.
+
+&lt;/def-root&gt;</definition>
+    <semType name="Sentient" ID="5"/>
+  </FE>
+  <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/11/2005 03:01:46 PDT Mon" abbrev="Thm" name="Theme" ID="8443">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Theme&lt;/fen&gt; is the object that is kept in a &lt;fen&gt;Location&lt;/fen&gt; by the &lt;fen&gt;Agent&lt;/fen&gt;&lt;/def-root&gt;</definition>
+    <semType name="Physical_object" ID="68"/>
+  </FE>
+  <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="JKR" cDate="07/11/2005 03:01:46 PDT Mon" abbrev="loc" name="Location" ID="8446">
+    <definition>&lt;def-root&gt;The location where the &lt;fen&gt;Theme&lt;/fen&gt; is kept. Some, though not all, LUs in this frame incorporate this FE.
+&lt;/def-root&gt;</definition>
+    <semType name="Goal" ID="153"/>
+  </FE>
+  <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="07/11/2005 03:01:46 PDT Mon" abbrev="Manr" name="Manner" ID="8447">
+    <definition>&lt;def-root&gt;Any description of the storing state which is not covered by more specific FEs, including general descriptions comparing events (&lt;ment&gt;the same way&lt;/ment&gt;) and salient characteristics of an &lt;fen&gt;Agent&lt;/fen&gt; that also affect the action (&lt;ment&gt;deliberately&lt;/ment&gt;, &lt;ment&gt;carefully&lt;/ment&gt;).
+
+&lt;/def-root&gt;</definition>
+    <semType name="Manner" ID="173"/>
+  </FE>
+  <FE bgColor="FFFF00" fgColor="000000" coreType="Extra-Thematic" cBy="JKR" cDate="07/11/2005 03:01:46 PDT Mon" abbrev="Dep" name="Depictive" ID="8449">
+    <definition>&lt;def-root&gt;This FE identifies any &lt;fen&gt;Depictive&lt;/fen&gt; phrase describing the &lt;fen&gt;Agent&lt;/fen&gt; or &lt;fen&gt;Theme&lt;/fen&gt; of the storing event.
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="FFD700" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="07/11/2005 03:01:46 PDT Mon" abbrev="Duration" name="Duration" ID="8452">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Duration&lt;/fen&gt; is the amount of time for which the &lt;fen&gt;Theme&lt;/fen&gt; remains in the &lt;fen&gt;Location&lt;/fen&gt;.
+&lt;/def-root&gt;</definition>
+    <semType name="Duration" ID="142"/>
+  </FE>
+  <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="07/11/2005 03:01:46 PDT Mon" abbrev="Place" name="Place" ID="8453">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Place&lt;/fen&gt; indicates where the Storing occurs.&lt;/def-root&gt;</definition>
+    <semType name="Locative_relation" ID="182"/>
+  </FE>
+  <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="07/11/2005 03:01:46 PDT Mon" abbrev="exp" name="Explanation" ID="8454">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Explanation&lt;/fen&gt; denotes a proposition from which the storing event logically follows. &lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="07/11/2005 03:01:46 PDT Mon" abbrev="tim" name="Time" ID="8455">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Time&lt;/fen&gt; is the time period during which the &lt;fen&gt;Theme&lt;/fen&gt; is stored.
+
+&lt;/def-root&gt;</definition>
+    <semType name="Time" ID="141"/>
+  </FE>
+  <FE bgColor="808080" fgColor="FFFFFF" coreType="Peripheral" cBy="JKR" cDate="07/11/2005 03:01:46 PDT Mon" abbrev="Area" name="Area" ID="8456">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Area&lt;/fen&gt; is the setting into which a mass &lt;fen&gt;Theme&lt;/fen&gt; is placed.
+
+&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="JKR" cDate="07/11/2005 03:01:46 PDT Mon" abbrev="co-p" name="Co-participant" ID="8457">
+    <definition>&lt;def-root&gt;&lt;fen&gt;Co-participant&lt;/fen&gt; is an entity that participates in a coordinated way in the storing event either as a co-agent or a co-theme.&lt;/def-root&gt;</definition>
+  </FE>
+  <FE bgColor="d0d0d0" fgColor="00008B" coreType="Extra-Thematic" cBy="JKR" cDate="07/11/2005 03:01:46 PDT Mon" abbrev="pur" name="Purpose" ID="8461">
+    <definition>&lt;def-root&gt;An action that the &lt;fen&gt;Agent&lt;/fen&gt; intends to accomplish by perform the storing action.
+
+&lt;/def-root&gt;</definition>
+    <semType name="State_of_affairs" ID="177"/>
+  </FE>
+  <FE bgColor="90876C" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="AlK" cDate="10/14/2008 04:33:20 PDT Tue" abbrev="" name="Frequency" ID="13082">
+    <definition>&lt;def-root&gt;This frame element is defined as the number of times an event occurs per some unit of time. &lt;/def-root&gt;</definition>
+  </FE>
+  <frameRelation type="Inherits from"/>
+  <frameRelation type="Is Inherited by"/>
+  <frameRelation type="Perspective on"/>
+  <frameRelation type="Is Perspectivized in"/>
+  <frameRelation type="Uses">
+    <relatedFrame ID="62">Placing</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Is Used by">
+    <relatedFrame ID="1511">Store</relatedFrame>
+    <relatedFrame ID="1850">Carry_goods</relatedFrame>
+  </frameRelation>
+  <frameRelation type="Subframe of"/>
+  <frameRelation type="Has Subframe(s)"/>
+  <frameRelation type="Precedes"/>
+  <frameRelation type="Is Preceded by"/>
+  <frameRelation type="Is Inchoative of"/>
+  <frameRelation type="Is Causative of"/>
+  <frameRelation type="See also"/>
+</frame>
