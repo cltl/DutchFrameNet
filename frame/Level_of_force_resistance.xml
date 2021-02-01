@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="KmG" cDate="06/04/2008 03:09:43 PDT Wed" name="Level_of_force_resistance" ID="2061" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Resisting_entity&lt;/fen&gt; is capable of resisting or does resist a physical &lt;fen&gt;Opposing_force&lt;/fen&gt; to a level specified by the target. With certain LUs (e.g. &lt;m&gt;impregnable.a&lt;/m&gt;), the &lt;fen&gt;Opposing_force&lt;/fen&gt; FE is incorporated, and with many LUs, it is mostly null instantiated. This frame covers both individual-level/static uses ("the DURABILITY of jade") as well as stage-level/dynamic uses ("the shoulder is PLIABLE after stretching"), although the individual-level meaning is the more basic and is much more prominent in the data. 
 
@@ -98,7 +97,7 @@ Where &lt;fen&gt;Degree&lt;/fen&gt; is expressed by a comparative or superlative
   <frameRelation type="See also">
     <relatedFrame ID="1563">Level_of_force_exertion</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600873115647" POS="N" cBy="manual" cDate="09/23/2020 14:58:35 UTC Wed" lemmaID="496" lu_type="singleton" name="duurzaamheid.n" status="Created" FN_EN_LU_ID="18279" Method="Iteration-1" RBN_LU_ID="r_n-11847" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188430974" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:07:10 UTC Mon" lemmaID="494" lu_type="singleton" name="duurzaamheid.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-11847">
     <definition>waarin iets werkt zoals het hoort</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="duurzaamheid" order="1"/>

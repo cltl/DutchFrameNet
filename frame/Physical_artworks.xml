@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="11/18/2005 11:38:44 PST Fri" name="Physical_artworks" ID="1656" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A physical object, the &lt;fen&gt;Artifact&lt;/fen&gt;, is produced by a &lt;fen&gt;Creator&lt;/fen&gt; to stimulate the perceptions, emotions, or cognition of an audience. Though it need not, in many cases, the created &lt;fen&gt;Artifact&lt;/fen&gt; is intended to represent an actual or imagined entity or event, the &lt;fen&gt;Represented&lt;/fen&gt;. The &lt;fen&gt;Represented&lt;/fen&gt; may be specifically shown in a particular state (&lt;fen&gt;State_of_represented&lt;/fen&gt;).
 
@@ -80,12 +79,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873674162" POS="N" cBy="automatic" cDate="09/23/2020 15:07:54 UTC Wed" lemmaID="668" lu_type="singleton" name="diagram.n" status="Created" FN_EN_LU_ID="12970" Method="Iteration-1" RBN_LU_ID="r_n-10803" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189141734" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:19:01 UTC Mon" lemmaID="666" lu_type="singleton" name="diagram.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-10803">
     <definition>van het verloop van een verschijnsel</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="diagram" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873677315" POS="N" cBy="automatic" cDate="09/23/2020 15:07:57 UTC Wed" lemmaID="669" lu_type="singleton" name="figuur.n" status="Created" FN_EN_LU_ID="12970" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-13202" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189145073" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:19:05 UTC Mon" lemmaID="667" lu_type="singleton" name="figuur.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-13202">
     <definition>ter illustratie of verheldering van een tekst</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="figuur" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="04/11/2005 05:57:34 PDT Mon" name="Required_event" ID="1381" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;Unless a particular &lt;fen&gt;Required_situation&lt;/fen&gt; obtains, &lt;fen&gt;Negative_consequences&lt;/fen&gt; will follow.  Alternatively, the &lt;fen&gt;Required_situation&lt;/fen&gt; is required to achieve a &lt;fen&gt;Purpose&lt;/fen&gt; (which avoids &lt;fen&gt;Negative_consequences&lt;/fen&gt;). A set of &lt;fen&gt;Circumstances&lt;/fen&gt; may be specified under which the requirement holds.
 
@@ -71,22 +70,22 @@ Most, but not all, LUs of this frame are usable in a context that implies a duty
   <frameRelation type="See also">
     <relatedFrame ID="392">Being_obligated</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600873913200" POS="V" cBy="automatic" cDate="09/23/2020 15:11:53 UTC Wed" lemmaID="739" lu_type="singleton" name="overmeesteren.v" status="Created" FN_EN_LU_ID="14360" Method="Iteration-1" RBN_LU_ID="r_v-6040" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189436976" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:23:56 UTC Mon" lemmaID="737" lu_type="singleton" name="overmeesteren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6040">
     <definition>de baas over iemand worden door geweld te gebruiken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="overmeesteren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873916493" POS="V" cBy="automatic" cDate="09/23/2020 15:11:56 UTC Wed" lemmaID="740" lu_type="singleton" name="overrompelen.v" status="Created" FN_EN_LU_ID="14360" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6052" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189441360" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:24:01 UTC Mon" lemmaID="738" lu_type="singleton" name="overrompelen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6052">
     <definition>onverwacht en heftig overvallen (vaak figuurlijk)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="overrompelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873919777" POS="V" cBy="automatic" cDate="09/23/2020 15:11:59 UTC Wed" lemmaID="741" lu_type="singleton" name="overvallen.v" status="Created" FN_EN_LU_ID="14360" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6113" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189447239" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:24:07 UTC Mon" lemmaID="739" lu_type="singleton" name="overvallen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6113">
     <definition>de genoemde plotseling en onverwacht aanvallen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="overvallen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873922957" POS="V" cBy="automatic" cDate="09/23/2020 15:12:02 UTC Wed" lemmaID="742" lu_type="singleton" name="verpletteren.v" status="Created" FN_EN_LU_ID="14360" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9211" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189453350" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:24:13 UTC Mon" lemmaID="740" lu_type="singleton" name="verpletteren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9211">
     <definition>iemand geheel overstelpen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verpletteren" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:00 PST Wed" name="Encoding" ID="35" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A person (&lt;fen&gt;Speaker&lt;/fen&gt;) expresses a &lt;fen&gt;Message&lt;/fen&gt; or mental content, broadly understood, in a particular &lt;fen&gt;Manner&lt;/fen&gt;. The content may be emotional, as in &lt;ex&gt;&lt;fex name="Speaker"&gt;Humans&lt;/fex&gt; &lt;t&gt;express&lt;/t&gt; &lt;fex name="Message"&gt; feelings&lt;/fex&gt; &lt;fex name="Medium"&gt;through words&lt;/fex&gt;&lt;/ex&gt; intellectual, as in &lt;ex&gt;&lt;t&gt;Formulate&lt;/t&gt; &lt;fex name="Message"&gt;the idea&lt;/fex&gt; &lt;fex name="Manner"&gt;carefully&lt;/fex&gt;&lt;/ex&gt;  or linguistic, as in &lt;ex&gt;&lt;t&gt;Phrase&lt;/t&gt; &lt;fex name="Message"&gt;your question&lt;/fex&gt; &lt;fex name="Medium"&gt;as a comment&lt;/fex&gt;.&lt;/ex&gt;
 
@@ -49,17 +48,17 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872577962" POS="V" cBy="manual" cDate="09/23/2020 14:49:37 UTC Wed" lemmaID="329" lu_type="singleton" name="verwoorden.v" status="Created" FN_EN_LU_ID="529" Method="Iteration-2_WN" RBN_LU_ID="r_v-9514" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187696322" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:54:56 UTC Mon" lemmaID="327" lu_type="singleton" name="verwoorden.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9514">
     <definition>onder woorden brengen, in woorden uitdrukken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verwoorden" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872581159" POS="V" cBy="automatic" cDate="09/23/2020 14:49:41 UTC Wed" lemmaID="330" lu_type="singleton" name="vervatten.v" status="Created" FN_EN_LU_ID="532" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9425" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187706807" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:55:06 UTC Mon" lemmaID="328" lu_type="singleton" name="vervatten.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9425">
     <definition>inhouden, omvatten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="vervatten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872584320" POS="V" cBy="automatic" cDate="09/23/2020 14:49:44 UTC Wed" lemmaID="331" lu_type="singleton" name="vertolken.v" status="Created" FN_EN_LU_ID="532" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9397" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187714169" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:55:14 UTC Mon" lemmaID="329" lu_type="singleton" name="vertolken.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9397">
     <definition>tot uiting brengen, onder woorden brengen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="vertolken" order="1"/>

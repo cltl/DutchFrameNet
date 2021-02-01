@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:52 PST Wed" name="Becoming_aware" ID="20" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;Words in this frame have to do with a &lt;fen&gt;Cognizer&lt;/fen&gt; adding some &lt;fen&gt;Phenomenon&lt;/fen&gt; to their model of the world. They are similar to Coming-to-believe words, except the latter generally involve reasoning from Evidence. 
 &lt;ex&gt;&lt;/ex&gt;
@@ -127,22 +126,22 @@ General Grammatical Observations: Passive forms of the verbs in this frame can o
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871536454" POS="V" cBy="automatic" cDate="09/23/2020 14:32:16 UTC Wed" lemmaID="44" lu_type="singleton" name="bespeuren.v" status="Created" FN_EN_LU_ID="4072" Method="Iteration-1" RBN_LU_ID="r_v-1410" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186535700" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:35:35 UTC Mon" lemmaID="44" lu_type="singleton" name="bespeuren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1410">
     <definition>iets bemerken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="bespeuren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871539799" POS="V" cBy="automatic" cDate="09/23/2020 14:32:19 UTC Wed" lemmaID="45" lu_type="singleton" name="bespioneren.v" status="Created" FN_EN_LU_ID="4072" Method="Iteration-1" RBN_LU_ID="r_v-1412" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186538499" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:35:38 UTC Mon" lemmaID="45" lu_type="singleton" name="bespioneren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1412">
     <definition>in het geheim iemands gangen nagaan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="bespioneren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871543513" POS="V" cBy="automatic" cDate="09/23/2020 14:32:23 UTC Wed" lemmaID="46" lu_type="singleton" name="voelen.v" status="Created" FN_EN_LU_ID="4072" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9639" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186541442" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:35:41 UTC Mon" lemmaID="46" lu_type="singleton" name="voelen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9639">
     <definition>met je tastzin waarnemen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="voelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871547116" POS="V" cBy="manual" cDate="09/23/2020 14:32:27 UTC Wed" lemmaID="47" lu_type="singleton" name="beluisteren.v" status="Created" FN_EN_LU_ID="4072" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1278" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186544260" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:35:44 UTC Mon" lemmaID="47" lu_type="singleton" name="beluisteren.v" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1278">
     <definition>met de oren waarnemen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="beluisteren" order="1"/>

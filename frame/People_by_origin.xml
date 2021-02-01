@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="02/20/2004 06:07:14 PST Fri" name="People_by_origin" ID="974" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame contains  words for individuals, i.e. humans, with respect to their &lt;fen&gt;Origin&lt;/fen&gt;. The &lt;fen&gt;Origin&lt;/fen&gt; is generally incorporated, but may occasionally be specified separately.  The &lt;fen&gt;Person&lt;/fen&gt; is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have an &lt;fen&gt;Age&lt;/fen&gt;, &lt;fen&gt;Descriptor&lt;/fen&gt;, &lt;fen&gt;Persistent_characteristic&lt;/fen&gt;, or &lt;fen&gt;Ethnicity&lt;/fen&gt;. 
 
@@ -49,7 +48,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873577351" POS="N" cBy="automatic" cDate="09/23/2020 15:06:17 UTC Wed" lemmaID="638" lu_type="singleton" name="Californiër.n" status="Created" FN_EN_LU_ID="10547" Method="Iteration-1" RBN_LU_ID="r_n-8986" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189026363" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:17:06 UTC Mon" lemmaID="636" lu_type="singleton" name="Californiër.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-8986">
     <definition>van Californië</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="Californiër" order="1"/>

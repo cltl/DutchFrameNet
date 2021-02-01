@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:28 PST Wed" name="Relative_time" ID="81" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;These words relate to the relative ordering of two events or times.  There are two major types of relations evoked by the words of this frame.  
 &lt;ex&gt;&lt;/ex&gt;
@@ -69,17 +68,17 @@ Others (e.g. &lt;ment&gt;belated.a, early.a&lt;/ment&gt;) refer to the change or
   <frameRelation type="See also">
     <relatedFrame ID="379">Time_vector</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600873887609" POS="A" cBy="automatic" cDate="09/23/2020 15:11:27 UTC Wed" lemmaID="731" lu_type="singleton" name="voorafgaand.a" status="Created" FN_EN_LU_ID="1743" Method="Iteration-1" RBN_LU_ID="r_a-16310" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189395519" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:23:15 UTC Mon" lemmaID="729" lu_type="singleton" name="voorafgaand.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16310">
     <definition>vroeger komend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="voorafgaand" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873890800" POS="A" cBy="automatic" cDate="09/23/2020 15:11:30 UTC Wed" lemmaID="732" lu_type="singleton" name="volgend.a" status="Created" FN_EN_LU_ID="1760" Method="Iteration-1" RBN_LU_ID="r_a-16306" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189399997" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:23:20 UTC Mon" lemmaID="730" lu_type="singleton" name="volgend.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16306">
     <definition>wat volgt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="volgend" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873893908" POS="A" cBy="automatic" cDate="09/23/2020 15:11:33 UTC Wed" lemmaID="733" lu_type="singleton" name="voormalig.a" status="Created" FN_EN_LU_ID="12549" Method="Iteration-1" RBN_LU_ID="r_a-16125" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189403424" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:23:23 UTC Mon" lemmaID="731" lu_type="singleton" name="voormalig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16125">
     <definition>vorig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="voormalig" order="1"/>

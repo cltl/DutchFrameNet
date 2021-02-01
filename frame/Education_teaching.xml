@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Tess" cDate="05/23/2001 03:07:57 PDT Wed" name="Education_teaching" ID="111" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame contains words referring to teaching and the participants in teaching.  A &lt;fen&gt;Student&lt;/fen&gt; comes to learn either about a &lt;fen&gt;Subject&lt;/fen&gt;; a &lt;fen&gt;Skill&lt;/fen&gt;; a &lt;fen&gt;Precept&lt;/fen&gt;; or a &lt;fen&gt;Fact&lt;/fen&gt; as a result of instruction by a &lt;fen&gt;Teacher&lt;/fen&gt;.
 
@@ -163,7 +162,7 @@ Phrases expressing &lt;fen&gt;Qualification&lt;/fen&gt; also very often include 
   <frameRelation type="See also">
     <relatedFrame ID="1132">Memorization</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600872509545" POS="N" cBy="manual" cDate="09/23/2020 14:48:29 UTC Wed" lemmaID="307" lu_type="singleton" name="mentor.n" status="Created" FN_EN_LU_ID="2273" Method="Iteration-1" RBN_LU_ID="r_n-23622" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187602071" POS="N" cBy="ThomasKlein" cDate="02/01/2021 13:53:22 UTC Mon" lemmaID="307" lu_type="singleton" name="mentor.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-23622">
     <definition>die een groep leerlingen of studenten begeleidt en helpt bij problemen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="mentor" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="CFB" cDate="06/11/2001 04:01:26 PDT Mon" name="Notification_of_charges" ID="129" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The judge or other court officer (the Authority) informs the &lt;fen&gt;Accused&lt;/fen&gt; of the &lt;fen&gt;Charges&lt;/fen&gt; against him/her, i.e. the alleged actions and the relevant laws.
 &lt;ex&gt;&lt;/ex&gt;
@@ -52,7 +51,7 @@ Compare to: Citing.
   <frameRelation type="See also">
     <relatedFrame ID="2984">Citing</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600873468114" POS="V" cBy="automatic" cDate="09/23/2020 15:04:28 UTC Wed" lemmaID="605" lu_type="phrasal" name="aanklagen.v" status="Created" FN_EN_LU_ID="7941" Method="Iteration-1" RBN_LU_ID="r_v-98" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188908698" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:15:08 UTC Mon" lemmaID="603" lu_type="phrasal" name="aanklagen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-98">
     <definition>bij de bevoegde macht beschuldigen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="aan" order="1"/>

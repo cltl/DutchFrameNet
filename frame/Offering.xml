@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="03/08/2010 11:31:54 PST Mon" name="Offering" ID="2239" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Offerer&lt;/fen&gt; indicates that he or she is able and willing to give a &lt;fen&gt;Theme&lt;/fen&gt; to a &lt;fen&gt;Potential_recipient&lt;/fen&gt;. In the absence of further qualifications, it is often understood that the &lt;fen&gt;Potential_recipient&lt;/fen&gt; accepts the &lt;fen&gt;Theme&lt;/fen&gt;.
 
@@ -69,22 +68,22 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873494040" POS="V" cBy="automatic" cDate="09/23/2020 15:04:54 UTC Wed" lemmaID="613" lu_type="singleton" name="pogen.v" status="Created" FN_EN_LU_ID="15660" Method="Iteration-1" RBN_LU_ID="r_v-6372" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188934577" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:15:34 UTC Mon" lemmaID="611" lu_type="singleton" name="pogen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6372">
     <definition>een inspanning leveren om het genoemde te bereiken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="pogen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873497242" POS="V" cBy="automatic" cDate="09/23/2020 15:04:57 UTC Wed" lemmaID="614" lu_type="singleton" name="zien.v" status="Created" FN_EN_LU_ID="15660" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-10256" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188937837" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:15:37 UTC Mon" lemmaID="612" lu_type="singleton" name="zien.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-10256">
     <definition>proberen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="zien" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873500384" POS="V" cBy="automatic" cDate="09/23/2020 15:05:00 UTC Wed" lemmaID="615" lu_type="singleton" name="proberen.v" status="Created" FN_EN_LU_ID="15660" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6459" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188940798" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:15:40 UTC Mon" lemmaID="613" lu_type="singleton" name="proberen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6459">
     <definition>door iets ermee te doen onderzoeken hoe de of het genoemde uitvalt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="proberen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873503536" POS="V" cBy="automatic" cDate="09/23/2020 15:05:03 UTC Wed" lemmaID="616" lu_type="singleton" name="trachten.v" status="Created" FN_EN_LU_ID="15660" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-8094" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188943845" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:15:43 UTC Mon" lemmaID="614" lu_type="singleton" name="trachten.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8094">
     <definition>een poging ondernemen, proberen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="trachten" order="1"/>

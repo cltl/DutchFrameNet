@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="CVa" cDate="11/15/2012 04:44:47 PST Thu" name="Lending" ID="2781" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The &lt;fen&gt;Lender&lt;/fen&gt; gives the &lt;fen&gt;Theme&lt;/fen&gt; to the &lt;fen&gt;Borrower&lt;/fen&gt; with the expectation that the &lt;fen&gt;Borrower&lt;/fen&gt; will return the &lt;fen&gt;Theme&lt;/fen&gt; to the &lt;fen&gt;Lender&lt;/fen&gt; after a &lt;fen&gt;Duration&lt;/fen&gt; of time.  This frame differs from the Borrowing frame in that this frame profiles the Lender in active sentences, whereas the Borrowing frame profiles the Borrower.
 &lt;ex&gt;&lt;/ex&gt;
@@ -72,7 +71,7 @@ For the time being, this frame includes both the transfer event itself and the e
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873112519" POS="V" cBy="automatic" cDate="09/23/2020 14:58:32 UTC Wed" lemmaID="495" lu_type="singleton" name="lenen.v" status="Created" FN_EN_LU_ID="17181" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4349" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188426817" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:07:06 UTC Mon" lemmaID="493" lu_type="singleton" name="lenen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4349">
     <definition>(iets) tijdelijk afstaan ten gunste van iemand</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="lenen" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="02/08/2002 11:18:01 PST Fri" name="Bungling" ID="266" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; performs an &lt;fen&gt;Action&lt;/fen&gt; incorrectly.  The affected &lt;fen&gt;Patient&lt;/fen&gt; may be mentioned metonymically for the &lt;fen&gt;Action&lt;/fen&gt;.
 
@@ -82,82 +81,82 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871850904" POS="N" cBy="automatic" cDate="09/23/2020 14:37:30 UTC Wed" lemmaID="123" lu_type="singleton" name="stumper.n" status="Created" FN_EN_LU_ID="4847" Method="Iteration-1" RBN_LU_ID="r_n-36471" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186767449" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:39:27 UTC Mon" lemmaID="123" lu_type="singleton" name="stumper.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-36471">
     <definition>die medelijden opwekt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="stumper" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871858397" POS="V" cBy="automatic" cDate="09/23/2020 14:37:38 UTC Wed" lemmaID="124" lu_type="singleton" name="stuntelen.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7659" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186770472" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:39:30 UTC Mon" lemmaID="124" lu_type="singleton" name="stuntelen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7659">
     <definition>onhandig te werk gaan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="stuntelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871862260" POS="V" cBy="automatic" cDate="09/23/2020 14:37:42 UTC Wed" lemmaID="125" lu_type="singleton" name="verknoeien.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9060" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186773630" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:39:33 UTC Mon" lemmaID="125" lu_type="singleton" name="verknoeien.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9060">
     <definition>verkeerd met iets omgaan en het zo bederven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verknoeien" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871866482" POS="V" cBy="automatic" cDate="09/23/2020 14:37:46 UTC Wed" lemmaID="126" lu_type="singleton" name="hannesen.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-3106" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186776624" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:39:36 UTC Mon" lemmaID="126" lu_type="singleton" name="hannesen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3106">
     <definition>onhandig bezig zijn, knoeien, klungelen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="hannesen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871871649" POS="V" cBy="automatic" cDate="09/23/2020 14:37:51 UTC Wed" lemmaID="127" lu_type="singleton" name="verbruien.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-8825" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186779772" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:39:39 UTC Mon" lemmaID="127" lu_type="singleton" name="verbruien.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8825">
     <definition>iets bederven door het verkeerd te behandelen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verbruien" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871877292" POS="V" cBy="manual" cDate="09/23/2020 14:37:57 UTC Wed" lemmaID="128" lu_type="singleton" name="verzieken.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9540" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186782725" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:39:42 UTC Mon" lemmaID="128" lu_type="singleton" name="verzieken.v" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9540">
     <definition>iets door je manier van doen helemaal bederven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verzieken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871881267" POS="V" cBy="automatic" cDate="09/23/2020 14:38:01 UTC Wed" lemmaID="129" lu_type="singleton" name="verpesten.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9202" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186785891" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:39:45 UTC Mon" lemmaID="129" lu_type="singleton" name="verpesten.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9202">
     <definition>verknoeien</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verpesten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871884635" POS="V" cBy="automatic" cDate="09/23/2020 14:38:04 UTC Wed" lemmaID="130" lu_type="singleton" name="verbrodden.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-8820" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186788946" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:39:48 UTC Mon" lemmaID="130" lu_type="singleton" name="verbrodden.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8820">
     <definition>verkeerd met iets omgaan en het zo bederven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verbrodden" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871887957" POS="V" cBy="automatic" cDate="09/23/2020 14:38:07 UTC Wed" lemmaID="131" lu_type="singleton" name="verknollen.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9062" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186792050" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:39:52 UTC Mon" lemmaID="131" lu_type="singleton" name="verknollen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9062">
     <definition>iets bederven of verloren laten gaan door op een verkeerde manier te werk te gaan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verknollen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871891439" POS="V" cBy="automatic" cDate="09/23/2020 14:38:11 UTC Wed" lemmaID="132" lu_type="singleton" name="klunzen.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-3977" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186795093" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:39:55 UTC Mon" lemmaID="132" lu_type="singleton" name="klunzen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3977">
     <definition>je als een kluns gedragen, knoeien</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="klunzen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871895757" POS="V" cBy="automatic" cDate="09/23/2020 14:38:15 UTC Wed" lemmaID="133" lu_type="singleton" name="vergallen.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-8933" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186798253" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:39:58 UTC Mon" lemmaID="133" lu_type="singleton" name="vergallen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8933">
     <definition>door verkeerd te handelen bederven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="vergallen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871900029" POS="V" cBy="automatic" cDate="09/23/2020 14:38:20 UTC Wed" lemmaID="134" lu_type="singleton" name="bederven.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1096" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186801206" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:40:01 UTC Mon" lemmaID="134" lu_type="singleton" name="bederven.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1096">
     <definition>iets te niet doen, zijn waarde doen verliezen, het kapot maken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="bederven" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871903144" POS="V" cBy="manual" cDate="09/23/2020 14:38:23 UTC Wed" lemmaID="135" lu_type="singleton" name="verknallen.v" status="Created" FN_EN_LU_ID="4851" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9055" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186804325" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:40:04 UTC Mon" lemmaID="135" lu_type="singleton" name="verknallen.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9055">
     <definition>iets bederven of verloren laten gaan door op een verkeerde manier te werk te gaan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verknallen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871906529" POS="V" cBy="automatic" cDate="09/23/2020 14:38:26 UTC Wed" lemmaID="136" lu_type="singleton" name="kliederen.v" status="Created" FN_EN_LU_ID="4855" Method="Iteration-1" RBN_LU_ID="r_v-3934" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186807644" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:40:07 UTC Mon" lemmaID="136" lu_type="singleton" name="kliederen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3934">
     <definition>onhandig en slordig te werk gaan met natte stoffen en er daardoor vlekken mee maken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="kliederen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871909991" POS="V" cBy="automatic" cDate="09/23/2020 14:38:29 UTC Wed" lemmaID="137" lu_type="singleton" name="klodderen.v" status="Created" FN_EN_LU_ID="4855" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-3951" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186810693" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:40:10 UTC Mon" lemmaID="137" lu_type="singleton" name="klodderen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3951">
     <definition>onhandig en slordig te werk gaan met natte stoffen en er daardoor vlekken mee maken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="klodderen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871913367" POS="V" cBy="automatic" cDate="09/23/2020 14:38:33 UTC Wed" lemmaID="138" lu_type="singleton" name="kledderen.v" status="Created" FN_EN_LU_ID="4855" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-3906" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186814096" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:40:14 UTC Mon" lemmaID="138" lu_type="singleton" name="kledderen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3906">
     <definition>onhandig en slordig te werk gaan met verf, water, eten e.d.</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="kledderen" order="1"/>

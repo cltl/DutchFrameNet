@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="06/09/2003 11:45:47 PDT Mon" name="Ride_vehicle" ID="690" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame a &lt;fen&gt;Theme&lt;/fen&gt; is moved by a &lt;fen&gt;Vehicle&lt;/fen&gt; which is not directly under their power. The &lt;fen&gt;Source&lt;/fen&gt;, &lt;fen&gt;Path&lt;/fen&gt;, &lt;fen&gt;Goal&lt;/fen&gt;, or &lt;fen&gt;Area&lt;/fen&gt; of the motion may be indicated. The &lt;fen&gt;Distance&lt;/fen&gt; traveled or the &lt;fen&gt;Speed&lt;/fen&gt; of motion may also be indicated. A &lt;fen&gt;Route&lt;/fen&gt; or &lt;fen&gt;Road&lt;/fen&gt;may be present and the &lt;fen&gt;Manner&lt;/fen&gt; in which the &lt;fen&gt;Theme&lt;/fen&gt; moves may be given.
 &lt;ex&gt;&lt;fex name="Theme"&gt;Mrs. Smith&lt;/fex&gt; &lt;t&gt;rode&lt;/t&gt; &lt;fex name="Vehicle"&gt;on the train&lt;/fex&gt;.&lt;/ex&gt;
@@ -109,12 +108,12 @@ There is shared vocabulary between this frame and Carrying and Operate_vehicle. 
     <relatedFrame ID="7">Motion</relatedFrame>
     <relatedFrame ID="2890">Spatial_contact</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600873939254" POS="N" cBy="automatic" cDate="09/23/2020 15:12:19 UTC Wed" lemmaID="747" lu_type="singleton" name="cruise.n" status="Created" FN_EN_LU_ID="13479" Method="Iteration-1" RBN_LU_ID="r_n-10194" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189475606" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:24:35 UTC Mon" lemmaID="745" lu_type="singleton" name="cruise.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-10194">
     <definition>met een zeeschip voorzien van alle luxe en comfort</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="cruise" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873942474" POS="N" cBy="automatic" cDate="09/23/2020 15:12:22 UTC Wed" lemmaID="748" lu_type="singleton" name="varen.n" status="Created" FN_EN_LU_ID="13479" Method="Iteration-1" RBN_LU_ID="r_n-39598" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189479937" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:24:39 UTC Mon" lemmaID="746" lu_type="singleton" name="varen.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-39598">
     <definition>die zich voortplant door middel van sporen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="varen" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="04/05/2002 08:55:57 PST Fri" name="Body_decoration" ID="299" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame concerns the decorations that human beings have on or apply to their bodies.
 &lt;ex&gt;&lt;fex name="Dec_ind"&gt;Abby&lt;/fex&gt; rarely wears &lt;fex name="Decoration"&gt;&lt;t&gt;lipstick&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
@@ -52,12 +51,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871663216" POS="N" cBy="automatic" cDate="09/23/2020 14:34:23 UTC Wed" lemmaID="78" lu_type="singleton" name="mascara.n" status="Created" FN_EN_LU_ID="5614" Method="Iteration-1" RBN_LU_ID="r_n-23290" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186632934" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:37:12 UTC Mon" lemmaID="78" lu_type="singleton" name="mascara.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-23290">
     <definition>om je wimpers mee te kleuren, meestal donker van kleur</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="mascara" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871666606" POS="N" cBy="automatic" cDate="09/23/2020 14:34:26 UTC Wed" lemmaID="79" lu_type="singleton" name="lipstick.n" status="Created" FN_EN_LU_ID="5619" Method="Iteration-1" RBN_LU_ID="r_n-22346" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186635841" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:37:15 UTC Mon" lemmaID="79" lu_type="singleton" name="lipstick.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-22346">
     <definition>voor op de lippen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="lipstick" order="1"/>

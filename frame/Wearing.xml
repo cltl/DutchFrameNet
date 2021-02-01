@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Shw" cDate="07/04/2001 05:06:17 PDT Wed" name="Wearing" ID="160" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The words in this frame refer to what &lt;fen&gt;Clothing&lt;/fen&gt; the &lt;fen&gt;Wearer&lt;/fen&gt; (or a specific &lt;fen&gt;Body_part&lt;/fen&gt; of the &lt;fen&gt;Wearer&lt;/fen&gt;) has on.
 
@@ -100,7 +99,7 @@ The location that the &lt;fen&gt;Wearer&lt;/fen&gt; exits while wearing the &lt;
   <frameRelation type="See also">
     <relatedFrame ID="2890">Spatial_contact</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600874567634" POS="A" cBy="automatic" cDate="09/23/2020 15:22:47 UTC Wed" lemmaID="936" lu_type="singleton" name="bloot.a" status="Created" FN_EN_LU_ID="3738" Method="Iteration-1" RBN_LU_ID="r_a-9346" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190196267" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:36:36 UTC Mon" lemmaID="934" lu_type="singleton" name="bloot.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9346">
     <definition>naakt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="bloot" order="1"/>

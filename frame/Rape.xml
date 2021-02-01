@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="HCB" cDate="06/08/2001 02:59:03 PDT Fri" name="Rape" ID="127" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The words in this frame describe situations in which the &lt;fen&gt;Perpetrator&lt;/fen&gt; has sexual intercourse with the &lt;fen&gt;Victim&lt;/fen&gt; forcibly (or by threatening the use of force) and without his or her consent.
 &lt;ex&gt;&lt;/ex&gt;
@@ -80,7 +79,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873864275" POS="N" cBy="automatic" cDate="09/23/2020 15:11:04 UTC Wed" lemmaID="724" lu_type="singleton" name="verkrachter.n" status="Created" FN_EN_LU_ID="2621" Method="Iteration-1" RBN_LU_ID="r_n-40232" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189368593" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:22:48 UTC Mon" lemmaID="722" lu_type="singleton" name="verkrachter.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-40232">
     <definition>die iemand met geweld dwingt tot geslachtsgemeenschap</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="verkrachter" order="1"/>

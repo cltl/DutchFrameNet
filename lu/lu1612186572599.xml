@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="A" name="irrelevant.a" ID="1612186572599" frame="Being_relevant" frameID="2530" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12013" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Cognizer"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Endeavor"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Phenomenon"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="spec" name="Specification"/>
+    </frame>
+  </header>
+  <definition>niet relevant</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="irrelevant" order="1"/>
+</lexUnit>

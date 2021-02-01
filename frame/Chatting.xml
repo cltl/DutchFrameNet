@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="11/26/2003 03:11:04 PST Wed" name="Chatting" ID="910" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A group of people (the &lt;fen&gt;Interlocutors&lt;/fen&gt; or &lt;fen&gt;Interlocutor_1&lt;/fen&gt; and &lt;fen&gt;Interlocutor_2&lt;/fen&gt; together) have a conversation.  No person is construed as only a speaker or only an addressee. Rather, it is understood that both (or all) participants do some speaking and some listening--the process is understood to be symmetrical or reciprocal.  In this frame, the purpose of the conversation is generally social, rather than specifically to decide something or exchange information, or to quarrel (see Discussion and Quarreling).
 
@@ -96,32 +95,32 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872063417" POS="V" cBy="manual" cDate="09/23/2020 14:41:03 UTC Wed" lemmaID="182" lu_type="singleton" name="babbelen.v" status="Created" FN_EN_LU_ID="9950" Method="Iteration-1" RBN_LU_ID="r_v-1025" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186961060" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:42:41 UTC Mon" lemmaID="182" lu_type="singleton" name="babbelen.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1025">
     <definition>gezellig praten over onbelangrijke dingen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="babbelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872071229" POS="V" cBy="automatic" cDate="09/23/2020 14:41:11 UTC Wed" lemmaID="183" lu_type="singleton" name="chatten.v" status="Created" FN_EN_LU_ID="9950" Method="Iteration-1" RBN_LU_ID="r_v-10433" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186964134" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:42:44 UTC Mon" lemmaID="183" lu_type="singleton" name="chatten.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-10433">
     <definition>rechtstreeks on line communiceren via het internet</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="chatten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872076061" POS="V" cBy="manual" cDate="09/23/2020 14:41:16 UTC Wed" lemmaID="184" lu_type="singleton" name="hebben.v" status="Created" FN_EN_LU_ID="9974" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-3128" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186967337" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:42:47 UTC Mon" lemmaID="184" lu_type="singleton" name="hebben.v" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3128">
     <definition>over iets praten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="hebben" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872079751" POS="V" cBy="manual" cDate="09/23/2020 14:41:19 UTC Wed" lemmaID="185" lu_type="singleton" name="praten.v" status="Created" FN_EN_LU_ID="9974" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6418" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186970566" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:42:50 UTC Mon" lemmaID="185" lu_type="singleton" name="praten.v" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6418">
     <definition>met elkaar spreken over een bepaald onderwerp, een gesprek voeren</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="praten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872083262" POS="V" cBy="manual" cDate="09/23/2020 14:41:23 UTC Wed" lemmaID="186" lu_type="singleton" name="spreken.v" status="Created" FN_EN_LU_ID="9974" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7407" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186973728" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:42:53 UTC Mon" lemmaID="186" lu_type="singleton" name="spreken.v" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7407">
     <definition>praten met</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="spreken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872086399" POS="V" cBy="manual" cDate="09/23/2020 14:41:26 UTC Wed" lemmaID="187" lu_type="singleton" name="kwebbelen.v" status="Created" FN_EN_LU_ID="11138" Method="Iteration-1" RBN_LU_ID="r_v-4235" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186976964" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:42:56 UTC Mon" lemmaID="187" lu_type="singleton" name="kwebbelen.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4235">
     <definition>veel en druk praten over onbelangrijke dingen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="kwebbelen" order="1"/>

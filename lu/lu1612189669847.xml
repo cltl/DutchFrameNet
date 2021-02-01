@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="A" name="lijvig.a" ID="1612189669847" frame="Size" frameID="2282" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12215" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core-Unexpressed" abbrev="" name="Dimension"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Entity"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="" name="Standard"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Extra-Thematic" abbrev="" name="Subregion"/>
+    </frame>
+  </header>
+  <definition>dik</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="lijvig" order="1"/>
+</lexUnit>

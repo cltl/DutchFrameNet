@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:56 PST Wed" name="Judgment" ID="28" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; makes a judgment about an &lt;fen&gt;Evaluee&lt;/fen&gt;. The judgment may be positive (e.g. &lt;ment&gt;respect&lt;/ment&gt;) or negative (e.g. &lt;ment&gt;condemn&lt;/ment&gt;), and this information is recorded in the semantic types Positive and Negative on the Lexical Units of this frame. There may be a specific &lt;fen&gt;Reason&lt;/fen&gt; for the &lt;fen&gt;Cognizer&lt;/fen&gt;'s judgment, or there may be a capacity or &lt;fen&gt;Role&lt;/fen&gt; in which the &lt;fen&gt;Evaluee&lt;/fen&gt; is judged. 
 &lt;ex&gt;&lt;/ex&gt;
@@ -83,12 +82,12 @@ Currently, however, some lexical units and annotation for both remain in this fr
   <frameRelation type="See also">
     <relatedFrame ID="219">Judgment_communication</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600872976507" POS="A" cBy="automatic" cDate="09/23/2020 14:56:16 UTC Wed" lemmaID="453" lu_type="singleton" name="minachtend.a" status="Created" FN_EN_LU_ID="364" Method="Iteration-1" RBN_LU_ID="r_a-12876" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188239796" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:03:59 UTC Mon" lemmaID="451" lu_type="singleton" name="minachtend.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12876">
     <definition>met minachting</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="minachtend" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872979663" POS="N" cBy="automatic" cDate="09/23/2020 14:56:19 UTC Wed" lemmaID="454" lu_type="singleton" name="accolade.n" status="Created" FN_EN_LU_ID="4167" Method="Iteration-1" RBN_LU_ID="r_n-2541" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188243269" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:04:03 UTC Mon" lemmaID="452" lu_type="singleton" name="accolade.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-2541">
     <definition>in schrift of druk dat regels verbindt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="accolade" order="1"/>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="A" name="ongewijzigd.a" ID="1612186957952" frame="Change_post-state" frameID="3011" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13544" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Entity" name="Entity"/>
+    </frame>
+  </header>
+  <definition>onveranderd</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="ongewijzigd" order="1"/>
+</lexUnit>

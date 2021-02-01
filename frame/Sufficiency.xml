@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="06/03/2002 06:16:06 PDT Mon" name="Sufficiency" ID="342" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Item&lt;/fen&gt; is located on a &lt;fen&gt;Scale&lt;/fen&gt; relative to a critical value which is determined by some &lt;fen&gt;Enabled_situation&lt;/fen&gt;. Generally, when the &lt;fen&gt;Enabled_situation&lt;/fen&gt; is left unexpressed the &lt;fen&gt;Enabled_situation&lt;/fen&gt; is interpreted to be the desirability of the &lt;fen&gt;Item&lt;/fen&gt; being located within a particular range on the &lt;fen&gt;Scale&lt;/fen&gt;. With many of the adjectives of this frame, the &lt;fen&gt;Scale&lt;/fen&gt; is not explicitly mentioned; in such cases, the &lt;fen&gt;Scale&lt;/fen&gt; is usually the quantity, incorporated in the meaning of the targets themselves, though in the case of &lt;t&gt;adequacy&lt;/t&gt;, etc. the &lt;fen&gt;Scale&lt;/fen&gt; referred to is quality.
 
@@ -52,12 +51,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874328538" POS="N" cBy="automatic" cDate="09/23/2020 15:18:48 UTC Wed" lemmaID="863" lu_type="singleton" name="voldoende.n" status="Created" FN_EN_LU_ID="5980" Method="Iteration-1" RBN_LU_ID="r_n-41403" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189956773" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:32:36 UTC Mon" lemmaID="861" lu_type="singleton" name="voldoende.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-41403">
     <definition>dat gelijk is aan of hoger dan het minimaal vereiste cijfer (gewoonlijk een 6 of hoger)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="voldoende" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874331845" POS="A" cBy="automatic" cDate="09/23/2020 15:18:51 UTC Wed" lemmaID="864" lu_type="singleton" name="voldoende.a" status="Created" FN_EN_LU_ID="5982" Method="Iteration-1" RBN_LU_ID="r_a-16305" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189960051" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:32:40 UTC Mon" lemmaID="862" lu_type="singleton" name="voldoende.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16305">
     <definition>toereikend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="voldoende" order="1"/>

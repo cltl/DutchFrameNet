@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="A" name="kenmerkend.a" ID="1612187555902" frame="Distinctiveness" frameID="1133" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12413" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Extra-Thematic" abbrev="" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Extra-Thematic" abbrev="dur" name="Duration"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="ent" name="Entity"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="fea" name="Feature"/>
+    </frame>
+  </header>
+  <definition>typerend</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="kenmerkend" order="1"/>
+</lexUnit>

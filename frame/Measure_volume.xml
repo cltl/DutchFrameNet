@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/30/2001 11:55:21 PDT Sat" name="Measure_volume" ID="155" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame is concerned with nouns that denote &lt;fen&gt;Unit&lt;/fen&gt;s of measurement for volumes. The Frame Elements are &lt;fen&gt;Unit&lt;/fen&gt;, &lt;fen&gt;Count&lt;/fen&gt;,  &lt;fen&gt;Stuff&lt;/fen&gt;, and &lt;fen&gt;Size&lt;/fen&gt;. The frame will be split soon into container-derived volumes (box, bottle etc.) and pure volumes (gallon, quart). For the moment we tag things as follows:
 &lt;ex&gt;Greg drank &lt;fex name="Count"&gt;two&lt;/fex&gt; &lt;fex name="Size"&gt;2 liter&lt;/fex&gt; &lt;t&gt;&lt;fex name="Unit"&gt;bottles&lt;/fex&gt;&lt;/t&gt; &lt;fex name="Stuff"&gt;of lemonade&lt;/fex&gt;.&lt;/ex&gt;
@@ -44,12 +43,12 @@ For the present, we prefer not to annotate "many cups of coffee"
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873219292" POS="N" cBy="automatic" cDate="09/23/2020 15:00:19 UTC Wed" lemmaID="528" lu_type="singleton" name="lepel.n" status="Created" FN_EN_LU_ID="2838" Method="Iteration-1" RBN_LU_ID="r_n-21847" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188599322" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:09:59 UTC Mon" lemmaID="526" lu_type="singleton" name="lepel.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-21847">
     <definition>om min of meer vloeibare stoffen als soep of pap mee te eten, eten op te scheppen of om te roeren</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="lepel" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873222275" POS="N" cBy="automatic" cDate="09/23/2020 15:00:22 UTC Wed" lemmaID="529" lu_type="singleton" name="plateau.n" status="Created" FN_EN_LU_ID="3422" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-78986" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188604199" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:10:04 UTC Mon" lemmaID="527" lu_type="singleton" name="plateau.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-78986">
     <definition>waarop men iets presenteert</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="plateau" order="1"/>

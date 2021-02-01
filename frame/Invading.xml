@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="KmG" cDate="02/27/2008 04:09:28 PST Wed" name="Invading" ID="2022" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The &lt;fen&gt;Invader&lt;/fen&gt; enters a &lt;fex name="Land"&gt;Land&lt;/fex&gt; in an aggressive attempt to cripple or dominate its people and its government.
 
@@ -129,7 +128,7 @@ Form: once, twice, Cardinal expression + /it times, /it lots/a lot &lt;/def-root
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872960311" POS="N" cBy="automatic" cDate="09/23/2020 14:56:00 UTC Wed" lemmaID="448" lu_type="singleton" name="indringer.n" status="Created" FN_EN_LU_ID="15920" Method="Iteration-1" RBN_LU_ID="r_n-17811" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188219270" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:03:39 UTC Mon" lemmaID="446" lu_type="singleton" name="indringer.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-17811">
     <definition>die zich met geweld of list ergens toegang verschaft</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="indringer" order="1"/>

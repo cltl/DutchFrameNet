@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:50 PST Wed" name="Manipulation" ID="17" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The words in this frame describe the manipulation of an &lt;fen&gt;Entity&lt;/fen&gt; by an &lt;fen&gt;Agent&lt;/fen&gt;.  Generally, this implies that the &lt;fen&gt;Entity&lt;/fen&gt; is not deeply or permanently physically affected, nor is it overall moved from one place to another.
 
@@ -107,17 +106,17 @@ A number of lexemes listed in this frame also occur in the Cause_motion frame (f
   <frameRelation type="See also">
     <relatedFrame ID="55">Cause_motion</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600873203246" POS="V" cBy="automatic" cDate="09/23/2020 15:00:03 UTC Wed" lemmaID="523" lu_type="singleton" name="strelen.v" status="Created" FN_EN_LU_ID="11005" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7593" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188578765" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:09:38 UTC Mon" lemmaID="521" lu_type="singleton" name="strelen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7593">
     <definition>zachtjes met je handen over iets of iemand heen gaan om hem, haar of het een goed gevoel te geven (ook figuurlijk)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="strelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873206324" POS="V" cBy="automatic" cDate="09/23/2020 15:00:06 UTC Wed" lemmaID="524" lu_type="singleton" name="aaien.v" status="Created" FN_EN_LU_ID="11005" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188583198" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:09:43 UTC Mon" lemmaID="522" lu_type="singleton" name="aaien.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1">
     <definition>zacht met de hand ergens overheen strijken om een aangenaam gevoel op te wekken of als uiting van tederheid</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="aaien" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873209349" POS="V" cBy="automatic" cDate="09/23/2020 15:00:09 UTC Wed" lemmaID="525" lu_type="singleton" name="vrijen.v" status="Created" FN_EN_LU_ID="11005" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9849" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188586965" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:09:46 UTC Mon" lemmaID="523" lu_type="singleton" name="vrijen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9849">
     <definition>je liefde uiten door lichamelijk contact, bijv. door te zoenen of te strelen, of (soms ook) door geslachtsgemeenschap</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="vrijen" order="1"/>

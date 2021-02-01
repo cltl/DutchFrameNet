@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="09/27/2002 01:57:02 PDT Fri" name="Importance" ID="407" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Factor&lt;/fen&gt; affects the outcome of an &lt;fen&gt;Undertaking&lt;/fen&gt;, which  can be a goal-oriented activity or the maintenance of a desirable state, the work in a &lt;fen&gt;Field&lt;/fen&gt;, or something portrayed as affecting an &lt;fen&gt;Interested_party&lt;/fen&gt;. A &lt;fen&gt;Reason&lt;/fen&gt; may be given for the importance of the &lt;fen&gt;Factor&lt;/fen&gt;. The &lt;fen&gt;Degree&lt;/fen&gt; of importance may also be specified.
 
@@ -70,22 +69,22 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872906286" POS="A" cBy="automatic" cDate="09/23/2020 14:55:06 UTC Wed" lemmaID="431" lu_type="singleton" name="cruciaal.a" status="Created" FN_EN_LU_ID="7522" Method="Iteration-1" RBN_LU_ID="r_a-9794" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188134050" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:02:14 UTC Mon" lemmaID="429" lu_type="singleton" name="cruciaal.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9794">
     <definition>beslissend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="cruciaal" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872909395" POS="A" cBy="automatic" cDate="09/23/2020 14:55:09 UTC Wed" lemmaID="432" lu_type="singleton" name="geruim.a" status="Created" FN_EN_LU_ID="13251" Method="Iteration-1" RBN_LU_ID="r_a-11016" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188138441" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:02:18 UTC Mon" lemmaID="430" lu_type="singleton" name="geruim.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11016">
     <definition>vrij lang</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="geruim" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872912513" POS="A" cBy="automatic" cDate="09/23/2020 14:55:12 UTC Wed" lemmaID="433" lu_type="singleton" name="beduidend.a" status="Created" FN_EN_LU_ID="13251" Method="Iteration-1" RBN_LU_ID="r_a-9167" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188141918" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:02:21 UTC Mon" lemmaID="431" lu_type="singleton" name="beduidend.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9167">
     <definition>aanzienlijk</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="beduidend" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872915839" POS="A" cBy="automatic" cDate="09/23/2020 14:55:15 UTC Wed" lemmaID="434" lu_type="singleton" name="aanmerkelijk.a" status="Created" FN_EN_LU_ID="13251" Method="Iteration-1" RBN_LU_ID="r_a-8669" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188145365" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:02:25 UTC Mon" lemmaID="432" lu_type="singleton" name="aanmerkelijk.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-8669">
     <definition>aanzienlijk</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="aanmerkelijk" order="1"/>

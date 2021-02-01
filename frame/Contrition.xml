@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="07/25/2002 01:51:02 PDT Thu" name="Contrition" ID="382" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Experiencer&lt;/fen&gt; feels bad about a choice, an &lt;fen&gt;Action&lt;/fen&gt;, or a failure to do something, which they now consider to have been a mistake or wrong. The emotional state of the &lt;fen&gt;Experiencer&lt;/fen&gt; may be showing in gestures or facial expressions, viz. an &lt;fen&gt;Expressor&lt;/fen&gt;.
 
@@ -67,12 +66,12 @@
   <frameRelation type="See also">
     <relatedFrame ID="1110">Guilt_or_innocence</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600872407282" POS="N" cBy="automatic" cDate="09/23/2020 14:46:47 UTC Wed" lemmaID="274" lu_type="singleton" name="boetedoening.n" status="Created" FN_EN_LU_ID="6807" Method="Iteration-1" RBN_LU_ID="r_n-7878" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187475081" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:51:15 UTC Mon" lemmaID="274" lu_type="singleton" name="boetedoening.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-7878">
     <definition>voor begane zonden, bijvoorbeeld door bidden, vasten en onthouding</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="boetedoening" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872410612" POS="N" cBy="automatic" cDate="09/23/2020 14:46:50 UTC Wed" lemmaID="275" lu_type="singleton" name="inkeer.n" status="Created" FN_EN_LU_ID="6807" Method="Iteration-1" RBN_LU_ID="r_n-17920" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187479047" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:51:19 UTC Mon" lemmaID="275" lu_type="singleton" name="inkeer.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-17920">
     <definition>over iets dat je verkeerd gedaan hebt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="inkeer" order="1"/>

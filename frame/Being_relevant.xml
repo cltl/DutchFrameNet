@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="AlK" cDate="04/29/2011 02:44:09 PDT Fri" name="Being_relevant" ID="2530" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Phenomenon&lt;/fen&gt; is related to some cognitive action, the &lt;fen&gt;Endeavor&lt;/fen&gt;, of a &lt;fen&gt;Cognizer&lt;/fen&gt;. In many LUs, the &lt;fen&gt;Cognizer&lt;/fen&gt; is null-instantiated and implied as being the speaker or another participant of the &lt;fen&gt;Endeavor&lt;/fen&gt;.
 
@@ -39,12 +38,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871582477" POS="A" cBy="automatic" cDate="09/23/2020 14:33:02 UTC Wed" lemmaID="56" lu_type="singleton" name="relevant.a" status="Created" FN_EN_LU_ID="16301" Method="Iteration-1" RBN_LU_ID="r_a-14570" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186569854" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:36:09 UTC Mon" lemmaID="56" lu_type="singleton" name="relevant.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-14570">
     <definition>van belang</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="relevant" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871586480" POS="A" cBy="automatic" cDate="09/23/2020 14:33:06 UTC Wed" lemmaID="57" lu_type="singleton" name="irrelevant.a" status="Created" FN_EN_LU_ID="16302" Method="Iteration-1" RBN_LU_ID="r_a-12013" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186572599" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:36:12 UTC Mon" lemmaID="57" lu_type="singleton" name="irrelevant.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12013">
     <definition>niet relevant</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="irrelevant" order="1"/>

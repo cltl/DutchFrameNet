@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:16 PST Wed" name="Placing" ID="62" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;Generally without overall (translational) motion,  an &lt;fen&gt;Agent&lt;/fen&gt; places a &lt;fen&gt;Theme&lt;/fen&gt; at a location, the &lt;fen&gt;Goal&lt;/fen&gt;, which is profiled.  In this frame, the &lt;fen&gt;Theme&lt;/fen&gt; is under the control of the &lt;fen&gt;Agent&lt;/fen&gt;/&lt;fen&gt;Cause&lt;/fen&gt; at the time of its arrival at the &lt;fen&gt;Goal&lt;/fen&gt;. 
 &lt;ex&gt;&lt;fex name="Agent"&gt;David&lt;/fex&gt; &lt;t&gt;placed&lt;/t&gt; &lt;fex name="Theme"&gt;his briefcase&lt;/fex&gt; &lt;fex name="Goal"&gt;on the floor&lt;/fex&gt;.&lt;/ex&gt;
@@ -150,28 +149,28 @@ This frame differs from Filling in that it focuses on the &lt;fen&gt;Theme&lt;/f
     <relatedFrame ID="59">Filling</relatedFrame>
     <relatedFrame ID="55">Cause_motion</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600873680589" POS="V" cBy="automatic" cDate="09/23/2020 15:08:00 UTC Wed" lemmaID="670" lu_type="phrasal" name="opbergen.v" status="Created" FN_EN_LU_ID="1110" Method="Iteration-1" RBN_LU_ID="r_v-5421" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189148397" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:19:08 UTC Mon" lemmaID="668" lu_type="phrasal" name="opbergen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-5421">
     <definition>het genoemde ergens in stoppen, bijv. in een kast of een la</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="op" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="bergen" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600873683906" POS="V" cBy="automatic" cDate="09/23/2020 15:08:03 UTC Wed" lemmaID="671" lu_type="singleton" name="inkwartieren.v" status="Created" FN_EN_LU_ID="2435" Method="Iteration-1" RBN_LU_ID="r_v-3453" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189152275" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:19:12 UTC Mon" lemmaID="669" lu_type="singleton" name="inkwartieren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3453">
     <definition>(militairen) in de huizen van burgers laten wonen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="inkwartieren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873687134" POS="V" cBy="automatic" cDate="09/23/2020 15:08:07 UTC Wed" lemmaID="672" lu_type="singleton" name="kooien.v" status="Created" FN_EN_LU_ID="2443" Method="Iteration-1" RBN_LU_ID="r_v-4099" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189155443" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:19:15 UTC Mon" lemmaID="670" lu_type="singleton" name="kooien.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4099">
     <definition>in een kooi sluiten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="kooien" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873690347" POS="V" cBy="automatic" cDate="09/23/2020 15:08:10 UTC Wed" lemmaID="673" lu_type="singleton" name="stallen.v" status="Created" FN_EN_LU_ID="2454" Method="Iteration-1" RBN_LU_ID="r_v-7444" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189158738" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:19:18 UTC Mon" lemmaID="671" lu_type="singleton" name="stallen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7444">
     <definition>(auto, fiets etc.) in een garage of andere bewaarplaats zetten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="stallen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873693594" POS="V" cBy="automatic" cDate="09/23/2020 15:08:13 UTC Wed" lemmaID="674" lu_type="phrasal" name="oppotten.v" status="Created" FN_EN_LU_ID="3913" Method="Iteration-1" RBN_LU_ID="r_v-5720" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189162133" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:19:22 UTC Mon" lemmaID="672" lu_type="phrasal" name="oppotten.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-5720">
     <definition>angstvallig bewaren, niet uitgeven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="op" order="1"/>

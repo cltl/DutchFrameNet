@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="04/06/2007 06:27:27 PDT Fri" name="Ineffability" ID="1930" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Stimulus&lt;/fen&gt; inspires a feeling of awe and interest in a (generally implicit or generic) &lt;fen&gt;Experiencer&lt;/fen&gt; due to desirable qualities which are difficult to explain.  Alternatively, the &lt;fen&gt;Attribute&lt;/fen&gt; of the &lt;fen&gt;Stimulus&lt;/fen&gt; may be described instead.
 
@@ -50,7 +49,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872925331" POS="A" cBy="automatic" cDate="09/23/2020 14:55:25 UTC Wed" lemmaID="437" lu_type="singleton" name="feeëriek.a" status="Created" FN_EN_LU_ID="14379" Method="Iteration-1" RBN_LU_ID="r_a-10651" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188162677" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:02:42 UTC Mon" lemmaID="435" lu_type="singleton" name="feeëriek.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-10651">
     <definition>sprookjesachtig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="feeëriek" order="1"/>

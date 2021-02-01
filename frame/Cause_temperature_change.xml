@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="05/31/2002 11:45:09 PDT Fri" name="Cause_temperature_change" ID="334" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame, an &lt;fen&gt;Agent&lt;/fen&gt; changes the temperature of an &lt;fen&gt;Item&lt;/fen&gt;.  A &lt;fen&gt;Temperature_goal&lt;/fen&gt; can specify the desired temperature.  A &lt;fen&gt;Temperature_change&lt;/fen&gt; can also be indicated.  The &lt;fen&gt;Temperature_start&lt;/fen&gt; indicates the initial temperature.
 
@@ -114,27 +113,27 @@
     <relatedFrame ID="797">Change_of_temperature</relatedFrame>
   </frameRelation>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872014069" POS="V" cBy="manual" cDate="09/23/2020 14:40:14 UTC Wed" lemmaID="167" lu_type="singleton" name="verkillen.v" status="Created" FN_EN_LU_ID="6082" Method="Iteration-1" RBN_LU_ID="r_v-9043" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186912985" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:41:52 UTC Mon" lemmaID="167" lu_type="singleton" name="verkillen.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9043">
     <definition>meer en meer kil worden, warmte verliezen (ook figuurlijk)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verkillen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872017303" POS="V" cBy="automatic" cDate="09/23/2020 14:40:17 UTC Wed" lemmaID="168" lu_type="singleton" name="verfrissen.v" status="Created" FN_EN_LU_ID="6082" Method="Iteration-1" RBN_LU_ID="r_v-8926" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186916032" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:41:56 UTC Mon" lemmaID="168" lu_type="singleton" name="verfrissen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8926">
     <definition>(opnieuw) fris doen worden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verfrissen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872020276" POS="V" cBy="automatic" cDate="09/23/2020 14:40:20 UTC Wed" lemmaID="169" lu_type="singleton" name="verkwikken.v" status="Created" FN_EN_LU_ID="6082" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9089" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186919440" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:41:59 UTC Mon" lemmaID="169" lu_type="singleton" name="verkwikken.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9089">
     <definition>iemand weer fit en fris maken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verkwikken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872023417" POS="V" cBy="automatic" cDate="09/23/2020 14:40:23 UTC Wed" lemmaID="170" lu_type="singleton" name="bekoelen.v" status="Created" FN_EN_LU_ID="6082" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1222" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186922775" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:42:02 UTC Mon" lemmaID="170" lu_type="singleton" name="bekoelen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1222">
     <definition>koeler worden (ook figuurlijk)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="bekoelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872026431" POS="V" cBy="automatic" cDate="09/23/2020 14:40:26 UTC Wed" lemmaID="171" lu_type="singleton" name="luwen.v" status="Created" FN_EN_LU_ID="6082" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4512" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186926181" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:42:06 UTC Mon" lemmaID="171" lu_type="singleton" name="luwen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4512">
     <definition>minder sterk of hevig worden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="luwen" order="1"/>

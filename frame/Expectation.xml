@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:56 PST Wed" name="Expectation" ID="26" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;Words in this frame have to do with a &lt;fen&gt;Cognizer&lt;/fen&gt; believing that some &lt;fen&gt;Phenomenon&lt;/fen&gt; will take place in the future.  Some words in the frame (e.g. &lt;ment&gt;foresee.v&lt;/ment&gt;) indicate that the &lt;fen&gt;Phenomenon&lt;/fen&gt; is asserted also to be true, while others do not.
 
@@ -78,18 +77,18 @@
   <frameRelation type="See also">
     <relatedFrame ID="412">Omen</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600872609433" POS="V" cBy="automatic" cDate="09/23/2020 14:50:09 UTC Wed" lemmaID="339" lu_type="phrasal" name="afwachten.v" status="Created" FN_EN_LU_ID="254" Method="Iteration-1" RBN_LU_ID="r_v-903" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187750040" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:55:50 UTC Mon" lemmaID="337" lu_type="phrasal" name="afwachten.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-903">
     <definition>wachten tot iets gebeurt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="af" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="wachten" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600872612557" POS="A" cBy="automatic" cDate="09/23/2020 14:50:12 UTC Wed" lemmaID="340" lu_type="singleton" name="voorspelbaar.a" status="Created" FN_EN_LU_ID="3585" Method="Iteration-1" RBN_LU_ID="r_a-16318" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187754933" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:55:54 UTC Mon" lemmaID="338" lu_type="singleton" name="voorspelbaar.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16318">
     <definition>te voorspellen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="voorspelbaar" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872615814" POS="A" cBy="automatic" cDate="09/23/2020 14:50:15 UTC Wed" lemmaID="341" lu_type="singleton" name="onverwacht.a" status="Created" FN_EN_LU_ID="13928" Method="Iteration-1" RBN_LU_ID="r_a-13775" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187760121" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:56:00 UTC Mon" lemmaID="339" lu_type="singleton" name="onverwacht.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13775">
     <definition>plotseling</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="onverwacht" order="1"/>

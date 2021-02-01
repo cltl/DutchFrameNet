@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="08/15/2002 11:50:33 PDT Thu" name="Feeling" ID="396" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame an &lt;fen&gt;Experiencer&lt;/fen&gt; experiences an &lt;fen&gt;Emotion&lt;/fen&gt; or is in an &lt;fen&gt;Emotional_state&lt;/fen&gt;. There can also be an &lt;fen&gt;Evaluation&lt;/fen&gt; of the internal experiential state.  
 &lt;ex&gt;&lt;fex name="Experiencer"&gt;John&lt;/fex&gt; &lt;t&gt;feels&lt;/t&gt; &lt;fex name="Emotion"&gt;anger towards his mother&lt;/fex&gt;.&lt;/ex&gt; 
@@ -50,7 +49,7 @@ Inalienably possessed aspects of the &lt;fen&gt;Experiencer&lt;/fen&gt; frequent
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872770693" POS="N" cBy="automatic" cDate="09/23/2020 14:52:50 UTC Wed" lemmaID="388" lu_type="singleton" name="emotie.n" status="Created" FN_EN_LU_ID="10301" Method="Iteration-1" RBN_LU_ID="r_n-12377" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187970454" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:59:30 UTC Mon" lemmaID="386" lu_type="singleton" name="emotie.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-12377">
     <definition>van het gemoed</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="emotie" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/13/2002 05:24:22 PDT Thu" name="Desirability" ID="354" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame concerns an &lt;fen&gt;Evaluee&lt;/fen&gt; being judged for its quality, i.e. how much it would probably be liked.  In many cases, the &lt;fen&gt;Evaluee&lt;/fen&gt; is implicitly judged good or bad relative to other instances of its type. The &lt;fen&gt;Evaluee&lt;/fen&gt;'s desirability is determined by one or more &lt;fen&gt;Parameter&lt;/fen&gt;s, which are scalar properties of the &lt;fen&gt;Evaluee&lt;/fen&gt;. The evaluation may also explicitly be relativized to a set of &lt;fen&gt;Circumstances&lt;/fen&gt;, a &lt;fen&gt;Comparison_set&lt;/fen&gt; of entities that belong to the same class as the &lt;fen&gt;Evaluee&lt;/fen&gt;, or an &lt;fen&gt;Affected_party&lt;/fen&gt;. The &lt;fen&gt;Degree&lt;/fen&gt; of goodness or badness may also be expressed.
 
@@ -77,17 +76,17 @@ Note: With some targets, desirability is conventionally aligned with quantity, i
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872438232" POS="A" cBy="automatic" cDate="09/23/2020 14:47:18 UTC Wed" lemmaID="284" lu_type="singleton" name="prachtig.a" status="Created" FN_EN_LU_ID="6221" Method="Iteration-1" RBN_LU_ID="r_a-14365" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187509937" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:51:49 UTC Mon" lemmaID="284" lu_type="singleton" name="prachtig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-14365">
     <definition>heel mooi</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="prachtig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872441365" POS="A" cBy="automatic" cDate="09/23/2020 14:47:21 UTC Wed" lemmaID="285" lu_type="singleton" name="bekakt.a" status="Created" FN_EN_LU_ID="6914" Method="Iteration-1" RBN_LU_ID="r_a-9666" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187512859" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:51:52 UTC Mon" lemmaID="285" lu_type="singleton" name="bekakt.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9666">
     <definition>geaffecteerd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="bekakt" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872444334" POS="A" cBy="manual" cDate="09/23/2020 14:47:24 UTC Wed" lemmaID="286" lu_type="singleton" name="indrukwekkend.a" status="Created" FN_EN_LU_ID="18802" Method="Iteration-1" RBN_LU_ID="r_a-11901" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187515932" POS="A" cBy="ThomasKlein" cDate="02/01/2021 13:51:55 UTC Mon" lemmaID="286" lu_type="singleton" name="indrukwekkend.a" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11901">
     <definition>imponerend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="indrukwekkend" order="1"/>

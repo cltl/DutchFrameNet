@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="oven.n" ID="1612186472499" frame="Artifact" frameID="421" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-27031" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Core" abbrev="Artifact" name="Artifact"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Extra-Thematic" abbrev="" name="Creator"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Extra-Thematic" abbrev="" name="Descriptor"/>
+      <FE fgColor="FFFFFF" bgColor="A9A9A9" type="Extra-Thematic" abbrev="" name="Material"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Extra-Thematic" abbrev="" name="Name"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Extra-Thematic" abbrev="" name="Time_of_creation"/>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Extra-Thematic" abbrev="" name="Type"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Peripheral" abbrev="Use" name="Use"/>
+    </frame>
+  </header>
+  <definition>waarin men door de hoge temperatuur voedsel of voorwerpen kan bakken, drogen of smelten</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="oven" order="1"/>
+</lexUnit>

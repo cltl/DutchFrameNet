@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="01/27/2003 03:13:38 PST Mon" name="Subordinates_and_superiors" ID="530" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;Two individuals, the &lt;fen&gt;Subordinate&lt;/fen&gt; and the &lt;fen&gt;Superior&lt;/fen&gt; have a relationship such that the &lt;fen&gt;Subordinate&lt;/fen&gt; generally follows orders given by the &lt;fen&gt;Superior&lt;/fen&gt; and has the best interests of the &lt;fen&gt;Superior&lt;/fen&gt; in mind.
 
@@ -25,52 +24,52 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874283364" POS="N" cBy="automatic" cDate="09/23/2020 15:18:03 UTC Wed" lemmaID="849" lu_type="singleton" name="meeloper.n" status="Created" FN_EN_LU_ID="8210" Method="Iteration-1" RBN_LU_ID="r_n-23452" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189905085" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:31:45 UTC Mon" lemmaID="847" lu_type="singleton" name="meeloper.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-23452">
     <definition>die het voorbeeld van anderen volgt zonder een eigen mening te hebben</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="meeloper" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874286596" POS="N" cBy="automatic" cDate="09/23/2020 15:18:06 UTC Wed" lemmaID="850" lu_type="singleton" name="handlanger.n" status="Created" FN_EN_LU_ID="8210" Method="Iteration-1" RBN_LU_ID="r_n-16253" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189908432" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:31:48 UTC Mon" lemmaID="848" lu_type="singleton" name="handlanger.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-16253">
     <definition>die een ander helpt bij een misdaad</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="handlanger" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874289824" POS="N" cBy="automatic" cDate="09/23/2020 15:18:09 UTC Wed" lemmaID="851" lu_type="singleton" name="trawant.n" status="Created" FN_EN_LU_ID="8210" Method="Iteration-1" RBN_LU_ID="r_n-38367" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189911904" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:31:51 UTC Mon" lemmaID="849" lu_type="singleton" name="trawant.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-38367">
     <definition>die iemand anders helpt bij kwade praktijken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="trawant" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874293051" POS="N" cBy="automatic" cDate="09/23/2020 15:18:13 UTC Wed" lemmaID="852" lu_type="singleton" name="volgeling.n" status="Created" FN_EN_LU_ID="8210" Method="Iteration-1" RBN_LU_ID="r_n-41408" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189915271" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:31:55 UTC Mon" lemmaID="850" lu_type="singleton" name="volgeling.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-41408">
     <definition>die de ideeën van een persoon aanhangt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="volgeling" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874296319" POS="N" cBy="manual" cDate="09/23/2020 15:18:16 UTC Wed" lemmaID="853" lu_type="singleton" name="paladijn.n" status="Created" FN_EN_LU_ID="8210" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-27390" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189918802" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:31:58 UTC Mon" lemmaID="851" lu_type="singleton" name="paladijn.n" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-27390">
     <definition>die kritiekloos en toegewijd is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="paladijn" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874299687" POS="N" cBy="automatic" cDate="09/23/2020 15:18:19 UTC Wed" lemmaID="854" lu_type="singleton" name="kolonel.n" status="Created" FN_EN_LU_ID="8211" Method="Iteration-1" RBN_LU_ID="r_n-20166" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189922307" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:32:02 UTC Mon" lemmaID="852" lu_type="singleton" name="kolonel.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-20166">
     <definition>van de hoogste rang</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="kolonel" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874302959" POS="N" cBy="manual" cDate="09/23/2020 15:18:22 UTC Wed" lemmaID="855" lu_type="exocentric compound" name="hielenlikker.n" status="Created" FN_EN_LU_ID="8213" Method="Iteration-2_WN" RBN_LU_ID="r_n-16823" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189925976" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:32:05 UTC Mon" lemmaID="853" lu_type="exocentric compound" name="hielenlikker.n" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-16823">
     <definition>die op een kruiperige manier vleit</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="hielenlikker" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874306086" POS="N" cBy="manual" cDate="09/23/2020 15:18:26 UTC Wed" lemmaID="856" lu_type="singleton" name="strooplikker.n" status="Created" FN_EN_LU_ID="8211" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-36345" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189930276" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:32:10 UTC Mon" lemmaID="854" lu_type="singleton" name="strooplikker.n" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-36345">
     <definition>die overdreven lief doet, meestal om dingen voor elkaar te krijgen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="strooplikker" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874309328" POS="N" cBy="manual" cDate="09/23/2020 15:18:29 UTC Wed" lemmaID="857" lu_type="singleton" name="slijmerd.n" status="Created" FN_EN_LU_ID="8211" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-34135" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189933585" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:32:13 UTC Mon" lemmaID="855" lu_type="singleton" name="slijmerd.n" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-34135">
     <definition>die huichelachtig, kruiperig en overdreven vriendelijk is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="slijmerd" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874312564" POS="N" cBy="automatic" cDate="09/23/2020 15:18:32 UTC Wed" lemmaID="858" lu_type="singleton" name="assistent.n" status="Created" FN_EN_LU_ID="8220" Method="Iteration-1" RBN_LU_ID="r_n-4057" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189937460" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:32:17 UTC Mon" lemmaID="856" lu_type="singleton" name="assistent.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-4057">
     <definition>die een ander onder diens leiding bij zijn of haar werkzaamheden helpt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="assistent" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="12/10/2002 10:36:33 PST Tue" name="Offenses" ID="432" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;Words in this frame describe acts in violation of a legal code.
 
@@ -50,12 +49,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873487602" POS="N" cBy="automatic" cDate="09/23/2020 15:04:47 UTC Wed" lemmaID="611" lu_type="singleton" name="sabotage.n" status="Created" FN_EN_LU_ID="7843" Method="Iteration-1" RBN_LU_ID="r_n-32353" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188928008" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:15:28 UTC Mon" lemmaID="609" lu_type="singleton" name="sabotage.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-32353">
     <definition>die erop gericht is de gang van zaken te laten mislukken of te beletten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="sabotage" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873490753" POS="N" cBy="automatic" cDate="09/23/2020 15:04:50 UTC Wed" lemmaID="612" lu_type="singleton" name="inbraak.n" status="Created" FN_EN_LU_ID="7847" Method="Iteration-1" RBN_LU_ID="r_n-17740" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188931263" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:15:31 UTC Mon" lemmaID="610" lu_type="singleton" name="inbraak.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-17740">
     <definition>van een gebouw door een geforceerde opening met de bedoeling om te stelen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="inbraak" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="08/05/2002 03:54:11 PDT Mon" name="Assistance" ID="391" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Helper&lt;/fen&gt; benefits a &lt;fen&gt;Benefited_party&lt;/fen&gt; by enabling the culmination of a &lt;fen&gt;Goal&lt;/fen&gt; that the &lt;fen&gt;Benefited_party&lt;/fen&gt; has.  A &lt;fen&gt;Focal_entity&lt;/fen&gt; that is involved in reaching the &lt;fen&gt;Goal&lt;/fen&gt; may stand in for it.
 
@@ -113,18 +112,18 @@ with his very appearance?&lt;/ex&gt;
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871467312" POS="V" cBy="automatic" cDate="09/23/2020 14:31:07 UTC Wed" lemmaID="26" lu_type="phrasal" name="ophitsen.v" status="Created" FN_EN_LU_ID="7042" Method="Iteration-1" RBN_LU_ID="r_v-5596" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186475981" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:34:35 UTC Mon" lemmaID="26" lu_type="phrasal" name="ophitsen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-5596">
     <definition>de genoemde ontevreden en opstandig maken en hem of haar er zo toe brengen iets te doen, met name zich te verzetten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="op" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="hitsen" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600871472380" POS="V" cBy="manual" cDate="09/23/2020 14:31:12 UTC Wed" lemmaID="27" lu_type="singleton" name="animeren.v" status="Created" FN_EN_LU_ID="7042" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-977" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186479103" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:34:39 UTC Mon" lemmaID="27" lu_type="singleton" name="animeren.v" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-977">
     <definition>(iemand) aanmoedigen om iets te doen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="animeren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871477231" POS="A" cBy="manual" cDate="09/23/2020 14:31:17 UTC Wed" lemmaID="28" lu_type="singleton" name="behulpzaam.a" status="Created" FN_EN_LU_ID="7046" Method="Iteration-1" RBN_LU_ID="r_a-9198" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186483593" POS="A" cBy="ThomasKlein" cDate="02/01/2021 13:34:43 UTC Mon" lemmaID="28" lu_type="singleton" name="behulpzaam.a" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9198">
     <definition>hulpvaardig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="behulpzaam" order="1"/>

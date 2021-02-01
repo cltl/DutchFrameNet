@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MRLP" cDate="09/13/2001 05:54:02 PDT Thu" name="Calendric_unit" ID="229" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;Words in this frame name the different parts of the calendric cycle, both man-made and natural. The &lt;fen&gt;Unit&lt;/fen&gt; (e.g. &lt;m&gt;Tuesday&lt;/m&gt;) specifies some time period as part of a specific larger temporal &lt;fen&gt;Whole&lt;/fen&gt; (Tuesday &lt;m&gt;of next week&lt;/m&gt;), or may be resolved to an exact time span by a &lt;fen&gt;Relative_time&lt;/fen&gt; (&lt;m&gt;next&lt;/m&gt; Tuesday).  
 &lt;ex&gt;Jo's mother will visit on &lt;fex name="Relative_time"&gt;this coming&lt;/fex&gt; &lt;fex name="Unit"&gt;&lt;t&gt;Tuesday&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;
@@ -107,92 +106,92 @@ This FE is not to be used when a target of the Temporal_collocation frame explic
     <relatedFrame ID="1895">Temporal_collocation</relatedFrame>
     <relatedFrame ID="80">Frequency</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600871916783" POS="N" cBy="automatic" cDate="09/23/2020 14:38:36 UTC Wed" lemmaID="139" lu_type="singleton" name="weekend.n" status="Created" FN_EN_LU_ID="3952" Method="Iteration-1" RBN_LU_ID="r_n-42644" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186817580" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:40:17 UTC Mon" lemmaID="139" lu_type="singleton" name="weekend.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-42644">
     <definition>aan het einde van de week, de zaterdag en zondag, waarin de meeste mensen niet hoeven te werken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="weekend" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871919976" POS="N" cBy="automatic" cDate="09/23/2020 14:38:39 UTC Wed" lemmaID="140" lu_type="singleton" name="dinsdag.n" status="Created" FN_EN_LU_ID="3995" Method="Iteration-1" RBN_LU_ID="r_n-10993" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186820632" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:40:20 UTC Mon" lemmaID="140" lu_type="singleton" name="dinsdag.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-10993">
     <definition>van de werkweek</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="dinsdag" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871923062" POS="N" cBy="automatic" cDate="09/23/2020 14:38:43 UTC Wed" lemmaID="141" lu_type="exocentric compound" name="woensdag.n" status="Created" FN_EN_LU_ID="3996" Method="Iteration-1" RBN_LU_ID="r_n-43454" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186823730" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:40:23 UTC Mon" lemmaID="141" lu_type="exocentric compound" name="woensdag.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-43454">
     <definition>van de werkweek</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="woensdag" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871926534" POS="N" cBy="automatic" cDate="09/23/2020 14:38:46 UTC Wed" lemmaID="142" lu_type="singleton" name="vrijdag.n" status="Created" FN_EN_LU_ID="3999" Method="Iteration-1" RBN_LU_ID="r_n-41876" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186827520" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:40:27 UTC Mon" lemmaID="142" lu_type="singleton" name="vrijdag.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-41876">
     <definition>van de werkweek</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="vrijdag" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871929896" POS="N" cBy="automatic" cDate="09/23/2020 14:38:49 UTC Wed" lemmaID="143" lu_type="singleton" name="zaterdag.n" status="Created" FN_EN_LU_ID="4000" Method="Iteration-1" RBN_LU_ID="r_n-43820" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186832795" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:40:32 UTC Mon" lemmaID="143" lu_type="singleton" name="zaterdag.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-43820">
     <definition>van de week, de eerste dag van het weekend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="zaterdag" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871933268" POS="N" cBy="automatic" cDate="09/23/2020 14:38:53 UTC Wed" lemmaID="144" lu_type="singleton" name="schemering.n" status="Created" FN_EN_LU_ID="4061" Method="Iteration-1" RBN_LU_ID="r_n-32883" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186837342" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:40:37 UTC Mon" lemmaID="144" lu_type="singleton" name="schemering.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-32883">
     <definition>waarin het halfdonker is omdat de zon nog niet helemaal op of onder is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="schemering" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871936646" POS="N" cBy="automatic" cDate="09/23/2020 14:38:56 UTC Wed" lemmaID="145" lu_type="singleton" name="januari.n" status="Created" FN_EN_LU_ID="4643" Method="Iteration-1" RBN_LU_ID="r_n-18433" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186841917" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:40:41 UTC Mon" lemmaID="145" lu_type="singleton" name="januari.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-18433">
     <definition>van het jaar, ook wel 'louwmaand' genoemd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="januari" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871939974" POS="N" cBy="automatic" cDate="09/23/2020 14:38:59 UTC Wed" lemmaID="146" lu_type="singleton" name="februari.n" status="Created" FN_EN_LU_ID="4644" Method="Iteration-1" RBN_LU_ID="r_n-13081" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186846229" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:40:46 UTC Mon" lemmaID="146" lu_type="singleton" name="februari.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-13081">
     <definition>van het jaar, ook wel 'sprokkelmaand' genoemd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="februari" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871943880" POS="N" cBy="automatic" cDate="09/23/2020 14:39:03 UTC Wed" lemmaID="147" lu_type="singleton" name="april.n" status="Created" FN_EN_LU_ID="4646" Method="Iteration-1" RBN_LU_ID="r_n-3769" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186850658" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:40:50 UTC Mon" lemmaID="147" lu_type="singleton" name="april.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-3769">
     <definition>van het jaar, ook wel 'grasmaand' genoemd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="april" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871947240" POS="N" cBy="automatic" cDate="09/23/2020 14:39:07 UTC Wed" lemmaID="148" lu_type="singleton" name="juni.n" status="Created" FN_EN_LU_ID="4648" Method="Iteration-1" RBN_LU_ID="r_n-18643" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186854315" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:40:54 UTC Mon" lemmaID="148" lu_type="singleton" name="juni.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-18643">
     <definition>van het jaar, ook wel 'zomermaand' genoemd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="juni" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871950290" POS="N" cBy="automatic" cDate="09/23/2020 14:39:10 UTC Wed" lemmaID="149" lu_type="singleton" name="juli.n" status="Created" FN_EN_LU_ID="4649" Method="Iteration-1" RBN_LU_ID="r_n-18633" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186857540" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:40:57 UTC Mon" lemmaID="149" lu_type="singleton" name="juli.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-18633">
     <definition>van het jaar, ook wel 'hooimaand' genoemd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="juli" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871953750" POS="N" cBy="automatic" cDate="09/23/2020 14:39:13 UTC Wed" lemmaID="150" lu_type="singleton" name="augustus.n" status="Created" FN_EN_LU_ID="4650" Method="Iteration-1" RBN_LU_ID="r_n-4161" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186860414" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:41:00 UTC Mon" lemmaID="150" lu_type="singleton" name="augustus.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-4161">
     <definition>van het jaar, ook wel 'oogstmaand' genoemd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="augustus" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871956976" POS="N" cBy="automatic" cDate="09/23/2020 14:39:16 UTC Wed" lemmaID="151" lu_type="singleton" name="september.n" status="Created" FN_EN_LU_ID="4651" Method="Iteration-1" RBN_LU_ID="r_n-33583" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186863506" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:41:03 UTC Mon" lemmaID="151" lu_type="singleton" name="september.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-33583">
     <definition>van het jaar, ook wel 'herfstmaand' genoemd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="september" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871961197" POS="N" cBy="automatic" cDate="09/23/2020 14:39:21 UTC Wed" lemmaID="152" lu_type="singleton" name="oktober.n" status="Created" FN_EN_LU_ID="4652" Method="Iteration-1" RBN_LU_ID="r_n-25589" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186866364" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:41:06 UTC Mon" lemmaID="152" lu_type="singleton" name="oktober.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-25589">
     <definition>van het jaar, ook wel 'wijnmaand' genoemd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="oktober" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871965855" POS="N" cBy="automatic" cDate="09/23/2020 14:39:25 UTC Wed" lemmaID="153" lu_type="singleton" name="november.n" status="Created" FN_EN_LU_ID="4653" Method="Iteration-1" RBN_LU_ID="r_n-25356" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186869761" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:41:09 UTC Mon" lemmaID="153" lu_type="singleton" name="november.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-25356">
     <definition>van het jaar, ook wel 'slachtmaand' genoemd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="november" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871969150" POS="N" cBy="automatic" cDate="09/23/2020 14:39:29 UTC Wed" lemmaID="154" lu_type="singleton" name="december.n" status="Created" FN_EN_LU_ID="4654" Method="Iteration-1" RBN_LU_ID="r_n-10483" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186872883" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:41:12 UTC Mon" lemmaID="154" lu_type="singleton" name="december.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-10483">
     <definition>van het jaar, ook wel 'wintermaand' genoemd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="december" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871972553" POS="N" cBy="automatic" cDate="09/23/2020 14:39:32 UTC Wed" lemmaID="155" lu_type="singleton" name="winter.n" status="Created" FN_EN_LU_ID="5138" Method="Iteration-1" RBN_LU_ID="r_n-43334" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186876072" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:41:16 UTC Mon" lemmaID="155" lu_type="singleton" name="winter.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-43334">
     <definition>op het noordelijk halfrond van 21 december tot 20 maart</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="winter" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871975852" POS="N" cBy="automatic" cDate="09/23/2020 14:39:35 UTC Wed" lemmaID="156" lu_type="singleton" name="herfst.n" status="Created" FN_EN_LU_ID="5185" Method="Iteration-1" RBN_LU_ID="r_n-16683" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186879243" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:41:19 UTC Mon" lemmaID="156" lu_type="singleton" name="herfst.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-16683">
     <definition>tussen zomer en winter, waarin het kouder wordt en de bladeren van de bomen vallen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="herfst" order="1"/>

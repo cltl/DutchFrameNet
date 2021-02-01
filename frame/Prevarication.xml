@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="03/19/2002 05:17:13 PST Tue" name="Prevarication" ID="287" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; communicates about a &lt;fen&gt;Topic&lt;/fen&gt; in such a way as to mislead an &lt;fen&gt;Addressee&lt;/fen&gt;, either by telling outright lies or by presenting a message in a misleading form.
 
@@ -57,23 +56,23 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873766355" POS="V" cBy="automatic" cDate="09/23/2020 15:09:26 UTC Wed" lemmaID="695" lu_type="phrasal" name="terugkrabbelen.v" status="Created" FN_EN_LU_ID="5275" Method="Iteration-1" RBN_LU_ID="r_v-7830" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189248952" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:20:48 UTC Mon" lemmaID="693" lu_type="phrasal" name="terugkrabbelen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7830">
     <definition>steeds meer laten merken dat je je niet wilt houden aan wat je hebt beloofd of dat je wil intrekken wat je hebt beweerd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="terug" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="krabbelen" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600873769644" POS="V" cBy="automatic" cDate="09/23/2020 15:09:29 UTC Wed" lemmaID="696" lu_type="singleton" name="ouwehoeren.v" status="Created" FN_EN_LU_ID="5291" Method="Iteration-1" RBN_LU_ID="r_v-5947" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189254843" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:20:54 UTC Mon" lemmaID="694" lu_type="singleton" name="ouwehoeren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-5947">
     <definition>kletsen, vooral veel, lang en zinloos</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="ouwehoeren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873772923" POS="V" cBy="automatic" cDate="09/23/2020 15:09:32 UTC Wed" lemmaID="697" lu_type="singleton" name="lullen.v" status="Created" FN_EN_LU_ID="5291" Method="Iteration-1" RBN_LU_ID="r_v-4506" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189258886" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:20:58 UTC Mon" lemmaID="695" lu_type="singleton" name="lullen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4506">
     <definition>zomaar wat praten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="lullen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873776209" POS="V" cBy="automatic" cDate="09/23/2020 15:09:36 UTC Wed" lemmaID="698" lu_type="singleton" name="jokken.v" status="Created" FN_EN_LU_ID="5298" Method="Iteration-1" RBN_LU_ID="r_v-3738" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189262942" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:21:02 UTC Mon" lemmaID="696" lu_type="singleton" name="jokken.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3738">
     <definition>onwaarheid spreken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="jokken" order="1"/>

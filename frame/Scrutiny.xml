@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:58 PST Wed" name="Scrutiny" ID="31" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame concerns a &lt;fen&gt;Cognizer&lt;/fen&gt; (a person or other intelligent being) paying close attention to something, the &lt;fen&gt;Ground&lt;/fen&gt;, in order to discover and note its salient characteristics.  The &lt;fen&gt;Cognizer&lt;/fen&gt; may be interested in a particular characteristic or entity, the &lt;fen&gt;Phenomenon&lt;/fen&gt;, that belongs to the &lt;fen&gt;Ground&lt;/fen&gt; or is contained in the &lt;fen&gt;Ground&lt;/fen&gt; (or to ensure that such a property of entity is not present). 
 Some words in this frame allow alternate expressions of the &lt;fen&gt;Ground&lt;/fen&gt;and the &lt;fen&gt;Phenomenon&lt;/fen&gt;:
@@ -84,12 +83,12 @@ Some words in this frame allow alternate expressions of the &lt;fen&gt;Ground&lt
   <frameRelation type="See also">
     <relatedFrame ID="269">Seeking</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600873964858" POS="N" cBy="automatic" cDate="09/23/2020 15:12:44 UTC Wed" lemmaID="755" lu_type="singleton" name="verkenning.n" status="Created" FN_EN_LU_ID="17301" Method="Iteration-1" RBN_LU_ID="r_n-40179" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189513032" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:25:13 UTC Mon" lemmaID="753" lu_type="singleton" name="verkenning.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-40179">
     <definition>van iets</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="verkenning" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873968212" POS="N" cBy="automatic" cDate="09/23/2020 15:12:48 UTC Wed" lemmaID="756" lu_type="singleton" name="exploratie.n" status="Created" FN_EN_LU_ID="17301" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-12841" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189516525" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:25:16 UTC Mon" lemmaID="754" lu_type="singleton" name="exploratie.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-12841">
     <definition>mn. van onbekend gebied</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="exploratie" order="1"/>

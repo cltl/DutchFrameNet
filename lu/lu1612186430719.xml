@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="V" name="excerperen.v" ID="1612186430719" frame="Activity_finish" frameID="165" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2673" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Act" name="Activity"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Agent" name="Agent"/>
+      <FE fgColor="000000" bgColor="EEE8AA" type="Extra-Thematic" abbrev="" name="Circumstances"/>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Extra-Thematic" abbrev="Co-t" name="Co-timed_event"/>
+      <FE fgColor="000000" bgColor="7CCD73" type="Extra-Thematic" abbrev="" name="Containing_event"/>
+      <FE fgColor="000000" bgColor="FFFF00" type="Peripheral" abbrev="" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Extra-Thematic" abbrev="Depict" name="Depictive"/>
+      <FE fgColor="FFFFFF" bgColor="90876C" type="Extra-Thematic" abbrev="" name="Explanation"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Manr" name="Manner"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Mns" name="Means"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Place" name="Place"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Purp" name="Purpose"/>
+      <FE fgColor="FFFFFF" bgColor="9F79EE" type="Extra-Thematic" abbrev="Result" name="Result"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Time" name="Time"/>
+    </frame>
+  </header>
+  <definition>een uittreksel maken uit</definition>
+  <lexeme POS="V" breakBefore="false" headword="false" name="excerperen" order="1"/>
+</lexUnit>

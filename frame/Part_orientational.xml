@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/27/2001 11:45:07 PDT Wed" name="Part_orientational" ID="143" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame, there is a &lt;fen&gt;Part&lt;/fen&gt; of a &lt;fen&gt;Whole&lt;/fen&gt; in which the &lt;fen&gt;Part&lt;/fen&gt; is defined with respect to the canonical or inherent orientation of the &lt;fen&gt;Whole&lt;/fen&gt;. In cases where the &lt;t&gt;Target&lt;/t&gt; is an adjective, it has a special relationship with the noun that it modifies such that a phrase which is a syntactic argument of the noun is semantically available to fill the argument structure of the adjective, as in 
 
@@ -42,37 +41,37 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873522996" POS="A" cBy="automatic" cDate="09/23/2020 15:05:23 UTC Wed" lemmaID="622" lu_type="singleton" name="achterst.a" status="Created" FN_EN_LU_ID="5739" Method="Iteration-1" RBN_LU_ID="r_a-8875" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188964397" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:16:04 UTC Mon" lemmaID="620" lu_type="singleton" name="achterst.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-8875">
     <definition>het meest naar achteren</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="achterst" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873526247" POS="A" cBy="automatic" cDate="09/23/2020 15:05:26 UTC Wed" lemmaID="623" lu_type="singleton" name="oosters.a" status="Created" FN_EN_LU_ID="5821" Method="Iteration-1" RBN_LU_ID="r_a-13851" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188967624" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:16:07 UTC Mon" lemmaID="621" lu_type="singleton" name="oosters.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13851">
     <definition>uit een land ten oosten van Europa</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="oosters" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873529574" POS="A" cBy="automatic" cDate="09/23/2020 15:05:29 UTC Wed" lemmaID="624" lu_type="singleton" name="oostelijk.a" status="Created" FN_EN_LU_ID="5821" Method="Iteration-1" RBN_LU_ID="r_a-13850" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188971041" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:16:11 UTC Mon" lemmaID="622" lu_type="singleton" name="oostelijk.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13850">
     <definition>in of uit het oosten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="oostelijk" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873533328" POS="A" cBy="automatic" cDate="09/23/2020 15:05:33 UTC Wed" lemmaID="625" lu_type="singleton" name="westelijk.a" status="Created" FN_EN_LU_ID="5822" Method="Iteration-1" RBN_LU_ID="r_a-15734" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188974340" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:16:14 UTC Mon" lemmaID="623" lu_type="singleton" name="westelijk.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15734">
     <definition>a.d. westkant</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="westelijk" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873536777" POS="A" cBy="automatic" cDate="09/23/2020 15:05:36 UTC Wed" lemmaID="626" lu_type="singleton" name="noordelijk.a" status="Created" FN_EN_LU_ID="5823" Method="Iteration-1" RBN_LU_ID="r_a-13175" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188977779" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:16:17 UTC Mon" lemmaID="624" lu_type="singleton" name="noordelijk.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13175">
     <definition>het noorden betreffend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="noordelijk" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873540132" POS="A" cBy="automatic" cDate="09/23/2020 15:05:40 UTC Wed" lemmaID="627" lu_type="singleton" name="noordwaarts.a" status="Created" FN_EN_LU_ID="5823" Method="Iteration-1" RBN_LU_ID="r_a-13178" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188981135" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:16:21 UTC Mon" lemmaID="625" lu_type="singleton" name="noordwaarts.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13178">
     <definition>naar het noorden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="noordwaarts" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873543570" POS="A" cBy="automatic" cDate="09/23/2020 15:05:43 UTC Wed" lemmaID="628" lu_type="singleton" name="zuidelijk.a" status="Created" FN_EN_LU_ID="5824" Method="Iteration-1" RBN_LU_ID="r_a-16452" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188984744" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:16:24 UTC Mon" lemmaID="626" lu_type="singleton" name="zuidelijk.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16452">
     <definition>in of uit het zuiden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="zuidelijk" order="1"/>

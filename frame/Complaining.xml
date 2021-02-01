@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="08/25/2005 02:46:33 PDT Thu" name="Complaining" ID="1621" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Complainer&lt;/fen&gt; communicates their negative emotional reaction to some state of affairs in a &lt;fen&gt;Complaint&lt;/fen&gt; to an &lt;fen&gt;Addressee&lt;/fen&gt;. As an alternative to the specific &lt;fen&gt;Complaint&lt;/fen&gt;, the &lt;fen&gt;Topic&lt;/fen&gt; of the speaker's &lt;fen&gt;Complaint&lt;/fen&gt; may be specified. Likewise, instead of (or in addition to) the &lt;fen&gt;Complainer&lt;/fen&gt;, a &lt;fen&gt;Medium&lt;/fen&gt; may be stated. 
 
@@ -128,87 +127,87 @@ again.&lt;/ex&gt;&lt;/def-root&gt;</definition>
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872302490" POS="V" cBy="automatic" cDate="09/23/2020 14:45:02 UTC Wed" lemmaID="241" lu_type="singleton" name="zeuren.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-1" RBN_LU_ID="r_v-10245" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187197289" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:46:37 UTC Mon" lemmaID="241" lu_type="singleton" name="zeuren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-10245">
     <definition>onophoudelijk over iets spreken op een manier die op de zenuwen werkt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="zeuren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872305749" POS="V" cBy="manual" cDate="09/23/2020 14:45:05 UTC Wed" lemmaID="242" lu_type="singleton" name="mopperen.v" status="Created" FN_EN_LU_ID="13002" Method="Iteration-2_WN" RBN_LU_ID="r_v-4777" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187200875" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:46:40 UTC Mon" lemmaID="242" lu_type="singleton" name="mopperen.v" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4777">
     <definition>dingen zeggen uit ontevredenheid over iemand of iets</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="mopperen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872308719" POS="V" cBy="automatic" cDate="09/23/2020 14:45:08 UTC Wed" lemmaID="243" lu_type="singleton" name="brommen.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1891" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187205568" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:46:45 UTC Mon" lemmaID="243" lu_type="singleton" name="brommen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1891">
     <definition>op lage toon boos, ontevreden tegen iemand praten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="brommen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872311739" POS="V" cBy="automatic" cDate="09/23/2020 14:45:11 UTC Wed" lemmaID="244" lu_type="singleton" name="mauwen.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4561" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187210287" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:46:50 UTC Mon" lemmaID="244" lu_type="singleton" name="mauwen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4561">
     <definition>op een vervelende manier zijn beklag doen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="mauwen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872314916" POS="V" cBy="automatic" cDate="09/23/2020 14:45:14 UTC Wed" lemmaID="245" lu_type="singleton" name="zaniken.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-10221" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187219342" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:46:59 UTC Mon" lemmaID="245" lu_type="singleton" name="zaniken.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-10221">
     <definition>zeuren</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="zaniken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872317930" POS="V" cBy="manual" cDate="09/23/2020 14:45:17 UTC Wed" lemmaID="246" lu_type="singleton" name="reutelen.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6693" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187223489" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:47:03 UTC Mon" lemmaID="246" lu_type="singleton" name="reutelen.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6693">
     <definition>vervelend en veel praten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="reutelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872320922" POS="V" cBy="manual" cDate="09/23/2020 14:45:20 UTC Wed" lemmaID="247" lu_type="singleton" name="piepen.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6249" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187229602" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:47:09 UTC Mon" lemmaID="247" lu_type="singleton" name="piepen.v" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6249">
     <definition>klagerig of huilerig je gevoelens uiten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="piepen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872324081" POS="V" cBy="manual" cDate="09/23/2020 14:45:24 UTC Wed" lemmaID="248" lu_type="singleton" name="emmeren.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2636" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187235447" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:47:15 UTC Mon" lemmaID="248" lu_type="singleton" name="emmeren.v" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2636">
     <definition>zeuren, zaniken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="emmeren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872327116" POS="V" cBy="automatic" cDate="09/23/2020 14:45:27 UTC Wed" lemmaID="249" lu_type="singleton" name="grommen.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-3046" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187240397" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:47:20 UTC Mon" lemmaID="249" lu_type="singleton" name="grommen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3046">
     <definition>morrend spreken, iets op diepe toon zeggen uit ontevredenheid over iets of iemand</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="grommen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872330257" POS="V" cBy="automatic" cDate="09/23/2020 14:45:30 UTC Wed" lemmaID="250" lu_type="singleton" name="zemelen.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-10234" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187243641" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:47:23 UTC Mon" lemmaID="250" lu_type="singleton" name="zemelen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-10234">
     <definition>op een vervelende manier saai praten over steeds dezelfde dingen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="zemelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872333757" POS="V" cBy="automatic" cDate="09/23/2020 14:45:33 UTC Wed" lemmaID="251" lu_type="singleton" name="klagen.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="c_545792" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187248230" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:47:28 UTC Mon" lemmaID="251" lu_type="singleton" name="klagen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-c_545792">
     <definition>in woorden uiting geven aan je ontevredenheid, pijn, verdriet e.d.</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="klagen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872336901" POS="V" cBy="manual" cDate="09/23/2020 14:45:36 UTC Wed" lemmaID="252" lu_type="singleton" name="zieken.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-10251" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187261482" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:47:41 UTC Mon" lemmaID="252" lu_type="singleton" name="zieken.v" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-10251">
     <definition>op een plagerige manier met opzet de stemming bederven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="zieken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872340283" POS="V" cBy="manual" cDate="09/23/2020 14:45:40 UTC Wed" lemmaID="253" lu_type="singleton" name="meieren.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4645" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187276754" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:47:56 UTC Mon" lemmaID="253" lu_type="singleton" name="meieren.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4645">
     <definition>op een vervelende manier lang of telkens weer over iets praten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="meieren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872343757" POS="V" cBy="automatic" cDate="09/23/2020 14:45:43 UTC Wed" lemmaID="254" lu_type="singleton" name="zeiken.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-10229" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187287586" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:48:07 UTC Mon" lemmaID="254" lu_type="singleton" name="zeiken.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-10229">
     <definition>zeuren</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="zeiken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872346902" POS="V" cBy="automatic" cDate="09/23/2020 14:45:46 UTC Wed" lemmaID="255" lu_type="singleton" name="knorren.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4035" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187296805" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:48:16 UTC Mon" lemmaID="255" lu_type="singleton" name="knorren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4035">
     <definition>boos praten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="knorren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872350072" POS="V" cBy="manual" cDate="09/23/2020 14:45:50 UTC Wed" lemmaID="256" lu_type="singleton" name="malen.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4528" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187310032" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:48:30 UTC Mon" lemmaID="256" lu_type="singleton" name="malen.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4528">
     <definition>op een vervelende manier lang of telkens weer over het genoemde praten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="malen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872353493" POS="V" cBy="automatic" cDate="09/23/2020 14:45:53 UTC Wed" lemmaID="257" lu_type="singleton" name="mekkeren.v" status="Created" FN_EN_LU_ID="12721" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4647" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187325848" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:48:45 UTC Mon" lemmaID="257" lu_type="singleton" name="mekkeren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4647">
     <definition>het voor een geit of schaap typische geluid voortbrengen, dat als 'bè-è-è-h' of 'mè-è-è-h' klinkt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="mekkeren" order="1"/>

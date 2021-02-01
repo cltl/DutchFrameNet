@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="rimboe.n" ID="1612188236017" frame="Isolated_places" frameID="420" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-31741" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Place" name="Place"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Relative_location" name="Relative_location"/>
+    </frame>
+  </header>
+  <definition>dat erg groot, ontoegankelijk, onoverzichtelijk en niet door mensen is aangetast</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="rimboe" order="1"/>
+</lexUnit>

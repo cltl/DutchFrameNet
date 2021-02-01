@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:27 PST Wed" name="Containers" ID="78" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame covers entities which are prototypically conceived of and created to fulfill the function of containing--i.e. &lt;fen&gt;Container&lt;/fen&gt;s  that contain objects or substances, the &lt;fen&gt;Contents&lt;/fen&gt;.  This can be expressed as a complement , and includes potential or intended contents.   A &lt;fen&gt;Container&lt;/fen&gt; may also have an &lt;fen&gt;Owner&lt;/fen&gt;, a current &lt;fen&gt;Relative_location&lt;/fen&gt;, &lt;fen&gt;Material&lt;/fen&gt; from which it is constructed, a method of &lt;fen&gt;Construction&lt;/fen&gt;, and a &lt;fen&gt;Type&lt;/fen&gt;.  Note the connection between words in this frame and those in the Filling, Emptying, and Fullness frames.
 &lt;ex&gt;a &lt;fex name="Container"&gt;&lt;t&gt;bag&lt;/t&gt;&lt;/fex&gt; &lt;fex name="Contents"&gt;of popcorn&lt;/fex&gt;&lt;/ex&gt;
@@ -78,42 +77,42 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872382210" POS="N" cBy="automatic" cDate="09/23/2020 14:46:22 UTC Wed" lemmaID="266" lu_type="singleton" name="amfoor.n" status="Created" FN_EN_LU_ID="1664" Method="Iteration-1" RBN_LU_ID="r_n-3452" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187446499" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:50:46 UTC Mon" lemmaID="266" lu_type="singleton" name="amfoor.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-3452">
     <definition>met twee oren zoals bij de oude Grieken en Romeinen in gebruik</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="amfoor" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872385537" POS="N" cBy="manual" cDate="09/23/2020 14:46:25 UTC Wed" lemmaID="267" lu_type="singleton" name="portemonnee.n" status="Created" FN_EN_LU_ID="1691" Method="Iteration-2_WN" RBN_LU_ID="r_n-29273" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187450725" POS="N" cBy="ThomasKlein" cDate="02/01/2021 13:50:50 UTC Mon" lemmaID="267" lu_type="singleton" name="portemonnee.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-29273">
     <definition>voor geld</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="portemonnee" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872388997" POS="N" cBy="manual" cDate="09/23/2020 14:46:28 UTC Wed" lemmaID="268" lu_type="singleton" name="koffer.n" status="Created" FN_EN_LU_ID="4221" Method="Iteration-2_WN" RBN_LU_ID="r_n-20097" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187454326" POS="N" cBy="ThomasKlein" cDate="02/01/2021 13:50:54 UTC Mon" lemmaID="268" lu_type="singleton" name="koffer.n" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-20097">
     <definition>met een scharnierend deksel, waarin je spullen meeneemt als je op reis gaat</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="koffer" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872391967" POS="N" cBy="manual" cDate="09/23/2020 14:46:31 UTC Wed" lemmaID="269" lu_type="singleton" name="kwispedoor.n" status="Created" FN_EN_LU_ID="4290" Method="Iteration-1" RBN_LU_ID="r_n-21150" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187457476" POS="N" cBy="ThomasKlein" cDate="02/01/2021 13:50:57 UTC Mon" lemmaID="269" lu_type="singleton" name="kwispedoor.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-21150">
     <definition>om in te spugen, o.a. gebruikt door mannen die tabak pruimen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="kwispedoor" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872395040" POS="N" cBy="automatic" cDate="09/23/2020 14:46:35 UTC Wed" lemmaID="270" lu_type="singleton" name="sarcofaag.n" status="Created" FN_EN_LU_ID="4287" Method="Iteration-1" RBN_LU_ID="r_n-32547" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187461771" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:51:01 UTC Mon" lemmaID="270" lu_type="singleton" name="sarcofaag.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-32547">
     <definition>met gebeeldhouwde versieringen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="sarcofaag" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872398097" POS="N" cBy="automatic" cDate="09/23/2020 14:46:38 UTC Wed" lemmaID="271" lu_type="singleton" name="ketel.n" status="Created" FN_EN_LU_ID="4310" Method="Iteration-1" RBN_LU_ID="r_n-19427" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187465171" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:51:05 UTC Mon" lemmaID="271" lu_type="singleton" name="ketel.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-19427">
     <definition>om vloeistoffen in te koken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="ketel" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872401248" POS="N" cBy="automatic" cDate="09/23/2020 14:46:41 UTC Wed" lemmaID="272" lu_type="singleton" name="vaas.n" status="Created" FN_EN_LU_ID="4420" Method="Iteration-1" RBN_LU_ID="r_n-39396" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187468341" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:51:08 UTC Mon" lemmaID="272" lu_type="singleton" name="vaas.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-39396">
     <definition>waarin je bijvoorbeeld bloemen kunt zetten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="vaas" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872404267" POS="N" cBy="automatic" cDate="09/23/2020 14:46:44 UTC Wed" lemmaID="273" lu_type="singleton" name="pipet.n" status="Created" FN_EN_LU_ID="4422" Method="Iteration-1" RBN_LU_ID="r_n-28608" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187471485" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:51:11 UTC Mon" lemmaID="273" lu_type="singleton" name="pipet.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-28608">
     <definition>waarmee je vloeistof opzuigt of afweegt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="pipet" order="1"/>

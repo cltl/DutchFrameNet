@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="CFB" cDate="05/28/2001 04:45:44 PDT Mon" name="Arraignment" ID="120" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;At a court hearing, a &lt;fen&gt;Defendant&lt;/fen&gt; is informed of the &lt;fen&gt;Charges&lt;/fen&gt; against him or her, (usually) enters a plea, and a decision is made by a &lt;fen&gt;Judge&lt;/fen&gt; as to the amount of bail, if any.
 &lt;ex&gt;&lt;/ex&gt;
@@ -65,7 +64,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871453108" POS="N" cBy="automatic" cDate="09/23/2020 14:30:53 UTC Wed" lemmaID="23" lu_type="singleton" name="voorgeleiding.n" status="Created" FN_EN_LU_ID="2425" Method="Iteration-1" RBN_LU_ID="r_n-41546" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186466624" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:34:26 UTC Mon" lemmaID="23" lu_type="singleton" name="voorgeleiding.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-41546">
     <definition>voor de politie of het gerecht</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="voorgeleiding" order="1"/>

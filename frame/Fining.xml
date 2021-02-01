@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="08/30/2001 06:59:46 PDT Thu" name="Fining" ID="223" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The &lt;fen&gt;Payer&lt;/fen&gt; is (legally) forced to pay a &lt;fen&gt;Fine&lt;/fen&gt; by an official &lt;fen&gt;Speaker&lt;/fen&gt; as a punishment for some action (the &lt;fen&gt;Reason&lt;/fen&gt;).  The &lt;fen&gt;Speaker&lt;/fen&gt; represents an entity which receives the payment.
 &lt;ex&gt;&lt;fex name="Payer"&gt;They&lt;/fex&gt; were &lt;t&gt;fined&lt;/t&gt; &lt;fex name="Fine"&gt;approximately $3.1 billion dollars&lt;/fex&gt; &lt;fex name="Reason"&gt;for their knowing, malicious injury to consumers&lt;/fex&gt;.&lt;/ex&gt;
@@ -95,7 +94,7 @@ Generally, it occurs in a by-PP.
   <frameRelation type="See also">
     <relatedFrame ID="2984">Citing</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600872789471" POS="N" cBy="automatic" cDate="09/23/2020 14:53:09 UTC Wed" lemmaID="394" lu_type="singleton" name="boete.n" status="Created" FN_EN_LU_ID="3883" Method="Iteration-1" RBN_LU_ID="r_n-7877" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187994260" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:59:54 UTC Mon" lemmaID="392" lu_type="singleton" name="boete.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-7877">
     <definition>dat je voor straf moet betalen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="boete" order="1"/>

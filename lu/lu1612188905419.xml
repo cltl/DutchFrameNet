@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="stuurboord.n" ID="1612188905419" frame="Non-gradable_proximity" frameID="2880" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-36483" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Extra-Thematic" abbrev="Acc" name="Accessibility"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Extra-Thematic" abbrev="" name="Deixis"/>
+      <FE fgColor="FFFFFF" bgColor="1E90FF" type="Extra-Thematic" abbrev="Dir" name="Direction"/>
+      <FE fgColor="FFFFFF" bgColor="A9A9A9" type="Extra-Thematic" abbrev="" name="Directness"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Extra-Thematic" abbrev="Dist" name="Distance"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Fig" name="Figure"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Grnd" name="Ground"/>
+      <FE fgColor="000000" bgColor="7FFF00" type="Extra-Thematic" abbrev="" name="Temporal_profile"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="tim" name="Time"/>
+    </frame>
+  </header>
+  <definition>van een schip wanneer je met je gezicht naar het voorsteven gekeerd staat</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="stuurboord" order="1"/>
+</lexUnit>

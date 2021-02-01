@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="03/23/2005 03:08:08 PST Wed" name="Ratification" ID="1351" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Ratifier&lt;/fen&gt; responds to a &lt;fen&gt;Proposal&lt;/fen&gt; constructed by another party to make it binding over the &lt;fen&gt;Ratifier&lt;/fen&gt;'s jurisdiction or constituency.
 
@@ -66,7 +65,7 @@ it &lt;fex name="mea"&gt;by submitting it to the provincial cabinet for approval
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873871421" POS="V" cBy="automatic" cDate="09/23/2020 15:11:11 UTC Wed" lemmaID="726" lu_type="singleton" name="bekrachtigen.v" status="Created" FN_EN_LU_ID="11760" Method="Iteration-1" RBN_LU_ID="r_v-1236" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189376221" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:22:56 UTC Mon" lemmaID="724" lu_type="singleton" name="bekrachtigen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1236">
     <definition>officieel geldig maken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="bekrachtigen" order="1"/>

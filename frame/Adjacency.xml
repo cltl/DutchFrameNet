@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="01/22/2015 07:39:10 PST Thu" name="Adjacency" ID="2891" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Figure&lt;/fen&gt; is located adjacent to a &lt;fen&gt;Ground&lt;/fen&gt;. This is equivalent to the &lt;fen&gt;Figure&lt;/fen&gt; and &lt;fen&gt;Ground&lt;/fen&gt; either constituting or being associated with a zone, with each zone in contact with the zone of the other.
 
@@ -73,12 +72,12 @@ This frame is intended to cover productive metaphor cases such as those found in
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871426486" POS="A" cBy="manual" cDate="09/23/2020 14:30:26 UTC Wed" lemmaID="15" lu_type="singleton" name="naburig.a" status="Created" FN_EN_LU_ID="17802" Method="Iteration-1" RBN_LU_ID="r_a-13050" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186439952" POS="A" cBy="ThomasKlein" cDate="02/01/2021 13:33:59 UTC Mon" lemmaID="15" lu_type="singleton" name="naburig.a" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13050">
     <definition>in de buurt gelegen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="naburig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871429867" POS="V" cBy="automatic" cDate="09/23/2020 14:30:29 UTC Wed" lemmaID="16" lu_type="singleton" name="grenzen.v" status="Created" FN_EN_LU_ID="17827" Method="Iteration-1" RBN_LU_ID="r_v-3028" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186444131" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:34:04 UTC Mon" lemmaID="16" lu_type="singleton" name="grenzen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3028">
     <definition>vlak naast het genoemde liggen (ook figuurlijk)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="grenzen" order="1"/>

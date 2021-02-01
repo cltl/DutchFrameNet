@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/08/2001 03:28:39 PDT Fri" name="Type" ID="128" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame has to do with nouns denoting types of entities. The &lt;fen&gt;Subtype&lt;/fen&gt; refers to a collection of members of a more general &lt;fen&gt;Category&lt;/fen&gt; which have certain defining characteristics; alternatively, the &lt;fen&gt;Subtype&lt;/fen&gt; refers only to the type itself, i.e. a more restrictive set of characteristics than those of the more general &lt;fen&gt;Category&lt;/fen&gt;.  The properties of the items that are included in the collection may be specified by the &lt;fen&gt;Item_Property&lt;/fen&gt;.  Sometimes the &lt;fen&gt;Subtype&lt;/fen&gt;s themselves are described by some &lt;fen&gt;Type_Property&lt;/fen&gt;.
 
@@ -46,27 +45,27 @@ Many &lt;fen&gt;Type_property&lt;/fen&gt; adjectives (e.g. new, rare, traditiona
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874456445" POS="N" cBy="automatic" cDate="09/23/2020 15:20:56 UTC Wed" lemmaID="902" lu_type="singleton" name="genre.n" status="Created" FN_EN_LU_ID="2557" Method="Iteration-1" RBN_LU_ID="r_n-14689" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190084596" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:34:44 UTC Mon" lemmaID="900" lu_type="singleton" name="genre.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-14689">
     <definition>van voorwerpen; voortbrengselen of stijlen van kunst of kunstnijverheid</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="genre" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874459754" POS="N" cBy="automatic" cDate="09/23/2020 15:20:59 UTC Wed" lemmaID="903" lu_type="singleton" name="categorie.n" status="Created" FN_EN_LU_ID="2557" Method="Iteration-1" RBN_LU_ID="r_n-9145" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190087977" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:34:47 UTC Mon" lemmaID="901" lu_type="singleton" name="categorie.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-9145">
     <definition>waar iets of iemand bij wordt ingedeeld</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="categorie" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874463101" POS="N" cBy="automatic" cDate="09/23/2020 15:21:03 UTC Wed" lemmaID="904" lu_type="singleton" name="aard.n" status="Created" FN_EN_LU_ID="2557" Method="Iteration-1" RBN_LU_ID="r_n-2393" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190091216" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:34:51 UTC Mon" lemmaID="902" lu_type="singleton" name="aard.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-2393">
     <definition>van een mens of natuurlijke eigenschappen van dieren of planten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="aard" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874466459" POS="N" cBy="automatic" cDate="09/23/2020 15:21:06 UTC Wed" lemmaID="905" lu_type="singleton" name="vormgeving.n" status="Created" FN_EN_LU_ID="2557" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-41729" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190094521" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:34:54 UTC Mon" lemmaID="903" lu_type="singleton" name="vormgeving.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-41729">
     <definition>in een bepaalde vorm en het resultaat daarvan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="vormgeving" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874469845" POS="N" cBy="automatic" cDate="09/23/2020 15:21:09 UTC Wed" lemmaID="906" lu_type="singleton" name="stijl.n" status="Created" FN_EN_LU_ID="2557" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-35887" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190097851" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:34:57 UTC Mon" lemmaID="904" lu_type="singleton" name="stijl.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-35887">
     <definition>waarop iemand schrijft of spreekt of een schilderij, gebouw, beeld enz. maakt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="stijl" order="1"/>

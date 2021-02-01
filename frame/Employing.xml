@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="05/14/2002 04:15:48 PDT Tue" name="Employing" ID="323" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Employer&lt;/fen&gt; employs an &lt;fen&gt;Employee&lt;/fen&gt; whose &lt;fen&gt;Position&lt;/fen&gt; entails that the &lt;fen&gt;Employee&lt;/fen&gt; perform certain &lt;fen&gt;Task&lt;/fen&gt;s in exchange for &lt;fen&gt;Compensation&lt;/fen&gt;.
 
@@ -104,7 +103,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872568581" POS="N" cBy="automatic" cDate="09/23/2020 14:49:28 UTC Wed" lemmaID="326" lu_type="singleton" name="medewerker.n" status="Created" FN_EN_LU_ID="8396" Method="Iteration-1" RBN_LU_ID="r_n-23423" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187677578" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:54:37 UTC Mon" lemmaID="324" lu_type="singleton" name="medewerker.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-23423">
     <definition>die (met anderen samen) werkt bij een bedrijf, organisatie of project</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="medewerker" order="1"/>

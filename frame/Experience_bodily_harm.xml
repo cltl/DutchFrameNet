@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="07/29/2002 11:58:59 PDT Mon" name="Experience_bodily_harm" ID="384" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Experiencer&lt;/fen&gt; is involved in a bodily injury to a &lt;fen&gt;Body_part&lt;/fen&gt;.  (In some cases, no &lt;fen&gt;Body_part&lt;/fen&gt; need be indicated.)  Often an &lt;fen&gt;Injuring_entity&lt;/fen&gt; on which the &lt;fen&gt;Experiencer&lt;/fen&gt; injures themselves is mentioned.
 &lt;ex&gt;I think that &lt;fex name="Exp"&gt;I&lt;/fex&gt; &lt;t&gt;hurt&lt;/t&gt; &lt;fex name="Exp"&gt;myself&lt;/fex&gt; &lt;fex name="Sev"&gt;pretty bad&lt;/fex&gt; &lt;fex name="Place"&gt;back there&lt;/fex&gt;.&lt;/ex&gt;
@@ -81,22 +80,22 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872628511" POS="V" cBy="manual" cDate="09/23/2020 14:50:28 UTC Wed" lemmaID="345" lu_type="singleton" name="verstuiken.v" status="Created" FN_EN_LU_ID="6900" Method="Iteration-2_WN" RBN_LU_ID="r_v-9370" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187785822" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:56:25 UTC Mon" lemmaID="343" lu_type="singleton" name="verstuiken.v" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9370">
     <definition>de gewrichtsbanden van een bepaald lichaamsdeel te ver of verkeerd buigen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verstuiken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872631778" POS="V" cBy="automatic" cDate="09/23/2020 14:50:31 UTC Wed" lemmaID="282" lu_type="singleton" name="verrekken.v" status="Created" FN_EN_LU_ID="6898" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9228" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187795470" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:56:35 UTC Mon" lemmaID="282" lu_type="singleton" name="verrekken.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9228">
     <definition>uit het verband rekken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verrekken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872634962" POS="V" cBy="manual" cDate="09/23/2020 14:50:34 UTC Wed" lemmaID="346" lu_type="singleton" name="verzwikken.v" status="Created" FN_EN_LU_ID="6898" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9572" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187799996" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:56:39 UTC Mon" lemmaID="344" lu_type="singleton" name="verzwikken.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9572">
     <definition>(een lichaamsdeel) te ver of verkeerd buigen en daardoor het gewricht ervan beschadigen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verzwikken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872638302" POS="V" cBy="manual" cDate="09/23/2020 14:50:38 UTC Wed" lemmaID="347" lu_type="phrasal" name="omslaan.v" status="Created" FN_EN_LU_ID="6898" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-5107" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187803782" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:56:43 UTC Mon" lemmaID="345" lu_type="phrasal" name="omslaan.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-5107">
     <definition>iets verzwikken of verstuiken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="om" order="1"/>

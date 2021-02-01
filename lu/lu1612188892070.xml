@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="gitaar.n" ID="1612188892070" frame="Noise_makers" frameID="1017" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-15233" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="crt" name="Creator"/>
+      <FE fgColor="FFFFFF" bgColor="7CCD7C" type="Peripheral" abbrev="Grnd" name="Ground"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="mat" name="Material"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="" name="Name"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="nm" name="Noise_maker"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="toc" name="Time_of_creation"/>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="tp" name="Type"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Peripheral" abbrev="s" name="Use"/>
+    </frame>
+  </header>
+  <definition>met zes of meer snaren, dat bespeeld wordt door de snaren met de vingers of een plectrum te tokkelen</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="gitaar" order="1"/>
+</lexUnit>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="03/28/2007 11:12:09 PDT Wed" name="Touring" ID="1907" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Tourist&lt;/fen&gt; experiences an &lt;fen&gt;Attraction&lt;/fen&gt;, a location with a unique history or other societally recognized individual character, with the goal of seeing and learning about it. Typically, the &lt;fen&gt;Attraction&lt;/fen&gt; has a source of information about the &lt;fen&gt;Attraction&lt;/fen&gt;--a guide, pamphlets, or displays.
 
@@ -70,12 +69,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874443034" POS="N" cBy="automatic" cDate="09/23/2020 15:20:43 UTC Wed" lemmaID="898" lu_type="singleton" name="toerist.n" status="Created" FN_EN_LU_ID="14188" Method="Iteration-1" RBN_LU_ID="r_n-37886" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190071109" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:34:31 UTC Mon" lemmaID="896" lu_type="singleton" name="toerist.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-37886">
     <definition>die naar mooie, leuke en/of interessante plekken reist</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="toerist" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874446417" POS="N" cBy="automatic" cDate="09/23/2020 15:20:46 UTC Wed" lemmaID="899" lu_type="singleton" name="toerisme.n" status="Created" FN_EN_LU_ID="14825" Method="Iteration-1" RBN_LU_ID="r_n-37885" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190074337" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:34:34 UTC Mon" lemmaID="897" lu_type="singleton" name="toerisme.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-37885">
     <definition>als ontspanning, in het bijzonder naar interessante of mooie gebieden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="toerisme" order="1"/>

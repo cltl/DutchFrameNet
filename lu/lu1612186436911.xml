@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="alcoholiste.n" ID="1612186436911" frame="Addiction" frameID="213" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-3249" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Addict" name="Addict"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Addtnt" name="Addictant"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Compl" name="Compeller"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Degr" name="Degree"/>
+    </frame>
+  </header>
+  <definition>die verslaafd is aan alcohol</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="alcoholiste" order="1"/>
+</lexUnit>

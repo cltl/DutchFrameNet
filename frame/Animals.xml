@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="CVa" cDate="07/18/2014 03:13:27 PDT Fri" name="Animals" ID="2840" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The LUs in this frame refer to biological entities other than human beings and plants, which are labeled by the FE &lt;fen&gt;Animal&lt;/fen&gt;.
 
@@ -42,12 +41,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871446559" POS="N" cBy="automatic" cDate="09/23/2020 14:30:46 UTC Wed" lemmaID="21" lu_type="singleton" name="dier.n" status="Created" FN_EN_LU_ID="17632" Method="Iteration-1" RBN_LU_ID="r_n-10914" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186460023" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:34:20 UTC Mon" lemmaID="21" lu_type="singleton" name="dier.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-10914">
     <definition>dat begaafd is met gevoel en willekeurige beweging en niet tot de planten behoort</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="dier" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871449867" POS="N" cBy="automatic" cDate="09/23/2020 14:30:49 UTC Wed" lemmaID="22" lu_type="singleton" name="beest.n" status="Created" FN_EN_LU_ID="17632" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-6278" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186463485" POS="N" cBy="Iteration-2" cDate="02/01/2021 13:34:23 UTC Mon" lemmaID="22" lu_type="singleton" name="beest.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-6278">
     <definition>dat geen plant of mens is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="beest" order="1"/>

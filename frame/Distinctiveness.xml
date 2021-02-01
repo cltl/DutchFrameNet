@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/23/2004 02:35:36 PDT Wed" name="Distinctiveness" ID="1133" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Feature&lt;/fen&gt; of an &lt;fen&gt;Entity&lt;/fen&gt; serves to distinguish the &lt;fen&gt;Entity&lt;/fen&gt; from other members of its type which have a different value for the &lt;fen&gt;Feature&lt;/fen&gt;.  Note that the &lt;fen&gt;Entity&lt;/fen&gt; is often implicit.
 
@@ -42,7 +41,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872472162" POS="A" cBy="automatic" cDate="09/23/2020 14:47:52 UTC Wed" lemmaID="295" lu_type="singleton" name="kenmerkend.a" status="Created" FN_EN_LU_ID="10596" Method="Iteration-1" RBN_LU_ID="r_a-12413" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187555902" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:52:35 UTC Mon" lemmaID="295" lu_type="singleton" name="kenmerkend.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12413">
     <definition>typerend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="kenmerkend" order="1"/>

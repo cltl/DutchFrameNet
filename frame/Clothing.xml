@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Shw" cDate="06/15/2001 05:35:31 PDT Fri" name="Clothing" ID="134" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame refers to clothing and its characteristics,  including anything that people conventionally wear.  The &lt;fen&gt;Wearer&lt;/fen&gt; wears a &lt;fen&gt;Garment&lt;/fen&gt; that has a certain &lt;fen&gt;Style&lt;/fen&gt;, is made of a certain &lt;fen&gt;Material&lt;/fen&gt;, and can be otherwise characterized by a &lt;fen&gt;Descriptor&lt;/fen&gt;.  In some cases, the &lt;fen&gt;Body_location&lt;/fen&gt; (where the garment is worn) and &lt;fen&gt;Subregion&lt;/fen&gt; of the clothing may also be specified.
 
@@ -86,72 +85,72 @@ Note that each modifer of the target gets its own FE (and, hence, its own GF and
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872108097" POS="N" cBy="automatic" cDate="09/23/2020 14:41:48 UTC Wed" lemmaID="192" lu_type="singleton" name="blouse.n" status="Created" FN_EN_LU_ID="2907" Method="Iteration-1" RBN_LU_ID="r_n-7685" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186992815" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:43:12 UTC Mon" lemmaID="192" lu_type="singleton" name="blouse.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-7685">
     <definition>voor het bovenlichaam van dunne stof met knoopsluiting en een boord</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="blouse" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872111285" POS="N" cBy="manual" cDate="09/23/2020 14:41:51 UTC Wed" lemmaID="193" lu_type="singleton" name="kleren.n" status="Created" FN_EN_LU_ID="2936" Method="Iteration-1" RBN_LU_ID="r_n-19791" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186995872" POS="N" cBy="ThomasKlein" cDate="02/01/2021 13:43:15 UTC Mon" lemmaID="193" lu_type="singleton" name="kleren.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-19791">
     <definition>zoals jassen, broeken, truien, jurken etc.</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="kleren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872114467" POS="N" cBy="automatic" cDate="09/23/2020 14:41:54 UTC Wed" lemmaID="194" lu_type="singleton" name="sjaal.n" status="Created" FN_EN_LU_ID="2944" Method="Iteration-1" RBN_LU_ID="r_n-33841" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186999005" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:43:19 UTC Mon" lemmaID="194" lu_type="singleton" name="sjaal.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-33841">
     <definition>voor om je hals, om je hals warm te houden of voor de sier</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="sjaal" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872117449" POS="N" cBy="automatic" cDate="09/23/2020 14:41:57 UTC Wed" lemmaID="195" lu_type="singleton" name="panty.n" status="Created" FN_EN_LU_ID="2972" Method="Iteration-1" RBN_LU_ID="r_n-27515" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187002644" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:43:22 UTC Mon" lemmaID="195" lu_type="singleton" name="panty.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-27515">
     <definition>dat bestaat uit nylon kousen en broekje aan één stuk</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="panty" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872120535" POS="N" cBy="automatic" cDate="09/23/2020 14:42:00 UTC Wed" lemmaID="196" lu_type="singleton" name="jarretel.n" status="Created" FN_EN_LU_ID="2976" Method="Iteration-1" RBN_LU_ID="r_n-18445" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187005682" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:43:25 UTC Mon" lemmaID="196" lu_type="singleton" name="jarretel.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-18445">
     <definition>voor om het middel van vrouwen met bandjes en klemmetjes om kousen mee vast te zetten bij het dragen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="jarretel" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872125096" POS="N" cBy="automatic" cDate="09/23/2020 14:42:05 UTC Wed" lemmaID="197" lu_type="singleton" name="anorak.n" status="Created" FN_EN_LU_ID="3346" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-3602" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187008968" POS="N" cBy="Iteration-2" cDate="02/01/2021 13:43:28 UTC Mon" lemmaID="197" lu_type="singleton" name="anorak.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-3602">
     <definition>met capuchon, dat men over het hoofd aan moet trekken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="anorak" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872131661" POS="N" cBy="automatic" cDate="09/23/2020 14:42:11 UTC Wed" lemmaID="198" lu_type="singleton" name="pon.n" status="Created" FN_EN_LU_ID="3353" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-29154" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187014051" POS="N" cBy="Iteration-2" cDate="02/01/2021 13:43:34 UTC Mon" lemmaID="198" lu_type="singleton" name="pon.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-29154">
     <definition>voor meisjes of vrouwen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="pon" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872138059" POS="N" cBy="automatic" cDate="09/23/2020 14:42:18 UTC Wed" lemmaID="199" lu_type="singleton" name="lingerie.n" status="Created" FN_EN_LU_ID="3355" Method="Iteration-1" RBN_LU_ID="r_n-22296" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187019510" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:43:39 UTC Mon" lemmaID="199" lu_type="singleton" name="lingerie.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-22296">
     <definition>voor dames, vrouwen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="lingerie" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872142767" POS="N" cBy="automatic" cDate="09/23/2020 14:42:22 UTC Wed" lemmaID="200" lu_type="singleton" name="kimono.n" status="Created" FN_EN_LU_ID="3402" Method="Iteration-1" RBN_LU_ID="r_n-19559" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187024324" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:43:44 UTC Mon" lemmaID="200" lu_type="singleton" name="kimono.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-19559">
     <definition>met wijde mouwen die sluit met een band of koord</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="kimono" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872145971" POS="N" cBy="automatic" cDate="09/23/2020 14:42:25 UTC Wed" lemmaID="201" lu_type="singleton" name="uniform.n" status="Created" FN_EN_LU_ID="3542" Method="Iteration-1" RBN_LU_ID="r_n-39268" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187027697" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:43:47 UTC Mon" lemmaID="201" lu_type="singleton" name="uniform.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-39268">
     <definition>die geijkt is, of dracht die bedoeld is voor een bepaalde categorie van personen (bijv. militairen, politieagenten e.d.)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="uniform" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872149234" POS="N" cBy="automatic" cDate="09/23/2020 14:42:29 UTC Wed" lemmaID="202" lu_type="singleton" name="gelijk.n" status="Created" FN_EN_LU_ID="3542" Method="Iteration-1" RBN_LU_ID="r_n-14471" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187030891" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:43:50 UTC Mon" lemmaID="202" lu_type="singleton" name="gelijk.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-14471">
     <definition>van het billijk of rechtvaardig zijn</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="gelijk" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872152268" POS="N" cBy="automatic" cDate="09/23/2020 14:42:32 UTC Wed" lemmaID="203" lu_type="singleton" name="zool.n" status="Created" FN_EN_LU_ID="3553" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-44364" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187034245" POS="N" cBy="Iteration-2" cDate="02/01/2021 13:43:54 UTC Mon" lemmaID="203" lu_type="singleton" name="zool.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-44364">
     <definition>dat enkel de voetzool bedekt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="zool" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872155539" POS="N" cBy="automatic" cDate="09/23/2020 14:42:35 UTC Wed" lemmaID="204" lu_type="singleton" name="doublet.n" status="Created" FN_EN_LU_ID="3656" Method="Iteration-1" RBN_LU_ID="r_n-11416" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187039050" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:43:59 UTC Mon" lemmaID="204" lu_type="singleton" name="doublet.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-11416">
     <definition>van iets in tweevoud</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="doublet" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872158670" POS="N" cBy="automatic" cDate="09/23/2020 14:42:38 UTC Wed" lemmaID="205" lu_type="singleton" name="kazuifel.n" status="Created" FN_EN_LU_ID="3668" Method="Iteration-1" RBN_LU_ID="r_n-19248" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187044700" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:44:04 UTC Mon" lemmaID="205" lu_type="singleton" name="kazuifel.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-19248">
     <definition>van een priester tijdens de mis</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="kazuifel" order="1"/>

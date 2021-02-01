@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="10/12/2005 01:49:30 PDT Wed" name="Willingness" ID="1632" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; would engage in an &lt;fen&gt;Activity&lt;/fen&gt; if asked or otherwise prompted to do so.
 
@@ -69,7 +68,7 @@ The &lt;fen&gt;Activity&lt;/fen&gt; is what the &lt;fen&gt;Cognizer&lt;/fen&gt; 
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874577717" POS="N" cBy="automatic" cDate="09/23/2020 15:22:57 UTC Wed" lemmaID="939" lu_type="singleton" name="onwil.n" status="Created" FN_EN_LU_ID="12805" Method="Iteration-1" RBN_LU_ID="r_n-26343" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190206081" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:36:46 UTC Mon" lemmaID="937" lu_type="singleton" name="onwil.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-26343">
     <definition>aan goede wil</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="onwil" order="1"/>

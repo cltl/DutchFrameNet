@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:01 PST Wed" name="Gesture" ID="36" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The words in this frame have to do with non-verbal communication. Topic is not normally expressed with these words. This seems to be related to the absence of a verbal code in cases of gestural communication. Topic can be viewed as a partial characterization of a &lt;fen&gt;Message&lt;/fen&gt;, but such partial characterization is either difficult or irrelevant in the absence of a verbal code. 
 
@@ -66,7 +65,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872833275" POS="V" cBy="automatic" cDate="09/23/2020 14:53:53 UTC Wed" lemmaID="408" lu_type="singleton" name="gebaren.v" status="Created" FN_EN_LU_ID="536" Method="Iteration-1" RBN_LU_ID="r_v-2872" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188050149" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:00:50 UTC Mon" lemmaID="406" lu_type="singleton" name="gebaren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2872">
     <definition>iets duidelijk maken met gebaren</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="gebaren" order="1"/>

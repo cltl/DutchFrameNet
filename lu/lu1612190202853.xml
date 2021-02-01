@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="onweer.n" ID="1612190202853" frame="Weather" frameID="303" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-26337" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="P" name="Place"/>
+      <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Spec" name="Specification"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="T" name="Time"/>
+    </frame>
+  </header>
+  <definition>waarbij het bliksemt en dondert</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="onweer" order="1"/>
+</lexUnit>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="08/21/2006 03:44:49 PDT Mon" name="Thriving" ID="1771" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Entity&lt;/fen&gt; is in a state such that it participates in a preponderance of states and events which are desirable for it. For living entities, this may entail a proliferation of instances of the entity, or of desirable properties associated with the (single) entity. For non-living entities (economies, political locales, academic topics, etc.), this entails a proliferation of instances, or of activities that lead to instances, or any attribute that would prevent the entity from disappearing. This state is conceived of as temporary, or at least contingent on a number of changeable factors. Words expressing the opposite state, i.e., a lack of such positive activity, are also in this frame.
 
@@ -64,12 +63,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874419836" POS="V" cBy="automatic" cDate="09/23/2020 15:20:19 UTC Wed" lemmaID="891" lu_type="singleton" name="gedijen.v" status="Created" FN_EN_LU_ID="13519" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2881" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190048197" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:34:08 UTC Mon" lemmaID="889" lu_type="singleton" name="gedijen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2881">
     <definition>in omvang en/of waarde toenemen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="gedijen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874423049" POS="V" cBy="automatic" cDate="09/23/2020 15:20:23 UTC Wed" lemmaID="892" lu_type="singleton" name="tieren.v" status="Created" FN_EN_LU_ID="13519" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7916" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190051407" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:34:11 UTC Mon" lemmaID="890" lu_type="singleton" name="tieren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7916">
     <definition>zich zeer goed ontwikkelen, goed gedijen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="tieren" order="1"/>

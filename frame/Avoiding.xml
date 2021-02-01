@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="02/25/2002 02:06:49 PST Mon" name="Avoiding" ID="274" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; avoids an &lt;fen&gt;Undesirable_situation&lt;/fen&gt; under certain &lt;fen&gt;Circumstances&lt;/fen&gt;. That situation may be an activity (e.g. going to school), or an entity (perhaps) metonymic for such an activity or situation (e.g. the curb).  In this frame, the situation is undesirable from the &lt;fen&gt;Agent&lt;/fen&gt;'s point of view (e.g. &lt;ment&gt;evade&lt;/ment&gt;), and contrasts with scenes in which the situation is specifically undesirable to someone else (e.g. &lt;ment&gt;forbear&lt;/ment&gt;) or from the point of view of an external morality (e.g. &lt;ment&gt;abstain&lt;/ment&gt;).
 
@@ -65,12 +64,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871510895" POS="V" cBy="manual" cDate="09/23/2020 14:31:50 UTC Wed" lemmaID="37" lu_type="singleton" name="schuwen.v" status="Created" FN_EN_LU_ID="5001" Method="Iteration-2_WN" RBN_LU_ID="r_v-7118" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186515171" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:35:15 UTC Mon" lemmaID="37" lu_type="singleton" name="schuwen.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7118">
     <definition>mijden uit vrees of uit afkeer</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="schuwen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871515140" POS="V" cBy="automatic" cDate="09/23/2020 14:31:55 UTC Wed" lemmaID="38" lu_type="singleton" name="verhoeden.v" status="Created" FN_EN_LU_ID="5030" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9007" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186518171" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:35:18 UTC Mon" lemmaID="38" lu_type="singleton" name="verhoeden.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9007">
     <definition>voorkomen dat iets gebeurt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verhoeden" order="1"/>

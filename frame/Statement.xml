@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:04 PST Wed" name="Statement" ID="43" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame contains verbs and nouns that communicate the act of a &lt;fen&gt;Speaker&lt;/fen&gt; to address a &lt;fen&gt;Message&lt;/fen&gt; to some &lt;fen&gt;Addressee&lt;/fen&gt; using language. Instead of (or in addition to) a &lt;fen&gt;Speaker&lt;/fen&gt;, a &lt;fen&gt;Medium&lt;/fen&gt; may also be mentioned. Likewise, a &lt;fen&gt;Topic&lt;/fen&gt; may be stated instead of a &lt;fen&gt;Message&lt;/fen&gt;. A number of the words can be used performatively, such as &lt;m&gt;declare&lt;/m&gt; and &lt;m&gt;insist&lt;/m&gt;.
 
@@ -131,75 +130,75 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874183783" POS="V" cBy="automatic" cDate="09/23/2020 15:16:23 UTC Wed" lemmaID="819" lu_type="singleton" name="manen.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-1" RBN_LU_ID="r_v-4532" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189781801" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:29:41 UTC Mon" lemmaID="817" lu_type="singleton" name="manen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4532">
     <definition>iemand zeggen dat hij of zij iets moet doen, hem of haar aansporen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="manen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874187009" POS="V" cBy="automatic" cDate="09/23/2020 15:16:27 UTC Wed" lemmaID="820" lu_type="singleton" name="pressen.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6435" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189785708" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:29:45 UTC Mon" lemmaID="818" lu_type="singleton" name="pressen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6435">
     <definition>iemand onder druk zetten om iets te doen, hem of haar ertoe dwingen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="pressen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874190191" POS="V" cBy="automatic" cDate="09/23/2020 15:16:30 UTC Wed" lemmaID="821" lu_type="singleton" name="pramen.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6416" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189789605" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:29:49 UTC Mon" lemmaID="819" lu_type="singleton" name="pramen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6416">
     <definition>iemand ertoe brengen iets te doen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="pramen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874193460" POS="V" cBy="automatic" cDate="09/23/2020 15:16:33 UTC Wed" lemmaID="822" lu_type="singleton" name="zetten.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-10241" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189793810" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:29:53 UTC Mon" lemmaID="820" lu_type="singleton" name="zetten.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-10241">
     <definition>maken dat iets of iemand ergens mee begint</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="zetten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874196577" POS="V" cBy="automatic" cDate="09/23/2020 15:16:36 UTC Wed" lemmaID="823" lu_type="singleton" name="dringen.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2539" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189798365" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:29:58 UTC Mon" lemmaID="821" lu_type="singleton" name="dringen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2539">
     <definition>druk doen gelden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="dringen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874199768" POS="V" cBy="automatic" cDate="09/23/2020 15:16:39 UTC Wed" lemmaID="824" lu_type="phrasal" name="aanzetten.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-330" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189802597" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:30:02 UTC Mon" lemmaID="822" lu_type="phrasal" name="aanzetten.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-330">
     <definition>iemand zodanig beïnvloeden dat die iets gaat ondernemen of bepaald gedrag gaat vertonen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="aan" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="zetten" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600874202975" POS="V" cBy="automatic" cDate="09/23/2020 15:16:42 UTC Wed" lemmaID="825" lu_type="singleton" name="drijven.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2534" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189807087" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:30:07 UTC Mon" lemmaID="823" lu_type="singleton" name="drijven.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2534">
     <definition>aanzetten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="drijven" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874206232" POS="V" cBy="automatic" cDate="09/23/2020 15:16:46 UTC Wed" lemmaID="826" lu_type="phrasal" name="opjutten.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-5611" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189811648" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:30:11 UTC Mon" lemmaID="824" lu_type="phrasal" name="opjutten.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-5611">
     <definition>de genoemde tot haast aanzetten en hem of haar daardoor zenuwachtig maken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="op" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="jutten" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600874209332" POS="V" cBy="automatic" cDate="09/23/2020 15:16:49 UTC Wed" lemmaID="827" lu_type="phrasal" name="aanmanen.v" status="Created" FN_EN_LU_ID="695" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-150" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189815904" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:30:15 UTC Mon" lemmaID="825" lu_type="phrasal" name="aanmanen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-150">
     <definition>nadrukkelijk aansporen aan zijn verplichtingen te voldoen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="aan" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="manen" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600874212482" POS="V" cBy="automatic" cDate="09/23/2020 15:16:52 UTC Wed" lemmaID="828" lu_type="singleton" name="vermoeden.v" status="Created" FN_EN_LU_ID="709" Method="Iteration-1" RBN_LU_ID="r_v-9153" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189820099" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:30:20 UTC Mon" lemmaID="826" lu_type="singleton" name="vermoeden.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9153">
     <definition>op grond van bepaalde aanwijzingen iets als waarheid aannemen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="vermoeden" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874215883" POS="V" cBy="automatic" cDate="09/23/2020 15:16:55 UTC Wed" lemmaID="829" lu_type="singleton" name="gissen.v" status="Created" FN_EN_LU_ID="709" Method="Iteration-1" RBN_LU_ID="r_v-2973" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189824147" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:30:24 UTC Mon" lemmaID="827" lu_type="singleton" name="gissen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2973">
     <definition>trachten tot een conclusie (omtrent iets), een voorstelling (van iets) te komen door de gegevens, mogelijkheden na te gaan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="gissen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874219104" POS="V" cBy="automatic" cDate="09/23/2020 15:16:59 UTC Wed" lemmaID="830" lu_type="singleton" name="veronderstellen.v" status="Created" FN_EN_LU_ID="709" Method="Iteration-1" RBN_LU_ID="r_v-9178" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189828502" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:30:28 UTC Mon" lemmaID="828" lu_type="singleton" name="veronderstellen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9178">
     <definition>iets als waar aannemen en het als uitgangspunt nemen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="veronderstellen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874222346" POS="V" cBy="automatic" cDate="09/23/2020 15:17:02 UTC Wed" lemmaID="831" lu_type="singleton" name="postuleren.v" status="Created" FN_EN_LU_ID="709" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6401" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189833901" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:30:33 UTC Mon" lemmaID="829" lu_type="singleton" name="postuleren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6401">
     <definition>aannemen dat iets waar is, zonder dat je daar het bewijs van hebt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="postuleren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874228673" POS="V" cBy="automatic" cDate="09/23/2020 15:17:08 UTC Wed" lemmaID="832" lu_type="singleton" name="raden.v" status="Created" FN_EN_LU_ID="709" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6522" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189843823" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:30:43 UTC Mon" lemmaID="830" lu_type="singleton" name="raden.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6522">
     <definition>proberen achter het genoemde te komen door je vermoedens uit te spreken of door te gokken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="raden" order="1"/>

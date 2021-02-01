@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="tactiek.n" ID="1612188591085" frame="Means" frameID="1790" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-36826" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="age" name="Agent"/>
+      <FE fgColor="FFFFFF" bgColor="2E8B57" type="Extra-Thematic" abbrev="" name="Descriptor"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="mea" name="Means"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="pur" name="Purpose"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="" name="Time"/>
+    </frame>
+  </header>
+  <definition>om op systematische wijze een bepaald doel te bereiken, met name in de sport en op militair gebied</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="tactiek" order="1"/>
+</lexUnit>

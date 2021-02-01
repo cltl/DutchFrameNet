@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:09 PST Wed" name="Death" ID="53" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The words in this frame describe the death of a &lt;fen&gt;Protagonist&lt;/fen&gt;.  A &lt;fen&gt;Cause&lt;/fen&gt; of death may also be expressed obliquely.
 &lt;ex&gt;&lt;/ex&gt;
@@ -88,28 +87,28 @@
   </frameRelation>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872422930" POS="V" cBy="automatic" cDate="09/23/2020 14:47:02 UTC Wed" lemmaID="279" lu_type="singleton" name="creperen.v" status="Created" FN_EN_LU_ID="4049" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2070" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187493202" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:51:33 UTC Mon" lemmaID="279" lu_type="singleton" name="creperen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2070">
     <definition>op ellendige wijze doodgaan, met name van dieren</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="creperen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872425945" POS="V" cBy="automatic" cDate="09/23/2020 14:47:05 UTC Wed" lemmaID="280" lu_type="phrasal" name="heengaan.v" status="Created" FN_EN_LU_ID="4049" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-3135" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187497383" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:51:37 UTC Mon" lemmaID="280" lu_type="phrasal" name="heengaan.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3135">
     <definition>doodgaan, sterven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="heen" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="gaan" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600872428983" POS="V" cBy="automatic" cDate="09/23/2020 14:47:08 UTC Wed" lemmaID="281" lu_type="singleton" name="sterven.v" status="Created" FN_EN_LU_ID="4049" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7492" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187500598" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:51:40 UTC Mon" lemmaID="281" lu_type="singleton" name="sterven.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7492">
     <definition>doodgaan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="sterven" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872432207" POS="V" cBy="automatic" cDate="09/23/2020 14:47:12 UTC Wed" lemmaID="282" lu_type="singleton" name="verrekken.v" status="Created" FN_EN_LU_ID="4049" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9229" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187503706" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:51:43 UTC Mon" lemmaID="282" lu_type="singleton" name="verrekken.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9229">
     <definition>op een pijnlijke manier sterven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verrekken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872435180" POS="V" cBy="automatic" cDate="09/23/2020 14:47:15 UTC Wed" lemmaID="283" lu_type="singleton" name="versmachten.v" status="Created" FN_EN_LU_ID="4049" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9299" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187506857" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:51:46 UTC Mon" lemmaID="283" lu_type="singleton" name="versmachten.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9299">
     <definition>door gebrek aan iets dat men nodig heeft heel erg lijden of sterven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="versmachten" order="1"/>

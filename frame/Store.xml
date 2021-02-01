@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="06/21/2005 05:33:17 PDT Tue" name="Store" ID="1511" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Supply&lt;/fen&gt; of a &lt;fen&gt;Resource&lt;/fen&gt; is kept safe and available for a future &lt;fen&gt;Use&lt;/fen&gt;.  The &lt;fen&gt;Supply&lt;/fen&gt; may be under the control of a &lt;fen&gt;Possessor&lt;/fen&gt;.
 
@@ -47,17 +46,17 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874270535" POS="N" cBy="automatic" cDate="09/23/2020 15:17:50 UTC Wed" lemmaID="845" lu_type="singleton" name="vracht.n" status="Created" FN_EN_LU_ID="14694" Method="Iteration-1" RBN_LU_ID="r_n-41773" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189889605" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:31:29 UTC Mon" lemmaID="843" lu_type="singleton" name="vracht.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-41773">
     <definition>om te vervoeren</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="vracht" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874273752" POS="N" cBy="automatic" cDate="09/23/2020 15:17:53 UTC Wed" lemmaID="846" lu_type="singleton" name="lading.n" status="Created" FN_EN_LU_ID="14694" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-21222" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189893010" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:31:33 UTC Mon" lemmaID="844" lu_type="singleton" name="lading.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-21222">
     <definition>van goederen in een schip, vrachtwagen, vliegtuig enz.</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="lading" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874276880" POS="N" cBy="automatic" cDate="09/23/2020 15:17:56 UTC Wed" lemmaID="847" lu_type="singleton" name="last.n" status="Created" FN_EN_LU_ID="14694" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-21467" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189896300" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:31:36 UTC Mon" lemmaID="845" lu_type="singleton" name="last.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-21467">
     <definition>wat op een persoon of dier, op of in een ding geladen is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="last" order="1"/>

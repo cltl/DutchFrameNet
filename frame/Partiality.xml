@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/13/2002 12:25:07 PDT Thu" name="Partiality" ID="349" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame has to do with the bias or lack of bias of a &lt;fen&gt;Judge&lt;/fen&gt; making an assessment concerning two or more &lt;fen&gt;Sides&lt;/fen&gt;. The &lt;fen&gt;Sides&lt;/fen&gt; may stand opposed to each other in a dispute or be alternatives in a situation of choice. The &lt;fen&gt;Domain&lt;/fen&gt; in which the &lt;fen&gt;Judge&lt;/fen&gt; is partial or impartial may be expressed as well as the &lt;fen&gt;Degree&lt;/fen&gt; of bias or lack thereof.  In sentences in this frame one may also find expressions of &lt;fen&gt;Manifestation_of_bias&lt;/fen&gt;, i.e. expressions that tell us how the &lt;fen&gt;Judge&lt;/fen&gt;'s bias is realized.
 
@@ -83,7 +82,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873547100" POS="A" cBy="automatic" cDate="09/23/2020 15:05:47 UTC Wed" lemmaID="629" lu_type="singleton" name="partijdig.a" status="Created" FN_EN_LU_ID="11255" Method="Iteration-1" RBN_LU_ID="r_a-14259" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188988385" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:16:28 UTC Mon" lemmaID="627" lu_type="singleton" name="partijdig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-14259">
     <definition>vooringenomen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="partijdig" order="1"/>

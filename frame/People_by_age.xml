@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="02/20/2004 05:26:18 PST Fri" name="People_by_age" ID="973" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame contains words for individuals as viewed in terms of their age. The &lt;fen&gt;Person&lt;/fen&gt; is conceived of as independent of other specific individuals with whom they have relationships and independent of their participation in any particular activity. They may have a &lt;fen&gt;Descriptor&lt;/fen&gt;, &lt;fen&gt;Origin&lt;/fen&gt;, &lt;fen&gt;Persistent_characteristic&lt;/fen&gt;, or &lt;fen&gt;Ethnicity&lt;/fen&gt;. A specific &lt;fen&gt;Age&lt;/fen&gt; may sometimes be specified as well.
 
@@ -47,17 +46,17 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873553497" POS="N" cBy="automatic" cDate="09/23/2020 15:05:53 UTC Wed" lemmaID="631" lu_type="singleton" name="koet.n" status="Created" FN_EN_LU_ID="10077" Method="Iteration-1" RBN_LU_ID="r_n-20086" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188996337" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:16:36 UTC Mon" lemmaID="629" lu_type="singleton" name="koet.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-20086">
     <definition>met een klein kopje, die je vaak in sloten ziet zwemmen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="koet" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873556715" POS="N" cBy="automatic" cDate="09/23/2020 15:05:56 UTC Wed" lemmaID="632" lu_type="singleton" name="adolescent.n" status="Created" FN_EN_LU_ID="10086" Method="Iteration-1" RBN_LU_ID="r_n-2758" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189002867" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:16:42 UTC Mon" lemmaID="630" lu_type="singleton" name="adolescent.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-2758">
     <definition>van 15 tot 20 jaar</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="adolescent" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873559975" POS="N" cBy="automatic" cDate="09/23/2020 15:05:59 UTC Wed" lemmaID="633" lu_type="singleton" name="boreling.n" status="Created" FN_EN_LU_ID="14716" Method="Iteration-1" RBN_LU_ID="r_n-8118" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189007666" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:16:47 UTC Mon" lemmaID="631" lu_type="singleton" name="boreling.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-8118">
     <definition>dat pas geboren is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="boreling" order="1"/>

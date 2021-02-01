@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="toerist.n" ID="1612190071109" frame="Touring" frameID="1907" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-37886" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Phen" name="Attraction"/>
+      <FE fgColor="FFFFFF" bgColor="2E8B57" type="Extra-Thematic" abbrev="co-p" name="Co-participant"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Extra-Thematic" abbrev="State" name="Depictive"/>
+      <FE fgColor="000000" bgColor="d0d0d0" type="Peripheral" abbrev="Dur" name="Duration"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Extra-Thematic" abbrev="Ground" name="Ground"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Manr" name="Manner"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Mns" name="Means"/>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Extra-Thematic" abbrev="" name="Particular_iteration"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="" name="Place"/>
+      <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Purp" name="Purpose"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Tim" name="Time"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="per" name="Tourist"/>
+    </frame>
+  </header>
+  <definition>die naar mooie, leuke en/of interessante plekken reist</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="toerist" order="1"/>
+</lexUnit>

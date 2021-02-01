@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="07/09/2003 01:33:22 PDT Wed" name="Stinginess" ID="724" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame, a &lt;fen&gt;Resource_controller&lt;/fen&gt; is judged by a &lt;fen&gt;Judge&lt;/fen&gt; (who is usually implicit)  according to how freely they allow the &lt;fen&gt;Recipient&lt;/fen&gt; access to their &lt;fen&gt;Resource&lt;/fen&gt;. The &lt;fen&gt;Resource_controller&lt;/fen&gt; may exhibit this attitude with an &lt;fen&gt;Expressor&lt;/fen&gt;.
 
@@ -64,17 +63,17 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874260888" POS="N" cBy="automatic" cDate="09/23/2020 15:17:40 UTC Wed" lemmaID="842" lu_type="singleton" name="gierigaard.n" status="Created" FN_EN_LU_ID="9017" Method="Iteration-1" RBN_LU_ID="r_n-15147" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189879430" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:31:19 UTC Mon" lemmaID="840" lu_type="singleton" name="gierigaard.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-15147">
     <definition>die inhalig, vrekkig en gierig is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="gierigaard" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874264153" POS="N" cBy="automatic" cDate="09/23/2020 15:17:44 UTC Wed" lemmaID="843" lu_type="singleton" name="vrek.n" status="Created" FN_EN_LU_ID="9017" Method="Iteration-1" RBN_LU_ID="r_n-41843" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189882791" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:31:22 UTC Mon" lemmaID="841" lu_type="singleton" name="vrek.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-41843">
     <definition>die gierig is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="vrek" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874267316" POS="A" cBy="automatic" cDate="09/23/2020 15:17:47 UTC Wed" lemmaID="844" lu_type="singleton" name="krenterig.a" status="Created" FN_EN_LU_ID="9021" Method="Iteration-1" RBN_LU_ID="r_a-12525" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189886194" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:31:26 UTC Mon" lemmaID="842" lu_type="singleton" name="krenterig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12525">
     <definition>gierig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="krenterig" order="1"/>

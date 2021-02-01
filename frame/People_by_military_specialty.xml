@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="10/12/2011 04:50:32 PDT Wed" name="People_by_military_specialty" ID="2671" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The LUs in this frame refer to &lt;fen&gt;Fighter&lt;/fen&gt; in &lt;fen&gt;Military_organization&lt;/fen&gt;s according to their specialty in general or their function at a particular place and time. The &lt;fen&gt;Fighter&lt;/fen&gt; may be part of a nation-state's armed forces or may be a member of an irregular military organization.
 
@@ -69,7 +68,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873566859" POS="N" cBy="automatic" cDate="09/23/2020 15:06:06 UTC Wed" lemmaID="635" lu_type="singleton" name="infanterist.n" status="Created" FN_EN_LU_ID="16710" Method="Iteration-1" RBN_LU_ID="r_n-17836" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189015394" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:16:55 UTC Mon" lemmaID="633" lu_type="singleton" name="infanterist.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-17836">
     <definition>die tot de infanterie behoort</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="infanterist" order="1"/>

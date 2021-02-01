@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Tess" cDate="07/09/2002 12:11:01 PDT Tue" name="Morality_evaluation" ID="370" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame an &lt;fen&gt;Evaluee&lt;/fen&gt; is described by a (usually implicit) &lt;fen&gt;Judge&lt;/fen&gt; with respect to the morality or rightness of his or her &lt;fen&gt;Behavior&lt;/fen&gt;.
 
@@ -55,42 +54,42 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873382065" POS="A" cBy="manual" cDate="09/23/2020 15:03:02 UTC Wed" lemmaID="578" lu_type="singleton" name="immoreel.a" status="Created" FN_EN_LU_ID="6517" Method="Iteration-1" RBN_LU_ID="r_a-11884" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188810935" POS="A" cBy="ThomasKlein" cDate="02/01/2021 14:13:30 UTC Mon" lemmaID="576" lu_type="singleton" name="immoreel.a" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11884">
     <definition>in strijd met morele principes</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="immoreel" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873385186" POS="A" cBy="automatic" cDate="09/23/2020 15:03:05 UTC Wed" lemmaID="579" lu_type="singleton" name="verdorven.a" status="Created" FN_EN_LU_ID="6632" Method="Iteration-1" RBN_LU_ID="r_a-15951" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188814745" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:13:34 UTC Mon" lemmaID="577" lu_type="singleton" name="verdorven.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15951">
     <definition>door en door slecht</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="verdorven" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873388382" POS="A" cBy="automatic" cDate="09/23/2020 15:03:08 UTC Wed" lemmaID="580" lu_type="singleton" name="onrechtvaardig.a" status="Created" FN_EN_LU_ID="6634" Method="Iteration-1" RBN_LU_ID="r_a-13649" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188818821" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:13:38 UTC Mon" lemmaID="578" lu_type="singleton" name="onrechtvaardig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13649">
     <definition>niet rechtvaardig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="onrechtvaardig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873391739" POS="A" cBy="automatic" cDate="09/23/2020 15:03:11 UTC Wed" lemmaID="581" lu_type="singleton" name="zondig.a" status="Created" FN_EN_LU_ID="6634" Method="Iteration-1" RBN_LU_ID="r_a-16438" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188822909" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:13:42 UTC Mon" lemmaID="579" lu_type="singleton" name="zondig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16438">
     <definition>mbt. zonden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="zondig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873394948" POS="A" cBy="automatic" cDate="09/23/2020 15:03:14 UTC Wed" lemmaID="582" lu_type="singleton" name="schandelijk.a" status="Created" FN_EN_LU_ID="6635" Method="Iteration-1" RBN_LU_ID="r_a-14809" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188827694" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:13:47 UTC Mon" lemmaID="580" lu_type="singleton" name="schandelijk.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-14809">
     <definition>zeer afkeurenswaardig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="schandelijk" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873398176" POS="A" cBy="automatic" cDate="09/23/2020 15:03:18 UTC Wed" lemmaID="583" lu_type="singleton" name="misdadig.a" status="Created" FN_EN_LU_ID="6635" Method="Iteration-1" RBN_LU_ID="r_a-12896" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188833641" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:13:53 UTC Mon" lemmaID="581" lu_type="singleton" name="misdadig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12896">
     <definition>crimineel</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="misdadig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873401315" POS="A" cBy="automatic" cDate="09/23/2020 15:03:21 UTC Wed" lemmaID="584" lu_type="singleton" name="afschrikwekkend.a" status="Created" FN_EN_LU_ID="6680" Method="Iteration-1" RBN_LU_ID="r_a-8889" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188837414" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:13:57 UTC Mon" lemmaID="582" lu_type="singleton" name="afschrikwekkend.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-8889">
     <definition>afkeer inboezemend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="afschrikwekkend" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873404474" POS="A" cBy="automatic" cDate="09/23/2020 15:03:24 UTC Wed" lemmaID="585" lu_type="singleton" name="afgrijselijk.a" status="Created" FN_EN_LU_ID="6680" Method="Iteration-1" RBN_LU_ID="r_a-8724" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188840946" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:14:00 UTC Mon" lemmaID="583" lu_type="singleton" name="afgrijselijk.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-8724">
     <definition>afschuwelijk</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="afgrijselijk" order="1"/>

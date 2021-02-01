@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="03/05/2001 05:02:03 PST Mon" name="Change_position_on_a_scale" ID="91" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame consists of words that indicate the change of an &lt;fen&gt;Item&lt;/fen&gt;'s position on a scale (the &lt;fen&gt;Attribute&lt;/fen&gt;) from a starting point (&lt;fen&gt;Initial_value&lt;/fen&gt;) to an end point (&lt;fen&gt;Final_value&lt;/fen&gt;). The direction (&lt;fen&gt;Path&lt;/fen&gt;) of the movement can be indicated as well as the magnitude of the change (&lt;fen&gt;Difference&lt;/fen&gt;).  The rate of change of the value (&lt;fen&gt;Speed&lt;/fen&gt;) is optionally indicated.  Another scale (&lt;fen&gt;Correlate&lt;/fen&gt;), which the values are correlated with, is indicated if it is not the default correlate (namely, absolute time).
 
@@ -210,7 +209,7 @@ There is no &lt;fen&gt;Attribute&lt;/fen&gt; "1999 price" here (though the conce
   </frameRelation>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872054961" POS="N" cBy="automatic" cDate="09/23/2020 14:40:54 UTC Wed" lemmaID="180" lu_type="singleton" name="escalatie.n" status="Created" FN_EN_LU_ID="13274" Method="Iteration-1" RBN_LU_ID="r_n-12612" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186954677" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:42:34 UTC Mon" lemmaID="180" lu_type="singleton" name="escalatie.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-12612">
     <definition>van het steeds erger worden van iets, uit de hand lopen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="escalatie" order="1"/>

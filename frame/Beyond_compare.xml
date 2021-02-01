@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/17/2002 03:58:35 PDT Mon" name="Beyond_compare" ID="356" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;Compared to its &lt;fen&gt;Competitors&lt;/fen&gt;, a &lt;fen&gt;Standard&lt;/fen&gt; is at the high end of a scale with respect to some &lt;fen&gt;Variable&lt;/fen&gt;. The &lt;fen&gt;Competitors&lt;/fen&gt; are frequently not realized syntactically.
 &lt;ex&gt;The taxpayer is supporting &lt;fex name="Standard"&gt;a system&lt;/fex&gt; &lt;t&gt;unmatched&lt;/t&gt; &lt;fex name="Variable"&gt;in wastefulness &lt;/fex&gt;.&lt;/ex&gt;
@@ -50,7 +49,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871602718" POS="A" cBy="automatic" cDate="09/23/2020 14:33:22 UTC Wed" lemmaID="62" lu_type="singleton" name="onvergelijkbaar.a" status="Created" FN_EN_LU_ID="6162" Method="Iteration-1" RBN_LU_ID="r_a-13743" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186586781" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:36:26 UTC Mon" lemmaID="62" lu_type="singleton" name="onvergelijkbaar.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13743">
     <definition>niet te vergelijken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="onvergelijkbaar" order="1"/>

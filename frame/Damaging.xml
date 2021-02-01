@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="10/17/2002 03:00:34 PDT Thu" name="Damaging" ID="415" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; affects a &lt;fen&gt;Patient&lt;/fen&gt; in such a way that the &lt;fen&gt;Patient&lt;/fen&gt; (or some &lt;fen&gt;Subregion&lt;/fen&gt; of the &lt;fen&gt;Patient&lt;/fen&gt;) ends up in a non-canonical state.  Often this non-canonical state is undesirable, and some lexical units (marked with the Negative semantic type) specifically indicate that the &lt;fen&gt;Patient&lt;/fen&gt; is negatively affected.  Some lexical units of this frame indicate by what means the &lt;fen&gt;Patient&lt;/fen&gt; is altered (e.g., scrape.v) and in some cases give some indication of the detailed effect on the &lt;fen&gt;Patient&lt;/fen&gt; (e.g., score.v, chip.v), and in other cases, both are specified (tear.v). For another set of lexical units, the action and its result are much less specified (e.g., damage.v).
 
@@ -91,7 +90,7 @@ Compare this frame with Destroying, Cause_to_fragment, and Render_nonfunctional.
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872419732" POS="N" cBy="automatic" cDate="09/23/2020 14:46:59 UTC Wed" lemmaID="278" lu_type="singleton" name="vandalisme.n" status="Created" FN_EN_LU_ID="7610" Method="Iteration-1" RBN_LU_ID="r_n-39572" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187488904" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:51:28 UTC Mon" lemmaID="278" lu_type="singleton" name="vandalisme.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-39572">
     <definition>van dingen op straat en in openbare gebouwen, uit verveling en baldadigheid</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="vandalisme" order="1"/>

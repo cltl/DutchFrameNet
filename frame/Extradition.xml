@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="04/08/2005 02:37:15 PDT Fri" name="Extradition" ID="1370" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Suspect&lt;/fen&gt; in a &lt;fen&gt;Current_jurisdiction&lt;/fen&gt; is forced by &lt;fen&gt;Authorities&lt;/fen&gt; (of the &lt;fen&gt;Current_jurisdiction&lt;/fen&gt;) to go to the &lt;fen&gt;Crime_jurisdiction&lt;/fen&gt;, i.e. the jurisdiction which requested that the &lt;fen&gt;Suspect&lt;/fen&gt; be handed over for trial for a crime which he or she is suspected to have committed in the &lt;fen&gt;Crime_jurisdiction&lt;/fen&gt;.  The purpose or reason for the extradition may also be expressed.
 
@@ -89,13 +88,13 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872739338" POS="V" cBy="automatic" cDate="09/23/2020 14:52:19 UTC Wed" lemmaID="378" lu_type="phrasal" name="uitleveren.v" status="Created" FN_EN_LU_ID="11784" Method="Iteration-1" RBN_LU_ID="r_v-8377" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187928000" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:58:48 UTC Mon" lemmaID="376" lu_type="phrasal" name="uitleveren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8377">
     <definition>een verdachte die in het buitenland gearresteerd is overdragen aan de rechtbank van het land waar hij of zij terecht moet staan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="uit" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="leveren" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600872742290" POS="N" cBy="automatic" cDate="09/23/2020 14:52:22 UTC Wed" lemmaID="379" lu_type="singleton" name="uitlevering.n" status="Created" FN_EN_LU_ID="11785" Method="Iteration-1" RBN_LU_ID="r_n-39047" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187933703" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:58:53 UTC Mon" lemmaID="377" lu_type="singleton" name="uitlevering.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-39047">
     <definition>van personen door de organen van een staat aan die van een andere ter berechting en bestraffing voor aldaar begane misdrijven; overeenkomst tussen twee landen om de voortvluchtige misdadigers aan elkaar uit te leveren</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="uitlevering" order="1"/>

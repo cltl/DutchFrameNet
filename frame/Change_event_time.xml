@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="06/09/2003 02:20:42 PDT Mon" name="Change_event_time" ID="691" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame, an &lt;fen&gt;Agent&lt;/fen&gt; or &lt;fen&gt;Cause&lt;/fen&gt; changes the timing of an &lt;fen&gt;Event&lt;/fen&gt;. The &lt;fen&gt;Event&lt;/fen&gt; will then take place at the &lt;fen&gt;Destination_time&lt;/fen&gt; or with respect to a &lt;fen&gt;Destination_event&lt;/fen&gt;. This can be done with by certain &lt;fen&gt;Means&lt;/fen&gt;, in a certain &lt;fen&gt;Manner&lt;/fen&gt; or to a certain &lt;fen&gt;Degree&lt;/fen&gt;.
 
@@ -91,23 +90,23 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872039128" POS="V" cBy="automatic" cDate="09/23/2020 14:40:39 UTC Wed" lemmaID="175" lu_type="phrasal" name="achterstellen.v" status="Created" FN_EN_LU_ID="8760" Method="Iteration-1" RBN_LU_ID="r_v-399" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186939045" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:42:19 UTC Mon" lemmaID="175" lu_type="phrasal" name="achterstellen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-399">
     <definition>iemand slechter behandelen dan een ander</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="achter" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="stellen" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600872042126" POS="V" cBy="automatic" cDate="09/23/2020 14:40:42 UTC Wed" lemmaID="176" lu_type="singleton" name="vertragen.v" status="Created" FN_EN_LU_ID="8760" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9403" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186941978" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:42:21 UTC Mon" lemmaID="176" lu_type="singleton" name="vertragen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9403">
     <definition>er met opzet voor zorgen dat iets langer duurt of pas later begint</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="vertragen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872045345" POS="V" cBy="automatic" cDate="09/23/2020 14:40:45 UTC Wed" lemmaID="177" lu_type="singleton" name="verschuiven.v" status="Created" FN_EN_LU_ID="8760" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9272" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186945031" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:42:25 UTC Mon" lemmaID="177" lu_type="singleton" name="verschuiven.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9272">
     <definition>naar een ander (met name later) tijdstip verplaatsen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verschuiven" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872048431" POS="V" cBy="automatic" cDate="09/23/2020 14:40:48 UTC Wed" lemmaID="178" lu_type="singleton" name="temporiseren.v" status="Created" FN_EN_LU_ID="8760" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7769" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186948453" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:42:28 UTC Mon" lemmaID="178" lu_type="singleton" name="temporiseren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7769">
     <definition>tot een later of beter tijdstip uitstellen, of over een zeker tijdsverloop uitsmeren omdat het je beter uitkomt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="temporiseren" order="1"/>

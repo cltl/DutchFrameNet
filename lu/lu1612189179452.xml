@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="rayon.n" ID="1612189179452" frame="Political_locales" frameID="195" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-30587" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Constp" name="Constituent_parts"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Peripheral" abbrev="ContP" name="Container_possessor"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="des" name="Descriptor"/>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Lcl" name="Locale"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Name" name="Name"/>
+      <FE fgColor="FFFFFF" bgColor="7CCD7C" type="Peripheral" abbrev="pop" name="Population"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Peripheral" abbrev="RelLoc" name="Relative_location"/>
+    </frame>
+  </header>
+  <definition>waarbinnen een persoon of een organisatie zijn werk doet</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="rayon" order="1"/>
+</lexUnit>

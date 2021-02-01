@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="heft.n" ID="1612189631576" frame="Shaped_part" frameID="970" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-16518" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Orientation" name="Orientation"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Part"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="" name="Part_prop"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Whole"/>
+    </frame>
+  </header>
+  <definition>van een mes</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="heft" order="1"/>
+</lexUnit>

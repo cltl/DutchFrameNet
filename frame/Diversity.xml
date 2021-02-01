@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="03/23/2007 07:50:43 PDT Fri" name="Diversity" ID="1893" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Group&lt;/fen&gt; is described as having members which are similar or dissimilar to each other.  The &lt;fen&gt;Degree&lt;/fen&gt; of similarity may also be expressed.  Some of the nouns in this frame are transparent (e.g. &lt;ment&gt;range.n&lt;/ment&gt;) whereas others denote the scale of diversity (&lt;ment&gt;diversity&lt;/ment&gt;); &lt;ment&gt;variety.n&lt;/ment&gt; is usable both ways but is normally transparent.
 
@@ -59,7 +58,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872475242" POS="A" cBy="automatic" cDate="09/23/2020 14:47:55 UTC Wed" lemmaID="296" lu_type="singleton" name="homogeen.a" status="Created" FN_EN_LU_ID="14041" Method="Iteration-1" RBN_LU_ID="r_a-11665" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187560718" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:52:40 UTC Mon" lemmaID="296" lu_type="singleton" name="homogeen.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11665">
     <definition>niet heterogeen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="homogeen" order="1"/>

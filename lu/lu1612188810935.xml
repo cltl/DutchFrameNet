@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="A" name="immoreel.a" ID="1612188810935" frame="Morality_evaluation" frameID="370" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11884" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Beh" name="Behavior"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Deg" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Eval" name="Evaluee"/>
+      <FE fgColor="FFFFFF" bgColor="EEE8AA" type="Core" abbrev="Exp" name="Expressor"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="jud" name="Judge"/>
+    </frame>
+  </header>
+  <definition>in strijd met morele principes</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="immoreel" order="1"/>
+</lexUnit>

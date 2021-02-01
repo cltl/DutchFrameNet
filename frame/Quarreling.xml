@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="06/24/2003 12:50:12 PDT Tue" name="Quarreling" ID="710" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A group of &lt;fen&gt;Arguers&lt;/fen&gt; (also expressible as &lt;fen&gt;Arguer1&lt;/fen&gt; and &lt;fen&gt;Arguer2&lt;/fen&gt;) express incompatible opinions or beliefs about an &lt;fen&gt;Issue&lt;/fen&gt;.
 
@@ -85,42 +84,42 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873811821" POS="V" cBy="manual" cDate="09/23/2020 15:10:11 UTC Wed" lemmaID="709" lu_type="singleton" name="discussiëren.v" status="Created" FN_EN_LU_ID="8922" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2254" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189306944" POS="V" cBy="ThomasKlein" cDate="02/01/2021 14:21:46 UTC Mon" lemmaID="707" lu_type="singleton" name="discussiëren.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2254">
     <definition>in een discussie van gedachten wisselen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="discussiëren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873815116" POS="V" cBy="automatic" cDate="09/23/2020 15:10:15 UTC Wed" lemmaID="710" lu_type="singleton" name="discuteren.v" status="Created" FN_EN_LU_ID="8922" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2256" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189311072" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:21:51 UTC Mon" lemmaID="708" lu_type="singleton" name="discuteren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2256">
     <definition>een discussie houden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="discuteren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873818443" POS="V" cBy="automatic" cDate="09/23/2020 15:10:18 UTC Wed" lemmaID="711" lu_type="singleton" name="redekavelen.v" status="Created" FN_EN_LU_ID="8922" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6595" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189315459" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:21:55 UTC Mon" lemmaID="709" lu_type="singleton" name="redekavelen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6595">
     <definition>redetwisten, druk converseren, redeneren</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="redekavelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873821680" POS="V" cBy="automatic" cDate="09/23/2020 15:10:21 UTC Wed" lemmaID="712" lu_type="singleton" name="ruziën.v" status="Created" FN_EN_LU_ID="8922" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6893" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189319220" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:21:59 UTC Mon" lemmaID="710" lu_type="singleton" name="ruziën.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6893">
     <definition>ruzie maken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="ruziën" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873825104" POS="V" cBy="automatic" cDate="09/23/2020 15:10:25 UTC Wed" lemmaID="713" lu_type="singleton" name="twisten.v" status="Created" FN_EN_LU_ID="8922" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-8185" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189323006" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:22:03 UTC Mon" lemmaID="711" lu_type="singleton" name="twisten.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8185">
     <definition>onenigheid hebben, ruzie maken over iets</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="twisten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873828415" POS="V" cBy="automatic" cDate="09/23/2020 15:10:28 UTC Wed" lemmaID="714" lu_type="singleton" name="kiften.v" status="Created" FN_EN_LU_ID="8922" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-3859" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189326929" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:22:06 UTC Mon" lemmaID="712" lu_type="singleton" name="kiften.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3859">
     <definition>scheldend ruzie maken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="kiften" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873831655" POS="V" cBy="automatic" cDate="09/23/2020 15:10:31 UTC Wed" lemmaID="715" lu_type="singleton" name="disputeren.v" status="Created" FN_EN_LU_ID="8922" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2259" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189330863" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:22:10 UTC Mon" lemmaID="713" lu_type="singleton" name="disputeren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2259">
     <definition>redetwisten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="disputeren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873834963" POS="N" cBy="automatic" cDate="09/23/2020 15:10:34 UTC Wed" lemmaID="716" lu_type="singleton" name="gekrakeel.n" status="Created" FN_EN_LU_ID="8928" Method="Iteration-1" RBN_LU_ID="r_n-14372" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189334742" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:22:14 UTC Mon" lemmaID="714" lu_type="singleton" name="gekrakeel.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-14372">
     <definition>van het ruzie maken (meestal over futiele of bijkomstige zaken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="gekrakeel" order="1"/>

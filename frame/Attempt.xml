@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Tess" cDate="05/24/2001 01:17:31 PDT Thu" name="Attempt" ID="116" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; attempts to achieve a &lt;fen&gt;Goal&lt;/fen&gt;. The &lt;fen&gt;Outcome&lt;/fen&gt; may also be mentioned explicitly.
 
@@ -99,22 +98,22 @@
   <frameRelation type="See also">
     <relatedFrame ID="2132">Attempt_means</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600871497129" POS="V" cBy="automatic" cDate="09/23/2020 14:31:37 UTC Wed" lemmaID="33" lu_type="singleton" name="ijveren.v" status="Created" FN_EN_LU_ID="2452" Method="Iteration-1" RBN_LU_ID="r_v-3313" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186499871" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:34:59 UTC Mon" lemmaID="33" lu_type="singleton" name="ijveren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3313">
     <definition>met inzet werken voor het genoemde, heel erg je best doen om het voor elkaar te krijgen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="ijveren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871500666" POS="V" cBy="manual" cDate="09/23/2020 14:31:40 UTC Wed" lemmaID="34" lu_type="singleton" name="streven.v" status="Created" FN_EN_LU_ID="2452" Method="Iteration-1" RBN_LU_ID="r_v-7602" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186503423" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:35:03 UTC Mon" lemmaID="34" lu_type="singleton" name="streven.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7602">
     <definition>zich met ijver en kracht voor iets inspannen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="streven" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871503909" POS="V" cBy="automatic" cDate="09/23/2020 14:31:43 UTC Wed" lemmaID="35" lu_type="singleton" name="mikken.v" status="Created" FN_EN_LU_ID="2452" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4686" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186507287" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:35:07 UTC Mon" lemmaID="35" lu_type="singleton" name="mikken.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4686">
     <definition>proberen het genoemde te krijgen, het als doelstelling aannemen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="mikken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871507524" POS="V" cBy="automatic" cDate="09/23/2020 14:31:47 UTC Wed" lemmaID="36" lu_type="singleton" name="dingen.v" status="Created" FN_EN_LU_ID="2452" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2249" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186512195" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:35:12 UTC Mon" lemmaID="36" lu_type="singleton" name="dingen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2249">
     <definition>trachten te verkrijgen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="dingen" order="1"/>

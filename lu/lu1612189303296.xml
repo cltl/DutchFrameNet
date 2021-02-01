@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="vleugje.n" ID="1612189303296" frame="Quantified_mass" frameID="189" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-41106" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Deg" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Ind" name="Individuals"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="M" name="Mass"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Qua" name="Quantity"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Peripheral" abbrev="" name="Q_prop"/>
+    </frame>
+  </header>
+  <definition>die niet groot is</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="vleugje" order="1"/>
+</lexUnit>

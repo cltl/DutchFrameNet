@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="HCB" cDate="03/21/2001 02:47:25 PST Wed" name="Theft" ID="94" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;These are words describing situations in which a &lt;fen&gt;Perpetrator&lt;/fen&gt; takes &lt;fen&gt;Goods&lt;/fen&gt; from a  &lt;fen&gt;Victim&lt;/fen&gt; or a &lt;fen&gt;Source&lt;/fen&gt;. The &lt;fen&gt;Means&lt;/fen&gt; by which this is accomplished may also be expressed.
 
@@ -98,32 +97,32 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874399956" POS="V" cBy="automatic" cDate="09/23/2020 15:19:59 UTC Wed" lemmaID="885" lu_type="singleton" name="ontvreemden.v" status="Created" FN_EN_LU_ID="1961" Method="Iteration-1" RBN_LU_ID="r_v-5383" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190028683" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:33:48 UTC Mon" lemmaID="883" lu_type="singleton" name="ontvreemden.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-5383">
     <definition>het genoemde stiekem wegnemen terwijl het niet van jou is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="ontvreemden" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874403215" POS="V" cBy="automatic" cDate="09/23/2020 15:20:03 UTC Wed" lemmaID="886" lu_type="singleton" name="jatten.v" status="Created" FN_EN_LU_ID="1964" Method="Iteration-1" RBN_LU_ID="r_v-3728" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190031914" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:33:51 UTC Mon" lemmaID="884" lu_type="singleton" name="jatten.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3728">
     <definition>stelen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="jatten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874406759" POS="V" cBy="automatic" cDate="09/23/2020 15:20:06 UTC Wed" lemmaID="887" lu_type="singleton" name="stelen.v" status="Created" FN_EN_LU_ID="1964" Method="Iteration-1" RBN_LU_ID="r_v-7472" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190035249" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:33:55 UTC Mon" lemmaID="885" lu_type="singleton" name="stelen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7472">
     <definition>heimelijk wegnemen wat aan een ander toebehoort</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="stelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874410042" POS="N" cBy="automatic" cDate="09/23/2020 15:20:10 UTC Wed" lemmaID="888" lu_type="singleton" name="dief.n" status="Created" FN_EN_LU_ID="1969" Method="Iteration-1" RBN_LU_ID="r_n-10851" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190038393" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:33:58 UTC Mon" lemmaID="886" lu_type="singleton" name="dief.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-10851">
     <definition>die zich iets toe-eigent wat niet van hem is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="dief" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874413295" POS="N" cBy="automatic" cDate="09/23/2020 15:20:13 UTC Wed" lemmaID="889" lu_type="singleton" name="dievegge.n" status="Created" FN_EN_LU_ID="1969" Method="Iteration-1" RBN_LU_ID="r_n-10944" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190041691" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:34:01 UTC Mon" lemmaID="887" lu_type="singleton" name="dievegge.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-10944">
     <definition>die steelt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="dievegge" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874416558" POS="N" cBy="automatic" cDate="09/23/2020 15:20:16 UTC Wed" lemmaID="890" lu_type="singleton" name="zakkenroller.n" status="Created" FN_EN_LU_ID="1970" Method="Iteration-1" RBN_LU_ID="r_n-43774" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190045044" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:34:05 UTC Mon" lemmaID="888" lu_type="singleton" name="zakkenroller.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-43774">
     <definition>die erg behendig is in het stelen van voorwerpen of geld uit iemands zakken of tas</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="zakkenroller" order="1"/>

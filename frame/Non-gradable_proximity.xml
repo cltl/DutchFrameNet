@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="12/09/2014 01:28:42 PST Tue" name="Non-gradable_proximity" ID="2880" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Figure&lt;/fen&gt; is characterized as near the &lt;fen&gt;Ground&lt;/fen&gt;, according to some contextually given scale. Many lexical units of this frame additionally specify in which direction relative to the &lt;fen&gt;Ground&lt;/fen&gt; one can find the &lt;fen&gt;Figure&lt;/fen&gt; (under.prep, north.adv), or directions from the &lt;fen&gt;Ground&lt;/fen&gt; from which the &lt;fen&gt;Figure&lt;/fen&gt; is excluded (e.g. beside.prep excludes the vertical and front/back axes); for specifications of direction, see the semantic types attached to the lexcial units.  Members of this frame that make reference to an absolute, earth-based grid (e.g. &lt;ment&gt;north&lt;/ment&gt;, &lt;ment&gt;south&lt;/ment&gt;, etc.) imply a geographic scale of proximity, and so are frequently not paraphrasable as "near".
 
@@ -87,7 +86,7 @@ This frame does not cover the multitude of other metaphorical cases like "next t
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873464956" POS="N" cBy="automatic" cDate="09/23/2020 15:04:24 UTC Wed" lemmaID="604" lu_type="singleton" name="stuurboord.n" status="Created" FN_EN_LU_ID="17823" Method="Iteration-1" RBN_LU_ID="r_n-36483" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188905419" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:15:05 UTC Mon" lemmaID="602" lu_type="singleton" name="stuurboord.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-36483">
     <definition>van een schip wanneer je met je gezicht naar het voorsteven gekeerd staat</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="stuurboord" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="06/23/2001 08:15:16 PDT Sat" name="Giving" ID="139" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Donor&lt;/fen&gt; transfers a &lt;fen&gt;Theme&lt;/fen&gt; from a &lt;fen&gt;Donor&lt;/fen&gt; to a &lt;fen&gt;Recipient&lt;/fen&gt;.  This frame includes only actions that are initiated by the &lt;fen&gt;Donor&lt;/fen&gt; (the one that starts out owning the &lt;fen&gt;Theme&lt;/fen&gt;).  Sentences (even metaphorical ones) must meet the following entailments: the  &lt;fen&gt;Donor&lt;/fen&gt; first has possession of the &lt;fen&gt;Theme&lt;/fen&gt;.  Following the transfer the &lt;fen&gt;Donor&lt;/fen&gt; no longer has the &lt;fen&gt;Theme&lt;/fen&gt; and the &lt;fen&gt;Recipient&lt;/fen&gt; does. &lt;ex&gt;&lt;fex name="Donor"&gt;Barney&lt;/fex&gt; &lt;t&gt;gave&lt;/t&gt; &lt;fex name="Theme"&gt;the beer&lt;/fex&gt; &lt;fex name="Recipient"&gt;to Moe&lt;/fex&gt;.&lt;/ex&gt; &lt;ex&gt;&lt;fex name="Theme"&gt;$300&lt;/fex&gt; was &lt;t&gt;endowed&lt;/t&gt; &lt;fex name="Recipient"&gt;to the university&lt;/fex&gt; &lt;fex name="Purpose"&gt;to build a new performing arts building&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
   <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="06/23/2001 08:17:21 PDT Sat" abbrev="Donor" name="Donor" ID="1052">
@@ -83,13 +82,13 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872839465" POS="V" cBy="automatic" cDate="09/23/2020 14:53:59 UTC Wed" lemmaID="410" lu_type="phrasal" name="uitdelen.v" status="Created" FN_EN_LU_ID="5361" Method="Iteration-1" RBN_LU_ID="r_v-8234" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188058806" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:00:58 UTC Mon" lemmaID="408" lu_type="phrasal" name="uitdelen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8234">
     <definition>aan ieder van een groep personen wat van iets geven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="uit" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="delen" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600872842642" POS="V" cBy="automatic" cDate="09/23/2020 14:54:02 UTC Wed" lemmaID="411" lu_type="singleton" name="legateren.v" status="Created" FN_EN_LU_ID="7214" Method="Iteration-1" RBN_LU_ID="r_v-4330" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188062192" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:01:02 UTC Mon" lemmaID="409" lu_type="singleton" name="legateren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4330">
     <definition>als legaat bij uiterste wil vermaken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="legateren" order="1"/>

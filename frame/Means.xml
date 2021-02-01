@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="09/18/2006 11:35:33 PDT Mon" name="Means" ID="1790" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; makes use of a &lt;fen&gt;Means&lt;/fen&gt; (either an action or a (system of) entities standing in for the action) in order to achieve a &lt;fen&gt;Purpose&lt;/fen&gt;.
 
@@ -42,7 +41,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873212425" POS="N" cBy="automatic" cDate="09/23/2020 15:00:12 UTC Wed" lemmaID="526" lu_type="singleton" name="tactiek.n" status="Created" FN_EN_LU_ID="13570" Method="Iteration-1" RBN_LU_ID="r_n-36826" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188591085" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:09:51 UTC Mon" lemmaID="524" lu_type="singleton" name="tactiek.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-36826">
     <definition>om op systematische wijze een bepaald doel te bereiken, met name in de sport en op militair gebied</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="tactiek" order="1"/>

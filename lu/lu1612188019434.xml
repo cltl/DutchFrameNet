@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="mayonaise.n" ID="1612188019434" frame="Food" frameID="277" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-23381" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="con" name="Constituent_parts"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Peripheral" abbrev="Desc" name="Descriptor"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Food"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Type" name="Type"/>
+    </frame>
+  </header>
+  <definition>gemaakt van eieren, olie, azijn, zout en suiker</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="mayonaise" order="1"/>
+</lexUnit>

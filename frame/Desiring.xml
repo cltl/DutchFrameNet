@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="07/05/2002 02:56:46 PDT Fri" name="Desiring" ID="366" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Experiencer&lt;/fen&gt; desires that an &lt;fen&gt;Event&lt;/fen&gt; occur.  (Note that commonly a resultant state of the &lt;fen&gt;Event&lt;/fen&gt; will stand in for the &lt;fen&gt;Event&lt;/fen&gt;.)  In some cases, the &lt;fen&gt;Experiencer&lt;/fen&gt; is an active participant in the &lt;fen&gt;Event&lt;/fen&gt;, and in such cases the &lt;fen&gt;Event&lt;/fen&gt; itself is often not mentioned, but rather some &lt;fen&gt;Focal_participant&lt;/fen&gt; which is subordinately involved in the &lt;fen&gt;Event&lt;/fen&gt;. &lt;ex&gt;&lt;/ex&gt;Generally, the use of a word in this frame implies that the specific &lt;fen&gt;Event&lt;/fen&gt; has not yet happened, but that the &lt;fen&gt;Experiencer&lt;/fen&gt; believes that they would be happier if it did.  Sometimes the &lt;fen&gt;Time_of_event&lt;/fen&gt;, &lt;fen&gt;Purpose_of_event&lt;/fen&gt;, or the &lt;fen&gt;Location_of_event&lt;/fen&gt; are mentioned without the explicit mention of the &lt;fen&gt;Event&lt;/fen&gt;.
 &lt;ex&gt;&lt;fex name="Experiencer"&gt;I&lt;/fex&gt; only &lt;t&gt;wanted&lt;/t&gt; &lt;fex name="Foc"&gt;one piece of candy&lt;/fex&gt;.&lt;/ex&gt;
@@ -100,17 +99,17 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872447521" POS="V" cBy="automatic" cDate="09/23/2020 14:47:27 UTC Wed" lemmaID="287" lu_type="singleton" name="ambiëren.v" status="Created" FN_EN_LU_ID="6428" Method="Iteration-1" RBN_LU_ID="r_v-972" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187519076" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:51:59 UTC Mon" lemmaID="287" lu_type="singleton" name="ambiëren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-972">
     <definition>ernaar streven iets te bereiken of te krijgen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="ambiëren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872450738" POS="A" cBy="automatic" cDate="09/23/2020 14:47:30 UTC Wed" lemmaID="288" lu_type="singleton" name="begerig.a" status="Created" FN_EN_LU_ID="6546" Method="Iteration-1" RBN_LU_ID="r_a-9182" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187522500" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:52:02 UTC Mon" lemmaID="288" lu_type="singleton" name="begerig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9182">
     <definition>gretig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="begerig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872453699" POS="V" cBy="automatic" cDate="09/23/2020 14:47:33 UTC Wed" lemmaID="289" lu_type="singleton" name="lonken.v" status="Created" FN_EN_LU_ID="6681" Method="Iteration-1" RBN_LU_ID="r_v-4430" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187525774" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:52:05 UTC Mon" lemmaID="289" lu_type="singleton" name="lonken.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4430">
     <definition>een verliefde en lokkende blik toewerpen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="lonken" order="1"/>

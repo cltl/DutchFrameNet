@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="HCB" cDate="05/23/2001 03:26:58 PDT Wed" name="Cause_harm" ID="112" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The words in this frame describe situations in which an &lt;fen&gt;Agent&lt;/fen&gt; or a &lt;fen&gt;Cause&lt;/fen&gt; injures a &lt;fen&gt;Victim&lt;/fen&gt;. The &lt;fen&gt;Body_part&lt;/fen&gt; of the &lt;fen&gt;Victim&lt;/fen&gt; which is most directly affected may also be mentioned in the place of the &lt;fen&gt;Victim&lt;/fen&gt;.  In such cases, the &lt;fen&gt;Victim&lt;/fen&gt; is often indicated as a genitive modifier of the &lt;fen&gt;Body_part&lt;/fen&gt;, in which case the &lt;fen&gt;Victim&lt;/fen&gt; FE is indicated on a second FE layer.
 &lt;ex&gt;&lt;/ex&gt;
@@ -168,12 +167,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872007688" POS="V" cBy="automatic" cDate="09/23/2020 14:40:07 UTC Wed" lemmaID="165" lu_type="singleton" name="kritiseren.v" status="Created" FN_EN_LU_ID="2367" Method="Iteration-1" RBN_LU_ID="r_v-4168" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186907153" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:41:47 UTC Mon" lemmaID="165" lu_type="singleton" name="kritiseren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4168">
     <definition>kritiek op de of het genoemde leveren</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="kritiseren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872011009" POS="V" cBy="automatic" cDate="09/23/2020 14:40:11 UTC Wed" lemmaID="166" lu_type="phrasal" name="aftuigen.v" status="Created" FN_EN_LU_ID="8424" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-876" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186910071" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:41:50 UTC Mon" lemmaID="166" lu_type="phrasal" name="aftuigen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-876">
     <definition>hard slaan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="af" order="1"/>

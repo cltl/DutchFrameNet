@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="HCB" cDate="04/13/2001 02:46:44 PDT Fri" name="Robbery" ID="99" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;These are words describing situations in which a &lt;fen&gt;Perpetrator&lt;/fen&gt; wrongs a &lt;fen&gt;Victim&lt;/fen&gt; by taking something (&lt;fen&gt;Goods&lt;/fen&gt;) from them.  In some cases, the &lt;fen&gt;Source&lt;/fen&gt; location from which the &lt;fen&gt;Goods&lt;/fen&gt; were taken is used to metonymically refer to the &lt;fen&gt;Victim&lt;/fen&gt;.  The robbery can be done in a particular &lt;fen&gt;Manner&lt;/fen&gt; (for example, forcefully) and via a specific &lt;fen&gt;Means&lt;/fen&gt; (for example, by threatening the &lt;fen&gt;Victim&lt;/fen&gt;).
 
@@ -93,7 +92,7 @@ This FE is realized in compound nouns as follows:
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873958620" POS="N" cBy="automatic" cDate="09/23/2020 15:12:38 UTC Wed" lemmaID="753" lu_type="singleton" name="rover.n" status="Created" FN_EN_LU_ID="2000" Method="Iteration-1" RBN_LU_ID="r_n-32146" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189505102" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:25:05 UTC Mon" lemmaID="751" lu_type="singleton" name="rover.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-32146">
     <definition>die rooft, mn. van roof leeft</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="rover" order="1"/>

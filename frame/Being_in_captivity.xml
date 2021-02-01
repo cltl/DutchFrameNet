@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="10/12/2011 06:33:45 PDT Wed" name="Being_in_captivity" ID="2672" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Theme&lt;/fen&gt; is held in captivity by an &lt;fen&gt;Agent&lt;/fen&gt; or &lt;fen&gt;Cause&lt;/fen&gt;.
 
@@ -74,12 +73,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871550568" POS="N" cBy="automatic" cDate="09/23/2020 14:32:30 UTC Wed" lemmaID="48" lu_type="singleton" name="gevangene.n" status="Created" FN_EN_LU_ID="16712" Method="Iteration-1" RBN_LU_ID="r_n-14908" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186547119" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:35:47 UTC Mon" lemmaID="48" lu_type="singleton" name="gevangene.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-14908">
     <definition>die opgesloten is in een gevangenis</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="gevangene" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871553865" POS="N" cBy="manual" cDate="09/23/2020 14:32:33 UTC Wed" lemmaID="49" lu_type="singleton" name="gedetineerde.n" status="Created" FN_EN_LU_ID="16712" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-14207" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186549902" POS="N" cBy="ThomasKlein" cDate="02/01/2021 13:35:49 UTC Mon" lemmaID="49" lu_type="singleton" name="gedetineerde.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-14207">
     <definition>die gevangen gehouden wordt of in hechtenis zit</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="gedetineerde" order="1"/>

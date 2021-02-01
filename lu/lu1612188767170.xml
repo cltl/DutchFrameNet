@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="A" name="zinloos.a" ID="1612188767170" frame="Mental_property" frameID="29" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16421" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Behv" name="Behavior"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Degr" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Extra-Thematic" abbrev="" name="Domain"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="jud" name="Judge"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Manr" name="Manner"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prac" name="Practice"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Prot" name="Protagonist"/>
+    </frame>
+  </header>
+  <definition>nutteloos</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="zinloos" order="1"/>
+</lexUnit>

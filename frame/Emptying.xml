@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:13 PST Wed" name="Emptying" ID="58" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;These are words relating to emptying containers and clearing areas of some substance or items. The area or container can appear as the direct object with all these verbs, and is designated  &lt;fen&gt;Source&lt;/fen&gt; because it is the source of motion of the &lt;fen&gt;Theme&lt;/fen&gt;. Corresponding to its nuclear argument status, it is also affected in some crucial way, unlike &lt;fen&gt;Source&lt;/fen&gt; in other frames. Some words in this frame, such as &lt;ment&gt;empty&lt;/ment&gt;, may also occur with &lt;fen&gt;Path&lt;/fen&gt; or &lt;fen&gt;Goal&lt;/fen&gt; expressions, e.g.
 
@@ -97,12 +96,12 @@
   <frameRelation type="See also">
     <relatedFrame ID="55">Cause_motion</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600872571717" POS="V" cBy="automatic" cDate="09/23/2020 14:49:31 UTC Wed" lemmaID="327" lu_type="singleton" name="ontbossen.v" status="Created" FN_EN_LU_ID="2594" Method="Iteration-1" RBN_LU_ID="r_v-5246" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187681410" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:54:41 UTC Mon" lemmaID="325" lu_type="singleton" name="ontbossen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-5246">
     <definition>het bos in het genoemde gebied omhakken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="ontbossen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872574804" POS="N" cBy="automatic" cDate="09/23/2020 14:49:34 UTC Wed" lemmaID="328" lu_type="singleton" name="ontwapening.n" status="Created" FN_EN_LU_ID="13112" Method="Iteration-1" RBN_LU_ID="r_n-26275" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187686617" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:54:46 UTC Mon" lemmaID="326" lu_type="singleton" name="ontwapening.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-26275">
     <definition>van militaire machtsmiddelen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="ontwapening" order="1"/>

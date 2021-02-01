@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="07/08/2002 05:45:46 PDT Mon" name="Suitability" ID="368" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This Frame is concerned with evaluating an &lt;fen&gt;Evaluee&lt;/fen&gt; as being suitable for a &lt;fen&gt;Purpose&lt;/fen&gt; or a &lt;fen&gt;User&lt;/fen&gt;, presupposing some choice that is being made about which &lt;fen&gt;Evaluee&lt;/fen&gt; to use for the &lt;fen&gt;Purpose&lt;/fen&gt; or &lt;fen&gt;User&lt;/fen&gt;.  An LU like suitable.a thus implies that, given a particular &lt;fen&gt;Purpose&lt;/fen&gt; or &lt;fen&gt;User&lt;/fen&gt;, the &lt;fen&gt;Evaluee&lt;/fen&gt; is one which could be or ought to be chosen.  The &lt;fen&gt;Evaluee&lt;/fen&gt; may be deemed suitable to a greater or lesser &lt;fen&gt;Degree&lt;/fen&gt;. This frame has some similarity to the compatibility frame where two Items are evaluated with respect to their compatibility with each other against some background.
 
@@ -45,7 +44,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874335069" POS="A" cBy="automatic" cDate="09/23/2020 15:18:55 UTC Wed" lemmaID="865" lu_type="singleton" name="gepast.a" status="Created" FN_EN_LU_ID="16912" Method="Iteration-1" RBN_LU_ID="r_a-10952" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189963227" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:32:43 UTC Mon" lemmaID="863" lu_type="singleton" name="gepast.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-10952">
     <definition>fatsoenlijk</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="gepast" order="1"/>

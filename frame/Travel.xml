@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="06/04/2002 09:58:25 PDT Tue" name="Travel" ID="343" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame a &lt;fen&gt;Traveler&lt;/fen&gt; goes on a journey, an activity, generally planned in advance, in which the &lt;fen&gt;Traveler&lt;/fen&gt; moves from a &lt;fen&gt;Source&lt;/fen&gt; location to a &lt;fen&gt;Goal&lt;/fen&gt; along a &lt;fen&gt;Path&lt;/fen&gt; or within an &lt;fen&gt;Area&lt;/fen&gt;.  The journey can be accompanied by &lt;fen&gt;Co-participant&lt;/fen&gt;s and &lt;fen&gt;Baggage&lt;/fen&gt;.  The &lt;fen&gt;Duration&lt;/fen&gt; or &lt;fen&gt;Distance&lt;/fen&gt; of the journey, both generally long, may also be described as may be the &lt;fen&gt;Mode_of_transportation&lt;/fen&gt;.  Words in this frame emphasize the whole process of getting from one place to another, rather than profiling merely the beginning or the end of the journey.
 &lt;ex&gt;&lt;fex name="Traveler"&gt;Ellen&lt;/fex&gt; &lt;t&gt;journeyed&lt;/t&gt; &lt;fex name="Goal"&gt;to Europe&lt;/fex&gt; &lt;fex name="Baggage"&gt;with five suitcases&lt;/fex&gt;.&lt;/ex&gt;
@@ -141,7 +140,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874449880" POS="N" cBy="automatic" cDate="09/23/2020 15:20:49 UTC Wed" lemmaID="900" lu_type="singleton" name="safari.n" status="Created" FN_EN_LU_ID="6063" Method="Iteration-1" RBN_LU_ID="r_n-32365" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190077852" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:34:37 UTC Mon" lemmaID="898" lu_type="singleton" name="safari.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-32365">
     <definition>door een gebied waar wilde dieren leven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="safari" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="09/13/2001 03:08:25 PDT Thu" name="Being_named" ID="228" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame concerns entities conventionally being referred to by particular names.
 
@@ -59,12 +58,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871569659" POS="A" cBy="automatic" cDate="09/23/2020 14:32:49 UTC Wed" lemmaID="53" lu_type="singleton" name="genaamd.a" status="Created" FN_EN_LU_ID="5544" Method="Iteration-1" RBN_LU_ID="r_a-10954" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186561261" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:36:01 UTC Mon" lemmaID="53" lu_type="singleton" name="genaamd.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-10954">
     <definition>de genoemde naam dragend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="genaamd" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871575134" POS="A" cBy="automatic" cDate="09/23/2020 14:32:55 UTC Wed" lemmaID="54" lu_type="singleton" name="naamloos.a" status="Created" FN_EN_LU_ID="8900" Method="Iteration-1" RBN_LU_ID="r_a-13041" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186564168" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:36:04 UTC Mon" lemmaID="54" lu_type="singleton" name="naamloos.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13041">
     <definition>anoniem</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="naamloos" order="1"/>

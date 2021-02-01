@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="CVa" cDate="03/16/2012 01:36:12 PDT Fri" name="Level_of_light" ID="2712" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;There is a gradable amount of light in a particular &lt;fen&gt;Location&lt;/fen&gt;.  In some cases the &lt;fen&gt;Source&lt;/fen&gt; of light may be indicated instead of the &lt;fen&gt;Location&lt;/fen&gt;.
 &lt;ex&gt;&lt;/ex&gt;
@@ -58,7 +57,7 @@ The negetive LUs in this frame can be used metaphorically to describe time perio
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873118815" POS="A" cBy="manual" cDate="09/23/2020 14:58:38 UTC Wed" lemmaID="497" lu_type="singleton" name="zonnig.a" status="Created" FN_EN_LU_ID="16981" Method="Iteration-1" RBN_LU_ID="r_a-16440" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188440994" POS="A" cBy="ThomasKlein" cDate="02/01/2021 14:07:21 UTC Mon" lemmaID="495" lu_type="singleton" name="zonnig.a" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16440">
     <definition>met veel zon</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="zonnig" order="1"/>

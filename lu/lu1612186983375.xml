@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="A" name="onaangenaam.a" ID="1612186983375" frame="Chemical-sense_description" frameID="271" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13260" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Degr" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Source" name="Perceptual_source"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Percept" name="Sensory_attribute"/>
+    </frame>
+  </header>
+  <definition>naar</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="onaangenaam" order="1"/>
+</lexUnit>

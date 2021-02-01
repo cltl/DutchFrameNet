@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="08/27/2001 01:49:08 PDT Mon" name="Rewards_and_punishments" ID="216" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; (the punisher or rewarder) performs a &lt;fen&gt;Response_action&lt;/fen&gt; on an &lt;fen&gt;Evaluee&lt;/fen&gt; for a &lt;fen&gt;Reason&lt;/fen&gt;, the &lt;fen&gt;Evaluee&lt;/fen&gt;'s actions or beliefs.   &lt;fen&gt;Means&lt;/fen&gt; and &lt;fen&gt;Instrument&lt;/fen&gt; may also be indicated.
 The goal of the punishment/reward is  to discourage/encourage the actions or beliefs.  Words in this frame presuppose that a judgment of the &lt;fen&gt;Evaluee&lt;/fen&gt; has occurred and that the &lt;fen&gt;Evaluee&lt;/fen&gt; is (or becomes) aware of the judgment.  This judgment was performed by a cognizer which is either the same as the &lt;fen&gt;Agent&lt;/fen&gt;, or, minimally, a representative of the same institution.
@@ -90,7 +89,7 @@ The goal of the punishment/reward is  to discourage/encourage the actions or bel
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873936085" POS="V" cBy="automatic" cDate="09/23/2020 15:12:16 UTC Wed" lemmaID="746" lu_type="singleton" name="straffen.v" status="Created" FN_EN_LU_ID="3846" Method="Iteration-1" RBN_LU_ID="r_v-7582" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189471688" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:24:31 UTC Mon" lemmaID="744" lu_type="singleton" name="straffen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7582">
     <definition>iemand straf geven voor iets</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="straffen" order="1"/>

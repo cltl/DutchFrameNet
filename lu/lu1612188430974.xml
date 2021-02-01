@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="duurzaamheid.n" ID="1612188430974" frame="Level_of_force_resistance" frameID="2061" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-11847" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="808080" type="Extra-Thematic" abbrev="Cir" name="Circumstances"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Deg" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Desc" name="Descriptor"/>
+      <FE fgColor="000000" bgColor="7CCD7C" type="Peripheral" abbrev="Dom" name="Domain"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Opp" name="Opposing_force"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Pla" name="Place"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Ent" name="Resisting_entity"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Tim" name="Time"/>
+    </frame>
+  </header>
+  <definition>waarin iets werkt zoals het hoort</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="duurzaamheid" order="1"/>
+</lexUnit>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="11/16/2001 11:59:50 PST Fri" name="Bringing" ID="240" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame concerns the movement of a &lt;fen&gt;Theme&lt;/fen&gt; and an &lt;fen&gt;Agent&lt;/fen&gt; and/or &lt;fen&gt;Carrier&lt;/fen&gt;.   The &lt;fen&gt;Agent&lt;/fen&gt;, a person or other sentient entity, controls the shared &lt;fen&gt;Path&lt;/fen&gt; by moving the &lt;fen&gt;Theme&lt;/fen&gt; during the motion. In other words, the &lt;fen&gt;Agent&lt;/fen&gt; has overall motion in directing the motion of the &lt;fen&gt;Theme&lt;/fen&gt;.  The &lt;fen&gt;Carrier&lt;/fen&gt; may be a separate entity, or it may be the &lt;fen&gt;Agent&lt;/fen&gt;'s body. The &lt;fen&gt;Constant_location&lt;/fen&gt; may be a subregion of the &lt;fen&gt;Agent&lt;/fen&gt;'s body or (a subregion of) a vehicle that the &lt;fen&gt;Agent&lt;/fen&gt; uses.
 
@@ -146,7 +145,7 @@ This frame emphasizes the path of movement as opposed to the FEs Source or Goal 
     <relatedFrame ID="7">Motion</relatedFrame>
     <relatedFrame ID="55">Cause_motion</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600871755583" POS="V" cBy="automatic" cDate="09/23/2020 14:35:55 UTC Wed" lemmaID="102" lu_type="phrasal" name="optellen.v" status="Created" FN_EN_LU_ID="8738" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-5831" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186702495" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:38:22 UTC Mon" lemmaID="102" lu_type="phrasal" name="optellen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-5831">
     <definition>bij elkaar tellen, uitrekenen hoeveel iets samen is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="op" order="1"/>

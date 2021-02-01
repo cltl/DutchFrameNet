@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:54 PST Wed" name="Coming_to_believe" ID="23" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A person (the &lt;fen&gt;Cognizer&lt;/fen&gt;) comes to believe something (the &lt;fen&gt;Content&lt;/fen&gt;), sometimes after a process of reasoning. This change in belief is usually initiated by a person or piece of &lt;fen&gt;Evidence&lt;/fen&gt;. Occasionally words in this domain are accompanied by phrases expressing &lt;fen&gt;Topic&lt;/fen&gt;, i.e. that which the mental &lt;fen&gt;Content&lt;/fen&gt; is about. 
 
@@ -92,48 +91,48 @@
   </frameRelation>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872210572" POS="N" cBy="automatic" cDate="09/23/2020 14:43:30 UTC Wed" lemmaID="219" lu_type="singleton" name="conclusie.n" status="Created" FN_EN_LU_ID="229" Method="Iteration-1" RBN_LU_ID="r_n-9750" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187096243" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:44:56 UTC Mon" lemmaID="219" lu_type="singleton" name="conclusie.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-9750">
     <definition>uit een redenering of een waarneming</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="conclusie" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872214789" POS="V" cBy="automatic" cDate="09/23/2020 14:43:34 UTC Wed" lemmaID="220" lu_type="singleton" name="ontcijferen.v" status="Created" FN_EN_LU_ID="9731" Method="Iteration-1" RBN_LU_ID="r_v-5251" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187101086" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:45:01 UTC Mon" lemmaID="220" lu_type="singleton" name="ontcijferen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-5251">
     <definition>er met moeite in slagen te lezen wat ergens staat</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="ontcijferen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872218376" POS="V" cBy="automatic" cDate="09/23/2020 14:43:38 UTC Wed" lemmaID="221" lu_type="phrasal" name="doorhebben.v" status="Created" FN_EN_LU_ID="9731" Method="Iteration-1" RBN_LU_ID="r_v-2369" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187105047" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:45:05 UTC Mon" lemmaID="221" lu_type="phrasal" name="doorhebben.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2369">
     <definition>doorzien hebben, begrepen hebben</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="door" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="hebben" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600872222316" POS="V" cBy="automatic" cDate="09/23/2020 14:43:42 UTC Wed" lemmaID="222" lu_type="singleton" name="weten.v" status="Created" FN_EN_LU_ID="9731" Method="Iteration-2_ODWN" RBN_LU_ID="c_546692" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187108670" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:45:08 UTC Mon" lemmaID="222" lu_type="singleton" name="weten.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-c_546692">
     <definition>kennis hebben, van iets op de hoogte zijn</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="weten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872225679" POS="V" cBy="manual" cDate="09/23/2020 14:43:45 UTC Wed" lemmaID="223" lu_type="singleton" name="volgen.v" status="Created" FN_EN_LU_ID="9731" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9654" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187111986" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:45:11 UTC Mon" lemmaID="223" lu_type="singleton" name="volgen.v" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9654">
     <definition>overdenken en begrijpen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="volgen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872228973" POS="V" cBy="automatic" cDate="09/23/2020 14:43:48 UTC Wed" lemmaID="224" lu_type="singleton" name="snappen.v" status="Created" FN_EN_LU_ID="9731" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7271" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187115513" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:45:15 UTC Mon" lemmaID="224" lu_type="singleton" name="snappen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7271">
     <definition>iets of iemand begrijpen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="snappen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872232019" POS="V" cBy="automatic" cDate="09/23/2020 14:43:52 UTC Wed" lemmaID="225" lu_type="singleton" name="verstaan.v" status="Created" FN_EN_LU_ID="9731" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9332" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187120672" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:45:20 UTC Mon" lemmaID="225" lu_type="singleton" name="verstaan.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9332">
     <definition>begrijpen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verstaan" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872235742" POS="V" cBy="automatic" cDate="09/23/2020 14:43:55 UTC Wed" lemmaID="226" lu_type="singleton" name="begrijpen.v" status="Created" FN_EN_LU_ID="9731" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1160" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187124036" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:45:24 UTC Mon" lemmaID="226" lu_type="singleton" name="begrijpen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1160">
     <definition>met je verstand kunnen volgen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="begrijpen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872243423" POS="V" cBy="automatic" cDate="09/23/2020 14:44:03 UTC Wed" lemmaID="227" lu_type="singleton" name="bevatten.v" status="Created" FN_EN_LU_ID="9731" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1503" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187127399" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:45:27 UTC Mon" lemmaID="227" lu_type="singleton" name="bevatten.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1503">
     <definition>begrijpen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="bevatten" order="1"/>

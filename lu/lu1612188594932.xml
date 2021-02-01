@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="hectare.n" ID="1612188594932" frame="Measure_area" frameID="156" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-16473" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Area"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Count"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Core" abbrev="" name="Occupant"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Unit"/>
+    </frame>
+  </header>
+  <definition>ter grootte van tienduizend vierkante meter</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="hectare" order="1"/>
+</lexUnit>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MRLP" cDate="11/21/2001 03:41:51 PST Wed" name="Competition" ID="241" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame is concerned with the idea that people (&lt;fen&gt;Participant_1&lt;/fen&gt;, &lt;fen&gt;Participant_2&lt;/fen&gt;, or &lt;fen&gt;Participants&lt;/fen&gt;) participate in an organized, rule-governed activity (the &lt;fen&gt;Competition&lt;/fen&gt;) in order to achieve some advantageous outcome (often the &lt;fen&gt;Prize&lt;/fen&gt;).  &lt;fen&gt;Rank&lt;/fen&gt; and &lt;fen&gt;Score&lt;/fen&gt; are different criteria by which the degree of achievement of the advantageous outcome is judged.
 
@@ -100,17 +99,17 @@ A constituent tagged as &lt;fen&gt;Place&lt;/fen&gt; may require annotation on a
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872293290" POS="N" cBy="automatic" cDate="09/23/2020 14:44:53 UTC Wed" lemmaID="238" lu_type="singleton" name="concurrent.n" status="Created" FN_EN_LU_ID="4469" Method="Iteration-1" RBN_LU_ID="r_n-9758" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187179123" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:46:19 UTC Mon" lemmaID="238" lu_type="singleton" name="concurrent.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-9758">
     <definition>met wie men strijdt om hetzelfde doel</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="concurrent" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872296489" POS="N" cBy="automatic" cDate="09/23/2020 14:44:56 UTC Wed" lemmaID="239" lu_type="singleton" name="tegenstander.n" status="Created" FN_EN_LU_ID="13800" Method="Iteration-1" RBN_LU_ID="r_n-37158" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187183341" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:46:23 UTC Mon" lemmaID="239" lu_type="singleton" name="tegenstander.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-37158">
     <definition>die tegen iets of iemand vecht of zich verzet</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="tegenstander" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872299439" POS="N" cBy="automatic" cDate="09/23/2020 14:44:59 UTC Wed" lemmaID="240" lu_type="singleton" name="rivaal.n" status="Created" FN_EN_LU_ID="13800" Method="Iteration-1" RBN_LU_ID="r_n-31798" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187189567" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:46:29 UTC Mon" lemmaID="240" lu_type="singleton" name="rivaal.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-31798">
     <definition>die hetzelfde probeert te bereiken als de persoon in kwestie en daardoor een bedreiging voor hem of haar vormt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="rivaal" order="1"/>

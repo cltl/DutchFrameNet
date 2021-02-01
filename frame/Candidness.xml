@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:59 PST Wed" name="Candidness" ID="32" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame contains adjectives and nouns that describe the truth or sincerity of communication. These words, analogously to behaver-evaluating words, can apply either to &lt;fen&gt;Speaker&lt;/fen&gt;s or to the &lt;fen&gt;Message&lt;/fen&gt;s they produce. They can occur with &lt;ment&gt;about&lt;/ment&gt;-PPs expressing &lt;fen&gt;Topic&lt;/fen&gt;. 
 
@@ -63,12 +62,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871979121" POS="A" cBy="automatic" cDate="09/23/2020 14:39:39 UTC Wed" lemmaID="157" lu_type="singleton" name="geheimzinnig.a" status="Created" FN_EN_LU_ID="470" Method="Iteration-1" RBN_LU_ID="r_a-10896" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186882485" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:41:22 UTC Mon" lemmaID="157" lu_type="singleton" name="geheimzinnig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-10896">
     <definition>niet te verklaren</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="geheimzinnig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871982495" POS="A" cBy="automatic" cDate="09/23/2020 14:39:42 UTC Wed" lemmaID="158" lu_type="singleton" name="gereserveerd.a" status="Created" FN_EN_LU_ID="470" Method="Iteration-1" RBN_LU_ID="r_a-11007" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186885477" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:41:25 UTC Mon" lemmaID="158" lu_type="singleton" name="gereserveerd.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11007">
     <definition>terughoudend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="gereserveerd" order="1"/>

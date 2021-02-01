@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="08/08/2002 04:43:38 PDT Thu" name="Biological_urge" ID="394" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Experiencer&lt;/fen&gt; is in a &lt;fen&gt;State&lt;/fen&gt; where a biological urge is signaling the need to perform a certain action such as eating, drinking, stopping exertion, sleeping, regurgitating, or having sex.
 The &lt;fen&gt;Duration&lt;/fen&gt;, &lt;fen&gt;Time&lt;/fen&gt;, &lt;fen&gt;Place&lt;/fen&gt;, or &lt;fen&gt;Degree&lt;/fen&gt; of intensity associated with the occurrence of the urge may also be indicated.  In this frame, the &lt;fen&gt;Experiencer&lt;/fen&gt; does not necessarily want to perform the action that would fulfill the urge, and there is no specific focus associated with the urge.
@@ -70,32 +69,32 @@ In such cases, we tag &lt;fen&gt;Reason&lt;/fen&gt; on the second layer.&lt;/def
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871640134" POS="A" cBy="automatic" cDate="09/23/2020 14:34:00 UTC Wed" lemmaID="72" lu_type="singleton" name="slaperig.a" status="Created" FN_EN_LU_ID="7171" Method="Iteration-1" RBN_LU_ID="r_a-14915" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186615599" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:36:55 UTC Mon" lemmaID="72" lu_type="singleton" name="slaperig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-14915">
     <definition>slaap hebbend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="slaperig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871644204" POS="A" cBy="automatic" cDate="09/23/2020 14:34:04 UTC Wed" lemmaID="73" lu_type="singleton" name="vermoeid.a" status="Created" FN_EN_LU_ID="7180" Method="Iteration-1" RBN_LU_ID="r_a-16647" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186618522" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:36:58 UTC Mon" lemmaID="73" lu_type="singleton" name="vermoeid.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16647">
     <definition>moe</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="vermoeid" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871648094" POS="A" cBy="automatic" cDate="09/23/2020 14:34:08 UTC Wed" lemmaID="74" lu_type="singleton" name="mieters.a" status="Created" FN_EN_LU_ID="7181" Method="Iteration-1" RBN_LU_ID="r_a-12863" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186621309" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:37:01 UTC Mon" lemmaID="74" lu_type="singleton" name="mieters.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12863">
     <definition>geweldig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="mieters" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871651613" POS="A" cBy="automatic" cDate="09/23/2020 14:34:11 UTC Wed" lemmaID="75" lu_type="singleton" name="bekaf.a" status="Created" FN_EN_LU_ID="7181" Method="Iteration-1" RBN_LU_ID="r_a-9665" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186624338" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:37:04 UTC Mon" lemmaID="75" lu_type="singleton" name="bekaf.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9665">
     <definition>uitgeput</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="bekaf" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871655988" POS="A" cBy="automatic" cDate="09/23/2020 14:34:15 UTC Wed" lemmaID="76" lu_type="singleton" name="afgemat.a" status="Created" FN_EN_LU_ID="7181" Method="Iteration-1" RBN_LU_ID="r_a-8977" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186627237" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:37:07 UTC Mon" lemmaID="76" lu_type="singleton" name="afgemat.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-8977">
     <definition>zeer moe</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="afgemat" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871659275" POS="A" cBy="automatic" cDate="09/23/2020 14:34:19 UTC Wed" lemmaID="77" lu_type="singleton" name="uitgehongerd.a" status="Created" FN_EN_LU_ID="7237" Method="Iteration-1" RBN_LU_ID="r_a-15621" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186630002" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:37:10 UTC Mon" lemmaID="77" lu_type="singleton" name="uitgehongerd.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15621">
     <definition>erg hongerig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="uitgehongerd" order="1"/>

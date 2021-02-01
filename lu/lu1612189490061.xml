@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="zebra.n" ID="1612189490061" frame="Roadways" frameID="203" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-43827" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Peripheral" abbrev="A_e" name="Abundant_entities"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Char" name="Characteristic"/>
+      <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Dir" name="Direction"/>
+      <FE fgColor="9400D3" bgColor="d0d0d0" type="Peripheral" abbrev="EPs" name="Endpoints"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="F_use" name="Frequency_of_use"/>
+      <FE fgColor="000000" bgColor="9F79EE" type="Peripheral" abbrev="Goal" name="Goal"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Length" name="Length"/>
+      <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Mat" name="Material"/>
+      <FE fgColor="FFFFFF" bgColor="808080" type="Peripheral" abbrev="Name" name="Name"/>
+      <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="par" name="Part"/>
+      <FE fgColor="90876C" bgColor="000000" type="Peripheral" abbrev="Pat" name="Path"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="rel" name="Relative_location"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Road" name="Roadway"/>
+      <FE fgColor="EEE8AA" bgColor="A52A2A" type="Peripheral" abbrev="Src" name="Source"/>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Use" name="Use"/>
+    </frame>
+  </header>
+  <definition>waar voetgangers de rijweg kunnen oversteken, gemarkeerd door witte brede strepen op het wegdek</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="zebra" order="1"/>
+</lexUnit>

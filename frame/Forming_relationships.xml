@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="07/07/2003 01:10:35 PDT Mon" name="Forming_relationships" ID="723" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;&lt;fen&gt;Partner_1&lt;/fen&gt; interacts with Partner_2 (also collectively expressible as &lt;fen&gt;Partners&lt;/fen&gt;) to change their social relationship.  
 
@@ -88,7 +87,7 @@
   </frameRelation>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872817919" POS="N" cBy="automatic" cDate="09/23/2020 14:53:37 UTC Wed" lemmaID="403" lu_type="singleton" name="scheiding.n" status="Created" FN_EN_LU_ID="9024" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-32854" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188028640" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:00:28 UTC Mon" lemmaID="401" lu_type="singleton" name="scheiding.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-32854">
     <definition>van een huwelijk</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="scheiding" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="07/31/2001 05:50:15 PDT Tue" name="Natural_features" ID="191" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The &lt;fen&gt;Locale&lt;/fen&gt; is a geographical location as defined by shape.  This frame includes natural geographic features, including land/ice forms and bodies of water.
 
@@ -58,67 +57,67 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873410931" POS="N" cBy="automatic" cDate="09/23/2020 15:03:30 UTC Wed" lemmaID="587" lu_type="singleton" name="vijver.n" status="Created" FN_EN_LU_ID="3412" Method="Iteration-1" RBN_LU_ID="r_n-40878" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188848543" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:14:08 UTC Mon" lemmaID="585" lu_type="singleton" name="vijver.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-40878">
     <definition>van relatief kleine omvang in een tuin of park, al dan niet natuurlijk ontstaan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="vijver" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873414183" POS="N" cBy="automatic" cDate="09/23/2020 15:03:34 UTC Wed" lemmaID="588" lu_type="singleton" name="rivier.n" status="Created" FN_EN_LU_ID="3497" Method="Iteration-1" RBN_LU_ID="r_n-31801" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188851959" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:14:11 UTC Mon" lemmaID="586" lu_type="singleton" name="rivier.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-31801">
     <definition>van natuurlijke aard, die vrij breed is en uitmondt in zee of in een andere rivier</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="rivier" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873417256" POS="N" cBy="automatic" cDate="09/23/2020 15:03:37 UTC Wed" lemmaID="589" lu_type="singleton" name="archipel.n" status="Created" FN_EN_LU_ID="3505" Method="Iteration-1" RBN_LU_ID="r_n-3877" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188855424" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:14:15 UTC Mon" lemmaID="587" lu_type="singleton" name="archipel.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-3877">
     <definition>eilanden die dicht bij elkaar liggen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="archipel" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873420385" POS="N" cBy="automatic" cDate="09/23/2020 15:03:40 UTC Wed" lemmaID="590" lu_type="singleton" name="gletsjer.n" status="Created" FN_EN_LU_ID="3507" Method="Iteration-1" RBN_LU_ID="r_n-15287" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188858705" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:14:18 UTC Mon" lemmaID="588" lu_type="singleton" name="gletsjer.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-15287">
     <definition>op een berghelling, die door zijn zwaarte uiterst langzaam naar beneden glijdt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="gletsjer" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873423520" POS="N" cBy="automatic" cDate="09/23/2020 15:03:43 UTC Wed" lemmaID="591" lu_type="singleton" name="klip.n" status="Created" FN_EN_LU_ID="3513" Method="Iteration-1" RBN_LU_ID="r_n-19854" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188861879" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:14:21 UTC Mon" lemmaID="589" lu_type="singleton" name="klip.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-19854">
     <definition>in zee</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="klip" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873426636" POS="N" cBy="automatic" cDate="09/23/2020 15:03:46 UTC Wed" lemmaID="592" lu_type="singleton" name="grot.n" status="Created" FN_EN_LU_ID="3517" Method="Iteration-1" RBN_LU_ID="r_n-15942" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188865128" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:14:25 UTC Mon" lemmaID="590" lu_type="singleton" name="grot.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-15942">
     <definition>dat op natuurlijke wijze in de ondergrond is gevormd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="grot" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873429927" POS="N" cBy="automatic" cDate="09/23/2020 15:03:49 UTC Wed" lemmaID="593" lu_type="singleton" name="beek.n" status="Created" FN_EN_LU_ID="3526" Method="Iteration-1" RBN_LU_ID="r_n-6219" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188868471" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:14:28 UTC Mon" lemmaID="591" lu_type="singleton" name="beek.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-6219">
     <definition>dat smal en ondiep is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="beek" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873433034" POS="N" cBy="automatic" cDate="09/23/2020 15:03:53 UTC Wed" lemmaID="594" lu_type="singleton" name="atol.n" status="Created" FN_EN_LU_ID="3527" Method="Iteration-1" RBN_LU_ID="r_n-4120" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188871724" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:14:31 UTC Mon" lemmaID="592" lu_type="singleton" name="atol.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-4120">
     <definition>met een ringvorm</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="atol" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873436170" POS="N" cBy="automatic" cDate="09/23/2020 15:03:56 UTC Wed" lemmaID="595" lu_type="singleton" name="schol.n" status="Created" FN_EN_LU_ID="3528" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-33098" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188874992" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:14:34 UTC Mon" lemmaID="593" lu_type="singleton" name="schol.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-33098">
     <definition>ijs</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="schol" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873439356" POS="N" cBy="manual" cDate="09/23/2020 15:03:59 UTC Wed" lemmaID="596" lu_type="singleton" name="massief.n" status="Created" FN_EN_LU_ID="3530" Method="Iteration-1" RBN_LU_ID="r_n-23318" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188878429" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:14:38 UTC Mon" lemmaID="594" lu_type="singleton" name="massief.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-23318">
     <definition>dat lang geleden gevormd is en waarvan de toppen zijn afgesleten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="massief" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873442734" POS="N" cBy="automatic" cDate="09/23/2020 15:04:02 UTC Wed" lemmaID="597" lu_type="singleton" name="ravijn.n" status="Created" FN_EN_LU_ID="3581" Method="Iteration-1" RBN_LU_ID="r_n-30585" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188881715" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:14:41 UTC Mon" lemmaID="595" lu_type="singleton" name="ravijn.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-30585">
     <definition>in de aardbodem, dat lang en heel erg diep is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="ravijn" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873445847" POS="N" cBy="automatic" cDate="09/23/2020 15:04:05 UTC Wed" lemmaID="598" lu_type="singleton" name="lagune.n" status="Created" FN_EN_LU_ID="3624" Method="Iteration-1" RBN_LU_ID="r_n-21242" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188885221" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:14:45 UTC Mon" lemmaID="596" lu_type="singleton" name="lagune.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-21242">
     <definition>dat door een lange, smalle landtong van de zee gescheiden is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="lagune" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873449149" POS="N" cBy="automatic" cDate="09/23/2020 15:04:09 UTC Wed" lemmaID="599" lu_type="singleton" name="strand.n" status="Created" FN_EN_LU_ID="7658" Method="Iteration-1" RBN_LU_ID="r_n-36203" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188888613" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:14:48 UTC Mon" lemmaID="597" lu_type="singleton" name="strand.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-36203">
     <definition>kiezel- of zandgrond dicht langs de zee of een binnenwater</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="strand" order="1"/>

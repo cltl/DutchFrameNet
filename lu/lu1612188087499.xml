@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="hulp.n" ID="1612188087499" frame="Gizmo" frameID="106" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-c_545718" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Extra-Thematic" abbrev="" name="Descriptor"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Giz" name="Gizmo"/>
+      <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Power_source" name="Power_source"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Use" name="Use"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Peripheral" abbrev="Usr" name="User"/>
+    </frame>
+  </header>
+  <definition>die helpt</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="hulp" order="1"/>
+</lexUnit>

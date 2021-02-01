@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="01/15/2003 12:23:01 PST Wed" name="Legality" ID="501" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;Words in this frame describe the status of an &lt;fen&gt;Action&lt;/fen&gt; with respect to a &lt;fen&gt;Code&lt;/fen&gt; of laws or rules. An &lt;fen&gt;Object&lt;/fen&gt; may also be in violation or compliance of the &lt;fen&gt;Code&lt;/fen&gt; by virtue of its existence, location or possession.  
 
@@ -44,12 +43,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873106348" POS="A" cBy="automatic" cDate="09/23/2020 14:58:26 UTC Wed" lemmaID="493" lu_type="singleton" name="illegaal.a" status="Created" FN_EN_LU_ID="7953" Method="Iteration-1" RBN_LU_ID="r_a-11877" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188418354" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:06:58 UTC Mon" lemmaID="491" lu_type="singleton" name="illegaal.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11877">
     <definition>onwettig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="illegaal" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873109349" POS="A" cBy="automatic" cDate="09/23/2020 14:58:29 UTC Wed" lemmaID="494" lu_type="singleton" name="strafbaar.a" status="Created" FN_EN_LU_ID="7953" Method="Iteration-1" RBN_LU_ID="r_a-15066" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188422319" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:07:02 UTC Mon" lemmaID="492" lu_type="singleton" name="strafbaar.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15066">
     <definition>straf verdienend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="strafbaar" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="05/06/2004 05:59:22 PDT Thu" name="Misdeed" ID="1100" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Wrongdoer&lt;/fen&gt; engages in a &lt;fen&gt;Misdeed&lt;/fen&gt;.
 
@@ -82,17 +81,17 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873372605" POS="N" cBy="automatic" cDate="09/23/2020 15:02:52 UTC Wed" lemmaID="576" lu_type="singleton" name="vergrijp.n" status="Created" FN_EN_LU_ID="10493" Method="Iteration-1" RBN_LU_ID="r_n-40077" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188798935" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:13:18 UTC Mon" lemmaID="574" lu_type="singleton" name="vergrijp.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-40077">
     <definition>waarmee men zich niet aan de regels of aan de wet houdt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="vergrijp" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873375743" POS="N" cBy="automatic" cDate="09/23/2020 15:02:55 UTC Wed" lemmaID="577" lu_type="singleton" name="wandaad.n" status="Created" FN_EN_LU_ID="10493" Method="Iteration-1" RBN_LU_ID="r_n-42252" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188802920" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:13:22 UTC Mon" lemmaID="575" lu_type="singleton" name="wandaad.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-42252">
     <definition>die onmenselijk en barbaars is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="wandaad" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873378977" POS="N" cBy="automatic" cDate="09/23/2020 15:02:58 UTC Wed" lemmaID="354" lu_type="singleton" name="gruwel.n" status="Created" FN_EN_LU_ID="10493" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-15971" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188806804" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:13:26 UTC Mon" lemmaID="352" lu_type="singleton" name="gruwel.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-15971">
     <definition>die afschuw opwekt bij iemand</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="gruwel" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Shw" cDate="07/03/2001 04:18:32 PDT Tue" name="Body_description_holistic" ID="157" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame covers descriptions of an entire human body, viewed as a gestalt (as opposed to descriptions based on salient body parts).  The Frame Elements are &lt;fen&gt;Individual&lt;/fen&gt; and &lt;fen&gt;Figure&lt;/fen&gt;.  
 
@@ -39,7 +38,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871670929" POS="A" cBy="automatic" cDate="09/23/2020 14:34:30 UTC Wed" lemmaID="80" lu_type="singleton" name="slank.a" status="Created" FN_EN_LU_ID="3594" Method="Iteration-1" RBN_LU_ID="r_a-14911" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186638808" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:37:18 UTC Mon" lemmaID="80" lu_type="singleton" name="slank.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-14911">
     <definition>rank</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="slank" order="1"/>

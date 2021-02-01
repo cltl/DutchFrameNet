@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="12/02/2005 03:23:23 PST Fri" name="Hiding_objects" ID="1673" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; causes a &lt;fen&gt;Hidden_object&lt;/fen&gt; to become perceptually inaccessible to potential perceivers by placing it in a &lt;fen&gt;Hiding_place&lt;/fen&gt; or putting in place an &lt;fen&gt;Obstruction&lt;/fen&gt; that screens the object.
 
@@ -92,7 +91,7 @@ Phrases such as "from view" and "from sight" are assumed to indicate that the &l
     <relatedFrame ID="652">Eclipse</relatedFrame>
   </frameRelation>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872886880" POS="V" cBy="automatic" cDate="09/23/2020 14:54:46 UTC Wed" lemmaID="425" lu_type="singleton" name="camoufleren.v" status="Created" FN_EN_LU_ID="15241" Method="Iteration-1" RBN_LU_ID="r_v-1937" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188113035" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:01:53 UTC Mon" lemmaID="423" lu_type="singleton" name="camoufleren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1937">
     <definition>ervoor zorgen dat iets of iemand niet opvalt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="camoufleren" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="06/24/2003 04:22:02 PDT Tue" name="Judgment_direct_address" ID="711" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame, a &lt;fen&gt;Communicator&lt;/fen&gt; judges the &lt;fen&gt;Addressee&lt;/fen&gt; and then communicates that appraisal directly to the &lt;fen&gt;Addressee&lt;/fen&gt;. The judgment is given for a particular &lt;fen&gt;Reason&lt;/fen&gt; or about a particular &lt;fen&gt;Topic&lt;/fen&gt;.
 
@@ -92,22 +91,22 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872989111" POS="N" cBy="automatic" cDate="09/23/2020 14:56:29 UTC Wed" lemmaID="457" lu_type="singleton" name="verwijt.n" status="Created" FN_EN_LU_ID="8948" Method="Iteration-1" RBN_LU_ID="r_n-40651" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188255105" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:04:15 UTC Mon" lemmaID="455" lu_type="singleton" name="verwijt.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-40651">
     <definition>waarmee je laat merken dat je iemand iets kwalijk neemt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="verwijt" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872992356" POS="N" cBy="automatic" cDate="09/23/2020 14:56:32 UTC Wed" lemmaID="458" lu_type="singleton" name="terechtwijzing.n" status="Created" FN_EN_LU_ID="8948" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-37391" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188259956" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:04:19 UTC Mon" lemmaID="456" lu_type="singleton" name="terechtwijzing.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-37391">
     <definition>op een fout, al of niet met suggesties voor verbetering</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="terechtwijzing" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872995661" POS="N" cBy="automatic" cDate="09/23/2020 14:56:35 UTC Wed" lemmaID="459" lu_type="singleton" name="reprimande.n" status="Created" FN_EN_LU_ID="8948" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-31411" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188263787" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:04:23 UTC Mon" lemmaID="457" lu_type="singleton" name="reprimande.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-31411">
     <definition>van het berispen van iemand, of van het berispt worden (mondeling of schriftelijk)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="reprimande" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872998819" POS="N" cBy="automatic" cDate="09/23/2020 14:56:38 UTC Wed" lemmaID="460" lu_type="singleton" name="berisping.n" status="Created" FN_EN_LU_ID="8948" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-6762" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188267911" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:04:27 UTC Mon" lemmaID="458" lu_type="singleton" name="berisping.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-6762">
     <definition>van ongenoegen of afkeuring</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="berisping" order="1"/>

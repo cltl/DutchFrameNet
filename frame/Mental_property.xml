@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:57 PST Wed" name="Mental_property" ID="29" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The adjectives and nouns in this frame are all based on the idea that mental properties may be attributed to a person (&lt;fen&gt;Protagonist&lt;/fen&gt;) by a (usually implicit) &lt;fen&gt;Judge&lt;/fen&gt;  on the basis of that person's &lt;fen&gt;Behavior&lt;/fen&gt;, as broadly understood.  Though on a conceptual level these words always attribute mental properties to people, they may be applied to &lt;fen&gt;Protagonist&lt;/fen&gt;'s &lt;fen&gt;Behavior&lt;/fen&gt;s as well, with the understanding that the &lt;fen&gt;Behavior&lt;/fen&gt; is revealing a (usually temporary) property of the &lt;fen&gt;Protagonist&lt;/fen&gt; responsible for it. For example, while we may speak of a &lt;ment&gt;stupid person&lt;/ment&gt;, we may also speak of a &lt;ment&gt;stupid thing to say/do/think&lt;/ment&gt;. In addition, we may mention both the &lt;fen&gt;Protagonist&lt;/fen&gt; and the &lt;fen&gt;Behavior&lt;/fen&gt;, as in &lt;ex&gt;It was &lt;t&gt;stupid&lt;/t&gt; of me to do that.&lt;/ex&gt; Some of the words in this frame also have slightly different uses, in which there is a constituent expressing the &lt;fen&gt;Practice&lt;/fen&gt; with respect to which the mental property holds of the &lt;fen&gt;Protagonist&lt;/fen&gt;, as in:  
     &lt;ex&gt;She is &lt;t&gt;astute&lt;/t&gt; &lt;fex name="Practice"&gt;at math&lt;/fex&gt;.&lt;/ex&gt;
@@ -68,37 +67,37 @@ While &lt;fen&gt;Practice&lt;/fen&gt; expressions do not co-occur with &lt;fen&g
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873339968" POS="A" cBy="automatic" cDate="09/23/2020 15:02:19 UTC Wed" lemmaID="566" lu_type="singleton" name="verstrooid.a" status="Created" FN_EN_LU_ID="372" Method="Iteration-1" RBN_LU_ID="r_a-16028" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188759369" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:12:39 UTC Mon" lemmaID="564" lu_type="singleton" name="verstrooid.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16028">
     <definition>verward</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="verstrooid" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873343243" POS="A" cBy="automatic" cDate="09/23/2020 15:02:23 UTC Wed" lemmaID="567" lu_type="singleton" name="cynisch.a" status="Created" FN_EN_LU_ID="388" Method="Iteration-1" RBN_LU_ID="r_a-9803" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188763307" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:12:43 UTC Mon" lemmaID="565" lu_type="singleton" name="cynisch.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9803">
     <definition>bitter</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="cynisch" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873346422" POS="A" cBy="automatic" cDate="09/23/2020 15:02:26 UTC Wed" lemmaID="568" lu_type="singleton" name="zinloos.a" status="Created" FN_EN_LU_ID="403" Method="Iteration-1" RBN_LU_ID="r_a-16421" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188767170" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:12:47 UTC Mon" lemmaID="566" lu_type="singleton" name="zinloos.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16421">
     <definition>nutteloos</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="zinloos" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873349750" POS="A" cBy="automatic" cDate="09/23/2020 15:02:29 UTC Wed" lemmaID="569" lu_type="singleton" name="doelloos.a" status="Created" FN_EN_LU_ID="403" Method="Iteration-1" RBN_LU_ID="r_a-10072" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188771198" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:12:51 UTC Mon" lemmaID="567" lu_type="singleton" name="doelloos.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-10072">
     <definition>zonder doel</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="doelloos" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873352902" POS="A" cBy="automatic" cDate="09/23/2020 15:02:32 UTC Wed" lemmaID="570" lu_type="singleton" name="inhoudsloos.a" status="Created" FN_EN_LU_ID="403" Method="Iteration-1" RBN_LU_ID="r_a-11988" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188775133" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:12:55 UTC Mon" lemmaID="568" lu_type="singleton" name="inhoudsloos.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11988">
     <definition>zonder inhoud</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="inhoudsloos" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873355986" POS="A" cBy="automatic" cDate="09/23/2020 15:02:35 UTC Wed" lemmaID="571" lu_type="singleton" name="vernuftig.a" status="Created" FN_EN_LU_ID="405" Method="Iteration-1" RBN_LU_ID="r_a-15995" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188779198" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:12:59 UTC Mon" lemmaID="569" lu_type="singleton" name="vernuftig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15995">
     <definition>ingenieus</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="vernuftig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873359227" POS="A" cBy="automatic" cDate="09/23/2020 15:02:39 UTC Wed" lemmaID="572" lu_type="singleton" name="ingenieus.a" status="Created" FN_EN_LU_ID="405" Method="Iteration-1" RBN_LU_ID="r_a-11916" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188783000" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:13:03 UTC Mon" lemmaID="570" lu_type="singleton" name="ingenieus.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11916">
     <definition>vernuftig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="ingenieus" order="1"/>

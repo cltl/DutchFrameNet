@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="11/22/2002 02:05:22 PST Fri" name="Attack" ID="424" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Assailant&lt;/fen&gt; physically attacks a &lt;fen&gt;Victim&lt;/fen&gt; (which is usually but not always sentient), causing or intending to cause the &lt;fen&gt;Victim&lt;/fen&gt; physical damage.   A &lt;fen&gt;Weapon&lt;/fen&gt; used by the &lt;fen&gt;Assailant&lt;/fen&gt; may also be mentioned, in addition to the usual &lt;fen&gt;Place&lt;/fen&gt;, &lt;fen&gt;Time&lt;/fen&gt;, &lt;fen&gt;Purpose&lt;/fen&gt;, &lt;fen&gt;Explanation&lt;/fen&gt;, etc.  Sometimes a location is used metonymically to stand for the &lt;fen&gt;Assailant&lt;/fen&gt; or the &lt;fen&gt;Victim&lt;/fen&gt;, and in such cases the &lt;fen&gt;Place&lt;/fen&gt; FE will be annotated on a second FE layer.
 
@@ -124,12 +123,12 @@ Form: once, twice, Cardinal expression + /it times, /it lots/a lot &lt;/def-root
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871489901" POS="N" cBy="automatic" cDate="09/23/2020 14:31:29 UTC Wed" lemmaID="31" lu_type="singleton" name="offensief.n" status="Created" FN_EN_LU_ID="7760" Method="Iteration-1" RBN_LU_ID="r_n-25557" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186493148" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:34:53 UTC Mon" lemmaID="31" lu_type="singleton" name="offensief.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-25557">
     <definition>volgens een vast plan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="offensief" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871493828" POS="N" cBy="automatic" cDate="09/23/2020 14:31:33 UTC Wed" lemmaID="32" lu_type="singleton" name="hinderlaag.n" status="Created" FN_EN_LU_ID="7772" Method="Iteration-1" RBN_LU_ID="r_n-16842" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186496130" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:34:56 UTC Mon" lemmaID="32" lu_type="singleton" name="hinderlaag.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-16842">
     <definition>waar je je verstopt om iemand aan te vallen als hij of zij het niet verwacht</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="hinderlaag" order="1"/>

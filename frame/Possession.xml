@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="05/25/2001 12:14:14 PDT Fri" name="Possession" ID="118" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Owner&lt;/fen&gt; has (or lacks) a &lt;fen&gt;Possession&lt;/fen&gt;.
 &lt;ex&gt;&lt;/ex&gt;
@@ -60,27 +59,27 @@ Ex.:  I &lt;t&gt;have&lt;/t&gt; &lt;fex name="Possession"&gt;twenty bucks&lt;/fe
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873716693" POS="V" cBy="automatic" cDate="09/23/2020 15:08:36 UTC Wed" lemmaID="681" lu_type="singleton" name="tellen.v" status="Created" FN_EN_LU_ID="2358" Method="Iteration-2_ODWN" RBN_LU_ID="c_546187" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189186660" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:19:46 UTC Mon" lemmaID="679" lu_type="singleton" name="tellen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-c_546187">
     <definition>een bepaalde waarde hebben</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="tellen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873719860" POS="V" cBy="automatic" cDate="09/23/2020 15:08:39 UTC Wed" lemmaID="682" lu_type="singleton" name="kennen.v" status="Created" FN_EN_LU_ID="2358" Method="Iteration-2_ODWN" RBN_LU_ID="c_546664" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189189852" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:19:49 UTC Mon" lemmaID="680" lu_type="singleton" name="kennen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-c_546664">
     <definition>weten wie, wat of hoe (iemand of iets) is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="kennen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873723090" POS="V" cBy="automatic" cDate="09/23/2020 15:08:43 UTC Wed" lemmaID="683" lu_type="singleton" name="derven.v" status="Created" FN_EN_LU_ID="2417" Method="Iteration-1" RBN_LU_ID="r_v-2191" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189193155" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:19:53 UTC Mon" lemmaID="681" lu_type="singleton" name="derven.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2191">
     <definition>missen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="derven" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873726276" POS="V" cBy="automatic" cDate="09/23/2020 15:08:46 UTC Wed" lemmaID="684" lu_type="singleton" name="ontberen.v" status="Created" FN_EN_LU_ID="2417" Method="Iteration-1" RBN_LU_ID="r_v-5240" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189196976" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:19:56 UTC Mon" lemmaID="682" lu_type="singleton" name="ontberen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-5240">
     <definition>het genoemde missen terwijl je het hard nodig hebt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="ontberen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873729635" POS="N" cBy="manual" cDate="09/23/2020 15:08:49 UTC Wed" lemmaID="685" lu_type="singleton" name="bezitter.n" status="Created" FN_EN_LU_ID="2431" Method="Iteration-2_WN" RBN_LU_ID="r_n-7168" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189200943" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:20:00 UTC Mon" lemmaID="683" lu_type="singleton" name="bezitter.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-7168">
     <definition>die iets als eigendom heeft</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="bezitter" order="1"/>

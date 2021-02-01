@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="inbraak.n" ID="1612188931263" frame="Offenses" frameID="432" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-17740" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Deg" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Off" name="Offense"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Perpetrator"/>
+      <FE fgColor="FFFFFF" bgColor="1E90FF" type="Extra-Thematic" abbrev="Pun" name="Punishment"/>
+      <FE fgColor="000000" bgColor="FFFF00" type="Extra-Thematic" abbrev="Spec" name="Specification"/>
+      <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Vic" name="Victim"/>
+    </frame>
+  </header>
+  <definition>van een gebouw door een geforceerde opening met de bedoeling om te stelen</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="inbraak" order="1"/>
+</lexUnit>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MRLP" cDate="10/28/2001 04:10:24 PST Sun" name="Medical_conditions" ID="239" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;Words in this frame name medical conditions or diseases that a patient suffers from, is being treated for, may be cured of, or die of.  The condition or disease may be described in a variety of ways, including the part or area of the body (&lt;fen&gt;Body_Part&lt;/fen&gt;) affected by the condition (e.g. liver cancer, cardiovascular disease), the &lt;fen&gt;Cause&lt;/fen&gt; of the condition (e.g. bacterial meningitis, viral pneumonia), a prominent &lt;fen&gt;Symptom&lt;/fen&gt; of the condition (e.g. asymptomatic stenosis, blue ear disease), the &lt;fen&gt;Patient&lt;/fen&gt; or population (originally) affected by the condition (e.g. bovine tuberculosis, juvenile diabetes), or the (proper) &lt;fen&gt;Name&lt;/fen&gt; used to identify the condition (e.g. Munchausen Syndrome, Lou Gehrig's Disease).  Annotation in this frame is done in respect to the name of the condition or disease.
 
@@ -72,107 +71,107 @@ Since the degree of involvement with an &lt;fen&gt;Ailment&lt;/fen&gt; is equiva
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873225376" POS="N" cBy="automatic" cDate="09/23/2020 15:00:25 UTC Wed" lemmaID="530" lu_type="singleton" name="amnesie.n" status="Created" FN_EN_LU_ID="4352" Method="Iteration-1" RBN_LU_ID="r_n-3461" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188609217" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:10:09 UTC Mon" lemmaID="528" lu_type="singleton" name="amnesie.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-3461">
     <definition>dat veelal tijdelijk is en dan geheel of gedeeltelijk</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="amnesie" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873228511" POS="N" cBy="automatic" cDate="09/23/2020 15:00:28 UTC Wed" lemmaID="531" lu_type="singleton" name="astma.n" status="Created" FN_EN_LU_ID="4356" Method="Iteration-1" RBN_LU_ID="r_n-4071" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188612769" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:10:12 UTC Mon" lemmaID="529" lu_type="singleton" name="astma.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-4071">
     <definition>veroorzaakt door vernauwing van de luchtwegen, die zich uit in aanvallen van benauwdheid en hoestbuien</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="astma" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873231883" POS="N" cBy="automatic" cDate="09/23/2020 15:00:31 UTC Wed" lemmaID="532" lu_type="singleton" name="bronchitis.n" status="Created" FN_EN_LU_ID="4357" Method="Iteration-1" RBN_LU_ID="r_n-8591" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188616886" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:10:16 UTC Mon" lemmaID="530" lu_type="singleton" name="bronchitis.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-8591">
     <definition>van het slijmvlies van de bronchiën</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="bronchitis" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873234906" POS="N" cBy="automatic" cDate="09/23/2020 15:00:34 UTC Wed" lemmaID="533" lu_type="singleton" name="cholera.n" status="Created" FN_EN_LU_ID="4363" Method="Iteration-1" RBN_LU_ID="r_n-9349" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188620536" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:10:20 UTC Mon" lemmaID="531" lu_type="singleton" name="cholera.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-9349">
     <definition>aan de darmen die gepaard gaat met overgeven en diarree</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="cholera" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873238131" POS="N" cBy="automatic" cDate="09/23/2020 15:00:38 UTC Wed" lemmaID="534" lu_type="singleton" name="diarree.n" status="Created" FN_EN_LU_ID="4369" Method="Iteration-1" RBN_LU_ID="r_n-10827" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188624104" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:10:24 UTC Mon" lemmaID="532" lu_type="singleton" name="diarree.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-10827">
     <definition>met dunne ontlasting</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="diarree" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873241111" POS="N" cBy="automatic" cDate="09/23/2020 15:00:41 UTC Wed" lemmaID="535" lu_type="singleton" name="diabetes.n" status="Created" FN_EN_LU_ID="4372" Method="Iteration-1" RBN_LU_ID="r_n-10792" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188627519" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:10:27 UTC Mon" lemmaID="533" lu_type="singleton" name="diabetes.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-10792">
     <definition>waarbij je teveel suiker in je bloed hebt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="diabetes" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873244158" POS="N" cBy="automatic" cDate="09/23/2020 15:00:44 UTC Wed" lemmaID="536" lu_type="singleton" name="eczeem.n" status="Created" FN_EN_LU_ID="4376" Method="Iteration-1" RBN_LU_ID="r_n-11948" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188631186" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:10:31 UTC Mon" lemmaID="534" lu_type="singleton" name="eczeem.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-11948">
     <definition>die nogal kan jeuken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="eczeem" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873247272" POS="N" cBy="automatic" cDate="09/23/2020 15:00:47 UTC Wed" lemmaID="537" lu_type="singleton" name="hepatitis.n" status="Created" FN_EN_LU_ID="4379" Method="Iteration-1" RBN_LU_ID="r_n-16646" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188635275" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:10:35 UTC Mon" lemmaID="535" lu_type="singleton" name="hepatitis.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-16646">
     <definition>van de lever</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="hepatitis" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873250359" POS="N" cBy="automatic" cDate="09/23/2020 15:00:50 UTC Wed" lemmaID="538" lu_type="singleton" name="hernia.n" status="Created" FN_EN_LU_ID="4380" Method="Iteration-1" RBN_LU_ID="r_n-16718" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188638647" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:10:38 UTC Mon" lemmaID="536" lu_type="singleton" name="hernia.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-16718">
     <definition>van kraakbeen tussen de rugwervels, waardoor vaak een zenuw klem komt te zitten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="hernia" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873253404" POS="N" cBy="automatic" cDate="09/23/2020 15:00:53 UTC Wed" lemmaID="539" lu_type="singleton" name="lepra.n" status="Created" FN_EN_LU_ID="4388" Method="Iteration-1" RBN_LU_ID="r_n-21850" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188642122" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:10:42 UTC Mon" lemmaID="537" lu_type="singleton" name="lepra.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-21850">
     <definition>waarbij het huidweefsel wordt weggevreten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="lepra" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873256515" POS="N" cBy="automatic" cDate="09/23/2020 15:00:56 UTC Wed" lemmaID="540" lu_type="singleton" name="leukemie.n" status="Created" FN_EN_LU_ID="4389" Method="Iteration-1" RBN_LU_ID="r_n-21909" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188645797" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:10:45 UTC Mon" lemmaID="538" lu_type="singleton" name="leukemie.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-21909">
     <definition>waarbij de vorming van witte bloedlichaampjes ontregeld is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="leukemie" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873259682" POS="N" cBy="manual" cDate="09/23/2020 15:00:59 UTC Wed" lemmaID="541" lu_type="singleton" name="malaria.n" status="Created" FN_EN_LU_ID="4390" Method="Iteration-1" RBN_LU_ID="r_n-23066" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188650213" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:10:50 UTC Mon" lemmaID="539" lu_type="singleton" name="malaria.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-23066">
     <definition>waarbij je hoge koorts hebt, veroorzaakt door een steek van een bepaald soort mug die vooral in moerassige streken voorkomt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="malaria" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873262822" POS="N" cBy="automatic" cDate="09/23/2020 15:01:02 UTC Wed" lemmaID="542" lu_type="singleton" name="mazelen.n" status="Created" FN_EN_LU_ID="4391" Method="Iteration-1" RBN_LU_ID="r_n-23382" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188653869" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:10:53 UTC Mon" lemmaID="540" lu_type="singleton" name="mazelen.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-23382">
     <definition>waarbij je hoge koorts hebt en kleine, rode vlekjes op je huid krijgt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="mazelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873265967" POS="N" cBy="automatic" cDate="09/23/2020 15:01:05 UTC Wed" lemmaID="543" lu_type="singleton" name="meningitis.n" status="Created" FN_EN_LU_ID="4392" Method="Iteration-1" RBN_LU_ID="r_n-23582" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188657362" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:10:57 UTC Mon" lemmaID="541" lu_type="singleton" name="meningitis.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-23582">
     <definition>van het hersenvlies</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="meningitis" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873269099" POS="N" cBy="automatic" cDate="09/23/2020 15:01:09 UTC Wed" lemmaID="544" lu_type="singleton" name="schizofrenie.n" status="Created" FN_EN_LU_ID="4398" Method="Iteration-1" RBN_LU_ID="r_n-33044" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188661251" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:11:01 UTC Mon" lemmaID="542" lu_type="singleton" name="schizofrenie.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-33044">
     <definition>van de geest waarbij het normale denkvermogen afwisselt met onsamenhangend denken, het gevoelsleven afneemt, de patiënt van de werkelijkheid vervreemdt, waanideeën heeft en geen contacten met anderen meer kan leggen; in verzwakte opvatting: gespletenheid in de persoonlijkheid</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="schizofrenie" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873272223" POS="N" cBy="automatic" cDate="09/23/2020 15:01:12 UTC Wed" lemmaID="545" lu_type="singleton" name="tuberculose.n" status="Created" FN_EN_LU_ID="4405" Method="Iteration-1" RBN_LU_ID="r_n-38653" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188664796" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:11:04 UTC Mon" lemmaID="543" lu_type="singleton" name="tuberculose.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-38653">
     <definition>die meestal begint in de longen en waarbij ziekelijke kleine knobbels gevormd worden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="tuberculose" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873275565" POS="N" cBy="automatic" cDate="09/23/2020 15:01:15 UTC Wed" lemmaID="546" lu_type="singleton" name="tumor.n" status="Created" FN_EN_LU_ID="4406" Method="Iteration-1" RBN_LU_ID="r_n-38722" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188669891" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:11:09 UTC Mon" lemmaID="544" lu_type="singleton" name="tumor.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-38722">
     <definition>dat op ongecontroleerde wijze woekert</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="tumor" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873279129" POS="N" cBy="automatic" cDate="09/23/2020 15:01:19 UTC Wed" lemmaID="547" lu_type="singleton" name="gezwel.n" status="Created" FN_EN_LU_ID="4406" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-15119" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188674544" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:11:14 UTC Mon" lemmaID="545" lu_type="singleton" name="gezwel.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-15119">
     <definition>die min of meer scherp begrensd is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="gezwel" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873282244" POS="N" cBy="manual" cDate="09/23/2020 15:01:22 UTC Wed" lemmaID="548" lu_type="singleton" name="zweer.n" status="Created" FN_EN_LU_ID="4407" Method="Iteration-1" RBN_LU_ID="r_n-44587" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188679020" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:11:19 UTC Mon" lemmaID="546" lu_type="singleton" name="zweer.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-44587">
     <definition>of abces aan de oppervlakte van slijmvlies- of huidweefsel (fig.: negatief verschijnsel)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="zweer" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873285372" POS="A" cBy="automatic" cDate="09/23/2020 15:01:25 UTC Wed" lemmaID="549" lu_type="singleton" name="onwel.a" status="Created" FN_EN_LU_ID="13090" Method="Iteration-1" RBN_LU_ID="r_a-13812" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188682902" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:11:22 UTC Mon" lemmaID="547" lu_type="singleton" name="onwel.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13812">
     <definition>onpasselijk</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="onwel" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873288639" POS="N" cBy="automatic" cDate="09/23/2020 15:01:28 UTC Wed" lemmaID="550" lu_type="singleton" name="ondervoeding.n" status="Created" FN_EN_LU_ID="14555" Method="Iteration-1" RBN_LU_ID="r_n-25967" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188686772" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:11:26 UTC Mon" lemmaID="548" lu_type="singleton" name="ondervoeding.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-25967">
     <definition>waarin het lichaam verkeert bij onvoldoende voeding</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="ondervoeding" order="1"/>

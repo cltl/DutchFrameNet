@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="04/08/2004 06:12:56 PDT Thu" name="People_by_vocation" ID="1071" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame contains  words for Individuals as viewed in terms of their vocation. 
 
@@ -73,102 +72,102 @@ The &lt;fen&gt;Person&lt;/fen&gt; is conceived of as independent of other specif
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873584023" POS="N" cBy="automatic" cDate="09/23/2020 15:06:24 UTC Wed" lemmaID="640" lu_type="singleton" name="jurist.n" status="Created" FN_EN_LU_ID="10412" Method="Iteration-1" RBN_LU_ID="r_n-18653" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189033082" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:17:13 UTC Mon" lemmaID="638" lu_type="singleton" name="jurist.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-18653">
     <definition>die rechten gestudeerd heeft</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="jurist" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873587182" POS="N" cBy="automatic" cDate="09/23/2020 15:06:27 UTC Wed" lemmaID="641" lu_type="singleton" name="secretaris.n" status="Created" FN_EN_LU_ID="10416" Method="Iteration-1" RBN_LU_ID="r_n-33474" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189036726" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:17:16 UTC Mon" lemmaID="639" lu_type="singleton" name="secretaris.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-33474">
     <definition>dat de briefwisseling verzorgt en de papieren bijhoudt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="secretaris" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873590325" POS="N" cBy="manual" cDate="09/23/2020 15:06:30 UTC Wed" lemmaID="642" lu_type="singleton" name="wetenschapper.n" status="Created" FN_EN_LU_ID="10626" Method="Iteration-1" RBN_LU_ID="r_n-43089" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189041084" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:17:21 UTC Mon" lemmaID="640" lu_type="singleton" name="wetenschapper.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-43089">
     <definition>die een wetenschap beoefent</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="wetenschapper" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873593549" POS="N" cBy="manual" cDate="09/23/2020 15:06:33 UTC Wed" lemmaID="643" lu_type="singleton" name="serveerster.n" status="Created" FN_EN_LU_ID="11295" Method="Iteration-1" RBN_LU_ID="r_n-33612" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189045405" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:17:25 UTC Mon" lemmaID="641" lu_type="singleton" name="serveerster.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-33612">
     <definition>die in een café of restaurant de klanten bedient</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="serveerster" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873596794" POS="N" cBy="automatic" cDate="09/23/2020 15:06:36 UTC Wed" lemmaID="644" lu_type="singleton" name="onderzoeker.n" status="Created" FN_EN_LU_ID="13293" Method="Iteration-1" RBN_LU_ID="r_n-26015" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189048863" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:17:28 UTC Mon" lemmaID="642" lu_type="singleton" name="onderzoeker.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-26015">
     <definition>die zich bezig houdt met wetenschappelijke vraagstukken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="onderzoeker" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873600015" POS="N" cBy="automatic" cDate="09/23/2020 15:06:40 UTC Wed" lemmaID="645" lu_type="singleton" name="archeoloog.n" status="Created" FN_EN_LU_ID="13499" Method="Iteration-1" RBN_LU_ID="r_n-3868" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189052772" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:17:32 UTC Mon" lemmaID="643" lu_type="singleton" name="archeoloog.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-3868">
     <definition>die is afgestudeerd in of zich beroepsmatig bezig houdt met archeologie</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="archeoloog" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873603199" POS="N" cBy="automatic" cDate="09/23/2020 15:06:43 UTC Wed" lemmaID="646" lu_type="singleton" name="oudheidkundige.n" status="Created" FN_EN_LU_ID="13499" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-27002" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189056933" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:17:36 UTC Mon" lemmaID="644" lu_type="singleton" name="oudheidkundige.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-27002">
     <definition>die zich specialiseert in de studie van de oudheidkunde</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="oudheidkundige" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873606381" POS="N" cBy="manual" cDate="09/23/2020 15:06:46 UTC Wed" lemmaID="647" lu_type="singleton" name="verslaggever.n" status="Created" FN_EN_LU_ID="14725" Method="Iteration-1" RBN_LU_ID="r_n-40443" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189060635" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:17:40 UTC Mon" lemmaID="645" lu_type="singleton" name="verslaggever.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-40443">
     <definition>die verslagen maakt voor de krant, radio of televisie</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="verslaggever" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873609580" POS="N" cBy="automatic" cDate="09/23/2020 15:06:49 UTC Wed" lemmaID="648" lu_type="singleton" name="handelaar.n" status="Created" FN_EN_LU_ID="14736" Method="Iteration-1" RBN_LU_ID="r_n-16199" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189064450" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:17:44 UTC Mon" lemmaID="646" lu_type="singleton" name="handelaar.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-16199">
     <definition>die handel drijft</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="handelaar" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873612853" POS="N" cBy="automatic" cDate="09/23/2020 15:06:52 UTC Wed" lemmaID="649" lu_type="singleton" name="senator.n" status="Created" FN_EN_LU_ID="18337" Method="Iteration-1" RBN_LU_ID="r_n-33556" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189068302" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:17:48 UTC Mon" lemmaID="647" lu_type="singleton" name="senator.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-33556">
     <definition>van de senaat</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="senator" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873615904" POS="N" cBy="manual" cDate="09/23/2020 15:06:55 UTC Wed" lemmaID="650" lu_type="singleton" name="atleet.n" status="Created" FN_EN_LU_ID="18339" Method="Iteration-1" RBN_LU_ID="r_n-4111" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189072213" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:17:52 UTC Mon" lemmaID="648" lu_type="singleton" name="atleet.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-4111">
     <definition>die aan atletiek doet, of de bouw van zo iemand heeft</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="atleet" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873619050" POS="N" cBy="automatic" cDate="09/23/2020 15:06:59 UTC Wed" lemmaID="651" lu_type="singleton" name="kastelein.n" status="Created" FN_EN_LU_ID="18341" Method="Iteration-1" RBN_LU_ID="r_n-19168" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189076050" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:17:56 UTC Mon" lemmaID="649" lu_type="singleton" name="kastelein.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-19168">
     <definition>die in een café achter de tap staat</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="kastelein" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873622424" POS="N" cBy="automatic" cDate="09/23/2020 15:07:02 UTC Wed" lemmaID="652" lu_type="singleton" name="steward.n" status="Created" FN_EN_LU_ID="18345" Method="Iteration-1" RBN_LU_ID="r_n-35844" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189079792" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:17:59 UTC Mon" lemmaID="650" lu_type="singleton" name="steward.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-35844">
     <definition>die in een vliegtuig of op een schip de passagiers verzorgt met onder andere drankjes en maaltijden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="steward" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873625680" POS="N" cBy="automatic" cDate="09/23/2020 15:07:05 UTC Wed" lemmaID="653" lu_type="singleton" name="bioloog.n" status="Created" FN_EN_LU_ID="18365" Method="Iteration-1" RBN_LU_ID="r_n-7418" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189083751" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:18:03 UTC Mon" lemmaID="651" lu_type="singleton" name="bioloog.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-7418">
     <definition>die is afgestudeerd in of zich beroepsmatig bezig houdt met biologie</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="bioloog" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873628992" POS="N" cBy="automatic" cDate="09/23/2020 15:07:08 UTC Wed" lemmaID="654" lu_type="singleton" name="fysicus.n" status="Created" FN_EN_LU_ID="18367" Method="Iteration-1" RBN_LU_ID="r_n-13789" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189087498" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:18:07 UTC Mon" lemmaID="652" lu_type="singleton" name="fysicus.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-13789">
     <definition>die de natuurkunde bestudeert</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="fysicus" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873632053" POS="N" cBy="automatic" cDate="09/23/2020 15:07:12 UTC Wed" lemmaID="655" lu_type="singleton" name="natuurkundige.n" status="Created" FN_EN_LU_ID="18367" Method="Iteration-1" RBN_LU_ID="r_n-24689" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189091207" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:18:11 UTC Mon" lemmaID="653" lu_type="singleton" name="natuurkundige.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-24689">
     <definition>die is afgestudeerd in de natuurkunde</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="natuurkundige" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873635240" POS="N" cBy="automatic" cDate="09/23/2020 15:07:15 UTC Wed" lemmaID="656" lu_type="singleton" name="antropoloog.n" status="Created" FN_EN_LU_ID="18368" Method="Iteration-1" RBN_LU_ID="r_n-3682" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189095003" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:18:15 UTC Mon" lemmaID="654" lu_type="singleton" name="antropoloog.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-3682">
     <definition>die is afgestudeerd in of zich beroepsmatig bezig houdt met antropologie</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="antropoloog" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873638468" POS="N" cBy="automatic" cDate="09/23/2020 15:07:18 UTC Wed" lemmaID="657" lu_type="singleton" name="wiskundige.n" status="Created" FN_EN_LU_ID="18372" Method="Iteration-1" RBN_LU_ID="r_n-43385" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189098728" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:18:18 UTC Mon" lemmaID="655" lu_type="singleton" name="wiskundige.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-43385">
     <definition>die is afgestudeerd in of zich beroepsmatig bezighoudt met wiskunde</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="wiskundige" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873641673" POS="N" cBy="manual" cDate="09/23/2020 15:07:21 UTC Wed" lemmaID="658" lu_type="singleton" name="socioloog.n" status="Created" FN_EN_LU_ID="18373" Method="Iteration-1" RBN_LU_ID="r_n-34562" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189101960" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:18:21 UTC Mon" lemmaID="656" lu_type="singleton" name="socioloog.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-34562">
     <definition>die is afgestudeerd in of zich beroepsmatig bezig houdt met sociologie</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="socioloog" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873644943" POS="N" cBy="automatic" cDate="09/23/2020 15:07:24 UTC Wed" lemmaID="659" lu_type="singleton" name="programmeur.n" status="Created" FN_EN_LU_ID="18612" Method="Iteration-1" RBN_LU_ID="r_n-29872" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189105282" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:18:25 UTC Mon" lemmaID="657" lu_type="singleton" name="programmeur.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-29872">
     <definition>die voor zijn beroep computerprogramma's schrijft</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="programmeur" order="1"/>

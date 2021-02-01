@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="11/19/2004 08:55:20 PST Fri" name="Inspecting" ID="1262" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Inspector&lt;/fen&gt; directs his/her perceptual attention to a &lt;fen&gt;Ground&lt;/fen&gt; to ascertain whether the &lt;fen&gt;Ground&lt;/fen&gt; is intact or  whether an &lt;fen&gt;Unwanted_entity&lt;/fen&gt; is present. Alternatively, the desired outcome of the inspection may be presented as a &lt;fen&gt;Purpose&lt;/fen&gt;. 
 
@@ -94,12 +93,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872928451" POS="N" cBy="automatic" cDate="09/23/2020 14:55:28 UTC Wed" lemmaID="438" lu_type="singleton" name="onderzoek.n" status="Created" FN_EN_LU_ID="11268" Method="Iteration-1" RBN_LU_ID="r_n-26014" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188168387" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:02:48 UTC Mon" lemmaID="436" lu_type="singleton" name="onderzoek.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-26014">
     <definition>van het onderzoeken van iets</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="onderzoek" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872931856" POS="N" cBy="automatic" cDate="09/23/2020 14:55:31 UTC Wed" lemmaID="439" lu_type="singleton" name="keuring.n" status="Created" FN_EN_LU_ID="11268" Method="Iteration-1" RBN_LU_ID="r_n-19460" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188173597" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:02:53 UTC Mon" lemmaID="437" lu_type="singleton" name="keuring.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-19460">
     <definition>van iets of iemand</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="keuring" order="1"/>

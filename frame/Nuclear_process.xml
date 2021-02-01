@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="04/02/2007 03:34:57 PDT Mon" name="Nuclear_process" ID="1926" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Initial_element&lt;/fen&gt; is converted into a &lt;fen&gt;Final_element&lt;/fen&gt; via a process of decay, fusion, or fission which changes the number or type of hadrons (protons or neutrons) in the nucleus of the atoms that make up the &lt;fen&gt;Element&lt;/fen&gt;.
 
@@ -59,7 +58,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873471262" POS="A" cBy="automatic" cDate="09/23/2020 15:04:31 UTC Wed" lemmaID="606" lu_type="singleton" name="radioactief.a" status="Created" FN_EN_LU_ID="14327" Method="Iteration-1" RBN_LU_ID="r_a-14509" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188911819" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:15:11 UTC Mon" lemmaID="604" lu_type="singleton" name="radioactief.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-14509">
     <definition>met gevaarlijke straling</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="radioactief" order="1"/>

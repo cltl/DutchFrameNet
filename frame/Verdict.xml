@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MRLP" cDate="05/09/2002 05:37:58 PDT Thu" name="Verdict" ID="318" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame, which is a  part of the Trial sequence, a &lt;fen&gt;Judge&lt;/fen&gt; gives a &lt;fen&gt;Finding&lt;/fen&gt; with respect to the &lt;fen&gt;Charges&lt;/fen&gt; against the &lt;fen&gt;Defendant&lt;/fen&gt; in a particular &lt;fen&gt;Case&lt;/fen&gt;.
 
@@ -83,17 +82,17 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874499744" POS="V" cBy="automatic" cDate="09/23/2020 15:21:39 UTC Wed" lemmaID="915" lu_type="singleton" name="vonnissen.v" status="Created" FN_EN_LU_ID="6177" Method="Iteration-1" RBN_LU_ID="r_v-9684" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190127324" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:35:27 UTC Mon" lemmaID="913" lu_type="singleton" name="vonnissen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9684">
     <definition>een vonnis vellen (over iemand)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="vonnissen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874502889" POS="V" cBy="automatic" cDate="09/23/2020 15:21:42 UTC Wed" lemmaID="916" lu_type="singleton" name="veroordelen.v" status="Created" FN_EN_LU_ID="6177" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9185" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190130976" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:35:30 UTC Mon" lemmaID="914" lu_type="singleton" name="veroordelen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9185">
     <definition>bepalen dat iemand een bepaalde straf moet krijgen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="veroordelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874506116" POS="V" cBy="manual" cDate="09/23/2020 15:21:46 UTC Wed" lemmaID="917" lu_type="singleton" name="berechten.v" status="Created" FN_EN_LU_ID="6177" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1332" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190134295" POS="V" cBy="ThomasKlein" cDate="02/01/2021 14:35:34 UTC Mon" lemmaID="915" lu_type="singleton" name="berechten.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1332">
     <definition>recht spreken over</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="berechten" order="1"/>

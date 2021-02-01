@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="11/25/2002 06:31:15 PST Mon" name="Weapon" ID="426" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Weapon&lt;/fen&gt; is an artifact created specifically to cause harm or damage.  In some cases, a &lt;fen&gt;Use&lt;/fen&gt;, &lt;fen&gt;Material&lt;/fen&gt; of construction, &lt;fen&gt;Part&lt;/fen&gt; or &lt;fen&gt;Type&lt;/fen&gt; may be more narrowly specified.
 
@@ -81,27 +80,27 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874551188" POS="N" cBy="automatic" cDate="09/23/2020 15:22:31 UTC Wed" lemmaID="931" lu_type="singleton" name="geweer.n" status="Created" FN_EN_LU_ID="7774" Method="Iteration-1" RBN_LU_ID="r_n-14966" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190179921" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:36:19 UTC Mon" lemmaID="929" lu_type="singleton" name="geweer.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-14966">
     <definition>bestemd om door één persoon met twee handen bediend te worden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="geweer" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874554384" POS="N" cBy="automatic" cDate="09/23/2020 15:22:34 UTC Wed" lemmaID="932" lu_type="singleton" name="opdondertje.n" status="Created" FN_EN_LU_ID="7775" Method="Iteration-1" RBN_LU_ID="r_n-26531" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190183182" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:36:23 UTC Mon" lemmaID="930" lu_type="singleton" name="opdondertje.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-26531">
     <definition>die erg klein is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="opdondertje" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874557777" POS="N" cBy="automatic" cDate="09/23/2020 15:22:37 UTC Wed" lemmaID="933" lu_type="singleton" name="pistool.n" status="Created" FN_EN_LU_ID="7775" Method="Iteration-1" RBN_LU_ID="r_n-28630" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190186461" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:36:26 UTC Mon" lemmaID="931" lu_type="singleton" name="pistool.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-28630">
     <definition>met een korte loop</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="pistool" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874561147" POS="N" cBy="automatic" cDate="09/23/2020 15:22:41 UTC Wed" lemmaID="934" lu_type="singleton" name="buks.n" status="Created" FN_EN_LU_ID="7791" Method="Iteration-1" RBN_LU_ID="r_n-8797" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190189774" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:36:29 UTC Mon" lemmaID="932" lu_type="singleton" name="buks.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-8797">
     <definition>voor de jacht en voor de schietsport</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="buks" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874564426" POS="N" cBy="automatic" cDate="09/23/2020 15:22:44 UTC Wed" lemmaID="935" lu_type="singleton" name="dynamiet.n" status="Created" FN_EN_LU_ID="11790" Method="Iteration-1" RBN_LU_ID="r_n-11892" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190192910" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:36:32 UTC Mon" lemmaID="933" lu_type="singleton" name="dynamiet.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-11892">
     <definition>die ontploffingen kan veroorzaken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="dynamiet" order="1"/>

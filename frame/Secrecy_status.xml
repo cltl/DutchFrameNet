@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/28/2004 11:13:39 PDT Mon" name="Secrecy_status" ID="1145" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Phenomenon&lt;/fen&gt;, which may be an activity, state or object, is purposefully hidden from the awareness of a potential &lt;fen&gt;Cognizer&lt;/fen&gt;. The person responsible for the hiding of the &lt;fen&gt;Phenomenon&lt;/fen&gt; is not part of this frame and cannot be syntactically realized. The potential &lt;fen&gt;Cognizer&lt;/fen&gt; may be realized, but is in fact rarely expressed. A period of &lt;fen&gt;Time&lt;/fen&gt; during which the &lt;fen&gt;Phenomenon&lt;/fen&gt; is secret may be indicated.
 
@@ -51,17 +50,17 @@ a procedure which was &lt;t&gt;secret&lt;/t&gt; &lt;fex name="cog"&gt;from women
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873971309" POS="A" cBy="automatic" cDate="09/23/2020 15:12:51 UTC Wed" lemmaID="757" lu_type="singleton" name="clandestien.a" status="Created" FN_EN_LU_ID="10641" Method="Iteration-1" RBN_LU_ID="r_a-9736" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189521192" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:25:21 UTC Mon" lemmaID="755" lu_type="singleton" name="clandestien.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9736">
     <definition>illegaal</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="clandestien" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873974609" POS="A" cBy="manual" cDate="09/23/2020 15:12:54 UTC Wed" lemmaID="758" lu_type="singleton" name="heimelijk.a" status="Created" FN_EN_LU_ID="10641" Method="Iteration-1" RBN_LU_ID="r_a-16602" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189525087" POS="A" cBy="ThomasKlein" cDate="02/01/2021 14:25:25 UTC Mon" lemmaID="756" lu_type="singleton" name="heimelijk.a" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16602">
     <definition>stiekem</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="heimelijk" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873978170" POS="A" cBy="automatic" cDate="09/23/2020 15:12:58 UTC Wed" lemmaID="759" lu_type="singleton" name="geheim.a" status="Created" FN_EN_LU_ID="10641" Method="Iteration-1" RBN_LU_ID="r_a-10895" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189528809" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:25:28 UTC Mon" lemmaID="757" lu_type="singleton" name="geheim.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-10895">
     <definition>verborgen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="geheim" order="1"/>

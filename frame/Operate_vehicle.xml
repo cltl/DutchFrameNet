@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:18 PST Wed" name="Operate_vehicle" ID="65" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The words in this frame describe motion involving a &lt;fen&gt;Vehicle&lt;/fen&gt; and someone who controls it, the &lt;fen&gt;Driver&lt;/fen&gt;. Some words normally allow the &lt;fen&gt;Vehicle&lt;/fen&gt; to be expressed as a separate constituent.
 &lt;ex&gt;&lt;fex name="Driver"&gt;Tim&lt;/fex&gt; &lt;t&gt;drove&lt;/t&gt; &lt;fex name="Vehicle"&gt;his car&lt;/fex&gt; &lt;fex name="Path"&gt;all the way across North America&lt;/fex&gt;.&lt;/ex&gt;
@@ -149,17 +148,17 @@ However, a separate &lt;fen&gt;Vehicle&lt;/fen&gt; constituent can occur if it a
   <frameRelation type="See also">
     <relatedFrame ID="7">Motion</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600873506882" POS="V" cBy="automatic" cDate="09/23/2020 15:05:06 UTC Wed" lemmaID="617" lu_type="singleton" name="fietsen.v" status="Created" FN_EN_LU_ID="1266" Method="Iteration-1" RBN_LU_ID="r_v-2719" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188947087" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:15:47 UTC Mon" lemmaID="615" lu_type="singleton" name="fietsen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2719">
     <definition>op de fiets rijden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="fietsen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873510149" POS="V" cBy="automatic" cDate="09/23/2020 15:05:10 UTC Wed" lemmaID="618" lu_type="singleton" name="skateboarden.v" status="Created" FN_EN_LU_ID="1287" Method="Iteration-1" RBN_LU_ID="r_v-7166" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188950464" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:15:50 UTC Mon" lemmaID="616" lu_type="singleton" name="skateboarden.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7166">
     <definition>op een skateboard rijden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="skateboarden" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873513429" POS="V" cBy="automatic" cDate="09/23/2020 15:05:13 UTC Wed" lemmaID="619" lu_type="singleton" name="schaatsen.v" status="Created" FN_EN_LU_ID="1287" Method="Iteration-1" RBN_LU_ID="r_v-6948" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188954189" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:15:54 UTC Mon" lemmaID="617" lu_type="singleton" name="schaatsen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6948">
     <definition>zich op schaatsen over het ijs voortbewegen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="schaatsen" order="1"/>

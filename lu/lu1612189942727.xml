@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="methaan.n" ID="1612189942727" frame="Substance" frameID="1321" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-23690" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="con" name="Constituents"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Extra-Thematic" abbrev="des" name="Descriptor"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Extra-Thematic" abbrev="Inh" name="Inherent_purpose"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Extra-Thematic" abbrev="sou" name="Origin"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sub" name="Substance"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="typ" name="Type"/>
+    </frame>
+  </header>
+  <definition>dat kleurloos en geurloos is</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="methaan" order="1"/>
+</lexUnit>

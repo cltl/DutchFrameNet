@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="09/08/2015 03:42:16 PDT Tue" name="Billing" ID="2983" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Billing_authority&lt;/fen&gt; communicates in written form that the &lt;fen&gt;Debtor&lt;/fen&gt; owes the &lt;fen&gt;Owed_party&lt;/fen&gt; (often the same as the &lt;fen&gt;Billing_authority&lt;/fen&gt;) some amount of &lt;fen&gt;Money&lt;/fen&gt; for certain &lt;fen&gt;Goods&lt;/fen&gt; (including services) provided by the &lt;fen&gt;Owed_party&lt;/fen&gt; or to clear a debt for a &lt;fen&gt;Bad_action&lt;/fen&gt; by the &lt;fen&gt;Debtor&lt;/fen&gt; against the &lt;fen&gt;Owed_party&lt;/fen&gt;.&lt;/def-root&gt;</definition>
   <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="09/08/2015 03:42:16 PDT Tue" abbrev="Byr" name="Debtor" ID="16689">
@@ -82,12 +81,12 @@ Generally, it occurs in a &lt;ment&gt;by&lt;/ment&gt; or &lt;ment&gt;per&lt;/men
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871605819" POS="V" cBy="automatic" cDate="09/23/2020 14:33:25 UTC Wed" lemmaID="63" lu_type="singleton" name="factureren.v" status="Created" FN_EN_LU_ID="18259" Method="Iteration-1" RBN_LU_ID="r_v-2695" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186589694" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:36:29 UTC Mon" lemmaID="63" lu_type="singleton" name="factureren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2695">
     <definition>een factuur opmaken van</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="factureren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871609523" POS="N" cBy="automatic" cDate="09/23/2020 14:33:29 UTC Wed" lemmaID="64" lu_type="singleton" name="factuur.n" status="Created" FN_EN_LU_ID="18609" Method="Iteration-1" RBN_LU_ID="r_n-12952" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186592576" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:36:32 UTC Mon" lemmaID="64" lu_type="singleton" name="factuur.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-12952">
     <definition>van geleverde goederen met de prijzen, de plaats en datum van aflevering enz.</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="factuur" order="1"/>

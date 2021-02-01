@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="WMcQ" cDate="04/14/2015 03:13:06 PDT Tue" name="Sex" ID="2913" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;&lt;fen&gt;Participants&lt;/fen&gt; in a Sex act engage in or are subjected to sexual contact. Often the LUs in this frame are suggestive euphemisms which refer to non-sexual physical contact, Giving/Receiving scenarios, frames related to travel, physical orientation, body metonymy, biological necessity, or a simple completion of Activity.
 
@@ -51,82 +50,82 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874002834" POS="V" cBy="automatic" cDate="09/23/2020 15:13:22 UTC Wed" lemmaID="766" lu_type="singleton" name="wiebelen.v" status="Created" FN_EN_LU_ID="17933" Method="Iteration-1" RBN_LU_ID="r_v-10133" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189566773" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:26:06 UTC Mon" lemmaID="764" lu_type="singleton" name="wiebelen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-10133">
     <definition>heen en weer bewegen, vaak door gebrek aan steun</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="wiebelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874006523" POS="V" cBy="automatic" cDate="09/23/2020 15:13:26 UTC Wed" lemmaID="767" lu_type="singleton" name="zwijmelen.v" status="Created" FN_EN_LU_ID="17933" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-10359" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189570261" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:26:10 UTC Mon" lemmaID="765" lu_type="singleton" name="zwijmelen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-10359">
     <definition>in onmacht vallen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="zwijmelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874009594" POS="V" cBy="automatic" cDate="09/23/2020 15:13:29 UTC Wed" lemmaID="768" lu_type="singleton" name="verneuken.v" status="Created" FN_EN_LU_ID="17950" Method="Iteration-1" RBN_LU_ID="r_v-9168" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189573521" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:26:13 UTC Mon" lemmaID="766" lu_type="singleton" name="verneuken.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9168">
     <definition>bedriegen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verneuken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874013375" POS="V" cBy="automatic" cDate="09/23/2020 15:13:33 UTC Wed" lemmaID="769" lu_type="singleton" name="wippen.v" status="Created" FN_EN_LU_ID="17950" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-10170" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189577036" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:26:17 UTC Mon" lemmaID="767" lu_type="singleton" name="wippen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-10170">
     <definition>geslachtsgemeenschap hebben</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="wippen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874016704" POS="V" cBy="automatic" cDate="09/23/2020 15:13:36 UTC Wed" lemmaID="770" lu_type="singleton" name="vozen.v" status="Created" FN_EN_LU_ID="17950" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9837" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189580885" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:26:20 UTC Mon" lemmaID="768" lu_type="singleton" name="vozen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9837">
     <definition>zich geslachtelijk verenigen, geslachtsgemeenschap hebben</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="vozen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874020072" POS="V" cBy="automatic" cDate="09/23/2020 15:13:40 UTC Wed" lemmaID="771" lu_type="singleton" name="belazeren.v" status="Created" FN_EN_LU_ID="17950" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1253" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189585347" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:26:25 UTC Mon" lemmaID="769" lu_type="singleton" name="belazeren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1253">
     <definition>bedriegen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="belazeren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874023872" POS="V" cBy="automatic" cDate="09/23/2020 15:13:43 UTC Wed" lemmaID="772" lu_type="singleton" name="verlakken.v" status="Created" FN_EN_LU_ID="17950" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9093" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189589892" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:26:29 UTC Mon" lemmaID="770" lu_type="singleton" name="verlakken.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9093">
     <definition>niet eerlijk tegen iemand zijn, hem of haar voor de gek houden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verlakken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874026982" POS="V" cBy="automatic" cDate="09/23/2020 15:13:46 UTC Wed" lemmaID="773" lu_type="singleton" name="besodemieteren.v" status="Created" FN_EN_LU_ID="17950" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1403" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189594347" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:26:34 UTC Mon" lemmaID="771" lu_type="singleton" name="besodemieteren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1403">
     <definition>bedriegen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="besodemieteren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874030283" POS="V" cBy="manual" cDate="09/23/2020 15:13:50 UTC Wed" lemmaID="774" lu_type="singleton" name="palen.v" status="Created" FN_EN_LU_ID="17950" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6164" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189597758" POS="V" cBy="ThomasKlein" cDate="02/01/2021 14:26:37 UTC Mon" lemmaID="772" lu_type="singleton" name="palen.v" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6164">
     <definition>zich verenigen door geslachtsgemeenschap te hebben</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="palen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874034040" POS="V" cBy="automatic" cDate="09/23/2020 15:13:54 UTC Wed" lemmaID="775" lu_type="singleton" name="poepen.v" status="Created" FN_EN_LU_ID="17950" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6368" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189601508" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:26:41 UTC Mon" lemmaID="773" lu_type="singleton" name="poepen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6368">
     <definition>geslachtsgemeenschap hebben</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="poepen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874037604" POS="V" cBy="automatic" cDate="09/23/2020 15:13:57 UTC Wed" lemmaID="776" lu_type="singleton" name="rollen.v" status="Created" FN_EN_LU_ID="17950" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6791" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189606874" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:26:46 UTC Mon" lemmaID="774" lu_type="singleton" name="rollen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6791">
     <definition>iemand bedriegen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="rollen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874040811" POS="V" cBy="automatic" cDate="09/23/2020 15:14:00 UTC Wed" lemmaID="777" lu_type="singleton" name="slapen.v" status="Created" FN_EN_LU_ID="17950" Method="Iteration-2_ODWN" RBN_LU_ID="c_546136" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189610811" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:26:50 UTC Mon" lemmaID="775" lu_type="singleton" name="slapen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-c_546136">
     <definition>in slaap zijn</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="slapen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874044114" POS="V" cBy="automatic" cDate="09/23/2020 15:14:04 UTC Wed" lemmaID="778" lu_type="singleton" name="vernachelen.v" status="Created" FN_EN_LU_ID="17950" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-9161" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189615078" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:26:55 UTC Mon" lemmaID="776" lu_type="singleton" name="vernachelen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9161">
     <definition>iemand voor de gek houden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="vernachelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874047351" POS="V" cBy="automatic" cDate="09/23/2020 15:14:07 UTC Wed" lemmaID="779" lu_type="singleton" name="naaien.v" status="Created" FN_EN_LU_ID="17950" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4803" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189619525" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:26:59 UTC Mon" lemmaID="777" lu_type="singleton" name="naaien.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4803">
     <definition>geslachtsgemeenschap hebben</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="naaien" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874050707" POS="V" cBy="automatic" cDate="09/23/2020 15:14:10 UTC Wed" lemmaID="780" lu_type="singleton" name="rollebollen.v" status="Created" FN_EN_LU_ID="17950" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6784" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189623668" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:27:03 UTC Mon" lemmaID="778" lu_type="singleton" name="rollebollen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6784">
     <definition>stoeien, of bij uitbreiding geslachtsgemeenschap hebben</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="rollebollen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874054031" POS="V" cBy="automatic" cDate="09/23/2020 15:14:14 UTC Wed" lemmaID="781" lu_type="singleton" name="seksen.v" status="Created" FN_EN_LU_ID="17950" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7128" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189627512" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:27:07 UTC Mon" lemmaID="779" lu_type="singleton" name="seksen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7128">
     <definition>het geslacht bepalen (vooral bij kuikens)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="seksen" order="1"/>

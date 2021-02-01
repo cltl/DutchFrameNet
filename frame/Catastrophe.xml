@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="05/24/2001 10:44:39 PDT Thu" name="Catastrophe" ID="115" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The words in this frame involve an &lt;fen&gt;Undesirable_event&lt;/fen&gt; which affects the &lt;fen&gt;Patient&lt;/fen&gt; negatively.  No agent need be involved. &lt;ex&gt;&lt;/ex&gt; &lt;ex&gt;The first &lt;t&gt;calamity&lt;/t&gt; &lt;m&gt;was&lt;/m&gt; &lt;fex name="Undesirable_event"&gt;a disastrous trade war with Holland&lt;/fex&gt;.&lt;/ex&gt;  &lt;ex&gt;It is sad to have to make a living by grubbing around in the dirt of a &lt;fex name="Patient"&gt;national&lt;/fex&gt; &lt;t&gt;&lt;fex name="Undesirable_event"&gt;calamity&lt;/fex&gt;&lt;/t&gt;.&lt;/ex&gt;  &lt;ex&gt;&lt;fex name="Undesirable_event"&gt;The result&lt;/fex&gt; has been &lt;t&gt;catastrophic&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
   <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="05/24/2001 11:29:28 PDT Thu" abbrev="Evnt" name="Undesirable_event" ID="564">
@@ -48,22 +47,22 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871985868" POS="N" cBy="automatic" cDate="09/23/2020 14:39:45 UTC Wed" lemmaID="159" lu_type="singleton" name="calamiteit.n" status="Created" FN_EN_LU_ID="2328" Method="Iteration-1" RBN_LU_ID="r_n-8979" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186888774" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:41:28 UTC Mon" lemmaID="159" lu_type="singleton" name="calamiteit.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-8979">
     <definition>dat veel mensen of groot gebied treft</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="calamiteit" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871989335" POS="A" cBy="automatic" cDate="09/23/2020 14:39:49 UTC Wed" lemmaID="160" lu_type="singleton" name="rampzalig.a" status="Created" FN_EN_LU_ID="15008" Method="Iteration-1" RBN_LU_ID="r_a-14511" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186891904" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:41:31 UTC Mon" lemmaID="160" lu_type="singleton" name="rampzalig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-14511">
     <definition>desastreus</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="rampzalig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871992641" POS="A" cBy="automatic" cDate="09/23/2020 14:39:52 UTC Wed" lemmaID="161" lu_type="singleton" name="rampspoedig.a" status="Created" FN_EN_LU_ID="15008" Method="Iteration-1" RBN_LU_ID="r_a-14712" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186894945" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:41:34 UTC Mon" lemmaID="161" lu_type="singleton" name="rampspoedig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-14712">
     <definition>rampzalig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="rampspoedig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871996213" POS="A" cBy="automatic" cDate="09/23/2020 14:39:56 UTC Wed" lemmaID="162" lu_type="singleton" name="catastrofaal.a" status="Created" FN_EN_LU_ID="15008" Method="Iteration-1" RBN_LU_ID="r_a-9716" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186898151" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:41:38 UTC Mon" lemmaID="162" lu_type="singleton" name="catastrofaal.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9716">
     <definition>rampzalig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="catastrofaal" order="1"/>

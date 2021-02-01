@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="A" name="introvert.a" ID="1612189717365" frame="Sociability" frameID="74" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11955" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="000000" bgColor="FFA500" type="Core" abbrev="Comp" name="Company"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cont" name="Content"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Degr" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="jud" name="Judge"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Manr" name="Manner"/>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Prot" name="Protagonist"/>
+    </frame>
+  </header>
+  <definition>niet extravert</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="introvert" order="1"/>
+</lexUnit>

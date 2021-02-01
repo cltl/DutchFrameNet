@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MLC" cDate="09/29/2010 05:21:51 PDT Wed" name="Vehicle_subpart" ID="2426" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An entity is integrated into a vehicle as a &lt;fen&gt;Part&lt;/fen&gt; of a (possibly unexpressed) &lt;fen&gt;Whole&lt;/fen&gt; which may refer to the whole vehicle or merely to a sub-part of the vehicle. 
 &lt;ex&gt;&lt;/ex&gt;
@@ -39,7 +38,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874496390" POS="N" cBy="manual" cDate="09/23/2020 15:21:36 UTC Wed" lemmaID="914" lu_type="singleton" name="voorruit.n" status="Created" FN_EN_LU_ID="16792" Method="Iteration-1" RBN_LU_ID="r_n-41628" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190124013" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:35:24 UTC Mon" lemmaID="912" lu_type="singleton" name="voorruit.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-41628">
     <definition>in de voorzijde van een auto</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="voorruit" order="1"/>

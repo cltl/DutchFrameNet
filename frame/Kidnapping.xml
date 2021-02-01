@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="HCB" cDate="05/30/2001 02:42:15 PDT Wed" name="Kidnapping" ID="122" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The words in this frame describe situations in which a &lt;fen&gt;Perpetrator&lt;/fen&gt; carries off and holds the &lt;fen&gt;Victim&lt;/fen&gt; against his or her will by force.
 &lt;ex&gt;&lt;/ex&gt;
@@ -86,17 +85,17 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873002966" POS="V" cBy="automatic" cDate="09/23/2020 14:56:42 UTC Wed" lemmaID="461" lu_type="singleton" name="kidnappen.v" status="Created" FN_EN_LU_ID="2456" Method="Iteration-1" RBN_LU_ID="r_v-3846" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188272804" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:04:32 UTC Mon" lemmaID="459" lu_type="singleton" name="kidnappen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3846">
     <definition>de genoemde onder dwang meenemen en gevangen houden, meestal om iets af te dwingen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="kidnappen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873005988" POS="V" cBy="automatic" cDate="09/23/2020 14:56:45 UTC Wed" lemmaID="462" lu_type="singleton" name="ontvoeren.v" status="Created" FN_EN_LU_ID="2456" Method="Iteration-1" RBN_LU_ID="r_v-5378" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188277146" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:04:37 UTC Mon" lemmaID="460" lu_type="singleton" name="ontvoeren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-5378">
     <definition>de genoemde onder dwang meenemen naar een verborgen plaats, zonder dat je daar het recht toe hebt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="ontvoeren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873009247" POS="N" cBy="manual" cDate="09/23/2020 14:56:49 UTC Wed" lemmaID="463" lu_type="singleton" name="kidnapper.n" status="Created" FN_EN_LU_ID="2466" Method="Iteration-1" RBN_LU_ID="r_n-19490" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188280583" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:04:40 UTC Mon" lemmaID="461" lu_type="singleton" name="kidnapper.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-19490">
     <definition>die een persoon heeft ontvoerd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="kidnapper" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="07/20/2005 04:40:28 PDT Wed" name="Rashness" ID="1581" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Protagonist&lt;/fen&gt; performs some &lt;fen&gt;Action&lt;/fen&gt; without fully considering the circumstances under which he or she acts, or the possibly (negative) consequences of the &lt;fen&gt;Action&lt;/fen&gt;.  Alternatively, the &lt;fen&gt;Action&lt;/fen&gt; itself may be portrayed as having been performed under rushed circumstances.
 
@@ -46,7 +45,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873867957" POS="A" cBy="automatic" cDate="09/23/2020 15:11:07 UTC Wed" lemmaID="725" lu_type="singleton" name="geduldig.a" status="Created" FN_EN_LU_ID="12521" Method="Iteration-1" RBN_LU_ID="r_a-10859" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189372499" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:22:52 UTC Mon" lemmaID="723" lu_type="singleton" name="geduldig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-10859">
     <definition>kalm volhardend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="geduldig" order="1"/>

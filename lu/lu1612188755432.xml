@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="homeopathie.n" ID="1612188755432" frame="Medical_specialties" frameID="256" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-16988" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="aff" name="Affliction"/>
+      <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="bod" name="Body_system"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Spec" name="Specialty"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Type" name="Type"/>
+    </frame>
+  </header>
+  <definition>waarbij je als geneesmiddel juist die stof gebruikt die de ziekte veroorzaakt</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="homeopathie" order="1"/>
+</lexUnit>

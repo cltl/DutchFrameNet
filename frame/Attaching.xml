@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="08/13/2001 02:26:14 PDT Mon" name="Attaching" ID="197" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The Attaching frame covers two situations: a scene in
 which somebody causes one thing to be physically connected to
@@ -116,12 +115,12 @@ Notice that when the FE &lt;fen&gt;Items&lt;/fen&gt; occurs, neither &lt;fen&gt;
     <relatedFrame ID="306">Becoming_attached</relatedFrame>
   </frameRelation>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871481083" POS="V" cBy="automatic" cDate="09/23/2020 14:31:21 UTC Wed" lemmaID="29" lu_type="singleton" name="nieten.v" status="Created" FN_EN_LU_ID="4530" Method="Iteration-1" RBN_LU_ID="r_v-4963" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186487117" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:34:47 UTC Mon" lemmaID="29" lu_type="singleton" name="nieten.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4963">
     <definition>met nieten vastmaken, hechten, samenklinken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="nieten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871486005" POS="V" cBy="automatic" cDate="09/23/2020 14:31:26 UTC Wed" lemmaID="30" lu_type="singleton" name="solderen.v" status="Created" FN_EN_LU_ID="4725" Method="Iteration-1" RBN_LU_ID="r_v-7318" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186490176" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:34:50 UTC Mon" lemmaID="30" lu_type="singleton" name="solderen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7318">
     <definition>met soldeer stukjes metaal etc.  aan elkaar vasthechten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="solderen" order="1"/>

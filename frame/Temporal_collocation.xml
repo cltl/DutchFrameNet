@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="03/23/2007 07:52:16 PDT Fri" name="Temporal_collocation" ID="1895" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A Trajector is identified as occurring at the same time as some better-known Landmark.  We consider sequenced calendric units (e.g. Tuesday, 1987, January) as periods for the purposes of this frame.  Some lexical items allow certain types of frame elements while disallowing others (e.g. *&lt;t&gt;During&lt;/t&gt; Tuesday...).
 
@@ -69,12 +68,12 @@ Several words of this frame (e.g. &lt;ment&gt;now.adv&lt;/ment&gt;) have deictic
   <frameRelation type="See also">
     <relatedFrame ID="229">Calendric_unit</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600874344799" POS="A" cBy="automatic" cDate="09/23/2020 15:19:04 UTC Wed" lemmaID="868" lu_type="singleton" name="huidig.a" status="Created" FN_EN_LU_ID="14084" Method="Iteration-1" RBN_LU_ID="r_a-11753" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189973036" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:32:53 UTC Mon" lemmaID="866" lu_type="singleton" name="huidig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11753">
     <definition>van nu</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="huidig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874348094" POS="N" cBy="automatic" cDate="09/23/2020 15:19:08 UTC Wed" lemmaID="869" lu_type="singleton" name="nu.n" status="Created" FN_EN_LU_ID="14199" Method="Iteration-1" RBN_LU_ID="r_n-25370" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189976448" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:32:56 UTC Mon" lemmaID="867" lu_type="singleton" name="nu.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-25370">
     <definition>dit moment</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="nu" order="1"/>

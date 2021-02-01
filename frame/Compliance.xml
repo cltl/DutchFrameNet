@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="05/24/2001 07:19:40 PDT Thu" name="Compliance" ID="117" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame concerns &lt;fen&gt;Act&lt;/fen&gt;s and &lt;fen&gt;State_of_Affairs&lt;/fen&gt; for which &lt;fen&gt;Protagonist&lt;/fen&gt;s are responsible and which either follow or violate some set of rules  or &lt;fen&gt;Norm&lt;/fen&gt;s.
 &lt;ex&gt;&lt;/ex&gt;
@@ -80,27 +79,27 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872356768" POS="V" cBy="manual" cDate="09/23/2020 14:45:56 UTC Wed" lemmaID="258" lu_type="singleton" name="gehoorzamen.v" status="Created" FN_EN_LU_ID="2464" Method="Iteration-1" RBN_LU_ID="r_v-2886" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187337859" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:48:57 UTC Mon" lemmaID="258" lu_type="singleton" name="gehoorzamen.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2886">
     <definition>doen wat er gevraagd of verlangd wordt, bevelen of instructies opvolgen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="gehoorzamen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872360091" POS="V" cBy="automatic" cDate="09/23/2020 14:46:00 UTC Wed" lemmaID="259" lu_type="singleton" name="luisteren.v" status="Created" FN_EN_LU_ID="2464" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4502" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187350578" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:49:10 UTC Mon" lemmaID="259" lu_type="singleton" name="luisteren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4502">
     <definition>(iemand) gehoorzamen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="luisteren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872363100" POS="A" cBy="automatic" cDate="09/23/2020 14:46:03 UTC Wed" lemmaID="260" lu_type="singleton" name="buigzaam.a" status="Created" FN_EN_LU_ID="2730" Method="Iteration-1" RBN_LU_ID="r_a-9401" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187361004" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:49:21 UTC Mon" lemmaID="260" lu_type="singleton" name="buigzaam.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9401">
     <definition>flexibel</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="buigzaam" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872366143" POS="A" cBy="automatic" cDate="09/23/2020 14:46:06 UTC Wed" lemmaID="261" lu_type="singleton" name="onderdanig.a" status="Created" FN_EN_LU_ID="2730" Method="Iteration-1" RBN_LU_ID="r_a-13389" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187375648" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:49:35 UTC Mon" lemmaID="261" lu_type="singleton" name="onderdanig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13389">
     <definition>nederig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="onderdanig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872369307" POS="A" cBy="automatic" cDate="09/23/2020 14:46:09 UTC Wed" lemmaID="262" lu_type="singleton" name="gehoorzaam.a" status="Created" FN_EN_LU_ID="12696" Method="Iteration-1" RBN_LU_ID="r_a-10897" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187382505" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:49:42 UTC Mon" lemmaID="262" lu_type="singleton" name="gehoorzaam.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-10897">
     <definition>doend wat iemand zegt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="gehoorzaam" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:27 PST Wed" name="Duration_description" ID="79" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An event or state (here termed an &lt;fen&gt;Eventuality&lt;/fen&gt;) or time-&lt;fen&gt;Period&lt;/fen&gt; is described in terms of the &lt;fen&gt;Degree&lt;/fen&gt; to which its duration diverges from a standard.  As is usual for gradable attributes, the standard of comparison is normally based on the expected duration for the type of &lt;fen&gt;Eventuality&lt;/fen&gt; or &lt;fen&gt;Period&lt;/fen&gt;.  (In conjunction with the comparative construction, the standard may also be based upon an explicit value.)
 &lt;ex&gt;&lt;/ex&gt;
@@ -39,22 +38,22 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872494125" POS="A" cBy="automatic" cDate="09/23/2020 14:48:14 UTC Wed" lemmaID="302" lu_type="singleton" name="voortdurend.a" status="Created" FN_EN_LU_ID="1711" Method="Iteration-1" RBN_LU_ID="r_a-16130" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187584262" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:53:04 UTC Mon" lemmaID="302" lu_type="singleton" name="voortdurend.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16130">
     <definition>onophoudelijk</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="voortdurend" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872497139" POS="A" cBy="automatic" cDate="09/23/2020 14:48:17 UTC Wed" lemmaID="303" lu_type="singleton" name="blijvend.a" status="Created" FN_EN_LU_ID="1711" Method="Iteration-1" RBN_LU_ID="r_a-9333" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187587714" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:53:07 UTC Mon" lemmaID="303" lu_type="singleton" name="blijvend.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9333">
     <definition>duurzaam</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="blijvend" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872500180" POS="A" cBy="manual" cDate="09/23/2020 14:48:20 UTC Wed" lemmaID="304" lu_type="singleton" name="vergankelijk.a" status="Created" FN_EN_LU_ID="1715" Method="Iteration-1" RBN_LU_ID="r_a-15957" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187591832" POS="A" cBy="ThomasKlein" cDate="02/01/2021 13:53:11 UTC Mon" lemmaID="304" lu_type="singleton" name="vergankelijk.a" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15957">
     <definition>voorbijgaand</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="vergankelijk" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872503437" POS="A" cBy="automatic" cDate="09/23/2020 14:48:23 UTC Wed" lemmaID="305" lu_type="singleton" name="tussentijds.a" status="Created" FN_EN_LU_ID="1718" Method="Iteration-1" RBN_LU_ID="r_a-15468" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187595171" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:53:15 UTC Mon" lemmaID="305" lu_type="singleton" name="tussentijds.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15468">
     <definition>tussendoor gebeurend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="tussentijds" order="1"/>

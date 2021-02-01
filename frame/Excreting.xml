@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="KCo" cDate="02/13/2002 05:17:50 PST Wed" name="Excreting" ID="270" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Excreter&lt;/fen&gt; excretes &lt;fen&gt;Excreta&lt;/fen&gt;.
 
@@ -71,27 +70,27 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872593661" POS="V" cBy="automatic" cDate="09/23/2020 14:49:53 UTC Wed" lemmaID="334" lu_type="singleton" name="urineren.v" status="Created" FN_EN_LU_ID="4947" Method="Iteration-1" RBN_LU_ID="r_v-8662" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187727305" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:55:27 UTC Mon" lemmaID="332" lu_type="singleton" name="urineren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8662">
     <definition>urine lozen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="urineren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872596764" POS="V" cBy="automatic" cDate="09/23/2020 14:49:56 UTC Wed" lemmaID="335" lu_type="singleton" name="pissen.v" status="Created" FN_EN_LU_ID="4948" Method="Iteration-1" RBN_LU_ID="r_v-6273" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187732414" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:55:32 UTC Mon" lemmaID="333" lu_type="singleton" name="pissen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6273">
     <definition>urine lozen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="pissen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872600064" POS="V" cBy="automatic" cDate="09/23/2020 14:50:00 UTC Wed" lemmaID="336" lu_type="singleton" name="piesen.v" status="Created" FN_EN_LU_ID="4948" Method="Iteration-1" RBN_LU_ID="r_v-6251" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187736932" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:55:36 UTC Mon" lemmaID="334" lu_type="singleton" name="piesen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6251">
     <definition>urine lozen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="piesen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872603081" POS="V" cBy="automatic" cDate="09/23/2020 14:50:03 UTC Wed" lemmaID="337" lu_type="singleton" name="zwoegen.v" status="Created" FN_EN_LU_ID="5452" Method="Iteration-1" RBN_LU_ID="r_v-10363" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187741279" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:55:41 UTC Mon" lemmaID="335" lu_type="singleton" name="zwoegen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-10363">
     <definition>hard werken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="zwoegen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872606197" POS="V" cBy="manual" cDate="09/23/2020 14:50:06 UTC Wed" lemmaID="338" lu_type="singleton" name="transpireren.v" status="Created" FN_EN_LU_ID="10153" Method="Iteration-2_WN" RBN_LU_ID="r_v-8109" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187745294" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:55:45 UTC Mon" lemmaID="336" lu_type="singleton" name="transpireren.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8109">
     <definition>zweet uitwasemen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="transpireren" order="1"/>

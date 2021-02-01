@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="05/31/2002 03:28:18 PDT Fri" name="Preserving" ID="339" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame an  &lt;fen&gt;Agent&lt;/fen&gt; preserves a &lt;fen&gt;Patient&lt;/fen&gt; in order to prevent it from decaying.   A &lt;fen&gt;Medium&lt;/fen&gt; may be used.   &lt;ex&gt;&lt;fex name="Agent"&gt;Bill&lt;/fex&gt; &lt;t&gt;mummified&lt;/t&gt; &lt;fex name="Patient"&gt;John&lt;/fex&gt;.&lt;/ex&gt;  &lt;ex&gt;&lt;fex name="Agent"&gt;Tess&lt;/fex&gt; &lt;t&gt;pickled&lt;/t&gt; &lt;fex name="Patient"&gt;the beets&lt;/fex&gt;  &lt;fex name="Medium"&gt;in vinegar&lt;/fex&gt;.&lt;/ex&gt;  &lt;ex&gt;&lt;fex name="Agent"&gt;The Smiths&lt;/fex&gt; &lt;t&gt;dried&lt;/t&gt; &lt;fex name="Patient"&gt;the apples&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
   <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="05/31/2002 03:28:52 PDT Fri" abbrev="Agt" name="Agent" ID="2894">
@@ -65,7 +64,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873763185" POS="V" cBy="automatic" cDate="09/23/2020 15:09:23 UTC Wed" lemmaID="694" lu_type="singleton" name="balsemen.v" status="Created" FN_EN_LU_ID="5928" Method="Iteration-1" RBN_LU_ID="r_v-1054" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189241102" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:20:41 UTC Mon" lemmaID="692" lu_type="singleton" name="balsemen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1054">
     <definition>met balsem insmeren, bijv. om iets te bewaren of om lichaamspijn te verzachten (ook figuurlijk)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="balsemen" order="1"/>

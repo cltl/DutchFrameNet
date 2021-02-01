@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="RLG" cDate="02/27/2007 02:55:18 PST Tue" name="Fame" ID="1880" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Entity&lt;/fen&gt; is well-known among a wide range of people (in general or in a particular domain) for a particular &lt;fen&gt;Reason&lt;/fen&gt;, which may be a behavior, characteristic, or some other associated item. In the case of events, fame entails a large number of people being aware of the event's occurence; in the case of concrete entities, including humans, fame entails awareness of existence. In both cases, often fame is accompanied by awareness of the &lt;fen&gt;Entity&lt;/fen&gt;'s significance in historical, cultural, or social contexts.
 
@@ -63,17 +62,17 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872761291" POS="A" cBy="manual" cDate="09/23/2020 14:52:41 UTC Wed" lemmaID="385" lu_type="singleton" name="gerenommeerd.a" status="Created" FN_EN_LU_ID="13894" Method="Iteration-1" RBN_LU_ID="r_a-11006" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187959804" POS="A" cBy="ThomasKlein" cDate="02/01/2021 13:59:19 UTC Mon" lemmaID="383" lu_type="singleton" name="gerenommeerd.a" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11006">
     <definition>vermaard</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="gerenommeerd" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872764311" POS="A" cBy="automatic" cDate="09/23/2020 14:52:44 UTC Wed" lemmaID="386" lu_type="singleton" name="vermaard.a" status="Created" FN_EN_LU_ID="13894" Method="Iteration-1" RBN_LU_ID="r_a-15987" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187963156" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:59:23 UTC Mon" lemmaID="384" lu_type="singleton" name="vermaard.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15987">
     <definition>beroemd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="vermaard" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872767369" POS="A" cBy="automatic" cDate="09/23/2020 14:52:47 UTC Wed" lemmaID="387" lu_type="singleton" name="notoir.a" status="Created" FN_EN_LU_ID="14717" Method="Iteration-1" RBN_LU_ID="r_a-13186" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187966847" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:59:26 UTC Mon" lemmaID="385" lu_type="singleton" name="notoir.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13186">
     <definition>berucht</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="notoir" order="1"/>

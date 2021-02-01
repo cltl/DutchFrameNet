@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MRLP" cDate="01/08/2002 03:24:27 PST Tue" name="Medical_instruments" ID="257" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame includes words for medical instruments--i.e. &lt;fen&gt;Instrument&lt;/fen&gt;s designed for  an institutional function or &lt;fen&gt;Purpose&lt;/fen&gt;.
 
@@ -30,22 +29,22 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873291968" POS="N" cBy="automatic" cDate="09/23/2020 15:01:31 UTC Wed" lemmaID="551" lu_type="singleton" name="stethoscoop.n" status="Created" FN_EN_LU_ID="4637" Method="Iteration-1" RBN_LU_ID="r_n-35819" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188690990" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:11:30 UTC Mon" lemmaID="549" lu_type="singleton" name="stethoscoop.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-35819">
     <definition>waarmee hart en longen beluisterd kunnen worden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="stethoscoop" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873295193" POS="N" cBy="manual" cDate="09/23/2020 15:01:35 UTC Wed" lemmaID="552" lu_type="singleton" name="katheter.n" status="Created" FN_EN_LU_ID="4659" Method="Iteration-1" RBN_LU_ID="r_n-19200" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188694890" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:11:34 UTC Mon" lemmaID="550" lu_type="singleton" name="katheter.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-19200">
     <definition>om lichaamsvochten af te tappen of voeding toe te dienen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="katheter" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873298197" POS="N" cBy="automatic" cDate="09/23/2020 15:01:38 UTC Wed" lemmaID="553" lu_type="singleton" name="pincet.n" status="Created" FN_EN_LU_ID="4661" Method="Iteration-1" RBN_LU_ID="r_n-28573" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188698898" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:11:38 UTC Mon" lemmaID="551" lu_type="singleton" name="pincet.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-28573">
     <definition>dat bestaat uit twee smalle metalen plaatjes, waarmee je kleine dingen vastpakt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="pincet" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873301548" POS="N" cBy="automatic" cDate="09/23/2020 15:01:41 UTC Wed" lemmaID="554" lu_type="singleton" name="scalpel.n" status="Created" FN_EN_LU_ID="4673" Method="Iteration-1" RBN_LU_ID="r_n-32606" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188702741" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:11:42 UTC Mon" lemmaID="552" lu_type="singleton" name="scalpel.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-32606">
     <definition>om mee te opereren of ontleden bestaande uit één stuk</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="scalpel" order="1"/>

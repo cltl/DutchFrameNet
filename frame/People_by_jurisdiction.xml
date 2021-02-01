@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="03/08/2004 02:34:13 PST Mon" name="People_by_jurisdiction" ID="1023" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame contains words for individuals, i.e. humans, who are governed by virtue of being registered in a certain &lt;fen&gt;Jurisdiction&lt;/fen&gt;. Alternatively, they may be conceptualized with respect to their  governance by a political or religious &lt;fen&gt;Authority&lt;/fen&gt;  They may have an &lt;fen&gt;Age&lt;/fen&gt;, &lt;fen&gt;Descriptor&lt;/fen&gt;, &lt;fen&gt;Persistent_characteristic&lt;/fen&gt;, or &lt;fen&gt;Ethnicity&lt;/fen&gt;.
 
@@ -43,7 +42,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873563327" POS="N" cBy="automatic" cDate="09/23/2020 15:06:03 UTC Wed" lemmaID="634" lu_type="singleton" name="poorter.n" status="Created" FN_EN_LU_ID="10245" Method="Iteration-1" RBN_LU_ID="r_n-29198" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189011680" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:16:51 UTC Mon" lemmaID="632" lu_type="singleton" name="poorter.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-29198">
     <definition>van een middeleeuwse stad die het poorterrecht bezat</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="poorter" order="1"/>

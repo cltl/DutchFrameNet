@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="stiefvader.n" ID="1612188352497" frame="Kinship" frameID="104" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-35860" lu_type="exocentric compound">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Alter"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Degr" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Extra-Thematic" abbrev="des" name="Descriptor"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Ego"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="" name="Relatives"/>
+    </frame>
+  </header>
+  <definition>die met je moeder is getrouwd en niet je vader is</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="stiefvader" order="1"/>
+</lexUnit>

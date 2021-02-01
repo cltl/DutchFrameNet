@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="06/05/2002 03:59:06 PDT Wed" name="Fluidic_motion" ID="345" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame a &lt;fen&gt;Fluid&lt;/fen&gt; moves from a &lt;fen&gt;Source&lt;/fen&gt; to a &lt;fen&gt;Goal&lt;/fen&gt; along a &lt;fen&gt;Path&lt;/fen&gt; or within an &lt;fen&gt;Area&lt;/fen&gt;.  &lt;ex&gt; &lt;fex name="Fluid"&gt;The blood&lt;/fex&gt; &lt;t&gt;spurted&lt;/t&gt; &lt;fex name="Source"&gt;from the wound&lt;/fex&gt;. &lt;/ex&gt;&lt;ex&gt;&lt;fex name="Fluid"&gt;The water&lt;/fex&gt; &lt;t&gt;gushed&lt;/t&gt; &lt;fex name="Goal"&gt;into the house&lt;/fex&gt; . &lt;/ex&gt;&lt;/def-root&gt;</definition>
   <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="ACW" cDate="06/05/2002 04:00:38 PDT Wed" abbrev="Area" name="Area" ID="2975">
@@ -84,7 +83,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872802160" POS="V" cBy="automatic" cDate="09/23/2020 14:53:22 UTC Wed" lemmaID="398" lu_type="singleton" name="druppelen.v" status="Created" FN_EN_LU_ID="6018" Method="Iteration-1" RBN_LU_ID="r_v-2574" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188007650" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:00:07 UTC Mon" lemmaID="396" lu_type="singleton" name="druppelen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2574">
     <definition>in druppels (laten) vallen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="druppelen" order="1"/>

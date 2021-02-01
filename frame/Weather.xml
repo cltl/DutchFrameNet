@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="04/12/2002 05:17:10 PDT Fri" name="Weather" ID="303" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;Ambient conditions of temperature, precipitation, windiness, and sunniness pertain at a certain &lt;fen&gt;Place&lt;/fen&gt; and &lt;fen&gt;Time&lt;/fen&gt;.  Further &lt;fen&gt;Specification&lt;/fen&gt; of the conditions that pertain may also be indicated.
 &lt;ex&gt;&lt;x&gt;A &lt;fex name="Specification"&gt;blustery&lt;/fex&gt; &lt;t&gt;storm&lt;/t&gt;&lt;/x&gt; &lt;gov&gt;blew&lt;/gov&gt; &lt;gov&gt;in&lt;/gov&gt;.&lt;/ex&gt;
@@ -32,12 +31,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874570985" POS="N" cBy="automatic" cDate="09/23/2020 15:22:50 UTC Wed" lemmaID="937" lu_type="singleton" name="blizzard.n" status="Created" FN_EN_LU_ID="5695" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-7580" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190199559" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:36:39 UTC Mon" lemmaID="935" lu_type="singleton" name="blizzard.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-7580">
     <definition>met veel sneeuw en felle kou die plotseling opkomt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="blizzard" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874574423" POS="N" cBy="automatic" cDate="09/23/2020 15:22:54 UTC Wed" lemmaID="938" lu_type="singleton" name="onweer.n" status="Created" FN_EN_LU_ID="13476" Method="Iteration-1" RBN_LU_ID="r_n-26337" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190202853" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:36:42 UTC Mon" lemmaID="936" lu_type="singleton" name="onweer.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-26337">
     <definition>waarbij het bliksemt en dondert</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="onweer" order="1"/>

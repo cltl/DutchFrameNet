@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Shw" cDate="07/04/2001 05:53:46 PDT Wed" name="Facial_expression" ID="161" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The words in this frame refer to facial &lt;fen&gt;Expression&lt;/fen&gt;s and the &lt;fen&gt;Possessor&lt;/fen&gt;s of those &lt;fen&gt;Expression&lt;/fen&gt;s.
 
@@ -60,22 +59,22 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872745391" POS="N" cBy="automatic" cDate="09/23/2020 14:52:25 UTC Wed" lemmaID="380" lu_type="singleton" name="lach.n" status="Created" FN_EN_LU_ID="2916" Method="Iteration-1" RBN_LU_ID="r_n-21202" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187940596" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:59:00 UTC Mon" lemmaID="378" lu_type="singleton" name="lach.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-21202">
     <definition>van het lachen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="lach" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872748638" POS="N" cBy="automatic" cDate="09/23/2020 14:52:28 UTC Wed" lemmaID="381" lu_type="singleton" name="grimas.n" status="Created" FN_EN_LU_ID="2917" Method="Iteration-1" RBN_LU_ID="r_n-15755" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187944439" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:59:04 UTC Mon" lemmaID="379" lu_type="singleton" name="grimas.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-15755">
     <definition>van het gezicht</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="grimas" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872751753" POS="N" cBy="automatic" cDate="09/23/2020 14:52:31 UTC Wed" lemmaID="382" lu_type="singleton" name="grijns.n" status="Created" FN_EN_LU_ID="2918" Method="Iteration-1" RBN_LU_ID="r_n-15745" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187948815" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:59:08 UTC Mon" lemmaID="380" lu_type="singleton" name="grijns.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-15745">
     <definition>die spottend of voldaan lachend is, en soms onaangenaam aandoet</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="grijns" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872754849" POS="N" cBy="automatic" cDate="09/23/2020 14:52:34 UTC Wed" lemmaID="383" lu_type="singleton" name="frons.n" status="Created" FN_EN_LU_ID="2919" Method="Iteration-1" RBN_LU_ID="r_n-13717" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187952545" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:59:12 UTC Mon" lemmaID="381" lu_type="singleton" name="frons.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-13717">
     <definition>op het voorhoofd als teken van ontstemming of ingespannen nadenken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="frons" order="1"/>

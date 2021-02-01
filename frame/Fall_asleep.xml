@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="03/25/2002 06:13:40 PST Mon" name="Fall_asleep" ID="292" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Sleeper&lt;/fen&gt; goes from wakefulness to an altered state of consciousness where they are largely unaware of their environment.  The LUs of this frame are differentiated by how quickly and deeply the state is entered and what causes the change (especially whether it comes about naturally as a result of sleepiness or is brought about by injury).
 
@@ -34,7 +33,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872757992" POS="V" cBy="automatic" cDate="09/23/2020 14:52:37 UTC Wed" lemmaID="384" lu_type="singleton" name="bezwijmen.v" status="Created" FN_EN_LU_ID="15499" Method="Iteration-1" RBN_LU_ID="r_v-1594" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187955955" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:59:15 UTC Mon" lemmaID="382" lu_type="singleton" name="bezwijmen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1594">
     <definition>in onmacht, in zwijm vallen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="bezwijmen" order="1"/>

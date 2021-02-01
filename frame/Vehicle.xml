@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="GlY" cDate="12/05/2002 03:14:28 PST Thu" name="Vehicle" ID="429" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The frame concerns the vehicles that human beings use for the purpose of transportation.
 
@@ -44,37 +43,37 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874473063" POS="N" cBy="manual" cDate="09/23/2020 15:21:13 UTC Wed" lemmaID="907" lu_type="singleton" name="taxi.n" status="Created" FN_EN_LU_ID="8152" Method="Iteration-2_WN" RBN_LU_ID="r_n-37042" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190101161" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:35:01 UTC Mon" lemmaID="905" lu_type="singleton" name="taxi.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-37042">
     <definition>met chauffeur, te regelen voor een rit naar een bestemming</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="taxi" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874476310" POS="N" cBy="automatic" cDate="09/23/2020 15:21:16 UTC Wed" lemmaID="908" lu_type="singleton" name="auto.n" status="Created" FN_EN_LU_ID="8144" Method="Iteration-1" RBN_LU_ID="r_n-4175" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190104311" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:35:04 UTC Mon" lemmaID="906" lu_type="singleton" name="auto.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-4175">
     <definition>op meer dan drie wielen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="auto" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874479750" POS="N" cBy="automatic" cDate="09/23/2020 15:21:19 UTC Wed" lemmaID="909" lu_type="singleton" name="wagen.n" status="Created" FN_EN_LU_ID="8144" Method="Iteration-2_ODWN" RBN_LU_ID="c_545806" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190107616" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:35:07 UTC Mon" lemmaID="907" lu_type="singleton" name="wagen.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-c_545806">
     <definition>op (meestal) vier wielen, in het bijzonder een auto</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="wagen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874482963" POS="N" cBy="automatic" cDate="09/23/2020 15:21:22 UTC Wed" lemmaID="910" lu_type="singleton" name="limousine.n" status="Created" FN_EN_LU_ID="8162" Method="Iteration-1" RBN_LU_ID="r_n-22290" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190110894" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:35:10 UTC Mon" lemmaID="908" lu_type="singleton" name="limousine.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-22290">
     <definition>met vaak een glazen afscheiding tussen de bestuurdersplaats en de passagiersruimte</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="limousine" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874486358" POS="N" cBy="automatic" cDate="09/23/2020 15:21:26 UTC Wed" lemmaID="911" lu_type="singleton" name="kano.n" status="Created" FN_EN_LU_ID="8165" Method="Iteration-1" RBN_LU_ID="r_n-18975" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190114180" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:35:14 UTC Mon" lemmaID="909" lu_type="singleton" name="kano.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-18975">
     <definition>die lang en smal is, die je met peddels voortbeweegt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="kano" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874489600" POS="N" cBy="automatic" cDate="09/23/2020 15:21:29 UTC Wed" lemmaID="912" lu_type="singleton" name="kajak.n" status="Created" FN_EN_LU_ID="8166" Method="Iteration-1" RBN_LU_ID="r_n-18808" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190117380" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:35:17 UTC Mon" lemmaID="910" lu_type="singleton" name="kajak.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-18808">
     <definition>voor één persoon</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="kajak" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874492988" POS="N" cBy="automatic" cDate="09/23/2020 15:21:32 UTC Wed" lemmaID="913" lu_type="singleton" name="ambulance.n" status="Created" FN_EN_LU_ID="16800" Method="Iteration-1" RBN_LU_ID="r_n-3421" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190120691" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:35:20 UTC Mon" lemmaID="911" lu_type="singleton" name="ambulance.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-3421">
     <definition>voor het vervoer van zieken en gewonden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="ambulance" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Shw" cDate="08/17/2001 04:40:52 PDT Fri" name="Roadways" ID="203" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame involves stable &lt;fen&gt;Roadway&lt;/fen&gt;s which connect two stable &lt;fen&gt;Endpoints&lt;/fen&gt;, the &lt;fen&gt;Source&lt;/fen&gt; and the &lt;fen&gt;Goal&lt;/fen&gt;.  Being physical objects, these &lt;fen&gt;Roadway&lt;/fen&gt;s may have &lt;fen&gt;Name&lt;/fen&gt;s and &lt;fen&gt;Characteristic&lt;/fen&gt;s; they are also made of a &lt;fen&gt;Material&lt;/fen&gt;.  They also cover ground, so they may have a &lt;fen&gt;Path&lt;/fen&gt; or a &lt;fen&gt;Relative_location&lt;/fen&gt; that the travel occurs in.
 
@@ -97,22 +96,22 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873945786" POS="N" cBy="manual" cDate="09/23/2020 15:12:25 UTC Wed" lemmaID="749" lu_type="singleton" name="trottoir.n" status="Created" FN_EN_LU_ID="3782" Method="Iteration-2_WN" RBN_LU_ID="r_n-38599" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189485304" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:24:45 UTC Mon" lemmaID="747" lu_type="singleton" name="trottoir.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-38599">
     <definition>voor voetgangers dat naast de rijweg ligt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="trottoir" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873948915" POS="N" cBy="automatic" cDate="09/23/2020 15:12:28 UTC Wed" lemmaID="750" lu_type="singleton" name="zebra.n" status="Created" FN_EN_LU_ID="3789" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-43827" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189490061" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:24:50 UTC Mon" lemmaID="748" lu_type="singleton" name="zebra.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-43827">
     <definition>waar voetgangers de rijweg kunnen oversteken, gemarkeerd door witte brede strepen op het wegdek</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="zebra" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873952157" POS="N" cBy="automatic" cDate="09/23/2020 15:12:32 UTC Wed" lemmaID="751" lu_type="singleton" name="boulevard.n" status="Created" FN_EN_LU_ID="3797" Method="Iteration-1" RBN_LU_ID="r_n-8218" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189494815" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:24:54 UTC Mon" lemmaID="749" lu_type="singleton" name="boulevard.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-8218">
     <definition>meestal langs de zee en soms met rijen bomen beplant in een stad</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="boulevard" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873955428" POS="N" cBy="automatic" cDate="09/23/2020 15:12:35 UTC Wed" lemmaID="752" lu_type="singleton" name="oprit.n" status="Created" FN_EN_LU_ID="7135" Method="Iteration-1" RBN_LU_ID="r_n-26716" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189500226" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:25:00 UTC Mon" lemmaID="750" lu_type="singleton" name="oprit.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-26716">
     <definition>naar een snelweg waarover auto's die weg oprijden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="oprit" order="1"/>

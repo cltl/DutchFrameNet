@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="HCB" cDate="05/25/2001 01:41:47 PDT Fri" name="Body_parts" ID="119" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame covers words for &lt;fen&gt;Body_part&lt;/fen&gt;(s) (BP) belonging to a &lt;fen&gt;Possessor&lt;/fen&gt; (Poss), which may be characterized by a &lt;fen&gt;Descriptor&lt;/fen&gt; (Desc). The location of the BP may be identified in terms of  its &lt;fen&gt;Attachment&lt;/fen&gt; or its &lt;fen&gt;Orientational_location&lt;/fen&gt;.  A &lt;fen&gt;Subregion&lt;/fen&gt; of a BP may also be indicated.  
 &lt;ex&gt;&lt;/ex&gt;
@@ -71,32 +70,32 @@ NB:  All of these (other than very productive types such as "left", "right", "fr
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871728746" POS="N" cBy="manual" cDate="09/23/2020 14:35:28 UTC Wed" lemmaID="94" lu_type="singleton" name="enkel.n" status="Created" FN_EN_LU_ID="2379" Method="Iteration-1" RBN_LU_ID="r_n-12437" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186678988" POS="N" cBy="ThomasKlein" cDate="02/01/2021 13:37:58 UTC Mon" lemmaID="94" lu_type="singleton" name="enkel.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-12437">
     <definition>dat de voet met het been verbindt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="enkel" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871732702" POS="N" cBy="automatic" cDate="09/23/2020 14:35:32 UTC Wed" lemmaID="95" lu_type="singleton" name="anus.n" status="Created" FN_EN_LU_ID="2380" Method="Iteration-1" RBN_LU_ID="r_n-3694" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186681817" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:38:01 UTC Mon" lemmaID="95" lu_type="singleton" name="anus.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-3694">
     <definition>aan het eind van de endeldarm, waardoor de ontlasting naar buiten komt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="anus" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871736049" POS="N" cBy="automatic" cDate="09/23/2020 14:35:36 UTC Wed" lemmaID="96" lu_type="singleton" name="aars.n" status="Created" FN_EN_LU_ID="2380" Method="Iteration-1" RBN_LU_ID="r_n-2449" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186684830" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:38:04 UTC Mon" lemmaID="96" lu_type="singleton" name="aars.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-2449">
     <definition>van het darmkanaal, waardoor de onverteerde spijsresten het lichaam verlaten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="aars" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871739257" POS="N" cBy="automatic" cDate="09/23/2020 14:35:39 UTC Wed" lemmaID="97" lu_type="singleton" name="maag.n" status="Created" FN_EN_LU_ID="2509" Method="Iteration-1" RBN_LU_ID="r_n-22831" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186687669" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:38:07 UTC Mon" lemmaID="97" lu_type="singleton" name="maag.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-22831">
     <definition>tussen slokdarm en dunne darm waar je eten wordt verteerd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="maag" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871742308" POS="N" cBy="automatic" cDate="09/23/2020 14:35:42 UTC Wed" lemmaID="98" lu_type="singleton" name="gewei.n" status="Created" FN_EN_LU_ID="2515" Method="Iteration-1" RBN_LU_ID="r_n-14969" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186690491" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:38:10 UTC Mon" lemmaID="98" lu_type="singleton" name="gewei.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-14969">
     <definition>van al of niet vertakte vorm, zoals die worden gedragen door herten, reebokken e.d.</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="gewei" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871745491" POS="N" cBy="automatic" cDate="09/23/2020 14:35:45 UTC Wed" lemmaID="99" lu_type="singleton" name="long.n" status="Created" FN_EN_LU_ID="18703" Method="Iteration-1" RBN_LU_ID="r_n-22490" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186693442" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:38:13 UTC Mon" lemmaID="99" lu_type="singleton" name="long.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-22490">
     <definition>in de borst waarmee men ademhaalt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="long" order="1"/>

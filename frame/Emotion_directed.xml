@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:06 PST Wed" name="Emotion_directed" ID="46" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The adjectives and nouns in this frame describe an &lt;fen&gt;Experiencer&lt;/fen&gt; who is feeling or experiencing a particular emotional response to a &lt;fen&gt;Stimulus&lt;/fen&gt; or about a &lt;fen&gt;Topic&lt;/fen&gt;.  There can also be a &lt;fen&gt;Circumstances&lt;/fen&gt; under which the response occurs or a &lt;fen&gt;Reason&lt;/fen&gt; that the &lt;fen&gt;Stimulus&lt;/fen&gt; evokes the particular response in the &lt;fen&gt;Experiencer&lt;/fen&gt;.
 
@@ -101,92 +100,82 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872512673" POS="A" cBy="automatic" cDate="09/23/2020 14:48:32 UTC Wed" lemmaID="308" lu_type="singleton" name="geïrriteerd.a" status="Created" FN_EN_LU_ID="4333" Method="Iteration-1" RBN_LU_ID="r_a-11250" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187605337" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:53:25 UTC Mon" lemmaID="308" lu_type="singleton" name="geïrriteerd.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11250">
     <definition>geprikkeld</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="geïrriteerd" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872515750" POS="A" cBy="automatic" cDate="09/23/2020 14:48:35 UTC Wed" lemmaID="309" lu_type="singleton" name="hopeloos.a" status="Created" FN_EN_LU_ID="7156" Method="Iteration-1" RBN_LU_ID="r_a-11690" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187609212" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:53:29 UTC Mon" lemmaID="309" lu_type="singleton" name="hopeloos.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11690">
     <definition>uitzichtloos</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="hopeloos" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872518814" POS="A" cBy="automatic" cDate="09/23/2020 14:48:38 UTC Wed" lemmaID="310" lu_type="singleton" name="moedeloos.a" status="Created" FN_EN_LU_ID="7156" Method="Iteration-1" RBN_LU_ID="r_a-12923" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187612476" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:53:32 UTC Mon" lemmaID="310" lu_type="singleton" name="moedeloos.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12923">
     <definition>mismoedig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="moedeloos" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872521861" POS="A" cBy="automatic" cDate="09/23/2020 14:48:41 UTC Wed" lemmaID="311" lu_type="singleton" name="wanhopig.a" status="Created" FN_EN_LU_ID="7156" Method="Iteration-1" RBN_LU_ID="r_a-15670" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187615736" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:53:35 UTC Mon" lemmaID="311" lu_type="singleton" name="wanhopig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15670">
     <definition>vertwijfeld</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="wanhopig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872524985" POS="A" cBy="manual" cDate="09/23/2020 14:48:44 UTC Wed" lemmaID="312" lu_type="singleton" name="misnoegd.a" status="Created" FN_EN_LU_ID="8805" Method="Iteration-2_WN" RBN_LU_ID="r_a-12901" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187621046" POS="A" cBy="ThomasKlein" cDate="02/01/2021 13:53:41 UTC Mon" lemmaID="312" lu_type="singleton" name="misnoegd.a" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12901">
     <definition>ontevreden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="misnoegd" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872528164" POS="N" cBy="manual" cDate="09/23/2020 14:48:48 UTC Wed" lemmaID="313" lu_type="singleton" name="aversie.n" status="Created" FN_EN_LU_ID="7252" Method="Iteration-1" RBN_LU_ID="r_n-4262" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187626335" POS="N" cBy="ThomasKlein" cDate="02/01/2021 13:53:46 UTC Mon" lemmaID="313" lu_type="singleton" name="aversie.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-4262">
     <definition>van iets</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="aversie" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872531226" POS="N" cBy="automatic" cDate="09/23/2020 14:48:51 UTC Wed" lemmaID="314" lu_type="singleton" name="wanhoop.n" status="Created" FN_EN_LU_ID="7264" Method="Iteration-1" RBN_LU_ID="r_n-42282" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187631224" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:53:51 UTC Mon" lemmaID="314" lu_type="singleton" name="wanhoop.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-42282">
     <definition>dat je elke hoop op iets goeds verloren hebt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="wanhoop" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872534474" POS="N" cBy="automatic" cDate="09/23/2020 14:48:54 UTC Wed" lemmaID="315" lu_type="singleton" name="radeloosheid.n" status="Created" FN_EN_LU_ID="7264" Method="Iteration-1" RBN_LU_ID="r_n-30333" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187635669" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:53:55 UTC Mon" lemmaID="315" lu_type="singleton" name="radeloosheid.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-30333">
     <definition>waarin je radeloos bent</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="radeloosheid" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872537543" POS="N" cBy="automatic" cDate="09/23/2020 14:48:57 UTC Wed" lemmaID="316" lu_type="singleton" name="ontevredenheid.n" status="Created" FN_EN_LU_ID="7278" Method="Iteration-1" RBN_LU_ID="r_n-26165" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187640535" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:54:00 UTC Mon" lemmaID="316" lu_type="singleton" name="ontevredenheid.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-26165">
     <definition>van onvergenoegdheid of misnoegen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="ontevredenheid" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872540862" POS="N" cBy="automatic" cDate="09/23/2020 14:49:00 UTC Wed" lemmaID="317" lu_type="singleton" name="verveling.n" status="Created" FN_EN_LU_ID="7293" Method="Iteration-1" RBN_LU_ID="r_n-40573" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187644140" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:54:04 UTC Mon" lemmaID="317" lu_type="singleton" name="verveling.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-40573">
     <definition>waarin je je verveelt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="verveling" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872543952" POS="N" cBy="manual" cDate="09/23/2020 14:49:03 UTC Wed" lemmaID="318" lu_type="singleton" name="droefheid.n" status="Created">
-    <definition>dat iemand bedroefd is</definition>
-    <sentenceCount annotated="0" total="0"/>
-    <lexeme POS="N" breakBefore="false" headword="false" name="droefheid" order="1"/>
-  </lexUnit>
-  <lexUnit ID="1600872546978" POS="N" cBy="automatic" cDate="09/23/2020 14:49:06 UTC Wed" lemmaID="319" lu_type="singleton" name="treurnis.n" status="Created" FN_EN_LU_ID="8786" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-38466" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187648679" POS="N" cBy="Iteration-2" cDate="02/01/2021 13:54:08 UTC Mon" lemmaID="318" lu_type="singleton" name="treurnis.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-38466">
     <definition>van droefheid of van rouw</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="treurnis" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872550020" POS="N" cBy="automatic" cDate="09/23/2020 14:49:10 UTC Wed" lemmaID="320" lu_type="singleton" name="kommer.n" status="Created" FN_EN_LU_ID="8786" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-20205" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187652780" POS="N" cBy="Iteration-2" cDate="02/01/2021 13:54:12 UTC Mon" lemmaID="319" lu_type="singleton" name="kommer.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-20205">
     <definition>verdriet</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="kommer" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872553043" POS="N" cBy="manual" cDate="09/23/2020 14:49:13 UTC Wed" lemmaID="321" lu_type="singleton" name="treurigheid.n" status="Created">
-    <definition>dat iemand treurig is, een droevige stemming</definition>
-    <sentenceCount annotated="0" total="0"/>
-    <lexeme POS="N" breakBefore="false" headword="false" name="treurigheid" order="1"/>
-  </lexUnit>
-  <lexUnit ID="1600872556169" POS="N" cBy="automatic" cDate="09/23/2020 14:49:16 UTC Wed" lemmaID="322" lu_type="singleton" name="droefenis.n" status="Created" FN_EN_LU_ID="8786" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-11597" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187656466" POS="N" cBy="Iteration-2" cDate="02/01/2021 13:54:16 UTC Mon" lemmaID="320" lu_type="singleton" name="droefenis.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-11597">
     <definition>vanwege iets naars, waardoor je soms moet huilen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="droefenis" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872559232" POS="A" cBy="automatic" cDate="09/23/2020 14:49:19 UTC Wed" lemmaID="323" lu_type="singleton" name="verontwaardigd.a" status="Created" FN_EN_LU_ID="8836" Method="Iteration-1" RBN_LU_ID="r_a-15998" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187662529" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:54:22 UTC Mon" lemmaID="321" lu_type="singleton" name="verontwaardigd.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15998">
     <definition>gekrenkt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="verontwaardigd" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872562403" POS="A" cBy="automatic" cDate="09/23/2020 14:49:22 UTC Wed" lemmaID="324" lu_type="singleton" name="ziedend.a" status="Created" FN_EN_LU_ID="8860" Method="Iteration-1" RBN_LU_ID="r_a-16410" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187667873" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:54:27 UTC Mon" lemmaID="322" lu_type="singleton" name="ziedend.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16410">
     <definition>woedend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="ziedend" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872565512" POS="A" cBy="automatic" cDate="09/23/2020 14:49:25 UTC Wed" lemmaID="325" lu_type="singleton" name="woedend.a" status="Created" FN_EN_LU_ID="8860" Method="Iteration-1" RBN_LU_ID="r_a-15768" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187672895" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:54:32 UTC Mon" lemmaID="323" lu_type="singleton" name="woedend.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15768">
     <definition>razend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="woedend" order="1"/>

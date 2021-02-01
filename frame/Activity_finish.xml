@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="07/10/2001 08:45:29 PDT Tue" name="Activity_finish" ID="165" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; finishes an &lt;fen&gt;Activity&lt;/fen&gt;, which can no longer logically continue. This frame is a subframe of &lt;fen&gt;Activity&lt;/fen&gt;.
 &lt;ex&gt;&lt;/ex&gt;
@@ -83,24 +82,24 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871407503" POS="V" cBy="automatic" cDate="09/23/2020 14:30:07 UTC Wed" lemmaID="9" lu_type="phrasal" name="samenvatten.v" status="Created" FN_EN_LU_ID="4482" Method="Iteration-1" RBN_LU_ID="r_v-6929" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186421319" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:33:41 UTC Mon" lemmaID="9" lu_type="phrasal" name="samenvatten.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6929">
     <definition>de inhoud kort weergeven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="samen" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="vatten" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600871410538" POS="V" cBy="automatic" cDate="09/23/2020 14:30:10 UTC Wed" lemmaID="10" lu_type="singleton" name="recapituleren.v" status="Created" FN_EN_LU_ID="4482" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6566" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186424390" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:33:44 UTC Mon" lemmaID="10" lu_type="singleton" name="recapituleren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6566">
     <definition>de inhoud van iets opnieuw, kort weergeven, samenvattend herhalen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="recapituleren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871413847" POS="V" cBy="automatic" cDate="09/23/2020 14:30:13 UTC Wed" lemmaID="11" lu_type="phrasal" name="uittrekken.v" status="Created" FN_EN_LU_ID="4482" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-8573" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186427651" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:33:47 UTC Mon" lemmaID="11" lu_type="phrasal" name="uittrekken.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8573">
     <definition>door trekken iets ergens uit halen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="uit" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="trekken" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600871416989" POS="V" cBy="automatic" cDate="09/23/2020 14:30:16 UTC Wed" lemmaID="12" lu_type="singleton" name="excerperen.v" status="Created" FN_EN_LU_ID="4482" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2673" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186430719" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:33:50 UTC Mon" lemmaID="12" lu_type="singleton" name="excerperen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2673">
     <definition>een uittreksel maken uit</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="excerperen" order="1"/>

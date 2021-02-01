@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:22 PST Wed" name="Make_noise" ID="69" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A physical entity, construed as a point-&lt;fen&gt;Sound_source&lt;/fen&gt;, emits a &lt;fen&gt;Sound&lt;/fen&gt;.  This includes animals and people making noise with their vocal tracts. Sometimes the sound itself is referred to with a nominal expression, in which case it is called the &lt;fen&gt;Sound&lt;/fen&gt;. &lt;fen&gt;Manner&lt;/fen&gt; expressions may also be relevant in this frame, if they describe properties of the sound as such.  A path-schema can be overlaid on the simple noise-making scene, adding a &lt;fen&gt;Location_of_source&lt;/fen&gt; and/or a &lt;fen&gt;Path&lt;/fen&gt;. 
 
@@ -126,47 +125,47 @@ Sometimes, &lt;fen&gt;Sound&lt;/fen&gt; just occurs as an NP argument of a tense
     <relatedFrame ID="60">Motion_noise</relatedFrame>
     <relatedFrame ID="860">Sound_movement</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600873166209" POS="V" cBy="automatic" cDate="09/23/2020 14:59:26 UTC Wed" lemmaID="512" lu_type="singleton" name="kuchen.v" status="Created" FN_EN_LU_ID="1388" Method="Iteration-1" RBN_LU_ID="r_v-4207" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188514104" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:08:34 UTC Mon" lemmaID="510" lu_type="singleton" name="kuchen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4207">
     <definition>een beetje hoesten met een kort en droog geluid</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="kuchen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873169265" POS="V" cBy="manual" cDate="09/23/2020 14:59:29 UTC Wed" lemmaID="513" lu_type="singleton" name="hoesten.v" status="Created" FN_EN_LU_ID="1388" Method="Iteration-1" RBN_LU_ID="r_v-3238" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188517972" POS="V" cBy="ThomasKlein" cDate="02/01/2021 14:08:37 UTC Mon" lemmaID="511" lu_type="singleton" name="hoesten.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3238">
     <definition>een schraperig geluid met de keel voortbrengen omdat het slijmvlies geprikkeld is</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="hoesten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873172423" POS="V" cBy="automatic" cDate="09/23/2020 14:59:32 UTC Wed" lemmaID="514" lu_type="singleton" name="giechelen.v" status="Created" FN_EN_LU_ID="1402" Method="Iteration-1" RBN_LU_ID="r_v-2958" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188521482" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:08:41 UTC Mon" lemmaID="512" lu_type="singleton" name="giechelen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2958">
     <definition>zachtjes, hoog en onderdrukt lachen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="giechelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873175542" POS="V" cBy="automatic" cDate="09/23/2020 14:59:35 UTC Wed" lemmaID="515" lu_type="singleton" name="schaterlachen.v" status="Created" FN_EN_LU_ID="1411" Method="Iteration-1" RBN_LU_ID="r_v-6970" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188527989" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:08:47 UTC Mon" lemmaID="513" lu_type="singleton" name="schaterlachen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6970">
     <definition>schaterend lachen, luid en helder lachen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="schaterlachen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873178487" POS="V" cBy="automatic" cDate="09/23/2020 14:59:38 UTC Wed" lemmaID="516" lu_type="singleton" name="gnuiven.v" status="Created" FN_EN_LU_ID="1477" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2998" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188535333" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:08:55 UTC Mon" lemmaID="514" lu_type="singleton" name="gnuiven.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2998">
     <definition>stiekem lachen uit leedvermaak of omdat iemand iets stoms heeft gedaan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="gnuiven" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873181712" POS="V" cBy="automatic" cDate="09/23/2020 14:59:41 UTC Wed" lemmaID="517" lu_type="singleton" name="snikken.v" status="Created" FN_EN_LU_ID="1483" Method="Iteration-1" RBN_LU_ID="r_v-7290" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188540156" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:09:00 UTC Mon" lemmaID="515" lu_type="singleton" name="snikken.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7290">
     <definition>huilen waarbij je met horten en stoten ademhaalt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="snikken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873184778" POS="V" cBy="automatic" cDate="09/23/2020 14:59:44 UTC Wed" lemmaID="518" lu_type="singleton" name="keffen.v" status="Created" FN_EN_LU_ID="1523" Method="Iteration-1" RBN_LU_ID="r_v-3811" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188545187" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:09:05 UTC Mon" lemmaID="516" lu_type="singleton" name="keffen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3811">
     <definition>hoog en schel blaffen, vooral van een kleine hond</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="keffen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873187803" POS="V" cBy="automatic" cDate="09/23/2020 14:59:47 UTC Wed" lemmaID="519" lu_type="singleton" name="jodelen.v" status="Created" FN_EN_LU_ID="1527" Method="Iteration-1" RBN_LU_ID="r_v-3734" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188551564" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:09:11 UTC Mon" lemmaID="517" lu_type="singleton" name="jodelen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3734">
     <definition>zingen op een manier waarbij je snel van de borsttonen op de falsettonen (en omgekeerd) overgaat, zoals vooral de alpenbewoners doen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="jodelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873193920" POS="V" cBy="automatic" cDate="09/23/2020 14:59:53 UTC Wed" lemmaID="520" lu_type="phrasal" name="uitlachen.v" status="Created" FN_EN_LU_ID="8720" Method="Iteration-1" RBN_LU_ID="r_v-8364" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188562346" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:09:22 UTC Mon" lemmaID="518" lu_type="phrasal" name="uitlachen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8364">
     <definition>spottend om iemand lachen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="uit" order="1"/>

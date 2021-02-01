@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="08/05/2005 04:13:37 PDT Fri" name="Scarcity" ID="1603" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The &lt;fen&gt;Quantity&lt;/fen&gt; of a &lt;fen&gt;Collection&lt;/fen&gt; occurring in a &lt;fen&gt;Place&lt;/fen&gt; has a particular &lt;fen&gt;Measure&lt;/fen&gt;, which is related to the amount generally needed.
 
@@ -62,7 +61,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873961675" POS="N" cBy="automatic" cDate="09/23/2020 15:12:41 UTC Wed" lemmaID="754" lu_type="singleton" name="schaarste.n" status="Created" FN_EN_LU_ID="12608" Method="Iteration-1" RBN_LU_ID="r_n-32686" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189509322" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:25:09 UTC Mon" lemmaID="752" lu_type="singleton" name="schaarste.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-32686">
     <definition>van iets</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="schaarste" order="1"/>

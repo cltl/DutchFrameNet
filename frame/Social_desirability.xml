@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="PKe" cDate="09/29/2011 03:32:38 PDT Thu" name="Social_desirability" ID="2660" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame contains LUs which are like those of the Desirability frame except the Evaluee incorporates the Parameter as "associated with a percieved place in a social heirarchy" for all LUs. LUs are not restricted to positive or negative implications.
 
@@ -47,17 +46,17 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874138598" POS="A" cBy="automatic" cDate="09/23/2020 15:15:38 UTC Wed" lemmaID="805" lu_type="singleton" name="volks.a" status="Created" FN_EN_LU_ID="16646" Method="Iteration-1" RBN_LU_ID="r_a-16103" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189728720" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:28:48 UTC Mon" lemmaID="803" lu_type="singleton" name="volks.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16103">
     <definition>horend bij het gewone volk</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="volks" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874141775" POS="A" cBy="automatic" cDate="09/23/2020 15:15:41 UTC Wed" lemmaID="806" lu_type="singleton" name="vulgair.a" status="Created" FN_EN_LU_ID="16646" Method="Iteration-1" RBN_LU_ID="r_a-16185" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189732454" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:28:52 UTC Mon" lemmaID="804" lu_type="singleton" name="vulgair.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16185">
     <definition>ordinair</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="vulgair" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874145033" POS="A" cBy="automatic" cDate="09/23/2020 15:15:45 UTC Wed" lemmaID="807" lu_type="singleton" name="gewoontjes.a" status="Created" FN_EN_LU_ID="16648" Method="Iteration-1" RBN_LU_ID="r_a-11463" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189736445" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:28:56 UTC Mon" lemmaID="805" lu_type="singleton" name="gewoontjes.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11463">
     <definition>alledaags</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="gewoontjes" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="05/13/2004 02:41:45 PDT Thu" name="Imprisonment" ID="1111" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The &lt;fen&gt;Authorities&lt;/fen&gt; put a &lt;fen&gt;Prisoner&lt;/fen&gt; in &lt;fen&gt;Prison&lt;/fen&gt; as punishment for an &lt;fen&gt;Offense&lt;/fen&gt;. 
 
@@ -95,7 +94,7 @@ for concentration camps), tortured them mentally and physically&lt;/ex&gt;
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872918952" POS="V" cBy="automatic" cDate="09/23/2020 14:55:18 UTC Wed" lemmaID="435" lu_type="phrasal" name="opsluiten.v" status="Created" FN_EN_LU_ID="13936" Method="Iteration-1" RBN_LU_ID="r_v-5774" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188148953" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:02:28 UTC Mon" lemmaID="433" lu_type="phrasal" name="opsluiten.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-5774">
     <definition>een mens of dier in een gesloten ruimte zetten waar hij of zij niet uit kan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="op" order="1"/>

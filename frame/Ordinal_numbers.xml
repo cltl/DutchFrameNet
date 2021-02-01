@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/29/2004 04:33:23 PDT Tue" name="Ordinal_numbers" ID="1147" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Item&lt;/fen&gt; is picked out either by the order in which the members of a set would be encountered by an implicit cognizer, or by the order in which the members of a set participate in an event or state which serves as the &lt;fen&gt;Basis_of_order&lt;/fen&gt;. The former case usually involves a &lt;fen&gt;Starting_point&lt;/fen&gt; for going through the set, while the latter involves a &lt;fen&gt;Basis_of_order&lt;/fen&gt;, which is normally an event that the &lt;fen&gt;Item&lt;/fen&gt; along with other members of its &lt;fen&gt;Comparison_set&lt;/fen&gt; has participated in.  Note that &lt;fen&gt;Item&lt;/fen&gt; should be annotated on a second layer, except in cases when the noun structure the ordinal participates in is predicative.
 
@@ -51,7 +50,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873516519" POS="A" cBy="automatic" cDate="09/23/2020 15:05:16 UTC Wed" lemmaID="620" lu_type="singleton" name="derde.a" status="Created" FN_EN_LU_ID="11251" Method="Iteration-1" RBN_LU_ID="r_a-10181" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188957625" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:15:57 UTC Mon" lemmaID="618" lu_type="singleton" name="derde.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-10181">
     <definition>als no. drie</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="derde" order="1"/>

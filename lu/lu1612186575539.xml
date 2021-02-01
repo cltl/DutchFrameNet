@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="A" name="klam.a" ID="1612186575539" frame="Being_wet" frameID="332" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12440" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Degr" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="90876C" type="Extra-Thematic" abbrev="Exp" name="Explanation"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Item" name="Item"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="Liq" name="Liquid"/>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Extra-Thematic" abbrev="sub" name="Subregion"/>
+    </frame>
+  </header>
+  <definition>vochtig aanvoelend</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="klam" order="1"/>
+</lexUnit>

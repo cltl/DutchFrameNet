@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="WmS" cDate="04/10/2012 03:12:26 PDT Tue" name="Condition_symptom_relation" ID="2718" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Patient&lt;/fen&gt; has a &lt;fen&gt;Medical_condition&lt;/fen&gt; that can be understood by its &lt;fen&gt;Symptom&lt;/fen&gt;s. This frame has been constructed to list all the ways to speak of relating a &lt;fen&gt;Patient&lt;/fen&gt;, a &lt;fen&gt;Medical_condition&lt;/fen&gt;, and &lt;fen&gt;Symptom&lt;/fen&gt;s, including LUs that are also related to much more general frames like Causation (e.g. cause.v).
 
@@ -55,7 +54,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872372293" POS="N" cBy="automatic" cDate="09/23/2020 14:46:12 UTC Wed" lemmaID="263" lu_type="singleton" name="manifest.n" status="Created" FN_EN_LU_ID="17010" Method="Iteration-1" RBN_LU_ID="r_n-23155" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187399944" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:50:00 UTC Mon" lemmaID="263" lu_type="singleton" name="manifest.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-23155">
     <definition>waarin kort en duidelijk de opvattingen van een partij of persoon staan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="manifest" order="1"/>

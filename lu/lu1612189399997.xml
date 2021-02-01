@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="A" name="volgend.a" ID="1612189399997" frame="Relative_time" frameID="81" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16306" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Degr" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Extra-Thematic" abbrev="Exp" name="Explanation"/>
+      <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="FEv" name="Focal_occasion"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Focal_participant"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Int" name="Interval"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="REv" name="Landmark_occasion"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Manr" name="Manner"/>
+    </frame>
+  </header>
+  <definition>wat volgt</definition>
+  <lexeme POS="A" breakBefore="false" headword="false" name="volgend" order="1"/>
+</lexUnit>

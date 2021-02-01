@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:24 PST Wed" name="Change_of_leadership" ID="72" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame concerns the appointment of a &lt;fen&gt;New_leader&lt;/fen&gt; or removal from office of an &lt;fen&gt;Old_leader&lt;/fen&gt;.  The &lt;fen&gt;Selector&lt;/fen&gt; brings about the change in leadership, for example, by electing or overthrowing a leader. Some words in the frame describe the successful removal from office of a leader (e.g. &lt;ment&gt;depose&lt;/ment&gt;, &lt;ment&gt;oust&lt;/ment&gt;), others simply the attempt (e.g. &lt;ment&gt;uprising, rebellion&lt;/ment&gt;).
 
@@ -111,7 +110,7 @@
     <relatedFrame ID="73">Leadership</relatedFrame>
   </frameRelation>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872051793" POS="V" cBy="automatic" cDate="09/23/2020 14:40:51 UTC Wed" lemmaID="179" lu_type="singleton" name="muiten.v" status="Created" FN_EN_LU_ID="1567" Method="Iteration-1" RBN_LU_ID="r_v-4790" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186951414" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:42:31 UTC Mon" lemmaID="179" lu_type="singleton" name="muiten.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4790">
     <definition>(van scheepsvolk) in opstand komen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="muiten" order="1"/>

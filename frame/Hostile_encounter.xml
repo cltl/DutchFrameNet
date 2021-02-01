@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="HCB" cDate="03/14/2001 05:28:35 PST Wed" name="Hostile_encounter" ID="93" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame consists of words that describe a hostile encounter between opposing forces (&lt;fen&gt;Side_1&lt;/fen&gt; and &lt;fen&gt;Side_2&lt;/fen&gt;, collectively conceptualizable as &lt;fen&gt;Sides&lt;/fen&gt;) over a disputed &lt;fen&gt;Issue&lt;/fen&gt; and/or in order to reach a specific  &lt;fen&gt;Purpose&lt;/fen&gt;.
 &lt;ex&gt;&lt;/ex&gt;
@@ -126,12 +125,12 @@ or it the state of affairs may be implicit in an (abstract or concrete) entity t
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872890174" POS="N" cBy="automatic" cDate="09/23/2020 14:54:50 UTC Wed" lemmaID="426" lu_type="singleton" name="schermutseling.n" status="Created" FN_EN_LU_ID="1924" Method="Iteration-1" RBN_LU_ID="r_n-32919" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188116365" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:01:56 UTC Mon" lemmaID="424" lu_type="singleton" name="schermutseling.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-32919">
     <definition>in de vorm van een woordenwisseling of klein handgemeen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="schermutseling" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872893449" POS="V" cBy="automatic" cDate="09/23/2020 14:54:53 UTC Wed" lemmaID="427" lu_type="singleton" name="duelleren.v" status="Created" FN_EN_LU_ID="1932" Method="Iteration-1" RBN_LU_ID="r_v-2582" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188119657" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:01:59 UTC Mon" lemmaID="425" lu_type="singleton" name="duelleren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2582">
     <definition>een tweegevecht hebben</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="duelleren" order="1"/>

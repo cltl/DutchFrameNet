@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:28 PST Wed" name="Frequency" ID="80" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame has to do with the repetition (and especially the frequency of repetition) of an event. Many of the adjectives and adverbs in this frame are based on nouns in the Calendric_unit frame.
 
@@ -78,22 +77,22 @@
   <frameRelation type="See also">
     <relatedFrame ID="229">Calendric_unit</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600872820874" POS="A" cBy="automatic" cDate="09/23/2020 14:53:40 UTC Wed" lemmaID="404" lu_type="singleton" name="maandelijks.a" status="Created" FN_EN_LU_ID="1733" Method="Iteration-1" RBN_LU_ID="r_a-12707" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188033145" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:00:33 UTC Mon" lemmaID="402" lu_type="singleton" name="maandelijks.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12707">
     <definition>elke maand</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="maandelijks" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872823960" POS="A" cBy="automatic" cDate="09/23/2020 14:53:43 UTC Wed" lemmaID="405" lu_type="singleton" name="sporadisch.a" status="Created" FN_EN_LU_ID="1740" Method="Iteration-1" RBN_LU_ID="r_a-15165" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188037869" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:00:37 UTC Mon" lemmaID="403" lu_type="singleton" name="sporadisch.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15165">
     <definition>zelden voorkomend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="sporadisch" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872827145" POS="A" cBy="automatic" cDate="09/23/2020 14:53:47 UTC Wed" lemmaID="406" lu_type="singleton" name="wekelijks.a" status="Created" FN_EN_LU_ID="1741" Method="Iteration-1" RBN_LU_ID="r_a-15702" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188042981" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:00:42 UTC Mon" lemmaID="404" lu_type="singleton" name="wekelijks.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15702">
     <definition>eens per week</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="wekelijks" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872830208" POS="A" cBy="automatic" cDate="09/23/2020 14:53:50 UTC Wed" lemmaID="407" lu_type="singleton" name="jaarlijks.a" status="Created" FN_EN_LU_ID="1742" Method="Iteration-1" RBN_LU_ID="r_a-12084" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188046942" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:00:46 UTC Mon" lemmaID="405" lu_type="singleton" name="jaarlijks.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12084">
     <definition>elk  jaar terugkerend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="jaarlijks" order="1"/>

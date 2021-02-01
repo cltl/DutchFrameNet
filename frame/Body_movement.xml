@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:49 PST Wed" name="Body_movement" ID="16" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame contains words for motions or actions an &lt;fen&gt;Agent&lt;/fen&gt; performs using some part of his/her body. 
 
@@ -147,42 +146,42 @@ With others, the &lt;fen&gt;Body_part&lt;/fen&gt; is specified by the verb but c
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871699510" POS="V" cBy="automatic" cDate="09/23/2020 14:34:59 UTC Wed" lemmaID="86" lu_type="singleton" name="verbijten.v" status="Created" FN_EN_LU_ID="80" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-8794" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186656042" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:37:36 UTC Mon" lemmaID="86" lu_type="singleton" name="verbijten.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8794">
     <definition>je met moeite inhouden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verbijten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871704409" POS="V" cBy="automatic" cDate="09/23/2020 14:35:04 UTC Wed" lemmaID="87" lu_type="singleton" name="spijbelen.v" status="Created" FN_EN_LU_ID="103" Method="Iteration-1" RBN_LU_ID="r_v-7370" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186658789" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:37:38 UTC Mon" lemmaID="87" lu_type="singleton" name="spijbelen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7370">
     <definition>zonder geldige reden niet naar school gaan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="spijbelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871708996" POS="V" cBy="automatic" cDate="09/23/2020 14:35:08 UTC Wed" lemmaID="88" lu_type="singleton" name="kwispelen.v" status="Created" FN_EN_LU_ID="103" Method="Iteration-1" RBN_LU_ID="r_v-4252" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186661731" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:37:41 UTC Mon" lemmaID="88" lu_type="singleton" name="kwispelen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4252">
     <definition>met de staart heen en weer bewegen van blijdschap of opwinding (van honden)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="kwispelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871713085" POS="V" cBy="manual" cDate="09/23/2020 14:35:13 UTC Wed" lemmaID="89" lu_type="singleton" name="wriemelen.v" status="Created" FN_EN_LU_ID="3981" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-10197" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186664484" POS="V" cBy="ThomasKlein" cDate="02/01/2021 13:37:44 UTC Mon" lemmaID="89" lu_type="singleton" name="wriemelen.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-10197">
     <definition>met onrustig bewegende vingers betasten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="wriemelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871716487" POS="V" cBy="automatic" cDate="09/23/2020 14:35:16 UTC Wed" lemmaID="90" lu_type="singleton" name="frunniken.v" status="Created" FN_EN_LU_ID="3981" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2833" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186667422" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:37:47 UTC Mon" lemmaID="90" lu_type="singleton" name="frunniken.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2833">
     <definition>steeds met je vingers aan de of het genoemde zitten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="frunniken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871719524" POS="V" cBy="automatic" cDate="09/23/2020 14:35:19 UTC Wed" lemmaID="91" lu_type="singleton" name="frommelen.v" status="Created" FN_EN_LU_ID="3981" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2828" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186670354" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:37:50 UTC Mon" lemmaID="91" lu_type="singleton" name="frommelen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2828">
     <definition>tersluiks of slordig wegstoppen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="frommelen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871722451" POS="V" cBy="automatic" cDate="09/23/2020 14:35:22 UTC Wed" lemmaID="92" lu_type="singleton" name="frutselen.v" status="Created" FN_EN_LU_ID="3981" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2835" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186673113" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:37:53 UTC Mon" lemmaID="92" lu_type="singleton" name="frutselen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2835">
     <definition>met je vingers voortdurend aan het genoemde zitten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="frutselen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871725594" POS="V" cBy="automatic" cDate="09/23/2020 14:35:25 UTC Wed" lemmaID="93" lu_type="singleton" name="morrelen.v" status="Created" FN_EN_LU_ID="3981" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4779" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186676085" POS="V" cBy="Iteration-2" cDate="02/01/2021 13:37:56 UTC Mon" lemmaID="93" lu_type="singleton" name="morrelen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4779">
     <definition>ergens aan prutsen of mee rammelen, bijv. om het open te krijgen, te herstellen of te veranderen (ook figuurlijk)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="morrelen" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/17/2005 04:15:20 PDT Fri" name="Giving_in" ID="1497" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Capitulator&lt;/fen&gt; who has been opposing a &lt;fen&gt;Force&lt;/fen&gt;, which is typically exerted by a &lt;fen&gt;Compeller&lt;/fen&gt;, ceases opposing that &lt;fen&gt;Force&lt;/fen&gt;. As a result, the &lt;fen&gt;Force&lt;/fen&gt; runs its course and an &lt;fen&gt;Issue&lt;/fen&gt; is resolved against the interests of the &lt;fen&gt;Capitulator&lt;/fen&gt;.
 
@@ -103,24 +102,24 @@ of the Romans and finally &lt;t&gt;yielded&lt;/t&gt; to them &lt;fex name="pur"&
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872852282" POS="V" cBy="automatic" cDate="09/23/2020 14:54:12 UTC Wed" lemmaID="414" lu_type="singleton" name="verzachten.v" status="Created" FN_EN_LU_ID="12217" Method="Iteration-1" RBN_LU_ID="r_v-9517" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188073294" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:01:13 UTC Mon" lemmaID="412" lu_type="singleton" name="verzachten.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9517">
     <definition>minder hard, scherp of pijnlijk maken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="verzachten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872855458" POS="V" cBy="automatic" cDate="09/23/2020 14:54:15 UTC Wed" lemmaID="415" lu_type="phrasal" name="opgeven.v" status="Created" FN_EN_LU_ID="12230" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-5570" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188077331" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:01:17 UTC Mon" lemmaID="413" lu_type="phrasal" name="opgeven.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-5570">
     <definition>ophouden met iets waar je niet mee kan doorgaan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="op" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="geven" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600872858568" POS="V" cBy="automatic" cDate="09/23/2020 14:54:18 UTC Wed" lemmaID="416" lu_type="phrasal" name="afzien.v" status="Created" FN_EN_LU_ID="12230" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-950" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188080899" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:01:20 UTC Mon" lemmaID="414" lu_type="phrasal" name="afzien.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-950">
     <definition>niet meer willen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="af" order="1"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="zien" order="2"/>
   </lexUnit>
-  <lexUnit ID="1600872861683" POS="V" cBy="automatic" cDate="09/23/2020 14:54:21 UTC Wed" lemmaID="417" lu_type="singleton" name="hangen.v" status="Created" FN_EN_LU_ID="12230" Method="Iteration-2_ODWN" RBN_LU_ID="c_545604" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188084222" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:01:24 UTC Mon" lemmaID="415" lu_type="singleton" name="hangen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-c_545604">
     <definition>niet rechtop staan of zitten, niet strak zijn</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="hangen" order="1"/>

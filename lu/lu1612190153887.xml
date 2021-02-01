@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="praatjesmaker.n" ID="1612190153887" frame="Volubility" frameID="44" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-29432" lu_type="exocentric compound">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Comp" name="Company"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Degr" name="Degree"/>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="jud" name="Judge"/>
+      <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Manr" name="Manner"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Medium" name="Medium"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Text" name="Text"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="Top" name="Topic"/>
+    </frame>
+  </header>
+  <definition>die veel praatjes heeft, zich veel inbeeldt</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="praatjesmaker" order="1"/>
+</lexUnit>

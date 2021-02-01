@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="03/25/2005 05:44:53 PST Fri" name="Obviousness" ID="1360" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Phenomenon&lt;/fen&gt; is portrayed with respect to the &lt;fen&gt;Degree&lt;/fen&gt; of likelihood that it will  be perceived and known, given the (usually implicit) &lt;fen&gt;Evidence&lt;/fen&gt;, &lt;fen&gt;Perceiver&lt;/fen&gt;, and the &lt;fen&gt;Circumstances&lt;/fen&gt; in which it is considered.  For several of the LUs, such as &lt;ment&gt;visible, audible, etc.&lt;/ment&gt;, the type of the &lt;fen&gt;Evidence&lt;/fen&gt; is fixed by the targets themselves being a perceptual experience.
 
@@ -82,22 +81,22 @@ the climb is the ascent up to the southern peak. &lt;/ex&gt;&lt;/def-root&gt;</d
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873474522" POS="A" cBy="automatic" cDate="09/23/2020 15:04:34 UTC Wed" lemmaID="607" lu_type="singleton" name="overduidelijk.a" status="Created" FN_EN_LU_ID="11772" Method="Iteration-1" RBN_LU_ID="r_a-13966" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188915120" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:15:15 UTC Mon" lemmaID="605" lu_type="singleton" name="overduidelijk.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13966">
     <definition>volstrekt duidelijk</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="overduidelijk" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873477704" POS="A" cBy="automatic" cDate="09/23/2020 15:04:37 UTC Wed" lemmaID="608" lu_type="singleton" name="manifest.a" status="Created" FN_EN_LU_ID="11774" Method="Iteration-1" RBN_LU_ID="r_a-12740" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188918498" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:15:18 UTC Mon" lemmaID="606" lu_type="singleton" name="manifest.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12740">
     <definition>onmiskenbaar</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="manifest" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873480848" POS="A" cBy="automatic" cDate="09/23/2020 15:04:40 UTC Wed" lemmaID="609" lu_type="singleton" name="hoorbaar.a" status="Created" FN_EN_LU_ID="12124" Method="Iteration-1" RBN_LU_ID="r_a-11751" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188921721" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:15:21 UTC Mon" lemmaID="607" lu_type="singleton" name="hoorbaar.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11751">
     <definition>te horen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="hoorbaar" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873484311" POS="V" cBy="automatic" cDate="09/23/2020 15:04:44 UTC Wed" lemmaID="610" lu_type="singleton" name="exposeren.v" status="Created" FN_EN_LU_ID="15786" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2690" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188924768" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:15:24 UTC Mon" lemmaID="608" lu_type="singleton" name="exposeren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2690">
     <definition>(voorwerpen) vertonen vanwege hun artistieke of curieuze waarde</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="exposeren" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="01/14/2003 02:17:53 PST Tue" name="Similarity" ID="481" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;Two or more distinct entities, which may be concrete or abstract objects or types, are characterized as being similar to each other.  Depending on figure/ground relations, the entities may be expressed in two distinct frame elements and constituents , &lt;fen&gt;Entity_1&lt;/fen&gt; and &lt;fen&gt;Entity_2&lt;/fen&gt;, or jointly as a single frame element and constituent, &lt;fen&gt;Entities&lt;/fen&gt;.  The similarity may be based on appearance, physical properties, or other characteristics of the two entities. However, no such &lt;fen&gt;Dimension&lt;/fen&gt; has to  be specified explicitly.  The &lt;fen&gt;Entities&lt;/fen&gt; may be like each other to a greater or lesser &lt;fen&gt;Degree&lt;/fen&gt;. Rather than specifying the &lt;fen&gt;Dimension&lt;/fen&gt; of difference, a &lt;fen&gt;Differentiating_fact&lt;/fen&gt; may be mentioned.  
 &lt;ex&gt;&lt;/ex&gt;
@@ -98,27 +97,27 @@ Notice that, although similarity presupposes the notion of a judge who assesses 
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874060605" POS="V" cBy="automatic" cDate="09/23/2020 15:14:20 UTC Wed" lemmaID="783" lu_type="singleton" name="gelijken.v" status="Created" FN_EN_LU_ID="7974" Method="Iteration-1" RBN_LU_ID="r_v-2894" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189635632" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:27:15 UTC Mon" lemmaID="781" lu_type="singleton" name="gelijken.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2894">
     <definition>in vele opzichten of in zekere mate overeenkomen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="gelijken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874067213" POS="V" cBy="automatic" cDate="09/23/2020 15:14:27 UTC Wed" lemmaID="784" lu_type="singleton" name="trekken.v" status="Created" FN_EN_LU_ID="7974" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-8141" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189643589" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:27:23 UTC Mon" lemmaID="782" lu_type="singleton" name="trekken.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8141">
     <definition>lijken op</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="trekken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874070484" POS="V" cBy="automatic" cDate="09/23/2020 15:14:30 UTC Wed" lemmaID="785" lu_type="singleton" name="aarden.v" status="Created" FN_EN_LU_ID="7974" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-346" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189648126" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:27:28 UTC Mon" lemmaID="783" lu_type="singleton" name="aarden.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-346">
     <definition>in aard, karakter op iemand lijken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="aarden" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874073693" POS="V" cBy="automatic" cDate="09/23/2020 15:14:33 UTC Wed" lemmaID="786" lu_type="singleton" name="neigen.v" status="Created" FN_EN_LU_ID="7974" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4946" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189651714" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:27:31 UTC Mon" lemmaID="784" lu_type="singleton" name="neigen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4946">
     <definition>bepaalde gelijkenissen vertonen met</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="neigen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874077303" POS="N" cBy="automatic" cDate="09/23/2020 15:14:37 UTC Wed" lemmaID="787" lu_type="singleton" name="ongelijkheid.n" status="Created" FN_EN_LU_ID="12323" Method="Iteration-1" RBN_LU_ID="r_n-26062" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189656851" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:27:36 UTC Mon" lemmaID="785" lu_type="singleton" name="ongelijkheid.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-26062">
     <definition>van het verschillen, oneffen of ongelijkmatig zijn</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="ongelijkheid" order="1"/>

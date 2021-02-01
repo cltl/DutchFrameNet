@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="lepel.n" ID="1612188599322" frame="Measure_volume" frameID="155" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-21847" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Count"/>
+      <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Size" name="Size"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Stuff"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Unit"/>
+    </frame>
+  </header>
+  <definition>om min of meer vloeibare stoffen als soep of pap mee te eten, eten op te scheppen of om te roeren</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="lepel" order="1"/>
+</lexUnit>

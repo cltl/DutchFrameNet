@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="11/19/2002 03:10:50 PST Tue" name="Color" ID="423" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Color&lt;/fen&gt; serves as a landmark in color-space, either a point-like landmark (e.g. &lt;ment&gt;burnt sienna&lt;/ment&gt;) or a broader region (e.g. &lt;ment&gt;blue&lt;/ment&gt;).  Especially when the &lt;fen&gt;Color&lt;/fen&gt; designates a broad region in color-space, it may be defined with a specific &lt;fen&gt;Type&lt;/fen&gt;, further specified by comparison to the color of a &lt;fen&gt;Comparand&lt;/fen&gt;, modified by a &lt;fen&gt;Color_qualifier&lt;/fen&gt;, or evaluated with a &lt;fen&gt;Descriptor&lt;/fen&gt;.  All color words are generally used to specify the color of some (physical) &lt;fen&gt;Entity&lt;/fen&gt;.
 &lt;ex&gt;I really like that shade of &lt;fex name="Color"&gt;&lt;t&gt;blue&lt;/t&gt;&lt;/fex&gt;.&lt;/ex&gt;
@@ -68,42 +67,42 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872182170" POS="A" cBy="automatic" cDate="09/23/2020 14:43:02 UTC Wed" lemmaID="211" lu_type="singleton" name="oranje.a" status="Created" FN_EN_LU_ID="7731" Method="Iteration-1" RBN_LU_ID="r_a-13925" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187068400" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:44:28 UTC Mon" lemmaID="211" lu_type="singleton" name="oranje.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13925">
     <definition>sinaasappelkleurig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="oranje" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872185292" POS="A" cBy="automatic" cDate="09/23/2020 14:43:05 UTC Wed" lemmaID="212" lu_type="singleton" name="violet.a" status="Created" FN_EN_LU_ID="7734" Method="Iteration-1" RBN_LU_ID="r_a-16294" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187071722" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:44:31 UTC Mon" lemmaID="212" lu_type="singleton" name="violet.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16294">
     <definition>blauwpaars</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="violet" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872188849" POS="A" cBy="automatic" cDate="09/23/2020 14:43:08 UTC Wed" lemmaID="213" lu_type="singleton" name="roze.a" status="Created" FN_EN_LU_ID="7757" Method="Iteration-1" RBN_LU_ID="r_a-14643" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187075219" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:44:35 UTC Mon" lemmaID="213" lu_type="singleton" name="roze.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-14643">
     <definition>bleekrood</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="roze" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872193078" POS="A" cBy="automatic" cDate="09/23/2020 14:43:13 UTC Wed" lemmaID="214" lu_type="singleton" name="beige.a" status="Created" FN_EN_LU_ID="8139" Method="Iteration-1" RBN_LU_ID="r_a-9199" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187078881" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:44:38 UTC Mon" lemmaID="214" lu_type="singleton" name="beige.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9199">
     <definition>lichtbruin</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="beige" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872196300" POS="A" cBy="automatic" cDate="09/23/2020 14:43:16 UTC Wed" lemmaID="215" lu_type="singleton" name="paars.a" status="Created" FN_EN_LU_ID="8170" Method="Iteration-1" RBN_LU_ID="r_a-14242" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187082238" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:44:42 UTC Mon" lemmaID="215" lu_type="singleton" name="paars.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-14242">
     <definition>roodblauw gekleurd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="paars" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872199644" POS="A" cBy="automatic" cDate="09/23/2020 14:43:19 UTC Wed" lemmaID="216" lu_type="singleton" name="mauve.a" status="Created" FN_EN_LU_ID="8170" Method="Iteration-1" RBN_LU_ID="r_a-12779" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187085626" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:44:45 UTC Mon" lemmaID="216" lu_type="singleton" name="mauve.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12779">
     <definition>zacht paars</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="mauve" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872203756" POS="A" cBy="automatic" cDate="09/23/2020 14:43:23 UTC Wed" lemmaID="217" lu_type="singleton" name="gebruind.a" status="Created" FN_EN_LU_ID="8171" Method="Iteration-1" RBN_LU_ID="r_a-11227" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187089284" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:44:49 UTC Mon" lemmaID="217" lu_type="singleton" name="gebruind.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11227">
     <definition>bruin zijnde</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="gebruind" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872207265" POS="A" cBy="manual" cDate="09/23/2020 14:43:27 UTC Wed" lemmaID="218" lu_type="singleton" name="scharlaken.a" status="Created" FN_EN_LU_ID="8173" Method="Iteration-1" RBN_LU_ID="r_a-14811" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187092771" POS="A" cBy="ThomasKlein" cDate="02/01/2021 13:44:52 UTC Mon" lemmaID="218" lu_type="singleton" name="scharlaken.a" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-14811">
     <definition>helder rood</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="scharlaken" order="1"/>

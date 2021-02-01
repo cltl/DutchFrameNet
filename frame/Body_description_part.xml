@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="09/28/2001 12:54:36 PDT Fri" name="Body_description_part" ID="235" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame is concerned with words that describe a person based on a salient part of their body.
 &lt;ex&gt;He was a &lt;t&gt;blonde&lt;/t&gt; &lt;fex name="Individual"&gt;guy&lt;/fex&gt;.&lt;/ex&gt;
@@ -40,17 +39,17 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871675744" POS="N" cBy="automatic" cDate="09/23/2020 14:34:35 UTC Wed" lemmaID="81" lu_type="singleton" name="brunette.n" status="Created" FN_EN_LU_ID="5650" Method="Iteration-1" RBN_LU_ID="r_n-8679" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186641564" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:37:21 UTC Mon" lemmaID="81" lu_type="singleton" name="brunette.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-8679">
     <definition>met bruine haren</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="brunette" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871679817" POS="N" cBy="automatic" cDate="09/23/2020 14:34:39 UTC Wed" lemmaID="82" lu_type="singleton" name="albino.n" status="Created" FN_EN_LU_ID="5654" Method="Iteration-1" RBN_LU_ID="r_n-3232" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186644500" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:37:24 UTC Mon" lemmaID="82" lu_type="singleton" name="albino.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-3232">
     <definition>zonder pigment, met een witte huid, wit haar en rode ogen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="albino" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871685066" POS="A" cBy="automatic" cDate="09/23/2020 14:34:45 UTC Wed" lemmaID="83" lu_type="singleton" name="scheel.a" status="Created" FN_EN_LU_ID="5658" Method="Iteration-1" RBN_LU_ID="r_a-14816" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186647282" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:37:27 UTC Mon" lemmaID="83" lu_type="singleton" name="scheel.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-14816">
     <definition>loens</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="scheel" order="1"/>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="03/02/2001 09:25:04 PST Fri" name="Suasion" ID="89" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; succeeds in getting an &lt;fen&gt;Addressee&lt;/fen&gt; to believe or plan to execute the &lt;fen&gt;Content&lt;/fen&gt; the &lt;fen&gt;Speaker&lt;/fen&gt; has in mind. In most cases, the information is related to some course of action for the &lt;fen&gt;Addressee&lt;/fen&gt;, and the words of this frame imply that the &lt;fen&gt;Addressee&lt;/fen&gt; has formed an intention to act consistently with the &lt;fen&gt;Content&lt;/fen&gt;. There is no implication that the &lt;fen&gt;Addressee&lt;/fen&gt; actually acts upon the intention formed. In the case of &lt;ment&gt;convince&lt;/ment&gt; and &lt;ment&gt;persuade&lt;/ment&gt;, the act that the &lt;fen&gt;Speaker&lt;/fen&gt; wishes the &lt;fen&gt;Addressee&lt;/fen&gt; to perform can be the adoption of a belief, which may be expressed as a that-clause or as an of-PP complement.
 
@@ -83,7 +82,7 @@ This Frame has unique Frame-to-Frame Relations: it inherits from and uses the Ev
     <relatedFrame ID="363">Deciding</relatedFrame>
   </frameRelation>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874280127" POS="V" cBy="automatic" cDate="09/23/2020 15:18:00 UTC Wed" lemmaID="848" lu_type="phrasal" name="afbrengen.v" status="Created" FN_EN_LU_ID="1860" Method="Iteration-1" RBN_LU_ID="r_v-453" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189900707" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:31:40 UTC Mon" lemmaID="846" lu_type="phrasal" name="afbrengen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-453">
     <definition>iemand zo bepraten dat hij het genoemde niet uitvoert</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="af" order="1"/>

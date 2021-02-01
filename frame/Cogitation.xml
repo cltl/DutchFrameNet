@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:54 PST Wed" name="Cogitation" ID="22" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A person, the &lt;fen&gt;Cognizer&lt;/fen&gt;, thinks about a &lt;fen&gt;Topic&lt;/fen&gt; over a period of time. What is thought about may be a course of action that the person might take, or something more general.
 
@@ -78,7 +77,7 @@ With a target noun, the Topic is typically expressed in a PP.
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872168095" POS="V" cBy="automatic" cDate="09/23/2020 14:42:48 UTC Wed" lemmaID="207" lu_type="singleton" name="mijmeren.v" status="Created" FN_EN_LU_ID="216" Method="Iteration-1" RBN_LU_ID="r_v-4684" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187052202" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:44:12 UTC Mon" lemmaID="207" lu_type="singleton" name="mijmeren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4684">
     <definition>lang en peinzend over iets nadenken zonder dat je gedachten een bepaalde lijn volgen, meestal in een weemoedige stemming</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="mijmeren" order="1"/>

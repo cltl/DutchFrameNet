@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="08/04/2001 08:20:58 PDT Sat" name="Clothing_parts" ID="194" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The &lt;fen&gt;Subpart&lt;/fen&gt;s of &lt;fen&gt;Clothing&lt;/fen&gt; items worn by a &lt;fen&gt;Wearer&lt;/fen&gt; and made of a certain &lt;fen&gt;Material&lt;/fen&gt;.  The &lt;fen&gt;Subpart&lt;/fen&gt; may itself have parts, which we label &lt;fen&gt;Subregion&lt;/fen&gt;:
 
@@ -61,7 +60,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872164137" POS="N" cBy="automatic" cDate="09/23/2020 14:42:44 UTC Wed" lemmaID="206" lu_type="singleton" name="monogram.n" status="Created" FN_EN_LU_ID="3982" Method="Iteration-1" RBN_LU_ID="r_n-24199" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187048595" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:44:08 UTC Mon" lemmaID="206" lu_type="singleton" name="monogram.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-24199">
     <definition>van dooreengevlochten letters, mn. de beginletters van een naam</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="monogram" order="1"/>

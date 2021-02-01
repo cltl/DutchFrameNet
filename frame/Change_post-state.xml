@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="CFB" cDate="06/07/2016 04:19:24 PDT Tue" name="Change_post-state" ID="3011" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The frame represents the result state of the &lt;fen&gt;Entity&lt;/fen&gt; after event represented by the Undergo_change frame. The intial states of the Undergo_change frame Initial_quality and Initial_situation are also FEs of this frame. &lt;/def-root&gt;</definition>
   <semType name="State" ID="77"/>
@@ -19,7 +18,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872058226" POS="A" cBy="automatic" cDate="09/23/2020 14:40:58 UTC Wed" lemmaID="181" lu_type="singleton" name="ongewijzigd.a" status="Created" FN_EN_LU_ID="18725" Method="Iteration-1" RBN_LU_ID="r_a-13544" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186957952" POS="A" cBy="Iteration-1" cDate="02/01/2021 13:42:37 UTC Mon" lemmaID="181" lu_type="singleton" name="ongewijzigd.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13544">
     <definition>onveranderd</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="ongewijzigd" order="1"/>

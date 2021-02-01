@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="01/21/2003 03:43:54 PST Tue" name="Thwarting" ID="518" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame a &lt;fen&gt;Preventing_cause&lt;/fen&gt; interferes with the ability of a &lt;fen&gt;Protagonist&lt;/fen&gt; to complete an intended &lt;fen&gt;Action&lt;/fen&gt;. The &lt;fen&gt;Protagonist&lt;/fen&gt; may not be mentioned in the sentence, in which case the &lt;fen&gt;Action&lt;/fen&gt; is an endeavor that an individual or group of individuals hopes to accomplish. In this frame it is necessary that the &lt;fen&gt;Protagonist&lt;/fen&gt; is unable to successfully complete the &lt;fen&gt;Action&lt;/fen&gt;. 
 
@@ -65,27 +64,27 @@
     <relatedFrame ID="1388">Success_or_failure</relatedFrame>
   </frameRelation>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874426688" POS="V" cBy="automatic" cDate="09/23/2020 15:20:26 UTC Wed" lemmaID="893" lu_type="singleton" name="belemmeren.v" status="Created" FN_EN_LU_ID="8096" Method="Iteration-1" RBN_LU_ID="r_v-1259" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190054737" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:34:14 UTC Mon" lemmaID="891" lu_type="singleton" name="belemmeren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1259">
     <definition>iets of iemand tegenwerken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="belemmeren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874430063" POS="V" cBy="automatic" cDate="09/23/2020 15:20:30 UTC Wed" lemmaID="894" lu_type="singleton" name="hinderen.v" status="Created" FN_EN_LU_ID="8096" Method="Iteration-1" RBN_LU_ID="r_v-3225" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190058002" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:34:18 UTC Mon" lemmaID="892" lu_type="singleton" name="hinderen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3225">
     <definition>de of het genoemde last bezorgen door hem, haar of het te storen of te belemmeren</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="hinderen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874433339" POS="V" cBy="automatic" cDate="09/23/2020 15:20:33 UTC Wed" lemmaID="895" lu_type="singleton" name="remmen.v" status="Created" FN_EN_LU_ID="8096" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6650" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190061281" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:34:21 UTC Mon" lemmaID="893" lu_type="singleton" name="remmen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6650">
     <definition>de beweging of voortgang van iemand of iets vertragen, belemmeren (vaak figuurlijk)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="remmen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874436506" POS="V" cBy="automatic" cDate="09/23/2020 15:20:36 UTC Wed" lemmaID="896" lu_type="singleton" name="bemoeilijken.v" status="Created" FN_EN_LU_ID="8096" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-1293" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190064572" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:34:24 UTC Mon" lemmaID="894" lu_type="singleton" name="bemoeilijken.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-1293">
     <definition>moeilijker, lastiger maken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="bemoeilijken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874439774" POS="V" cBy="manual" cDate="09/23/2020 15:20:39 UTC Wed" lemmaID="897" lu_type="singleton" name="stuiten.v" status="Created" FN_EN_LU_ID="8096" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7639" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190067844" POS="V" cBy="ThomasKlein" cDate="02/01/2021 14:34:27 UTC Mon" lemmaID="895" lu_type="singleton" name="stuiten.v" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7639">
     <definition>de of het genoemde tegenhouden, tot staan brengen (ook figuurlijk)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="stuiten" order="1"/>

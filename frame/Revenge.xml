@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/10/2002 03:08:32 PDT Mon" name="Revenge" ID="347" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame concerns the infliction of punishment in return for a wrong suffered. An &lt;fen&gt;Avenger&lt;/fen&gt; performs a &lt;fen&gt;Punishment&lt;/fen&gt; on a &lt;fen&gt;Offender&lt;/fen&gt; as a consequence of an earlier action by the &lt;fen&gt;Offender&lt;/fen&gt;, the &lt;fen&gt;Injury&lt;/fen&gt;. The &lt;fen&gt;Avenger&lt;/fen&gt; inflicting the&lt;fen&gt;Punishment&lt;/fen&gt; need not be the same as the &lt;fen&gt;Injured_Party&lt;/fen&gt; who suffered the &lt;fen&gt;Injury&lt;/fen&gt;,  but the &lt;fen&gt;Avenger&lt;/fen&gt; does have to share the judgment that the &lt;fen&gt;Offender&lt;/fen&gt;'s action was wrong. The judgment that the &lt;fen&gt;Offender&lt;/fen&gt; had inflicted an &lt;fen&gt;Injury&lt;/fen&gt;  is made without regard to the law.
 
@@ -94,12 +93,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873929550" POS="N" cBy="automatic" cDate="09/23/2020 15:12:09 UTC Wed" lemmaID="744" lu_type="singleton" name="vendetta.n" status="Created" FN_EN_LU_ID="6058" Method="Iteration-1" RBN_LU_ID="r_n-39815" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189463421" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:24:23 UTC Mon" lemmaID="742" lu_type="singleton" name="vendetta.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-39815">
     <definition>van de moord op een familielid op de moordenaar en zijn familie</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="vendetta" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873932767" POS="A" cBy="automatic" cDate="09/23/2020 15:12:12 UTC Wed" lemmaID="745" lu_type="singleton" name="wraakzuchtig.a" status="Created" FN_EN_LU_ID="6068" Method="Iteration-1" RBN_LU_ID="r_a-15848" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189467076" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:24:27 UTC Mon" lemmaID="743" lu_type="singleton" name="wraakzuchtig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15848">
     <definition>rancuneus</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="wraakzuchtig" order="1"/>

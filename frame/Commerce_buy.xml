@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MRLP" cDate="07/12/2001 12:38:02 PDT Thu" name="Commerce_buy" ID="171" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;These are words describing a basic commercial transaction involving a &lt;fen&gt;Buyer&lt;/fen&gt; and a &lt;fen&gt;Seller&lt;/fen&gt; exchanging &lt;fen&gt;Money&lt;/fen&gt; and &lt;fen&gt;Goods&lt;/fen&gt;, taking the perspective of the &lt;fen&gt;Buyer&lt;/fen&gt;.  The words vary individually in the patterns of frame element realization they allow.  For example, the typical pattern for the verb BUY:
 &lt;fen&gt;Buyer&lt;/fen&gt; buys &lt;fen&gt;Goods&lt;/fen&gt; from &lt;fen&gt;Seller&lt;/fen&gt; for &lt;fen&gt;Money&lt;/fen&gt;.
@@ -93,7 +92,7 @@ Generally, it occurs in a &lt;ment&gt;by&lt;/ment&gt;-PP.
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872255678" POS="V" cBy="automatic" cDate="09/23/2020 14:44:15 UTC Wed" lemmaID="228" lu_type="phrasal" name="afkopen.v" status="Created" FN_EN_LU_ID="2971" Method="Iteration-1" RBN_LU_ID="r_v-579" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187135206" POS="V" cBy="Iteration-1" cDate="02/01/2021 13:45:35 UTC Mon" lemmaID="228" lu_type="phrasal" name="afkopen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-579">
     <definition>geld betalen zodat je iets niet hoeft te doen, of zodat een ander het niet doet</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme breakBefore="false" headword="false" name="af" order="1"/>

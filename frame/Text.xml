@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="KCo" cDate="04/02/2002 06:24:53 PST Tue" name="Text" ID="298" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Text&lt;/fen&gt; is an entity that contains linguistic, symbolic information on a &lt;fen&gt;Topic&lt;/fen&gt;, created by an &lt;fen&gt;Author&lt;/fen&gt; at the &lt;fen&gt;Time_of_creation&lt;/fen&gt;.  It may be a physical entity that is made of a certain &lt;fen&gt;Material&lt;/fen&gt; etc.  It may be constructed for an &lt;fen&gt;Honoree&lt;/fen&gt;.
 
@@ -98,62 +97,62 @@ NOTE: when the &lt;fen&gt;Title&lt;/fen&gt; is expressed in an appositive clause
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874358096" POS="N" cBy="automatic" cDate="09/23/2020 15:19:18 UTC Wed" lemmaID="872" lu_type="singleton" name="autobiografie.n" status="Created" FN_EN_LU_ID="5383" Method="Iteration-1" RBN_LU_ID="r_n-4185" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189986384" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:33:06 UTC Mon" lemmaID="870" lu_type="singleton" name="autobiografie.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-4185">
     <definition>over het leven van de auteur zelf</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="autobiografie" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874361404" POS="N" cBy="automatic" cDate="09/23/2020 15:19:21 UTC Wed" lemmaID="873" lu_type="singleton" name="kroniek.n" status="Created" FN_EN_LU_ID="5386" Method="Iteration-1" RBN_LU_ID="r_n-20853" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189989580" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:33:09 UTC Mon" lemmaID="871" lu_type="singleton" name="kroniek.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-20853">
     <definition>waarin feiten en voorvallen worden opgesomd in de volgorde waarin ze gebeurd zijn</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="kroniek" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874364754" POS="N" cBy="automatic" cDate="09/23/2020 15:19:24 UTC Wed" lemmaID="874" lu_type="singleton" name="elegie.n" status="Created" FN_EN_LU_ID="5390" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-12275" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189992859" POS="N" cBy="Iteration-2" cDate="02/01/2021 14:33:12 UTC Mon" lemmaID="872" lu_type="singleton" name="elegie.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-12275">
     <definition>over het verlies van het aangename dat men vroeger bezat</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="elegie" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874368039" POS="N" cBy="automatic" cDate="09/23/2020 15:19:28 UTC Wed" lemmaID="875" lu_type="singleton" name="epos.n" status="Created" FN_EN_LU_ID="5391" Method="Iteration-1" RBN_LU_ID="r_n-12519" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189996147" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:33:16 UTC Mon" lemmaID="873" lu_type="singleton" name="epos.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-12519">
     <definition>van heldhaftige daden</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="epos" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874371156" POS="N" cBy="automatic" cDate="09/23/2020 15:19:31 UTC Wed" lemmaID="876" lu_type="singleton" name="novelle.n" status="Created" FN_EN_LU_ID="5407" Method="Iteration-1" RBN_LU_ID="r_n-25353" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189999459" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:33:19 UTC Mon" lemmaID="874" lu_type="singleton" name="novelle.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-25353">
     <definition>in proza dat korter is dan een roman en langer dan een kort verhaal</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="novelle" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874374346" POS="N" cBy="automatic" cDate="09/23/2020 15:19:34 UTC Wed" lemmaID="877" lu_type="singleton" name="ode.n" status="Created" FN_EN_LU_ID="5408" Method="Iteration-1" RBN_LU_ID="r_n-25499" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190002570" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:33:22 UTC Mon" lemmaID="875" lu_type="singleton" name="ode.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-25499">
     <definition>waarmee je iemand of iets prijst of eert</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="ode" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874377569" POS="N" cBy="automatic" cDate="09/23/2020 15:19:37 UTC Wed" lemmaID="878" lu_type="singleton" name="gedicht.n" status="Created" FN_EN_LU_ID="5410" Method="Iteration-1" RBN_LU_ID="r_n-14208" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190005778" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:33:25 UTC Mon" lemmaID="876" lu_type="singleton" name="gedicht.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-14208">
     <definition>die zorgvuldig is geconstrueerd, waarin de keuze en de schikking van de woorden, het ritme, evt. rijm e.d. bijdragen tot de expressieve waarde</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="gedicht" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874380862" POS="N" cBy="automatic" cDate="09/23/2020 15:19:40 UTC Wed" lemmaID="879" lu_type="singleton" name="sonnet.n" status="Created" FN_EN_LU_ID="5414" Method="Iteration-1" RBN_LU_ID="r_n-34691" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190009037" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:33:29 UTC Mon" lemmaID="877" lu_type="singleton" name="sonnet.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-34691">
     <definition>van veertien regels, dat min of meer uit twee delen bestaat: twee strofen van vier regels en twee strofen van drie regels</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="sonnet" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874383970" POS="N" cBy="automatic" cDate="09/23/2020 15:19:43 UTC Wed" lemmaID="880" lu_type="singleton" name="trilogie.n" status="Created" FN_EN_LU_ID="5419" Method="Iteration-1" RBN_LU_ID="r_n-38497" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190012276" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:33:32 UTC Mon" lemmaID="878" lu_type="singleton" name="trilogie.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-38497">
     <definition>van drie bij elkaar horende literaire producten als romans, toneelstukken maar ook als films, met meestal hetzelfde hoofdpersonage</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="trilogie" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874387155" POS="N" cBy="automatic" cDate="09/23/2020 15:19:47 UTC Wed" lemmaID="881" lu_type="singleton" name="necrologie.n" status="Created" FN_EN_LU_ID="5461" Method="Iteration-1" RBN_LU_ID="r_n-24783" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190015590" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:33:35 UTC Mon" lemmaID="879" lu_type="singleton" name="necrologie.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-24783">
     <definition>van iemand die pas overleden is, bijv. in een krant</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="necrologie" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874390342" POS="N" cBy="automatic" cDate="09/23/2020 15:19:50 UTC Wed" lemmaID="882" lu_type="singleton" name="scriptie.n" status="Created" FN_EN_LU_ID="5839" Method="Iteration-1" RBN_LU_ID="r_n-33459" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190018872" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:33:38 UTC Mon" lemmaID="880" lu_type="singleton" name="scriptie.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-33459">
     <definition>dat je voor je studie moet schrijven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="scriptie" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874393607" POS="N" cBy="manual" cDate="09/23/2020 15:19:53 UTC Wed" lemmaID="883" lu_type="singleton" name="pamflet.n" status="Created" FN_EN_LU_ID="10185" Method="Iteration-1" RBN_LU_ID="r_n-27436" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190022081" POS="N" cBy="ThomasKlein" cDate="02/01/2021 14:33:42 UTC Mon" lemmaID="881" lu_type="singleton" name="pamflet.n" provenance="manual" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-27436">
     <definition>over een actueel onderwerp ter informatie van het publiek, vaak fel van toon en tegen iets of iemand gericht</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="pamflet" order="1"/>

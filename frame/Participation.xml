@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="06/28/2004 07:32:48 PDT Mon" name="Participation" ID="1144" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Event&lt;/fen&gt; with multiple &lt;fen&gt;Participants&lt;/fen&gt; takes place. It can be presented either symmetrically with &lt;fen&gt;Participants&lt;/fen&gt; or asymmetrically, giving &lt;fen&gt;Participant_1&lt;/fen&gt; greater prominence over &lt;fen&gt;Participant_2&lt;/fen&gt;. If the &lt;fen&gt;Event&lt;/fen&gt; is engaged in intentionally, then there is typically a shared &lt;fen&gt;Purpose&lt;/fen&gt; between the &lt;fen&gt;Participants&lt;/fen&gt;. It is, however, possible that an expressed &lt;fen&gt;Purpose&lt;/fen&gt; only applies to &lt;fen&gt;Participant_1&lt;/fen&gt;.
 
@@ -107,7 +106,7 @@ first in their family to attend college.&lt;/ex&gt;&lt;/def-root&gt;</definition
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873550258" POS="N" cBy="automatic" cDate="09/23/2020 15:05:50 UTC Wed" lemmaID="630" lu_type="singleton" name="verstrengeling.n" status="Created" FN_EN_LU_ID="11725" Method="Iteration-1" RBN_LU_ID="r_n-40498" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188992022" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:16:32 UTC Mon" lemmaID="628" lu_type="singleton" name="verstrengeling.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-40498">
     <definition>waarbij twee of meer zaken met mekaar verstrengeld raken of worden, of het resultaat daarvan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="verstrengeling" order="1"/>

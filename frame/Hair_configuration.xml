@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Shw" cDate="06/07/2001 02:34:32 PDT Thu" name="Hair_configuration" ID="126" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;Temporary or permanent Styles and Configurations of Hair, as well as its inherent Nature.  Note that Attachment and Body Part will generally be incorporated in the lexical meanings.  Subregions (e.g. roots, ends) are often not specified, and sometimes incorporated (e.g. in 'bangs')
 
@@ -54,7 +53,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872880604" POS="A" cBy="automatic" cDate="09/23/2020 14:54:40 UTC Wed" lemmaID="423" lu_type="singleton" name="blond.a" status="Created" FN_EN_LU_ID="2607" Method="Iteration-1" RBN_LU_ID="r_a-9345" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188105683" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:01:45 UTC Mon" lemmaID="421" lu_type="singleton" name="blond.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9345">
     <definition>lichtgeel (vooral van haar)</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="blond" order="1"/>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="last.n" ID="1612189896300" frame="Store" frameID="1511" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-21467" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Extra-Thematic" abbrev="des" name="Descriptor"/>
+      <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="pos" name="Possessor"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="res" name="Resource"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="sup" name="Supply"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="use" name="Use"/>
+    </frame>
+  </header>
+  <definition>wat op een persoon of dier, op of in een ding geladen is</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="last" order="1"/>
+</lexUnit>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:11:51 PST Wed" name="Awareness" ID="19" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; has a piece of &lt;fen&gt;Content&lt;/fen&gt; in their model of the world.  The &lt;fen&gt;Content&lt;/fen&gt; is not necessarily present due to immediate perception, but usually, rather, due to deduction from perceivables.  In some cases, the deduction of the &lt;fen&gt;Content&lt;/fen&gt; is implicitly based on confidence in sources of information (&lt;ment&gt;believe&lt;/ment&gt;), in some cases based on logic (&lt;ment&gt;think&lt;/ment&gt;), and in other cases the source of the deduction is deprofiled (&lt;ment&gt;know&lt;/ment&gt;).
 
@@ -122,27 +121,27 @@ of the notes&lt;/fex&gt; that the clauses in issue were present.&lt;/ex&gt;&lt;/
     <relatedFrame ID="1412">Opinion</relatedFrame>
     <relatedFrame ID="141">Certainty</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600871518161" POS="N" cBy="automatic" cDate="09/23/2020 14:31:58 UTC Wed" lemmaID="39" lu_type="singleton" name="weten.n" status="Created" FN_EN_LU_ID="161" Method="Iteration-1" RBN_LU_ID="r_n-43086" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186521049" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:35:21 UTC Mon" lemmaID="39" lu_type="singleton" name="weten.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-43086">
     <definition>omtrent iets</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="weten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871521538" POS="N" cBy="manual" cDate="09/23/2020 14:32:01 UTC Wed" lemmaID="40" lu_type="singleton" name="kennis.n" status="Created" FN_EN_LU_ID="161" Method="Iteration-2_ODWN" RBN_LU_ID="r_n-19311" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186524017" POS="N" cBy="ThomasKlein" cDate="02/01/2021 13:35:24 UTC Mon" lemmaID="40" lu_type="singleton" name="kennis.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-19311">
     <definition>die je weet omdat je ze geleerd hebt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="kennis" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871524862" POS="N" cBy="automatic" cDate="09/23/2020 14:32:04 UTC Wed" lemmaID="41" lu_type="singleton" name="bagage.n" status="Created" FN_EN_LU_ID="161" Method="Iteration-2_ODWN" RBN_LU_ID="c_545213" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186526811" POS="N" cBy="Iteration-2" cDate="02/01/2021 13:35:26 UTC Mon" lemmaID="41" lu_type="singleton" name="bagage.n" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-c_545213">
     <definition>die je bij je hebt als je op reis bent</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="bagage" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871528443" POS="N" cBy="automatic" cDate="09/23/2020 14:32:08 UTC Wed" lemmaID="42" lu_type="singleton" name="onkunde.n" status="Created" FN_EN_LU_ID="10862" Method="Iteration-1" RBN_LU_ID="r_n-26102" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186529880" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:35:29 UTC Mon" lemmaID="42" lu_type="singleton" name="onkunde.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-26102">
     <definition>van het iets niet kennen, kunnen of weten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="onkunde" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871532469" POS="N" cBy="automatic" cDate="09/23/2020 14:32:12 UTC Wed" lemmaID="43" lu_type="singleton" name="onwetendheid.n" status="Created" FN_EN_LU_ID="10862" Method="Iteration-1" RBN_LU_ID="r_n-26342" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186532733" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:35:32 UTC Mon" lemmaID="43" lu_type="singleton" name="onwetendheid.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-26342">
     <definition>van het onbekend zijn met iets</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="onwetendheid" order="1"/>

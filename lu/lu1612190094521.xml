@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="vormgeving.n" ID="1612190094521" frame="Type" frameID="128" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-41729" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Cat" name="Category"/>
+      <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Item-Prop" name="Item_property"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="sub" name="Subtype"/>
+      <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Type-Prop" name="Type_property"/>
+    </frame>
+  </header>
+  <definition>in een bepaalde vorm en het resultaat daarvan</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="vormgeving" order="1"/>
+</lexUnit>

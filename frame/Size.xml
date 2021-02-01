@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="AlK" cDate="04/14/2010 11:56:26 PDT Wed" name="Size" ID="2282" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The size of an &lt;fen&gt;Entity&lt;/fen&gt; is assessed in terms of the &lt;fen&gt;Degree&lt;/fen&gt; by which it deviates from the norm. The size generally refers to the amount of three-dimensional space that is occupied by the &lt;fen&gt;Entity&lt;/fen&gt;, not primarily to its weight, density, or length, which is why it is peculiar to refer to a bullet as "large", even if it is heavy, unless it actually has larger dimensions than usual, or to a rope as "big", even if it is long, unless its other, cross-sectional dimensions are also significant.
 
@@ -64,22 +63,22 @@ The target domain of fame, by contrast, occurs in a non-productive metaphor, fou
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874080534" POS="A" cBy="manual" cDate="09/23/2020 15:14:40 UTC Wed" lemmaID="788" lu_type="singleton" name="minuscuul.a" status="Created" FN_EN_LU_ID="15774" Method="Iteration-1" RBN_LU_ID="r_a-12888" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189660292" POS="A" cBy="ThomasKlein" cDate="02/01/2021 14:27:40 UTC Mon" lemmaID="786" lu_type="singleton" name="minuscuul.a" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12888">
     <definition>zeer klein</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="minuscuul" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874083806" POS="A" cBy="automatic" cDate="09/23/2020 15:14:43 UTC Wed" lemmaID="789" lu_type="singleton" name="immens.a" status="Created" FN_EN_LU_ID="17853" Method="Iteration-1" RBN_LU_ID="r_a-11883" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189665518" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:27:45 UTC Mon" lemmaID="787" lu_type="singleton" name="immens.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-11883">
     <definition>enorm</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="immens" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874087148" POS="A" cBy="automatic" cDate="09/23/2020 15:14:47 UTC Wed" lemmaID="790" lu_type="singleton" name="lijvig.a" status="Created" FN_EN_LU_ID="17859" Method="Iteration-1" RBN_LU_ID="r_a-12215" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189669847" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:27:49 UTC Mon" lemmaID="788" lu_type="singleton" name="lijvig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12215">
     <definition>dik</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="lijvig" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874090395" POS="A" cBy="manual" cDate="09/23/2020 15:14:50 UTC Wed" lemmaID="791" lu_type="singleton" name="kolossaal.a" status="Created" FN_EN_LU_ID="17861" Method="Iteration-1" RBN_LU_ID="r_a-12485" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189673404" POS="A" cBy="ThomasKlein" cDate="02/01/2021 14:27:53 UTC Mon" lemmaID="789" lu_type="singleton" name="kolossaal.a" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-12485">
     <definition>enorm</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="kolossaal" order="1"/>

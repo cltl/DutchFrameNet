@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="08/05/2002 03:15:59 PDT Mon" name="Intoxicants" ID="390" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Intoxicant&lt;/fen&gt; is ingested in order to achieve an altered state of consciousness. A &lt;fen&gt;Type&lt;/fen&gt; or &lt;fen&gt;Descriptor&lt;/fen&gt; may be indicated as well. 
 &lt;ex&gt; We &lt;gov&gt;smoked&lt;/gov&gt; &lt;x&gt;some &lt;fex name="Descriptor"&gt;high-grade&lt;/fex&gt; &lt;fex name="Intoxicant"&gt;&lt;t&gt;marijuana&lt;/t&gt;&lt;/fex&gt;&lt;/x&gt;.&lt;/ex&gt; 
@@ -38,42 +37,42 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872935186" POS="N" cBy="automatic" cDate="09/23/2020 14:55:35 UTC Wed" lemmaID="440" lu_type="singleton" name="heroïne.n" status="Created" FN_EN_LU_ID="7034" Method="Iteration-1" RBN_LU_ID="r_n-16720" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188178485" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:02:58 UTC Mon" lemmaID="438" lu_type="singleton" name="heroïne.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-16720">
     <definition>die uit morfine gemaakt wordt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="heroïne" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872938354" POS="N" cBy="automatic" cDate="09/23/2020 14:55:38 UTC Wed" lemmaID="441" lu_type="singleton" name="cocaïne.n" status="Created" FN_EN_LU_ID="7035" Method="Iteration-1" RBN_LU_ID="r_n-9501" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188183423" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:03:03 UTC Mon" lemmaID="439" lu_type="singleton" name="cocaïne.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-9501">
     <definition>dat gemaakt wordt uit de bladeren van de cocaplant</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="cocaïne" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872941459" POS="N" cBy="automatic" cDate="09/23/2020 14:55:41 UTC Wed" lemmaID="442" lu_type="singleton" name="opium.n" status="Created" FN_EN_LU_ID="7036" Method="Iteration-1" RBN_LU_ID="r_n-26623" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188189420" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:03:09 UTC Mon" lemmaID="440" lu_type="singleton" name="opium.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-26623">
     <definition>dat van papavers wordt gemaakt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="opium" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872944596" POS="N" cBy="automatic" cDate="09/23/2020 14:55:44 UTC Wed" lemmaID="443" lu_type="singleton" name="nicotine.n" status="Created" FN_EN_LU_ID="7071" Method="Iteration-1" RBN_LU_ID="r_n-24978" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188195871" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:03:15 UTC Mon" lemmaID="441" lu_type="singleton" name="nicotine.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-24978">
     <definition>die in tabak zit</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="nicotine" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872947789" POS="N" cBy="automatic" cDate="09/23/2020 14:55:47 UTC Wed" lemmaID="444" lu_type="singleton" name="hasj.n" status="Created" FN_EN_LU_ID="7079" Method="Iteration-1" RBN_LU_ID="r_n-16398" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188202086" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:03:22 UTC Mon" lemmaID="442" lu_type="singleton" name="hasj.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-16398">
     <definition>die gemaakt is van hennepplanten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="hasj" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872950940" POS="N" cBy="automatic" cDate="09/23/2020 14:55:50 UTC Wed" lemmaID="445" lu_type="singleton" name="hasjiesj.n" status="Created" FN_EN_LU_ID="7079" Method="Iteration-1" RBN_LU_ID="r_n-16399" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188205935" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:03:25 UTC Mon" lemmaID="443" lu_type="singleton" name="hasjiesj.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-16399">
     <definition>die gemaakt is van hennepplanten</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="hasjiesj" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872953944" POS="N" cBy="automatic" cDate="09/23/2020 14:55:53 UTC Wed" lemmaID="446" lu_type="singleton" name="drug.n" status="Created" FN_EN_LU_ID="7911" Method="Iteration-1" RBN_LU_ID="r_n-11651" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188211226" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:03:31 UTC Mon" lemmaID="444" lu_type="singleton" name="drug.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-11651">
     <definition>dat je geest verdooft of bedwelmt of waardoor je dingen ziet die er in werkelijkheid niet zijn</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="drug" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872957157" POS="N" cBy="automatic" cDate="09/23/2020 14:55:57 UTC Wed" lemmaID="447" lu_type="singleton" name="sigaret.n" status="Created" FN_EN_LU_ID="17680" Method="Iteration-1" RBN_LU_ID="r_n-33736" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188215226" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:03:35 UTC Mon" lemmaID="445" lu_type="singleton" name="sigaret.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-33736">
     <definition>gesnipperde tabak in een omhulsel van speciaal papier om op te roken</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="sigaret" order="1"/>

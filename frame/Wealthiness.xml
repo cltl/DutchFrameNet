@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:30 PST Wed" name="Wealthiness" ID="85" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Person&lt;/fen&gt; or &lt;fen&gt;Institution&lt;/fen&gt; is being described in terms of their wealthiness, in other words the amount of money in their possession.
 &lt;ex&gt;&lt;fex name="Person"&gt;Jess&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;fex name="Degree"&gt;very&lt;/fex&gt; &lt;t&gt;rich&lt;/t&gt;.&lt;/ex&gt;
@@ -45,22 +44,22 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874538317" POS="A" cBy="automatic" cDate="09/23/2020 15:22:18 UTC Wed" lemmaID="927" lu_type="singleton" name="bankroet.a" status="Created" FN_EN_LU_ID="1795" Method="Iteration-1" RBN_LU_ID="r_a-9138" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190167061" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:36:07 UTC Mon" lemmaID="925" lu_type="singleton" name="bankroet.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9138">
     <definition>failliet</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="bankroet" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874541532" POS="A" cBy="automatic" cDate="09/23/2020 15:22:21 UTC Wed" lemmaID="928" lu_type="singleton" name="failliet.a" status="Created" FN_EN_LU_ID="1795" Method="Iteration-1" RBN_LU_ID="r_a-10626" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190170328" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:36:10 UTC Mon" lemmaID="926" lu_type="singleton" name="failliet.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-10626">
     <definition>bankroet</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="failliet" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874544644" POS="A" cBy="automatic" cDate="09/23/2020 15:22:24 UTC Wed" lemmaID="929" lu_type="singleton" name="blut.a" status="Created" FN_EN_LU_ID="1796" Method="Iteration-1" RBN_LU_ID="r_a-9347" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190173525" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:36:13 UTC Mon" lemmaID="927" lu_type="singleton" name="blut.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-9347">
     <definition>platzak</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="blut" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874547896" POS="N" cBy="automatic" cDate="09/23/2020 15:22:27 UTC Wed" lemmaID="930" lu_type="singleton" name="armoede.n" status="Created" FN_EN_LU_ID="10302" Method="Iteration-1" RBN_LU_ID="r_n-3932" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190176781" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:36:16 UTC Mon" lemmaID="928" lu_type="singleton" name="armoede.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-3932">
     <definition>waarin iemand verkeert die bijna niets heeft om van te leven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="armoede" order="1"/>

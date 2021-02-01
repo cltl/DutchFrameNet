@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="10/25/2002 01:28:49 PDT Fri" name="Connectors" ID="419" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The &lt;fen&gt;Connector&lt;/fen&gt; is an artifact created to affix a &lt;fen&gt;Connected_item&lt;/fen&gt; or to bind onto a &lt;fen&gt;Fixed_location&lt;/fen&gt; and is primarily so used.  A more specific &lt;fen&gt;Use&lt;/fen&gt; may also be specified.  Certain words in this frame (e.g. &lt;ment&gt;bond, chain&lt;/ment&gt; in the phrase &lt;ment&gt;in chains&lt;/ment&gt;) indicate specifically that the &lt;fen&gt;Connector&lt;/fen&gt; is being used to immobilize something.  &lt;fen&gt;Connector&lt;/fen&gt;s have a wide variety of physical forms:  long, thin, and flexible for tying (&lt;ment&gt;ropes, bonds, withies&lt;/ment&gt;); solid, with a shape corresponding to holes in the entities to be connected (&lt;ment&gt;bolts, nails, pegs&lt;/ment&gt;); and liquid (&lt;ment&gt;glues, adhesives, pastes&lt;/ment&gt;).
 &lt;ex&gt;A waterproof &lt;fex name="Connector"&gt;&lt;t&gt;adhesive&lt;/t&gt;&lt;/fex&gt; should be used for this exterior job.&lt;/ex&gt;
@@ -71,7 +70,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872378874" POS="N" cBy="automatic" cDate="09/23/2020 14:46:18 UTC Wed" lemmaID="265" lu_type="singleton" name="lijm.n" status="Created" FN_EN_LU_ID="7678" Method="Iteration-1" RBN_LU_ID="r_n-22231" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187433795" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:50:33 UTC Mon" lemmaID="265" lu_type="singleton" name="lijm.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-22231">
     <definition>waarmee men dingen aan elkaar kan plakken, lijmen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="lijm" order="1"/>

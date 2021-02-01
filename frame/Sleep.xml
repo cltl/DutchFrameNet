@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="KCo" cDate="02/05/2002 01:58:16 PST Tue" name="Sleep" ID="264" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The &lt;fen&gt;Sleeper&lt;/fen&gt; stays in an altered state of consciousness with greatly reduced external awareness.
 
@@ -50,47 +49,47 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874093641" POS="V" cBy="automatic" cDate="09/23/2020 15:14:53 UTC Wed" lemmaID="792" lu_type="singleton" name="sluimeren.v" status="Created" FN_EN_LU_ID="4815" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7224" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189676682" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:27:56 UTC Mon" lemmaID="790" lu_type="singleton" name="sluimeren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7224">
     <definition>licht slapen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="sluimeren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874096900" POS="V" cBy="automatic" cDate="09/23/2020 15:14:56 UTC Wed" lemmaID="793" lu_type="singleton" name="soezen.v" status="Created" FN_EN_LU_ID="4815" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7316" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189680079" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:28:00 UTC Mon" lemmaID="791" lu_type="singleton" name="soezen.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7316">
     <definition>met welbehagen licht slapen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="soezen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874100019" POS="V" cBy="automatic" cDate="09/23/2020 15:15:00 UTC Wed" lemmaID="794" lu_type="singleton" name="dutten.v" status="Created" FN_EN_LU_ID="4815" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-2604" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189683701" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:28:03 UTC Mon" lemmaID="792" lu_type="singleton" name="dutten.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2604">
     <definition>een kort (middag)slaapje doen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="dutten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874103353" POS="V" cBy="manual" cDate="09/23/2020 15:15:03 UTC Wed" lemmaID="795" lu_type="singleton" name="tukken.v" status="Created" FN_EN_LU_ID="4815" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-8175" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189687170" POS="V" cBy="ThomasKlein" cDate="02/01/2021 14:28:07 UTC Mon" lemmaID="793" lu_type="singleton" name="tukken.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-8175">
     <definition>een tukje, dutje doen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="tukken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874106519" POS="V" cBy="automatic" cDate="09/23/2020 15:15:06 UTC Wed" lemmaID="796" lu_type="singleton" name="snurken.v" status="Created" FN_EN_LU_ID="4825" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7314" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189690505" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:28:10 UTC Mon" lemmaID="794" lu_type="singleton" name="snurken.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7314">
     <definition>slapen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="snurken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874109765" POS="V" cBy="automatic" cDate="09/23/2020 15:15:09 UTC Wed" lemmaID="797" lu_type="singleton" name="meuren.v" status="Created" FN_EN_LU_ID="4825" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-4676" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189694078" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:28:14 UTC Mon" lemmaID="795" lu_type="singleton" name="meuren.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-4676">
     <definition>slapen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="meuren" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874112848" POS="V" cBy="automatic" cDate="09/23/2020 15:15:12 UTC Wed" lemmaID="798" lu_type="singleton" name="pitten.v" status="Created" FN_EN_LU_ID="4825" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6274" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189697394" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:28:17 UTC Mon" lemmaID="796" lu_type="singleton" name="pitten.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6274">
     <definition>in slaap zijn</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="pitten" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874116012" POS="V" cBy="manual" cDate="09/23/2020 15:15:16 UTC Wed" lemmaID="777" lu_type="singleton" name="slapen.v" status="Created" FN_EN_LU_ID="4825" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-7182" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189701862" POS="V" cBy="ThomasKlein" cDate="02/01/2021 14:28:21 UTC Mon" lemmaID="775" lu_type="singleton" name="slapen.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7182">
     <definition>in slaap zijn</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="slapen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874119247" POS="V" cBy="automatic" cDate="09/23/2020 15:15:19 UTC Wed" lemmaID="799" lu_type="singleton" name="rusten.v" status="Created" FN_EN_LU_ID="4825" Method="Iteration-2_ODWN" RBN_LU_ID="r_v-6887" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189705772" POS="V" cBy="Iteration-2" cDate="02/01/2021 14:28:25 UTC Mon" lemmaID="797" lu_type="singleton" name="rusten.v" provenance="ODWN" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-6887">
     <definition>rust houden door te slapen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="rusten" order="1"/>

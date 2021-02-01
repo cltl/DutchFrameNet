@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="waarom.n" ID="1612189380041" frame="Reason" frameID="514" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-42142" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_affairs"/>
+    </frame>
+  </header>
+  <definition>die je ertoe brengt om iets te doen</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="waarom" order="1"/>
+</lexUnit>

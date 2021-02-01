@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="03/04/2002 06:05:53 PST Mon" name="Giving_birth" ID="281" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Mother&lt;/fen&gt; and &lt;fen&gt;Father&lt;/fen&gt; produce a &lt;fen&gt;Child&lt;/fen&gt; or an &lt;fen&gt;Egg&lt;/fen&gt;.
 &lt;ex&gt;&lt;fex name="Mother"&gt;Betty&lt;/fex&gt; &lt;t&gt;bore&lt;/t&gt; &lt;fex name="Father"&gt;Gerry&lt;/fex&gt; &lt;fex name="Child"&gt;three intelligent daughters&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
@@ -83,12 +82,12 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872845900" POS="V" cBy="automatic" cDate="09/23/2020 14:54:05 UTC Wed" lemmaID="412" lu_type="singleton" name="veroorzaken.v" status="Created" FN_EN_LU_ID="5155" Method="Iteration-1" RBN_LU_ID="r_v-9188" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188065572" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:01:05 UTC Mon" lemmaID="410" lu_type="singleton" name="veroorzaken.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9188">
     <definition>de oorzaak zijn van dingen die volgen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="veroorzaken" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600872849196" POS="V" cBy="automatic" cDate="09/23/2020 14:54:09 UTC Wed" lemmaID="413" lu_type="singleton" name="genereren.v" status="Created" FN_EN_LU_ID="11951" Method="Iteration-1" RBN_LU_ID="r_v-2914" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188069360" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:01:09 UTC Mon" lemmaID="411" lu_type="singleton" name="genereren.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2914">
     <definition>voortbrengen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="genereren" order="1"/>

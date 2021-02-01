@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="Tess" cDate="08/20/2002 03:27:45 PDT Tue" name="Praiseworthiness" ID="399" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The &lt;fen&gt;Behavior&lt;/fen&gt; of an &lt;fen&gt;Evaluee&lt;/fen&gt; is described in terms of the reaction it deserves from somebody, such as praise, blame or admiration.
 
@@ -42,7 +41,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873732964" POS="A" cBy="automatic" cDate="09/23/2020 15:08:52 UTC Wed" lemmaID="686" lu_type="singleton" name="verachtelijk.a" status="Created" FN_EN_LU_ID="8533" Method="Iteration-1" RBN_LU_ID="r_a-15927" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189204757" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:20:04 UTC Mon" lemmaID="684" lu_type="singleton" name="verachtelijk.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15927">
     <definition>vol verachting</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="verachtelijk" order="1"/>

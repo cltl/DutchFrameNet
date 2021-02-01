@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:17 PST Wed" name="Self_motion" ID="64" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;The &lt;fen&gt;Self_mover&lt;/fen&gt;, a living being, moves under its own direction along a &lt;fen&gt;Path&lt;/fen&gt;. Alternatively or in addition to &lt;fen&gt;Path&lt;/fen&gt;, an &lt;fen&gt;Area&lt;/fen&gt;, &lt;fen&gt;Direction&lt;/fen&gt;, &lt;fen&gt;Source&lt;/fen&gt;, or &lt;fen&gt;Goal&lt;/fen&gt; for the movement may be mentioned. 
 
@@ -165,32 +164,32 @@ Some particles imply the existence of a &lt;fen&gt;Goal&lt;/fen&gt; which is und
   <frameRelation type="See also">
     <relatedFrame ID="7">Motion</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600873981544" POS="V" cBy="automatic" cDate="09/23/2020 15:13:01 UTC Wed" lemmaID="760" lu_type="singleton" name="dollen.v" status="Created" FN_EN_LU_ID="1173" Method="Iteration-1" RBN_LU_ID="r_v-2289" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189532865" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:25:32 UTC Mon" lemmaID="758" lu_type="singleton" name="dollen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2289">
     <definition>uitgelaten doen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="dollen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873985092" POS="V" cBy="automatic" cDate="09/23/2020 15:13:05 UTC Wed" lemmaID="761" lu_type="singleton" name="dwalen.v" status="Created" FN_EN_LU_ID="1205" Method="Iteration-1" RBN_LU_ID="r_v-2607" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189536731" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:25:36 UTC Mon" lemmaID="759" lu_type="singleton" name="dwalen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-2607">
     <definition>geen duidelijke richting hebben, de richting kwijt zijn</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="dwalen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873988960" POS="V" cBy="automatic" cDate="09/23/2020 15:13:08 UTC Wed" lemmaID="762" lu_type="singleton" name="snellen.v" status="Created" FN_EN_LU_ID="1215" Method="Iteration-1" RBN_LU_ID="r_v-7278" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189540547" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:25:40 UTC Mon" lemmaID="760" lu_type="singleton" name="snellen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7278">
     <definition>zich vlug en haastig voortbewegen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="snellen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873992199" POS="V" cBy="automatic" cDate="09/23/2020 15:13:12 UTC Wed" lemmaID="763" lu_type="singleton" name="hollen.v" status="Created" FN_EN_LU_ID="1215" Method="Iteration-1" RBN_LU_ID="r_v-3243" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189544361" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:25:44 UTC Mon" lemmaID="761" lu_type="singleton" name="hollen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-3243">
     <definition>zeer snel lopen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="hollen" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873995552" POS="N" cBy="automatic" cDate="09/23/2020 15:13:15 UTC Wed" lemmaID="764" lu_type="singleton" name="wandeling.n" status="Created" FN_EN_LU_ID="1239" Method="Iteration-1" RBN_LU_ID="r_n-42260" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189552030" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:25:52 UTC Mon" lemmaID="762" lu_type="singleton" name="wandeling.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-42260">
     <definition>dat je wandelt</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="wandeling" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600873999107" POS="V" cBy="automatic" cDate="09/23/2020 15:13:19 UTC Wed" lemmaID="765" lu_type="singleton" name="waden.v" status="Created" FN_EN_LU_ID="1260" Method="Iteration-1" RBN_LU_ID="r_v-9896" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189560290" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:26:00 UTC Mon" lemmaID="763" lu_type="singleton" name="waden.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-9896">
     <definition>door ondiep water of een andere vloeistof lopen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="waden" order="1"/>

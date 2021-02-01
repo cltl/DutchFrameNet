@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="HCB" cDate="07/18/2001 12:07:15 PDT Wed" name="Building_subparts" ID="188" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;This frame includes words that name subparts of buildings that can be occupied by people.
 
@@ -44,22 +43,22 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600871759837" POS="N" cBy="automatic" cDate="09/23/2020 14:35:59 UTC Wed" lemmaID="103" lu_type="singleton" name="catacombe.n" status="Created" FN_EN_LU_ID="3171" Method="Iteration-1" RBN_LU_ID="r_n-9131" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186705447" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:38:25 UTC Mon" lemmaID="103" lu_type="singleton" name="catacombe.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-9131">
     <definition>onder de grond met spelonken, gewelven en groeven</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="catacombe" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871763338" POS="N" cBy="automatic" cDate="09/23/2020 14:36:03 UTC Wed" lemmaID="104" lu_type="singleton" name="portiek.n" status="Created" FN_EN_LU_ID="3200" Method="Iteration-1" RBN_LU_ID="r_n-29275" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186708647" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:38:28 UTC Mon" lemmaID="104" lu_type="singleton" name="portiek.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-29275">
     <definition>voor de ingang van een gebouw</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="portiek" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871767744" POS="N" cBy="automatic" cDate="09/23/2020 14:36:07 UTC Wed" lemmaID="105" lu_type="singleton" name="veranda.n" status="Created" FN_EN_LU_ID="3200" Method="Iteration-1" RBN_LU_ID="r_n-39854" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186711643" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:38:31 UTC Mon" lemmaID="105" lu_type="singleton" name="veranda.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-39854">
     <definition>aan de voor- of achterkant van een huis</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="veranda" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600871771988" POS="N" cBy="automatic" cDate="09/23/2020 14:36:11 UTC Wed" lemmaID="106" lu_type="singleton" name="appartement.n" status="Created" FN_EN_LU_ID="3231" Method="Iteration-1" RBN_LU_ID="r_n-3745" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612186714694" POS="N" cBy="Iteration-1" cDate="02/01/2021 13:38:34 UTC Mon" lemmaID="106" lu_type="singleton" name="appartement.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-3745">
     <definition>in een groot huis of gebouw</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="appartement" order="1"/>

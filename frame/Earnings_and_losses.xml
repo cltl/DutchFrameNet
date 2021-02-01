@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="MJE" cDate="02/12/2007 06:32:35 PST Mon" name="Earnings_and_losses" ID="1873" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;An &lt;fen&gt;Earner&lt;/fen&gt; receives &lt;fen&gt;Earnings&lt;/fen&gt; by providing &lt;fen&gt;Goods&lt;/fen&gt; to a &lt;fen&gt;Buyer&lt;/fen&gt;; providing the &lt;fen&gt;Goods&lt;/fen&gt; also generally entails a cost, which may or may not be included in the consideration.  This frame emphasizes the effect on the &lt;fen&gt;Earner&lt;/fen&gt; and often generalizes across an indefinite number of transactions with various parties.  Some of the LUs (e.g. &lt;ment&gt;earn.v&lt;/ment&gt;) primarily refer to the to the &lt;fen&gt;Earnings&lt;/fen&gt; without reference to cost, others to the amount the &lt;fen&gt;Earnings&lt;/fen&gt; differ from the cost, emphasizing either a net loss (e.g. &lt;ment&gt;loss.n&lt;/ment&gt;) or net gain (e.g. &lt;ment&gt;net.n&lt;/ment&gt;).
 
@@ -77,7 +76,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872506451" POS="N" cBy="manual" cDate="09/23/2020 14:48:26 UTC Wed" lemmaID="306" lu_type="singleton" name="inkomen.n" status="Created" FN_EN_LU_ID="13735" Method="Iteration-1" RBN_LU_ID="r_n-17924" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612187598763" POS="N" cBy="ThomasKlein" cDate="02/01/2021 13:53:18 UTC Mon" lemmaID="306" lu_type="singleton" name="inkomen.n" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-17924">
     <definition>dat iemand krijgt als opbrengst van vermogen, onderneming of arbeid</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="inkomen" order="1"/>

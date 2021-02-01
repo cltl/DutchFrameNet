@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ChW" cDate="02/07/2001 04:12:03 PST Wed" name="Request" ID="41" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame a &lt;fen&gt;Speaker&lt;/fen&gt; asks an &lt;fen&gt;Addressee&lt;/fen&gt; for something, or to carry out some action.
 
@@ -101,7 +100,7 @@
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600873909968" POS="V" cBy="manual" cDate="09/23/2020 15:11:49 UTC Wed" lemmaID="738" lu_type="singleton" name="smeken.v" status="Created" FN_EN_LU_ID="641" Method="Iteration-1" RBN_LU_ID="r_v-7247" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189432481" POS="V" cBy="ThomasKlein" cDate="02/01/2021 14:23:52 UTC Mon" lemmaID="736" lu_type="singleton" name="smeken.v" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-7247">
     <definition>nederig en dringend vragen</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="smeken" order="1"/>

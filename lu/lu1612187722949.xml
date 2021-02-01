@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lexUnit xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:skos="http://www.w3.org/2004/02/skos/core#" status="Created" POS="N" name="hofhouding.n" ID="1612187722949" frame="Entourage" frameID="2591" totalAnnotated="0" xsi:schemaLocation="../schema/lexUnit.xsd" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-16937" lu_type="singleton">
+  <header>
+    <frame>
+      <FE fgColor="FFFFFF" bgColor="00BFFF" type="Extra-Thematic" abbrev="Agg" name="Aggregate_property"/>
+      <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="att" name="Attended_person"/>
+      <FE fgColor="000000" bgColor="EEE8AA" type="Extra-Thematic" abbrev="Con" name="Container_possessor"/>
+      <FE fgColor="FFFFFF" bgColor="008000" type="Extra-Thematic" abbrev="dom" name="Domain"/>
+      <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="ent" name="Entourage"/>
+      <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Ind" name="Individuals"/>
+      <FE fgColor="FFFFFF" bgColor="A52A2A" type="Extra-Thematic" abbrev="nam" name="Name"/>
+    </frame>
+  </header>
+  <definition>aan het hof van een vorst</definition>
+  <lexeme POS="N" breakBefore="false" headword="false" name="hofhouding" order="1"/>
+</lexUnit>

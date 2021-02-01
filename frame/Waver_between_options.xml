@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="JKR" cDate="07/19/2005 09:03:49 PDT Tue" name="Waver_between_options" ID="1578" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; faces a choice on some &lt;fen&gt;Issue&lt;/fen&gt;. They have several &lt;fen&gt;Options&lt;/fen&gt;  available but keep changing their mind between &lt;fen&gt;Option_1&lt;/fen&gt; and &lt;fen&gt;Option_2&lt;/fen&gt;. The &lt;fen&gt;Cognizer&lt;/fen&gt; may in fact act on their choice at some point but they need not; the &lt;fen&gt;Options&lt;/fen&gt; can simply be considered for some time with one being favored for a while and then the other.
 
@@ -105,7 +104,7 @@ although the court &lt;fex name="Time"&gt;later&lt;/fex&gt; &lt;t&gt;waffled&lt;
   <frameRelation type="Is Inchoative of"/>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600874535091" POS="V" cBy="automatic" cDate="09/23/2020 15:22:15 UTC Wed" lemmaID="926" lu_type="singleton" name="zwammen.v" status="Created" FN_EN_LU_ID="12507" Method="Iteration-1" RBN_LU_ID="r_v-10326" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612190163762" POS="V" cBy="Iteration-1" cDate="02/01/2021 14:36:03 UTC Mon" lemmaID="924" lu_type="singleton" name="zwammen.v" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_v-10326">
     <definition>onzinnige taal uitslaan</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="V" breakBefore="false" headword="false" name="zwammen" order="1"/>

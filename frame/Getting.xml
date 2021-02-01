@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="07/16/2001 03:22:06 PDT Mon" name="Getting" ID="179" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;A &lt;fen&gt;Recipient&lt;/fen&gt; starts off without the &lt;fen&gt;Theme&lt;/fen&gt; in their possession, and then comes to possess it.  Although the &lt;fen&gt;Source&lt;/fen&gt; from which the &lt;fen&gt;Theme&lt;/fen&gt; came is logically necessary, the &lt;fen&gt;Recipient&lt;/fen&gt; and its changing relationship to the &lt;fen&gt;Theme&lt;/fen&gt; is profiled.
 
@@ -85,7 +84,7 @@
   </frameRelation>
   <frameRelation type="Is Causative of"/>
   <frameRelation type="See also"/>
-  <lexUnit ID="1600872836381" POS="N" cBy="automatic" cDate="09/23/2020 14:53:56 UTC Wed" lemmaID="409" lu_type="singleton" name="aanschaf.n" status="Created" FN_EN_LU_ID="12712" Method="Iteration-1" RBN_LU_ID="r_n-2301" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612188054201" POS="N" cBy="Iteration-1" cDate="02/01/2021 14:00:54 UTC Mon" lemmaID="407" lu_type="singleton" name="aanschaf.n" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_n-2301">
     <definition>van een voorwerp of product</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="N" breakBefore="false" headword="false" name="aanschaf" order="1"/>

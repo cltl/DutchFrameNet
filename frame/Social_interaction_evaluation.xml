@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
 <frame xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" cBy="ACW" cDate="07/09/2002 01:52:13 PDT Tue" name="Social_interaction_evaluation" ID="372" xsi:schemaLocation="../schema/frame.xsd">
   <definition>&lt;def-root&gt;In this frame an &lt;fen&gt;Evaluee&lt;/fen&gt; is judged by a (usually implicit) &lt;fen&gt;Judge&lt;/fen&gt; to be of a certain character based on her or his &lt;fen&gt;Behavior&lt;/fen&gt; towards other human beings; a specific &lt;fen&gt;Affected_party&lt;/fen&gt; may be overtly mentioned along with the &lt;fen&gt;Degree&lt;/fen&gt; to which the &lt;fen&gt;Evaluee&lt;/fen&gt; behaves appropriately towards others. The&lt;fen&gt;Behavior&lt;/fen&gt; alone may be mentioned with the understanding that these behaviors characterize a property of the unmentioned &lt;fen&gt;Evaluee&lt;/fen&gt;. The &lt;fen&gt;Evaluee&lt;/fen&gt;'s &lt;fen&gt;Behavior&lt;/fen&gt; may be in the context of a &lt;fen&gt;Topic&lt;/fen&gt;.
 
@@ -87,32 +86,32 @@
   <frameRelation type="See also">
     <relatedFrame ID="74">Sociability</relatedFrame>
   </frameRelation>
-  <lexUnit ID="1600874151441" POS="A" cBy="automatic" cDate="09/23/2020 15:15:51 UTC Wed" lemmaID="809" lu_type="singleton" name="zorgzaam.a" status="Created" FN_EN_LU_ID="6548" Method="Iteration-1" RBN_LU_ID="r_a-16447" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189744025" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:29:04 UTC Mon" lemmaID="807" lu_type="singleton" name="zorgzaam.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16447">
     <definition>vol zorg</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="zorgzaam" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874154634" POS="A" cBy="manual" cDate="09/23/2020 15:15:54 UTC Wed" lemmaID="810" lu_type="singleton" name="voorkomend.a" status="Created" FN_EN_LU_ID="6548" Method="Iteration-1" RBN_LU_ID="r_a-16122" RBN_matching_relation="equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189747838" POS="A" cBy="ThomasKlein" cDate="02/01/2021 14:29:07 UTC Mon" lemmaID="808" lu_type="singleton" name="voorkomend.a" provenance="manual" status="Created" skos:exactMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16122">
     <definition>hoffelijk</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="voorkomend" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874157845" POS="A" cBy="automatic" cDate="09/23/2020 15:15:57 UTC Wed" lemmaID="811" lu_type="singleton" name="wreed.a" status="Created" FN_EN_LU_ID="6553" Method="Iteration-1" RBN_LU_ID="r_a-15783" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189751520" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:29:11 UTC Mon" lemmaID="809" lu_type="singleton" name="wreed.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-15783">
     <definition>hardvochtig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="wreed" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874161164" POS="A" cBy="automatic" cDate="09/23/2020 15:16:01 UTC Wed" lemmaID="812" lu_type="singleton" name="rancuneus.a" status="Created" FN_EN_LU_ID="6628" Method="Iteration-1" RBN_LU_ID="r_a-14512" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189755396" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:29:15 UTC Mon" lemmaID="810" lu_type="singleton" name="rancuneus.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-14512">
     <definition>wrokkig</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="rancuneus" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874164262" POS="A" cBy="automatic" cDate="09/23/2020 15:16:04 UTC Wed" lemmaID="813" lu_type="singleton" name="onheus.a" status="Created" FN_EN_LU_ID="6628" Method="Iteration-1" RBN_LU_ID="r_a-13567" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189759086" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:29:19 UTC Mon" lemmaID="811" lu_type="singleton" name="onheus.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-13567">
     <definition>niet voorkomend</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="onheus" order="1"/>
   </lexUnit>
-  <lexUnit ID="1600874167458" POS="A" cBy="automatic" cDate="09/23/2020 15:16:07 UTC Wed" lemmaID="814" lu_type="singleton" name="zachtaardig.a" status="Created" FN_EN_LU_ID="13830" Method="Iteration-1" RBN_LU_ID="r_a-16382" RBN_matching_relation="near_equivalence">
+  <lexUnit xmlns:skos="http://www.w3.org/2004/02/skos/core#" ID="1612189762822" POS="A" cBy="Iteration-1" cDate="02/01/2021 14:29:22 UTC Mon" lemmaID="812" lu_type="singleton" name="zachtaardig.a" provenance="automatic" status="Created" skos:closeMatch="http://rdf.cltl.nl/rbn/lexicon-1.0-lu-r_a-16382">
     <definition>vriendelijk</definition>
     <sentenceCount annotated="0" total="0"/>
     <lexeme POS="A" breakBefore="false" headword="false" name="zachtaardig" order="1"/>
