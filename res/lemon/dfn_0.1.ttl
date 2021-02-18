@@ -989,13 +989,13 @@ dfn:order a <http://www.w3.org/2002/07/owl#Thing> ;
     rdfs:comment "the order of the lexeme in the lemma (starting from 1)" ;
     rdfs:seeAlso <http://purl.org/olia/ubyCat.owl#position> .
 
-<http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#SoftwareAgent#Iteration-1> a prov:SoftwareAgent ;
+<http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#Agent#Iteration-1> a prov:Agent ;
     rdfs:label "Iteration-1"@nld .
 
-<http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#SoftwareAgent#Iteration-2> a prov:SoftwareAgent ;
+<http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#Agent#Iteration-2> a prov:Agent ;
     rdfs:label "Iteration-2"@nld .
 
-<http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#SoftwareAgent#ThomasKlein> a prov:SoftwareAgent ;
+<http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#Agent#ThomasKlein> a prov:Agent ;
     rdfs:label "ThomasKlein"@nld .
 
 <http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1-le-1612186421319#Component1> a lemon:Component ;
@@ -21529,15 +21529,15 @@ dfn:phrasal a <http://www.w3.org/2002/07/owl#Thing> ;
 <http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#Provenance#ThomasKlein-manual> a prov:Activity ;
     prov:endedAtTime "2021-02-01T02:35:16"^^xsd:dateTime ;
     prov:startedAtTime "2021-02-01T01:33:16"^^xsd:dateTime ;
-    prov:wasAssociatedWith <http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#SoftwareAgent#ThomasKlein> .
+    prov:wasAssociatedWith <http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#Agent#ThomasKlein> .
 
 <http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#Provenance#Iteration-2-ODWN> a prov:Activity ;
     prov:endedAtTime "2021-02-01T02:36:16"^^xsd:dateTime ;
     prov:startedAtTime "2021-02-01T01:33:16"^^xsd:dateTime ;
-    prov:wasAssociatedWith <http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#SoftwareAgent#Iteration-2> .
+    prov:wasAssociatedWith <http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#Agent#Iteration-2> .
 
 <http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#Provenance#Iteration-1-automatic> a prov:Activity ;
     prov:endedAtTime "2021-02-01T02:36:16"^^xsd:dateTime ;
     prov:startedAtTime "2021-02-01T01:33:16"^^xsd:dateTime ;
-    prov:wasAssociatedWith <http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#SoftwareAgent#Iteration-1> .
+    prov:wasAssociatedWith <http://rdf.cltl.nl/dfn/fn_nld-lexicon-0.1#Agent#Iteration-1> .
 
