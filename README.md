@@ -25,7 +25,8 @@ If you have edited the lexicon, you can update this repository in the following 
 * create a release on GitHub and update GitHub Pages
 
 ## Authors
-* **Marten Postma** (m.c.postma@vu.nl)
+* **Levi Remijnse** (l.remijnse@vu.nl)
+* **Marten Postma** 
 
 ## License
 This project is licensed under the CC-BY 3.0 license - see the [LICENSE.md](LICENSE.md) file for details
